@@ -14,3 +14,10 @@ HTML 实例
  
 </body>
 </html>
+
+
+<a href="https://www.runoob.com/">访问菜鸟教程</a>
+
+<img src="pulpit.jpg" alt="Pulpit rock" width="304" height="228">
+
+
