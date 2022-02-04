@@ -24,3 +24,4 @@ HTML 实例
 <img src="pulpit.jpg" alt="Pulpit rock" width="304" height="228">
 
 
+<p>这个<br>段落<br>演示了分行的效果</p>
