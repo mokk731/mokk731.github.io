@@ -2,6 +2,8 @@
 
 
 
+
+
 ### VB
 
 #### [msvbvm50.exe](https://mokk731.github.io/ziprar/win-VB-VC/msvbvm50.exe)
@@ -16,19 +18,17 @@
 
 
 
+
+
 ### VC
 
-#### [VC++2008sp1.zip](https://mokk731.github.io/ziprar/win-VB-VC/VC++2008sp1.zip)
-
-
-
-
-#### [VC++2008sp1.zip](https://mokk731.github.io/ziprar/win-VB-VC/VC++2008sp1.zip)
-
+#### [vc2005.rar](https://mokk731.github.io/ziprar/win-VB-VC/vc2005.rar)
 
 
 #### [VC++2008sp1.zip](https://mokk731.github.io/ziprar/win-VB-VC/VC++2008sp1.zip)
 
 
+#### [vc2010.exe](https://mokk731.github.io/ziprar/win-VB-VC/vc2010.exe)
 
-#### [VC++2008sp1.zip](https://mokk731.github.io/ziprar/win-VB-VC/VC++2008sp1.zip)
+
+
