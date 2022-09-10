@@ -1,0 +1,36 @@
+ linuxmint-ssh自启动脚本
+
+ 
+
+ 
+
+linuxmint-ssh安装配置:   https://www.cnblogs.com/yebinghuai/p/13403192.html
+
+ 
+
+linuxmint-ssh自启动脚本:  https://www.cnblogs.com/yebinghuai/p/13411168.html
+
+ 
+
+ 
+
+linuxmint-ssh自启动脚本
+
+1、创建rc.local文档,内容如下：
+
+#!/bin/bash
+#auto run ssh when system startup
+sudo /etc/init.d/ssh start<< EOF
+root-passworld
+EOF
+exit 0
+
+2、把rc.local文档复制到/etc/目录下
+
+3、赋权限:
+
+sudo chmod 777 rc.local
+
+4、cd到etc目录下,把脚本添加到启动脚本
+
+sudo update-rc.d rc.local defaults 100

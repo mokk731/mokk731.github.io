@@ -1,0 +1,93 @@
+https://zhuanlan.zhihu.com/p/448288830
+
+如何在Linux系统中安装Docker？
+
+在这篇博客中，我将引导您通过简单的步骤完成安装 Docker 的过程，安装docker只是小菜一碟，你只需要运行几条命令就大功告成了！
+
+本文用的Linux为Ubuntu，让我们直接开始！
+
+第 1 步：要在 Ubuntu 机器上安装 docker，首先让我们更新软件包。
+
+sudo apt-get update
+
+输入密码:
+
+第 2 步：现在在安装 docker 之前，我需要安装推荐的软件包：
+
+sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
+
+按“y”继续:
+
+在此之后，我们完成了先决条件！
+
+现在，让我们继续安装 Docker。
+
+第 3 步： 输入以下命令安装 docker 引擎：
+
+sudo apt-get install docker-engine
+
+有时它会再次询问密码，按回车键，安装将开始。
+
+这样一做，你安装docker的任务就完成了！
+
+第 4 步：启动 docker 服务：
+
+sudo service docker start
+
+它说你的工作已经在运行，docker已经安装成功。
+
+第 5 步：现在只是为了验证 docker 是否成功运行，让我向您展示如何从 docker hub 拉取 CentOS 映像并运行 CentOS 容器，为此，只需输入以下命令：
+
+sudo docker pull centos
+
+首先，它将检查 CentOS 映像的本地注册表。如果在那里没有找到，那么它将转到 docker hub 并拉取镜像：
+
+这样我们就成功地从 docker hub 拉取了一个 centOS 镜像，运行 CentOS 容器：
+
+sudo docker run -it centos
+
+正如你在上面的截图中看到的，我们现在在 CentOS 容器中！
+发布于 2021-12-21 23:20
+
+=================================================
+software-properties-common  
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -  
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"   
+$ sudo apt-get update  
+$ sudo apt-get install docker-ce  
+$ sudo systemctl enable docker  
+$ sudo systemctl start docker
+
+
+
+鎺㈠涓�涓婸ortainer
+docker pull portainer/portainer:latest
+docker volume create portainer_data
+docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+
+
+-------------------------
+树莓派上 Docker 的安装和使用
+https://shumeipai.nxez.com/2019/05/20/how-to-install-docker-on-your-raspberry-pi.html
+脚本安装是最推荐的方式，只需要输入下面的命令，等待自动安装好即可。
+1
+	
+sudo curl -sSL https://get.docker.com | sh
+
+如果采用这一步安装成功，可直接跳到下文的图形界面安装那里继续阅读。
+
+------------------------
+https://zhuanlan.zhihu.com/p/107061904
+如何在树莓派上面跑Docker - 文章末尾有红利
+
+下面开始安装docker
+
+# 下载官方安装脚本
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+#执行脚本
+sudo sh get-docker.sh
+
+
+
+
