@@ -30,6 +30,13 @@
 #### [ftpsrv.rar](https://mokk731.github.io/ziprar/win-tools/ftpsrv.rar)
 
 
+#### [putty-0.73-installer.msi](https://mokk731.github.io/ziprar/win-tools/putty-0.73-installer.msi)
+
+
+#### [LeapFTP V3.1.0.50 汉化版.rar](https://mokk731.github.io/ziprar/win-tools/LeapFTP V3.1.0.50 汉化版.rar)
+
+
+
 #### [notepad++.8.4.2.portable.zip](https://mokk731.github.io/ziprar/win-tools/notepad++.8.4.2.portable.zip)
 
 
@@ -37,3 +44,7 @@
 
 
 #### [迅雷 v5.8 绝版稳定版.zip](https://mokk731.github.io/ziprar/win-tools/迅雷 v5.8 绝版稳定版.zip)
+
+
+
+
