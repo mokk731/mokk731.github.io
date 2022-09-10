@@ -1,0 +1,347 @@
+ 树莓派基于ARM的微型电脑主板  Raspberry Pi
+https://www.raspberrypi.org/software/operating-systems/
+http://www.raspbian.org/
+
+http://www.shumeipai.net/resource.php?mod=category&catid=2
+2019-07-10-raspbian-buster-lite.zip
+2019-07-10-raspbian-buster.zip
+
+
+BroadcomBCM2711
+
+
+Putty  用SSH登入
+树莓派 VNC Viewer 远程桌面
+
+
+lede跟openwrt合并了
+完整安装一个需要HTTPS支持的LuCI:
+
+koolshare.cn
+
+win32diskiamger把镜像写入到sd卡上
+
+使用 Etcher 给 SD 卡安装树莓派系统
+
+zerotier 用来内网穿透
+
+Raspberry Pi操作系统  
+
+
+树莓派开启SSH的N种方法
+1在命令行输入：sudo /etc/init.d/ssh start
+2将SD卡连接到电脑上并打开，boot盘直接新建“SSH”文件
+3.在命令行输入：sudo raspi-config    -- 5 Interfacing Options
+
+
+
+
+
+请输入用户名：pi，密码：raspberry 
+
+sudo raspi-config
+
+vncserver
+
+安全关机重启
+sudo halt
+
+sudo reboot
+
+
+
+版本
+uname -a
+cat /etc/issue
+
+
+
+温度
+cat /sys/class/thermal/thermal_zone0/temp
+
+
+-----------------------------------------------------
+开箱上手教程
+http://shumeipai.nxez.com/hot-explorer#beginner
+
+最常用的树莓派 Linux 命令及说明
+http://shumeipai.nxez.com/2019/02/14/the-most-common-raspberry-pi-commands-and-what-they-do.html
+
+
+54树莓派VNC无法显示桌面
+https://www.cnblogs.com/kekeoutlook/p/12272705.html
+
+https://downloads.openwrt.org/
+
+
+
+编辑 /etc/apt/sources.list 文件，删除原文件所有内容，用以下内容取代：
+
+#
+sudo nano /etc/apt/sources.list
+
+
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+
+or
+
+deb http://mirrors.aliyun.com/raspbian/raspbian/ buster main contrib non-free rpi 
+
+deb-src http://mirrors.aliyun.com/raspbian/raspbian/ buster main contrib non-free rpi
+
+
+#
+sudo nano /etc/apt/sources.list.d/raspi.list
+
+deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+
+
+
+
+
+
+sudo apt-get update
+sudo apt-get upgrade
+
+
+清理系统
+
+sudo apt-get clean      #自动清理apt-cache
+sudo apt-get autoclean  #清理部分不再使用的软件包
+sudo apt-get autoremove #清除所有未使用的依赖项
+---------------------------
+
+http://192.168.10.10:8181
+
+http://192.168.10.10:9000
+
+
+
+
+如何在树莓派上面跑Docker  下载用docker打包好的qBittorrent，并且在docker上面运行它
+https://zhuanlan.zhihu.com/p/107061904
+username: admin password: adminadmin
+
+
+
+树莓派上 Docker 的安装和使用
+https://shumeipai.nxez.com/2019/05/20/how-to-install-docker-on-your-raspberry-pi.html
+
+树莓派（以及各种派）使用指南
+https://zhuanlan.zhihu.com/p/77585297
+
+
+树莓派挂载硬盘
+https://zhuanlan.zhihu.com/p/137711099
+
+利用树莓派和闲置硬盘，搭建起家中的个人网盘
+https://zhuanlan.zhihu.com/p/64055553
+
+树莓派：硬盘休眠   安装和配置 hd-idle
+https://blog.csdn.net/weixin_33725515/article/details/94573745
+
+---------------------------------------------------------------------
+树莓派4b+OMV 5家庭NAS搭建跳坑记录
+https://zhuanlan.zhihu.com/p/263836823
+
+OpenMediaVault(OMV)
+
+在你的电脑登陆上面给的IP，就会出这个界面，填入用户名和密码，这就是OMV的webUI， 选择语言：简体中文
+用户名：admin
+密　码：openmediavault
+
+
+更新
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo rm -f /etc/systemd/network/99-default.link
+sudo reboot
+
+
+
+直接执行OMV的安装脚本会失败，连接不上服务器，因此需要改hosts，/etc/hosts  增加一行：
+
+151.101.56.133 raw.githubusercontent.com
+
+
+ssh执行OMV安装脚本：
+
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+
+
+
+
+
+树莓派 Learning 002 装机后的必要操作 --- 04 添加软件源 之 添加公钥 --- 解决“由于没有公钥，无法验证下列签名”问题...
+https://blog.csdn.net/weixin_30487701/article/details/95549910?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.control
+
+gpg --keyserver pgpkeys.mit.edu --recv-keys Pubkey_After_8
+gpg --export --armor Pubkey_After_8 | sudo apt-key add -
+
+331F7F50
+
+B7D453EC
+
+-----------------------------------------
+
+
+
+
+
+
+
+查看挂载的磁盘或者逻辑卷
+
+df -h 
+
+
+
+/dev/sda1 ========    /srv/dev-disk-by-label-ext3dataU
+                     /srv/dev-disk-by-label-ext4data
+***
+/dev/sda1           /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd
+
+
+---------------------------------------------------------------
+docker pull linuxserver/resilio-sync
+https://hub.docker.com/r/linuxserver/resilio-sync
+
+
+----------------------------------------------
+#resilio-sync
+
+/mnt/sda1/resilio-sync/resiliodownloads
+
+/mnt/sda1/resilio-sync/resilioconfig
+
+docker run -d \
+  --name=resilio-sync \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -e UMASK_SET=022 \
+  -e WEBUI_PORT=8888 \
+  -p 55555:55555 \
+  -p 55555:55555/udp \
+  -p 8888:8888 \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resilioconfig:/config \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resiliodownloads:/downloads \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resilio-sync:/sync \
+  --restart unless-stopped \
+  linuxserver/resilio-sync:latest
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+--------------------------------------
+#qbittorrent
+
+docker pull linuxserver/qbittorrent 
+
+/mnt/sda1/btdownloads
+
+/mnt/sda1/btconfig
+
+
+
+sudo docker run -d \
+       --name=qbittorrent \
+       -e PUID=1000 \
+       -e PGID=1000 \
+       -e TZ=Asia/Shanghai \
+       -e UMASK_SET=022 \
+       -e WEBUI_PORT=8181 \
+       -p 16881:16881 \
+       -p 16881:16881/udp \
+       -p 8181:8181 \
+       -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btconfig:/config \
+       -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btdownloads:/downloads \
+       --restart unless-stopped \
+       linuxserver/qbittorrent:arm32v7-14.3.8.99202109100310-7422-338d9a084ubuntu20.04.1-ls154
+
+------------------------------------------
+
+
+Docker-Zerotier
+https://www.cnblogs.com/sicko/p/10997230.html
+
+bltavares/zerotier:1.6.2-2
+
+
+docker run \
+--name=zerotier-one \
+--device=/dev/net/tun \
+--net=host \
+--cap-add=NET_ADMIN \
+--cap-add=SYS_ADMIN \
+-d -v /var/lib/zerotier-one:/var/lib/zerotier-one \
+--restart unless-stopped \
+bltavares/zerotier:1.6.2-2
+
+
+
+加入网络  进入docker
+
+zerotier-cli join 17d709436c2aa99f
+
+检查网络
+
+zerotier-cli  info
+
+zerotier-cli listnetworks
+
+离开网络
+zerotier-cli leave Network ID
+
+
+Networks ID: 17d709436c2aa99f
+
+
+
+-----------------------------------------
+https://hub.docker.com/r/easypi/shadowsocks-libev-arm
+
+
+
+Get docker-compose.yml, then change SERVER_ADDR and PASSWORD
+
+
+client-arm:
+  image: easypi/shadowsocks-libev-arm:3.3.5
+  ports:
+    - "8500:8500"
+  environment:
+    - SERVER_ADDR=185.108.106.72
+    - SERVER_PORT=33992
+    - METHOD=aes-256-gcm
+    - PASSWORD=8n6pwAcrrv2pj6tFY2p3TbQ6
+    - LOCAL_PORT=8500
+  restart: always
+
+
+  # On arm client (192.168.1.254)
+  $ docker-compose up -d client-arm
+
+-----------------------------------------
+docker run
+
+docker stats --no-stream
+
+-m 8M 限制最多占用8MB内存,如果不支持,请修改/etc/default/grub下的GRUB_CMDLINE_LINUX,添加cgroup_enable=memory swapaccount=1,然后update-grub,最后重启.
+GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
+
+
+
+默认情况下，容器内存和 swap 的使用是没有限制的（相当于两个参数都设为 -1）。
+
+如果在启动容器是只指定 -m 而不指定 --memory-swap，那么 --memory-swap 默认为 -m 的两倍。比如下面容器最多使用 200MB 的物理内存和 200MB 的 swap：
+

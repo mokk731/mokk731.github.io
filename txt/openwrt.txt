@@ -1,0 +1,21 @@
+docker
+固件版本	OpenWrt R9.12.31 / LuCI Master (git-19.338.43082-9e87e69)
+内核版本	4.19.75-v7l+
+
+
+20200107
+固件版本 OpenWrt SNAPSHOT r11895-fba8083540 / LuCI Master git-20.004.64129-d60a1a1
+内核版本 4.19.93
+
+
+
+20200501  1.4  Lean's
+固件版本	OpenWrt R20.4.8 / LuCI Master (git-20.117.60969-420c61a)
+内核版本	4.19.115
+
+
+20200501    Offical
+固件版本
+OpenWrt SNAPSHOT r0-ad27c13 / LuCI openwrt-19.07 branch git-20.115.52331-39a8290
+内核版本
+5.4.36
