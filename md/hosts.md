@@ -1,0 +1,53 @@
+# win cmd --- ipconfig /flushdns  
+# linux---- sudo /etc/init.d/dns-clean start  
+# openwrt--- /etc/init.d/dnsmasq restart
+
+
+# update 20220909
+########################################################################
+
+# Good
+
+# GitHub Start
+140.82.112.3 gist.github.com
+140.82.112.3 github.com
+140.82.112.3 www.github.com
+185.199.108.133 raw.githubusercontent.com
+
+
+
+
+# debian omv
+146.75.114.132 httpredir.debian.org
+
+##########################################
+
+# Bad
+
+# Wikipedia Start
+208.80.154.224 www.wikipedia.org
+208.80.154.224 login.wikimedia.org
+208.80.154.224 wuu.wikipedia.org
+208.80.154.224 zh-yue.wikipedia.org
+208.80.154.224 zh.wikipedia.org
+208.80.154.224 zh.m.wikipedia.org
+
+
+
+# DuckDuckGo Start
+13.210.167.213 duckduckgo.com
+13.210.167.213 www.duckduckgo.com
+13.210.167.213 ac.duckduckgo.com
+13.210.167.213 start.duckduckgo.com
+13.210.167.213 help.duckduckgo.com
+23.21.193.169 icons.duckduckgo.com
+23.21.193.169 proxy.duckduckgo.com
+23.21.193.169 images.duckduckgo.com
+23.21.193.169 improving.duckduckgo.com
+23.21.193.169 external-content.duckduckgo.com
+
+
+###############################################
+
+# 2345
+127.0.0.1 www.2345.com
