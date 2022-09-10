@@ -1,0 +1,108 @@
+简体中文 - 企业版 LTSC 2019（3月更新 - 17763.316）
+
+企业版 LTSC 2019 (1)
+架构: x64
+文件: cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
+SHA-1: 24B59706D5EDED392423936C82BA5A83596B50CC
+cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso (4.17 GB)
+
+
+ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
+
+
+
+
+==========================
+lopatkin俄大神
+http://www.emtrek.org/viewforum.php?f=264
+http://109.195.3.148/tracker.php?rid=728
+
+---------------------------------------------------------
+
+2016.12.4俄大神更新的Microsoft Windows 10 Enterprise 2016 LTSB 14393.479 x86-x64 ZH-CN PIP
+
+https://pan.baidu.com/s/1Rd0FomjWNHpfdSdOB-vRuA
+
+
+
+
+===========================
+
+Microsoft Windows 10 1809 Enterprise LTSC 2019 17763.437 x86-x64 RU-RU PIP
+
+
+大神俄语企业版版，看教程自己汉化
+
+很简单：安装俄文系统---下载中文语言包--安装字体库--设置中文语言---区域设置成中文，重启系统---中文系统。
+
+
+有些还是俄文是没有安装那个软件的字体库造成的，启动程序时系统找不到中文语言字体，就会出现俄文，字体库只要安装全就不会出现中文。如果你有原版的中文系统最好，把那个中文包复制过去就行了。
+
+种子：
+https://pan.baidu.com/s/1lOjZIZe5SSUifBoAXMHl-w 提取码: ig6p
+
+
+附：中文字体
+.com/s/1v5513XA88OcIgdqEUac3bQ 提取码：2rpu
+
+
+种子下载工具：
+.com/s/1HDtB5hAGTWBv99b295BJ3Q 提取码: yttf
+
+CES_X64FREV_RU-RU_PIP.isoCRC32: 7DC85D6BMD5: A5883AD889A6022E37B0C89455E98833SHA-1: C657AF3E2A9FD004755B38F136548A9CFF144BB9CES_X86FREV_RU-RU_PIP.isoCRC32: 35ABBAB7MD5: 065CAF33D138662C00510EE8041CE74CSHA-1: F767363B43AE19AF42DB3741E9FD825E3E09502D
+
+---------------------------------------------------------------------
+
+Microsoft Windows 10 1607 Enterprise LTSB 2016 x86-x64 ZH-CN 2x1
+
+
+
+
+CES_X64FREV_ZH-CN_2x1.iso
+CRC32: 0DAC255B
+MD5: FEF3448AA3FDAA17175439EDCE5D21FD
+SHA-1: 860B6A844FB2E2C568C4F6DC801EE23E1FB3A2CD
+
+
+
+
+
+1607_ENTERPRISE-LTSB-2016_X86-X64_ZH-CN_2x1
+
+    CES_X64FREV_ZH-CN_2x1.iso 2.39 GB (2573664256)
+    CES_X86FREV_ZH-CN_2x1.iso 1.69 GB (1814790144)
+
+https://pan.baidu.com/s/1gfTmDhD
+magnet:?xt=urn:btih:DFF3D9C6555C7526F1F8E535A8F17EF8E5C86473
+
+===================================================
+
+
+
+=============================================
+
+文件名: 【不忘初心】Win10_X64_ltsc2019_17763.914[纯净精简版](2020.1.1) .iso
+文件大小: 2558492672 字节
+MD5: 2F6451411AA23D47E09D31ED8A45A79F
+SHA1: 8DC2B537726B8FF32E61CFE9125EA40959C95E60
+CRC32: 9621BF98
+
+http://bbs.pcbeta.com/viewthread-1803552-1-1.html
+
+
+-----------------------------------------------------
+https://bbs.pcbeta.com/viewthread-1803552-1-1.html
+ 【不忘初心】 Win10 LTSC2019 (17763.2145) X64 [纯净精简版] [2.28G](2021.8.30)
+ltsc继续更新，本次还是使用MSDN windows10 _ltsc_2019 17763.316 作为母盘精简，集成补丁最终版本为17763.2145，可正常更新补丁，本次主要集成了补丁
+文件名: V:\【不忘初心】Windows10_LTSC2019_17763.2145_X64[纯净精简版][2.28G](2021.8.30).iso
+文件大小: 2454749184 字节
+MD5: 0ADD7FD0298C0D71AF7B4399FC3C1382
+SHA1: C35E0117DDC371795A6EF29C5041F3F3B579C1C4
+CRC32: CE438590
+百度云盘
+链接：https://pan.baidu.com/s/1LkUfwRz_-OPRd004sxo-3A
+提取码：mggp
+
+天翼云盘：
+链接：https://cloud.189.cn/t/j6fYbeARrUj2
+提取码：4zn7
