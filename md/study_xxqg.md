@@ -1,6 +1,8 @@
+## TechXueXi
+
 https://github.com/TechXueXi/TechXueXi
 
-echXueXi，中文名 科技强国。 是一个提供多种 免费开源 科技强国 工具 的组织。
+TechXueXi，中文名 科技强国。 是一个提供多种 免费开源 科技强国 工具 的组织。
 
 这里聚集了一群热爱科技强国，学习强国的同志。
 
@@ -9,7 +11,7 @@ python 辅助： https://github.com/TechXueXi/TechXueXi
 浏览器插件： https://github.com/TechXueXi/techxuexi-js
 
 
-程序特性
+#### 程序特性
 
 全平台支持： win，macos，linux，vps，Raspbian-pi等各种平台
 请使用带图形界面的环境,推荐windows。尽量使用自用电脑，
@@ -26,7 +28,7 @@ python 辅助： https://github.com/TechXueXi/TechXueXi
 
 ------------------------------------------------------------------
 
-浏览器辅助脚本
+#### 浏览器辅助脚本
 
 请优先使用 不学习何以强国 ，它可以全自动，以后维护工作以它为主， 强国学习 需要手动进入答题。
 
@@ -36,7 +38,7 @@ python 辅助： https://github.com/TechXueXi/TechXueXi
 #### [techxuexi-js下载](https://mokk731.github.io/ziprar/win-tools/techxuexi-js-20220206.zip)
 ------------------------------------------------------------------
 
-Docker运行
+#### Docker运行
 
 Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 
@@ -45,6 +47,7 @@ Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 
 ============================================================================================================
 
+## study_xxqg
 
 https://github.com/johlanse/study_xxqg
 
