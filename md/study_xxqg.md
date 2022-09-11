@@ -1,4 +1,4 @@
-## TechXueXi
+## [TechXueXi](https://github.com/TechXueXi/TechXueXi)
 
 https://github.com/TechXueXi/TechXueXi
 
@@ -47,7 +47,7 @@ Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 
 ============================================================================================================
 
-## study_xxqg
+## [study_xxqg](https://github.com/johlanse/study_xxqg)
 
 https://github.com/johlanse/study_xxqg
 
