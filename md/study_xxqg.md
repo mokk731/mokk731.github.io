@@ -33,7 +33,7 @@ python 辅助： https://github.com/TechXueXi/TechXueXi
 装个浏览器插件 tampermonkey （可以从这里下载 https://github.com/TechXueXi/Tampermonkey ，网上也很多教程），点击插件里添加按钮，去掉编辑框里原来的代码，把 不学习何以强国 js 脚本复制粘贴进编辑框保存。开启这个脚本，然后进入网页强国 www.xuexi.cn 登录，刷新登录网页，左上角有启动按钮。
 
 
-#### [techxuexi-js](https://mokk731.github.io/ziprar/win-tools/techxuexi-js-20220206.zip)
+#### [techxuexi-js下载](https://mokk731.github.io/ziprar/win-tools/techxuexi-js-20220206.zip)
 ------------------------------------------------------------------
 
 Docker运行
