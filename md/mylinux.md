@@ -117,6 +117,7 @@ sudo docker volume create portainer_data
 
 sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 
+---------------------------------------------------------------------------------------
 
 ## [LinuxMint 如何修改开机默认启动项为windows](https://jingyan.baidu.com/article/e9fb46e1333eb77520f7664e.html)
 
@@ -142,4 +143,8 @@ GRUB_DEFAULT=0
 
 sudo update-grub
 
+---------------------------------------------------------------------------------------
+
 ## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
+
+---------------------------------------------------------------------------------------
