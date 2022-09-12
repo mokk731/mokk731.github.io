@@ -25,7 +25,7 @@
 
 
 
-[Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
+[使用NTLite精简Windows10](https://mokk731.github.io/txt/使用NTLite精简Windows10.txt)
 
 
 [Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
