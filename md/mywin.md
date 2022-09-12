@@ -18,7 +18,7 @@
 
 
 
-[Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
+[windows10如何使用Samba](https://mokk731.github.io/txt/windows10如何使用Samba.txt)
 
 
 [Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
