@@ -5,7 +5,6 @@
 LinuxMint 发行版是一款基于Ubuntu的易用性好，特别适合入门者使用的一款Linux发行版，相比于Ubuntu，界面和操作更友好。
 
 本教程主要讲解了在新安装完LinuxMint 19.3 后必做的10件事，可以让你的LinuxMint系统更好用。
-#1：更改软件源
 
 LinuxMint 19.3系统安装完成后，
 
@@ -63,15 +62,16 @@ sudo apt-get install deluge-torrent  #torrent客户端
 
 sudo apt-get install plank
 
-
-
 按住Ctrl键，鼠标右击plank上的任意图标，在弹出来的菜单中选择首选项，可以对plank进行配置。
+
 8：基础开发环境
 
 java环境安装可以参看「如何在 Ubuntu 18.04 上安装 Java」。
 
 安装 maven
+
 sudo apt-get install maven
+
 #安装 NodeJS 、MySQL、MYSQL Workbench、git、redis、mongodb、python3、ipython3 等
 sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm python3 ipython3
 
