@@ -21,7 +21,7 @@
 [windows10如何使用Samba](https://mokk731.github.io/txt/windows10如何使用Samba.txt)
 
 
-[如何彻底关闭windows10自动更新，禁用Windows Update](https://mokk731.github.io/txt/如何彻底关闭windows10自动更新，禁用Windows Update.txt)
+[如何彻底关闭windows10自动更新，禁用Windows Update](https://mokk731.github.io/txt/如何彻底关闭windows10自动更新，禁用WindowsUpdate.txt)
 
 
 
