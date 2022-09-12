@@ -67,7 +67,7 @@ sudo apt-get install plank
 
 java环境安装可以参看「如何在 Ubuntu 18.04 上安装 Java」。
 
-# 安装 maven
+安装 maven
 sudo apt-get install maven
 #安装 NodeJS 、MySQL、MYSQL Workbench、git、redis、mongodb、python3、ipython3 等
 sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm python3 ipython3
@@ -85,3 +85,7 @@ sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm p
 sudo apt-get clean      #自动清理apt-cache
 sudo apt-get autoclean  #清理部分不再使用的软件包
 sudo apt-get autoremove #清除所有未使用的依赖项
+
+------------------------------------------------------------------------------
+
+
