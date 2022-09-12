@@ -6,7 +6,7 @@ LinuxMint 发行版是一款基于Ubuntu的易用性好，特别适合入门者�
 
 LinuxMint 19.3系统安装完成后，
 
-第一件事情就是修改系统的软件源。因为LinuxMint默认的软件源是美国，在国内速度比较慢，修改为国内的软件源后可以加快系统更新速度。
+#1：修改系统的软件源。因为LinuxMint默认的软件源是美国，在国内速度比较慢，修改为国内的软件源后可以加快系统更新速度。
 
 可以通过系统自带的软件源管理进行修改，如下图所示：
 
@@ -50,19 +50,7 @@ sudo apt-get install unace p7zip-rar sharutils rar arj lunzip lzip #rar和其它
 sudo apt-get install uget #下载管理器
 sudo apt-get install deluge-torrent  #torrent客户端
 
-网易云音乐客户端
 
-wget http://d1.music.126.net/dmusic/netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
-sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
-sudo apt-get install inkscape #图形设计软件
-sudo apt-get install shutter  #截图工具
-
-WPS 办公套件
-
-wget https://wdl1.cache.wps.cn/wps/download/ep/Linux2019/8865/wps-office_11.1.0.8865_amd64.deb
-sudo dpkg -i wps-office_11.1.0.8865_amd64.deb
-sudo apt-get install filezilla. #ftp,sftp客户端
-sudo apt-get install gpick  #取色工具
 
 #7：系统主题美化
 
