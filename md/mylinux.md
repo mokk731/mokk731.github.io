@@ -113,6 +113,28 @@ sudo docker volume create portainer_data
 sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 
 
-## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
+## [LinuxMint 如何修改开机默认启动项为windows](https://jingyan.baidu.com/article/e9fb46e1333eb77520f7664e.html)
+
+1,快捷键CTRL+ALT+T
+
+打开命令行窗口
+
+输入命令：
+
+sudo xed /etc/default/grub
+
+回车输入密码
+
+
+2,在如下的界面我们看到
+
+GRUB_DEFAULT=0
+
+默认启动项排序以0开始，第几个为windows我们就设置为几就可以了
+
+
+3,最后我们运行命令更新grub
+
+sudo update-grub
 
 ## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
