@@ -1,4 +1,9 @@
 
+## [LinuxMint 发行版下载](https://www.linuxmint.com/download_all.php)
+
+
+---------------------------------------------------------------------------------------
+
 ## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
 
 
