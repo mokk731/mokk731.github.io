@@ -92,3 +92,22 @@ sudo apt-get autoremove #清除所有未使用的依赖项
 ------------------------------------------------------------------------------
 
 
+## [如何在Linux系统中安装Docker？](https://zhuanlan.zhihu.com/p/448288830)
+
+## [树莓派上 Docker 的安装和使用](https://shumeipai.nxez.com/2019/05/20/how-to-install-docker-on-your-raspberry-pi.html)
+
+sudo curl -sSL https://get.docker.com | sh
+
+如果采用这一步安装成功，可直接跳到下文的图形界面安装那里继续阅读。
+
+#下载 Docker 图形化界面 portainer
+sudo docker pull portainer/portainer
+#创建 portainer 容器
+sudo docker volume create portainer_data
+#运行 portainer
+sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+
+
+## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
+
+## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
