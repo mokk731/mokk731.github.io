@@ -51,7 +51,7 @@
 #### [Dism++10.1.zip](https://mokk731.github.io/ziprar/win-tools/Dism++10.1.zip)
 
 
-#### [Windows Update Blocker 1.7(禁止WIN10更新).rar](https://mokk731.github.io/ziprar/WindowsUpdateBlocker1.7禁止WIN10更新.rar)
+#### [Windows Update Blocker 1.7(禁止WIN10更新).rar](https://mokk731.github.io/ziprar/win-tools/WindowsUpdateBlocker1.7禁止WIN10更新.rar)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
