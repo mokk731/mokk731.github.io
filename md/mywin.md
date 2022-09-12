@@ -1,5 +1,5 @@
 
-## win
+## Win OS
 
 
 #### [Win10 LTSB 2016 俄罗斯lopatkin大神 中文精简版](https://mokk731.github.io/BT-torrent/[emtrek.org]1607_ENTERPRISE-LTSB-2016_X86-X64_ZH-CN_2x1.torrent)
