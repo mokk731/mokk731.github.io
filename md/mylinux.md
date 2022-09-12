@@ -101,10 +101,15 @@ sudo curl -sSL https://get.docker.com | sh
 如果采用这一步安装成功，可直接跳到下文的图形界面安装那里继续阅读。
 
 #下载 Docker 图形化界面 portainer
+
 sudo docker pull portainer/portainer
+
 #创建 portainer 容器
+
 sudo docker volume create portainer_data
+
 #运行 portainer
+
 sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 
 
