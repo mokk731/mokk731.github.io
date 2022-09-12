@@ -1,4 +1,7 @@
 
+## [安装完 LinuxMint 19.3 后必做的10件事](https://zhuanlan.zhihu.com/p/96916200)
+
+
 LinuxMint 发行版是一款基于Ubuntu的易用性好，特别适合入门者使用的一款Linux发行版，相比于Ubuntu，界面和操作更友好。
 
 本教程主要讲解了在新安装完LinuxMint 19.3 后必做的10件事，可以让你的LinuxMint系统更好用。
