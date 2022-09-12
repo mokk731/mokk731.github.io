@@ -1,17 +1,20 @@
-�ְ��ֽ���ʹ��NTLite����Windows10_1909ԭ��ϵͳ
+使用NTLite精简Windows10
+
+
+手把手教你使用NTLite精简Windows10_1909原版系统
 http://www.360doc.com/content/20/0511/12/261866_911544804.shtml
 
 
 
-��ô����Win10����棿ʹ��NTLite���򲻵�10GB��Win10����̳�
+怎么制作Win10精简版？使用NTLite精简不到10GB的Win10精简教程
 http://www.winwin7.com/JC/20071.html
 
 
 
 
 https://zhuanlan.zhihu.com/p/429924114
-��Ҫ��windows������+ CPUռ���ʱ�����˲��ɵ�LTSC
+你要的windows：精简+ CPU占用率暴降！瞬间干掉LTSC
 
 
 https://zhuanlan.zhihu.com/p/58357117
-ʹ�� NTLite ���� Windows 10 �İ�װ���
+使用 NTLite 精简 Windows 10 的安装组件
