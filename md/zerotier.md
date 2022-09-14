@@ -19,15 +19,47 @@ docker pull bltavares/zerotier:1.6.2-2
 
 --------------------------------
 
-docker run --device=/dev/net/tun \
-    --net=host \
-    --cap-add=NET_ADMIN \
-    --cap-add=SYS_ADMIN \
-    -v /var/lib/zerotier-one:/var/lib/zerotier-one \
-    -n zerotier-one \
-    -d bltavares/zerotier
+docker run --name myzerotier --rm --cap-add NET_ADMIN --device /dev/net/tun zerotier/zerotier:latest 
 
-----------------------------------
+abcdefdeadbeef00
+
+
+docker run \
+  -d \
+  --restart unless-stopped \
+  --name zerotier-one \
+  --device /dev/net/tun \
+  --net host \
+  --cap-add NET_ADMIN \
+  --cap-add SYS_ADMIN \
+  -v /var/lib/zerotier-one:/var/lib/zerotier-one \
+  henrist/zerotier-one
+
+
+
+
+docker run --device=/dev/net/tun \
+--name zerotier-one \
+--net=host \
+--restart=always \
+--cap-add=NET_ADMIN \
+--cap-add=SYS_ADMIN \
+-v /var/lib/zerotier-one:/var/lib/zerotier-one \
+bltavares/zerotier:latest
+
+
+
+
+Show status of the service:
+
+docker exec zerotier-one zerotier-cli status
+
+Join a specific network:
+
+docker exec zerotier-one zerotier-cli join NETWORK-ID
+
+--------------------------------
+
 
 https://zhuanlan.zhihu.com/p/386597193
 
