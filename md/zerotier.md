@@ -17,4 +17,4 @@ https://hub.docker.com/r/zerotier/zerotier/tags
 docker pull zerotier/zerotier:1.10.1
 
 
-
+docker run --name myzerotier --rm --cap-add NET_ADMIN --device /dev/net/tun zerotier/zerotier:latest
