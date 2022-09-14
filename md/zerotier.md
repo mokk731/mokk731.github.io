@@ -12,9 +12,41 @@ E8820s  192.168.192.1
 
 docker
 
-https://hub.docker.com/r/zerotier/zerotier/tags
+https://hub.docker.com/r/bltavares/zerotier/tags
 
-docker pull zerotier/zerotier:1.10.1
+docker pull bltavares/zerotier:1.8.4
 
 
-docker run --name myzerotier --rm --cap-add NET_ADMIN --device /dev/net/tun zerotier/zerotier:latest
+--------------------------------
+
+docker run --device=/dev/net/tun \
+    --net=host \
+    --cap-add=NET_ADMIN \
+    --cap-add=SYS_ADMIN \
+    -v /var/lib/zerotier-one:/var/lib/zerotier-one \
+    -n zerotier-one \
+    -d bltavares/zerotier
+
+----------------------------------
+
+https://zhuanlan.zhihu.com/p/386597193
+【N1小钢炮·一】安装docker版zerotier
+
+***
+
+docker run --device=/dev/net/tun \
+--name zerotier-one \
+--net=host \
+--restart=always \
+--cap-add=NET_ADMIN \
+--cap-add=SYS_ADMIN \
+-v /var/lib/zerotier-one:/var/lib/zerotier-one \
+bltavares/zerotier:latest
+
+
+加入zerotier网络
+
+docker exec zerotier-one zerotier-cli join [网络ID]
+
+
+
