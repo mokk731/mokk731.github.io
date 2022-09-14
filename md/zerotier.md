@@ -14,7 +14,7 @@ docker
 
 https://hub.docker.com/r/bltavares/zerotier/tags
 
-docker pull bltavares/zerotier:1.8.4
+docker pull bltavares/zerotier:1.6.2-2
 
 
 --------------------------------
@@ -42,7 +42,7 @@ docker run -d \
  --cap-add=NET_ADMIN \
  --cap-add=SYS_ADMIN \
  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/zerotier-one:/var/lib/zerotier-one \
-   bltavares/zerotier:1.8.4
+   bltavares/zerotier:1.6.2-2
 
 
 加入zerotier网络
@@ -71,5 +71,7 @@ docker run \
 --restart unless-stopped \
 bltavares/zerotier:1.6.2-2
 
+
+1.6.5     1.6.6    1.8.4    不正常 ，只有 1.6.2-2 正常.
 
 
