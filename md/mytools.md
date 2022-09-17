@@ -53,7 +53,7 @@
 
 #### [Windows Update Blocker 1.7(禁止WIN10更新).rar](https://mokk731.github.io/ziprar/win-tools/WindowsUpdateBlocker1.7禁止WIN10更新.rar)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [adguard_firefox-4.1.22.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_firefox-4.1.22.xpi)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
