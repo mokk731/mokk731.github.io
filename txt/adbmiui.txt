@@ -1,0 +1,228 @@
+https://adbshell.com/
+
+下载ADB Kits
+
+ADB 全称 Android Debug Bridge（Android 调试桥），
+https://developer.android.com/studio/command-line/adb?hl=zh-cn
+是一个通用命令行工具，可以与模拟器实例或连接的Android 设备进行通信。
+
+----------------------------------------------
+
+输入 
+adb devices
+
+.\adb devices
+
+ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提示成 .\adb.exe ，下面所有的adb打完之后记得都要按一下tab键。
+
+
+我们首先需要执行一条命令，进入交互模式。
+
+.\adb shell
+
+
+
+输入.\adb shell pm list packages >alllist.txt，会在你的当前目录下出现alllist.txt文件，里面有你安装的程序包名。
+
+删除系统预装软件的指令为 adb shell pm uninstall --user 0 +软件包名
+
+如果你不想删除应用，可以使用如下命令冻结，效果差不多，冻结的应用可以再解冻：
+adb shell pm disable --user 0 应用包名
+
+
+-------------------------------------------------
+
+pm uninstall --user 0 com.miui.systemAdSolution  （小米系统广告解决方案，必删）
+pm uninstall --user 0 com.miui.analytics  （小米广告分析，必删）
+
+
+---------------------------------
+
+.\adb.exe shell 
+
+
+
+pm uninstall --user 0 com.miui.screenrecorder  （屏幕录制）
+pm uninstall --user 0 com.android.cellbroadcastreceiver  （小米广播）
+pm uninstall --user 0 com.milink.service  （米连服务)   投屏服务
+
+pm uninstall --user 0 com.xiaomi.gamecenter  （小米游戏中心）
+pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service    (小米游戏服务插件)
+pm uninstall --user 0 com.miui.virtualsim  （小米虚拟器）全球上网
+pm uninstall --user 0 com.miui.hybrid  （混合器) 快应用服务框架
+
+
+pm uninstall --user 0 com.miui.bugreport    （bug 反馈）
+pm uninstall --user 0 com.miui.miservice  （服务与反馈）
+pm uninstall --user 0 com.miui.klo.bugreport  （KLO bug 反馈）
+
+pm uninstall --user 0 com.android.email
+pm uninstall --user 0 com.miui.touchassistant   （悬浮球）
+
+pm uninstall --user 0 com.miui.translation.youdao  （有道翻译）
+pm uninstall --user 0 com.miui.translation.kingsoft  （金山翻译）
+
+
+
+-------------------------
+
+可留  NFC卡
+pm uninstall --user 0 com.xiaomi.payment     （小米支付）
+pm uninstall --user 0 com.mipay.wallet       （小米钱包）
+pm uninstall --user 0 com.xiaomi.pass  （小米卡包）
+
+
+
+
+
+
+
+
+
+=========================================================================================
+
+-----------------------------------------------------------------------------------------
+
+
+
+（测试删除后能正常开机使用）
+adb shell pm uninstall --user 0 com.miui.systemAdSolution  （小米系统广告解决方案，必删）
+adb shell pm uninstall --user 0 com.miui.analytics  （小米广告分析，必删）
+adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service  （小米游戏中心服务）
+adb shell pm uninstall --user 0 com.xiaomi.gamecenter  （小米游戏中心）
+adb shell pm uninstall --user 0 com.sohu.inputmethod.sogou.xiaomi  （搜狗输入法）
+adb shell pm uninstall --user 0 com.baidu.input_mi （百度输入法小米版）
+adb shell pm uninstall --user 0 com.miui.player  （小米音乐）
+adb shell pm uninstall --user 0 com.miui.video  （小米视频）
+adb shell pm uninstall --user 0 com.miui.notes  （小米便签）
+adb shell pm uninstall --user 0 com.miui.translation.youdao  （有道翻译）
+adb shell pm uninstall --user 0 com.miui.translation.kingsoft  （金山翻译）
+adb shell pm uninstall --user 0 com.android.email  （邮件）
+adb shell pm uninstall --user 0 com.xiaomi.scanner  （小米扫描）
+adb shell pm uninstall --user 0 com.miui.hybrid  （混合器）
+adb shell pm uninstall --user 0 com.miui.bugreport  （bug 反馈）
+adb shell pm uninstall --user 0 com.milink.service  （米连服务）
+adb shell pm uninstall --user 0 com.android.browser  （浏览器）
+adb shell pm uninstall --user 0 com.miui.gallery  （相册）
+adb shell pm uninstall --user 0 com.miui.yellowpage  （黄页）
+adb shell pm uninstall --user 0 com.xiaomi.midrop  （小米快传）
+adb shell pm uninstall --user 0 com.miui.virtualsim  （小米虚拟器）
+adb shell pm uninstall --user 0 com.xiaomi.payment  （小米支付）
+adb shell pm uninstall --user 0 com.mipay.wallet  （小米钱包）
+adb shell pm uninstall --user 0 com.android.soundrecorder  （录音机）
+adb shell pm uninstall --user 0 com.miui.screenrecorder  （屏幕录制）
+adb shell pm uninstall --user 0 com.android.wallpaper  （壁纸）
+adb shell pm uninstall --user 0 com.miui.voiceassist  （语音助手）
+adb shell pm uninstall --user 0 com.miui.fm  （收音机）
+adb shell pm uninstall --user 0 com.miui.touchassistant  （悬浮球）
+adb shell pm uninstall --user 0 com.android.cellbroadcastreceiver  （小米广播）
+adb shell pm uninstall --user 0 com.xiaomi.mitunes  （小米助手）
+adb shell pm uninstall --user 0 com.xiaomi.pass  （小米卡包）
+adb shell pm uninstall --user 0 com.android.thememanager  （个性主题管理）
+adb shell pm uninstall --user 0 com.android.wallpaper  （动态壁纸）
+adb shell pm uninstall --user 0 com.android.wallpaper.livepicker  （动态壁纸获取）
+adb shell pm uninstall --user 0 com.miui.klo.bugreport  （KLO bug 反馈）
+
+前面两个是 MIUI 系统支撑广告及精准化推送的应用，应第一时间删除，删除后不会出现无法开机的情况。这样 MIUI 系统的广告就会少很多——没有验证是否完全屏蔽。
+
+
+
+
+下面提供一些 MIUI 国际版（欧版 miui.eu）应用包名（欧版可以随便删）：
+
+com.google.android.googlequicksearchbox （Google）
+com.miui.miservice （服务与反馈）
+com.mi.health （健康）
+com.mi.globalbrowser （国际版浏览器）
+com.miui.huanji （小米换机）
+com.miui.newmidrive （小米云盘）
+com.miui.bugreport （用户反馈）
+com.miui.personalassistant （智能助理）
+com.android.hotwordenrollment.xgoogle （谷歌助理1）
+com.android.hotwordenrollment.okgoogle （谷歌助理2）
+com.xiaomi.mirecycle （小米回收）
+com.miui.videoplayer （小米视频国际版）
+com.google.android.projection.gearhead （Google Auto/Google 汽车）
+com.google.android.gms.location.history  （Google 地理位置历史记录）
+com.google.ar.lens （Google 智能（虚拟）摄像头）
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------
+使用ADB不root删除小米MIUI系统自带应用
+
+https://fengooge.blogspot.com/2019/03/taking-ADB-to-uninstall-system-applications-in-MIUI-without-root.html
+
+彻底卸载华为预装软件
+https://zhuanlan.zhihu.com/p/107371855
+
+
+手把手教你使用ADB卸载手机内置App软件
+https://zhuanlan.zhihu.com/p/138374707
+
+
+免root删除华为手机系统自带应用
+https://zhuanlan.zhihu.com/p/114065260
+
+ADB 非常全的操作命令
+https://www.jianshu.com/p/b85c9c53c1a0
+
+从Android手机中取出已安装的app包，导出apk
+https://www.jianshu.com/p/2ff633361605
+
+
+services.jar在MIUI里还是有点小故事的，其实MIUI6之前可以自己直接改刷机包直接删除小米自带的app，替换成自己的喜欢的第三方app，做到极度精简，到了miui7某一个版本后，广告就铺天盖地的来了（MIUI7 的广告是真的多，刚开始还不能关），那可把论坛里的人恶心坏了，后面services.jar加的那几句代码是当时最恶心的，无他，当时应用市场，浏览器，音乐，安全中心这四个的广告是不能关闭的，更新包刚出来的第一天全论坛都在喷小米想钱想疯了，然后大家就发现了services.jar的猫腻，删掉那几句代码就可以，那个时候小米感觉有意无意的在和发烧友做对抗，甚至删除这几个app的教程也在官方论坛被删帖，刷原生包的教程也被删，挺无语的。
+
+
+强制停止应用
+adb shell am force-stop <packagename>
+
+
+
+从模拟器/设备下载指定的文件到计算机的基本命令格式是
+adb pull <remote> [local]
+
+    remote: 模拟器/设备里的文件路径
+    local:计算机上的目录，参数可以省略，默认复制到当前目录
+
+将 /sdcard/music.mp4 下载到计算机的当前目录(目录需存在)：
+adb pull /sdcard/music.mp4 D:\Download
+
+
+将指定的文件从计算机上传到模拟器/设备
+adb push <local> <remote>
+
+    local:计算机上的文件路径
+    remote: 模拟器/设备里的目录
+
+
+
+==================
+下载
+
+
+pm path com.android.contacts
+
+
+
+pm path com.android.providers.contacts
+
+
+
+
+
+
+pull /data/app/VirtualSim/VirtualSim.apk  D:\temp
+
+pull /data/app/VirtualSim/VirtualSim.apk
+
+pm path com.xiaomi.market
+
+
