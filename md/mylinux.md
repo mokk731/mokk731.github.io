@@ -180,11 +180,7 @@ linux基本能用，问题还是不小
 
 下载 board-2.bin 和 firmware-4.bin_WLAN.RM.2.0-00180-QCARMSWPZ-1
 
-改名为 board.bin
-
-和 firmware-4.bin， 加执行权限
-
-覆盖 /lib/firmware/ath10k/QCA6174/hw3.0/ 下同名文件，重启搞定
+改名为 board.bin和 firmware-4.bin， 加执行权限,覆盖 /lib/firmware/ath10k/QCA6174/hw3.0/ 下同名文件，重启搞定
 
 下载地址：
 
