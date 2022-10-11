@@ -168,10 +168,37 @@ sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/do
 ---------------------------------------------------------------------------------------
 
 
+## [wifi驱动](https://www.zhihu.com/question/348416658)
+
+linux基本能用，问题还是不小
+
+1.wifi驱动
+
+我试了debian9，10,ubuntu 19.04 19.10,opensuse等不下5种发行版，要么是没有无线网卡，要么就是有网卡看不到SSID，再或者看得到SSID但无法连接,最后在manjaro下搞定了驱动
+
+具体如下：
+
+下载 board-2.bin 和 firmware-4.bin_WLAN.RM.2.0-00180-QCARMSWPZ-1
+
+改名为 board.bin
+
+和 firmware-4.bin， 加执行权限
+
+覆盖 /lib/firmware/ath10k/QCA6174/hw3.0/ 下同名文件，重启搞定
+
+下载地址：
+FireWalkerX/ath10k-firmware​
+github.com/FireWalkerX/ath10k-firmware/tree/7e56cbb94182a2fdab110cf5bfeded8fd1d44d30/QCA6174/hw3.0
+
+注意：把这两个文件保存好，一升级firmware就有可能wifi挂掉，再覆盖一次
+
+这个方法好像也只能连2.4G的信号，5G的连不上
+
+https://github.com/kvalo/ath10k-firmware
 
 
 
-## [Linux常用命令大全](https://www.cnblogs.com/yjd_hycf_space/p/7730690.html)
+
 
 ---------------------------------------------------------------------------------------
 
