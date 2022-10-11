@@ -3,15 +3,16 @@
 # openwrt--- /etc/init.d/dnsmasq restart
 
 
-# update 20220910
+# update 20221011
 ########################################################################
 
 # Good
 
 # GitHub Start
-140.82.121.3     gist.github.com
-140.82.121.3     github.com
-140.82.121.3     www.github.com
+# https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
+140.82.113.3     gist.github.com
+140.82.113.3     github.com
+140.82.113.3     www.github.com
 185.199.108.133  raw.githubusercontent.com
 
 
@@ -20,31 +21,18 @@
 # debian omv
 146.75.114.132   httpredir.debian.org
 
-##########################################
+##############################################
 
 # Bad
 
 # Wikipedia Start
-208.80.154.224    www.wikipedia.org
-208.80.154.224    login.wikimedia.org
-208.80.154.224    wuu.wikipedia.org
-208.80.154.224    zh-yue.wikipedia.org
-208.80.154.224    zh.wikipedia.org
-208.80.154.224    zh.m.wikipedia.org
+# 208.80.154.224    www.wikipedia.org
+# 208.80.154.224    login.wikimedia.org
+# 208.80.154.224    wuu.wikipedia.org
+# 208.80.154.224    zh-yue.wikipedia.org
+# 208.80.154.224    zh.wikipedia.org
+# 208.80.154.224    zh.m.wikipedia.org
 
-
-
-# DuckDuckGo Start
-13.210.167.213   duckduckgo.com
-13.210.167.213   www.duckduckgo.com
-13.210.167.213   ac.duckduckgo.com
-13.210.167.213   start.duckduckgo.com
-13.210.167.213   help.duckduckgo.com
-23.21.193.169    icons.duckduckgo.com
-23.21.193.169    proxy.duckduckgo.com
-23.21.193.169    images.duckduckgo.com
-23.21.193.169    improving.duckduckgo.com
-23.21.193.169    external-content.duckduckgo.com
 
 
 ###############################################
