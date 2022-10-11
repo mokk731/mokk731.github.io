@@ -55,8 +55,12 @@
 
 #### [adguard_firefox-4.1.22.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_firefox-4.1.22.xpi)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [GoldWave512-SY.rar](https://mokk731.github.io/ziprar/win-tools/HA-GoldWave512-SY.rar)
 
+
+#### [FoxitPDFEditor.rar](https://mokk731.github.io/ziprar/win-tools/HA-FoxitPDFEditor.rar)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
