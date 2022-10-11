@@ -187,12 +187,10 @@ linux基本能用，问题还是不小
 覆盖 /lib/firmware/ath10k/QCA6174/hw3.0/ 下同名文件，重启搞定
 
 下载地址：
-FireWalkerX/ath10k-firmware​
-github.com/FireWalkerX/ath10k-firmware/tree/7e56cbb94182a2fdab110cf5bfeded8fd1d44d30/QCA6174/hw3.0
 
-注意：把这两个文件保存好，一升级firmware就有可能wifi挂掉，再覆盖一次
+https://github.com/TheExiledMonk/ath10k-firmware/tree/7e56cbb94182a2fdab110cf5bfeded8fd1d44d30/QCA6174/hw3.0
 
-这个方法好像也只能连2.4G的信号，5G的连不上
+注意：把这两个文件保存好，一升级firmware就有可能wifi挂掉，再覆盖一次,这个方法好像也只能连2.4G的信号，5G的连不上
 
 https://github.com/kvalo/ath10k-firmware
 
