@@ -25,6 +25,11 @@
 
 # Bad
 
+# Google
+# 108.160.170.39    www.google.com.hk
+# 108.160.170.39    google.com.hk
+
+
 # Wikipedia Start
 # 208.80.154.224    www.wikipedia.org
 # 208.80.154.224    login.wikimedia.org
