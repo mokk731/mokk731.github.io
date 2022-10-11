@@ -190,7 +190,11 @@ https://github.com/TheExiledMonk/ath10k-firmware/tree/7e56cbb94182a2fdab110cf5bf
 
 https://github.com/kvalo/ath10k-firmware
 
+--------------------------------------------------------------------------------------
+## [Ubuntu + 高通QCA6174无线网卡连接不上WIFI问题解决](https://blog.csdn.net/qq_25782145/article/details/121214291)
 
+查看无线网卡驱动型号：
+sudo lshw -c network
 
 
 
