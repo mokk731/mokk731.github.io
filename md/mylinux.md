@@ -168,7 +168,7 @@ sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/do
 ---------------------------------------------------------------------------------------
 
 
-## [wifi驱动](https://www.zhihu.com/question/348416658)
+## [高通QCA6174wifi驱动](https://www.zhihu.com/question/348416658)
 
 linux基本能用，问题还是不小
 
@@ -190,13 +190,51 @@ https://github.com/TheExiledMonk/ath10k-firmware/tree/7e56cbb94182a2fdab110cf5bf
 
 https://github.com/kvalo/ath10k-firmware
 
---------------------------------------------------------------------------------------
+
 ## [Ubuntu + 高通QCA6174无线网卡连接不上WIFI问题解决](https://blog.csdn.net/qq_25782145/article/details/121214291)
 
 查看无线网卡驱动型号：
-sudo lshw -c network
+lshw -c network
+
+---------------------------------------------------------------------------------------------
+## [rtl8852ae网卡驱动](https://zhuanlan.zhihu.com/p/393291458)
+
+联想拯救者r7000p在ubuntu20.04未找到wifi适配器,安装rtl8852ae网卡驱动问题解决方案
+
+https://github.com/lwfinger/rtw89
 
 
+要求内核5.4以上，内核低的话要先升级内核。
+
+uname -sr
+
+首先安装必要的工具：
+
+sudo apt-get update
+sudo apt-get install make gcc linux-headers-$(uname -r) build-essential git
+
+安装驱动：
+
+git clone https://github.com/lwfinger/rtw89.git
+
+接着打开rtw89目录下的phy.c 注释掉bss_color = vif->bss_conf.he_bss_color.color; 再打开rtw89目录下的cam.c 注释掉u8 bss_color = vif->bss_conf.he_bss_color.color;和FWCMD_SET_ADDR_BSSID_BSS_COLOR(cmd, bss_color);
+
+cd rtw89
+make
+
+这里没报错则成功编译，如有问题则检查是否错误注释了
+
+cd /lib/firmware/
+mkdir rtw89
+sudo make install
+
+这里显示Install rtw89 SUCCESS则表明成功安装驱动
+4.激活驱动
+
+cd ~/rtw89
+sudo modprobe rtw89pci
+
+这时候检查右上角，如若没有问题，则会发现已有wifi图标，恭喜！
 
 ---------------------------------------------------------------------------------------
 
