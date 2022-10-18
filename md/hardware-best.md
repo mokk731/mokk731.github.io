@@ -3,7 +3,7 @@
 
 #### 神U：R5-5600G,I3-10100    , J4125,
 
-#### 手机：MTK天玑8100 Redmi Note 11T Pro , iphone8p, 
+#### 手机：MTK天玑8100, RedmiNote 11T Pro....... A11,iphone8p, 
 
 #### 路由器: 中兴8820S , 红米AC2100
 
