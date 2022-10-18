@@ -7,7 +7,7 @@
 
 #### 路由器: 中兴E8820S  ,  Redmi路由器AC2100  ,  Redmi路由器AX6S, 
 
-#### Mesh组网: Redmi路由器AX3000 两件套
+#### Mesh组网: Redmi路由器AX3000 两件套 , TP-LINK 易展系列 TL-WDR7650
 
 #### NAS: 电犀牛R66S  .  外贸盒子HK1 box  , R4S
 
