@@ -5,7 +5,9 @@
 
 #### 手机：MTK天玑8100, RedmiNote 11T Pro....... A11,iphone8p, 
 
-#### 路由器: 中兴8820S , 红米AC2100
+#### 路由器: 中兴8820S , 红米AC2100 , Redmi路由器AX6S, 
+
+#### Mesh组网: Redmi路由器AX3000 两件套
 
 #### NAS: 电犀牛R66S.  外贸盒子HK1 box  
 
