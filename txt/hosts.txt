@@ -3,7 +3,7 @@
 # openwrt--- /etc/init.d/dnsmasq restart
 
 
-# update 20221011
+# update 20221018
 ########################################################################
 
 # Good
@@ -28,6 +28,9 @@
 # Google
 # 108.160.170.39    www.google.com.hk
 # 108.160.170.39    google.com.hk
+
+203.208.39.226      translate.googleapis.com
+
 
 
 # Wikipedia Start
