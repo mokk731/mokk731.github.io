@@ -5,10 +5,8 @@
 | 神U：    | R5-5600G  ,  i3-12100    , J4125,                                 |
 | 手机：   | MTK天玑8100, RedmiNote 11T Pro....... A11,iphone8p,                |
 |路由器:   | 中兴E8820S  ,  Redmi路由器AC2100  ,  Redmi路由器AX6S,                |
-
 |Mesh组网: |Redmi路由器AX3000 两件套 , Redmi路由器AX6S, .....TP-LINK 易展系列 TL-WDR7650 两件套 , TP-LINK AX3000（XDR3010易展版）|
-
-|NAS: |    电犀牛R66S  .  外贸盒子HK1 box  , R4S                                |
+|NAS:     |    电犀牛R66S  .  外贸盒子HK1 box  , R4S                             |
 
  电视盒子：外贸盒子HK1 box ,  魔百盒CM-311 , 中兴B860av2.1 wifi
 
