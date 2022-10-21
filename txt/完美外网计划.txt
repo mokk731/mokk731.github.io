@@ -1,6 +1,8 @@
 
 完美外网计划
 
+-----------------------------------------
+
 1.需要外网个人的配合
 
 2.外网个人使用R2S,R4S之类安装openwrt,开SSH,做2级路由,端口转发，外222333到内22 端口。向墙内通报：IP:222333
@@ -12,3 +14,28 @@
 5.安装eqos 限制流量
 
 6.墙内开zerotier或tailscale(wireguard) ，浏览器用对方https代理，可行.
+
+
+------------------------------------------
+
+【TinyProxy】通过代理实现服务器上网
+
+https://www.jianshu.com/p/d2eaa681e7a2
+openwrt 内容过滤 :tinyproxy+dansguardian
+
+下载安装
+opkg install tinyproxy
+
+修改/etc/config/tinyproxy 取消注释并改变其中的某些option:
+
+option enabled 1
+option Port 8888
+
+list Allow 127.0.0.1
+list Allow 192.168.192.0/24
+
+
+验证 ,可以使用curl，在需要代理的机器上执行命令。
+curl ip.sb --proxy 192.168.31.1:8888
+显示服务器IP，则成功.
+
