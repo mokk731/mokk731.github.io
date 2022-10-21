@@ -1,0 +1,198 @@
+
+.config
+---------------
+
+diy-part2.sh
+
+sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
+
+-----------------
+ work-flow 文件
+
+yml
+#  schedule:
+#    - cron: 0 5 2 2 * ?
+0 15 10 15 * ? 每月15号上午10点15分触发
+
+UPLOAD_FIRMWARE: true
+UPLOAD_RELEASE: false  true
+
+
+-----------------------------------
+
+luci-theme-material
+------------------------------------------
+
+-----------------------------------------
+
+
+
+--------------------------------
+
+https://www.right.com.cn/forum/thread-6638924-1-1.html
+OpenWrt云编译不求人，傻瓜式云编译，适合任何小白
+
+
+第一步去注册GITHUB帐号登录后。
+https://github.com/hackyes/OpenWrt-CI
+克隆上面仓库到自己的仓库里
+
+
+https://hackyes.github.io/openwrt-menuconfig/index.html   *****
+打开上面链接在线生成配置文件
+选择自己要编译的插件等
+配置完后复制内容信息，修改仓库文件 .config
+把配置全部替换成你刚才生成的。
+点击右上角 star 变为实心后就开始编译了。
+
+------------------------------------------------------------------
+
+https://www.right.com.cn/forum/thread-4109427-1-1.html
+云编译openwrt经验总结
+云编译教程及项目地址：使用 GitHub Actions 云编译 OpenWrt - P3TERX ZONE
+
+插件中文对照地址：【新提醒】OpenWrt 编译 LuCI-> Applications 添加插件应用说明-L大【2021.3.15】 - OPENWRT专版 - 恩山无线论坛 - Powered by Discuz! (right.com.cn)或者OpenWrt 编译教程及 LuCI -> Applications 添加插件应用说明 update -2019.12.21 · Issue #2415 · coolsnowwolf/lede (github.com)
+好看主题：luci-theme-argon/README_ZH.md at master · jerrykuku/luci-theme-argon (github.com)
+
+
+----------------------------------------------------------------------
+https://p3terx.com/archives/build-openwrt-with-github-actions.html      *****
+https://github.com/P3TERX/Actions-OpenWrt
+首先你必须要熟悉整个 Open-Wrt 的编译过程，这会让你非常容易的理解如何使用 GitHub Ac-tions 进行编译，即使你没有成功过。因为实际上本地编译近 90% 失败的原因是因为网络问题导致的，中国大陆特色，咱也不敢多说。GitHub Ac-tions 服务器由 Mi-crosoft Azure 提供，拥有万兆带宽，可以使编译成功率大大提升。
+
+  在自己搭建编译环境中使用 Lean's OpenWrt 源码生成.config文件。（或使用直接 SSH 连接到 Actions 进行操作，后面有说明。）
+
+    TIPS: 方案默认引用 Lean 的源码，因为他的 README 影响了我开始学习编译，也就有了这个项目，而且他的源码非常的优秀。有其它需求可自行修改 work-flow 文件，方法后面的进阶使用中有说明。
+
+    进入 P3TERX/Actions-OpenWrt 项目页面，点击页面中的 Use this template （使用这个模版）按钮。
+
+
+--------------------------------------------------------------------
+https://www.right.com.cn/FORUM/thread-4071048-1-1.html
+ 【2021-2-24】从此编译不求人！手把手教你云编译过程，以及如何自定义固件！
+fork后到自己仓库可以看见如上图所示，esir为大家提供了R2S,R4S,Newifi-D2，红米ac2100，以及X86_64的自动脚本
+我就以X86_64来为大家介绍怎么操作
+
+我们点击上图x86_64.config这个文件打开，可以看见里面已经有默认配置了，
+如果我们想自定义配置，就需要改这里面的配置了，如果你能够看懂文本内容且只是简单需求的话，直接修改文本也可以
+
+---------------------------------------------
+
+
+
+serverchan   「Server酱」，英文名「ServerChan」
+
+
+zerotier
+
+CONFIG_PACKAGE_luci-app-adbyby-plus=n    广告屏蔽大师 Plus+
+CONFIG_PACKAGE_luci-app-unblockmusic=n   解锁网易云灰色歌曲
+CONFIG_PACKAGE_luci-app-vlmcsd=n         KMS 服务器
+CONFIG_PACKAGE_luci-app-ddns=n           动态 DNS
+CONFIG_PACKAGE_luci-app-wol=n            网络唤醒
+
+
+
+------------------------------------
+
+luci-app-adguardhome
+https://github.com/rufengsuixing/luci-app-adguardhome
+https://github.com/SuLingGG/luci-app-adguardhome
+
+
+CONFIG_PACKAGE_luci-app-adguardhome=y
+
+只有luci壳，界面，，核心要另down
+
+https://github.com/AdguardTeam/AdGuardHome/releases
+
+/usr/bin/adguardhome 放入  改权限
+https://www.youtube.com/watch?v=8VBvSnuQfiI&list=PLTI5d7Gwez7ri29l5OOOxoWbxooGqXzMR&index=8
+【韩风Talk】Openwrt插件对广告说不，怎么做？两款热门插件随你用！
+
+CONFIG_PACKAGE_adguardhome=n
+CONFIG_PACKAGE_luci-app-adguardhome=y
+
+------------------------------------
+
+
+
+
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_kmod-cfg80211=y
+CONFIG_PACKAGE_kmod-mt76-core=y
+
+
+
+
+-----------------------
+clash
+
+生成后，用记事本打开，搜索url-test，
+修改来确定你想要的测试间隔时间，interval（间隔每秒）: 300秒-1800秒（5分钟或者30分钟）
+
+上传到配置文件管理中，重启clash即可。
+
+效果：间隔一段时间，自动选择测试延迟最低的节点使用。
+
+
+--------------------------
+qos
+
+
+CONFIG_PACKAGE_luci-app-sqm=y
+
+CONFIG_PACKAGE_luci-app-eqos=y  单ip控速度
+
+https://www.right.com.cn/forum/thread-511173-1-1.html
+[2019.3.24]openwrt下各种qos(sqm,石像鬼，qosv4，nft-qos，emong-qos)使用心得
+
+CONFIG_PACKAGE_luci-theme-material=y  主题
+
+-----------------------------
+kenzok8/openwrt-packages
+必需文件夹
+tcping
+lua-maxminddb    解析器(geoip)
+naiveproxy
+
+
+
+
+-------------------------------
+baidupcs-web
+CONFIG_PACKAGE_luci-app-baidupcs-web=y
+
+wireguard
+CONFIG_PACKAGE_luci-app-wireguard=y
+
+
+tailscale
+
+-------------------------
+
+
+CONFIG_PACKAGE_luci-app-tinyproxy=y    https代理服务器
+
+https://blog.csdn.net/zhicai_liu/article/details/107543708
+【TinyProxy】通过代理实现服务器上网
+
+https://www.jianshu.com/p/d2eaa681e7a2
+openwrt 内容过滤 :tinyproxy+dansguardian
+
+下载安装
+opkg install tinyproxy
+
+修改/etc/config/tinyproxy 取消注释并改变其中的某些option:
+
+option enabled 1
+option Port 8888
+
+list Allow 127.0.0.1
+list Allow 192.168.192.0/24
+
+
+验证 
+可以使用curl，在需要代理的机器上执行命令。
+curl ip.sb --proxy 192.168.31.1:8888
+显示服务器IP，则成功.
