@@ -1,0 +1,14 @@
+
+完美外网计划
+
+1.需要外网个人的配合
+
+2.外网个人使用R2S,R4S之类安装openwrt,开SSH,做2级路由,端口转发，外222333到内22 端口。向墙内通报：IP:222333
+
+3.安装zerotier或tailscale(wireguard) 虚拟局域网，双方联网
+
+4.安装tinyproxy(https), SS服务器
+
+5.安装eqos 限制流量
+
+6.墙内开zerotier或tailscale(wireguard) ，浏览器用对方https代理，可行.
