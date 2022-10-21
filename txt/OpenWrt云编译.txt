@@ -1,10 +1,22 @@
 
-.config
+https://github.com/P3TERX/Actions-OpenWrt
 ---------------
 
 diy-part2.sh
 
+
+
+
+# Modify default IP
 sed -i 's/192.168.1.1/192.168.11.1/g' package/base-files/files/bin/config_generate
+
+# 设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
+sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
+
+
+# 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
+sed -i 's/OpenWrt /编译时间 $(TZ=UTC-8 date "+%Y.%m.%d") @ 博弈江湖 /g' package/lean/default-settings/files/zzz-default-settings
+
 
 -----------------
  work-flow 文件
@@ -78,12 +90,45 @@ fork后到自己仓库可以看见如上图所示，esir为大家提供了R2S,R4
 
 ---------------------------------------------
 
+zte_e8820s.config
 
+-----------------------
+
+
+
+#test
+CONFIG_TARGET_ramips=y
+CONFIG_TARGET_ramips_mt7621=y
+CONFIG_TARGET_ramips_mt7621_DEVICE_zte_e8820s=y
+CONFIG_TARGET_IMAGES_GZIP=y
+
+#wifi ky
+CONFIG_PACKAGE_kmod-mt7603e=n
+CONFIG_PACKAGE_kmod-mt76x2e=n
+CONFIG_PACKAGE_luci-app-mtwifi=n
+
+
+CONFIG_PACKAGE_kmod-mt7603=y
+CONFIG_PACKAGE_kmod-mt76x2=y
+CONFIG_PACKAGE_hostapd-common=y
+CONFIG_PACKAGE_wpad-openssl=y
+
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_kmod-cfg80211=y
+CONFIG_PACKAGE_kmod-mt76-core=y
+
+
+--------------------------------------------
 
 serverchan   「Server酱」，英文名「ServerChan」
-
+CONFIG_PACKAGE_luci-app-serverchan=y
+CONFIG_PACKAGE_luci-theme-material=y
+CONFIG_PACKAGE_luci-app-sqm=y
+CONFIG_PACKAGE_luci-app-eqos=y
 
 zerotier
+CONFIG_PACKAGE_luci-app-zerotier=y
+
 
 CONFIG_PACKAGE_luci-app-adbyby-plus=n    广告屏蔽大师 Plus+
 CONFIG_PACKAGE_luci-app-unblockmusic=n   解锁网易云灰色歌曲
@@ -115,12 +160,6 @@ CONFIG_PACKAGE_luci-app-adguardhome=y
 
 ------------------------------------
 
-
-
-
-CONFIG_PACKAGE_kmod-mac80211=y
-CONFIG_PACKAGE_kmod-cfg80211=y
-CONFIG_PACKAGE_kmod-mt76-core=y
 
 
 
@@ -171,6 +210,7 @@ tailscale
 
 -------------------------
 
+tinyproxy
 
 CONFIG_PACKAGE_luci-app-tinyproxy=y    https代理服务器
 
