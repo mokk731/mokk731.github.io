@@ -6,9 +6,6 @@
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
 
-#### [fg797p](https://mokk731.github.io/ziprar/win-tools/fg797p.rar)
-
-
 #### [v2rayNG.apk](https://mokk731.github.io/apk/v2rayNG_v1.6.28_202201.apk)
 
 
