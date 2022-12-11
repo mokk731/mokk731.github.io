@@ -211,18 +211,57 @@ adb push <local> <remote>
 pm path com.android.contacts
 
 
-
 pm path com.android.providers.contacts
-
-
-
-
-
-
-pull /data/app/VirtualSim/VirtualSim.apk  D:\temp
-
-pull /data/app/VirtualSim/VirtualSim.apk
 
 pm path com.xiaomi.market
 
 
+pull /data/app/VirtualSim/VirtualSim.apk  D:\temp
+
+
+
+
+
+==============================================================
+
+
+https://www.jianshu.com/p/1dec9c2c9470
+Android通过ADB降级安装软件方法
+
+如果需要替换原来的应用，上面的安装命令是行不通的，需要加上“-r”，即替换原来的应用：
+
+adb install -r D:\demo.apk
+那如果是降级安装呢？再加“-d”：
+
+adb install -r -d D:\demo.apk
+这里的“r”指的是“replace”，替换原来的应用；“-d”指的是“downgrade”，降级安装。
+
+
+----------------------------------------------------
+
+https://www.jianshu.com/p/1dec9c2c9470
+Android通过ADB降级安装软件方法
+
+如果需要替换原来的应用，上面的安装命令是行不通的，需要加上“-r”，即替换原来的应用：
+
+adb install -r D:\demo.apk
+那如果是降级安装呢？再加“-d”：
+
+adb install -r -d D:\demo.apk
+这里的“r”指的是“replace”，替换原来的应用；“-d”指的是“downgrade”，降级安装。
+---------------
+
+https://zhuanlan.zhihu.com/p/394254459
+安卓端微信无损降级
+
+把apkpure的安装包复制到C盘，然后输入
+adb install -r -d C:\WeChat_v7.0.21_apkpure.com.apk
+也可以把先输入adb install -r -d+空格，然后把你想安装的应用apk文件用鼠标拖到空格后面。按下回车就可以了。
+----------------
+https://wen.baidu.com/question/337015506653128245.html
+miui13怎么开通obb文件夹的权限
+
+解除限制的方法我个人使用的是es文件管理器这个应用，当然其它的应用也可以，比如mt管理器，大家可以多多尝试，选择一个适合自己的来使用具体方法如下1、打开es文件浏览器，点击内部存储，在点击Android文件夹2、在弹出的窗口中，点击去授权，然后在点击允许，之后就可以正常访问data和obb文件夹了，以及移动和删除
+
+
+将main.1783.com.tencent.mm.obb   复制到 /Android/obb/com.tencent.mm/
