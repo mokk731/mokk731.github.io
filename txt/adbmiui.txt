@@ -239,17 +239,6 @@ adb install -r -d D:\demo.apk
 
 ----------------------------------------------------
 
-https://www.jianshu.com/p/1dec9c2c9470
-Android通过ADB降级安装软件方法
-
-如果需要替换原来的应用，上面的安装命令是行不通的，需要加上“-r”，即替换原来的应用：
-
-adb install -r D:\demo.apk
-那如果是降级安装呢？再加“-d”：
-
-adb install -r -d D:\demo.apk
-这里的“r”指的是“replace”，替换原来的应用；“-d”指的是“downgrade”，降级安装。
----------------
 
 https://zhuanlan.zhihu.com/p/394254459
 安卓端微信无损降级
