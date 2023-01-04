@@ -1,54 +1,55 @@
 https://zhuanlan.zhihu.com/p/428730333
 
-С�����ˢ�������Recovery
+小米如何刷入第三方Recovery
 
 
 
-ʲô�ǵ�����Recovery������֮ǰ�Ľ̳̽����ˣ�Recovery���ָ�ģʽ���Ƕ�����ϵͳ��һ��ģʽ�����и�Ȩ�ޡ����ٷ�Recovery�����ٵĿ�����Ҫ����������ˢ���������Ҫˢ�빦�ܷḻ�ĵ�����Recovery��
-һ������BL��
+什么是第三方Recovery？我们之前的教程讲过了，Recovery（恢复模式）是独立于系统的一个模式，具有高权限。而官方Recovery功能少的可怜，要想满足我们刷机的需求就要刷入功能丰富的第三方Recovery。
+一，解锁BL锁
 
-����������ǽ̳̣���ô�����ҾͲ���׸����������һλ�ϸ�Ľ̳̣���ҿ��Բο���
+这个到处都是教程，怎么操作我就不再赘述啦，附上一位老哥的教程，大家可以参考。
 https://web.vip.miui.com/page/info/mio/mio/detail?postId=28646781&boardId=5415551&isComment=&isRecommend=0&app_version=dev.211029&ref=share?
 web.vip.miui.com/page/info/mio/mio/detail?postId=28646781&boardId=5415551&isComment=&isRecommend=0&app_version=dev.211029&ref=share
 
-��һЩ�Ŷ�������û��BL���ģ��������Note����
-����Ѱ�Һ��ʵģ���������Recovery
+（一些古董机型是没有BL锁的，比如红米Note。）
+二，寻找合适的（第三方）Recovery
 
-������Recovery�кܶ��֣���õ���TWRP�����кܶ����TWRP�޸ĵ����࣬����Ⱥ�Recovery��SHRP��PBRP������Recovery�ȵȡ�
+第三方Recovery有很多种，最常用的是TWRP，还有很多基于TWRP修改的种类，比如橙狐Recovery，SHRP，PBRP，奇兔Recovery等等。
 
-TWRP������wzsx150���б����TWRP���ȶ����á�����ֻ���䵽�˰�׿10�����԰�׿10�����µĻ��Ϳ����ã����ص�ַ��https://card.weibo.com/article/m/show/id/2309404160776561631202
+TWRP我首推wzsx150大佬编译的TWRP，稳定好用。大佬只适配到了安卓10，所以安卓10及以下的机型可以用，下载地址：https://card.weibo.com/article/m/show/id/2309404160776561631202
 
-����ؿ���ȥTWRP����������������TWRP�ٷ�APP���أ������ٶȿ��ܲ��Ǻܺá����ص�ַ��https://twrp.me/Devices/
+其次呢可以去TWRP官网搜索，或者在TWRP官方APP下载，但是速度可能不是很好。下载地址：https://twrp.me/Devices/
 
-Ҳ����ȥ�Ⱥ������ҡ���ַ��https://orangefox.download/zh-CN
+也可以去橙狐官网找。地址：https://orangefox.download/zh-CN
 
-�������;�����Ҳ���������ȥ�ᰲ������͵Ļ��⣬�ڻ����������ؼ��ʣ�TWRP��rec���Ⱥ���oringe��pbrp�����࣬shrp��
-����׼������
+如果以上途径都找不到，可以去酷安找你机型的话题，在话题内搜索关键词：TWRP，rec，橙狐，oringe，pbrp，沥青，shrp。
+三，准备工作
 
-Win7�����ϵ���һ̨���ܴ����ļ���������һ���������ԭװ�ߣ����������ؽ�ѹADB�����У�������أ����˳������ֻ��������������ҵ�Recovery�ŵ����ϣ������img�ļ������ֱ��ʹ�ã������ѹ�������ѹ�ҳ�img���ֻ�ȷ���Ѿ�����BL����������Խ���װһ��ADB�������������أ���
-�ģ�ˢ��Recovery
+Win7或以上电脑一台，能传输文件的数据线一条（最好是原装线），电脑下载解压ADB命令行（点击下载），退出所有手机助手类软件，找的Recovery放电脑上，如果是img文件则可以直接使用，如果是压缩包则解压找出img。手机确保已经解锁BL锁。另外电脑建议装一下ADB驱动（点我下载）。
+四，刷入Recovery
 
-�е�Recovery���߸�����ˢ��ű���������ֱ�����нű������߾����ˣ�������ֻ��ͨ�÷�����
+有的Recovery作者附带了刷入脚本，这样的直接运行脚本按着走就行了，我这里只讲通用方法。
 
-�ֻ��ػ���������Դ����������������Fastbootģʽ�����ӵ��ԡ����Դ��豸����������һ����û��Android Phone��Android Bootloader Interface�豸����Android Composite ADB Interface���������豸������������ADB�����У��������
+手机关机，长按电源键和音量减，进入Fastboot模式，连接电脑。电脑打开设备管理器，看一下有没有Android Phone和Android Bootloader Interface设备（或Android Composite ADB Interface），有则设备连接正常。打开ADB命令行，输入命令：
 
-    fastboot flash recovery [�˴���img�ļ��ϵ�������]
+    fastboot flash recovery [此处将img文件拖到窗口中]
 
-ע��recovery������һ���ո�
+注意recovery后面有一个空格。
 
-Ȼ��س�ִ�С���������Ļ�Ӧ���������ģ�
+然后回车执行。不出意外的话应该是这样的：
 
-    sending recovery OKAY������Recovery��
-    writing recovery OKAY��ˢ��Recovery��
+    sending recovery OKAY（传输Recovery）
+    writing recovery OKAY（刷入Recovery）
     finished.
 
-�����ͳɹ��ˡ��ε������ߣ�������Դ���������ӣ�����һ����һ�����ҿ����֣��ȴ�����Recovery��
+这样就成功了。拔掉数据线，长按电源键和音量加，出第一屏即一秒左右可松手，等待进入Recovery。
 
-�״ν���Recovery����һ����ʾ�����Ƿ������޸�system����ѡ������ʾ���������������ˡ�
-�壬��ֹRecovery���ٷ�����
+首次进入Recovery会有一个提示，问是否允许修改system，勾选不再提示并滑动允许就行了。
+五，防止Recovery被官方覆盖
 
-����Recovery�󣬲����ر��ϵĻ��ͣ�һ�㶼��Ҫ��һ�·����ǣ�����������ϵͳ��ˢ��Recovery�ᱻ�ٷ�Recovery���ǡ���Recovery���������ء����ܣ���ѡsystem��Ȼ��ص���ҳ���ҵ����ļ����������ܣ������ڸ߼��������/system �ļ��У��·��ҵ�recovery_from_boot.p ����ļ���ɾ�������ɡ���������ʱ�Ͳ��ᱻ�ٷ�Recovery�����ˡ�
+进入Recovery后，不是特别老的机型，一般都需要做一下防覆盖，否则重启进系统后刷的Recovery会被官方Recovery覆盖。在Recovery里点击“挂载”功能，勾选system，然后回到主页，找到“文件管理”功能（可能在高级里），进入/system 文件夹，下翻找到recovery_from_boot.p 这个文件，删除他即可。这样重启时就不会被官方Recovery覆盖了。
 
-����ˢSuperSU����߻��Զ������ǣ����������Ժ�ˢ���ǣ���û��Ҫ����һ����
+附：刷SuperSU或面具会自动防覆盖，如果你打算稍后刷他们，就没必要做这一步。
+
 
 
