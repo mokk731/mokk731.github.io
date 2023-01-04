@@ -1,0 +1,20 @@
+https://zhuanlan.zhihu.com/p/107804270
+ESP32概述与Arduino软件准备 | ESP32学习之旅-Arduino版
+
+
+Arduino教程汇总贴（2020.2.2更新）
+https://www.arduino.cn/thread-1066-1-1.html
+
+软件中心
+https://www.arduino.cn/resource.php
+
+
+Arduino 网盘资料
+https://arduino.nxez.com/download
+
+
+arduino吧
+https://tieba.baidu.com/f?kw=arduino&ie=utf-8&tab=good
+
+
+
