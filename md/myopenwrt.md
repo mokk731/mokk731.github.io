@@ -7,7 +7,7 @@
 
 #### [修改hosts文件OpenWRT的自用小功能](https://mokk731.github.io/txt/修改hosts文件OpenWRT的自用小功能.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [OpenWrt云编译](https://mokk731.github.io/txt/OpenWrt云编译.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
