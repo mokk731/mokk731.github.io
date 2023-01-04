@@ -19,7 +19,7 @@
 
 #### [中兴E8820S](https://mokk731.github.io/txt/mydiy/中兴E8820S.txt)
 
-#### [小米如何刷入第三方Recovery](https://mokk731.github.io/txt/mydiy/hosts.txt)
+#### [小米如何刷入第三方Recovery](https://mokk731.github.io/txt/mydiy/小米如何刷入第三方Recovery.txt)
 
 #### [小米路由器4A千兆](https://mokk731.github.io/txt/mydiy/小米路由器4A千兆.txt)
 
@@ -33,101 +33,82 @@
 
 #### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
 
 
