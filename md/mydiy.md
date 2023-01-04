@@ -3,8 +3,6 @@
 
 ### 工具
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
 #### [Arduino](https://mokk731.github.io/txt/mydiy/Arduino.txt)
 
 #### [CM201-1CH](https://mokk731.github.io/txt/mydiy/CM201-1CH.txt)
