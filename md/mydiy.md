@@ -19,13 +19,13 @@
 
 #### [中兴E8820S](https://mokk731.github.io/txt/中兴E8820S.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [小米如何刷入第三方Recovery](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [小米路由器4A千兆](https://mokk731.github.io/txt/小米路由器4A千兆.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [小米路由器4C](https://mokk731.github.io/txt/小米路由器4C.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [小米电视&小米盒子最强精简教程来袭，免刷机去广告装软件](https://mokk731.github.io/txt/小米电视&小米盒子最强精简教程来袭，免刷机去广告装软件.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
