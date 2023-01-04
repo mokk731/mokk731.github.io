@@ -1,21 +1,21 @@
 https://www.wyr.me/post/619
 
-ÏÈ¾öÌõ¼ş
-°²×°ºÃgit¡¢python3ºÍpip3¡£
-°²×°ºÃtelnet£¨MacÏÂ£ºbrew install telnet£©¡£
-Â·ÓÉÆ÷ºÍµçÄÔ¶¼ÒÑ¾­Á¬½ÓÉÏÍøÂç¡£
+å…ˆå†³æ¡ä»¶
+å®‰è£…å¥½gitã€python3å’Œpip3ã€‚
+å®‰è£…å¥½telnetï¼ˆMacä¸‹ï¼šbrew install telnetï¼‰ã€‚
+è·¯ç”±å™¨å’Œç”µè„‘éƒ½å·²ç»è¿æ¥ä¸Šç½‘ç»œã€‚
 Root Shell
 git clone https://github.com/acecilia/OpenWRTInvasion
 cd OpenWRTInvasion
 pip3 install -r requirements.txt
 python3 remote_command_execution_vulnerability.py
-»ñÈ¡stock
-Ö´ĞĞ½Å±¾ºó£¬»áÒªÇóÊäÈëRoute IPºÍstok¡£Â·ÓÉÆ÷µØÖ·¾Í²»½âÊÍÁË£¬stokµÄ»ñÈ¡·½·¨ºÜ¼òµ¥£¬·ÃÎÊÂ·ÓÉÆ÷¹ÜÀíµØÖ·£¬ÀıÈçhttp://192.168.1.1£¬È»ºóµÇÂ¼¹ÜÀíºóÌ¨£¬ÔÙ²é¿´µ±Ç°µÄÂ·ÓÉÆ÷¹ÜÀíºóÌ¨µÄURL£¬ÔÚURLÖĞÄ³¸ö²ÎÊı¾ÍÊÇstok¡£Ö´ĞĞ¹ı³ÌĞèÒªÁªÍø¡£
+è·å–stock
+æ‰§è¡Œè„šæœ¬åï¼Œä¼šè¦æ±‚è¾“å…¥Route IPå’Œstokã€‚è·¯ç”±å™¨åœ°å€å°±ä¸è§£é‡Šäº†ï¼Œstokçš„è·å–æ–¹æ³•å¾ˆç®€å•ï¼Œè®¿é—®è·¯ç”±å™¨ç®¡ç†åœ°å€ï¼Œä¾‹å¦‚http://192.168.1.1ï¼Œç„¶åç™»å½•ç®¡ç†åå°ï¼Œå†æŸ¥çœ‹å½“å‰çš„è·¯ç”±å™¨ç®¡ç†åå°çš„URLï¼Œåœ¨URLä¸­æŸä¸ªå‚æ•°å°±æ˜¯stokã€‚æ‰§è¡Œè¿‡ç¨‹éœ€è¦è”ç½‘ã€‚
 
-½Å±¾Ö´ĞĞ³É¹¦ºó£¬Ö´ĞĞ£º
+è„šæœ¬æ‰§è¡ŒæˆåŠŸåï¼Œæ‰§è¡Œï¼š
 
 telnet <router_ip_address>
-ÓÃ»§ÊÇroot£¬²»ĞèÒªÃÜÂë£¬»Ø³µ¼´¿É½øÈë¡£
+ç”¨æˆ·æ˜¯rootï¼Œä¸éœ€è¦å¯†ç ï¼Œå›è½¦å³å¯è¿›å…¥ã€‚
 
 
 
@@ -23,13 +23,13 @@ telnet <router_ip_address>
 
 
 
-ÏÂÔØreleaseÒ³Ãæ´óÀĞ±àÒëºÃµÄ¹Ì¼ş£¬²¢½«openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.binºÍopenwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.binÕâÁ½¸öÎÄ¼şÉÏ´«µ½ÄãµÄÆßÅ£»òÕß±ğµÄ¶ÔÏó´æ´¢ÖĞ£¬·½±ãÂ·ÓÉÆ÷Ö±½Ówget¡£
+ä¸‹è½½releaseé¡µé¢å¤§ä½¬ç¼–è¯‘å¥½çš„å›ºä»¶ï¼Œå¹¶å°†openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.binå’Œopenwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.binè¿™ä¸¤ä¸ªæ–‡ä»¶ä¸Šä¼ åˆ°ä½ çš„ä¸ƒç‰›æˆ–è€…åˆ«çš„å¯¹è±¡å­˜å‚¨ä¸­ï¼Œæ–¹ä¾¿è·¯ç”±å™¨ç›´æ¥wgetã€‚
 
 
 
 cd /tmp
-wget http://ÄãµÄÆßÅ£»òÕß±ğµÄ¶ÔÏó´æ´¢µØÖ·/openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.bin
-wget http://ÄãµÄÆßÅ£»òÕß±ğµÄ¶ÔÏó´æ´¢µØÖ·/openwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.bin
+wget http://ä½ çš„ä¸ƒç‰›æˆ–è€…åˆ«çš„å¯¹è±¡å­˜å‚¨åœ°å€/openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.bin
+wget http://ä½ çš„ä¸ƒç‰›æˆ–è€…åˆ«çš„å¯¹è±¡å­˜å‚¨åœ°å€/openwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.bin
 mtd write openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.bin kernel1
 mtd write openwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.bin rootfs0
 nvram set flag_try_sys1_failed=1
@@ -39,20 +39,21 @@ reboot
 ------------------------------
 
 
-Ë¢Èë openwrt-19.07.2-ramips-mt76x8-xiaomi_mir4a-100m-squashfs-sysupgrade.bin 4M°æ£¬½øÈëopenwrt£¬ÏÈ±¸·İeeprom¡£ÈçË¢ÁËBootloader£¬¾Í»áÇå¿Õeeprom¡£
+åˆ·å…¥ openwrt-19.07.2-ramips-mt76x8-xiaomi_mir4a-100m-squashfs-sysupgrade.bin 4Mç‰ˆï¼Œè¿›å…¥openwrtï¼Œå…ˆå¤‡ä»½eepromã€‚å¦‚åˆ·äº†Bootloaderï¼Œå°±ä¼šæ¸…ç©ºeepromã€‚
 
 --------------------------------------
 
 
 
-1. ÏÂÔØ±¾¸½¼ş£¬7-zip½âÑ¹£¬Â·ÓÉÆ÷±ØĞëÁ¬½ÓÍøÂç£¬ÉèÖÃÂ·ÓÉÆ÷ÃÜÂë£¬ÔËĞĞ0.start_main.bat£¬Èç¹ûÎŞ·¨ÔËĞĞ£¬Çë°²×°pythonÔËĞĞ¿â£¬ÊäÈëÂ·ÓÉÆ÷ÃÜÂë¾Í¿ÉÒÔ¿ªÆôTelnet£¬±¾Åú´¦ÀíÆäÖĞ°üÀ¨ÔËĞĞÁËOpenWRTInvasion¡£
+1. ä¸‹è½½æœ¬é™„ä»¶ï¼Œ7-zipè§£å‹ï¼Œè·¯ç”±å™¨å¿…é¡»è¿æ¥ç½‘ç»œï¼Œè®¾ç½®è·¯ç”±å™¨å¯†ç ï¼Œè¿è¡Œ0.start_main.batï¼Œå¦‚æœæ— æ³•è¿è¡Œï¼Œè¯·å®‰è£…pythonè¿è¡Œåº“ï¼Œè¾“å…¥è·¯ç”±å™¨å¯†ç å°±å¯ä»¥å¼€å¯Telnetï¼Œæœ¬æ‰¹å¤„ç†å…¶ä¸­åŒ…æ‹¬è¿è¡Œäº†OpenWRTInvasionã€‚
 
-2. TelnetÁ¬½ÓÂ·ÓÉÆ÷£¬ÏÈ±¸·İeeprom£¬ÔÚTelnetÖĞÊäÈëdd if=/dev/mtd3 of=/tmp/eeprom.bin£¬±¸·İeeprom.bin£¬ÓÃWinSCPµÄFTP°Ñeeprom.bin±¸·İµ½±¾µØ£¬ÔÚTelnetÖĞÊäÈë cd /tmp && wget http://totos-s.top:8081/breed/breed-mt7688-reset38.bin && mv breed-mt7688-reset38.bin breed.bin£¬»ñÈ¡Breed.bin
+2. Telnetè¿æ¥è·¯ç”±å™¨ï¼Œå…ˆå¤‡ä»½eepromï¼Œåœ¨Telnetä¸­è¾“å…¥dd if=/dev/mtd3 of=/tmp/eeprom.binï¼Œå¤‡ä»½eeprom.binï¼Œç”¨WinSCPçš„FTPæŠŠeeprom.binå¤‡ä»½åˆ°æœ¬åœ°ï¼Œåœ¨Telnetä¸­è¾“å…¥ cd /tmp && wget http://totos-s.top:8081/breed/breed-mt7688-reset38.bin && mv breed-mt7688-reset38.bin breed.binï¼Œè·å–Breed.bin
 
-3. mtd write breed.bin Bootloader£¬Ë¢ÈëBreed.bin£¬°´×¡Â·ÓÉReset°´¼ü3ÃëÍ¨µç½øÈëBreed£¬Ë¢eepromºóË«Çå¡£
+3. mtd write breed.bin Bootloaderï¼Œåˆ·å…¥Breed.binï¼ŒæŒ‰ä½è·¯ç”±ResetæŒ‰é”®3ç§’é€šç”µè¿›å…¥Breedï¼Œåˆ·eepromååŒæ¸…ã€‚
 
-4.½ÓÏÂÀ´Í¨¹ıBreedË¢ÈëMiwifi Nano µÄOpenWrt  v18£¬Ğ§¹ûºÜ²»´í
+4.æ¥ä¸‹æ¥é€šè¿‡Breedåˆ·å…¥Miwifi Nano çš„OpenWrt  v18ï¼Œæ•ˆæœå¾ˆä¸é”™
 
 
 --------------------------------
-Ë¢Èë²»ËÀBreed£¬×îºó»¹ÊÇÒªÑ¡ »ªË¶ÀÏÃ«×Ópadavan¹Ì¼ş°æµÄ MI-NANO_3.4.3.9-099
+åˆ·å…¥ä¸æ­»Breedï¼Œæœ€åè¿˜æ˜¯è¦é€‰ åç¡•è€æ¯›å­padavanå›ºä»¶ç‰ˆçš„ MI-NANO_3.4.3.9-099
+
