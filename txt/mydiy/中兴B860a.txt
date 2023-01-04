@@ -1,0 +1,84 @@
+ZTE B860aV2.1 wifi
+软件：1.8.42
+硬件：S505201
+
+https://www.right.com.cn/FORUM/thread-5862691-1-1.html?ivk_sa=1024320u
+whh126
+移动运营商盒子刷入armbian并启用docker教程
+可以sd卡启动，也可以刷入emmc，本文为刷入emmc.
+盒子型号：中兴移动运营商盒子B860AV2.1
+处理器：S905
+Armbian版本：20.10
+
+    **B860 AV2.1 刷机要点**
+    #固件刷写
+    一、盒子刷安卓
+    1.短接C125刷android6.0的固件（勾选刷写boot loader）
+    2.刷机完成后，启动安卓系统
+    3.安装rebootupdate.apk
+    二、固件写入sd卡
+    1.使用balenaEtcher将armbian固件写入**sd卡**（u盘可能出错）
+    2.修改exlinux.conf文件。选择s905x-p212.dtb(去掉#即可)，其他非aml可删除
+    3.将uboot-s905x...修改为uboot.ext
+    三、从sd卡启动并刷入emmc
+    1.打开rebootupdate，待安卓完全关闭后，重启前，插入SD卡，**防止文件污染**
+    2.进入armbian(sd卡)系统，设置用户名和密码等
+    3.cd /boot,输入 ls 列出文件目录
+    4.**删除 'System....Infmation'文件夹，使用 rm -rf 'System....Infmation'    （带引号），如有dir等安卓文件，一并删除
+    5.在root文件夹中，有install-aml.sh，写入emmc（**不要使用是s905-emmc**）
+    chmod 755 install-aml.sh         ./install-aml.sh
+    6.等待刷写完成，重启即可。成功刷入armbian，并写入emmc
+
+-------------------------
+
+https://www.bilibili.com/video/BV1uE411N7uv/?spm_id_from=333.788.recommend_more_video.-1
+
+中兴B860AV2.1及B860AV1.1-T机顶盒刷机方法分享第三方软件随意安装
+
+USB burning tool
+C125 短接点
+
+按返回键5S，再按左键. 进入ADB
+
+----------------------------------
+
+https://zhuanlan.zhihu.com/p/439944384
+中兴B860A电视盒子线刷固件教程V2.1-A-M-T移动版
+
+刷机软件是：Amlogic USB Burning Tool，我下载的版本是Amlogic USB Burning Tool_v2.1.6.8 。
+
+下载地址链接: https://pan.baidu.com/s/1sgYnY_7qVl2_EctRlUWJBQ提取码: b4q2
+
+固件：中兴B860AV2.1-A-M-T线刷固件。
+
+刷机固件下载地址：https://www.znds.com/rom/634095.html
+
+这个固件中兴B860AV2.1-A、B860AV2.1-M、B860AV2.1-T都能用。
+
+-----------------------------------
+https://www.znds.com/rom/jq/20130.html
+
+中兴 B860V2.1 机顶盒刷机步骤：
+
+https://www.znds.com/rom/20129.html
+中兴B860AV2.1-S905L固件下载
+
+作者：潜龍在渊安卓版本：与官方一致
+
+发布时间：2017-12-15 ROM大小：313.4MB
+
+----------------------------
+
+https://www.mydigit.cn/forum.php?mod=viewthread&tid=154355&ivk_sa=1025922x
+
+中兴盒子B860AV2.1 潜龙固件线刷破解-转
+B860AV2.1 潜龙固件线刷破解，网上太难找了，要么要钱，要么没有下载链接，千辛万苦才下载好的，转给大家。
+此拆机刷机 (IPTV功能删掉了)，完全变成 安卓盒子，中兴 B860AV2.1（CPU是S905L）
+固件下载  https://pan.baidu.com/s/1YVd_YpYYACYSEpSlOIwl_w  潜龙固件+线刷工具+驱动）
+提取码：4s1c
+详细怎么刷机，见压缩包里面说明：请自己阅读 中兴B860AV2.1刷机步骤.pdf
+刷成砖头，本人概不负责。固件是转自 潜龙，本固件无线获取IP功能正常.
+
+友情提示：中兴B860AV2.1刷机需要拆机后短接C125
+
+
