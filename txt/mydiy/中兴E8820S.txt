@@ -1,0 +1,125 @@
+
+
+https://www.mydigit.cn/forum.php?mod=viewthread&tid=200076
+
+最详细的中兴E8820S的TTL刷机教程，附最完美的Padavan固件
+
+下载B70 breed复制至U盘，（B70 固件：如 padavan 、 lede 、openwrt也可下载下来备用）
+8820S可以用固件：所有支持极路由B70的固件8820S都能运行。
+
+breed-mt7621-hiwifi-hc5962.bin
+
+在breed中，刷入lemom大定制的eeprom，对8820S支持非常好，5G和2G信号非常稳定，刷入后记得修改成自己的MAC地址。Mac地址的规则是：LAN，WAN，RF1WLAN就是机器背面的地址，RF2的地址加1.
+
+
+
+-----------------------------------------------------
+https://post.smzdm.com/p/alx8zo00/
+50元包邮的中兴E8820S路由器刷Openwrt 
+
+
+
+需要的工具
+https://d6.cx/s/Nrtq
+
+
+TTL转USB，我用的CH340
+
+
+找到固件 点击选择 openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin，点击上传，开刷即可
+
+当然你也可以刷其他固件，如pandorabox或者padavan，理论上支持极路由B70的固件都可以刷，但是不知道为啥我刷不了B70其他的openwrt固件，卡50失败，我准备的这个8M多的openwrt刷起来没有问题。
+
+
+
+
+
+-------------------------------------
+
+目前完美支持的固件只有老毛子固件，WiFi，usb，指示灯各方面都很完美（HIBOY大的固件做的就是好！），恩山论坛上的OPENWRT固件，我刷了没有5GWiFi，用的是B70的控制台，网上的分享的EEPROM文件，因为我手里只有一台这个机子，所以不敢确定是什么情况，自己用5.4.x内核的源码也做了openwrt固件，依旧没有5GWiFi，由于是第一次折腾NAND闪存的路由器固件，5G问题暂时还没能解决。
+
+
+跟着论坛那个TTL刷B70的breed帖子进行的，成功刷入B70的breed和padavan，还有这个帖子里的改版eeprom，信号还可以，但用b70的breed无法使用复位键，应该是io口不对，只能ttl中断或者breed助手
+
+
+------------------------------------
+https://www.right.com.cn/forum/thread-5513865-1-1.html
+原创 恩山首发 中兴8820s 免拆刷机 巨简单！！！
+
+网上早就有中兴8820s刷机教程了 ，要拆机还要串口，反正就是难倒了一批人。
+经过研究发现中兴给了后门直接可以刷breed
+
+打开tftp64.exe软件 设置如图，一定要是breed或者bp-boot目录下  要改名字为“ZTE_img.bin”文件中已经改好了
+
+关键的来了，按住复位键 ，插电 开机等出现了如下图 界面 刷机breed或者pb-boot成功，成功就可以刷固件了 老毛子 openwrt 梅林固件都行
+
+breed 刷机入固件提示报错 恭喜你了 nand flash有坏块 breed下升级bp-boot即可正常刷入固件
+
+
+我的也是和你的情况一样，5G太弱，刷了原来的eprom还是一样，但未刷前原厂的固件5G信号正常，估计还是固件兼容性问题。后来重刷了 lemom大定制的 eeprom:8820s_eeprom_b70gs_yh_nomac，情况一下就改善了。
+
+
+
+----------------------------------------------
+https://www.bilibili.com/video/BV1CT4y1R71K?from=search&seid=1632387401742599531&spm_id_from=333.337.0.0
+5分钟学会E8820s无线路由器刷机  喻名堂
+
+
+更新了工具包的下载地址：https://asymt.lanzoui.com/i9Tfow0exti
+
+
+
+
+
+--------------------------------------------------
+
+
+https://www.right.com.cn/forum/thread-4110207-1-1.html
+中兴E8820S刷回原厂固件经验分享
+
+之后就可以刷入B70的 breed，重启后就可以刷入其他固件了，
+注意：因为B70固件的分区结构与ZTE原厂完全不同，原厂eeprom数据不起作用，必须更新eeprom，可以从备份的mtd0中提取，也可以用网友分享的eeprom
+lemom定制的eeprom: 8820s_eeprom_b70gs_yh_nomac.zip  这个与原厂区别很大，用在我的机器上信号很差
+lemontreenm 分享的eeprom与我的原厂数据接近，信号比较好，数码传送门   
+当然也可以自己用原厂数据做
+
+8820S原厂的mac只有两个，wan lan 2.4G 是一样的，只有5G +1
+
+-----------------------------------------------------
+ 极路由4增强版刷BREED
+备份MAC地址：（刷机可能导致MAC地址缺失变0 WEB反应慢 不能上网  先备份下 我刷潘多拉没什么问题  ）
+MAC地址规则及示例：
+WAN MAC：在LAN的基础上最后一位加1，具体以固件内看到的为准。示例：D4:EE:07:32:84:23
+LAN MAC：机器背面的MAC地址即LAN地址，也可以进官方固件查看。示例：D4:EE:07:32:84:22
+2.4G MAC：同LAN MAC，也可以用WirelessMon软件查看。示例：D4:EE:07:32:84:22
+5G MAC：可以用WirelessMon软件查看，与2.4G MAC区别是第二位不同。示例：D0:EE:07:32:84:22
+
+
+----------------------------------------------------------
+
+个人总结：20220108    
+
+1，经过研究发现中兴给了后门直接可以刷breed。打开tftp64.exe软件 一定要是breed或者bp-boot目录下  要改名字为“ZTE_img.bin”文件中已经改好了，关键的来了，按住复位键 ，插电 开机， 刷机breed或者pb-boot成功，成功就可以刷固件了。此方法只对中兴原uboot有用。
+
+
+2，进入breed，重刷了 lemom大定制的 eeprom: 8820s_eeprom_b70gs_yh_nomac.bin，5G信号一下就改善了。
+
+3，修改成自己的MAC地址。Mac地址的规则是：LAN，WAN，RF1WLAN就是机器背面的地址，RF2的地址加1.
+
+B70
+lan: D2    11
+5G   D0
+wan        12
+lan wan 相对换 
+
+
+
+4，breed202010 刷机入固件提示报错 ， nand flash有坏块， breed下升级bp-boot即可正常刷入固件。2021-09-14-openwrt-ramips-mt7621-zte_e8820s-squashfs-factory.bin  23M 。
+
+
+
+5，这个openwrt固件，U盘用不了，但刷padavan固件，U盘正常。过段时间，换个openwrt固件，试下。
+
+6, 换新的2021.12 breed 刷机，即可刷入固件。不定时的不好使。说不上什么时候就断流了。emm……用断流来形容比较准确。就比如刷b站视频。刷着刷着就卡住了。    看来只有2019.3 bp-boot才能正常刷入固件。
+
+7, WIFI 5G 不好用,刷了8820s_eeprom_b70gs_yh_nomac.bin,信号好一点.只能用n,如果用ac,就信号差. ...设定:WIFI 5G ,n, 40mHz.

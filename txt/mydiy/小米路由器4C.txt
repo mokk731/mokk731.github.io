@@ -1,0 +1,58 @@
+https://www.wyr.me/post/619
+
+先决条件
+安装好git、python3和pip3。
+安装好telnet（Mac下：brew install telnet）。
+路由器和电脑都已经连接上网络。
+Root Shell
+git clone https://github.com/acecilia/OpenWRTInvasion
+cd OpenWRTInvasion
+pip3 install -r requirements.txt
+python3 remote_command_execution_vulnerability.py
+获取stock
+执行脚本后，会要求输入Route IP和stok。路由器地址就不解释了，stok的获取方法很简单，访问路由器管理地址，例如http://192.168.1.1，然后登录管理后台，再查看当前的路由器管理后台的URL，在URL中某个参数就是stok。执行过程需要联网。
+
+脚本执行成功后，执行：
+
+telnet <router_ip_address>
+用户是root，不需要密码，回车即可进入。
+
+
+
+
+
+
+
+下载release页面大佬编译好的固件，并将openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.bin和openwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.bin这两个文件上传到你的七牛或者别的对象存储中，方便路由器直接wget。
+
+
+
+cd /tmp
+wget http://你的七牛或者别的对象存储地址/openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.bin
+wget http://你的七牛或者别的对象存储地址/openwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.bin
+mtd write openwrt-ramips-mt7621-xiaomi_mir4-squashfs-kernel1.bin kernel1
+mtd write openwrt-ramips-mt7621-xiaomi_mir4-squashfs-rootfs0.bin rootfs0
+nvram set flag_try_sys1_failed=1
+nvram commit
+reboot
+
+------------------------------
+
+
+刷入 openwrt-19.07.2-ramips-mt76x8-xiaomi_mir4a-100m-squashfs-sysupgrade.bin 4M版，进入openwrt，先备份eeprom。如刷了Bootloader，就会清空eeprom。
+
+--------------------------------------
+
+
+
+1. 下载本附件，7-zip解压，路由器必须连接网络，设置路由器密码，运行0.start_main.bat，如果无法运行，请安装python运行库，输入路由器密码就可以开启Telnet，本批处理其中包括运行了OpenWRTInvasion。
+
+2. Telnet连接路由器，先备份eeprom，在Telnet中输入dd if=/dev/mtd3 of=/tmp/eeprom.bin，备份eeprom.bin，用WinSCP的FTP把eeprom.bin备份到本地，在Telnet中输入 cd /tmp && wget http://totos-s.top:8081/breed/breed-mt7688-reset38.bin && mv breed-mt7688-reset38.bin breed.bin，获取Breed.bin
+
+3. mtd write breed.bin Bootloader，刷入Breed.bin，按住路由Reset按键3秒通电进入Breed，刷eeprom后双清。
+
+4.接下来通过Breed刷入Miwifi Nano 的OpenWrt  v18，效果很不错
+
+
+--------------------------------
+刷入不死Breed，最后还是要选 华硕老毛子padavan固件版的 MI-NANO_3.4.3.9-099
