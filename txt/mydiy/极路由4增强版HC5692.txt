@@ -1,0 +1,124 @@
+极路由4增强版刷BREED
+
+ 备份MAC地址：（刷机可能导致MAC地址缺失变0 WEB反应慢 不能上网  先备份下 我刷潘多拉没什么问题  ）
+MAC地址规则及示例：
+WAN MAC：在LAN的基础上最后一位加1，具体以固件内看到的为准。示例：D4:EE:07:32:84:23
+LAN MAC：机器背面的MAC地址即LAN地址，也可以进官方固件查看。示例：D4:EE:07:32:84:22
+2.4G MAC：同LAN MAC，也可以用WirelessMon软件查看。示例：D4:EE:07:32:84:22
+5G MAC：可以用WirelessMon软件查看，与2.4G MAC区别是第二位不同。示例：D0:EE:07:32:84:22
+
+----------------------------------------------------------------------
+
+https://post.smzdm.com/p/ag8plee6/
+耀耍矿渣 篇一：宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 
+
+
+
+
+当时我几乎就放弃了，因为没有ROOT的话，系统也刷不上宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 于是我转头去恩山论坛深挖，终于找到两篇贴子，结合起来完成了ROOT！！！宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 我好*激动！！！下面是独家分享，怎么撸了极路由4增强版宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 （参考贴子链接：>点这里<)
+
+1.下载安装软件WinSCP
+2.登陆极路由管理页面，点击系统设置，点击全部插件**
+3.下载安装vsftpd插件， 并按图中设置
+4.登陆WinSCP，登陆密码是管理密码，默认admin
+5.登陆之后把贴子中的2.sh拖入root文件夹
+6.另外一个必备的插件叫“定时重播”，这个插件页面存在，但是被官方屏蔽了，在全部插件列表中找不到宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 但是另外一篇贴子（>点这里<）给出了方案
+▲▲▲选择任何一个没有安装的插件，点进去，然后把网址中sid改成163116535，就能进入安装页面，然后安装，输入参数 * sh /tmp/storage/2.sh ，点击应用
+7.随后刷新WinSCP，出现 abc 以及 cba 两个测试文件夹时，就能够使用SSH登陆了
+8.安装putty，用于登陆SSH（账户：root，密码默认admin），登陆，然后保持窗口不要关掉
+▲▲▲登陆成功！！！完结撒花宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 能登陆上去之后意味着获取了路由器的ROOT权限，之后结合B站视频的步骤，直接刷入BREED以及OpenWRT即可
+
+刷 BREED“不死”系统
+
+前面讲了，BREED系统相当于电脑的BIOS，安卓手机的RES，不管系统怎么折腾，坏了只需要进行还原或者重装即可宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 刷BREED系统的资源在前面提到的视频有（>点这里<）
+
+1.使用WinSCP，把BREED系统的bin文件拖放到路由器的 /tmp 文件夹中
+▲▲▲注意事项！！！▲▲▲下载BREED的时候一定要记得使用对应路由器型号、CPU的BREED，否则随时变砖
+2.在putty中登陆SSH（刚刚上一步操作中登陆之后不要关掉就行），运行以下代码：
+
+    mtd -r write /tmp/breed-mt7621-hiwifi-hc5962.bin u-boot
+
+之后路由会重启，等重启完成之后，我们进入路由器管理页面，看看是否能够正常进入管理页面宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 如果可以，那就基本没问题了，可以进行下一步操作
+
+3.先拔出电源，网线直连电脑，然后按着Reset键，插上电源，之后继续按5秒，然后松开，在浏览器中输入192.168.1.1，进入BREED系统
+▲▲▲此步骤比较复杂，建议大家看看视频，跟着视频操作，就很好懂了
+
+
+---------------------------------
+https://www.right.com.cn/forum/thread-251896-1-1.html
+ 【2017-09-01】极路由B70 免开发者开启ROOT权限(已失效)  
+
+附件：
+解压密码：qazwsc
+2.zip (231 Bytes,
+
+-----------------------------------
+https://www.right.com.cn/forum/thread-320772-1-1.html
+
+极路由免root，免开发者模式安装ss插件
+-------------------------------------
+代码：mtd -r write /tmp/breed-mt7621-hiwifi-hc5962.bin u-boot
+极4和极路由B70固件是相同的可以通用，新路由也可以参考此方法（固件不同）
+BreedWeb：
+https://www.right.com.cn/forum/thread-161906-1-1.html
+杂交固件：
+https://www.right.com.cn/forum/thread-338343-1-1.html
+
+-------------------------------------------
+
+https://www.right.com.cn/forum/thread-4050107-1-1.html
+
+ 【2021-9-22】极路由4增强&B70 Openwrt |帕斯沃|小猫咪|插件全面|精美主题| 
+
+管理地址：192.168.5.1     初始管理密码：password  
+
+刷入教程：
+先从Breed刷入底包固件openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin（网盘里有），
+再从openwrt管理页面刷写本固件（步骤：系统-备份/升级--选择文件--刷写固件）。
+
+固件下载地址：  
+
+
+小碗儿数码   http://wwang.pw:85/
+https://pan.wwang.pw/
+
+onedrive网盘
+http://p.wwang.pw:199/
+密码：131186646
+192.168.5.1
+
+
+
+http://pan.xiaowansm.top:188/1/main/%F0%9F%94%A5OpenWrt_LEAN%E7%89%88%EF%BC%88%E7%9C%8B%E4%B8%8D%E6%87%82%E7%9A%84%E5%B0%B1%E7%82%B9%E5%BC%80%E6%AD%A4%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89/%E6%9E%81%E8%B7%AF%E7%94%B1HC5962
+-----------------------------------
+
+https://blog.csdn.net/sanshuei/article/details/114108513
+极路由云平台倒闭，路由器免插件离线ROOT方法
+步骤
+
+1. 点击  获取local_token
+
+注意该网页不要关闭，后续获得 cloud token，填入并提交，即可临时获得ssh权限
+
+即：http://192.168.199.1/local-ssh/
+
+2. 点击 获取uuid
+
+即：http://192.168.199.1/cgi-bin/turbo/proxy/router_info
+
+返回是json数据，见“uuid”字段信息
+
+3. 回到 http://www.hiwifi.wtf/
+
+填入 local token 和 uuid 信息，提交可见 cloud token 信息
+
+4. 回到 http://192.168.199.1/local-ssh/ 的页面，填入上面的 cloud token 提交，即可有提示
+
+Success: ssh port is 22
+
+5. 可成功ssh（用户名：root，密码：路由器管理密码），不过是临时ssh权限，此时退出ssh后，就不能继续，所以需要执行命令永久开启ssh
+
+/etc/init.d/dropbear enable && /etc/init.d/dropbear start
+
+
+
