@@ -1,8 +1,8 @@
 https://post.smzdm.com/p/akxwr6l9/
 
-��BIOS������Ҫ���룬Ĭ����zte-ct
+进BIOS设置需要密码，默认是zte-ct
 
-BIOS���úܶ࣬������չʾ�������õ�ѡ��λ�ã���һ����Advanced�����IDE Configuration����Ҫ��SATAģʽ��ΪAHCI��legacy��uefi�Ϳ��㰲װʲôϵͳ�ˣ�win7�����µ�ϵͳ����ѡlegacy�������� ESC ���������˵���ѡ�ڶ��� Boot Manager ���Կ���ѡ���һ�����豸��ѡ���� SCU ���� BIOS ���á�
+BIOS设置很多，这里我展示几个常用的选项位置，第一个是Advanced里面的IDE Configuration，需要把SATA模式改为AHCI，legacy和uefi就看你安装什么系统了，win7及以下的系统都是选legacy。开机按 ESC 进入启动菜单，选第二个 Boot Manager 可以快速选择第一启动设备，选最后的 SCU 就是 BIOS 设置。
 
 
 
