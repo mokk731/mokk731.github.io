@@ -13,11 +13,11 @@
 
 #### [一些关于红米的隐藏小功能](https://mokk731.github.io/txt/一些关于红米的隐藏小功能.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [中兴B860a](https://mokk731.github.io/txt/中兴B860a.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [中兴CT340](https://mokk731.github.io/txt/中兴CT340.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [中兴E8820S](https://mokk731.github.io/txt/中兴E8820S.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
