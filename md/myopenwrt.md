@@ -11,7 +11,7 @@
 
 #### [在Docker 中运行 OpenWrt 旁路网关](https://mokk731.github.io/txt/在Docker中运行OpenWrt旁路网关.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [AdGuardHome去广告OpenWRT](https://mokk731.github.io/txt/AdGuardHome去广告OpenWRT.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
