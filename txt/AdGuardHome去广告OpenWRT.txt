@@ -1,5 +1,5 @@
 https://gitee.com/halflife/list/raw/master/ad.txt
-ad.txt£º[ÍÆ¼öÒÆ¶¯¶Ë]ºÏ²¢×Ô³Ë·çÊÓÆµ¹ã¸æ¹ıÂË¹æÔò¡¢EasylistChina¡¢EasylistLite¡¢CJX'sAnnoyance£¬ÒÔ¼°²¹³äµÄÒ»Ğ©¹æÔò    ABP/ublock¶©ÔÄ¹æÔò
+ad.txtï¼š[æ¨èç§»åŠ¨ç«¯]åˆå¹¶è‡ªä¹˜é£è§†é¢‘å¹¿å‘Šè¿‡æ»¤è§„åˆ™ã€EasylistChinaã€EasylistLiteã€CJX'sAnnoyanceï¼Œä»¥åŠè¡¥å……çš„ä¸€äº›è§„åˆ™    ABP/ublockè®¢é˜…è§„åˆ™
 
 
 
@@ -14,7 +14,7 @@ https://easylist-downloads.adblockplus.org/easylistchina.txt
 
 
 
-*ÉÏÓÎDNS·şÎñÆ÷ÁĞ±í:
+*ä¸Šæ¸¸DNSæœåŠ¡å™¨åˆ—è¡¨:
 
 119.29.29.29
 
@@ -56,11 +56,12 @@ https://dns.cloudflare.com/dns-query
 
 ----------------------------
 https://www.right.com.cn/FORUM/thread-4090928-1-1.html
-À´°É£¬AdGuardHomeÈ¥¹ã¸æºÍDNSÕıÈ·×ËÊÆ
+æ¥å§ï¼ŒAdGuardHomeå»å¹¿å‘Šå’ŒDNSæ­£ç¡®å§¿åŠ¿
 
 
-ÖØ¶¨Ïò53¶Ë¿Úµ½AdGuardHome  *****
+é‡å®šå‘53ç«¯å£åˆ°AdGuardHome  *****
 
-ÎÒ¸öÈËÒ»Ö±Ê¹ÓÃµÄ53¶Ë¿ÚÌæ´údnsmasq£¬Ã»É¶¸½×÷ÓÃ£¬Í¦ºÃµÄ£¬¶øÇÒÕâÖÖÅäÖÃ·½·¨Ò²ÊÊºÏdockerºÍlinux°²×°AdGuardHome
+æˆ‘ä¸ªäººä¸€ç›´ä½¿ç”¨çš„53ç«¯å£æ›¿ä»£dnsmasqï¼Œæ²¡å•¥é™„ä½œç”¨ï¼ŒæŒºå¥½çš„ï¼Œè€Œä¸”è¿™ç§é…ç½®æ–¹æ³•ä¹Ÿé€‚åˆdockerå’Œlinuxå®‰è£…AdGuardHome
 
-ÖØ¶¨Ïò¹´Ñ¡²¢Æô¶¯AdGuardHomeºó»á×Ô¶¯¸ÄĞ´dnsmasqµÄDHCP/DNSÅäÖÃ×ª·¢¡£Ò»°ã¶¼ÊÇ  127.0.0.1#ÄãµÄ×Ô¶¨Òå¶Ë¿Ú£¬
+é‡å®šå‘å‹¾é€‰å¹¶å¯åŠ¨AdGuardHomeåä¼šè‡ªåŠ¨æ”¹å†™dnsmasqçš„DHCP/DNSé…ç½®è½¬å‘ã€‚ä¸€èˆ¬éƒ½æ˜¯  127.0.0.1#ä½ çš„è‡ªå®šä¹‰ç«¯å£ï¼Œ
+
