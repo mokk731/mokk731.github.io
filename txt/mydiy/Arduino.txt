@@ -1,20 +1,19 @@
 https://zhuanlan.zhihu.com/p/107804270
-ESP32¸ÅÊöÓëArduinoÈí¼ş×¼±¸ | ESP32Ñ§Ï°Ö®ÂÃ-Arduino°æ
+ESP32æ¦‚è¿°ä¸Arduinoè½¯ä»¶å‡†å¤‡ | ESP32å­¦ä¹ ä¹‹æ—…-Arduinoç‰ˆ
 
 
-Arduino½Ì³Ì»ã×ÜÌù£¨2020.2.2¸üĞÂ£©
+Arduinoæ•™ç¨‹æ±‡æ€»è´´ï¼ˆ2020.2.2æ›´æ–°ï¼‰
 https://www.arduino.cn/thread-1066-1-1.html
 
-Èí¼şÖĞĞÄ
+è½¯ä»¶ä¸­å¿ƒ
 https://www.arduino.cn/resource.php
 
 
-Arduino ÍøÅÌ×ÊÁÏ
+Arduino ç½‘ç›˜èµ„æ–™
 https://arduino.nxez.com/download
 
 
-arduino°É
+arduinoå§
 https://tieba.baidu.com/f?kw=arduino&ie=utf-8&tab=good
-
 
 
