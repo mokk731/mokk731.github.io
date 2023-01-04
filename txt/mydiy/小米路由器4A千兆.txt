@@ -1,85 +1,86 @@
 https://www.right.com.cn/FORUM/thread-4411791-1-1.html
 
-С��4A��r4a��ǧ��·����ˢ�̼�֮С��ƪ 
+小米4A（r4a）千兆路由器刷固件之小白篇 
 
-���ȡ�׼������
-������: https://pan.baidu.com/s/1ZQBqeANrYO7wwwIfZCOS8A
-��ȡ�룺 rf7j��
+首先、准备下载
+（链接: https://pan.baidu.com/s/1ZQBqeANrYO7wwwIfZCOS8A
+提取码： rf7j）
 
-1. breed�ļ�(breed-mt7621-pbr-m1.bin)
-2. putty����
-3. python����
-4. С��4Aǧ�װ�r4a�Ĺ̼��ļ�
+1. breed文件(breed-mt7621-pbr-m1.bin)
+2. putty软件
+3. python软件
+4. 小米4A千兆版r4a的固件文件
 5. WinSCP
-6��OpenWRTInvasion-0.0.3�������д��ȡ��С��·������root��
+6、OpenWRTInvasion-0.0.3（大神编写的取得小米路由器的root）
 
-һ��ȡ��rootȨ�ޣ�С��·����Ĭ��IP192.168.31.1��
+一、取得root权限（小米路由器默认IP192.168.31.1）
 
-1��·������������״̬
-�������߲���·��lan�ڣ�ip��ַ�����Զ���ȡ
+1、路由器正常联网状态
+电脑网线插入路由lan口，ip地址设置自动获取
 
-2������·����192.168.31.1��ȡ��stokֵ���ڵ�5�����룬��Ҫ�رմ˴��ڣ�
-
-
-3����װpython ע�⣺��װ��ʱ��һ��Ҫ��ѡadd python 3.x.xto path����
+2、进入路由器192.168.31.1，取得stok值（在第5步填入，不要关闭此窗口）
 
 
+3、安装python 注意：安装的时候一定要勾选add python 3.x.xto path！！
 
-4��win+R ���� cmd �������
 
-����������������
-python -m pipinstall --upgrade pip ��#����pip���£�
+
+4、win+R 输入 cmd 打开命令窗口
+
+依次运行以下命令
+python -m pipinstall --upgrade pip （#升级pip最新）
 pip installpycryptodome
 pip installrequests
 
-5����OpenWRTInvasion-0.0.3�ļ��У��ڵ�ַ������cmd
+5、打开OpenWRTInvasion-0.0.3文件夹，在地址栏输入cmd
 
 
-��������
+运行命令
 pythonremote_command_execution_vulnerability.py
 
 
 
-6����װPutty����
+6、安装Putty软件
 
 
 
 
-ѡopen������root
+选open后输入root
 
 
-���ˣ�·����root�ɹ���
+至此，路由器root成功。
 
-�ڶ�ˢ��breed��������
+第二刷入breed（不死鸟）
 
-��װWinSCP
-��winscp����·�ɣ�ftpЭ�飬ip��ַ192.168.31.1���˺�root����գ���breed�ļ��ϴ���tmp�ļ�����
+安装WinSCP
+用winscp登入路由，ftp协议，ip地址192.168.31.1，账号root密码空，把breed文件上传到tmp文件夹内
 
 
-�����������
+输入以下命令：
 cd /tmp
 mtd -r writebreed-mt7621-pbr-m1.bin Bootloader
 
-����ˢ��̼�����С��4Aǧ�װ棩
+第三刷入固件。（小米4A千兆版）
 
-�������192.168.1.1����ָ�̨������eeprom�͹̼�����ͼmac��ַ��ˢдopenwrt�̼���
-���й̼�, Ȼ��С��4A�Ĺ̼��ļ�(������openwrt-ramips-mt7621-xiaomi_r4a-squashfs-sysupgrade.bin�ļ�)�����ϴ�, Ȼ����ɹ̼���������. ���¹����벻Ҫ�ж�·�ɵ�Դ! ������ɺ�, ҳ�沢�����Զ�ˢ��, �Լ������ܷ����·������ҳ��.
-���ﲢû�й�ѡBootloader, ��Ϊ�����ˢ��breed, û��Ҫ.
+浏览器打开192.168.1.1进入恢复台，备份eeprom和固件，截图mac地址，刷写openwrt固件。
+勾中固件, 然后将小米4A的固件文件(这里是openwrt-ramips-mt7621-xiaomi_r4a-squashfs-sysupgrade.bin文件)进行上传, 然后完成固件更新流程. 更新过程请不要切断路由电源! 更新完成后, 页面并不会自动刷新, 自己尝试能否进入路由配置页面.
+这里并没有勾选Bootloader, 因为上面才刷入breed, 没必要.
 
-����С��4A�̼�����˳�����!
+至此小米4A固件更新顺利完成!
 
 
 -----------------------
 
 https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=4007071
 
-������̳�����ṩ���ļ����������������ӣ�
+下载论坛大佬提供的文件（以下是下载链接）
 
-breed-mt7621-pbr-m1.bin���ص�ַ������ļ���telnet��ʱ���õ�,����ļ������ڹ��ڿ������أ����������أ��ҵĸ���δ�ṩ���ļ���
+breed-mt7621-pbr-m1.bin下载地址（这个文件是telnet的时候用的,这个文件可以在国内快速下载，请自行下载，我的附件未提供该文件）
 
     https://breed.hackpascal.net/breed-mt7621-pbr-m1.bin
 
 
-MT7621_7603_7612_128M_3.4.3.9-099.trx���ص�ַ �����������������Ӳ�һ�������ǽ��뵽breed�󣬺�eeprom.bin һ���ϴ���·�������µģ�
+MT7621_7603_7612_128M_3.4.3.9-099.trx下载地址 （看清楚和上面的连接不一样，这是进入到breed后，和eeprom.bin 一起上传到路由器更新的）
 
     https://opt.cn2qq.com/padavan/MT7621_7603_7612_128M_3.4.3.9-099.trx
+    
