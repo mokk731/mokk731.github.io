@@ -1,4 +1,4 @@
- Ê÷İ®ÅÉ»ùÓÚARMµÄÎ¢ĞÍµçÄÔÖ÷°å  Raspberry Pi
+ æ ‘è“æ´¾åŸºäºARMçš„å¾®å‹ç”µè„‘ä¸»æ¿  Raspberry Pi
 https://www.raspberrypi.org/software/operating-systems/
 http://www.raspbian.org/
 
@@ -10,72 +10,72 @@ http://www.shumeipai.net/resource.php?mod=category&catid=2
 BroadcomBCM2711
 
 
-Putty  ÓÃSSHµÇÈë
-Ê÷İ®ÅÉ VNC Viewer Ô¶³Ì×ÀÃæ
+Putty  ç”¨SSHç™»å…¥
+æ ‘è“æ´¾ VNC Viewer è¿œç¨‹æ¡Œé¢
 
 
-lede¸úopenwrtºÏ²¢ÁË
-ÍêÕû°²×°Ò»¸öĞèÒªHTTPSÖ§³ÖµÄLuCI:
+ledeè·Ÿopenwrtåˆå¹¶äº†
+å®Œæ•´å®‰è£…ä¸€ä¸ªéœ€è¦HTTPSæ”¯æŒçš„LuCI:
 
 koolshare.cn
 
-win32diskiamger°Ñ¾µÏñĞ´Èëµ½sd¿¨ÉÏ
+win32diskiamgeræŠŠé•œåƒå†™å…¥åˆ°sdå¡ä¸Š
 
-Ê¹ÓÃ Etcher ¸ø SD ¿¨°²×°Ê÷İ®ÅÉÏµÍ³
+ä½¿ç”¨ Etcher ç»™ SD å¡å®‰è£…æ ‘è“æ´¾ç³»ç»Ÿ
 
-zerotier ÓÃÀ´ÄÚÍø´©Í¸
+zerotier ç”¨æ¥å†…ç½‘ç©¿é€
 
-Raspberry Pi²Ù×÷ÏµÍ³  
-
-
-Ê÷İ®ÅÉ¿ªÆôSSHµÄNÖÖ·½·¨
-1ÔÚÃüÁîĞĞÊäÈë£ºsudo /etc/init.d/ssh start
-2½«SD¿¨Á¬½Óµ½µçÄÔÉÏ²¢´ò¿ª£¬bootÅÌÖ±½ÓĞÂ½¨¡°SSH¡±ÎÄ¼ş
-3.ÔÚÃüÁîĞĞÊäÈë£ºsudo raspi-config    -- 5 Interfacing Options
+Raspberry Piæ“ä½œç³»ç»Ÿ  
 
 
+æ ‘è“æ´¾å¼€å¯SSHçš„Nç§æ–¹æ³•
+1åœ¨å‘½ä»¤è¡Œè¾“å…¥ï¼šsudo /etc/init.d/ssh start
+2å°†SDå¡è¿æ¥åˆ°ç”µè„‘ä¸Šå¹¶æ‰“å¼€ï¼Œbootç›˜ç›´æ¥æ–°å»ºâ€œSSHâ€æ–‡ä»¶
+3.åœ¨å‘½ä»¤è¡Œè¾“å…¥ï¼šsudo raspi-config    -- 5 Interfacing Options
 
 
 
-ÇëÊäÈëÓÃ»§Ãû£ºpi£¬ÃÜÂë£ºraspberry 
+
+
+è¯·è¾“å…¥ç”¨æˆ·åï¼špiï¼Œå¯†ç ï¼šraspberry 
 
 sudo raspi-config
 
 vncserver
 
-°²È«¹Ø»úÖØÆô
+å®‰å…¨å…³æœºé‡å¯
 sudo halt
 
 sudo reboot
 
 
 
-°æ±¾
+ç‰ˆæœ¬
 uname -a
 cat /etc/issue
 
 
 
-ÎÂ¶È
+æ¸©åº¦
 cat /sys/class/thermal/thermal_zone0/temp
 
 
 -----------------------------------------------------
-¿ªÏäÉÏÊÖ½Ì³Ì
+å¼€ç®±ä¸Šæ‰‹æ•™ç¨‹
 http://shumeipai.nxez.com/hot-explorer#beginner
 
-×î³£ÓÃµÄÊ÷İ®ÅÉ Linux ÃüÁî¼°ËµÃ÷
+æœ€å¸¸ç”¨çš„æ ‘è“æ´¾ Linux å‘½ä»¤åŠè¯´æ˜
 http://shumeipai.nxez.com/2019/02/14/the-most-common-raspberry-pi-commands-and-what-they-do.html
 
 
-54Ê÷İ®ÅÉVNCÎŞ·¨ÏÔÊ¾×ÀÃæ
+54æ ‘è“æ´¾VNCæ— æ³•æ˜¾ç¤ºæ¡Œé¢
 https://www.cnblogs.com/kekeoutlook/p/12272705.html
 
 https://downloads.openwrt.org/
 
 
 
-±à¼­ /etc/apt/sources.list ÎÄ¼ş£¬É¾³ıÔ­ÎÄ¼şËùÓĞÄÚÈİ£¬ÓÃÒÔÏÂÄÚÈİÈ¡´ú£º
+ç¼–è¾‘ /etc/apt/sources.list æ–‡ä»¶ï¼Œåˆ é™¤åŸæ–‡ä»¶æ‰€æœ‰å†…å®¹ï¼Œç”¨ä»¥ä¸‹å†…å®¹å–ä»£ï¼š
 
 #
 sudo nano /etc/apt/sources.list
@@ -106,11 +106,11 @@ sudo apt-get update
 sudo apt-get upgrade
 
 
-ÇåÀíÏµÍ³
+æ¸…ç†ç³»ç»Ÿ
 
-sudo apt-get clean      #×Ô¶¯ÇåÀíapt-cache
-sudo apt-get autoclean  #ÇåÀí²¿·Ö²»ÔÙÊ¹ÓÃµÄÈí¼ş°ü
-sudo apt-get autoremove #Çå³ıËùÓĞÎ´Ê¹ÓÃµÄÒÀÀµÏî
+sudo apt-get clean      #è‡ªåŠ¨æ¸…ç†apt-cache
+sudo apt-get autoclean  #æ¸…ç†éƒ¨åˆ†ä¸å†ä½¿ç”¨çš„è½¯ä»¶åŒ…
+sudo apt-get autoremove #æ¸…é™¤æ‰€æœ‰æœªä½¿ç”¨çš„ä¾èµ–é¡¹
 ---------------------------
 
 http://192.168.10.10:8181
@@ -120,40 +120,40 @@ http://192.168.10.10:9000
 
 
 
-ÈçºÎÔÚÊ÷İ®ÅÉÉÏÃæÅÜDocker  ÏÂÔØÓÃdocker´ò°üºÃµÄqBittorrent£¬²¢ÇÒÔÚdockerÉÏÃæÔËĞĞËü
+å¦‚ä½•åœ¨æ ‘è“æ´¾ä¸Šé¢è·‘Docker  ä¸‹è½½ç”¨dockeræ‰“åŒ…å¥½çš„qBittorrentï¼Œå¹¶ä¸”åœ¨dockerä¸Šé¢è¿è¡Œå®ƒ
 https://zhuanlan.zhihu.com/p/107061904
 username: admin password: adminadmin
 
 
 
-Ê÷İ®ÅÉÉÏ Docker µÄ°²×°ºÍÊ¹ÓÃ
+æ ‘è“æ´¾ä¸Š Docker çš„å®‰è£…å’Œä½¿ç”¨
 https://shumeipai.nxez.com/2019/05/20/how-to-install-docker-on-your-raspberry-pi.html
 
-Ê÷İ®ÅÉ£¨ÒÔ¼°¸÷ÖÖÅÉ£©Ê¹ÓÃÖ¸ÄÏ
+æ ‘è“æ´¾ï¼ˆä»¥åŠå„ç§æ´¾ï¼‰ä½¿ç”¨æŒ‡å—
 https://zhuanlan.zhihu.com/p/77585297
 
 
-Ê÷İ®ÅÉ¹ÒÔØÓ²ÅÌ
+æ ‘è“æ´¾æŒ‚è½½ç¡¬ç›˜
 https://zhuanlan.zhihu.com/p/137711099
 
-ÀûÓÃÊ÷İ®ÅÉºÍÏĞÖÃÓ²ÅÌ£¬´î½¨Æğ¼ÒÖĞµÄ¸öÈËÍøÅÌ
+åˆ©ç”¨æ ‘è“æ´¾å’Œé—²ç½®ç¡¬ç›˜ï¼Œæ­å»ºèµ·å®¶ä¸­çš„ä¸ªäººç½‘ç›˜
 https://zhuanlan.zhihu.com/p/64055553
 
-Ê÷İ®ÅÉ£ºÓ²ÅÌĞİÃß   °²×°ºÍÅäÖÃ hd-idle
+æ ‘è“æ´¾ï¼šç¡¬ç›˜ä¼‘çœ    å®‰è£…å’Œé…ç½® hd-idle
 https://blog.csdn.net/weixin_33725515/article/details/94573745
 
 ---------------------------------------------------------------------
-Ê÷İ®ÅÉ4b+OMV 5¼ÒÍ¥NAS´î½¨Ìø¿Ó¼ÇÂ¼
+æ ‘è“æ´¾4b+OMV 5å®¶åº­NASæ­å»ºè·³å‘è®°å½•
 https://zhuanlan.zhihu.com/p/263836823
 
 OpenMediaVault(OMV)
 
-ÔÚÄãµÄµçÄÔµÇÂ½ÉÏÃæ¸øµÄIP£¬¾Í»á³öÕâ¸ö½çÃæ£¬ÌîÈëÓÃ»§ÃûºÍÃÜÂë£¬Õâ¾ÍÊÇOMVµÄwebUI£¬ Ñ¡ÔñÓïÑÔ£º¼òÌåÖĞÎÄ
-ÓÃ»§Ãû£ºadmin
-ÃÜ¡¡Âë£ºopenmediavault
+åœ¨ä½ çš„ç”µè„‘ç™»é™†ä¸Šé¢ç»™çš„IPï¼Œå°±ä¼šå‡ºè¿™ä¸ªç•Œé¢ï¼Œå¡«å…¥ç”¨æˆ·åå’Œå¯†ç ï¼Œè¿™å°±æ˜¯OMVçš„webUIï¼Œ é€‰æ‹©è¯­è¨€ï¼šç®€ä½“ä¸­æ–‡
+ç”¨æˆ·åï¼šadmin
+å¯†ã€€ç ï¼šopenmediavault
 
 
-¸üĞÂ
+æ›´æ–°
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo rm -f /etc/systemd/network/99-default.link
@@ -161,12 +161,12 @@ sudo reboot
 
 
 
-Ö±½ÓÖ´ĞĞOMVµÄ°²×°½Å±¾»áÊ§°Ü£¬Á¬½Ó²»ÉÏ·şÎñÆ÷£¬Òò´ËĞèÒª¸Ähosts£¬/etc/hosts  Ôö¼ÓÒ»ĞĞ£º
+ç›´æ¥æ‰§è¡ŒOMVçš„å®‰è£…è„šæœ¬ä¼šå¤±è´¥ï¼Œè¿æ¥ä¸ä¸ŠæœåŠ¡å™¨ï¼Œå› æ­¤éœ€è¦æ”¹hostsï¼Œ/etc/hosts  å¢åŠ ä¸€è¡Œï¼š
 
 151.101.56.133 raw.githubusercontent.com
 
 
-sshÖ´ĞĞOMV°²×°½Å±¾£º
+sshæ‰§è¡ŒOMVå®‰è£…è„šæœ¬ï¼š
 
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
@@ -174,15 +174,12 @@ wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/
 
 
 
-Ê÷İ®ÅÉ Learning 002 ×°»úºóµÄ±ØÒª²Ù×÷ --- 04 Ìí¼ÓÈí¼şÔ´ Ö® Ìí¼Ó¹«Ô¿ --- ½â¾ö¡°ÓÉÓÚÃ»ÓĞ¹«Ô¿£¬ÎŞ·¨ÑéÖ¤ÏÂÁĞÇ©Ãû¡±ÎÊÌâ...
+æ ‘è“æ´¾ Learning 002 è£…æœºåçš„å¿…è¦æ“ä½œ --- 04 æ·»åŠ è½¯ä»¶æº ä¹‹ æ·»åŠ å…¬é’¥ --- è§£å†³â€œç”±äºæ²¡æœ‰å…¬é’¥ï¼Œæ— æ³•éªŒè¯ä¸‹åˆ—ç­¾åâ€é—®é¢˜...
 https://blog.csdn.net/weixin_30487701/article/details/95549910?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.control
 
 gpg --keyserver pgpkeys.mit.edu --recv-keys Pubkey_After_8
 gpg --export --armor Pubkey_After_8 | sudo apt-key add -
 
-331F7F50
-
-B7D453EC
 
 -----------------------------------------
 
@@ -192,7 +189,7 @@ B7D453EC
 
 
 
-²é¿´¹ÒÔØµÄ´ÅÅÌ»òÕßÂß¼­¾í
+æŸ¥çœ‹æŒ‚è½½çš„ç£ç›˜æˆ–è€…é€»è¾‘å·
 
 df -h 
 
@@ -289,17 +286,17 @@ bltavares/zerotier:1.6.2-2
 
 
 
-¼ÓÈëÍøÂç  ½øÈëdocker
+åŠ å…¥ç½‘ç»œ  è¿›å…¥docker
 
 zerotier-cli join 17d709436c2aa99f
 
-¼ì²éÍøÂç
+æ£€æŸ¥ç½‘ç»œ
 
 zerotier-cli  info
 
 zerotier-cli listnetworks
 
-Àë¿ªÍøÂç
+ç¦»å¼€ç½‘ç»œ
 zerotier-cli leave Network ID
 
 
@@ -336,12 +333,12 @@ docker run
 
 docker stats --no-stream
 
--m 8M ÏŞÖÆ×î¶àÕ¼ÓÃ8MBÄÚ´æ,Èç¹û²»Ö§³Ö,ÇëĞŞ¸Ä/etc/default/grubÏÂµÄGRUB_CMDLINE_LINUX,Ìí¼Ócgroup_enable=memory swapaccount=1,È»ºóupdate-grub,×îºóÖØÆô.
+-m 8M é™åˆ¶æœ€å¤šå ç”¨8MBå†…å­˜,å¦‚æœä¸æ”¯æŒ,è¯·ä¿®æ”¹/etc/default/grubä¸‹çš„GRUB_CMDLINE_LINUX,æ·»åŠ cgroup_enable=memory swapaccount=1,ç„¶åupdate-grub,æœ€åé‡å¯.
 GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
 
 
 
-Ä¬ÈÏÇé¿öÏÂ£¬ÈİÆ÷ÄÚ´æºÍ swap µÄÊ¹ÓÃÊÇÃ»ÓĞÏŞÖÆµÄ£¨Ïàµ±ÓÚÁ½¸ö²ÎÊı¶¼ÉèÎª -1£©¡£
+é»˜è®¤æƒ…å†µä¸‹ï¼Œå®¹å™¨å†…å­˜å’Œ swap çš„ä½¿ç”¨æ˜¯æ²¡æœ‰é™åˆ¶çš„ï¼ˆç›¸å½“äºä¸¤ä¸ªå‚æ•°éƒ½è®¾ä¸º -1ï¼‰ã€‚
 
-Èç¹ûÔÚÆô¶¯ÈİÆ÷ÊÇÖ»Ö¸¶¨ -m ¶ø²»Ö¸¶¨ --memory-swap£¬ÄÇÃ´ --memory-swap Ä¬ÈÏÎª -m µÄÁ½±¶¡£±ÈÈçÏÂÃæÈİÆ÷×î¶àÊ¹ÓÃ 200MB µÄÎïÀíÄÚ´æºÍ 200MB µÄ swap£º
+å¦‚æœåœ¨å¯åŠ¨å®¹å™¨æ˜¯åªæŒ‡å®š -m è€Œä¸æŒ‡å®š --memory-swapï¼Œé‚£ä¹ˆ --memory-swap é»˜è®¤ä¸º -m çš„ä¸¤å€ã€‚æ¯”å¦‚ä¸‹é¢å®¹å™¨æœ€å¤šä½¿ç”¨ 200MB çš„ç‰©ç†å†…å­˜å’Œ 200MB çš„ swapï¼š
 
