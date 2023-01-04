@@ -5,13 +5,13 @@
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [Arduino](https://mokk731.github.io/txt/Arduino.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [CM201-1CH](https://mokk731.github.io/txt/CM201-1CH.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [【TWRP】使用adb sideload线刷ROM的方法](https://mokk731.github.io/txt/【TWRP】使用adb sideload线刷ROM的方法.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [一些关于红米的隐藏小功能](https://mokk731.github.io/txt/一些关于红米的隐藏小功能.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
