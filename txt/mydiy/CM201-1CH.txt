@@ -3,41 +3,41 @@ CM201-1 CH
 
 
 
-�㶫CM201-1-YS�����ƽⰲװ�����������̳̣�
+广东CM201-1-YS免拆机破解安装第三方软件教程：
 https://www.znds.com/jc/article/352719-5.html
 
-ZNDS��̳�����ܶ��������ң����app�����ܸ��������ͺŵĺ��Ӱ�װ��������APP��
+ZNDS论坛发布很多利用悟空遥控器app，就能给其他的型号的盒子安装过第三方APP，
 
 -----------------------------
 
 
 
- ħ�ٺ�CM201-1-CH��װ�̳�
+ 魔百盒CM201-1-CH安装教程
 https://www.znds.com/jc/article/649932-5.html
 
- �̼����ص�ַ��
-�������ӣ�https://pan.baidu.com/s/1kzTBsYi_AE8GUVqAXIizXA
-��ȡ�룺tcfs
-�����������ӣ�http://www.xiaobaishuaji.com/rom/479676.html
+ 固件下载地址：
+网盘链接：https://pan.baidu.com/s/1kzTBsYi_AE8GUVqAXIizXA
+提取码：tcfs
+高速下载链接：http://www.xiaobaishuaji.com/rom/479676.html
 
 
-Ȼ��̼���ɫҲ��һ�������
-1������ROOTȨ�ޣ�������ħ�ٺ�CM201-1-CH����S905L2оƬ��
-2������ԭ���̼����ε�wifi������ԭ���̼����ε��г���װ��u�̰�װapk��
-3���޿�����棬��ϵͳ���£����ڱ�ǿ���������޸�dns������ͨ�ã�
-4�������������õ�û�õ������������ٶ�����30%���ϣ���������Ĵ洢�ռ䣻
-5�����õ����г���ȥ��Ӧ�ð�װ���ƣ�ʵ�����ɰ�װ������������
-6��֧�ֿ�������������������������ͯӦ������Ӧ�����ء������Զ�����HDMI�ȸ��ֻ�ʽ���ܣ�
+然后固件特色也是一如既往：
+1、不带ROOT权限，适用于魔百盒CM201-1-CH晶晨S905L2芯片。
+2、调出原厂固件屏蔽的wifi，开放原厂固件屏蔽的市场安装和u盘安装apk；
+3、无开机广告，无系统更新，不在被强制升级；修改dns，三网通用；
+4、大量精简内置的没用的软件，运行速度提升30%以上，多出大量的存储空间；
+5、内置当贝市场；去除应用安装限制，实现自由安装第三方软件！
+6、支持开机自启动、开机密码锁、儿童应用锁、应用隐藏、开机自动进入HDMI等各种花式功能；
 
 
 
- ˢ���̳̣�
-1�����԰�װ����ˢUSB��¼���ߡ�
-2�����º��Ӳ�ͷ����USB��¼���ߣ����غù̼��������ʼ��ˢ�������ϵ㿪ʼ��ť˫��ͷUSB��һͷ����Ժ���USB�ڣ����ݶ̽ӵ㣬�����Ӷ̽����棬ͨ�磬USB����һͷ����ӿ����ڵ�USB�ڡ����̽�-ͨ��-��USB�����Ⱥ�˳�����һ�£�
-ħ�ٺ�CM201-1-CH
-3����ˢ����1%����4%��������ͼ��ɫ�ִ��󣬿ɳ���ȡ����ѡˢ�������Ĳ���falsh�Ͳ���bootloader���������´ӵ�һ����ʼˢ����
-ħ�ٺ�CM201-1-CH
-4����������100%����ʾ��¼�ɹ����ʹ���ˢ���ˣ�Ȼ�������ȵ��ֹͣ���ε�˫��ͷUSB�ߣ��ϵ磬���²��Դ������Ȼ����ָ�����һ�Σ��ɹ���ש���������У�
+ 刷机教程：
+1、电脑安装好线刷USB烧录工具。
+2、拿下盒子插头，打开USB烧录工具，加载好固件，点击开始，刷机软件上点开始按钮双公头USB线一头插电脑后置USB口，根据短接点，用镊子短接闪存，通电，USB线另一头插盒子靠网口的USB口。（短接-通电-连USB步骤先后顺序必须一致）
+魔百盒CM201-1-CH
+3、如刷机到1%或者4%出现如上图红色字错误，可尝试取消勾选刷机软件的擦除falsh和擦除bootloader两处，重新从第一步开始刷机。
+魔百盒CM201-1-CH
+4、进度条到100%，显示烧录成功，就代表刷完了，然后软件先点击停止，拔掉双公头USB线，断电，重新插电源开机，然后请恢复出厂一次，成功救砖，完美运行；
 
 -----------------------------
 7%
@@ -46,7 +46,7 @@ https://www.znds.com/jc/article/649932-5.html
 [23:53:27 334][HUB4-4][Inf]--disk_initial 1
 [23:53:27 335][HUB4-4][Inf]--Send command success
 [23:53:27 425][HUB4-4][Err]--failed:[23:53:27 425][HUB4-4][Err]--Check command return failed
-[23:53:27 734][HUB4-4][Err]--[0x32030201]UBOOT/��ȡ����/DiskInitial�������
+[23:53:27 734][HUB4-4][Err]--[0x32030201]UBOOT/获取返回/DiskInitial命令出错
 [23:53:27 734][HUB4-4][Inf]--Close device handle 0x00000478
 [23:53:39 487][Global][War]--User click stop button
 [23:53:39 490][Global][Inf]--Enable burning 0
@@ -54,47 +54,46 @@ https://www.znds.com/jc/article/649932-5.html
 
 
 
-[00:24:26 839][HUB4-4][Err]--[0x10105004]Romcode/��ʼ��DDR/��ȡ��ʼ�����/���������ش���
+[00:24:26 839][HUB4-4][Err]--[0x10105004]Romcode/初始化DDR/读取初始化结果/命令结果返回错误
 [00:24:26 840][HUB4-4][Inf]--Close device handle 0x0000045c
 [00:24:38 111][Global][War]--User click stop button
 [00:24:38 113][Global][Inf]--Enable burning 0
 
 ---------------------------------
 
-���Ӳ�����ˢ��׿5/6��ֻ��1G�ڴ棬��Ϊ5/6��಻��root��װ���˼���app�ͻῨ�ٵ����Һ��ӵĳ嶯��
-����оƬ��ˢ2%��4%��7%�����������ǹ̼������ԡ�7%��ʱ���Ǳ���̽Ӳ��ܹ�(���粿��Q5�������4%�����֣��̽�ʱ�䳤�˶��˶�����)��
-��ά�Ŀ�ˢ����������ǳ���ϵͳ����Ч�����򲻳����档
-���������ɣ������U����L�ģ�Ӧ����L2��L2B��L3֮��ģ���Ϊ�������
+盒子不建议刷安卓5/6，只有1G内存，因为5/6大多不能root，装不了几个app就会卡顿的有砸盒子的冲动。
+晶晨芯片线刷2%、4%、7%出错，多数是固件包不对。7%有时候是必须短接才能过(比如部分Q5，必须过4%再松手，短接时间长了短了都不熊)。
+创维的卡刷包好像必须是出厂系统才有效，否则不出桌面。
+继续换包吧，你这个U不是L的，应该是L2、L2B、L3之类的，因为带蓝牙嘛。
 
 
-�ҵķ����ǽ�˫ͷUSB�ߣ��Ӻ���һ�˵�5v��Դ��ɲ��ʽ����Щʱ��ӡ���Ϳ��Դﵽ�̽�Ŀ�ģ��޷��Ǹ�����һ���̼����壬��һ���򿪺��ӡ�
-��Щ���ӿ�ʼ��ʱ�����˫ͷUSB�߽o���ӹ��磬��7%ǰ�ٲ��Ϻ��ӵ�Դ����Щ������֮��
-ˢ��7%���£�¥��waenzht������4%���ҲŶϿ���·�㣬��һ��������
-7%�ĺ����������û��ˢʧ�ܵģ��������Σ����պ��ʵ�ʱ�����ǳɹ��Ĺؼ���
+我的方法是将双头USB线，接盒子一端的5v电源搞成插接式，有些时候接、插就可以达到短接目的，无非是给盒子一个刺激脉冲，不一定打开盒子。
+有些盒子开始的时候仅用双头USB线給盒子供电，到7%前再插上盒子电源，有些盒子则反之。
+刷到7%不怕，楼上waenzht朋友在4%左右才断开短路点，是一个道理。
+7%的盒子在我这就没有刷失败的，多来几次，掌握合适的时机，是成功的关键。
 
-�㶫�ƶ������������룺aDm8H%MdA
+广东移动盒子无线密码：aDm8H%MdA
 --------------------
 
 https://blog.csdn.net/fatiaozhang9527/article/details/122006882
-�������cm201-1 cm211-1 s905l3оƬ֧���¿�WiFi����uwe5621 �����ˢ�����̳�
-����:https://pan.baidu.com/s/1f175XLeXJQztxGMgtt-4cQ      ��ȡ��:qviv 
+长虹代工cm201-1 cm211-1 s905l3芯片支持新款WiFi驱动uwe5621 免费线刷包及教程
+链接:https://pan.baidu.com/s/1f175XLeXJQztxGMgtt-4cQ      提取码:qviv 
 
 ------------------------
 *****
 https://blog.csdn.net/fatiaozhang9527/article/details/126043115
 
-�����ƶ�CM201-1-CH _S905L3B-UWE5621DS_��ˢ�̼���
-����: https://pan.baidu.com/s/1PPsUqah1Gf43MYxrCuhjYQ ��ȡ��: vs4j 
+湖北移动CM201-1-CH _S905L3B-UWE5621DS_线刷固件包
+链接: https://pan.baidu.com/s/1PPsUqah1Gf43MYxrCuhjYQ 提取码: vs4j 
 
 
 ------------------------------
 
 https://www.znds.com/tv-1199099-1-1.html
- ����201-1 cm211-1 s905l3оƬ֧�����¿�WiFi����uwe5621 �����ˢ�� 
+ 长虹201-1 cm211-1 s905l3芯片支持最新款WiFi驱动uwe5621 免费线刷包 
 
-�����ˢ����
-���ӣ�https://pan.baidu.com/s/1i6b9PTtXFfsE-0FzSmWQAA
-��ȡ�룺ynub
-
+免费线刷包：
+链接：https://pan.baidu.com/s/1i6b9PTtXFfsE-0FzSmWQAA
+提取码：ynub
 
 
