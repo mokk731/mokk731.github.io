@@ -5,11 +5,20 @@
 
 #### [Arduino](https://mokk731.github.io/txt/mydiy/Arduino.txt)
 
+#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
 
+
+----------------------------------------------------------------
+
+
+#### [小米如何刷入第三方Recovery](https://mokk731.github.io/txt/mydiy/小米如何刷入第三方Recovery.txt)
 
 #### [TWRP使用adb线刷ROM的方法](https://mokk731.github.io/txt/mydiy/TWRP使用adb线刷ROM的方法.txt)
 
+
 #### [一些关于红米的隐藏小功能](https://mokk731.github.io/txt/mydiy/一些关于红米的隐藏小功能.txt)
+
+
 
 
 ----------------------------------------------------------------
@@ -21,7 +30,7 @@
 
 #### [极路由4增强版HC5692路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5692.txt)
 
-#### [小米如何刷入第三方Recovery](https://mokk731.github.io/txt/mydiy/小米如何刷入第三方Recovery.txt)
+
 
 #### [小米路由器4A千兆](https://mokk731.github.io/txt/mydiy/小米路由器4A千兆.txt)
 
@@ -45,7 +54,7 @@
 
 #### [手把手教如何模拟IC加密卡](https://mokk731.github.io/txt/mydiy/手把手教如何模拟IC加密卡.txt)
 
-#### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
+
 
 
 
