@@ -27,11 +27,11 @@
 
 #### [小米电视&小米盒子最强精简教程来袭，免刷机去广告装软件](https://mokk731.github.io/txt/小米电视&小米盒子最强精简教程来袭，免刷机去广告装软件.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [手把手教如何模拟IC加密卡](https://mokk731.github.io/txt/手把手教如何模拟IC加密卡.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [极米Z6](https://mokk731.github.io/txt/极米Z6.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [树莓派](https://mokk731.github.io/txt/树莓派.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
