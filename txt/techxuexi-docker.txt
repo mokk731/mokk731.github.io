@@ -1,0 +1,44 @@
+docker pull techxuexi/techxuexi-amd64:dev89
+
+
+
+docker run \
+  -ti --rm \
+  --name=techxuexi-web \
+  --shm-size="2g" \
+  -e "ZhuanXiang=True" \
+  -e "Pushmode=6" \
+  -p "9980:80" \
+  techxuexi/techxuexi-amd64:dev89
+
+-------------------------------------
+version: "2.1"
+services:
+    techxuexi:
+        image: techxuexi/techxuexi-amd64:dev89
+        container_name: techxuexi-web
+        restart: unless-stopped
+        volumes:
+            - ./xuexi:/xuexi/user
+        # /home/fox1/config/techxuexi
+        ports:
+            - 9980:80
+        shm_size: 2gb
+        environment:
+            - TZ=Asia/Shanghai
+            - WEBUI_PORT=9980
+            - ZhuanXiang=True
+            - Pushmode=4
+            
+            - AccessToken=
+            
+
+            - Scheme=dtxuexi://appclient/page/study_feeds?url=
+            # Scheme=https://techxuexi.js.org/jump/techxuexi-20211023.html?
+            
+            
+            
+          
+
+-------------------------------
+           
