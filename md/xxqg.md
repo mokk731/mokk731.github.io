@@ -43,7 +43,7 @@ python 辅助： https://github.com/TechXueXi/TechXueXi
 Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 
 
-##### [techxuexi-docker](mokk731.github.io/txt/techxuexi-docker.txt) 
+##### [techxuexi-docker](https://mokk731.github.io/txt/techxuexi-docker.txt) 
 
 劝退：DOCKER 最大的方便是点几下手机就可以不用管了，而脚本需要电脑，有时候想起来的时候没有电脑，有电脑了又忘了，适合之前就一直在用 docker 干其他事情的人，不适合专门为此搭建 docker 的人。实际上 docker 版除了不跳出任何网页窗口外，其实也不省事，就算是做好定时任务，或者命令，也得每天拿手机登录一下，而且还没有浏览器插件，或者源码运行的效率高。每天能开电脑的还是用浏览器插件，或者源码运行的比较好。docker 版比较适合有 vps 主机，群辉，软路由之类 24 小时开机的，并且自己爱折腾的小伙伴。
 
