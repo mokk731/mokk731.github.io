@@ -63,13 +63,17 @@ https://hub.docker.com/r/johianse/study_xxqg
 https://hub.docker.com/r/sjkhsl/study_xxqg
 
 docker pull sjkhsl/study_xxqg:v1.0.39
+
 docker pull johianse/study_xxqg:latest
+
+
 
 
 scheme: "https://mokk731.github.io/study_xxqg/scheme.html?"
 
 
 Scheme = https://mokk731.github.io/study_xxqg/login.html?
+
 Scheme = https://techxuexi.js.org/jump/techxuexi-20211023.html?
 
 
