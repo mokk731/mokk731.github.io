@@ -54,6 +54,15 @@ Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 
 https://github.com/johlanse/study_xxqg
 
+
+https://hub.docker.com/r/johianse/study_xxqg
+
+https://hub.docker.com/r/sjkhsl/study_xxqg
+
+docker pull sjkhsl/study_xxqg:v1.0.39
+
+
+
 该项目基于playwright-go 开发，支持windows，linux,mac
 
 文档地址: https://johlanse.shhy.xyz
@@ -78,3 +87,6 @@ windows默认调用系统的edge浏览器，调用目录C:\Program Files (x86)\M
 自定义浏览器支持chromium内核的系列浏览器，但是版本不能太高
 
 例如，我的chrome.exe文件在D盘的browser文件夹下，配置为D:/browser/chrome.exe或者D:\\browser\\chrome.exe
+
+
+mokk731.github.io/study_xxqg/scheme.html
