@@ -1,4 +1,4 @@
-docker pull techxuexi/techxuexi-amd64:dev89
+docker pull techxuexi/techxuexi-amd64:dev86
 
 
 
@@ -9,13 +9,13 @@ docker run \
   -e "ZhuanXiang=True" \
   -e "Pushmode=6" \
   -p "9980:80" \
-  techxuexi/techxuexi-amd64:dev89
+  techxuexi/techxuexi-amd64:dev86
 
 -------------------------------------
 version: "2.1"
 services:
     techxuexi:
-        image: techxuexi/techxuexi-amd64:dev89
+        image: techxuexi/techxuexi-amd64:dev86
         container_name: techxuexi-web
         restart: unless-stopped
         volumes:
