@@ -1,6 +1,6 @@
 ## zerotier
 ----------------------------------------------
-Networks ID: 17d709436c2aa99f
+Networks ID: 17d7XXX???
 
 Managed Routes: 192.168.192.0/24
 
@@ -9,12 +9,12 @@ Name: OMV 17d7_192.168.192.10
 E8820s  192.168.192.1
 
 --------------
-Networks ID: 17d709436c2aa99f
+Networks ID: 17d7XXX???
 
 Openwrt 17d7_192.168.192.0
 
 
-Network ID: 233ccaac27799d82
+Network ID: 233cXXX???
 
 Testnet 233c-192.168.193.0
 
@@ -89,7 +89,7 @@ docker run -d \
 
 加入zerotier网络
 
-docker exec zerotier-one zerotier-cli join 17d709436c2aa99f
+docker exec zerotier-one zerotier-cli join 17d7XXX???
 
 显示 200 join ok 即添加成功
 
