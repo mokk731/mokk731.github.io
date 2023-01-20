@@ -28,6 +28,8 @@
 
 #### [中兴E8820S路由器](https://mokk731.github.io/txt/mydiy/中兴E8820S.txt)
 
+#### [中兴E8820S路由器自制稳定ROM openwrt-zte_e8820s-2022.08.02-1305.bin](https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2022.08.02-1305.bin)
+
 #### [极路由4增强版HC5692路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5692.txt)
 
 
