@@ -99,6 +99,7 @@ zerotier-cli listnetworks
 
 
 ------------------------------------------
+
 https://www.cnblogs.com/sicko/p/10997230.html
 
 bltavares/zerotier:1.6.2-2
@@ -112,6 +113,8 @@ docker run \
 -d -v /var/lib/zerotier-one:/var/lib/zerotier-one \
 --restart unless-stopped \
 bltavares/zerotier:1.6.2-2
+
+------------------------------------------
 
 
 omv:   1.6.5     1.6.6    1.8.4    不正常 ，只有 1.6.2-2 正常.
