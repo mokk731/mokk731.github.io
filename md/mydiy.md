@@ -32,6 +32,7 @@
 
 #### [极路由4增强版HC5692路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5692.txt)
 
+#### [极路由4增强版HC5692路由器自制稳定ROM openwrt-mt7621-hiwifi_hc5962-20221110.bin](https://mokk7310.github.io/Rom/openwrt-mt7621-hiwifi_hc5962-20221110.bin)
 
 
 #### [小米路由器4A千兆](https://mokk731.github.io/txt/mydiy/小米路由器4A千兆.txt)
