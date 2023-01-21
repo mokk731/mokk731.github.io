@@ -289,7 +289,7 @@ bltavares/zerotier:1.6.2-2
 
 加入网络  进入docker
 
-zerotier-cli join 17d709436c2aa99f
+zerotier-cli join 17d7xxx???
 
 检查网络
 
@@ -301,7 +301,7 @@ zerotier-cli listnetworks
 zerotier-cli leave Network ID
 
 
-Networks ID: 17d709436c2aa99f
+Networks ID: 17d7XXX???
 
 
 
