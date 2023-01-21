@@ -239,6 +239,11 @@ curl ip.sb --proxy 192.168.31.1:8888
 
 -----------------------------------------------------------
 
+
+
+# zte_e8820s.config
+
+
 # test  202301
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
