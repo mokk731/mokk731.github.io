@@ -2,6 +2,18 @@
 https://github.com/P3TERX/Actions-OpenWrt
 ---------------
 
+diy-part1.sh
+
+
+echo 'src-git kenzok8openwrt https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git kenzok8small https://github.com/kenzok8/small' >>feeds.conf.default
+
+
+
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
 diy-part2.sh
 
 
@@ -17,22 +29,53 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 # 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 sed -i 's/OpenWrt /编译时间 $(TZ=UTC-8 date "+%Y.%m.%d") @ 博弈江湖 /g' package/lean/default-settings/files/zzz-default-settings
 
-
------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+zte_e8820s-openwrt.yml
  work-flow 文件
 
-yml
+
 #  schedule:
 #    - cron: 0 5 2 2 * ?
 0 15 10 15 * ? 每月15号上午10点15分触发
 
 UPLOAD_FIRMWARE: true
-UPLOAD_RELEASE: false  true
+UPLOAD_RELEASE: false --> true
 
 
 -----------------------------------
 
-luci-theme-material
+----------------------------------
+zte_e8820s-openwrt.yml
+
+--------
+name: zte_e8820s-OpenWrt
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
+        
+  schedule:
+    - cron: 0 1 2 * ?
+
+env:
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
+  FEEDS_CONF: feeds.conf.default
+  CONFIG_FILE: zte_e8820s.config
+  DIY_P1_SH: diy-part1.sh
+  DIY_P2_SH: diy-part2.sh
+  UPLOAD_BIN_DIR: false
+  UPLOAD_FIRMWARE: true
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: false
+  UPLOAD_RELEASE: true
+  TZ: Asia/Shanghai
 ------------------------------------------
 
 -----------------------------------------
