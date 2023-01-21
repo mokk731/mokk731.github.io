@@ -67,11 +67,5 @@
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 
-
-
-## my openwrt rom
-
-#### [openwrt-zte_e8820s-2022.08.02-1305.bin](https://mokk731.github.io/ziprar/openwrt-rom/openwrt-zte_e8820s-2022.08.02-1305.bin)
-
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
