@@ -2,8 +2,6 @@
 
 
 
-
-
 ### VB
 
 #### [msvbvm50.exe](https://mokk731.github.io/ziprar/win-VB-VC/msvbvm50.exe)
@@ -13,10 +11,6 @@
 
 
 #### [迅雷.rar](https://mokk731.github.io/ziprar/win-VB-VC/迅雷.rar)
-
-
-
-
 
 
 
