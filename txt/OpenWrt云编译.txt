@@ -1,7 +1,12 @@
 
 https://github.com/P3TERX/Actions-OpenWrt
 
-
+需要配制：
+diy-part1.sh
+diy-part2.sh
+zte_e8820s.config
+zte_e8820s-openwrt.yml (work-flow 文件)
+ 
 --------------------------------------------
 --------------------------------------------
 
