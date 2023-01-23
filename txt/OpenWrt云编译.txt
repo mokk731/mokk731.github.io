@@ -46,6 +46,7 @@ zte_e8820s-openwrt.yml
 #  schedule:
 #    - cron: 0 5 2 2 * ?
 0 15 10 15 * ? 每月15号上午10点15分触发
+0 20 1 * ?
 
 
 UPLOAD_BIN_DIR: false
@@ -71,7 +72,7 @@ on:
         default: 'false'
         
   schedule:
-    - cron: 0 1 2 * ?
+    - cron: 0 20 1 * ?
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
