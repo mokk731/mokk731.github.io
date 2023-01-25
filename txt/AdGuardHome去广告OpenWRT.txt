@@ -59,9 +59,17 @@ https://www.right.com.cn/FORUM/thread-4090928-1-1.html
 来吧，AdGuardHome去广告和DNS正确姿势
 
 
-重定向53端口到AdGuardHome  *****
+重定向53端口到AdGuardHome  
 
 我个人一直使用的53端口替代dnsmasq，没啥附作用，挺好的，而且这种配置方法也适合docker和linux安装AdGuardHome
 
 重定向勾选并启动AdGuardHome后会自动改写dnsmasq的DHCP/DNS配置转发。一般都是  127.0.0.1#你的自定义端口，
+
+************
+
+1.不需要openwrt自带的dnsmasq，请更改dnsmasq的端口. DHCP/DNS配置-高级设置-DNS服务器端口:5353
+
+2.AdGuardHome-53重定向-使用53端口替换dnsmasq
+
+3.改写dnsmasq的DHCP/DNS配置转发。 DNS转发:  127.0.0.1#53
 
