@@ -1,17 +1,14 @@
 https://gitee.com/halflife/list/raw/master/ad.txt
-ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则    ABP/ublock订阅规则
+ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则 
 
-
+   ABP/ublock订阅规则
 
 
 EasylistChina
 https://easylist-downloads.adblockplus.org/easylistchina.txt
 
 
-
-
 ----------------------------------------------------------------
-
 
 
 *上游DNS服务器列表:
@@ -55,6 +52,12 @@ https://dns.cloudflare.com/dns-query
 
 
 ----------------------------
+
+https://zhuanlan.zhihu.com/p/367840918
+广告再见--AdGuardHome神器
+
+
+
 https://www.right.com.cn/FORUM/thread-4090928-1-1.html
 来吧，AdGuardHome去广告和DNS正确姿势
 
@@ -65,11 +68,23 @@ https://www.right.com.cn/FORUM/thread-4090928-1-1.html
 
 重定向勾选并启动AdGuardHome后会自动改写dnsmasq的DHCP/DNS配置转发。一般都是  127.0.0.1#你的自定义端口，
 
+（这里把逻辑给捊一下，DNS软件或远程DNS服务器解析默认端口都是53，L大的固件默认也是53，而且优先级最高，而openwrt
+
+里的太多设置DNS插件和需要用到dns的插件，怕小白们弄冲突所有上面有把防火墙注销掉，其实明白了原理防火墙那里53优先
+
+配置最好不注销，让AdGuardHome占用53端口，所以建议新手直接把dnsmasq改个端口变相达到弃用的目的，按我的方法执行下
+
+去就变成了让AdGuardHome的DNS配置代替L大默认的dnsmasq）
+
+---------------------------------------------
+
 ************
 
-1.不需要openwrt自带的dnsmasq，请更改dnsmasq的端口. DHCP/DNS配置-高级设置-DNS服务器端口:5353
+1.DHCP/DNS配置-高级设置-DNS服务器端口:5353
 
-2.AdGuardHome-53重定向-使用53端口替换dnsmasq
+2.DHCP/DNS-常规设置-DNS转发:127.0.0.1#53
 
-3.改写dnsmasq的DHCP/DNS配置转发。 DNS转发:  127.0.0.1#53
+3.AdGuardHome-手动设置-dns:port:53
+
+4.AdGuardHome-53重定向-使用的53端口替换dnsmasq
 
