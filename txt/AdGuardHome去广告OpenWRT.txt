@@ -4,7 +4,7 @@ ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChin
    ABP/ublock订阅规则
 
 
-EasylistChina
+EasylistChina    ****
 https://easylist-downloads.adblockplus.org/easylistchina.txt
 
 
@@ -51,6 +51,31 @@ https://dns.adguard.com/dns-query
 https://dns.cloudflare.com/dns-query
 
 
+------------------------------
+上游DNS 
+
+
+119.29.29.29
+
+223.5.5.5
+
+223.6.6.6
+
+tcp://8.8.4.4
+
+https://1.1.1.1/dns-query
+
+
+-------------------------
+
+116.116.116.116
+
+221.5.88.88
+
+119.29.29.29
+223.5.5.5
+
+
 ----------------------------
 
 https://zhuanlan.zhihu.com/p/367840918
@@ -80,11 +105,11 @@ https://www.right.com.cn/FORUM/thread-4090928-1-1.html
 
 ************
 
-1.DHCP/DNS配置-高级设置-DNS服务器端口:5353
+1.DHCP/DNS配置-高级设置-DNS服务器端口:53
 
-2.DHCP/DNS-常规设置-DNS转发:127.0.0.1#53
+2.DHCP/DNS-常规设置-DNS转发:127.0.0.1#533
 
-3.AdGuardHome-手动设置-dns:port:53
+3.AdGuardHome-手动设置-dns:port:533
 
-4.AdGuardHome-53重定向-使用的53端口替换dnsmasq
+4.AdGuardHome-533重定向-作为dnsmasq的上游服务器.   重定向53端口到AdGuardHome
 
