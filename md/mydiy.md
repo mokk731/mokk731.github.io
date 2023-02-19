@@ -60,6 +60,7 @@
 
 #### [极米Z6电视盒子](https://mokk731.github.io/txt/mydiy/极米Z6.txt)
 
+#### [HK1-box电视盒子](https://mokk731.github.io/txt/mydiy/HK1-box.txt)
 
 ----------------------------------------------------------------
 
