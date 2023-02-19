@@ -22,7 +22,7 @@ This is OpenWrt firmware for Amlogic s9xxx tv box
     Default password: password
     Default WIFI name: OpenWrt
     Default WIFI password: none
-    Install to EMMC: Login to OpenWrt ¡ú System ¡ú Amlogic Service ¡ú Install OpenWrt
+    Install to EMMC: Login to OpenWrt â†’ System â†’ Amlogic Service â†’ Install OpenWrt
 
 
 
@@ -43,30 +43,30 @@ These are the Armbian OS image
 
 
 https://www.bilibili.com/video/BV1v44y1G7Lh/
-HK1 box Ë¢ÈëArmbian ²¢°²×°Docker Ë¢armbian µçÊÓºĞ×ÓË¢armbian
+HK1 box åˆ·å…¥Armbian å¹¶å®‰è£…Docker åˆ·armbian ç”µè§†ç›’å­åˆ·armbian
 
 
 https://blog.csdn.net/baidu_41883827/article/details/111570777
-ì³Ñ¶N1Ë¢ArmbianºóÊ¹ÓÃÃüÁîÁ¬½ÓWiFi
+æ–è®¯N1åˆ·Armbianåä½¿ç”¨å‘½ä»¤è¿æ¥WiFi
 
 https://blog.csdn.net/WalterBrien/article/details/128174212
-HK1 BOXË¢Èë ArmbianÏµÍ³×÷Îª·şÎñÆ÷
+HK1 BOXåˆ·å…¥ Armbianç³»ç»Ÿä½œä¸ºæœåŠ¡å™¨
 
 https://www.right.com.cn/forum/thread-5601861-1-1.html
-HK1 BOX Ë¢armbian ³É¹¦
+HK1 BOX åˆ·armbian æˆåŠŸ
 
 
 --------------------------------------------
-½øÈëbootÎÄ¼ş¼Ğ£¬ÕÒµ½uEnv.txt
+è¿›å…¥bootæ–‡ä»¶å¤¹ï¼Œæ‰¾åˆ°uEnv.txt
 
 
-Ñ¡Ôñ¸Ä:
+é€‰æ‹©æ”¹:
 X96 MAX PLUS Q2, X96 Air Q1000  .dtb
 
-²ÅÄÜÕı³£Òıµ¼Æô¶¯.
+æ‰èƒ½æ­£å¸¸å¼•å¯¼å¯åŠ¨.
 
 
-Ë¢ÁËarmbianºó£¬ÔÙË¢OpenWrt£¬¾Í²»³É¹¦.
+åˆ·äº†armbianåï¼Œå†åˆ·OpenWrtï¼Œå°±ä¸æˆåŠŸ.
 ------------------------------------------
 
 1   armbian-install -m no -a yes
@@ -74,26 +74,28 @@ X96 MAX PLUS Q2, X96 Air Q1000  .dtb
 ext4
 
 2   armbian-config 
-    wifi
+    wifi  çº¦1å°æ—¶è‡ªåŠ¨å…³é—­
 
 3   armbian-docker /armbian-docker install
 
-4   #ÏÂÔØ Docker Í¼ĞÎ»¯½çÃæ portainer  2.9.1         
+4   #ä¸‹è½½ Docker å›¾å½¢åŒ–ç•Œé¢ portainer  2.9.1         
     sudo docker pull portainer/portainer-ce:2.9.1
          docker pull portainer/portainer-ce:2.17.0
-    #´´½¨ portainer ÈİÆ÷
+    #åˆ›å»º portainer å®¹å™¨
     sudo docker volume create portainer_data
-    #ÔËĞĞ portainer
-    sudo docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
+    #è¿è¡Œ portainer
+    sudo docker run -d -p 9000:9000 --name portainer --restart always -v     
 
-5   Ìí¼ÓLEDÆÁÄ»ÏÔÊ¾ÖÁ¿ª»ú×ÔÆô¶¯ÈÎÎñ
+/var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
 
-# Armbian ÏµÍ³ÔÚÖÕ¶ËÖ´ĞĞÒÔÏÂÃüÁîÌí¼Ó
+5   æ·»åŠ LEDå±å¹•æ˜¾ç¤ºè‡³å¼€æœºè‡ªå¯åŠ¨ä»»åŠ¡
+
+# Armbian ç³»ç»Ÿåœ¨ç»ˆç«¯æ‰§è¡Œä»¥ä¸‹å‘½ä»¤æ·»åŠ 
 sed -i '/armbian-led/d' /etc/rc.local
 sed -i '/exit 0/i\armbian-led 16' /etc/rc.local
 
 ---------------------------------
-df -h ÏÔÊ¾ÒÑ¾­¹ÒÔØµÄ·ÖÇøÁĞ±í 
+df -h æ˜¾ç¤ºå·²ç»æŒ‚è½½çš„åˆ†åŒºåˆ—è¡¨ 
 
 
 
