@@ -1,0 +1,115 @@
+S905X3  4G+32G
+
+armbian
+
+https://github.com/ophub/amlogic-s9xxx-armbian
+
+https://github.com/ophub/amlogic-s9xxx-openwrt
+
+-----------------
+
+
+
+
+
+OpenWrt_Aml_official_02.10.0038
+
+This is OpenWrt firmware for Amlogic s9xxx tv box
+
+    Firmware information
+    Default IP: 192.168.1.1
+    Default username: root
+    Default password: password
+    Default WIFI name: OpenWrt
+    Default WIFI password: none
+    Install to EMMC: Login to OpenWrt → System → Amlogic Service → Install OpenWrt
+
+
+
+
+
+Armbian_bullseye_02.10.0233
+
+These are the Armbian OS image
+
+    OS information
+    Default username: root
+    Default password: 1234
+    Install command: armbian-install
+    Update command: armbian-update
+
+
+--------------------------------
+
+
+https://www.bilibili.com/video/BV1v44y1G7Lh/
+HK1 box 刷入Armbian 并安装Docker 刷armbian 电视盒子刷armbian
+
+
+https://blog.csdn.net/baidu_41883827/article/details/111570777
+斐讯N1刷Armbian后使用命令连接WiFi
+
+https://blog.csdn.net/WalterBrien/article/details/128174212
+HK1 BOX刷入 Armbian系统作为服务器
+
+https://www.right.com.cn/forum/thread-5601861-1-1.html
+HK1 BOX 刷armbian 成功
+
+
+--------------------------------------------
+进入boot文件夹，找到uEnv.txt
+
+
+选择改:
+X96 MAX PLUS Q2, X96 Air Q1000  .dtb
+
+才能正常引导启动.
+
+
+刷了armbian后，再刷OpenWrt，就不成功.
+------------------------------------------
+
+1   armbian-install -m no -a yes
+506   meson-sm1-hk1box-vontar-x3.dtb
+ext4
+
+2   armbian-config 
+    wifi
+
+3   armbian-docker /armbian-docker install
+
+4   #下载 Docker 图形化界面 portainer  2.9.1         
+    sudo docker pull portainer/portainer-ce:2.9.1
+         docker pull portainer/portainer-ce:2.17.0
+    #创建 portainer 容器
+    sudo docker volume create portainer_data
+    #运行 portainer
+    sudo docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
+
+5   添加LED屏幕显示至开机自启动任务
+
+# Armbian 系统在终端执行以下命令添加
+sed -i '/armbian-led/d' /etc/rc.local
+sed -i '/exit 0/i\armbian-led 16' /etc/rc.local
+
+---------------------------------
+df -h 显示已经挂载的分区列表 
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.7G     0  1.7G   0% /dev
+tmpfs           368M  5.5M  363M   2% /run
+/dev/mmcblk2p2   29G  2.1G   27G   8% /
+tmpfs           1.8G     0  1.8G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.8G   12K  1.8G   1% /tmp
+/dev/mmcblk2p1  252M  102M  150M  41% /boot
+/dev/zram1       49M  2.7M   43M   6% /var/log
+tmpfs           368M     0  368M   0% /run/user/0
+overlay          29G  2.1G   27G   8% /var/lib/docker/overlay2/
+
+
+
+****
+/srv/config/
