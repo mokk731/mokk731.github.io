@@ -57,28 +57,38 @@ HK1 BOX 刷armbian 成功
 
 
 --------------------------------------------
-进入boot文件夹，找到uEnv.txt
+写入U盘引导启动:
 
 
-选择改:
-X96 MAX PLUS Q2, X96 Air Q1000  .dtb
+1,将下载的img文件，用Win32DiskImager，写入U盘.
 
-才能正常引导启动.
+2,进入boot文件夹，找到uEnv.txt
 
 
-刷了armbian后，再刷OpenWrt，就不成功.
+   选择改:
+   X96 MAX PLUS Q2, X96 Air Q1000  .dtb
+
+   才能正常引导启动.
+
+
+   刷了armbian后，再刷OpenWrt，就不成功.
+
+3,将U盘插入离网口最近的USB口，重新上电，即可引导启动，不用牙签插入3.5mm耳机口按压。
+
 ------------------------------------------
+将armbian写入EMMC:
 
-1   armbian-install -m no -a yes
-506   meson-sm1-hk1box-vontar-x3.dtb
-ext4
+1, armbian-install -m no -a yes
 
-2   armbian-config 
+    选  506   meson-sm1-hk1box-vontar-x3.dtb
+    选  ext4
+
+2, armbian-config 
     wifi  约1小时自动关闭
 
-3   armbian-docker /armbian-docker install
+3, armbian-docker /armbian-docker install
 
-4   #下载 Docker 图形化界面 portainer  2.9.1         
+4, #下载 Docker 图形化界面 portainer  2.9.1         
     sudo docker pull portainer/portainer-ce:2.9.1
          docker pull portainer/portainer-ce:2.17.0
     #创建 portainer 容器
@@ -88,11 +98,11 @@ ext4
 
 /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
 
-5   添加LED屏幕显示至开机自启动任务
+5,  添加LED屏幕显示至开机自启动任务
 
-# Armbian 系统在终端执行以下命令添加
-sed -i '/armbian-led/d' /etc/rc.local
-sed -i '/exit 0/i\armbian-led 16' /etc/rc.local
+    Armbian 系统在终端执行以下命令添加
+    sed -i '/armbian-led/d' /etc/rc.local
+    sed -i '/exit 0/i\armbian-led 16' /etc/rc.local
 
 ---------------------------------
 df -h 显示已经挂载的分区列表 
