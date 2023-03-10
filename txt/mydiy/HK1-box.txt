@@ -94,9 +94,7 @@ HK1 BOX 刷armbian 成功
     #创建 portainer 容器
     sudo docker volume create portainer_data
     #运行 portainer
-    sudo docker run -d -p 9000:9000 --name portainer --restart always -v     
-
-/var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
+    sudo docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
 
 5,  添加LED屏幕显示至开机自启动任务
 
@@ -125,3 +123,45 @@ overlay          29G  2.1G   27G   8% /var/lib/docker/overlay2/
 
 ****
 /srv/config/
+
+
+
+-------------------------------
+https://blog.csdn.net/iduzy/article/details/121710923
+N1刷armbian安装SMB做文件共享
+
+
+    修改配置文件/etc/samba/smb.conf，直接覆盖原内容，实现匿名直接连接。
+
+简洁版
+
+[global]
+       workgroup = WORKGROUP
+       security = user
+       map to guest = Bad User
+[media]
+       comment = resources
+       path = /home/public
+       public = yes
+       writable = yes
+       guest ok = yes
+       browseable = yes
+    
+修改目录权限
+    chmod -R 777 /home/public
+    
+
+
+----
+
+重启服务使设定生效
+service smbd restart
+
+启动
+service smbd start
+关闭
+service smbd stop
+查看运行状态
+service smbd status
+开机自启（默认就是开机自启）
+systemctl enable smbd
