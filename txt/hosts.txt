@@ -45,4 +45,4 @@
 # gzads TV
 127.0.0.1   gzads.com
 127.0.0.1   gozendata.com
-127.0.0.1   gz-data.com
+127.0.0.1   gz-data.com  
