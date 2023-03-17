@@ -1,9 +1,9 @@
-# win cmd --- ipconfig /flushdns  
+# win cmd --- ipconfig /flushdns                   notepad C:\Windows\System32\drivers\etc\hosts
 # linux---- sudo /etc/init.d/dns-clean start  
-# openwrt--- /etc/init.d/dnsmasq restart
+# openwrt--- /etc/init.d/dnsmasq restart           vi /etc/myhosts
 
 
-# update 20221018
+# update 202301
 ########################################################################
 
 # Good
@@ -15,9 +15,6 @@
 140.82.113.3     www.github.com
 185.199.108.133  raw.githubusercontent.com
 
-
-
-
 # debian omv
 146.75.114.132   httpredir.debian.org
 
@@ -28,10 +25,7 @@
 # Google
 # 108.160.170.39    www.google.com.hk
 # 108.160.170.39    google.com.hk
-
 203.208.39.226      translate.googleapis.com
-
-
 
 # Wikipedia Start
 # 208.80.154.224    www.wikipedia.org
@@ -41,9 +35,14 @@
 # 208.80.154.224    zh.wikipedia.org
 # 208.80.154.224    zh.m.wikipedia.org
 
-
-
 ###############################################
+
+# Ad
 
 # 2345
 127.0.0.1   www.2345.com
+
+# gzads TV
+127.0.0.1   gzads.com
+127.0.0.1   gozendata.com
+127.0.0.1   gz-data.com
