@@ -58,13 +58,16 @@ Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 https://github.com/johlanse/study_xxqg
 
 
+
+
 https://hub.docker.com/r/johianse/study_xxqg
 
 https://hub.docker.com/r/sjkhsl/study_xxqg
 
-docker pull sjkhsl/study_xxqg:v1.0.39
+https://hub.docker.com/r/heyibear/study_xxqg
 
-docker pull johianse/study_xxqg:latest
+
+
 
 
 
@@ -82,6 +85,8 @@ Scheme = https://techxuexi.js.org/jump/techxuexi-20211023.html?
 
 文档地址: https://johlanse.shhy.xyz
 
+
+--------------------------------------------------------------
 
 windows使用教程
 浏览器访问Release
