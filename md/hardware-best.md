@@ -5,14 +5,14 @@
 |-------------    |-------------------------------------------------------------                    |
 | 神U：            | R5-5600G  ,  i3-12100    , J4125,                                              |
 | 手机：           | MTK天玑8100, RedmiNote 11T Pro....... A11,iphone8p,                             |
-|路由器:           | 中兴E8820S  ,  Redmi路由器AC2100  ,  Redmi路由器AX6S, 360 T7 , 小米WR30U           |
-|Mesh组网:         | Redmi路由器AX3000 两件套 , Redmi路由器AX6S, .....TP-LINK 易展系列 TL-WDR7650 两件套 , TP-LINK AX3000（XDR3010易展版）|
+|路由器:           | 中兴E8820S  ,  Redmi路由器AC2100  ,  Redmi路由器AX6S,   小米WR30U,    360 T7      |
+|Mesh组网:         | Redmi路由器AX3000 两件套 , Redmi路由器AX6S, .....                                 |
 |NAS:             |    电犀牛R66S  .  外贸盒子HK1 box  , R4S                                          |
 |电视盒子：         | 外贸盒子HK1 box ,  魔百盒CM-311 , 中兴B860av2.1 wifi                              | 
 |看电视app：       | 小薇直播,,   火星直播纯净版_云海电视,,                                              |
 |在线免费电影：     | www.smdyy.cc   神马电影网 ,  www.pkmp4.xyz  片库 ,  www.ksksl.com  看了么电影网    |
 | 耳机：           |      飞利浦9500                                                                 | 
-| 万用表:          | 优利德UT39A+  ,  DT9205A                                                        |
+| 万用表:          |  DT9205A   ,      优利德UT39A+                                                  |
 |咖啡豆：          | sinloy辛鹿蓝山                                                                   | 
 |快速充电头：       | 乐视 EQ-24BCN 24W 东洋代工 USB-A 19元,,,,  赛小虎SCC025C1A 25W 仿三星 USB-C 29元   |
 |电动牙刷：        | 飞利浦HX6730 249元                                                               |
