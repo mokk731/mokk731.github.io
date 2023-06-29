@@ -35,7 +35,7 @@ python 辅助： https://github.com/TechXueXi/TechXueXi
 装个浏览器插件 tampermonkey （可以从这里下载 https://github.com/TechXueXi/Tampermonkey ，网上也很多教程），点击插件里添加按钮，去掉编辑框里原来的代码，把 不学习何以强国 js 脚本复制粘贴进编辑框保存。开启这个脚本，然后进入网页强国 www.xuexi.cn 登录，刷新登录网页，左上角有启动按钮。
 
 
-#### [techxuexi-js下载](https://mokk731.github.io/ziprar/win-tools/techxuexi-js-20220206.zip)
+#### [techxuexi-js下载](https://github.com/TechXueXi/techxuexi-js/releases)
 ------------------------------------------------------------------
 
 #### Docker运行
@@ -53,7 +53,7 @@ Docker 仓库地址：https://hub.docker.com/u/techxuexi/
 ------------------------------------------------------------------
 
 
-## [study_xxqg](https://github.com/johlanse/study_xxqg)
+##### [study_xxqg](https://github.com/johlanse/study_xxqg)
 
 https://github.com/johlanse/study_xxqg
 
@@ -88,12 +88,15 @@ Scheme = https://techxuexi.js.org/jump/techxuexi-20211023.html?
 
 --------------------------------------------------------------
 
-windows使用教程
+##### windows使用教程
+
 浏览器访问Release
-选择最新版本下载 study_xxqg_amd64.zip
-将其解压到合适的位置
+选择最新版本下载 [study_xxqg_amd64.zip](https://github.com/sjkhsl/study_xxqg/releases)
+
+将其解压到合适的位置 
 进入解压后的文件夹，双击运行study_xxqg.exe,第一次打开可能会出现闪退，发现文件夹下生成了config文件夹
 打开config目录下的confif.yml文件，进行编辑，详情内容见配置文件
+
 再次进行运行study_xxqg.exe
 使用浏览器打开http://127.0.0.1:8080
 推送配置请参考推送
@@ -108,5 +111,12 @@ windows默认调用系统的edge浏览器，调用目录C:\Program Files (x86)\M
 
 例如，我的chrome.exe文件在D盘的browser文件夹下，配置为D:/browser/chrome.exe或者D:\\browser\\chrome.exe
 
+--------------------------------------------------------------
+
+##### 跳板搭建
+
+因为学习强国官方app的scheme是dtxuexi://，但是大部分浏览器并不能识别该scheme,所以可以通过自行搭建跳板进行跳转。
+
+study_xxqg官方搭建的跳板是使用github page进行搭建的，可能访问情况会比较慢，所以可以进自行搭建跳板。
 
 mokk731.github.io/study_xxqg/scheme.html
