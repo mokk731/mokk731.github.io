@@ -25,7 +25,54 @@ This is OpenWrt firmware for Amlogic s9xxx tv box
     Install to EMMC: Login to OpenWrt → System → Amlogic Service → Install OpenWrt
 
 
+----------------------------------------
 
+
+
+
+LED 屏显示控制说明
+
+
+
+github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/documents/led_screen_display_control.md
+
+
+
+
+
+
+
+配置文件放在 Armbian/OpenWrt 系统的 /usr/share/openvfd 目录下，Armbian 系统的命令文件位于 /usr/sbin/armbian-
+
+openvfd，OpenWrt 系统的命令文件位于 /usr/sbin/openwrt-openvfd。如果当前系统中没有的可以手动上传，并赋予文件执
+
+行权限：chmod +x /usr/share/openvfd/vfdservice /usr/sbin/*-openvfd
+
+目前有 x96max.conf、x96maxplus.conf、h96max-x3.conf、hk1-x3.conf、hk1box.conf、tx3.conf、x96air.conf 等设备经
+
+过测试，其他设备的配置可以查看：arthur-liberman/vfd-configurations 和 LibreELEC/linux_openvfd 进行修改
+
+
+ /usr/share/openvfd/conf 目录下，输入命令 armbian-openvfd 16 进行测试。
+
+通过命令 armbian-openvfd 0 可以禁用 LED 显示并清除系统进程，在每次测试新的配置前，请先执行此禁用命令，再执行 
+
+armbian-openvfd 16 进行更改后的配置测试。
+
+
+
+
+hk1box.conf
+
+
+vfd_gpio_clk='0,64,0'
+vfd_gpio_dat='0,63,0'
+vfd_gpio_stb='0,0,0xFF'
+
+
+# 在终端执行以下命令启用 openvfd 服务
+sed -i 's|^#*openvfd_enable=.*|openvfd_enable="yes"|g' /etc/custom_service/start_service.sh
+sed -i 's|^#*openvfd_boxid=.*|openvfd_boxid="16"|g' /etc/custom_service/start_service.sh
 
 
 Armbian_bullseye_02.10.0233
