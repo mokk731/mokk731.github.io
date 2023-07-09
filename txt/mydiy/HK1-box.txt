@@ -38,6 +38,24 @@ These are the Armbian OS image
     Update command: armbian-update
 
 
+
+
+Armbian_jammy_save_2023.07
+
+  Default username: root
+  Default password: 1234
+  Install command: armbian-install
+  Update command: armbian-update
+
+https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_jammy_save_2023.07/Armbian_23.08.0_amlogic_s905x3_jammy_5.15.120_server_2023.07.08.img.gz
+
+
+
+
+armbian包括Jammy、Bullseye两张版本，Jammy是Ubuntu 22.04 的代号，Bullseye是Debian 11的代号。Debian还是Ubuntu自选，
+Ubuntu是基于Debian。Ubuntu最新版本是Lunar Lobster 23.04 LTS。我开始用的是同版本jammy，后来改成bullseye重做了一遍 
+--------------------------------
+
 --------------------------------
 
 
