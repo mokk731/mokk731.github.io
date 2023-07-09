@@ -1,19 +1,21 @@
 # win cmd --- ipconfig /flushdns                   notepad C:\Windows\System32\drivers\etc\hosts
-# linux---- sudo /etc/init.d/dns-clean start  
+# linux---- sudo /etc/init.d/dns-clean start       nano /etc/hosts
 # openwrt--- /etc/init.d/dnsmasq restart           vi /etc/myhosts
 
 
-# update 202301
+
+# https://ping.chinaz.com
+# update 202307
 ########################################################################
 
 # Good
 
 # GitHub Start
 # https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
-140.82.113.3     gist.github.com
-140.82.113.3     github.com
-140.82.113.3     www.github.com
-185.199.108.133  raw.githubusercontent.com
+20.205.243.166     gist.github.com
+20.205.243.166     github.com
+20.205.243.166     www.github.com
+185.199.108.133    raw.githubusercontent.com
 
 # debian omv
 146.75.114.132   httpredir.debian.org
@@ -23,17 +25,17 @@
 # Bad
 
 # Google
-# 108.160.170.39    www.google.com.hk
-# 108.160.170.39    google.com.hk
-203.208.39.226      translate.googleapis.com
+# 142.250.189.3    www.google.com.hk
+# 142.250.189.3    google.com.hk
+142.250.68.10      translate.googleapis.com
 
 # Wikipedia Start
-# 208.80.154.224    www.wikipedia.org
-# 208.80.154.224    login.wikimedia.org
-# 208.80.154.224    wuu.wikipedia.org
-# 208.80.154.224    zh-yue.wikipedia.org
-# 208.80.154.224    zh.wikipedia.org
-# 208.80.154.224    zh.m.wikipedia.org
+# 198.35.26.96    www.wikipedia.org
+# 198.35.26.96    login.wikimedia.org
+# 198.35.26.96    wuu.wikipedia.org
+# 198.35.26.96    zh-yue.wikipedia.org
+# 198.35.26.96    zh.wikipedia.org
+# 198.35.26.96    zh.m.wikipedia.org
 
 ###############################################
 
@@ -45,4 +47,4 @@
 # gzads TV
 127.0.0.1   gzads.com
 127.0.0.1   gozendata.com
-127.0.0.1   gz-data.com  
+127.0.0.1   gz-data.com
