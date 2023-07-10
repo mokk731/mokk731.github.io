@@ -7,6 +7,14 @@ https://github.com/ophub/amlogic-s9xxx-armbian
 https://github.com/ophub/amlogic-s9xxx-openwrt
 
 -----------------
+192.168.10.20
+192.168.192.20
+
+root  sn:123456
+
+portainer 2.9.1
+admin  sn:12345678
+
 
 
 
@@ -23,6 +31,7 @@ This is OpenWrt firmware for Amlogic s9xxx tv box
     Default WIFI name: OpenWrt
     Default WIFI password: none
     Install to EMMC: Login to OpenWrt → System → Amlogic Service → Install OpenWrt
+
 
 
 
@@ -47,17 +56,23 @@ Armbian_jammy_save_2023.07
   Install command: armbian-install
   Update command: armbian-update
 
-https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_jammy_save_2023.07/Armbian_23.08.0_amlogic_s905x3_jammy_5.15.120_server_2023.07.08.img.gz
+https://github.com/ophub/amlogic-s9xxx-
+
+armbian/releases/download/Armbian_jammy_save_2023.07/Armbian_23.08.0_amlogic_s905x3_jammy_5.15.120_server_2023
+
+.07.08.img.gz
 
 
 
 
-armbian包括Jammy、Bullseye两张版本，Jammy是Ubuntu 22.04 的代号，Bullseye是Debian 11的代号。Debian还是Ubuntu自选，
-Ubuntu是基于Debian。Ubuntu最新版本是Lunar Lobster 23.04 LTS。我开始用的是同版本jammy，后来改成bullseye重做了一遍 
+armbian包括Jammy、Bullseye两张版本，Jammy是Ubuntu 22.04 的代号，Bullseye是Debian 11的代号。Debian还是Ubuntu自
+
+选，Ubuntu是基于Debian。Ubuntu最新版本是Lunar Lobster 23.04 LTS。我开始用的是同版本jammy，后来改成bullseye重做
+
+了一遍 
 --------------------------------
 
 --------------------------------
-
 
 https://www.bilibili.com/video/BV1v44y1G7Lh/
 HK1 box 刷入Armbian 并安装Docker 刷armbian 电视盒子刷armbian
@@ -94,10 +109,11 @@ HK1 BOX 刷armbian 成功
 
 ------------------------------------------
 将armbian写入EMMC:
+root / 1234
 
 1, armbian-install -m no -a yes
 
-    选  506   meson-sm1-hk1box-vontar-x3.dtb
+    选  512   meson-sm1-hk1box-vontar-x3.dtb
     选  ext4
 
 2, armbian-config 
@@ -106,18 +122,19 @@ HK1 BOX 刷armbian 成功
 3, armbian-docker /armbian-docker install
 
 4, #下载 Docker 图形化界面 portainer  2.9.1         
-    sudo docker pull portainer/portainer-ce:2.9.1
+         docker pull portainer/portainer-ce:2.9.1
          docker pull portainer/portainer-ce:2.17.0
     #创建 portainer 容器
-    sudo docker volume create portainer_data
+         docker volume create portainer_data
     #运行 portainer
-    sudo docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
+         docker run -d -p 9000:9000 --name portainer --restart always -v     
+
+/var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
 
 5,  添加LED屏幕显示至开机自启动任务
 
-    Armbian 系统在终端执行以下命令添加
-    sed -i '/armbian-led/d' /etc/rc.local
-    sed -i '/exit 0/i\armbian-led 16' /etc/rc.local
+    armbian-openvfd 16 开LED
+    armbian-openvfd 0  关LED
 
 ---------------------------------
 df -h 显示已经挂载的分区列表 
@@ -147,8 +164,14 @@ overlay          29G  2.1G   27G   8% /var/lib/docker/overlay2/
 https://blog.csdn.net/iduzy/article/details/121710923
 N1刷armbian安装SMB做文件共享
 
+1,执行安装命令
 
-    修改配置文件/etc/samba/smb.conf，直接覆盖原内容，实现匿名直接连接。
+apt install samba
+
+
+2, 修改配置文件/etc/samba/smb.conf，直接覆盖原内容，实现匿名直接连接。
+
+vim nano /etc/samba/smb.conf
 
 简洁版
 
@@ -165,10 +188,11 @@ N1刷armbian安装SMB做文件共享
        browseable = yes
     
 修改目录权限
+    mkdir /home/public
     chmod -R 777 /home/public
     
 
-
+\\192.168.11.20\media
 ----
 
 重启服务使设定生效
@@ -232,3 +256,8 @@ vfd_gpio_stb='0,0,0xFF'
 # 在终端执行以下命令启用 openvfd 服务
 sed -i 's|^#*openvfd_enable=.*|openvfd_enable="yes"|g' /etc/custom_service/start_service.sh
 sed -i 's|^#*openvfd_boxid=.*|openvfd_boxid="16"|g' /etc/custom_service/start_service.sh
+
+
+--------------------------------
+
+
