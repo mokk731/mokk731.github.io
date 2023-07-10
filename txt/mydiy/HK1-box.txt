@@ -56,20 +56,12 @@ Armbian_jammy_save_2023.07
   Install command: armbian-install
   Update command: armbian-update
 
-https://github.com/ophub/amlogic-s9xxx-
-
-armbian/releases/download/Armbian_jammy_save_2023.07/Armbian_23.08.0_amlogic_s905x3_jammy_5.15.120_server_2023
-
-.07.08.img.gz
+https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_jammy_save_2023.07/Armbian_23.08.0_amlogic_s905x3_jammy_5.15.120_server_2023.07.08.img.gz
 
 
 
 
-armbian包括Jammy、Bullseye两张版本，Jammy是Ubuntu 22.04 的代号，Bullseye是Debian 11的代号。Debian还是Ubuntu自
-
-选，Ubuntu是基于Debian。Ubuntu最新版本是Lunar Lobster 23.04 LTS。我开始用的是同版本jammy，后来改成bullseye重做
-
-了一遍 
+armbian包括Jammy、Bullseye两张版本，Jammy是Ubuntu 22.04 的代号，Bullseye是Debian 11的代号。Debian还是Ubuntu自选，Ubuntu是基于Debian。Ubuntu最新版本是Lunar Lobster 23.04 LTS。我开始用的是同版本jammy，后来改成bullseye重做了一遍 
 --------------------------------
 
 --------------------------------
@@ -127,9 +119,7 @@ root / 1234
     #创建 portainer 容器
          docker volume create portainer_data
     #运行 portainer
-         docker run -d -p 9000:9000 --name portainer --restart always -v     
-
-/var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
+         docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
 
 5,  添加LED屏幕显示至开机自启动任务
 
@@ -225,22 +215,14 @@ github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/documents/led_scr
 
 
 
-配置文件放在 Armbian/OpenWrt 系统的 /usr/share/openvfd 目录下，Armbian 系统的命令文件位于 /usr/sbin/armbian-
+配置文件放在 Armbian/OpenWrt 系统的 /usr/share/openvfd 目录下，Armbian 系统的命令文件位于 /usr/sbin/armbian-openvfd，OpenWrt 系统的命令文件位于 /usr/sbin/openwrt-openvfd。如果当前系统中没有的可以手动上传，并赋予文件执行权限：chmod +x /usr/share/openvfd/vfdservice /usr/sbin/*-openvfd
 
-openvfd，OpenWrt 系统的命令文件位于 /usr/sbin/openwrt-openvfd。如果当前系统中没有的可以手动上传，并赋予文件执
-
-行权限：chmod +x /usr/share/openvfd/vfdservice /usr/sbin/*-openvfd
-
-目前有 x96max.conf、x96maxplus.conf、h96max-x3.conf、hk1-x3.conf、hk1box.conf、tx3.conf、x96air.conf 等设备经
-
-过测试，其他设备的配置可以查看：arthur-liberman/vfd-configurations 和 LibreELEC/linux_openvfd 进行修改
+目前有 x96max.conf、x96maxplus.conf、h96max-x3.conf、hk1-x3.conf、hk1box.conf、tx3.conf、x96air.conf 等设备经过测试，其他设备的配置可以查看：arthur-liberman/vfd-configurations 和 LibreELEC/linux_openvfd 进行修改
 
 
  /usr/share/openvfd/conf 目录下，输入命令 armbian-openvfd 16 进行测试。
 
-通过命令 armbian-openvfd 0 可以禁用 LED 显示并清除系统进程，在每次测试新的配置前，请先执行此禁用命令，再执行 
-
-armbian-openvfd 16 进行更改后的配置测试。
+通过命令 armbian-openvfd 0 可以禁用 LED 显示并清除系统进程，在每次测试新的配置前，请先执行此禁用命令，再执行 armbian-openvfd 16 进行更改后的配置测试。
 
 
 
