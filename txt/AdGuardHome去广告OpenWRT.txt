@@ -124,6 +124,11 @@ https://www.right.com.cn/FORUM/thread-4090928-1-1.html
 https://p3terx.com/archives/use-adguard-home-to-build-dns-to-prevent-pollution-and-remove-ads-2.html
 AdGuard Home 自建 DNS 防污染、去广告教程 #2 - 优化增强设置详解
 
+macvlan 网络模式
+TIPS: 准确来说应该叫“macvlan 网络下的 bridge 模式”，因为说起来太拗口，而且 macvlan 其他模式很少使用，同时也为了和默认的 bridge 网络模式做区分，所以博主习惯将它称之为“macvlan 网络模式”。
+使用 macvlan 网络模式的好处是容器相当于是一个独立的设备，可以拥有一个独立且固定的 IP 和 MAC 地址，不需要理会任何端口的状态，所有端口都可以使用默认的，兼容性更好。你甚至可以部署多个 Ad­Guard Home ，用作不同的用途，灵活度非常高。非常适合在本地局域网下的使用，就比如你可以部署在 NAS 上。macvlan 网络模式唯一缺点是宿主机无法与容器直接通讯（Docker 为了安全性做了隔离处理），如果宿主机想要使用可能需要进行一些特殊的设置，或者通过路由器转发的方式使用。
+
+
 上游 DNS 服务器
 AdGuard 文档中给出了一些知名的 DNS 服务器供选择。
 
