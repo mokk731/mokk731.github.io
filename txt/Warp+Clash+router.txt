@@ -27,9 +27,13 @@ CloudFlare的免費VPN，Warp+ 優選IP，實現無限的高速流量！
 
 https://www.youtube.com/watch?v=JVPh4aBQ-SQ
 WARP+免费VPN最佳使用方式！WARP+在软路由上OpenWrt/iStore os上使用，保姆级别使用教程，附上配置文件 
-
 阿雷科技
 
+
+
+
+https://docs.google.com/document/d/1fVMLDtzBxy0q4E69tMZuzi3rIl-zq30zXrIXx6DO2_g/edit
+WARP转软路由使用
 
 
 WARP官网：https://1.1.1.1/
