@@ -1,1 +1,58 @@
-zz
+https://www.youtube.com/watch?v=14zXDW23Tlw
+免费VPN最强替代方案，Warp+ 优选IP，真正实现无限的高速流量！无需注册，速度超快！！支持PC、安卓、iOS、macOS、软路由等！CloudFlare 良心提供 | 零度解说
+
+https://www.freedidi.com/9876.html
+CloudFlare的免費VPN，Warp+ 優選IP，實現無限的高速流量！
+
+
+1.CloudFlare的 Warp+ 無限免費VPN流量
+
+2.獲取Warp+的 永久免費流量 ：【點擊獲取】 @generatewarpplusbot     
+  https://t.me/generatewarpplusbot  
+
+3.實現跨平台使用，下載 WireGuard：【官方下載】，支持Windows、Mac、安卓、iOS等
+  https://www.wireguard.com/install/
+  https://download.wireguard.com/windows-client/
+
+4.生成配置文件：【點擊生成】
+  https://replit.com/@misaka-blog/warpgo-profile-generator?v=1
+
+5.IP 優選工具下載：【下載鏈接】
+  https://gitlab.com/Misaka-blog/warp-script/-/blob/main/files/warp-yxip/warp-yxip-win.7z
+
+6.手機上通過 WireGuard 配置 Warp+
+
+
+--------------------------------------------------------------
+
+https://www.youtube.com/watch?v=JVPh4aBQ-SQ
+WARP+免费VPN最佳使用方式！WARP+在软路由上OpenWrt/iStore os上使用，保姆级别使用教程，附上配置文件 
+
+阿雷科技
+
+
+
+WARP官网：https://1.1.1.1/
+简单使用教程： 永久免费VPN，还不限流量，直接把付费VPN打趴下！
+
+获取无限流量密钥telegrem机器人
+Warp+ Bot https://t.me/generatewarpplusbot
+Warp Plus
+
+Warp转化工具
+github.com/ViRb3/wgcf
+
+  
+
+
+填入优选IP
+
+优选ip工具1
+GitHub - XIU2/CloudflareSpeedTest: ??「自选优选 IP」测试 Cloudflare CDN 延迟和速度
+优选IP工具2
+https://www.123pan.com/s/asm9-ecLv3.html
+
+clash配置文件下载：https://box.xss.sx/videos/warp/
+
+阿雷配置好的WireGuard 配置文件（不能直接用，修改成你的优选ip，才行）
+https://drive.google.com/drive/folders/1XCRh7uhooYZvPeGoFzG6nIox26sVwQNx?usp=sharing
