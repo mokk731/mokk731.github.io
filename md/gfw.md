@@ -27,6 +27,8 @@
 
 #### [完美外网计划](https://mokk731.github.io/txt/完美外网计划.txt)
 
+#### [免费Warp+Clash+软路由](https://mokk731.github.io/txt/Warp+Clash+router.txt)
+
 --------------------------------------------------------------------------
 
 ### 下载
