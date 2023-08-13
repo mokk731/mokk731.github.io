@@ -14,6 +14,6 @@
 | 耳机：           |      飞利浦9500                                                                 | 
 | 万用表:          |  DT9205A   ,      优利德UT39A+                                                  |
 |咖啡豆：          | sinloy辛鹿蓝山                                                                   | 
-|快速充电头：       | 乐视EQ-24BCN 24W 东洋代工 USB-A 19元,,,,  赛小虎SCC025C1A 25W 仿三星 USB-C 29元 ,  ZMIHA612 18W USB-A 25元 ,  ZMIHA716氮化镓 25W USB-C 29元  |
+|快速充电头：       | 乐视EQ-24BCN 24W 东洋代工 USB-A 19元,, 赛小虎SCC025C1A 25W 仿三星 USB-C 29元 ,,  酷态科ZMIHA612 18W USB-A 25元 ,, ZMIHA716氮化镓 25W USB-C 29元  |
 |电动牙刷：        | 飞利浦HX6730 249元                                                               |
 
