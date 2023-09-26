@@ -9,7 +9,7 @@
 #### [v2rayNG.apk](https://mokk731.github.io/apk/v2rayNG_v1.6.28_202201.apk)
 
 
-#### [Clash](https://mokk731.github.io/txt/Clash.txt)
+#### [Clash](https://mokk731.github.io/txt/clash.txt)
 
 #### [TOR Browser](https://www.torproject.org/zh-CN/)
 
