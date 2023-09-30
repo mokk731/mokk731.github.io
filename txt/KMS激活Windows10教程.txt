@@ -1,0 +1,65 @@
+KMS激活Windows10教程
+
+https://www.pcoic.com/system/windows/4168.html
+https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys
+https://github.com/netnr/kms
+
+--------------------------------------
+
+右键点击 开始按钮，选择 Windows PowerShelll（管理员）或 终端（管理员），执行命令：
+
+# 卸载已安装密钥
+slmgr.vbs /upk
+
+# 安装需要激活的版本密钥
+# 这里以专业版为例，Windows 10 和 11 通用
+# 更多版本的系统密钥见下文
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+# 设置 KMS 激活服务器
+# 请将 192.168.1.1 替换为实际 KMS 服务器网址或 IP
+slmgr /skms 192.168.1.1
+
+# 激活
+slmgr /ato
+
+
+
+激活说明
+KMS 激活有 180 天期限，此期限称为激活有效间隔
+若要保持激活状态，您的系统必须通过至少每 180 天连接一次 KMS 服务器来续订激活
+默认情况下，系统每 7 天自动进行一次激活续订尝试
+在续订客户端激活之后，激活有效间隔重新开始
+综上所述，只要您不超过 180 天以上无法连接互联网，系统会自行续期保持激活状态
+
+------------------------------------------------------------
+
+
+Enterprise LTSC 2019: M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+
+Enterprise N LTSC 2019: 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+
+
+
+
+Windows 11 和 Windows 10（半年频道版本）
+Windows 11 专业版
+Windows 10 专业版 	W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 11 企业版
+Windows 10 企业版 	NPPR9-FWDCX-D2C8J-H872K-2YT43
+
+
+
+
+Windows 10 LTSC 2021 和 2019
+Windows 10 企业版 LTSC 2021
+Windows 10 企业版 LTSC 2019 	M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+
+Windows 10 企业版 N LTSC 2021
+Windows 10 企业版 N LTSC 2019 	92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+
+
+Windows 7 专业版 	FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4
+Windows 7 企业版 	33PXH-7Y6KF-2VJC9-XBBR8-HVTHH
+
+CONFIG_PACKAGE_luci-app-vlmcsd=y
