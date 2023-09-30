@@ -17,17 +17,13 @@
 [Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
 
 
-
 [windows10如何使用Samba](https://mokk731.github.io/txt/windows10如何使用Samba.txt)
 
 
 [如何彻底关闭windows10自动更新，禁用Windows Update](https://mokk731.github.io/txt/如何彻底关闭windows10自动更新，禁用WindowsUpdate.txt)
 
 
-
 [使用NTLite精简Windows10](https://mokk731.github.io/txt/使用NTLite精简Windows10.txt)
 
-
-[Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
 
 [KMS激活Windows10教程](https://mokk731.github.io/txt/KMS激活Windows10教程.txt)
