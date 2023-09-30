@@ -29,3 +29,5 @@
 
 
 [Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
+
+[KMS激活Windows10教程](https://mokk731.github.io/txt/KMS激活Windows10教程.txt)
