@@ -79,3 +79,29 @@ slmgr /skms 192.168.11.1
 slmgr /ato
 
 
+-----------------------------------------------------
+
+适用于windows && office 可用kms服务器激活地址汇总
+https://cloud.tencent.com/developer/article/1939873
+
+
+目前可用kms服务器地址汇总、可同时激活Windows和office
+
+kms.03k.org
+kms.chinancce.com
+kms.luody.info
+kms.lotro.cc
+kms.luochenzhimu.com
+kms8.MSGuides.com
+kms9.MSGuides.com
+
+kms可用性检测网址“https://www.kms.pub/check.html”
+
+
+
+
+
+
+
+
+
