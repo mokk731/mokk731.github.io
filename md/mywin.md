@@ -27,3 +27,9 @@
 
 
 [KMS激活Windows10教程](https://mokk731.github.io/txt/KMS激活Windows10教程.txt)
+
+
+[win10修改桌面路径到D盘教程](https://mokk731.github.io/txt/win10修改桌面路径到D盘教程.txt)
+
+
+
