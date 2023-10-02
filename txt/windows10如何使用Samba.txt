@@ -1,27 +1,30 @@
 windows10如何使用Samba
 
-https://www.jianshu.com/p/00fccdc5a1d9?send_by=3575891470
+https://www.jianshu.com/p/00fccdc5a1d9
 
 
 win10 samba共享问题
 
 原因
-
 win10的组策略配置问题
+
 解决：
 
-打开win10对smb1.0/cifs文件共享支持
+1.打开win10对smb1.0/cifs文件共享支持
 
-1.png
 
-win+r：gpedit.msc打开组策略
-
-2.png
+2.win+r：gpedit.msc打开组策略
+进入“计算机配置/管理模板/网络/lanman 工作站”;启用了“启用不安全的来宾登陆”
 
 重启即可。
 
+--------------------------------------------
 
-作者：CTO技术
-链接：https://www.jianshu.com/p/00fccdc5a1d9
-来源：简书
+https://blog.csdn.net/chen9807/article/details/112171368
+
+【samba】win10 解决“能ping通无法访问共享文件夹””的问题
+
+1.在win10中，依次进入控制面板/卸载程序/启用或关闭windows功能，打开smb 1.0/CIFS 文件共享支持
+
+2.运行gpedit.msc ; 进入“计算机配置/管理模板/网络/lanman 工作站”;启用了“启用不安全的来宾登陆”
 
