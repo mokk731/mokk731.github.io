@@ -101,7 +101,7 @@ kms可用性检测网址“https://www.kms.pub/check.html”
 
 ---------------------------------
 
-本站已收录KMS服务器排行榜
+本站已收录KMS服务器排行榜 202310
 https://www.kms.pub/rank.html
 
 win.kms.pub	
@@ -117,7 +117,7 @@ windows.kms.app
 kms.6yit.com
 kms.sixyin.com	
 kms.000606.xyz	
-kms.zhi.fun	1688	
+kms.zhi.fun	
 kms.boiling.top	
 kms.moeyuuko.com
 kms.sevenxu.cc	
