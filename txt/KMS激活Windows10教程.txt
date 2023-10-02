@@ -63,3 +63,17 @@ Windows 7 专业版 	FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4
 Windows 7 企业版 	33PXH-7Y6KF-2VJC9-XBBR8-HVTHH
 
 CONFIG_PACKAGE_luci-app-vlmcsd=y
+
+--------------------------------------------------
+
+1,设置 KMS 激活服务器, 前端路由器刷 openwrt，CONFIG_PACKAGE_luci-app-vlmcsd=y，KMS插件。
+
+2, Enterprise LTSC 2019激活
+
+slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+
+slmgr /skms 192.168.11.1
+
+slmgr /ato
+
+
