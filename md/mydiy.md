@@ -46,7 +46,7 @@
 
 #### [小米路由器4C](https://mokk731.github.io/txt/mydiy/小米路由器4C.txt)
 
-#### [中兴CT340小主机](https://mokk731.github.io/txt/mydiy/中兴CT340.txt)
+
 
 
 ----------------------------------------------------------------
@@ -74,6 +74,12 @@
 
 
 ----------------------------------------------------------------
+
+#### [E5-X79](https://mokk731.github.io/txt/mydiy/E5-X79.txt)
+
+#### [中兴CT340小主机](https://mokk731.github.io/txt/mydiy/中兴CT340.txt)
+
+
 
 
 #### [树莓派](https://mokk731.github.io/txt/mydiy/树莓派.txt)
