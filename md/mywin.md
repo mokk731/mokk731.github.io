@@ -32,4 +32,6 @@
 [win10修改桌面路径到D盘教程](https://mokk731.github.io/txt/win10修改桌面路径到D盘教程.txt)
 
 
+[win10禁用休眠模式,删hiberfil.sys文件](https://mokk731.github.io/txt/win10禁用休眠模式,删hiberfil.sys文件.txt)
+
 
