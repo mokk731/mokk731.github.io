@@ -114,6 +114,9 @@ Tiny10
 
 https://archive.org/details/tiny-10-NTDEV
 
+
+
+
 https://zhuanlan.zhihu.com/p/641403790
 低配PC福音！大佬研发Win10极限精简版Tiny10，速度超快
 
@@ -139,7 +142,12 @@ https://zhuanlan.zhihu.com/p/565745440
 ---------------------------------------------------------------------
 
 AtlasOS
+
 https://atlasos.net/downloads
+https://github.com/atlas-os/atlas
+
+
+
 
 https://zhuanlan.zhihu.com/p/591397669
 AtlasOS：专为游戏党定制的高性能Windows 10系统
@@ -152,23 +160,7 @@ AtlasOS 剥离大量在 Windows 后台运行的进程，例如原本 Windows 10 
 
 同时以下功能也被删除或修改：
 
-TPM 可信平台模块
-
-Windows Defender
-
-存储空间管理
-
-eMMC 驱动
-
-RAID 配置功能
-
-Bitlocker
-
-生物识别功能，包括指纹和面部识别都被删除
-
-语音命令
-
-还原点和系统重置功能等。
+TPM 可信平台模块  Windows Defender  存储空间管理  eMMC 驱动  RAID 配置功能  Bitlocker  生物识别功能，包括指纹和面部识别都被删除  语音命令  还原点和系统重置功能等。
 
 
 
