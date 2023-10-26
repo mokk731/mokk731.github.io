@@ -1,0 +1,22 @@
+Bookmarkbackups
+
+
+
+Firefox
+C:\Users\Administrator\AppData\Roaming\Mozilla\Firefox\Profiles\eztzdd44.default-esr\bookmarkbackups
+
+Chrome
+C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default\Bookmarks
+
+Brave-Browser
+C:\Users\Administrator\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Bookmarks
+
+
+360浏览器的默认收藏夹路径：
+C:\Documents and Settings\Administrator\Application Data\360SE\data\bookmarks.dat
+所有收藏的网页全部保存在这个“bookmarks.dat“文件中，如果使用360默认的收藏夹的话，重装系统前将这个文件复制出来即可。(上边红色字体是你的用户名，一般都是Administrator)
+
+
+
+C:\Users\Administrator\AppData\Local
+C:\Users\Administrator\AppData\Roaming
