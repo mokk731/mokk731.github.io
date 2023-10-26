@@ -35,3 +35,8 @@
 [win10禁用休眠模式,删hiberfil.sys文件](https://mokk731.github.io/txt/win10禁用休眠模式,删hiberfil.sys文件.txt)
 
 
+[备份收藏夹路径](https://mokk731.github.io/txt/备份收藏夹路径.txt)
+
+
+
+
