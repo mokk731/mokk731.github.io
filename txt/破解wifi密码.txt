@@ -145,14 +145,22 @@ export https_proxy=http://127.0.0.1:8580
 
 --------------------------------------------------
 
-https://www.bilibili.com/read/cv9131435
+https://www.bilibili.com/read/cv9131435   ############
 三分钟，快速入狱教程，之如何迅速破解WiFi密码 
 hashcat是一款很强大的密码破解工具，不仅可以破解WiFi密码，还可以破解电脑系统、压缩包、文档等密码，破解方式除字典破解以外，也有很多种。
+
+首先将抓取到的WiFi握手包.cap文件转成hashcat能够破解的.haccpx文件，输入aircrack-ng 抓取握手包的名字.cap -j 保存的哈希破解包名字，会在当前目录得到一个.haccpx文件
+
+输入hashcat -m 2500 -a 0 保存的哈希名字.hccapx 字典名字.txt，即可极速破解！（每秒可达10万个）
+
+
+
 
 
 https://cdn.modb.pro/db/122207
 如何高速猜出破解wifi密码？hashcat运用（超详细）
 将cap转换为hashcat能够破解的形式
+
 
 https://zhuanlan.zhihu.com/p/633207702      ############
 2023-05-29 如何使用 hashcat 破解 RAR、ZIP 压缩包密码
