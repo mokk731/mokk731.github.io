@@ -166,6 +166,16 @@ https://cdn.modb.pro/db/122207
 Hashcat 的使用
 https://www.jianshu.com/p/52d1ed684020   ############
 
+使用 aircrack-ng 将握手包转换成 hccapx 格式
+aircrack-ng 1.cap -j 1
+hashcat -a 3 -m 2500 1.hccapx ?d?d?d?d?d?d?d?d --force
+
+或者使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/
+hashcat -a 3 -m 22000 1.hc22000 ?d?d?d?d?d?d?d?d --force                ############                   
+
+
+
+
 https://zhuanlan.zhihu.com/p/633207702      ############
 2023-05-29 如何使用 hashcat 破解 RAR、ZIP 压缩包密码
 
