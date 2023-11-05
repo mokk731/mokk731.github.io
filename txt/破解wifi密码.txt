@@ -295,3 +295,8 @@ hashcat -a 3 -m 22000 C:\tools\temp\bxxx01.hc22000 ?d?d?d?d?d?d?d?d?d?d?d --forc
 显示破解完成的密码
 hashcat  -m 22000 11.hccapx  pass.txt --force --show
 
+--show      将hashlist与potfile比较; 显示破解的哈希    
+--left      将hashlist与potfile比较; 显示未破裂的哈希  
+
+
+
