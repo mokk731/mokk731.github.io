@@ -162,6 +162,10 @@ https://cdn.modb.pro/db/122207
 将cap转换为hashcat能够破解的形式
 
 
+
+Hashcat 的使用
+https://www.jianshu.com/p/52d1ed684020   ############
+
 https://zhuanlan.zhihu.com/p/633207702      ############
 2023-05-29 如何使用 hashcat 破解 RAR、ZIP 压缩包密码
 
