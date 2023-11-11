@@ -1,0 +1,158 @@
+
+Hashcat的使用
+https://www.jianshu.com/p/52d1ed684020
+
+用Hashcat每秒计算1.4亿个密码，破解隔壁WIFI密码
+https://www.cnblogs.com/diligenceday/p/6359661.html
+
+
+
+
+
+-D 1 //1默认cpu，2为gpu…
+hashcat64.exe -m 2500 -D 1 1Anomymous.hccapx rockyou.txt
+
+
+hashcat -m 2500 -a 3 handshake.hccap ?d?d?d?d?d?d?d?d
+
+　　?d?d?d?d?d?d?d?d代表8为数字
+
+下面的意思:用GPU且8位数字掩码来破解34-96-72-0A-0C-DA_handshake.cap.hccap包
+
+
+hashcat64.exe -a 3 -m 2500 G:\wifi\pcap\ziroom301\34-96-72-0A-0C-DA_handshake.cap.hccap ?d?d?d?d?d?d?d?d
+
+
+下面的意思:用GPU且9位大小写字母特殊字符组合的掩码来破解34-96-72-0A-0C-DA_handshake.cap.hccap包
+
+
+hashcat64.exe -a 3 -m 2500 G:\wifi\pcap\ziroom301\34-96-72-0A-0C-DA_handshake.cap.hccap --custom-charset1=?a ?1?1?1?1?1?1?1?1?1
+
+
+---------------------------------------
+
+
+cd C:\tools\hashcat
+
+hashcat -V
+hashcat --version
+.\hashcat -V
+
+显示：v6.2.6
+
+
+hashcat -b  -m 22000
+测试模式
+
+cmd              4.6-5.0W H/S
+powershell    6.2W H/S
+
+使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/
+将握手包转换成 hc22000 格式
+
+hashcat -a 3 -m 22000 XXX.hc22000 ?d?d?d?d?d?d?d?d --force
+.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force           #######8数字      40m
+.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?l?l?l?l?l?l?l?l  --force  --session XXXX         8字母       50d
+
+
+
+
+hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 abc?d?d?d?d?d?d?d?d --force
+abc
+
+hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force
+
+
+
+
+hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 13828?d?d?d?d?d?d --force
+13828
+hashcat -a 3  -m 22000  C:\tools\temp\2022\XXXX.hc22000    lw?d?d?d?d?d?d  --force
+lw
+
+
+
+
+显示破解完成的密码
+hashcat  -m 22000 11.hccapx  pass.txt --force --show
+
+--show      将hashlist与potfile比较; 显示破解的哈希    
+--left      将hashlist与potfile比较; 显示未破裂的哈希  
+
+
+https://hashcat.net/wiki/doku.php?id=restore
+不保存进度，直接退出： 按 q
+开启自动记录(监控)还原点，在创建下一次记录还原点后，自动退出：按 c
+--session mydz 就是保存信息到 mydz 文件中，后缀是.restore。全名：mydz.restore
+如果没有指定 --session 选项参数, 则默认保存到 hashcat.restore
+
+恢复破解恢复会话
+.\hashcat  --session XXXX --restore    #######
+
+
+
+
+------------------------------------------
+hashcat-my-restore.bat
+
+@echo off
+echo 正在hashcat --session XXXX --restore文件，请稍等......
+
+hashcat  --session XXXX --restore
+
+pause
+
+
+-------------------------------------------------------------
+
+
+Hashcat 在有时破解的时候会提示 All hashes found in potfile!，这表明该 hash 已经被破解出来过了，可以使用 hashcat [哈希值] --show 查看已破解出来的明文密码。
+
+如果想再次破解已经破解过的密码，删除 ~/.hashcat/hashcat.potfile 文件里的对应记录即可。
+
+一般使用 -D 2 指定 GPU 破解   -D 1   cpu破解
+
+
+----------------------------------------------------
+
+-r  使用自定义破解规则
+-o  指定破解成功后的 hash 及所对应的明文密码的存放位置
+-m  指定要破解的 hash 类型，如果不指定类型，则默认是 MD5
+-a  指定要使用的破解模式，其值参考后面对参数。“-a 0” 字典攻击，“-a 1” 组合攻击；“-a 3” 掩码攻击
+-D  指定 opencl 的设备类型
+--show      显示已经破解的 hash 及该 hash 所对应的明文
+--force     忽略破解过程中的警告信息,跑单条 hash 可能需要加上此选项
+--remove    删除已被破解成功的 hash
+--username      忽略 hash 文件中的指定的用户名,在破解 linux 系统用户密码 hash 可能会用到
+--increment     启用增量破解模式,你可以利用此模式让 hashcat 在指定的密码长度范围内执行破解过程
+--increment-min         密码最小长度,后面直接等于一个整数即可,配置 increment 模式一起使用
+--increment-max         密码最大长度,同上
+--outfile-format        指定破解结果的输出格式 id ,默认是 3
+--self-test-disable 关闭启动自检
+
+
+0 | Straight    （字段破解）
+1 | Combination （组合破解）
+3 | Brute-force （掩码暴力破解）
+6 | Hybrid Wordlist + Mask（字典+掩码破解）
+7 | Hybrid Mask + Wordlist（掩码+字典破解）
+
+
+1 | CPU
+2 | GPU
+3 | FPGA, DSP, Co-Processor
+
+l | abcdefghijklmnopqrstuvwxyz              纯小写字母
+u | ABCDEFGHIJKLMNOPQRSTUVWXYZ              纯大写字母
+d | 0123456789                              纯数字
+h | 0123456789abcdef                        十六进制小写字母和数字
+H | 0123456789ABCDEF                        十六进制大写字母和数字
+s |  !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~       特殊字符
+a | ?l?u?d?s                                键盘上所有可见的字符
+b | 0x00 - 0xff                             匹配密码空格
+
+
+
+
+
+
