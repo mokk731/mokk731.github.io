@@ -49,6 +49,8 @@
 
 #### [破解wifi密码](https://mokk731.github.io/txt/破解wifi密码.txt)
 
+#### [Hashcat的使用](https://mokk731.github.io/txt/Hashcat的使用.txt)
+
 
 --------------------------------------------------------------------------
 
