@@ -9,7 +9,18 @@ https://zhuanlan.zhihu.com/p/645024257
 
 -------------------------------------------------------
 
-openwrt---samba---编辑模板
+openwrt---网络共享---共享目录
+
+允许用户       root
+只读           no
+可浏览         yes
+允许匿名用户    no
+新文件权限掩码  0666
+新目录权限掩码  0777
+
+
+
+openwrt---网络共享--samba---编辑模板
 
 sambashare和name后修改的是共享的名称，不支持中文；
 path后修改的是共享的文件位置，
@@ -25,3 +36,5 @@ guest_ok建议调为no，关闭匿名账户登录smb共享
 
 # 重启服务
   /etc/init.d/samba restart
+
+
