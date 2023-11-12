@@ -1,0 +1,21 @@
+OpenWRT快速配置Samba
+https://blog.csdn.net/lovelyed/article/details/119490646
+
+OpenWrt 安装 Samba 网络文件共享插件教程
+https://opclash.com/article/84.html
+
+openwrt开启smb
+https://zhuanlan.zhihu.com/p/645024257
+
+
+
+sambashare和name后修改的是共享的名称，不支持中文；
+path后修改的是共享的文件位置，
+read_only按需求修改，如果是yes，则这个smb的共享是只读模式共享
+guest_ok建议调为no，关闭匿名账户登录smb共享
+
+ #invalid users = root
+
+通过SSH进入openwrt的后台，输入
+
+smbpasswd -a root
