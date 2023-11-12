@@ -14,8 +14,12 @@ path后修改的是共享的文件位置，
 read_only按需求修改，如果是yes，则这个smb的共享是只读模式共享
 guest_ok建议调为no，关闭匿名账户登录smb共享
 
+# 允许用户 root
  #invalid users = root
 
+# 修改密码
 通过SSH进入openwrt的后台，输入
-
 smbpasswd -a root
+
+# 重启服务
+/etc/init.d/samba restart
