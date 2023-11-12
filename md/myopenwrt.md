@@ -13,7 +13,7 @@
 
 #### [AdGuardHome去广告OpenWRT](https://mokk731.github.io/txt/AdGuardHome去广告OpenWRT.txt)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [OpenWRT快速配置Samba](https://mokk731.github.io/txt/OpenWRT快速配置Samba.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
