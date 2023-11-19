@@ -94,5 +94,26 @@ MT7621_7603_7612_128M_3.4.3.9-099.trx下载地址 （看清楚和上面的连接
     
 --------------------------------------------------------
 
+解锁方法,可以在Linux 下
+https://www.wyr.me/post/619
+
+先决条件
+安装好git、python3和pip3。
+安装好telnet（Mac下：brew install telnet）。
+路由器和电脑都已经连接上网络。
+Root Shell
+git clone https://github.com/acecilia/OpenWRTInvasion
+cd OpenWRTInvasion
+pip3 install -r requirements.txt
+python3 remote_command_execution_vulnerability.py
+获取stock
+执行脚本后，会要求输入Route IP和stok。路由器地址就不解释了，stok的获取方法很简单，访问路由器管理地址，例如http://192.168.1.1，然后登录管理后台，再查看当前的路由器管理后台的URL，在URL中某个参数就是stok。执行过程需要联网。
+
+脚本执行成功后，执行：
+
+telnet <router_ip_address>
+用户是root，不需要密码，回车即可进入。
+-------------------------------------------------
+
 小米路由器4A千兆路由器自制稳定ROM 
 https://mokk7310.github.io/Rom/openwrt-mi-router-4a-2022.06.29-1508.bin
