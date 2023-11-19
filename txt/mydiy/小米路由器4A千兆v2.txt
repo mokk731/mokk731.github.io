@@ -4,8 +4,9 @@ https://www.right.com.cn/forum/thread-8261014-1-1.html
 源码地址
 https://github.com/LordPinhead/OpenWRTInvasion
 先确定自己路由器是什么版本的
-V1版是指2.28.x版本
-V2版是指2.30.x版本
+V1版是指2.28.x版本   mt7621 + mt7603 + mt7612
+
+V2版是指2.30.x版本   mt7621 + mt7603 + mt7613
 
 Xiaomi_R4AGv2
 
