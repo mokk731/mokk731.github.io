@@ -1,3 +1,10 @@
+小米路由器4A千兆版v1(r4ag v1) 版本固件 2.28
+
+解锁方法,可以在Linux 下,也可以在win下
+Linux 下方便
+=====================================================
+
+
 https://www.right.com.cn/FORUM/thread-4411791-1-1.html
 
 小米4A（r4a）千兆路由器刷固件之小白篇 
@@ -28,9 +35,9 @@ https://www.right.com.cn/FORUM/thread-4411791-1-1.html
 4、win+R 输入 cmd 打开命令窗口
 
 依次运行以下命令
-python -m pipinstall --upgrade pip （#升级pip最新）
-pip installpycryptodome
-pip installrequests
+python -m pip install --upgrade pip （#升级pip最新）
+pip install pycryptodome
+pip install requests
 
 5、打开OpenWRTInvasion-0.0.3文件夹，在地址栏输入cmd
 
@@ -42,7 +49,7 @@ pythonremote_command_execution_vulnerability.py
 
 6、安装Putty软件
 
-
+telnet
 
 
 选open后输入root
