@@ -1,0 +1,84 @@
+https://www.right.com.cn/forum/thread-8261014-1-1.html
+ [R4A] 【视频教程】2023年最新小米R4Av2， 固件版本2.30.X 刷机教程 
+
+源码地址
+https://github.com/LordPinhead/OpenWRTInvasion
+先确定自己路由器是什么版本的
+V1版是指2.28.x版本
+V2版是指2.30.x版本
+
+Xiaomi_R4AGv2
+
+注意:这里一定要有网络,否则永远不可能root成功)(这里必须路由器WAN口可以访问谷歌,不然绝对会root失败,
+
+----------------------------------
+
+https://www.right.com.cn/forum/thread-6776687-1-1.html
+ [R4A] 小米路由器4A千兆版 折腾记录 完美刷入官方openwrt 2022-08-09更新 
+
+-----------------------------------------------------
+
+https://www.bilibili.com/read/cv27628349/
+小米4A千兆2.3.500版本openwrt刷入和设置
+Xiaomi Mi Router 4A Gigabit Edition v2
+
+https://www.right.com.cn/forum/thread-8295963-1-1.html
+ [R4A] 小米路由器4A千兆版v2(r4ag v2)最新固件2.30.500解锁方法,备份方法,breed下恢复方法 
+
+解锁方法:
+
+2023.06.29 测试 小米路由器4A千兆版v2(r4ag v2) 新版本固件 2.30.500 也可以解锁ssh
+1 路由器恢复出厂.
+2 拔掉电脑和路由器所有网线, 关闭防火墙, 仅仅有路由器一根网线连接到电脑.
+3 初始化设置路由器, 上网模式DHCP, 密码设置 12345678
+4 运行漏洞脚本 https://github.com/LordPinhead/OpenWRTInvasion 注意不是 https://github.com/acecilia/OpenWRTInvasion 版本
+5 第一次可能不行, 再运行一次即可.
+
+备份方法:
+
+
+root@XiaoQiang:/# cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 01000000 00010000 "ALL"
+mtd1: 00030000 00010000 "Bootloader"
+mtd2: 00010000 00010000 "KF"
+mtd3: 00010000 00010000 "Bdata"
+mtd4: 00010000 00010000 "Factory"
+mtd5: 00010000 00010000 "crash"
+mtd6: 00010000 00010000 "cfg_bak"
+mtd7: 00100000 00010000 "overlay"
+mtd8: 00e70000 00010000 "OS1"
+mtd9: 001a0000 00010000 "kernel"
+mtd10: 00cd0000 00010000 "rootfs"
+mtd11: 00010000 00010000 "Config"
+
+
+
+mkdir /tmp/bak
+
+
+dd if=/dev/mtd0   | gzip > /tmp/bak/ALL.bin.gz
+dd if=/dev/mtd1   | gzip > /tmp/bak/Bootloader.bin.gz
+dd if=/dev/mtd2   | gzip > /tmp/bak/KF.bin.gz
+dd if=/dev/mtd3   | gzip > /tmp/bak/Bdata.bin.gz
+dd if=/dev/mtd4   | gzip > /tmp/bak/Factory.bin.gz
+dd if=/dev/mtd5   | gzip > /tmp/bak/crash.bin.gz
+dd if=/dev/mtd6   | gzip > /tmp/bak/cfg_bak.bin.gz
+dd if=/dev/mtd7   | gzip > /tmp/bak/overlay.bin.gz
+dd if=/dev/mtd8   | gzip > /tmp/bak/OS1.bin.gz
+dd if=/dev/mtd9   | gzip > /tmp/bak/kernel.bin.gz
+dd if=/dev/mtd10  | gzip > /tmp/bak/rootfs.bin.gz
+dd if=/dev/mtd11  | gzip > /tmp/bak/Config.bin.gz
+
+
+这时候你发现 scp 是不能用的...只有tftp...
+
+
+这个breed(breed-mt7621-pbr-m1.bin)注意不要在web界面刷写任何东西, 地址是不对的, 比如刷了固件你就覆盖了eeprom...
+进入op你会发现, 5g的wifi信号只有3db.....
+所以, 你现在想刷回去小米官方固件了.
+恭喜, 你又回到了小米官方固件.
+
+至此,
+
+小米路由器4A千兆版v2(r4ag v2)内部一日游已经完成.
