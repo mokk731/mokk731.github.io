@@ -86,3 +86,37 @@ dd if=/dev/mtd11  | gzip > /tmp/bak/Config.bin.gz
 至此,
 
 小米路由器4A千兆版v2(r4ag v2)内部一日游已经完成.
+
+---------------------------------------------
+
+https://www.right.com.cn/forum/thread-8269849-1-1.html
+小米R4AGv2版本刷openwrt
+最近买一个小米的R4AG的路由器，回来一看却是v2版本的，网上大部分开ssh/telnet的教程都不好使了，正式的openwrt版本也没有。。。。。。
+
+找了半天终于找了一个开telnet的方法，代码仓库：https://github.com/LordPinhead/OpenWRTInvasion
+pip3 install -r requirements.txt        # Install requirements
+python3 remote_command_execution_vulnerability_v2.py   --------这里要有带有v2字样的python脚本，自测 2.30.20 固件可以
+
+刷了breed： https://breed.hackpascal.net/breed-mt7621-pbr-m1.bin
+mtd -r write /tmp/breed-mt7621-pbr-m1.bin Bootloader  ----------刷了固件重启后进入breed
+
+在这里https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2/releases下了
+CSW-LEDE-R22.10.1 Kernel 5.4.214, 2022.11.21-0139 下的lede固件，breed刷固件，系统能启动了。
+Openwrt-v22.03.2 Kernel_5.10.146 2022.11.20-2214  这个也能刷入，但是无法进入openwrt web（感觉是没有产生初始的配置文件）；
+用户名root / 密码 password
+没办法只能先刷上面的lede，然后在lede里通过系统升级保留配置的方法，刷入openwrt的固件，总算成功了，能进入页面。
+
+但是MrTaiKe大神的固件中包含了很多插件，本人不太需要，个人比较喜欢像官方出的那种干净的固件。
+没办法只能参照大神的代码，在openwrt源码的基础上，checkout到 v22.03.2 的tag，手工合入大神修改的部分代码，自己重新编译了一个干净版本的 openwrt 固件：
+https://pan.baidu.com/s/1iZOYjbu-5bRY7-2qssaP4g  中的：openwrt-ramips-mt7621-xiaomi_mi-router-4a-gigabit-v2-squashfs-sysupgrade-spring.bin
+提取码：7w3f   （已删除，见下面）
+备注：直接从breed刷入这个固件，或者在系统里reset中，路由器无法启动。解决方法还是老路子，先刷MrTaiKe大神的 lede版本（网盘中的 openwrt-ramips-mt7621-xiaomi_mi-router-4a-gigabit-v2-squashfs-sysupgrade-lede.bin），然后再lede的页面中升级固件（保留配置）就行。
+
+本想总算搞定了，发现漏了一个重要的步骤，没有备份eeprom.bin，导致5G信号只有3db（1mw)，5G wifi基本不能用。
+没法只能从网上找了一通，有个坛友发了一个all.bin的备份，winhex截取了0x50000-0x5FFF0，自己搞了一个eeprom.bin，在breed里刷入了eeprom.bin，重启后总算好了。（网盘里的eeprom_spring.bin）
+折腾了2天终于搞定了，记录一下。
+
+
+
+
+
