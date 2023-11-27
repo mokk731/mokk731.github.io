@@ -40,6 +40,12 @@ https://www.right.com.cn/forum/thread-8295963-1-1.html
 
 备份方法:
 
+cat /proc/mtd
+
+dd if=/dev/mtd0 of=/tmp/ALL_backup.bin
+
+
+
 
 root@XiaoQiang:/# cat /proc/mtd
 dev:    size   erasesize  name
