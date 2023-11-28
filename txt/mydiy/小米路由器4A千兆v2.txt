@@ -39,7 +39,7 @@ Xiaomi Mi Router 4A Gigabit Edition v2
 https://www.right.com.cn/forum/thread-8295963-1-1.html
  [R4A] 小米路由器4A千兆版v2(r4ag v2)最新固件2.30.500解锁方法,备份方法,breed下恢复方法 
 
-解锁方法:
+1,解锁方法:
 
 2023.06.29 测试 小米路由器4A千兆版v2(r4ag v2) 新版本固件 2.30.500 也可以解锁ssh
 1 路由器恢复出厂.
@@ -57,7 +57,7 @@ python3 remote_command_execution_vulnerability_v2.py   --------这里要有带�
 
 
 
-备份方法:
+2,备份方法:
 
 telnet <router_ip_address>
 用户是root，不需要密码，回车即可进入。
@@ -65,8 +65,6 @@ telnet <router_ip_address>
 cat /proc/mtd
 dd if=/dev/mtd0 of=/tmp/ALL_backup.bin
 dd if=/dev/mtd4 of=/tmp/Factory.bin
-
-
 
 
 root@XiaoQiang:/# cat /proc/mtd
@@ -93,7 +91,7 @@ tftp 192.168.31.2 -p -l ALL_backup.bin
 tftp 192.168.31.2 -p -l Factory.bin
 
 
-刷breed方法:
+3,刷breed方法:
 
 小米路由器4A千兆版v2(r4ag v2) 可用breed地址:
 https://breed.hackpascal.net/breed-mt7621-pbr-m1.bin
@@ -108,7 +106,7 @@ mtd -r write /tmp/breed-mt7621-pbr-m1.bin Bootloader  ----------刷了固件重�
 这个breed(breed-mt7621-pbr-m1.bin)地址是不对的, 比如刷了固件你就覆盖了eeprom...
 进入op你会发现, 5g的wifi信号只有3db.....
 
-刷ROM方法:
+4,刷ROM方法:
 
 在这里https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2/releases 下
 Openwrt-v22.03.2 Kernel_5.10.146 2022.11.20-2214
@@ -117,8 +115,8 @@ https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2/releases/download/2022.1
 用breed同时刷ROM +  Factory.bin（eeprom.bin）
 但wifi 5G 不能自动选信道，要手动选信道。
 
-
-
+iw dev
+查看wifi 信号强度
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
