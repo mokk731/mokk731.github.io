@@ -48,7 +48,7 @@ https://www.right.com.cn/forum/thread-8295963-1-1.html
 4 运行漏洞脚本 https://github.com/LordPinhead/OpenWRTInvasion 注意不是 https://github.com/acecilia/OpenWRTInvasion 版本
 
 Linux
-git clone https://github.com/acecilia/OpenWRTInvasion
+git clone https://github.com/LordPinhead/OpenWRTInvasion
 cd OpenWRTInvasion
 pip3 install -r requirements.txt        # Install requirements
 python3 remote_command_execution_vulnerability_v2.py   --------这里要有带有v2字样的python脚本，自测 2.30.20 固件可以
