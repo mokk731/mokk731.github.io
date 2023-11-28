@@ -41,13 +41,26 @@ https://www.right.com.cn/forum/thread-8295963-1-1.html
 2 拔掉电脑和路由器所有网线, 关闭防火墙, 仅仅有路由器一根网线连接到电脑.
 3 初始化设置路由器, 上网模式DHCP, 密码设置 12345678
 4 运行漏洞脚本 https://github.com/LordPinhead/OpenWRTInvasion 注意不是 https://github.com/acecilia/OpenWRTInvasion 版本
+
+Linux
+git clone https://github.com/acecilia/OpenWRTInvasion
+cd OpenWRTInvasion
+pip3 install -r requirements.txt        # Install requirements
+python3 remote_command_execution_vulnerability_v2.py   --------这里要有带有v2字样的python脚本，自测 2.30.20 固件可以
+
 5 第一次可能不行, 再运行一次即可.
 
+
+
 备份方法:
+
+telnet <router_ip_address>
+用户是root，不需要密码，回车即可进入。
 
 cat /proc/mtd
 
 dd if=/dev/mtd0 of=/tmp/ALL_backup.bin
+dd if=/dev/mtd4 of=/tmp/Factory.bin
 
 
 
@@ -69,34 +82,18 @@ mtd11: 00010000 00010000 "Config"
 
 
 
-mkdir /tmp/bak
-
-
-dd if=/dev/mtd0   | gzip > /tmp/bak/ALL.bin.gz
-dd if=/dev/mtd1   | gzip > /tmp/bak/Bootloader.bin.gz
-dd if=/dev/mtd2   | gzip > /tmp/bak/KF.bin.gz
-dd if=/dev/mtd3   | gzip > /tmp/bak/Bdata.bin.gz
-dd if=/dev/mtd4   | gzip > /tmp/bak/Factory.bin.gz
-dd if=/dev/mtd5   | gzip > /tmp/bak/crash.bin.gz
-dd if=/dev/mtd6   | gzip > /tmp/bak/cfg_bak.bin.gz
-dd if=/dev/mtd7   | gzip > /tmp/bak/overlay.bin.gz
-dd if=/dev/mtd8   | gzip > /tmp/bak/OS1.bin.gz
-dd if=/dev/mtd9   | gzip > /tmp/bak/kernel.bin.gz
-dd if=/dev/mtd10  | gzip > /tmp/bak/rootfs.bin.gz
-dd if=/dev/mtd11  | gzip > /tmp/bak/Config.bin.gz
-
-
 这时候你发现 scp 是不能用的...只有tftp...
 
 
-这个breed(breed-mt7621-pbr-m1.bin)注意不要在web界面刷写任何东西, 地址是不对的, 比如刷了固件你就覆盖了eeprom...
+tftp 192.168.31.169 -p -l ALL_backup.bin
+tftp 192.168.31.169 -p -l Factory.bin
+
+
+
+这个breed(breed-mt7621-pbr-m1.bin)地址是不对的, 比如刷了固件你就覆盖了eeprom...
 进入op你会发现, 5g的wifi信号只有3db.....
-所以, 你现在想刷回去小米官方固件了.
-恭喜, 你又回到了小米官方固件.
 
-至此,
 
-小米路由器4A千兆版v2(r4ag v2)内部一日游已经完成.
 
 ---------------------------------------------
 
