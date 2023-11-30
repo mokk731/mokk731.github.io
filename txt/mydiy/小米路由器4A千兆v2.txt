@@ -115,7 +115,7 @@ CSW-LEDE-R22.10.1 Kernel 5.4.214, 2022.11.21-0139  可以正常使用，就是�
  
 
 
-放弃Opwrt_v22.03.02,能成功build.能SSH，不能到web页面，
+放弃Opwrt_v22.03.02,能成功build.能SSH，不能到web页面，界面英文，不简洁。
 改用CSW-Lede-R4AGv2,---- Lean 的 LEDE 源码仓库
 
 用breed同时刷ROM +  Factory.bin（eeprom.bin）
