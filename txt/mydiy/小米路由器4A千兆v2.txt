@@ -62,6 +62,7 @@ python3 remote_command_execution_vulnerability_v2.py   --------这里要有带�
 telnet <router_ip_address>
 用户是root，不需要密码，回车即可进入。
 
+cd /tmp
 cat /proc/mtd
 dd if=/dev/mtd0 of=/tmp/ALL_backup.bin
 dd if=/dev/mtd4 of=/tmp/Factory.bin
@@ -86,7 +87,7 @@ mtd11: 00010000 00010000 "Config"
 
 这时候你发现 scp 是不能用的...只有tftp...
 
-
+cd /tmp
 tftp 192.168.31.2 -p -l ALL_backup.bin
 tftp 192.168.31.2 -p -l Factory.bin
 
@@ -114,11 +115,10 @@ CSW-LEDE-R22.10.1 Kernel 5.4.214, 2022.11.21-0139  可以正常使用，就是�
 
  
 
-
 放弃Opwrt_v22.03.02,能成功build.能SSH，不能到web页面，界面英文，不简洁。
 改用CSW-Lede-R4AGv2,---- Lean 的 LEDE 源码仓库
 
-用breed同时刷ROM +  Factory.bin（eeprom.bin）
+用breed同时刷 ROM + Factory.bin（eeprom.bin）
 但wifi 5G 不能自动选信道，要手动选信道。
 
 iw dev
