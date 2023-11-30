@@ -157,6 +157,16 @@ https://pan.baidu.com/s/1iZOYjbu-5bRY7-2qssaP4g  中的：openwrt-ramips-mt7621-
 折腾了2天终于搞定了，记录一下。
 
 
+--------------------------------------------------------------------------------------
+
+Xiaomi_R4AGv2路由器自制稳定ROM 
+
+https://mokk7310.github.io/Rom/
+
+
+
+
+
 
 
 
