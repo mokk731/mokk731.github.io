@@ -109,8 +109,14 @@ mtd -r write /tmp/breed-mt7621-pbr-m1.bin Bootloader  ----------刷了固件重�
 4,刷ROM方法:
 
 在这里https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2/releases 下
-Openwrt-v22.03.2 Kernel_5.10.146 2022.11.20-2214
-https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2/releases/download/2022.11.20-2214/openwrt-ramips-mt7621-xiaomi_mi-router-4a-gigabit-v2-squashfs-sysupgrade.bin
+https://github.com/MrTaiKe/Action_OpenWrt_Xiaomi_R4AGv2/releases/download/2022.11.21-0139/openwrt-ramips-mt7621-xiaomi_mi-router-4a-gigabit-v2-squashfs-sysupgrade.bin
+CSW-LEDE-R22.10.1 Kernel 5.4.214, 2022.11.21-0139  可以正常使用，就是软件安装得比较多。
+
+ 
+
+
+放弃Opwrt_v22.03.02,能成功build.能SSH，不能到web页面，
+改用CSW-Lede-R4AGv2,---- Lean 的 LEDE 源码仓库
 
 用breed同时刷ROM +  Factory.bin（eeprom.bin）
 但wifi 5G 不能自动选信道，要手动选信道。
