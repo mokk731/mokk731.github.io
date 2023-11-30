@@ -37,14 +37,14 @@
 
 
 
-#### [小米路由器4A千兆路由器v1](https://mokk731.github.io/txt/mydiy/小米路由器4A千兆v1.txt)
+#### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
 
 #### [小米路由器4A千兆路由器v1自制稳定ROM openwrt-mi-router-4a-2022.06.29-1508.bin](https://mokk7310.github.io/Rom/openwrt-mi-router-4a-2022.06.29-1508.bin)
 
-#### [小米路由器4A千兆路由器v2](https://mokk731.github.io/txt/mydiy/小米路由器4A千兆v2.txt)
+#### [小米路由器R4AGv2](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv2.txt)
 
 
-#### [小米路由器4C](https://mokk731.github.io/txt/mydiy/小米路由器4C.txt)
+#### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
 
 
 
