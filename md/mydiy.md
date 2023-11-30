@@ -27,13 +27,13 @@
 
 #### [中兴E8820S路由器](https://mokk731.github.io/txt/mydiy/中兴E8820S.txt)
 
-#### [中兴E8820S路由器自制稳定ROM openwrt-zte_e8820s-2022.08.02-1305.bin](https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2022.08.02-1305.bin)
+#### [中兴E8820S路由器自制稳定ROM openwrt-zte_e8820s-2023.03.10-0539.bin](https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2023.03.10-0539.bin)
 
 
 
 #### [极路由4增强版HC5692路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5692.txt)
 
-#### [极路由4增强版HC5692路由器自制稳定ROM openwrt-mt7621-hiwifi_hc5962-20221110.bin](https://mokk7310.github.io/Rom/openwrt-mt7621-hiwifi_hc5962-20221110.bin)
+#### [极路由4增强版HC5692路由器自制稳定ROM openwrt-hiwifi_hc5962-2023.06.27-0300.bin](https://mokk7310.github.io/Rom/openwrt-hiwifi_hc5962-2023.06.27-0300.bin)
 
 
 
