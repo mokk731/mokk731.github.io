@@ -24,28 +24,19 @@
 ----------------------------------------------------------------
 
 
-
 #### [中兴E8820S路由器](https://mokk731.github.io/txt/mydiy/中兴E8820S.txt)
-
-#### [中兴E8820S路由器自制稳定ROM openwrt-zte_e8820s-2023.03.10-0539.bin](https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2023.03.10-0539.bin)
-
 
 
 #### [极路由4增强版HC5692路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5692.txt)
 
-#### [极路由4增强版HC5692路由器自制稳定ROM openwrt-hiwifi_hc5962-2023.06.27-0300.bin](https://mokk7310.github.io/Rom/openwrt-hiwifi_hc5962-2023.06.27-0300.bin)
-
-
 
 #### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
 
-#### [小米路由器R4AGv1自制稳定ROM openwrt-mi-router-4a-2023.06.29.bin](https://mokk7310.github.io/Rom/openwrt-mi-router-4a-2023.06.29.bin)
 
 #### [小米路由器R4AGv2](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv2.txt)
 
 
 #### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
-
 
 
 
@@ -66,8 +57,6 @@
 
 
 #### [手把手教如何模拟IC加密卡](https://mokk731.github.io/txt/mydiy/手把手教如何模拟IC加密卡.txt)
-
-
 
 
 
