@@ -241,5 +241,56 @@ sed -i 's|^#*openvfd_boxid=.*|openvfd_boxid="16"|g' /etc/custom_service/start_se
 
 
 --------------------------------
+Armbian 配置 WIFI 教程
+https://blog.csdn.net/hailangnet/article/details/118110720
+https://zhuanlan.zhihu.com/p/201516668
+
+通过 nmcli 连上 WIFI
+
+nmcli 是一个命令行工具，用于控制 NetworkManager；还可以用来显示网络设备状态；创建、编辑、开启/关闭和删除网络连接 。Armbian 系统默认自带 nmcli， 这里不介绍安装方法。
+
+通过 nmcli 直接连上 WIFI 后，系统会记录已保存的 AP。下面是具体的连接方法：
+
+ 1.  查看设备状态：
+
+$ nmcli device status
+DEVICE  TYPE      STATE         CONNECTION         
+enp1s0  ethernet  connected     Wired connection 1 
+wlp2s0  wifi      disconnected  --                 
+lo      loopback  unmanaged     --  
+
+这里 wlp2s0 类型为 wifi，表示我们的无线网卡，状态为 disconnected, 还没有连上 WIFI 热点。
+
+2. 检查 radio:
+
+$ nmcli radio
+WIFI-HW  WIFI     WWAN-HW  WWAN    
+enabled  enabled  enabled  enabled 
+
+3. 查看附近无线网络信号：
+
+$ nmcli dev wifi list
+SSID                  MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+MYSSID         Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     
+MYSSID         Infra  132   54 Mbit/s  100     ▂▄▆█  WPA2     
+SOMEOTHERSSID  Infra  52    54 Mbit/s  49      ▂▄__  WPA2     
+MYSSID         Infra  149   54 Mbit/s  45      ▂▄__  WPA2     
+MYSSID         Infra  11    54 Mbit/s  42      ▂▄__  WPA2     
+SOMEOTHERSSID  Infra  1     54 Mbit/s  27      ▂___  WPA2
+
+第5列表示信号情况，信号越好的 AP，会越靠前。
+
+4. 连上 AP 热点：
+
+    如果是无密码的 WIFI， 执行以下连接命令，SSID 就是我们所说的 WIFI 名:
+
+$ nmcli device wifi connect <SSID|BSSID>
+
+    加密的 AP, 使用以下命令：
+
+$ nmcli device wifi connect <SSID|BSSID> password <password>
+
+执行命令没有报错后，再 Ping 下百度是否可达，能 Ping 通就表明已经连上 AP，可以正常上网。
+
 
 
