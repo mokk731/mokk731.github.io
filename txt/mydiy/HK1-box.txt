@@ -293,4 +293,89 @@ $ nmcli device wifi connect <SSID|BSSID> password <password>
 执行命令没有报错后，再 Ping 下百度是否可达，能 Ping 通就表明已经连上 AP，可以正常上网。
 
 
+--------------------------------
+
+如何在 Linux 中使用 nmcli 连接 WiFi？
+https://cloud.tencent.com/developer/article/2296806
+
+了解 nmcli
+nmcli 是 NetworkManager 的命令行工具，它与 NetworkManager 一起管理网络连接。NetworkManager 是一个常见的网络管理程序，用于配置和管理网络接口、连接和设备等。nmcli 提供了一个直观和灵活的方式来管理网络连接，包括以交互或脚本方式连接到 WiFi 网络。
+
+
+连接到 WiFi 网络
+
+以下是在 Linux 中使用 nmcli 连接 WiFi 网络的详细步骤：
+步骤 1: 打开终端
+
+首先，打开 Linux 终端。您可以使用终端模拟器（如 GNOME Terminal、Konsole 或 xterm）或通过快捷键组合（如 Ctrl+Alt+T）打开终端。
+步骤 2: 查看可用的 WiFi 网络
+
+执行以下命令来查看可用的 WiFi 网络列表：
+
+nmcli device wifi list
+
+这将显示附近的 WiFi 网络以及它们的名称（SSID）、信号强度、频道和加密方式等信息。
+步骤 3: 连接到 WiFi 网络
+
+选择要连接的 WiFi 网络，并执行以下命令以连接到该网络：
+
+nmcli device wifi connect <SSID> password <password>
+
+将 <SSID> 替换为要连接的 WiFi 网络的名称，<password> 替换为网络的密码。如果网络没有密码，则不需要提供 password 参数。
+步骤 4: 验证连接
+
+连接成功后，可以执行以下命令来验证 WiFi 连接：
+
+nmcli connection show
+
+该命令将显示当前的网络连接状态，包括已连接的 WiFi 网络。
+连接到隐藏的 WiFi 网络
+
+有些 WiFi 网络可能被设置为隐藏，即不在可见的网络列表中显示。在这种情况下，您需要手动配置连接。以下是连接到隐藏的 WiFi 网络的步骤：
+步骤 1: 打开终端
+
+打开终端，进入命令行界面。
+步骤 2: 创建一个新的连接
+
+执行以下命令创建一个新的连接配置：
+
+nmcli connection add type wifi con-name <connection-name> ifname <interface-name> ssid <SSID>
+
+将 <connection-name> 替换为您想要给连接起的名称，<interface-name> 替换为您的无线网络接口名称，<SSID> 替换为隐藏的 WiFi 网络的名称。
+步骤 3: 配置连接参数
+
+执行以下命令来配置连接的参数：
+
+nmcli connection modify <connection-name> wifi.hidden yes
+
+将 <connection-name> 替换为您在上一步中创建的连接的名称。
+步骤 4: 输入密码并连接
+
+执行以下命令以输入密码并连接到隐藏的 WiFi 网络：
+
+nmcli connection up <connection-name> password <password>
+
+将 <connection-name> 替换为您在步骤 2 中创建的连接的名称，<password> 替换为网络的密码。
+步骤 5: 验证连接
+
+连接成功后，可以执行以下命令来验证 WiFi 连接：
+
+nmcli connection show
+
+该命令将显示当前的网络连接状态，包括已连接的 WiFi 网络。
+其他 nmcli 命令
+
+nmcli 提供了许多其他有用的命令来管理和配置网络连接。以下是一些常用的 nmcli 命令：
+
+    nmcli connection show：显示所有的网络连接。
+    nmcli connection delete <connection-name>：删除指定的网络连接。
+    nmcli radio wifi on：启用 WiFi 网络。
+    nmcli radio wifi off：禁用 WiFi 网络。
+
+您可以通过执行 nmcli --help 命令或参考 nmcli 的文档来了解更多 nmcli 命令和选项。
+
+
+
+
+
 
