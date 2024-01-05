@@ -1,6 +1,10 @@
 
 ## [LinuxMint 发行版下载](https://www.linuxmint.com/download_all.php)
 
+## [Ubuntu 发行版下载](https://www.linuxmint.com/download_all.php](https://ubuntu.com/download/alternative-downloads)
+
+
+
 ## [Linux 硬盘分区指南](https://zhuanlan.zhihu.com/p/408467806)
 
 理论上来说，安装 Linux 系统，只需要给硬盘分一个区，然后挂载 / 根分区目录即可正常安装和使用。这也是我对刚接触 Linux 的朋友最为推荐的方案。先不要被太多概念所影响，把系统先安装好并用起来。在此基础上，再根据自己的需求规划更加细致的分区方案。
@@ -16,6 +20,11 @@
 ext4：目前 Linux 主流的文件系统，如无意外的话，默认都应该选择它。
 
 swap：Swap 交换分区专属的文件系统，如果有划分 Swap 分区，需要格式化为这种格式。
+
+
+/
+/home
+/swap
 
 ---------------------------------------------------------------------------------------
 
