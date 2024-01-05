@@ -1,0 +1,9 @@
+Microsoft Defender 有时候会在后台占用很大cpu和内存
+https://answers.microsoft.com/zh-hans/windows/forum/all/microsoft-defender/9261ddef-b4f4-4502-9516-c1c698c8ff64
+
+
+可以通过设置组策略来控制此问题，如下所示：
+1.Win键+R键打开运行窗口，然后输入“Gpedit.msc”打开。
+2.导航：计算机配置->管理模板->Windows组件->microsoft DeFinder防病毒（或Windows Definder防病毒，根据系统版本）->扫描。
+3.双击“指定扫描过程中最大占用CPU百分比”
+-选中启用，设置指定百分比的值(根据需要设置)-应用 
