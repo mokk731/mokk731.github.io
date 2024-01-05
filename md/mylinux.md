@@ -1,7 +1,7 @@
 
 ## [LinuxMint 发行版下载](https://www.linuxmint.com/download_all.php)
 
-## [Ubuntu 发行版下载](https://www.linuxmint.com/download_all.php](https://ubuntu.com/download/alternative-downloads)
+## [Ubuntu 发行版下载](https://ubuntu.com/download/alternative-downloads)
 
 
 
@@ -23,7 +23,9 @@ swap：Swap 交换分区专属的文件系统，如果有划分 Swap 分区，�
 
 
 /
+
 /home
+
 /swap
 
 ---------------------------------------------------------------------------------------
