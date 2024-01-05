@@ -162,7 +162,7 @@ sudo apt-get autoremove #清除所有未使用的依赖项
 
 ## [树莓派上 Docker 的安装和使用](https://shumeipai.nxez.com/2019/05/20/how-to-install-docker-on-your-raspberry-pi.html)
 
-sudo curl -sSL https://get.docker.com | sh
+"sudo curl -sSL https://get.docker.com | sh"
 
 如果采用这一步安装成功，可直接跳到下文的图形界面安装那里继续阅读。
 
