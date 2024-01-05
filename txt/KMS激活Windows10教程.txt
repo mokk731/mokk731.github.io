@@ -44,7 +44,7 @@ Enterprise N LTSC 2019: 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
 
 Windows 11 和 Windows 10（半年频道版本）
 Windows 11 专业版
-Windows 10 专业版 	W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 10 专业版 	W269N-WFGWX-YVC9B-4J6C9-T83GX             
 Windows 11 企业版
 Windows 10 企业版 	NPPR9-FWDCX-D2C8J-H872K-2YT43
 
@@ -53,7 +53,7 @@ Windows 10 企业版 	NPPR9-FWDCX-D2C8J-H872K-2YT43
 
 Windows 10 LTSC 2021 和 2019
 Windows 10 企业版 LTSC 2021
-Windows 10 企业版 LTSC 2019 	M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+Windows 10 企业版 LTSC 2019 	M7XTQ-FN8P6-TTKYV-9D4CC-J462D              ##############
 
 Windows 10 企业版 N LTSC 2021
 Windows 10 企业版 N LTSC 2019 	92NFX-8DJQP-P6BBQ-THF9C-7CG2H
@@ -66,13 +66,18 @@ CONFIG_PACKAGE_luci-app-vlmcsd=y
 
 --------------------------------------------------
 
+
+KMS 激活 Windows 10 企业版 LTSC 2019    ##############
+
 1,设置 KMS 激活服务器, 
 
 前端路由器刷 openwrt，CONFIG_PACKAGE_luci-app-vlmcsd=y，KMS插件。
 
 2, Enterprise LTSC 2019激活
 
-slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+打开Windows PowerShelll
+
+slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D             ##############
 
 slmgr /skms 192.168.11.1
 
