@@ -132,5 +132,8 @@ https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2022.08.02-1305.bin
 
 https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2023.03.10-0539.bin
 
+https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.01.05-0510.bin
+
+
 -------------------------------------
 
