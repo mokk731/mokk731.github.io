@@ -164,6 +164,8 @@ Xiaomi_R4AGv2路由器自制稳定ROM
 https://mokk7310.github.io/Rom/openwrt-mi-router-4a-gigabit-v2-2023.12.03-1423.bin
 
 
+https://mokk7310.github.io/Rom/openwrt-mi-router-4a-v2-2024.01.03-1707.bin
+
 
 
 
