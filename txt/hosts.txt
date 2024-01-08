@@ -2,7 +2,7 @@
 # linux---- sudo /etc/init.d/dns-clean start       nano /etc/hosts
 # openwrt--- /etc/init.d/dnsmasq restart           vi /etc/myhosts
 
-
+# nslookup raw.githubusercontent.com 119.29.29.29
 
 # https://ping.chinaz.com
 # update 202307
