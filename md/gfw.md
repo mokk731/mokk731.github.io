@@ -17,7 +17,7 @@
 
 #### Telegram
 
-#### [v2rayfree](https://mokk731.github.io/txt/v2rayfree.txt)
+#### v2rayfree
 
 
 --------------------------------------------------------------------------
