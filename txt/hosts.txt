@@ -5,20 +5,30 @@
 # nslookup raw.githubusercontent.com 119.29.29.29
 
 # https://ping.chinaz.com
-# update 202307
+# update 202401
 ########################################################################
 
 # Good
 
 # GitHub Start
 # https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
+# https://raw.hellogithub.com/hosts
+
 20.205.243.166     gist.github.com
 20.205.243.166     github.com
 20.205.243.166     www.github.com
 185.199.108.133    raw.githubusercontent.com
 
+# FastGit 是一个对于 GitHub.com 的镜像加速器
+# github.com               	 hub.fgit.cf 
+# raw.githubusercontent.com 	 raw.fgit.cf
+
+
+
 # debian omv
 146.75.114.132   httpredir.debian.org
+
+
 
 ##############################################
 
