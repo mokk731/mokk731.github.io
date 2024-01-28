@@ -77,45 +77,43 @@ https://downloads.openwrt.org/
 
 编辑 /etc/apt/sources.list 文件，删除原文件所有内容，用以下内容取代：
 
-#
+# 树莓派更换软件源
 sudo nano /etc/apt/sources.list
 
-
-deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
-
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
-
-or
-
-deb http://mirrors.aliyun.com/raspbian/raspbian/ buster main contrib non-free rpi 
-
-deb-src http://mirrors.aliyun.com/raspbian/raspbian/ buster main contrib non-free rpi
-
+deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
+deb-src https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
 
 #
 sudo nano /etc/apt/sources.list.d/raspi.list
 
-deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 
 
-
-
-
-
+# 树莓派软件源更新
 sudo apt-get update
 sudo apt-get upgrade
 
 
-清理系统
+# 清理系统
 
 sudo apt-get clean      #自动清理apt-cache
 sudo apt-get autoclean  #清理部分不再使用的软件包
 sudo apt-get autoremove #清除所有未使用的依赖项
+
+
+
+# 树莓派软件源更新提示 GPG公匙不存在
+gpg --keyserver  keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
+gpg --export --armor  0E98404D386FA1D9 | sudo apt-key add -
+
+
+
+
 ---------------------------
 
-http://192.168.10.10:8181
+http://192.168.11.10:8181     qbt
 
-http://192.168.10.10:9000
+http://192.168.11.10:9000     portainer
 
 
 
