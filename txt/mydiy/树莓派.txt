@@ -78,6 +78,11 @@ https://downloads.openwrt.org/
 编辑 /etc/apt/sources.list 文件，删除原文件所有内容，用以下内容取代：
 
 # 树莓派更换软件源
+ 清华大学开源软件镜像站  Raspbian 软件仓库
+https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/
+
+  
+# 
 sudo nano /etc/apt/sources.list
 
 deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
