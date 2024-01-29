@@ -239,4 +239,16 @@ curl ip.sb --proxy 192.168.31.1:8888
 
 ------------------------------------------
 
+
+https://downloads.immortalwrt.org/
+
+ImmortalWrt is a fork of OpenWrt, with more packages ported, more devices supported, better performance, and special optimizations for mainland China users.
+Compared the official one, we allow to use hacks or non-upstreamable patches / modifications to achieve our purpose. Source from anywhere.
+
+Default login address: http://192.168.1.1 or http://immortalwrt.lan, username: root, password: none.
+
+
+
+
+
 在线定制专属固件: https://supes.top
