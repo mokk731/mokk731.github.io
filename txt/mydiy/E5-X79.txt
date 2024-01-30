@@ -40,7 +40,20 @@ C6T6
 
 高FPU    118          64         73
 
-极高主机功耗：
+
+C4T4
+       主机功耗W     CPU功耗W     温度C
+低                   14         32
+
+高FPU                56         64
+
+
+
+
+
+
+
+C6T6极高主机功耗：
 hashcat +Super π         145W 
 hashcat +Super π +B站    165W
 
