@@ -79,7 +79,7 @@
 
 #### [BT-trackerslist](https://mokk731.github.io/txt/trackerslist.txt)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [IPTV](https://github.com/iptv-org/iptv)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
