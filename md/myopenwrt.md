@@ -15,7 +15,13 @@
 
 #### [OpenWRT快速配置Samba](https://mokk731.github.io/txt/OpenWRT快速配置Samba.txt)
 
+#### [immortalwrt ROM 下载](https://downloads.immortalwrt.org)
+
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
+
+#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+
+
 
