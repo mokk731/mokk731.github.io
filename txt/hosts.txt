@@ -21,7 +21,7 @@
 
 # FastGit 是一个对于 GitHub.com 的镜像加速器
 # github.com               	 hub.fgit.cf 
-# raw.githubusercontent.com 	 raw.fgit.cf
+# raw.githubusercontent.com 	 raw.fgit.cf    raw.gitmirror.com
 
 
 
