@@ -2,14 +2,26 @@ https://post.smzdm.com/p/akxwr6l9/
 
 进BIOS设置需要密码，默认是zte-ct
 
-BIOS设置很多，这里我展示几个常用的选项位置，第一个是Advanced里面的IDE Configuration，需要把SATA模式改为AHCI，legacy和uefi就看你安装什么系统了，win7及以下的系统都是选legacy。开机按 ESC 进入启动菜单，选第二个 Boot Manager 可以快速选择第一启动设备，选最后的 SCU 就是 BIOS 设置。
+开机按 ESC 进入启动菜单，选第二个 Boot Manager 可以快速选择第一启动设备，选最后的 SCU 就是 BIOS 设置。
+
+BIOS设置很多，这里我展示几个常用的选项位置，第一个是Advanced里面的IDE Configuration，需要把SATA模式改为AHCI，legacy和uefi就看你安装什么系统了，win7及以下的系统都是选legacy。
 
 
+AMD GX-415GA SOC
+只有一个标准电压1.5V的DDR3笔记本内存槽，GX-415GA这个CPU只支持单通道，所以1个内存槽最大能装8G也够用了。
+
+再来看看中兴CT340的电源，航嘉造的12V2A电源功率24W，接口是5.5*2.5mm的，实测待机功耗只有5W，满载的时候13W，但奇怪的是外接2.5寸移动硬盘的时候会出现掉盘的现象，USB2.0和USB3.0的接口都会，按理论说2.5寸硬盘功耗在2.5W，就算是启动的时候达到5W，也不应该会掉盘吧，况且我的移动硬盘是固态硬盘，不存在启动瞬间大电流的问题。我个人考虑最大可能是主板供电设计不足，提供给USB的5V电压不稳，也有可能是电源虚标，不过12V2A这样的低功率也没必要虚标吧。。。
+
+HD8330E核显,频率1600MHz单通道DDR3 4G内存
 
 ========================================================
 
 openwrt-x86-64
 https://github.com/SuLingGG/OpenWrt-Rpi/releases
+immortalwrt-x86-64-generic-squashfs-combined.img.gz
 
-immortalwrt-x86-64-generic-squashfs-combined-efi.img.gz
 
+
+
+https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/
+https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/immortalwrt-21.02.7-x86-64-generic-squashfs-combined.img.gz
