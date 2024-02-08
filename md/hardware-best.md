@@ -9,11 +9,11 @@
 |Mesh组网:         | Redmi路由器AX3000 两件套 , Redmi路由器AX6S, .....                                 |
 |NAS:             |    电犀牛R66S  .  外贸盒子HK1 box  , R4S                                          |
 |电视盒子：         | 外贸盒子HK1 box ,  魔百盒CM-311 , 中兴B860av2.1 wifi                              | 
-|看电视app：       | 小薇直播,,       TV-box                                                         |
+|看电视app：       | 小薇直播,,       TV-box ,    灵犀直播TV  ,  看看TV                                 |
 |在线免费电影：     | www.smdyy.cc   神马电影网 ,  www.pkmp4.xyz  片库 ,                               |
 | 耳机：           |      飞利浦9500                                                                 | 
 | 万用表:          |  DT9205A   ,     胜利890D,    优利德UT39A+                                      |
 |咖啡豆：          | sinloy辛鹿蓝山                                                                   | 
-|快速充电头：       | 乐视EQ-24BCN 24W 东洋代工 USB-A 19元,, 酷态科ZMIHA612 18W USB-A 25元 ,, ZMIHA716氮化镓 PD20W USB-C 29元 ,   |
+|快速充电头：       | 乐视EQ-24BCN 24W 东洋代工 USB-A 19元,, 酷态科ZMIHA612 18W USB-A 25元 , |
 |电动牙刷：        | 飞利浦HX6730 249元                                                               |
 | 机械键盘：       |  VGN-N75键盘                                                                     |
