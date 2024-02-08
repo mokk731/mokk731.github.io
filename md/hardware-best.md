@@ -10,7 +10,7 @@
 |NAS:             |    电犀牛R66S  .  外贸盒子HK1 box  , R4S                                          |
 |电视盒子：         | 外贸盒子HK1 box ,  魔百盒CM-311 , 中兴B860av2.1 wifi                              | 
 |看电视app：       | 小薇直播,,       TV-box ,    灵犀直播TV  ,  看看TV                                 |
-|在线免费电影：     | www.smdyy.cc   神马电影网 ,  www.pkmp4.xyz  片库 ,  www.dygod.net   电影天堂       |
+|在线免费电影：     | www.smdyy.cc 神马电影网 ,  www.pkmp4.xyz 片库 ,  www.dygod.net 电影天堂    ,       |
 | 耳机：           |      飞利浦9500                                                                 | 
 | 万用表:          |  DT9205A   ,     胜利890D,    优利德UT39A+                                      |
 |咖啡豆：          | sinloy辛鹿蓝山                                                                   | 
