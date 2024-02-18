@@ -125,7 +125,7 @@ Success: ssh port is 22
 极路由4增强版HC5692路由器自制稳定ROM 
 
 
-https://mokk7310.github.io/Rom/openwrt-hiwifi_hc5962-2024.01.03-2126.bin
+https://mokk7310.github.io/Rom/openwrt-hiwifi_hc5962-2024.02.18-1922.bin
 
 
 ----------------------------------------------------------------------
