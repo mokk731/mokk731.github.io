@@ -17,7 +17,7 @@
 
 #### [immortalwrt ROM 下载](https://downloads.immortalwrt.org)
 
-#### [指定主机DHCP获取不同网关DNS](https://mokk731.github.io/txt/指定主机DHCP获取不同网关DNS.txt)
+#### [OpenWrt指定主机DHCP获取不同网关DNS](https://mokk731.github.io/txt/OpenWrt指定主机DHCP获取不同网关DNS.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
