@@ -3,7 +3,7 @@ https://www.right.com.cn/forum/thread-8225205-1-1.html
 
 为了旁路由指定 网关和DNS
 
-编辑 /etc/config/dhcp
+vi /etc/config/dhcp
 
 举例：
 定义主机----
