@@ -17,7 +17,7 @@
 
 #### [immortalwrt ROM 下载](https://downloads.immortalwrt.org)
 
-#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+#### [指定主机DHCP 获取不同网关DNS](https://mokk731.github.io/txt/指定主机DHCP 获取不同网关DNS.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
