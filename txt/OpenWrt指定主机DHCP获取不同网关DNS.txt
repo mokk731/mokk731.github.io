@@ -14,7 +14,7 @@ config host
 
 config tag 'need_outernet'                                                 -------定义标签，名字可自选--------
         list dhcp_option '3, 192.168.1.2'                                 ------定义参数 ，3为指定网关 ，6为指定DNS
-list dhcp_option '6, 192.168.1.2'
+        list dhcp_option '6, 192.168.1.2'
         option force '1'                                                         -------强制优先？？？猜的
 
 重要事情说三遍吧！
@@ -62,7 +62,7 @@ config host
 
 config tag 'outsea'
         list dhcp_option '3,192.168.0.11'
-         option force '1'  
+        option force '1'  
 
 建议关注下空格，每项之间只空一个字节
 
@@ -103,6 +103,6 @@ config host
 
 config tag 'outsea'
         list dhcp_option '3,192.168.0.11'
-         option force '1'  
+        option force '1'  
 
 ------------------------------------------------------------------------------------
