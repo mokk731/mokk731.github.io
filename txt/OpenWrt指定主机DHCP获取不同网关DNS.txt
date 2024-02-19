@@ -8,13 +8,13 @@ vi /etc/config/dhcp
 举例：
 定义主机----
 config host
-        option ip       '192.168.1.3'                                          -----指定IP地址（必须）----------
-        option mac      '11:22:33:44:55:66 aa:bb:cc:dd:ee:ff'    -------MAC地址（必须）---------
-        option tag      'need_outernet'                                    -------指定标签（必设 名字可自选）
+        option ip '192.168.1.3'                                          -----指定IP地址（必须）----------
+        option mac '11:22:33:44:55:66 aa:bb:cc:dd:ee:ff'    -------MAC地址（必须）---------
+        option tag 'need_outernet'                                    -------指定标签（必设 名字可自选）
 
 config tag 'need_outernet'                                                 -------定义标签，名字可自选--------
-        list dhcp_option '3, 192.168.1.2'                                 ------定义参数 ，3为指定网关 ，6为指定DNS
-        list dhcp_option '6, 192.168.1.2'
+        list dhcp_option '3,192.168.1.2'                                 ------定义参数 ，3为指定网关 ，6为指定DNS
+        list dhcp_option '6,192.168.1.2'
         option force '1'                                                         -------强制优先？？？猜的
 
 重要事情说三遍吧！
