@@ -7,9 +7,9 @@
 | 手机：           | MTK天玑8100, RedmiNote11T Pro....... A11,iphone8p,                              |
 |路由器:           | 中兴E8820S , mi-R4a-G,, ,小米AX3000T, 小米WR30U, 360 T7, 华三NX30Pro,中移动RAX3000m   |
 |Mesh组网:         | 小米AX3000T, 小米WR30U,.....                                                     |
-|NAS:             |  电犀牛R66S . 外贸盒子HK1 box , R4S  ，N4100                                       |
-|电视盒子：         | 外贸盒子HK1 box ,  魔百盒CM-311 ,                                                 | 
-|看电视app：       | 小薇直播,,       TV-box ,    灵犀直播TV  ,  看看TV                                 |
+|NAS:             |  电犀牛R66S . 外贸盒子HK1 box , R4S  ，N4100  ,黑豹X2-RK3566                        |
+|电视盒子：         | 外贸盒子HK1 box ,  魔百盒CM-311 ,                                                | 
+|看电视app：       | 小薇直播,,       TV-box ,    灵犀直播TV  ,  看看TV  ,    my-tv                     |
 |在线免费电影：     | www.smdyy.cc 神马电影网 ,  www.pkmp4.xyz 片库 ,  www.dygod.net 电影天堂    ,       |
 | 耳机：           |      飞利浦9500                                                                 | 
 | 万用表:          |  DT9205A   ,     胜利890D,    优利德UT39A+                                      |
