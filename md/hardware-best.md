@@ -17,4 +17,4 @@
 |快速充电头：       | 乐视EQ-24BCN 24W 东洋代工 USB-A 19元,,    酷态科ZMIHA612 18W USB-A 25元 ,         |
 |电动牙刷：        | 飞利浦HX6730 249元                                                               |
 | 机械键盘：       |  VGN-N75键盘      ,罗技G102有线游戏鼠标                                            |
-|DICOM文件-CT、MRI：|  小赛看看  xiaosaiviewer.com                                                   |
+|DICOM文件-CT、MRI：|  小赛看看    xiaosaiviewer.com    医学影像DICOM浏览器                            |
