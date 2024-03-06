@@ -9,9 +9,7 @@ https://zhuanlan.zhihu.com/p/26625044
 
 　　3、在“标准SATA AHCI控制器”右键，点击属性，在属性窗口中切换到“详细信息”选项卡，点击“属性”下拉框，选择“设备实例路径”。 复制好出现的“值”，备用。这里需要提醒的是，修改注册表有风险，所以最好先作用注册表的备份。
 
-　　4、按键盘上win + R 调出“运行”对话框，输入“regedit”。回车或点击“确定”，然后在弹出的“用户帐户控制”对话框中点击“是”，打开“注册表编辑器”。然后进入HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers。
-
-　　5、在 MenuHandlers 项下，可以看到 SendTo 项，它其实就是右键菜单中的“发送到”选项。那么按照类似的方法，我们在 MenuHandlers 项下新建 CopyTo 和 MoveTo 项，并赋予相应的值即可在右键菜单中添加“复制到/移动到”选项了。具体方法如下：
+　　4、按键盘上win + R 调出“运行”对话框，输入“regedit”。回车或点击“确定”，然后在弹出的“用户帐户控制”对话框中点击“是”，打开“注册表编辑器”。然后进入
 
 　　HKEY_LOCAL_MACHINE\System\CurrentControlSet\Enum\PCI\设备实例路径\Device Parameters\Interrupt Management\MessageSignaledInterruptProperties
 
