@@ -26,6 +26,8 @@ https://jingyan.baidu.com/article/a17d5285d8a83b8099c8f272.html
 禁用MSI模式，解决Win10系统磁盘占用率高的问题
 
 
+------------------------------------------------------------------
+
 https://www.cnblogs.com/lazb/p/11293716.html
 完美解决windows10磁盘占用100%并出现卡顿、假死无反应
 
@@ -34,7 +36,6 @@ https://www.cnblogs.com/lazb/p/11293716.html
 选择用驱动精灵更新驱动，即下图所示的“Intel快速存储驱动xxxx版”
 安装完成后，重启电脑，问题解决
  
-
 PS：看看你自己的芯片是AMD还是Intel，这是确定你下载哪个版本。
 微软官方解决方案：https://support.microsoft.com/en-us/help/3083595/task-manager-might-show-100-disk-utilization-on-windows-10-devices-wit
 
