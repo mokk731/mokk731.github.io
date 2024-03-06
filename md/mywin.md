@@ -42,5 +42,9 @@
 
 [Win7, 8,10系统隐藏硬盘分区的两种方法](https://mokk731.github.io/txt/Win7, 8,10系统隐藏硬盘分区的两种方法.txt)
 
+[解决win10磁盘占用率100%](https://mokk731.github.io/txt/解决win10磁盘占用率100%.txt)
+
+
+
 
 
