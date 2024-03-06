@@ -1,1 +1,49 @@
 注册表中禁用MSI Mode 解决win10磁盘占用率100%
+https://zhuanlan.zhihu.com/p/26625044
+
+很多小伙伴在升级了windows10之后，发现经常会出现卡顿的问题。其实，造成win10卡顿的一些情况是有些SSD固态硬盘在AHCI模式下使用StorAHCI.sys驱动时，可能会无法在MSI下进行正确的输入输出操作，表现为磁盘占用率100%和系统出现卡顿现象。其实这时候只要在注册表中禁用MSI Mode就可以轻松解决了，现在现在就来介绍一下具体的操作方法。
+
+　　1、在“此电脑”中右键，点击“属性”，进入系统，然后在右侧导航栏中进入“设备管理器”。
+
+　　2、在“设备管理器”中打开“IDE ATA/ATAPI控制器”，在“标准SATA AHCI控制器”上点击右键，选择“属性”。
+
+　　3、在“标准SATA AHCI控制器”右键，点击属性，在属性窗口中切换到“详细信息”选项卡，点击“属性”下拉框，选择“设备实例路径”。 复制好出现的“值”，备用。这里需要提醒的是，修改注册表有风险，所以最好先作用注册表的备份。
+
+　　4、按键盘上win + R 调出“运行”对话框，输入“regedit”。回车或点击“确定”，然后在弹出的“用户帐户控制”对话框中点击“是”，打开“注册表编辑器”。然后进入HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers。
+
+　　5、在 MenuHandlers 项下，可以看到 SendTo 项，它其实就是右键菜单中的“发送到”选项。那么按照类似的方法，我们在 MenuHandlers 项下新建 CopyTo 和 MoveTo 项，并赋予相应的值即可在右键菜单中添加“复制到/移动到”选项了。具体方法如下：
+
+　　HKEY_LOCAL_MACHINE\System\CurrentControlSet\Enum\PCI\设备实例路径\Device Parameters\Interrupt Management\MessageSignaledInterruptProperties
+
+　　在右侧窗格中找到 MSISupported 值，双击打开编辑窗口，把数值数据从 1 修改成 0 。关闭注册表编辑器，重启电脑后设置生效。以后想要恢复启用MS模式时，只需把数值数据重新修改回 1 即可。
+
+　　这样就完成了关闭MSI模式的工作，相信电脑卡顿以及磁盘占用率100%的问题应该得到解决了。
+
+
+
+
+https://jingyan.baidu.com/article/a17d5285d8a83b8099c8f272.html
+禁用MSI模式，解决Win10系统磁盘占用率高的问题
+
+
+https://www.cnblogs.com/lazb/p/11293716.html
+完美解决windows10磁盘占用100%并出现卡顿、假死无反应
+
+解决方案：
+不要选择“更新驱动程序”，因为它会告诉你它是最新的。
+选择用驱动精灵更新驱动，即下图所示的“Intel快速存储驱动xxxx版”
+安装完成后，重启电脑，问题解决
+ 
+
+PS：看看你自己的芯片是AMD还是Intel，这是确定你下载哪个版本。
+微软官方解决方案：https://support.microsoft.com/en-us/help/3083595/task-manager-might-show-100-disk-utilization-on-windows-10-devices-wit
+
+针对AMD平台：
+下载驱动并解压到桌面：链接：https://pan.baidu.com/s/1cwSEZQKgpi_364OuR4uLLQ  提取码：oxqk 。
+然后按住win+X，选择设备管理器->展开IDEATA/ATAPI控制器->在标准sata ahci控制器上右键属性->驱动程序>更新驱动程序->浏览计算机以查找驱动程序软件
+然后浏览，选择 刚才AMD驱动你选择install的位置\Packages\Drivers\SBDrv ，之后点击下一步会执行安装，安装完毕后会提示重启计算机，重启之后问题就解决了w
+
+针对intel平台：
+法①：从网上找个intel的AHCI驱动程序，之后和上面的程序差不多，我就不再次叙述了.最后附上intel的下载地址链接：https://pan.baidu.com/s/1qZOzwK0 密码： 密码：xjci
+Intel的安装包很小，而且还没有安装程序。你只需要解压，然后复制文件地址。其余步骤和AMD的一样。
+法②：下载并安装英特尔快速存储驱动https://downloadcenter.intel.com/zh-cn/product/55005/-RST-，更常见的是通过鲁大师等软件下载匹配的驱动。
