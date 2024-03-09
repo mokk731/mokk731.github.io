@@ -46,3 +46,53 @@ PS：看看你自己的芯片是AMD还是Intel，这是确定你下载哪个版�
 法①：从网上找个intel的AHCI驱动程序，之后和上面的程序差不多，我就不再次叙述了.最后附上intel的下载地址链接：https://pan.baidu.com/s/1qZOzwK0 密码： 密码：xjci
 Intel的安装包很小，而且还没有安装程序。你只需要解压，然后复制文件地址。其余步骤和AMD的一样。
 法②：下载并安装英特尔快速存储驱动https://downloadcenter.intel.com/zh-cn/product/55005/-RST-，更常见的是通过鲁大师等软件下载匹配的驱动。
+
+------------------------------------------------------------------
+
+https://zhuanlan.zhihu.com/p/632218632
+磁盘占用100%但读写为0
+
+windows磁盘占用100%但是读写几乎为0，本来一直以为是各种应用扫盘问题，但是经过多方排查，禁用一堆服务之后，并没能解决这个问题。
+
+这个问题似乎非常广泛，我只叙述我的解决方案。
+
+问题环境：台式组装机、问题磁盘是sata接口的固态硬盘，而且是D盘，且D盘承载了我的文档、桌面以及各类主要非游戏日常应用。
+
+问题症状：每次开机（快速启动/非快速启动均存在），长时间卡顿假死，D盘活动时间毫无波动的维持100%，读写偶尔出现，但是几乎为0，磁盘响应时间在0到几十秒间来回跳跃。磁盘在其他机器、以及开机空闲后测试过，没有性能问题。
+
+解决路径：
+
+首先我找到了这个帖子：
+解决Win10磁盘活动时间100%，读取速度为0的最终方案_我丢丢丢的博客-CSDN博客​
+blog.csdn.net/qq_44720952/article/details/125039718
+
+这个帖子的解决方案是：
+
+    鉴于上述方案均对我电脑无效，故在网上看到了驱动更新的操作，联系到自身实际情况，故上网搜索AHCI驱动程序，但Intel官网并未找到目标驱动，最终在一小网站获得，驱动为15版，原驱动为06版。此处为我网盘链接，链接：https://pan.baidu.com/s/1fbffFzGQtxC7L_HKnZF3TQ
+    提取码：8xje；
+
+    上述驱动适用于Intel内核，AMD的请去官网下载，驱动具体安装步骤在下文展开；
+
+    英特尔® 驱动程序和支持助理 (intel.cn)，该网站为intel驱动更新网站，intel电脑可以下载驱动扫描软件运用intel官方的更新来下载更新驱动，如果未找到，请尝试我上述的驱动文件；本人电脑较为战斗成色，i5-7200U，驱动可用。
+
+    另一种简单的方案是去驱动精灵或鲁大师等软件中更新AHCI驱动，如果未能找到更新再选用手动下载驱动。
+
+但是这个解决方案对我并没有效果，另外一个类似的CSDN的帖子也是利用驱动精灵更新/安装了因特尔快速存储的驱动，但是对我也没有效果。不过这一点启发了我，可能是AHCI的问题。
+
+随后我改用英文搜索相关信息，找到了一个近年的帖子，这个帖子也被微软官方的技术支持论坛所引用：
+Disk activity on SSD spikes to 100% and freezes at random times​
+www.reddit.com/r/techsupport/comments/6ciyje/disk_activity_on_ssd_spikes_to_100_and_freezes_at/
+
+这是一个红迪的帖子，我简单叙述其解决方案。简单来说，问题源于AHCI的电源控制问题，Windows电源控制选项里有一个隐藏选项，AHCI Link Power Management，这就是卡顿的罪魁祸首。因为我是台式机，没有节能需求，所以我果断设置为如下：
+
+这是一个隐藏选项，需要在注册表中修改，
+
+    将 \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\0b2d69d7-a2a1-449c-9680-f91c70521c60 的 Attributes 值从1改为2；
+    将 \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\dab60367-53fe-4fbc-825e-521d069d2456 的 Attributes 值从1改为2。
+    然后在 控制面板-系统和安全-电源选项-编辑计划设置-更改高级电源设置 中，硬盘 - AHCI Link Power Management - HIPM/DIPM 检查设置为 Active；
+    检查 次要NVMe电源状态转换延迟容限，设置为0毫秒。
+    PCI Express - 链接状态电源管理检查设置为关闭。
+另一个详细的这个内容的修改方式的帖子可以看这里：
+Win10用固态硬盘还是太卡？教你一个提速妙招
+https://zhuanlan.zhihu.com/p/107449941
+
