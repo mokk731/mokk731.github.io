@@ -58,7 +58,7 @@
 
 #### [手把手教如何模拟IC加密卡](https://mokk731.github.io/txt/mydiy/手把手教如何模拟IC加密卡.txt)
 
-
+#### [NFC模拟ID卡成功案例(一体机及读头)](https://mokk731.github.io/txt/mydiy/NFC模拟ID卡成功案例(一体机及读头).txt)
 
 
 
