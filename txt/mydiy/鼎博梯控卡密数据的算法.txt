@@ -40,6 +40,7 @@ keyb: B18587F4  CF 88       keya+keyb=FFFFFFFF
 
 
 https://blog.csdn.net/shop2500/article/details/107047672
+鼎博电梯门禁数据分析
 
 一卡一密A钥 控制位 一卡一密B钥
 注：门禁与梯控区别，结束日期后数据是【88】一般是鼎博梯控，
