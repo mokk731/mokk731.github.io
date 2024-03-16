@@ -32,7 +32,7 @@ https://www.52tikong.com/forum.php?mod=viewthread&tid=5199
 keya: 4E7A780B  30 77       key=keya-ID= 0C2237C6 (每个系统都不同，同一系统，key是一样的)
 keyb: B18587F4  CF 88       keya+keyb=FFFFFFFF 
 
-02  FCBD 5F26 8C53  1D
+02  FCBD 5F26 8C53  1D    ??????????厂商码
 
 
 
