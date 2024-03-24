@@ -346,4 +346,23 @@ GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
 
 如果在启动容器是只指定 -m 而不指定 --memory-swap，那么 --memory-swap 默认为 -m 的两倍。比如下面容器最多使用 200MB 的物理内存和 200MB 的 swap：
 
+-----------------------------------------------------
+
+https://wiki.omv-extras.org/doku.php?id=omv6:raspberry_pi_install
+Installing OMV6 on a Raspberry PI
+
+
+
+1, select Raspberry PI OS (Legacy, 64bit) Lite, "Bullseye"
+The installation of OMV6 requires Bullseye based versions of Raspberry PI OS. Do not select "Bookworm" versions of Raspberry PI OS.
+
+2, Raspberry PI OS Updates and Upgrades
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo reboot
+
+3, Install OMV
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+
+
 
