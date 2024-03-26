@@ -3,21 +3,12 @@ https://www.raspberrypi.org/software/operating-systems/
 http://www.raspbian.org/
 
 http://www.shumeipai.net/resource.php?mod=category&catid=2
-2019-07-10-raspbian-buster-lite.zip
-2019-07-10-raspbian-buster.zip
-
 
 BroadcomBCM2711
-
 
 Putty  用SSH登入
 树莓派 VNC Viewer 远程桌面
 
-
-lede跟openwrt合并了
-完整安装一个需要HTTPS支持的LuCI:
-
-koolshare.cn
 
 win32diskiamger把镜像写入到sd卡上
 
@@ -26,7 +17,6 @@ win32diskiamger把镜像写入到sd卡上
 zerotier 用来内网穿透
 
 Raspberry Pi操作系统  
-
 
 树莓派开启SSH的N种方法
 1在命令行输入：sudo /etc/init.d/ssh start
@@ -113,6 +103,13 @@ gpg --export --armor  0E98404D386FA1D9 | sudo apt-key add -
 
 
 
+# 配置网络
+
+dhcpcd作为树莓派网络端DHCP配置文件
+sudo nano /etc/dhcpcd.conf
+
+保存后，重启 dhcpcd 服务：
+sudo systemctl restart dhcpcd
 
 ---------------------------
 
@@ -159,18 +156,15 @@ OpenMediaVault(OMV)
 更新
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo rm -f /etc/systemd/network/99-default.link
+# sudo rm -f /etc/systemd/network/99-default.link
 sudo reboot
 
 
-
 直接执行OMV的安装脚本会失败，连接不上服务器，因此需要改hosts，/etc/hosts  增加一行：
-
 151.101.56.133 raw.githubusercontent.com
 
 
 ssh执行OMV安装脚本：
-
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
 
@@ -206,15 +200,14 @@ df -h
 
 
 ---------------------------------------------------------------
+
+# resilio-sync
+
 docker pull linuxserver/resilio-sync
 https://hub.docker.com/r/linuxserver/resilio-sync
 
 
-----------------------------------------------
-#resilio-sync
-
 /mnt/sda1/resilio-sync/resiliodownloads
-
 /mnt/sda1/resilio-sync/resilioconfig
 
 docker run -d \
@@ -236,20 +229,11 @@ docker run -d \
 -----------------------------------------------
 
 
-
-
-
-
-
-
-
---------------------------------------
-#qbittorrent
+# qbittorrent
 
 docker pull linuxserver/qbittorrent 
 
 /mnt/sda1/btdownloads
-
 /mnt/sda1/btconfig
 
 
@@ -272,9 +256,8 @@ sudo docker run -d \
 ------------------------------------------
 
 
-Docker-Zerotier
+# Zerotier
 https://www.cnblogs.com/sicko/p/10997230.html
-
 bltavares/zerotier:1.6.2-2
 
 
@@ -291,13 +274,10 @@ bltavares/zerotier:1.6.2-2
 
 
 加入网络  进入docker
-
 zerotier-cli join 17d7xxx???
 
 检查网络
-
 zerotier-cli  info
-
 zerotier-cli listnetworks
 
 离开网络
@@ -309,9 +289,10 @@ Networks ID: 17d7XXX???
 
 
 -----------------------------------------
+
+# shadowsocks-libev-arm
+
 https://hub.docker.com/r/easypi/shadowsocks-libev-arm
-
-
 
 Get docker-compose.yml, then change SERVER_ADDR and PASSWORD
 
@@ -341,17 +322,15 @@ docker stats --no-stream
 GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
 
 
-
 默认情况下，容器内存和 swap 的使用是没有限制的（相当于两个参数都设为 -1）。
-
 如果在启动容器是只指定 -m 而不指定 --memory-swap，那么 --memory-swap 默认为 -m 的两倍。比如下面容器最多使用 200MB 的物理内存和 200MB 的 swap：
 
 -----------------------------------------------------
 
+# OMV6
+
 https://wiki.omv-extras.org/doku.php?id=omv6:raspberry_pi_install
 Installing OMV6 on a Raspberry PI
-
-
 
 1, select Raspberry PI OS (Legacy, 64bit) Lite, "Bullseye"
 The installation of OMV6 requires Bullseye based versions of Raspberry PI OS. Do not select "Bookworm" versions of Raspberry PI OS.
@@ -363,6 +342,8 @@ sudo reboot
 
 3, Install OMV
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+
+----------------------------------------
 
 
 
