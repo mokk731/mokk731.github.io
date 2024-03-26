@@ -61,11 +61,16 @@ sudo nano /etc/apt/sources.list
 deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
 deb-src https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
 
+deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free contrib rpi
+deb-src https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free contrib rpi
+deb [arch=arm64] https://mirrors.tuna.tsinghua.edu.cn/raspbian/multiarch/ bullseye main
+
 #
 sudo nano /etc/apt/sources.list.d/raspi.list
 
 deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 
+deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ bullseye main
 
 # 树莓派软件源更新
 sudo apt-get update
@@ -302,6 +307,7 @@ sudo reboot
 3, Install OMV
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
+wget -O - https://cdn.jsdelivr.net/gh/OpenMediaVault-Plugin-Developers/installScript@master/install | sudo bash
 ----------------------------------------
 
 
