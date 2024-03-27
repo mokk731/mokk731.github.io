@@ -176,7 +176,7 @@ wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/
 
 
 树莓派 Learning 002 装机后的必要操作 --- 04 添加软件源 之 添加公钥 --- 解决“由于没有公钥，无法验证下列签名”问题...
-https://blog.csdn.net/weixin_30487701/article/details/95549910?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.control
+https://blog.csdn.net/weixin_30487701/article/details/95549910
 
 gpg --keyserver pgpkeys.mit.edu --recv-keys Pubkey_After_8
 gpg --export --armor Pubkey_After_8 | sudo apt-key add -
@@ -326,12 +326,17 @@ The installation of OMV6 requires Bullseye based versions of Raspberry PI OS. Do
 2, Raspberry PI OS Updates and Upgrades
 sudo apt-get update
 sudo apt-get upgrade -y
+# sudo rm -f /etc/systemd/network/99-default.link
 sudo reboot
 
 3, Install OMV
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
-
 wget -O - https://cdn.jsdelivr.net/gh/OpenMediaVault-Plugin-Developers/installScript@master/install | sudo bash
+
+
+树莓派启动后登录系统更新下系统
+在这开始之前，请不要更新国内镜像源，部分资源需要从官方更新。
+在执行脚本前不要换源, 否则可能会软件包冲突导致安装失败
 ----------------------------------------
 
 
