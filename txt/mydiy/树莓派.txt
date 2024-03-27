@@ -344,13 +344,12 @@ apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0E98404D386FA1D9 A48449
 密　码：openmediavault
 
 
-4,OMV 6.4 安装Docker
+4, OMV 6.4 安装Docker
 https://zhuanlan.zhihu.com/p/634569985
 
-安装 openmediavault-omvextrasorg
-安装 openmediavault-compose
-    启用 docker 存储库。在 Web 的 系统 > omv-extras 中，单击 Docker 存储库按钮
-    按保存按钮
+  安装 openmediavault-omvextrasorg
+  安装 openmediavault-compose
+  启用 docker 存储库。在 Web 的 系统 > omv-extras 中，单击 Docker 存储库按钮,按保存按钮
 
 
 ----------------------------------------
