@@ -61,16 +61,16 @@ sudo nano /etc/apt/sources.list
 deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
 deb-src https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
 
-deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free contrib rpi
-deb-src https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free contrib rpi
-deb [arch=arm64] https://mirrors.tuna.tsinghua.edu.cn/raspbian/multiarch/ bullseye main
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main non-free
+#deb [arch=arm64] http://mirrors.tuna.tsinghua.edu.cn/raspbian/multiarch/ bullseye main
 
 #
 sudo nano /etc/apt/sources.list.d/raspi.list
 
 deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 
-deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ bullseye main
+deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ bullseye main
 
 # 树莓派软件源更新
 sudo apt-get update
@@ -88,6 +88,9 @@ sudo apt-get autoremove #清除所有未使用的依赖项
 gpg --keyserver  keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
 gpg --export --armor  0E98404D386FA1D9 | sudo apt-key add -
 
+
+或将 Raspberry Pi OS public key 加入你的 apt-get keyring :	
+wget http://archive.raspbian.org/raspbian.public.key -O - | sudo apt-key add -
 
 # 配置网络,配置静态IP
 
