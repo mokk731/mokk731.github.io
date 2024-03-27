@@ -89,10 +89,18 @@ gpg --keyserver  keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
 gpg --export --armor  0E98404D386FA1D9 | sudo apt-key add -
 
 
-# 配置网络
+# 配置网络,配置静态IP
 
 dhcpcd作为树莓派网络端DHCP配置文件
 sudo nano /etc/dhcpcd.conf
+
+interface eth0
+static ip_address=192.168.11.10/24
+#static ip6_address=fd51:42f8:caae:d92e::ff/64
+static routers=192.168.11.1
+static domain_name_servers=192.168.11.1
+
+
 
 保存后，重启 dhcpcd 服务：
 sudo systemctl restart dhcpcd
