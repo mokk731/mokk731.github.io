@@ -17,3 +17,5 @@ https://clashgithub.com/wp-content/uploads/rss/20240108.yml
 
 ------------------------------------------------------
 
+
+https://github.com/Kuingsmile/clash-core/releases
