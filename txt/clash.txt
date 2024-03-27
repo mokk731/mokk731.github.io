@@ -2,7 +2,7 @@ OpenWRT  OpenClash
 
 ------------------------------------------------------
 
-https://github.com/vernesong/OpenClash/releases
+https://github.com/vernesong/OpenClash/releases  ######
 
 luci-app-openclash_0.45.51-beta_all
 
@@ -29,8 +29,10 @@ TUN模式：
 
 https://github.com/vernesong/OpenClash/releases/tag/Clash
 https://github.com/vernesong/OpenClash/releases/tag/TUN-Premium
-
 https://raw.githubusercontent.com/vernesong/OpenClash/core/master/meta/clash-linux-armv7.tar.gz
+
+
+https://github.com/Kuingsmile/clash-core/releases   ######
 
 内核安装路径变更如下
 
