@@ -100,10 +100,23 @@ static ip_address=192.168.11.10/24
 static routers=192.168.11.1
 static domain_name_servers=192.168.11.1
 
-
-
 保存后，重启 dhcpcd 服务：
 sudo systemctl restart dhcpcd
+
+配置hosts
+sudo nano /etc/hosts
+
+# GitHub Start
+20.205.243.166     gist.github.com
+20.205.243.166     github.com
+20.205.243.166     www.github.com
+185.199.108.133    raw.githubusercontent.com
+# debian omv
+146.75.114.132   httpredir.debian.org
+
+
+sudo /etc/init.d/dns-clean start
+
 
 ------------------------------------------------------
 
