@@ -351,6 +351,14 @@ https://zhuanlan.zhihu.com/p/634569985
   安装 openmediavault-compose
   启用 docker 存储库。在 Web 的 系统 > omv-extras 中，单击 Docker 存储库按钮,按保存按钮
 
+https://hechuan.me/omv-6-5
+omv 6.5 nas 系统教程 安装/docker/插件拓展
+现在omv-extra版本6.3.1，有了重大更新，原先的portainer之类已经全部移除，改成直接自带compose，
+流程：先装插件拓展，插件下方多一个按钮，然后去插件里装docker-compers，然后服务里有compers后，但是docker还没有运行，再打开插件下方的按钮，打对勾，然后再去compers里安装docker
+**注注注：**最新版的 omv 6 安装完 omv-extras插件后，插件下方不会再有 docker 等选项卡。
+而是需要先去”插件“里面安装：openmediavault-compose 这个插件，然后在”服务“选项卡下面会多一个 Compose 这个选项。
+
+
 
 ----------------------------------------
 
