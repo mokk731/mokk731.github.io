@@ -334,6 +334,8 @@ wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/
 wget -O - https://cdn.jsdelivr.net/gh/OpenMediaVault-Plugin-Developers/installScript@master/install | sudo bash
 
 
+apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0E98404D386FA1D9 A48449044AAD5C5D
+
 树莓派启动后登录系统更新下系统
 在这开始之前，请不要更新国内镜像源，部分资源需要从官方更新。
 在执行脚本前不要换源, 否则可能会软件包冲突导致安装失败
