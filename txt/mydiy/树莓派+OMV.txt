@@ -318,9 +318,6 @@ docker pull syncthing/syncthing:1.27
 202403
 
 
-docker-compose (recommended)
-
-
 version: "3"
 services:
   syncthing:
@@ -355,6 +352,16 @@ docker run -d \
   -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/syncthing:/var/syncthing \
   --restart unless-stopped \
   syncthing/syncthing:1.20.2
+
+Permission denied：权限被拒绝，没有访问文件的权限
+-R 是指级联应用到目录里的所有子目录和文件
+777 是所有用户都拥有最高权限
+
+如果目标是文件夹：
+sudo chmod -R 770 config
+
+查询对文件的权限：
+ls -l 文件名
 
 
 -----------------------------------------
