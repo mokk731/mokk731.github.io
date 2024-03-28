@@ -192,10 +192,36 @@ df -h
 
 # qbittorrent
 
-docker pull linuxserver/qbittorrent 
+https://hub.docker.com/r/linuxserver/qbittorrent
+
+docker pull linuxserver/qbittorrent:4.6.3-r0-ls320
+2024-03
 
 /mnt/sda1/btdownloads
 /mnt/sda1/btconfig
+
+admin/adminadmin
+
+
+version: "2.1"
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.1-ls114
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8181
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btconfig:/config
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btdownloads:/downloads
+    ports:
+      - 16881:16881
+      - 16881:16881/udp
+      - 8181:8181
+    restart: unless-stopped
+
 
 
 sudo docker run -d \
@@ -217,8 +243,40 @@ sudo docker run -d \
 
 
 # Zerotier
+
+https://hub.docker.com/r/bltavares/zerotier
+
+docker pull bltavares/zerotier:1.12.1 
+202308 
+
 https://www.cnblogs.com/sicko/p/10997230.html
 bltavares/zerotier:1.6.2-2
+
+version: "3"
+services:
+  zerotier:
+    image: bltavares/zerotier:1.6.2-2
+    container_name: zerotier-one
+    devices:
+      - /dev/net/tun
+    network_mode: host
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/zerotier-one:/var/lib/zerotier-one
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+      - NET_RAW
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - PUID=1000
+      - PGID=1000
+      - ZEROTIER_ONE_LOCAL_PHYS=eth0
+      - ZEROTIER_ONE_USE_IPTABLES_NFT=false
+      - ZEROTIER_ONE_GATEWAY_MODE=inbound
+      - ZEROTIER_ONE_NETWORK_IDS=17d7XXXXX
+
+
 
 docker run \
 --name=zerotier-one \
@@ -245,7 +303,51 @@ Networks ID: 17d7XXX???
 
 -----------------------------------------
 
+# syncthing
 
+https://hub.docker.com/r/syncthing/syncthing
+
+docker pull syncthing/syncthing:1.27
+202403
+
+
+docker-compose (recommended)
+
+
+version: "3"
+services:
+  syncthing:
+    image: syncthing/syncthing:1.20.2
+    container_name: syncthing
+    hostname: my-syncthing
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8384
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/syncthing:/var/syncthing
+    ports:
+      - 8384:8384
+      - 22000:22000
+      - 22000:22000/udp
+    restart: unless-stopped
+
+
+
+docker run -d \
+  --name=syncthing \
+  --hostname=my-syncthing \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Europe/London \
+  -p 8384:8384 \
+  -p 22000:22000/tcp \
+  -p 22000:22000/udp \
+  -p 21027:21027/udp \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/syncthing:/var/syncthing \
+  --restart unless-stopped \
+  syncthing/syncthing:1.20.2
 
 -----------------------------------------
 docker run
