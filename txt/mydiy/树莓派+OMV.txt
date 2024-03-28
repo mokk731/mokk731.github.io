@@ -325,7 +325,7 @@ o 我们需要此文件夹的备份副本。
 · 它将存储包含每个应用程序数据的子文件夹。这个“卷”是在容器配置中定义的，我们稍后会看到它。
 · docker 应用程序在其操作过程中生成存储在每个子文件夹中的文件，它们可以是密码、个人配置、数据库等，具体取决于每个应用程序的操作。一些简单的应用程序不需要此文件夹。
 · 我们将其存储在此文件夹中，以便能够轻松管理它们。
-/srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/
+/srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/           dockerappdata
 
 #compose文件夹
 /SSD/compose
@@ -334,7 +334,7 @@ o 我们需要此文件夹的备份副本。
 · OpenMediaVault-Compose 将生成子文件夹并存储 docker 容器配置文件。
 · 这些文件由我们使用个人配置生成，以部署容器。
 · 我们将其存储在此文件夹中，以便能够轻松管理它们。
-/compose/
+/dockercompose/               dockercompose
 
 6, omv-compose 插件运行
 
