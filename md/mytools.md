@@ -94,7 +94,7 @@
 
 
 
-## [Tampermonkey油猴插件](https://mokk731.github.io/md/tampermonkey.md)
+## [Tampermonkey油猴插件](https://mokk731.github.io/md/tampermonkey)
 
 
 
