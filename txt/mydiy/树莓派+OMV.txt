@@ -358,7 +358,7 @@ Permission denied：权限被拒绝，没有访问文件的权限
 777 是所有用户都拥有最高权限
 
 如果目标是文件夹：
-sudo chmod -R 770 config
+sudo chmod -R 777 config
 
 查询对文件的权限：
 ls -l 文件名
