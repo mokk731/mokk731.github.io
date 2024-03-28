@@ -158,7 +158,7 @@ OpenMediaVault(OMV)在你的电脑登陆上面给的IP，就会出这个界面�
 用户名：admin
 密　码：openmediavault
 
-更新
+1, 更新
 sudo apt-get update
 sudo apt-get upgrade -y
 # sudo rm -f /etc/systemd/network/99-default.link
@@ -167,7 +167,7 @@ sudo reboot
 直接执行OMV的安装脚本会失败，连接不上服务器，因此需要改hosts，/etc/hosts  增加一行：
 151.101.56.133 raw.githubusercontent.com
 
-ssh执行OMV安装脚本：
+2, ssh执行OMV安装脚本：
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
 树莓派 Learning 002 装机后的必要操作 --- 04 添加软件源 之 添加公钥 --- 解决“由于没有公钥，无法验证下列签名”问题...
@@ -309,7 +309,7 @@ omv 6.5 nas 系统教程 安装/docker/插件拓展
 
 https://zhuanlan.zhihu.com/p/634569985
 
-Docker文件夹
+#Docker文件夹
 /SSD/docker
 · 此文件夹中的文件是消耗性的。
 o 我们不需要此文件夹的备份副本。
@@ -317,7 +317,7 @@ o 我们不需要此文件夹的备份副本。
 · Docker生成这些文件，自动下载并配置它需要工作的内容，例如容器映像等。
 · 我们将其安装在此文件夹中，以使其独立于操作系统并避免一些常见问题。
 
-应用数据文件夹
+#应用数据文件夹
 /SSD/appdata
 · 此文件夹中的文件是不可替代的。
 o 我们需要此文件夹的备份副本。
@@ -325,7 +325,7 @@ o 我们需要此文件夹的备份副本。
 · docker 应用程序在其操作过程中生成存储在每个子文件夹中的文件，它们可以是密码、个人配置、数据库等，具体取决于每个应用程序的操作。一些简单的应用程序不需要此文件夹。
 · 我们将其存储在此文件夹中，以便能够轻松管理它们。
 
-compose文件夹
+#compose文件夹
 /SSD/compose
 · 此文件夹中的文件是不可替代的。
 o 我们需要此文件夹的备份副本。
@@ -338,13 +338,13 @@ o 我们需要此文件夹的备份副本。
 https://zhuanlan.zhihu.com/p/655413536
 omv-compose 插件
 
-创建 dockeruser 用户
+#创建 dockeruser 用户
 创建用户的方式也很简单，在 GUI 中 用户 –> 用户 中点击 新建。 名称设为 dockeruser，用户组设为 users 和 docker 组
 执行 id appuser 即可看到 PUID 和 PGID
 uid=1005(dockeruser) gid=100(users)
 
 
-在 OMV GUI 中，转到“服务”>“撰写>文件”，然后按“编辑全局环境文件”按钮 
+#在 OMV GUI 中，转到“服务”>“撰写>文件”，然后按“编辑全局环境文件”按钮 
 环境变量
 PUID=1005
 PGID=100
@@ -357,10 +357,10 @@ ${PGID}
 ${TZ} 
 ${UDISK0} 
 
-环境变量好了之后，我们就可以编写 compose 了，我们点击 compose-文件-创建-从模板添加 按钮，进行创建
+#环境变量好了之后，我们就可以编写 compose 了，我们点击 compose-文件-创建-从模板添加 按钮，进行创建
 
 
-写好 compose 的内容后，点击 向上的箭头 up 来执行这个 compose 的内容。 over!!!
+#写好 compose 的内容后，点击 向上的箭头 up 来执行这个 compose 的内容。 over!!!
 
 ----------------------------------------
 
