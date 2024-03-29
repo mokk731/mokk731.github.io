@@ -84,14 +84,15 @@ Disk activity on SSD spikes to 100% and freezes at random times​
 www.reddit.com/r/techsupport/comments/6ciyje/disk_activity_on_ssd_spikes_to_100_and_freezes_at/
 
 这是一个红迪的帖子，我简单叙述其解决方案。简单来说，问题源于AHCI的电源控制问题，Windows电源控制选项里有一个隐藏选项，AHCI Link Power Management，这就是卡顿的罪魁祸首。因为我是台式机，没有节能需求，所以我果断设置为如下：
-
 这是一个隐藏选项，需要在注册表中修改，
 
     将 \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\0b2d69d7-a2a1-449c-9680-f91c70521c60 的 Attributes 值从1改为2；
     将 \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\dab60367-53fe-4fbc-825e-521d069d2456 的 Attributes 值从1改为2。
+
     然后在 控制面板-系统和安全-电源选项-编辑计划设置-更改高级电源设置 中，硬盘 - AHCI Link Power Management - HIPM/DIPM 检查设置为 Active；
     检查 次要NVMe电源状态转换延迟容限，设置为0毫秒。
     PCI Express - 链接状态电源管理检查设置为关闭。
+
 另一个详细的这个内容的修改方式的帖子可以看这里：
 
 Win10用固态硬盘还是太卡？教你一个提速妙招
@@ -113,13 +114,16 @@ M.2硬盘的设置稍有不同，分别是“Primary NVMe Idle Timeout”和“P
 
 
 1, 更新驱动程序 AHCI驱动
+   选择设备管理器->展开IDEATA/ATAPI控制器->在标准sata ahci控制器上右键属性->驱动程序>更新驱动程序->浏览计算机以查找驱动程序软件
 
 2, AHCI的电源控制问题，Windows电源控制选项里有一个隐藏选项，AHCI Link Power Management，这就是卡顿的罪魁祸首. 
-   注册表中修改,
+   注册表中修改,打开隐藏选项.
 
 3, 然后在 控制面板-系统和安全-电源选项-编辑计划设置-更改高级电源设置 中，硬盘 - AHCI Link Power Management - HIPM/DIPM 检查设置为 Active；
 
-4, “AHCI Link Power Management-Adaptive”是LPM从浅休眠（Partial）过渡到深休眠（Slumber）的等待时间，数值越少代表进入深休眠的频率越高（即卡顿越明显）， 设置为 600 millisecond
+4, “AHCI Link Power Management-Adaptive”是LPM从浅休眠（Partial）过渡到深休眠（Slumber）的等待时间，数值越少代表进入深休眠的频率越高（即卡顿越明显）， 设置为 600 millisecond.
 
-5,  PCI Express - 链接状态电源管理检查设置为关闭。
+5,  PCI Express - 链接状态电源管理检查设置为 关闭。
+
+
 
