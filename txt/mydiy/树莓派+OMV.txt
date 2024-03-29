@@ -124,6 +124,9 @@ sudo /etc/init.d/dns-clean start
 http://192.168.11.10:8181     qbt
 http://192.168.11.10:9000     portainer
 http://192.168.11.12          openwrt-Docker
+http://192.168.11.10:8384     syncthing
+http://192.168.11.10:2017     v2raya
+
 
 
 
@@ -503,24 +506,25 @@ omv-compose 插件
 #创建 dockeruser 用户
 创建用户的方式也很简单，在 GUI 中 用户 –> 用户 中点击 新建。 名称设为 dockeruser，用户组设为 users 和 docker 组
 执行 id appuser 即可看到 PUID 和 PGID
-uid=1005(dockeruser) gid=100(users)
+uid=1005(dockeruser) gid=100(users) gid=990(docker)
 
 
 #在 OMV GUI 中，转到“服务”>“撰写>文件”，然后按“编辑全局环境文件”按钮 
 
 环境变量
+
 PUID=1005
-PGID=100
+PGID=990
 TZ=Asia/Shanghai
 UDISK0=/srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd
 
+
+#环境变量好了之后，我们就可以编写 compose 了，我们点击 compose-文件-创建-从模板添加 按钮，进行创建
 
 ${PUID}
 ${PGID} 
 ${TZ} 
 ${UDISK0} 
-
-#环境变量好了之后，我们就可以编写 compose 了，我们点击 compose-文件-创建-从模板添加 按钮，进行创建
 
 
 #写好 compose 的内容后，点击 向上的箭头 up 来执行这个 compose 的内容。 over!!!
