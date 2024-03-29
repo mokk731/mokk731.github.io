@@ -118,6 +118,8 @@ M.2硬盘的设置稍有不同，分别是“Primary NVMe Idle Timeout”和“P
 
 2, AHCI的电源控制问题，Windows电源控制选项里有一个隐藏选项，AHCI Link Power Management，这就是卡顿的罪魁祸首. 
    注册表中修改,打开隐藏选项.
+    将 \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\0b2d69d7-a2a1-449c-9680-f91c70521c60 的 Attributes 值从1改为2；
+    将 \HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\dab60367-53fe-4fbc-825e-521d069d2456 的 Attributes 值从1改为2。
 
 3, 然后在 控制面板-系统和安全-电源选项-编辑计划设置-更改高级电源设置 中，硬盘 - AHCI Link Power Management - HIPM/DIPM 检查设置为 Active；
 
