@@ -95,4 +95,13 @@ www.reddit.com/r/techsupport/comments/6ciyje/disk_activity_on_ssd_spikes_to_100_
 另一个详细的这个内容的修改方式的帖子可以看这里：
 Win10用固态硬盘还是太卡？教你一个提速妙招
 https://zhuanlan.zhihu.com/p/107449941
+执行完毕后，直接打开“设置”→“系统”→“电源和睡眠”→“其他电源设置”，选择“更改计划设置”→“更改高级电源设置”
+
+SATA硬盘主要增加了两项设置，分别是AHCI Link Power Management-HIPM/DIPM和AHCI Link Power Management-Adaptive。其中“AHCI Link Power Management-HIPM/DIPM”是LPM（链接电源管理，是SATA一种省电模式）的模式选项，简单说就是SSD将执行哪种节能模式。
+Win10总共提供五组选项，分别是：Active（一直活动）、HIPM（由主机发起的LPM）、DIPM（由硬盘发起的LPM）、Lowest（低耗能模式）。通常导致硬盘卡顿是由于硬盘与操作系统的LPM模式不符所致（比如SSD只支持DIPM，但Win10里却被设置成了HIPM），解决的方法是统一修改为“Active”以关闭节能模式。
+“AHCI Link Power Management-Adaptive”是LPM从浅休眠（Partial）过渡到深休眠（Slumber）的等待时间，数值越少代表进入深休眠的频率越高（即卡顿越明显），这里建议设置为“0 millisecond”取消深度节能。。   600 ###
+
+M.2硬盘的设置稍有不同，分别是“Primary NVMe Idle Timeout”和“Primary NVMe Power State Transition Latency Tolerance”，其中“Primary NVMe Idle Timeout”与SATA里的“AHCI Link Power Management-Adaptive”类似，也是自动进入节能模式前的等待时间。追求性能的可以将这个数值设得大一些，比如600，需要降温则将这个数据设得小一点，比如100。
+“Primary NVMe Power State Transition Latency Tolerance”是电源模式的切换延时时间，数值越小卡顿情况越少（如10）。不过需要注意的是，M.2硬盘不同于SATA，整体发热是比较变态的，因此调节这两个值时要更加谨慎一些。
+
 
