@@ -41,6 +41,10 @@
 127.0.0.1   gozendata.com
 127.0.0.1   gz-data.com
 
+# Hisense TV
+127.0.0.1   hismarttv.com
+127.0.0.1   wasu.tv
+
 ##############################################
 
 # Bad
