@@ -1,10 +1,14 @@
 免拆机刷ROM *************
 
-1,Amlogic USB Burning Tool，加载ROM，开始刷机.
-2,双公头USB线连PC的USB+盒子靠网口的USB.
-3.长按定盒子电源键.不松手.
-4,电源不通电，用电源插头,插入电源口。 ------触发自动启动刷机. 进度条开始跑....
-5,刷机进度条跑15%以上,松开盒子电源键,,等待刷机完成.
+1, Amlogic USB Burning Tool，加载ROM，开始刷机.
+
+2, 双公头USB线连PC的USB+盒子靠网口的USB.
+
+3. 长按定盒子电源键.不松手.
+
+4, 电源不通电，用电源插头,插入电源口。 ------触发自动启动刷机. 进度条开始跑....
+
+5, 刷机进度条跑15%以上,松开盒子电源键,,等待刷机完成.
 
 2-4-1-
 
@@ -117,11 +121,23 @@ ZTE B860AV2.1 折腾 Armbian
 
 
 
-终端模拟器法：是最通用办法的手动版，先把盒子 root，然后安装终端模拟器的 apk
-（Terminal Emulator.apk），插入刷好系统的 TF 卡，运行终端模拟输入 su 并赋予 root 权限， 再输入 reboot update，重启后正常进入系统。
+Armbian_24.5.0_amlogic_s905l3a_bullseye_5.15.152_server_2024.03.16
+https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_bullseye_save_2024.03/Armbian_24.5.0_amlogic_s905l3a_bullseye_5.15.152_server_2024.03.16.img.gz
 
-Armbian_24.5.0_amlogic_s905l3a_jammy_5.15.152_server_2024.03.16.img.gz
-https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_jammy_save_2024.03/Armbian_24.5.0_amlogic_s905l3a_jammy_5.15.152_server_2024.03.16.img.gz
+
+https://www.qibohan.com/archives/218
+中兴机顶盒ZXV10 B860AV2.1T 2022款刷armbian系统
+
+
+1, u-boot-s905x-s912.bin 改成 u-boot.ext
+
+2, 更改下 uEnv.ini 
+FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
+
+3, 手动替换(加入) dtb  meson-gxl-s905x-p212.dtb
+
+4, 编辑配置文件 exlinux.conf 把所有前面没有打#号注释掉的都注释掉。然后删掉meson-gxl-s905x-p212.dtb前的#号和最后一行的#号 
+
 
 
 
