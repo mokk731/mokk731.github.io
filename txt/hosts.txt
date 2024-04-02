@@ -5,7 +5,7 @@
 # nslookup raw.githubusercontent.com 119.29.29.29
 
 # https://ping.chinaz.com
-# update 202403
+# update 202404
 ########################################################################
 
 # Good
@@ -25,9 +25,8 @@
 185.199.108.133    raw.githubusercontent.com
 
 # debian omv
-146.75.114.132   httpredir.debian.org
+151.101.90.132   httpredir.debian.org
 
-142.250.68.10     translate.googleapis.com
 
 ##############################################
 
