@@ -45,6 +45,14 @@
 127.0.0.1   hismarttv.com
 127.0.0.1   wasu.tv
 
+# iOS-update
+127.0.0.1   mesu.apple.com
+127.0.0.1   appldnld.apple.com
+127.0.0.1   xp.apple.com
+127.0.0.1   gdmf.apple.com
+127.0.0.1   ns.itunes.apple.com
+127.0.0.1   gg.apple.com
+
 ##############################################
 
 # Bad
