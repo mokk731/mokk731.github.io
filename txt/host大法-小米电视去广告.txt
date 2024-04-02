@@ -128,6 +128,17 @@ https://github.com/liamliu108/miTVhosts/blob/master/hosts
 127.0.0.1 userapi.hpplay.com.cn
 127.0.0.1 v.admaster.com.cn
 127.0.0.1 video.market.xiaomi.com
+
+----------------------------------------------------
+
+# gzads TV
+127.0.0.1   gzads.com
+127.0.0.1   gozendata.com
+127.0.0.1   gz-data.com
+
+# Hisense TV
+127.0.0.1   hismarttv.com
+127.0.0.1   wasu.tv
 127.0.0.1 vipauth.hpplay.cn
 127.0.0.1 vipsdkauth.hpplay.cn
 127.0.0.1 vv.play.aiseet.atianqi.com
