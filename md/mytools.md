@@ -81,7 +81,13 @@
 
 #### [BT-trackerslist](https://mokk731.github.io/txt/trackerslist.txt)
 
-#### [IPTV](https://github.com/iptv-org/iptv)
+
+
+#### [电影天堂](https://www.dygod.net/html/gndy/)
+
+#### [磁力狗-ciligou.top](http://clg34.top/)
+
+#### [SkrBT-skrso.link](https://skrbtyx.top/)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
@@ -90,7 +96,6 @@
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
 
 
 
@@ -100,6 +105,9 @@
 #### [自制卫视iptv电视源.m3u](https://mokk731.github.io/txt/自制卫视iptv电视源.m3u.txt)
 
 #### [iptv电视源](http://tonkiang.us)
+
+#### [iptv-org](https://github.com/iptv-org/iptv)
+
 
 
 
