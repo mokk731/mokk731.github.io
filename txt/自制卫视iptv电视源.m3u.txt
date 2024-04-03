@@ -1,6 +1,6 @@
 #EXTM3U
 
-#EXTINF:-1 ,上海第一财经 360p 202404
+#EXTINF:-1 ,上海第一财经360p 202404
 https://www.yicai.com/api/dycj/liveIndex.m3u8
 #EXTINF:-1 ,上海第一财经 (1080p) 1
 http://39.134.39.39/PLTV/88888888/224/3221226172/index.m3u8
