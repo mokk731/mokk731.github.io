@@ -3,11 +3,9 @@
 #EXTINF:-1 ,上海第一财经360p 202404
 https://www.yicai.com/api/dycj/liveIndex.m3u8
 #EXTINF:-1 ,上海第一财经 (1080p) 1
-http://39.134.39.39/PLTV/88888888/224/3221226172/index.m3u8
+http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/dycjhd8m/8000000/mnf.m3u8
 #EXTINF:-1 ,上海第一财经 (1080p) 2
-http://112.25.48.68/live/program/live/dycjhd/4000000/mnf.m3u8
-#EXTINF:-1 ,上海第一财经 (1080p) 3
-http://112.25.48.68/live/program/live/dycjhd/4000000/mnf.m3u8
+http://php.jdshipin.com:8880/bst.php?id=dycjhd/4000000
 
 
 
@@ -24,9 +22,12 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 
 
 #EXTINF:-1 ,湖南卫视高清1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
+http://iptv123.msns.cn:9901/tsfile/live/0128_1.m3u8
 #EXTINF:-1 ,湖南卫视高清2
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226211/index.m3u8
+http://121.24.98.185:8090/hls/56/index.m3u8
+#EXTINF:-1 ,湖南卫视高清3
+http://123.10.76.176:808/hls/33/index.m3u8
+
 #EXTINF:-1 ,江苏卫视高清1  
 http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
 #EXTINF:-1 ,江苏卫视高清2  
@@ -48,7 +49,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
 
 
 
-
 #EXTINF:-1 ,鳳凰衛視中文576p  
 http://210.210.155.37/uq2663/h/h157/index2.m3u8
 #EXTINF:-1 ,鳳凰衛視資訊576p  
@@ -58,7 +58,6 @@ http://210.210.155.37/qwr9ew/s/s21/index.m3u8
 
 #EXTINF:-1 ,EBC Variety (東森綜合台) (720p)
 http://50.7.220.74:8278/ettvzhonghe/playlist.m3u8?ct=17874&tid=m65c4e525f24617101171&tsum=663db593cfeefc92ce4b5d7461988f3f
-
 
 #EXTINF:-1 ,SET News (三立新聞) (720p)
 http://50.7.220.74:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
@@ -84,8 +83,6 @@ http://50.7.220.74:8278/tvbs/playlist.m3u8?ct=19226&tid=MDED5111960351119603&tsu
 http://50.7.220.74:8278/tvbs_n/playlist.m3u8?ct=19226&tid=MEFE5283322452833224&tsum=5f4e9bb0782ab3aae36328763cba2ffd
 
 
- 
-
 
 #EXTINF:-1 ,SiTV东方财经 (540p) [Not 24/7]
 http://112.25.48.68/live/program/live/dfcj/1300000/mnf.m3u8
@@ -97,11 +94,7 @@ http://cclive.aniu.tv/live/anzb.m3u8
 http://cclive2.aniu.tv/live/anzb.m3u8
 
 
-
-
 #EXTINF:-1 ,CCTV1综合 
 http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
 #EXTINF:-1 ,CCTV5体育
 http://39.134.115.163:8080/PLTV/88888910/224/3221225633/index.m3u8  
-
-
