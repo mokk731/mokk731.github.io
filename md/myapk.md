@@ -22,13 +22,11 @@
 
 ## TV
 
-#### [BLBL_第三方哔哩哔哩客户端_v1.4.9.apk](https://mokk731.github.io/apk/BLBL_第三方哔哩哔哩客户端_v1.4.9.apk)
-
 #### [小薇直播2.4.0.apk](https://mokk731.github.io/apk/小薇直播2.4.0.apk)
 
 #### [灵犀直播TV_1.0.115.apk](https://mokk731.github.io/apk/灵犀直播TV_1.0.115.apk)
 
-#### [my-tv-v1.6.0.apk](https://mokk731.github.io/apk/my-tv-v1.6.0.apk)
+#### [my-tv](https://github.com/lizongying/my-tv/releases)
 
 
 ## other
