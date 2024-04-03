@@ -1,0 +1,107 @@
+#EXTM3U
+
+#EXTINF:-1 ,上海第一财经 360p 202404
+https://www.yicai.com/api/dycj/liveIndex.m3u8
+#EXTINF:-1 ,上海第一财经 (1080p) 1
+http://39.134.39.39/PLTV/88888888/224/3221226172/index.m3u8
+#EXTINF:-1 ,上海第一财经 (1080p) 2
+http://112.25.48.68/live/program/live/dycjhd/4000000/mnf.m3u8
+#EXTINF:-1 ,上海第一财经 (1080p) 3
+http://112.25.48.68/live/program/live/dycjhd/4000000/mnf.m3u8
+
+
+
+#EXTINF:-1 ,CCTV-13新闻高清 
+https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
+#EXTINF:-1 ,CCTV-2财经 1080p 1 
+https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
+#EXTINF:-1 ,CCTV-2财经 1080p 2
+http://39.135.138.59:18890/PLTV/88888910/224/3221225619/index.m3u8
+
+
+#EXTINF:-1 ,BBC News Asia Pacific (720p)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+
+
+#EXTINF:-1 ,湖南卫视高清1
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8
+#EXTINF:-1 ,湖南卫视高清2
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226211/index.m3u8
+#EXTINF:-1 ,江苏卫视高清1  
+http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
+#EXTINF:-1 ,江苏卫视高清2  
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
+#EXTINF:-1 ,浙江卫视高清1  
+http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8 
+#EXTINF:-1 ,浙江卫视高清2
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226199/index.m3u8
+#EXTINF:-1 ,东方卫视高清  
+http://39.134.115.163:8080/PLTV/88888910/224/3221225658/index.m3u8
+#EXTINF:-1 ,北京卫视高清  
+http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8  
+#EXTINF:-1 ,深圳卫视高清  
+http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
+#EXTINF:-1 ,广东卫视高清  
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226216/index.m3u8 
+#EXTINF:-1 ,山东卫视高清  
+http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
+
+
+
+
+#EXTINF:-1 ,鳳凰衛視中文576p  
+http://210.210.155.37/uq2663/h/h157/index2.m3u8
+#EXTINF:-1 ,鳳凰衛視資訊576p  
+http://210.210.155.37/qwr9ew/s/s21/index.m3u8
+
+
+
+#EXTINF:-1 ,EBC Variety (東森綜合台) (720p)
+http://50.7.220.74:8278/ettvzhonghe/playlist.m3u8?ct=17874&tid=m65c4e525f24617101171&tsum=663db593cfeefc92ce4b5d7461988f3f
+
+
+#EXTINF:-1 ,SET News (三立新聞) (720p)
+http://50.7.220.74:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
+
+#EXTINF:-1 ,SET Taiwan (三立臺灣台) (720p)
+http://50.7.220.74:8278/sanlitaiwan/playlist.m3u8?ct=17874&tid=m92ccadc4dc3718157816&tsum=3570a8198ca0fb7ebb803807e38b33fb
+
+#EXTINF:-1 ,SET Variety (三立綜合台) (720p)
+http://50.7.220.74:8278/sanlizhonghe/playlist.m3u8?ct=17874&tid=m3362167a08a014596868&tsum=4472a7c943b67bf52fe5e836ca9f3b6b
+
+
+
+#EXTINF:-1 ,TVBS Asia (1080p)
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+
+#EXTINF:-1 ,TVBS Entertainment Channel (TVBS歡樂台) (720p)
+http://50.7.220.74:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219
+
+#EXTINF:-1 ,TVBS HD (720p)
+http://50.7.220.74:8278/tvbs/playlist.m3u8?ct=19226&tid=MDED5111960351119603&tsum=49931e2d3885c468d56ffae2c2db9e6e
+
+#EXTINF:-1 ,TVBS News (TVBS新聞台) (720p)
+http://50.7.220.74:8278/tvbs_n/playlist.m3u8?ct=19226&tid=MEFE5283322452833224&tsum=5f4e9bb0782ab3aae36328763cba2ffd
+
+
+ 
+
+
+#EXTINF:-1 ,SiTV东方财经 (540p) [Not 24/7]
+http://112.25.48.68/live/program/live/dfcj/1300000/mnf.m3u8
+#EXTINF:-1 ,北京财经 [Not 24/7]
+http://ivi.bupt.edu.cn/hls/btv5.m3u8
+#EXTINF:-1 ,点掌财经 (712p)
+http://cclive.aniu.tv/live/anzb.m3u8
+#EXTINF:-1 ,點掌財經 (712p)
+http://cclive2.aniu.tv/live/anzb.m3u8
+
+
+
+
+#EXTINF:-1 ,CCTV1综合 
+http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
+#EXTINF:-1 ,CCTV5体育
+http://39.134.115.163:8080/PLTV/88888910/224/3221225633/index.m3u8  
+
+
