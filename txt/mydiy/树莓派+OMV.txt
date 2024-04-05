@@ -200,6 +200,11 @@ https://hub.docker.com/r/linuxserver/qbittorrent
 docker pull linuxserver/qbittorrent:4.6.3-r0-ls320
 2024-03
 
+https://github.com/ngosang/trackerslist
+trackers_best_ip
+trackers_all_https
+
+
 /mnt/sda1/btdownloads
 /mnt/sda1/btconfig
 
