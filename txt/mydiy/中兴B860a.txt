@@ -114,10 +114,14 @@ ZTE B860AV2.1 折腾 Armbian
 
     Armbian (https://github.com/ophub/amlogic-s9xxx-armbian/releases)
         选择 s905l3a 版本的 Armbian
-    meson-gxl-s905x-p212.dtb
-        修 emmc 的
+    meson-gxl-s905x-p212.dtb  
+        修 emmc 的  2022年后
     android_tv_mgv2000-s905l2-android4.4.2-root
         记得解压
+
+    更改下 uEnv.ini 和手动替换(加入) dtb
+    复制 u-boot-s905x-s912.bin 成 u-boot.ext
+    下载 meson-gxl-s905x-p212.dtb 并且随便放（uEnv.ini）也要跟着改
 
 
 
@@ -125,18 +129,20 @@ Armbian_24.5.0_amlogic_s905l3a_bullseye_5.15.152_server_2024.03.16
 https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_bullseye_save_2024.03/Armbian_24.5.0_amlogic_s905l3a_bullseye_5.15.152_server_2024.03.16.img.gz
 
 
+
+----------------------
 https://www.qibohan.com/archives/218
 中兴机顶盒ZXV10 B860AV2.1T 2022款刷armbian系统
 
 
-1, u-boot-s905x-s912.bin 改成 u-boot.ext
+1, 复制 u-boot-s905x-s912.bin 成 u-boot.ext
 
 2, 更改下 uEnv.ini 
 FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
 
-3, 手动替换(加入) dtb  meson-gxl-s905x-p212.dtb
+3, 手动替换(加入) dtb  meson-gxl-s905x-p212.dtb 2022年后
 
-4, 编辑配置文件 exlinux.conf 把所有前面没有打#号注释掉的都注释掉。然后删掉meson-gxl-s905x-p212.dtb前的#号和最后一行的#号 
+
 
 
 
