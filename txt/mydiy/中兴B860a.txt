@@ -142,6 +142,8 @@ FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
 
 3, 手动替换(加入) dtb  meson-gxl-s905x-p212.dtb 2022年后
 
+4, 把TF卡插到盒子上，启动Reboot to LibreELEC 然后授予ROOT权限它会自动重启
+
 
 
 
