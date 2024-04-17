@@ -147,6 +147,9 @@ FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
 
 
 
-
 芯片是晶晨Amlogic S905L
+
+20240417
+试了多个方案，都不成功，不能进入U盘armbian系统,openwrt引导，放弃。。。。。。。。。
+
 
