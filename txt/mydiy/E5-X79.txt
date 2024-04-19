@@ -333,4 +333,4 @@ ghost系统 恢复速度约 600MB/min, 有点慢。
 换了新的 朗科ssd sata 256G, 磁盘卡顿问题终于解决。
 
 朗科 ssd sata 256G    测试读速度490MB/s,     写460MB/s，
-tigo ssd sata 120G   测试读速度正常500MB/s,  写很慢60MB/s，老化了
+tigo ssd sata 120G   测试读速度正常300MB/s,  写很慢16MB/s，老化了
