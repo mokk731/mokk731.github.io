@@ -1,10 +1,10 @@
 如何低成本搭建一个docker 轻服务器 随时随地访问小雅影音库 OrangePi Zero3 一键快速部署指南 ｜免费内网穿透
 https://www.youtube.com/watch?v=Ym4d7uCo9eg
 
-一键部署脚本：https://github.com/wukongdaily/Orange...
+一键部署脚本：https://github.com/wukongdaily/OrangePiShell
 docker 离线包：https://wwl.lanzouq.com/s/zero3  密码:3c60
 免费内网穿透工具:https://i.cpolar.com/m/5Ij6
-docker全部离线包：https://drive.google.com/drive/folder...
+docker全部离线包：https://drive.google.com/drive/folders/1lN14zlHeLu0zckHNftpW8kPlqGZHolL8?usp=sharing
 zero3的Wiki文档:http://www.orangepi.cn/orangepiwiki/i...
 
 导入离线docker
