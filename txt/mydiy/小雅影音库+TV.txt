@@ -18,6 +18,11 @@ my-tv-v1.8.apk
 https://github.com/lizongying/my-tv/releases
 https://github.com/lizongying/my-tv/blob/main/app/src/main/java/com/lizongying/mytv/TVList.kt
 
+
+BLBL_第三方哔哩哔哩客户端_v1.4.9.apk
+https://github.com/xiaye13579/BBLL
+
+
 小薇直播2.4.0.apk
 
 灵犀直播TV_1.0.115
@@ -28,7 +33,6 @@ https://github.com/lizongying/my-tv/blob/main/app/src/main/java/com/lizongying/m
 
 当贝桌面_4.1.6.apk
 
-BLBL_第三方哔哩哔哩客户端_v1.4.9.apk
 
 Kodi_v19.0_32.apk
 
