@@ -51,6 +51,15 @@ bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)" -s host
 bash -c "$(curl -s https://xiaoyahelper.ddsrem.com/aliyun_clear.sh | tail -n +2)" -s 3
 
 
+----------------------------------------------------------------------
+
+如何设置xiaoya的docker
+https://xiaoyaliu.notion.site/xiaoya-docker-69404af849504fa5bcf9f2dd5ecaa75f
+
+先转存这个
+https://www.aliyundrive.com/s/rP9gP3h9asE  到自己网盘（选择资源盘），然后浏览器打开转存后的目录，浏览器的url 
+https://www.aliyundrive.com/drive/file/resource/640xxxxxxxxxxxxxxxxxxxca8a 最后一串就是，记得这个目录不要删，里面的内容可以定期删除
+
 
 
 
