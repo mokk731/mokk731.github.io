@@ -75,7 +75,8 @@ http://www.mlnas.pub:5678/       ########
 密码: guest_Api789
 
 协议：webdav
-主机ip/路径：v.elizen.me/dav
+主机ip/路径： v.elizen.me/dav
+             www.mlnas.pub/dav
 端口：5678
 
 
