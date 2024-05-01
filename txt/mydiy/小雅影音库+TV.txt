@@ -64,7 +64,8 @@ https://www.aliyundrive.com/drive/file/resource/640xxxxxxxxxxxxxxxxxxxca8a 最�
 
 
 可以公网使用的免费xiaoya：：
-http://v.elizen.me/     ####
+http://v.elizen.me/              ########
+http://www.mlnas.pub:5678/       ########
 
 参考 potplayer, nplayer, kodi 的配置截图
 
