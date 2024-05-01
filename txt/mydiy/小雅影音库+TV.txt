@@ -63,8 +63,19 @@ https://www.aliyundrive.com/drive/file/resource/640xxxxxxxxxxxxxxxxxxxca8a 最�
 
 
 
-
+可以公网使用的免费xiaoya：：
 http://v.elizen.me/     ####
+
+参考 potplayer, nplayer, kodi 的配置截图
+
+**webdav 账号密码**
+
+用户: guest 
+密码: guest_Api789
+
+协议：webdav
+主机ip/路径：v.elizen.me/dav
+端口：5678
 
 
 ----------------------------------------------------------------------
