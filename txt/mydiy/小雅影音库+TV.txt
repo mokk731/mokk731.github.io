@@ -15,6 +15,44 @@ zero3开发版 Ubuntu Server(需要解压后再写入TF卡):https://pan.baidu.co
 安装 1,小雅,   2,清理工具,  3,alist
 
 ----------------------------------------------------------------------
+垃圾佬】69元的软路由＋私人影库，搭建小雅emby全家桶，实现观影自由，保姆阶教程
+https://www.youtube.com/watch?v=MrOQ1YU-ys8
+
+小雅emby全家桶安装教程
+https://hol8i53djq.feishu.cn/docx/ZheXdQJMJoy34ZxNT2XcsI8Snfg
+
+第一步
+获取3个数据，并放到记事本备用
+
+1，转存下方链接文件 转存到你的阿里云盘的资源库目录
+https://www.alipan.com/s/tr59zvitBV7
+
+打开转存文件，获取folder id
+
+获取两个你阿里云盘的token，点击链接手机阿里云盘APP扫码即可获取
+32位。 token获取：https://alist.nn.ci/zh/guide/drivers/aliyundrive.html
+128位。Open token 获取：：https://alist.nn.ci/tool/aliyundrive/request
+
+三组数据保存到一个记事本
+
+第二步：小雅安装
+电脑上下载一个ssh工具！如putty MobaXterm等，
+
+1：一键脚本
+bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)" -s host
+
+2：做一个自动清理
+因为你观影的影片，都存在你自己的啊里云盘，看完不清理，你的阿里云盘就会被沾满，所以需要一个自动清理的任务。
+我们创建一个名为 xiaoyakeeper 的docker定时清理小雅转存到你啊里云盘的数据
+  每天早6点晚10点清理TXT文档下载：myruntime: https://url23.ctfile.com/f/845023-1063580836-df8525?
+
+
+
+
+
+
+
+----------------------------------------------------------------------
 
 TV
 
