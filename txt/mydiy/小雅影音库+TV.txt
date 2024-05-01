@@ -45,7 +45,10 @@ bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)" -s host
 因为你观影的影片，都存在你自己的啊里云盘，看完不清理，你的阿里云盘就会被沾满，所以需要一个自动清理的任务。
 我们创建一个名为 xiaoyakeeper 的docker定时清理小雅转存到你啊里云盘的数据
   每天早6点晚10点清理TXT文档下载：myruntime: https://url23.ctfile.com/f/845023-1063580836-df8525?
+新建txt文档：名称：myruntime
+06:00,09:00,12:00,15:00,16:00,19:00,21:00,24:00,03:00
 
+bash -c "$(curl -s https://xiaoyahelper.ddsrem.com/aliyun_clear.sh | tail -n +2)" -s 3
 
 
 
