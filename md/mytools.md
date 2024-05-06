@@ -77,7 +77,7 @@
 
 ## 网页导航
 
-#### [阿虚同学的储物间](https://axutongxue.gitee.io)
+#### [阿虚同学的储物间](https://axutongxue.com/)
 
 #### [BT-trackerslist](https://mokk731.github.io/txt/trackerslist.txt)
 
