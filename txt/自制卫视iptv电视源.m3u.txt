@@ -1,75 +1,65 @@
 #EXTM3U
 
-#EXTINF:-1 ,上海第一财经360p 202404
+#EXTINF:-1 ,上海第一财经360p 202405
 https://www.yicai.com/api/dycj/liveIndex.m3u8
-#EXTINF:-1 ,上海第一财经 (1080p) 1
-http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/dycjhd8m/8000000/mnf.m3u8
+
+#EXTINF:-1 ,上海第一财经 1
+http://116.162.6.192/sxbuv52.live.bestvcdn.com.cn/live/dycjhd8m/8000000/mnf.m3u8
+#EXTINF:-1 ,上海第一财经  2
+http://tv.100inns.com:4022/udp/239.45.3.211:5140
+#EXTINF:-1 ,上海第一财经  3
+http://58.42.59.104/hljbuv52.live.bestvcdn.com.cn/liveplay-kk.rtxapp.com/live/program/live/dycjhd8m/8000000/mnf.m3u8
+#EXTINF:-1 ,上海第一财经  4
+https://cntv.lat/tv/live.php?auth=231110&id=dycj
+#EXTINF:-1 ,上海第一财经  5
+https://live.goodiptv.club/api/bestv.php?id=dycjhd8m/8000000
 
 
 
-#EXTINF:-1 ,CCTV-13新闻高清 
+#EXTINF:-1 ,CCTV-13新闻 1
 https://node1.olelive.com:6443/live/CCTV13HD/hls.m3u8
-#EXTINF:-1 ,CCTV-2财经 1080p 1 
+#EXTINF:-1 ,CCTV-13新闻 2
+http://182.46.8.161:8018/hls/13/index.m3u8
+#EXTINF:-1 ,CCTV-2财经  1 
 https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
-#EXTINF:-1 ,CCTV-2财经 1080p 2
-http://219.147.3.106:4455/newlive/live/hls/2/live.m3u8
+#EXTINF:-1 ,CCTV-2财经  2
+http://125.210.150.58:9090/live/hzgq-cctv2gq-h264.m3u8
 
+
+#EXTINF:-1 ,湖南卫视高清1
+http://116.162.6.192/4403-txt.yiyang.otvcloud.com/otv/skcc/live/channel25/index.m3u8
+#EXTINF:-1 ,湖南卫视高清2
+http://tvbox.netsite.cc/proxy/823956387/823956387.m3u8
+#EXTINF:-1 ,湖南卫视高清3
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
 
 #EXTINF:-1 ,BBC News Asia Pacific (720p)
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 
-
-#EXTINF:-1 ,湖南卫视高清1
-http://iptv123.msns.cn:9901/tsfile/live/0128_1.m3u8
-#EXTINF:-1 ,湖南卫视高清2
-http://121.24.98.185:8090/hls/56/index.m3u8
-#EXTINF:-1 ,湖南卫视高清3
-http://123.10.76.176:808/hls/33/index.m3u8
-
-#EXTINF:-1 ,江苏卫视高清1  
-http://219.147.3.106:4455/newlive/live/hls/19/live.m3u8
-#EXTINF:-1 ,江苏卫视高清2  
-http://61.136.67.238:50085/tsfile/live/0127_1.m3u8
-#EXTINF:-1 ,浙江卫视高清1  
-http://219.147.3.106:4455/newlive/live/hls/17/live.m3u8
-#EXTINF:-1 ,浙江卫视高清2
-https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 ,广东卫视高清1  
-http://219.147.3.106:4455/newlive/live/hls/26/live.m3u8
-#EXTINF:-1 ,广东卫视高清2  
-http://140.249.247.163/1142f717c2e0326d526ab914ec68dd30.v.smtcdns.net/t-fjnetv51.live.bestvcdn.com.cn/live/program/live/gdwshd8m/8000000/mnf.m3u8
-#EXTINF:-1 ,东方卫视高清  
-http://39.134.115.163:8080/PLTV/88888910/224/3221225658/index.m3u8
-#EXTINF:-1 ,北京卫视高清  
-http://39.134.115.163:8080/PLTV/88888910/224/3221225673/index.m3u8  
-#EXTINF:-1 ,深圳卫视高清  
-http://39.134.115.163:8080/PLTV/88888910/224/3221225700/index.m3u8
-#EXTINF:-1 ,山东卫视高清  
-http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
+#EXTINF:-1 ,鳳凰衛視中文1
+http://64.140.167.170:8080/live/xsjgat2/hls.m3u8
+#EXTINF:-1 ,鳳凰衛視中文2
+http://tvbox.netsite.cc/proxy/1650326537/1650326537.m3u8
+#EXTINF:-1 ,鳳凰衛視資訊1
+http://116.162.6.191/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226320/index.m3u8
+#EXTINF:-1 ,鳳凰衛視資訊2
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 ,鳳凰衛視資訊3
+http://125.210.150.58:9090/live/hszx-fhzx-h264.m3u8
 
 
+#EXTINF:-1 ,TVBS新聞1 
+https://z88.ubtvfans.com/live/rx5/2736/be2d52910873cb20d510f4f1ef0804ba/index.m3u8
+#EXTINF:-1 ,TVBS
+https://z88.ubtvfans.com/live/rx1/2273/d72f24016c5ba7087527fb648d02969a/index.m3u8
 
-#EXTINF:-1 ,鳳凰衛視中文576p  
-http://210.210.155.37/uq2663/h/h157/index2.m3u8
-#EXTINF:-1 ,鳳凰衛視中文720p
-http://198.16.100.90:8278/phoenixtv_hd/playlist.m3u8?tid=MFBF2713938527139385&ct=19225&tsum=1c8ca0899277714ab83db57245220068
-#EXTINF:-1 ,鳳凰衛視資訊720p  
-http://50.7.238.114:8278/phoenixinfo_hd/playlist.m3u8?tid=m7f4a830029be&ct=18336&tsum=74f57bddc0725f74838380086dce3e44
 
-#EXTINF:-1 ,TVBS新聞台1 
-http://50.7.238.114:8278/tvbs_n/playlist.m3u8?tid=MECE3233774032337740&ct=19225&tsum=47a22a993d8e9b29582dfde5631c78b0
-#EXTINF:-1 ,TVBS新聞台2 
-http://198.16.100.90:8278/tvbs_n/playlist.m3u8?tid=MEFE5283322452833224&ct=19226&tsum=5f4e9bb0782ab3aae36328763cba2ffd
-
-#EXTINF:-1 ,SiTV东方财经 (540p) [Not 24/7]
-http://112.25.48.68/live/program/live/dfcj/1300000/mnf.m3u8
-#EXTINF:-1 ,北京财经 [Not 24/7]
-http://ivi.bupt.edu.cn/hls/btv5.m3u8
-#EXTINF:-1 ,点掌财经 (712p)
-http://cclive.aniu.tv/live/anzb.m3u8
-#EXTINF:-1 ,點掌財經 (712p)
-http://cclive2.aniu.tv/live/anzb.m3u8
-
+#EXTINF:-1 ,点掌财经 1
+http://tvbox.netsite.cc/proxy/1577752441/1577752441.m3u8
+#EXTINF:-1 ,点掌财经 2
+https://volcanopull.aniu.tv/live/aniu2/index.m3u8
+#EXTINF:-1 ,点掌财经 3
+https://wsvideo.aniu.tv/live/aniu/playlist.m3u8
 
 #EXTINF:-1 ,CCTV1综合 
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
