@@ -34,14 +34,26 @@ WARP转软路由使用
 WARP官网：https://1.1.1.1/
 简单使用教程： 永久免费VPN，还不限流量，直接把付费VPN打趴下！
 
-获取无限流量密钥telegrem机器人
+# 获取无限流量密钥telegrem机器人
 Warp+ Bot https://t.me/generatewarpplusbot
 Warp Plus
 
-Warp转化工具
+# Warp转化工具
 github.com/ViRb3/wgcf
 
-填入优选IP
+CMD 
+1，wgcf register
+
+2，wgcf-account.toml，，，license_key填入key 第三个
+
+3，wgcf update
+
+4，wgcf generate
+
+5，wgcf-profile.conf
+
+
+# 填入优选IP
 
 优选ip工具1
 GitHub - XIU2/CloudflareSpeedTest: ??「自选优选 IP」测试 Cloudflare CDN 延迟和速度
