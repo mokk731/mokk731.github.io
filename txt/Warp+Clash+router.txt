@@ -69,6 +69,47 @@ https://drive.google.com/drive/folders/1XCRh7uhooYZvPeGoFzG6nIox26sVwQNx?usp=sha
 -------------------------------------------------------------------------------------
 
 
+wgcf-profile.conf
+
+[Interface]
+PrivateKey = iIuP44NxQsUpewoJybTHdRjk2NQDPf6NpmOf2EqwbVQ=
+Address = 172.16.0.2/32
+Address = 2606:4700:110:8341:69ef:e13c:b321:1637/128
+DNS = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001
+MTU = 1280
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0
+AllowedIPs = ::/0
+Endpoint = 162.159.195.83:1387
+
+
+
+[Interface]
+PrivateKey = EFd8pGm1KqCAGxc3gjvUb9j5+bl4tTCKFS3uxBkSPH8=
+Address = 172.16.0.2/32
+Address = 2606:4700:110:8d23:6de8:3646:1388:d45e/128
+DNS = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001
+MTU = 1280
+[Peer]
+PublicKey = bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+AllowedIPs = 0.0.0.0/0
+AllowedIPs = ::/0
+Endpoint = engage.cloudflareclient.com:2408
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------
 
 New Warp+ keys
 
