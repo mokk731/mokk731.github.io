@@ -11,6 +11,8 @@
 
 #### [Clash](https://mokk731.github.io/txt/clash.txt)
 
+#### [WireGuard](https://www.wireguard.com/install/)
+
 #### [TOR Browser](https://www.torproject.org/zh-CN/)
 
 #### I2P
@@ -31,6 +33,8 @@
 #### [完美外网计划](https://mokk731.github.io/txt/完美外网计划.txt)
 
 #### [免费Warp+Clash+软路由](https://mokk731.github.io/txt/Warp+Clash+router.txt)
+
+#### [openclash在openwrt中设置](https://mokk731.github.io/txt/openclash在openwrt中设置.txt)
 
 --------------------------------------------------------------------------
 
