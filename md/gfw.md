@@ -10,7 +10,6 @@
 
 #### [WireGuard.apk](https://mokk731.github.io/apk/Wireguard-1.0.20231018.zip)
 
-#### [Clash](https://mokk731.github.io/txt/clash.txt)
 
 #### [WireGuard](https://www.wireguard.com/install/)
 
