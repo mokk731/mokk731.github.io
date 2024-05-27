@@ -13,6 +13,8 @@
 
 #### [WireGuard](https://www.wireguard.com/install/)
 
+#### Clash
+
 #### [TOR Browser](https://www.torproject.org/zh-CN/)
 
 #### I2P
