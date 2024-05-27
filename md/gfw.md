@@ -8,6 +8,7 @@
 
 #### [v2rayNG.apk](https://mokk731.github.io/apk/v2rayNG_v1.6.28_202201.apk)
 
+#### [WireGuard.apk](https://mokk731.github.io/apk/Wireguard-1.0.20231018.zip)
 
 #### [Clash](https://mokk731.github.io/txt/clash.txt)
 
