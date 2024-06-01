@@ -360,7 +360,7 @@ AS SSD Benchmark 测试读速度132MB/s,     写126MB/s，
 处理：
 将原sata1 换成 sata0 主板端口,
 磁盘% 正常，
-AS SSD Benchmark 测试读速度486B/s,     写470MB/s，
+AS SSD Benchmark 测试读速度486MB/s,     写470MB/s，
 又变正常，可能是sata线，接触不良.
 
 -----------------------------------------------------------
