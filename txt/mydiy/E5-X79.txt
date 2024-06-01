@@ -354,12 +354,11 @@ PFG29 -6 AL 大S颗粒，镁光淘汰颗粒，AL级，16G*8个=128G
 20240601
 
 朗科ssd 出现磁盘错误，win10自动修复后，
-
 磁盘% 增高，
 AS SSD Benchmark 测试读速度132MB/s,     写126MB/s，
 
 处理：
-将原sata1 换成 sata0 主板口
+将原sata1 换成 sata0 主板端口,
 磁盘% 正常，
 AS SSD Benchmark 测试读速度486B/s,     写470MB/s，
 又变正常，可能是sata线，接触不良.
