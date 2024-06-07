@@ -89,7 +89,7 @@
 
 #### [SkrBT-skrso.link](https://skrbtyx.top/)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [在线电影+小雅Alist](https://mokk731.github.io/txt/在线电影+小雅Alist.txt)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
@@ -101,6 +101,7 @@
 
 ## [Tampermonkey油猴插件](https://mokk731.github.io/md/tampermonkey)
 
+## IPTV
 
 #### [自制卫视iptv电视源.m3u](https://mokk731.github.io/txt/自制卫视iptv电视源.m3u.txt)
 
