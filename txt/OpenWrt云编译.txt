@@ -140,6 +140,8 @@ CONFIG_PACKAGE_luci-app-wol=n            网络唤醒
 
 ------------------------------------
 
+广告屏蔽
+
 luci-app-adguardhome
 https://github.com/rufengsuixing/luci-app-adguardhome
 https://github.com/SuLingGG/luci-app-adguardhome
@@ -157,6 +159,13 @@ https://www.youtube.com/watch?v=8VBvSnuQfiI&list=PLTI5d7Gwez7ri29l5OOOxoWbxooGqX
 
 CONFIG_PACKAGE_adguardhome=n
 CONFIG_PACKAGE_luci-app-adguardhome=y
+
+
+smartdns
+CONFIG_PACKAGE_luci-app-smartdns=y
+
+mosdns
+CONFIG_PACKAGE_luci-app-mosdns=y
 
 ------------------------------------
 
@@ -186,7 +195,7 @@ https://github.com/sirpdboy/luci-app-eqosplus
 
 
 
-CONFIG_PACKAGE_luci-app-sqm=y     网络质量  效果好
+CONFIG_PACKAGE_luci-app-sqm=y     网络质量 流量整形 效果好
 
 https://www.right.com.cn/forum/thread-511173-1-1.html
 [2019.3.24]openwrt下各种qos(sqm,石像鬼，qosv4，nft-qos，emong-qos)使用心得
@@ -201,8 +210,6 @@ luci-app-autoreboot_1.0-8_all.ipk
 定时重启
 
 
-
-
 -------------------------------
 baidupcs-web
 CONFIG_PACKAGE_luci-app-baidupcs-web=y
@@ -212,6 +219,8 @@ CONFIG_PACKAGE_luci-app-wireguard=y
 
 tailscale
 
+zerotier
+CONFIG_PACKAGE_luci-app-zerotier=y 
 -------------------------
 
 tinyproxy
@@ -242,7 +251,7 @@ curl ip.sb --proxy 192.168.31.1:8888
 显示服务器IP，则成功.
 
 ------------------------------------------
-
+immortalwrt
 
 https://downloads.immortalwrt.org/
 
@@ -256,3 +265,16 @@ Default login address: http://192.168.1.1 or http://immortalwrt.lan, username: r
 ------------------------------------------
 
 在线定制专属固件: https://supes.top
+
+------------------------------------------
+
+easymesh
+CONFIG_PACKAGE_luci-app-easymesh=y
+
+一定要编译固件
+
+------------------------------------------
+
+
+
+------------------------------------------
