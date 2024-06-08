@@ -316,11 +316,11 @@ Intel Xeon E5-2650 v2        9992
 Intel Xeon E5-1650 v3        10374
 
 
-AMD A4-3400 APU         1067
-AMD GX-415GA SOC        1350
-AMD A4-7300 APU 	      1522
-AMD A8-3800 APU         1858
-AMD A8-6600K APU        3050
+AMD A4-3400 APU              1067
+AMD GX-415GA SOC             1350
+AMD A4-7300 APU 	           1522
+AMD A8-3800 APU              1858
+AMD A8-6600K APU             3050
 
 
 AMD Athlon 200GE 	         4211
