@@ -1,18 +1,14 @@
-https://github.com/aiboboxx/v2rayfree
+
+v2rayfree
+aHR0cHM6Ly9naXRodWIuY29tL2FpYm9ib3h4L3YycmF5ZnJlZQ==
+
 
 v2ray免费节点订阅：
-https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FpYm9ib3h4L3YycmF5ZnJlZS9tYWluL3Yy
 
 clash订阅链接：
-https://github.com/aiboboxx/clashfree/blob/main/clash.yml
+aHR0cHM6Ly9naXRodWIuY29tL2FpYm9ib3h4L2NsYXNoZnJlZS9ibG9iL21haW4vY2xhc2gueW1s
 
-
-
-v2ray订阅链接:
-https://clashgithub.com/wp-content/uploads/rss/20240108.txt
-
-clash订阅链接:
-https://clashgithub.com/wp-content/uploads/rss/20240108.yml
 
 
 ------------------------------------------------------
