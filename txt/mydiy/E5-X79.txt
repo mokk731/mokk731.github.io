@@ -326,18 +326,18 @@ AMD A8-6600K APU             3050
 AMD Athlon 200GE 	     4211
 AMD Athlon 3000G 	     4481
 AMD Ryzen 3 2200G          6713
-AMD Ryzen 5 3400G 	   9415
+AMD Ryzen 5 3400G 	    9415
 AMD Ryzen 5 PRO 4650G 	   17083
-AMD Ryzen 5 5600X    	 22824
+AMD Ryzen 5 5600X    	   22824
 
 Intel Pentium G4560        3565
 Intel Pentium G4600        3607     ****   HD630   
 
 Intel Core i3-7100        4260
-Intel Core i5-7500 	      6146
+Intel Core i5-7500 	    6146
 Intel Core i3-8100        6169 	    ****    
-Intel Core i3-9100 	      6767
-Intel Core i3-10100     	9078      ****           
+Intel Core i3-9100 	    6767
+Intel Core i3-10100    	9078      ****           
 
 ----------------------------------------------------------------------
 
