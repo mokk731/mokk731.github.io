@@ -13,8 +13,6 @@ https://post.smzdm.com/p/ag8plee6/
 耀耍矿渣 篇一：宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 
 
 
-
-
 当时我几乎就放弃了，因为没有ROOT的话，系统也刷不上宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 于是我转头去恩山论坛深挖，终于找到两篇贴子，结合起来完成了ROOT！！！宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 我好*激动！！！下面是独家分享，怎么撸了极路由4增强版宅家过年整点啥？独家秘笈，保姆教程！！！极路由4 获取ROOT并刷入OpenWRT全过程记录 （参考贴子链接：>点这里<)
 
 1.下载安装软件WinSCP
@@ -78,18 +76,9 @@ https://www.right.com.cn/forum/thread-4050107-1-1.html
 
 固件下载地址：  
 
-
-小碗儿数码   http://wwang.pw:85/
+小碗儿数码  
 https://pan.wwang.pw/
 
-onedrive网盘
-http://p.wwang.pw:199/
-密码：131186646
-192.168.5.1
-
-
-
-http://pan.xiaowansm.top:188/1/main/%F0%9F%94%A5OpenWrt_LEAN%E7%89%88%EF%BC%88%E7%9C%8B%E4%B8%8D%E6%87%82%E7%9A%84%E5%B0%B1%E7%82%B9%E5%BC%80%E6%AD%A4%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%89/%E6%9E%81%E8%B7%AF%E7%94%B1HC5962
 -----------------------------------
 
 https://blog.csdn.net/sanshuei/article/details/114108513
@@ -122,12 +111,13 @@ Success: ssh port is 22
 
 ----------------------------------------------------------------------
 
-极路由4增强版HC5692路由器自制稳定ROM 
-
-
+极路由4增强版HC5962路由器自制稳定ROM 
 https://mokk7310.github.io/Rom/openwrt-hiwifi_hc5962-2024.02.18-1922.bin
 
 
+immortalwrt
+https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/
+https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/immortalwrt-21.02.7-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin
 ----------------------------------------------------------------------
 
 
