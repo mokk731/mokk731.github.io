@@ -27,7 +27,7 @@
 #### [中兴E8820S路由器](https://mokk731.github.io/txt/mydiy/中兴E8820S.txt)
 
 
-#### [极路由4增强版HC5692路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5692.txt)
+#### [极路由4增强版HC5962路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5962.txt)
 
 
 #### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
