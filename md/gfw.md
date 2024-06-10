@@ -13,7 +13,7 @@
 
 #### [WireGuard](https://www.wireguard.com/install/)
 
-#### [oblivion.apk](https://github.com/bepass-org/oblivion/releases)
+#### [Oblivion VPN.apk](https://github.com/bepass-org/oblivion/releases)
 
 #### Clash
 
