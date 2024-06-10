@@ -13,6 +13,8 @@
 
 #### [WireGuard](https://www.wireguard.com/install/)
 
+#### [oblivion.apk](https://github.com/bepass-org/oblivion/releases)
+
 #### Clash
 
 #### [TOR Browser](https://www.torproject.org/zh-CN/)
