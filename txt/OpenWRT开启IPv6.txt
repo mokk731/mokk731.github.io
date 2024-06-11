@@ -1,0 +1,20 @@
+https://post.smzdm.com/p/awzodmpp/
+OpenWRT 路由器IPv6实战配置长篇教程：纠正你的IPv4思维！
+
+https://opclash.com/article/11.html
+OpenWRT 旁路由开启 IPv6 协议的方法
+
+https://www.hughh.top/posts/soft-routing-guide-3/
+软路由科学上网,openclash,openwrt IPv6配置
+
+注意OpenWrt-Rpi固件编译时默认不带ipv6，设置时会发现以下问题（2022年9月28日，ImmortalWrt 18.06）
+lan接口无ipv6地址，接口没有DHCPv6协议供选择，所以无论怎么操作都没法ipv6上网
+wget --no-check-certificate -O "/usr/bin/ipv6-helper" https://openwrt.cc/scripts/ipv6-helper.sh
+chmod +x /usr/bin/ipv6-helper
+ipv6-helper install
+# 最后重启OpenWrt
+
+https://www.bilibili.com/read/cv21873640/
+All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问软路由、群晖 
+
+-------------------------------------
