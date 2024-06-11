@@ -75,5 +75,6 @@ DHCPv6 模式: 无状态的 + 有状态的
 
 
 
-
+https://www.test-ipv6.com
+IPv6 连接测试 
 
