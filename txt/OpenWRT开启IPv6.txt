@@ -136,6 +136,8 @@ DHCP 服务器:禁用
 
 在 vi /etc/config/dhcp 文件中查找到wan口,或 wwan 配置，在下面加一行 option master '1'，
 只有配置了这一行，前面的ipv6中继能力才能生效。
+https://image.lategege.com:30443/2021/12-23/9.png
+
 
 # 重启
 
