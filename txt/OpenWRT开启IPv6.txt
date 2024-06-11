@@ -23,7 +23,10 @@ All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问�
 确保设置了三个端口：LAN，WAN，WAN6（名字不一样没关系）。如果缺少的话就添加端口。
 
 # WAN口
-协议:pppoe
+
+一般配置
+协议:pppoe拨号
+
 使用内置的 IPv6 管理: Y
 获取 IPv6 地址:自动
 
@@ -32,6 +35,7 @@ DHCP 服务器:禁用
 
 # WAN6
 
+一般配置
 协议：选择DHCPv6。
 设备：如果你的WAN上网方式为DHCP客户端，设置为WAN（一般不用改）
      如果你的WAN上网方式是PPPoE，设置为接口别名：“@WAN”
