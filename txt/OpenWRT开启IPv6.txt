@@ -18,6 +18,14 @@ ipv6-helper install
 https://www.bilibili.com/read/cv21873640/
 All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问软路由、群晖 
 
+https://www.lategege.com/?p=676
+二级路由(openwrt)开启ipv6中继(ipv4和ipv6共存)
+接着点开wan口，协议配置成静态地址，
+wan口,Lan口在DHCP服务器->IPv6设置,同样全部选择中继模式
+在/etc/config/dhcp文件中查找到wan口配置，在下面加一行 option master '1'，只有配置了这一行，前面的ipv6中继能力才能生效。
+
+
+
 https://ipw.cn/doc/ipv6/user/enable_ipv6.html
 个人宽带如何开启IPv6网络访问
 
