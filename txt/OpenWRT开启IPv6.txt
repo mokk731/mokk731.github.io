@@ -132,6 +132,13 @@ DHCP服务器->IPv6设置，同样全部选择中继模式
 
 DHCP 服务器:禁用
 
+
+# DHCP/DNS
+
+高级设置
+禁止解析 IPv6 DNS 记录 : N
+
+
 # SSH
 
 在 vi /etc/config/dhcp 文件中查找到wan口,或 wwan 配置，在下面加一行 option master '1'，
