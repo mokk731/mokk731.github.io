@@ -30,7 +30,7 @@ All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问�
 # WAN口
 
 一般配置
-协议:pppoe拨号
+协议:pppoe拨号 或  DHCP客户端
 
 使用内置的 IPv6 管理: Y
 获取 IPv6 地址:自动
