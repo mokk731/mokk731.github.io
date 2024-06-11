@@ -15,11 +15,16 @@
 
 #### [OpenWRT快速配置Samba](https://mokk731.github.io/txt/OpenWRT快速配置Samba.txt)
 
+#### [OpenWRT开启IPv6](https://mokk731.github.io/txt/OpenWRT开启IPv6.txt)
+
 #### [immortalwrt ROM 下载](https://downloads.immortalwrt.org)
 
 #### [OpenWrt指定主机DHCP获取不同网关DNS](https://mokk731.github.io/txt/OpenWrt指定主机DHCP获取不同网关DNS.txt)
 
 #### [host大法-小米电视去广告](https://mokk731.github.io/txt/host大法-小米电视去广告.txt)
+
+
+#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
