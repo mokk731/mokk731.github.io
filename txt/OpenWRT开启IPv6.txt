@@ -23,8 +23,11 @@ All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问�
 确保设置了三个端口：LAN，WAN，WAN6（名字不一样没关系）。如果缺少的话就添加端口。
 
 # WAN口
+协议:pppoe
+使用内置的 IPv6 管理: Y
+获取 IPv6 地址:自动
 
-
+DHCP 服务器:禁用
 
 
 # WAN6
@@ -33,10 +36,15 @@ All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问�
 设备：如果你的WAN上网方式为DHCP客户端，设置为WAN（一般不用改）
      如果你的WAN上网方式是PPPoE，设置为接口别名：“@WAN”
 请求指定长度的 IPv6前缀（request IPv6 prefix of length）：选择自动
+
+使用内置的 IPv6 管理: Y
+
 防火墙设置->防火墙区域：WAN。
 重点！OpenWRT 路由器IPv6实战配置长篇教程：纠正你的IPv4思维！ 如果有一行IPv6-PD的地址出现了，那么恭喜你，
 你是IPv6时代的一等公民。如果没有，那么有几种可能：PD被上一级路由吃了（光猫或者上游有别的路由器），或者运营商没给。
 如果是前面这种情况，你可以尝试把光猫改桥接路由器拨号，或者移除上级的路由。
+
+DHCP 服务器:禁用
 
 # LAN口
 
@@ -44,7 +52,7 @@ All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问�
 IPv6分配长度：一般选择64
 使用内置的 IPv6 管理: Y
 
-进入DHCP服务器->IPv6设置
+DHCP服务器->IPv6设置
 路由通告服务:服务器模式
 DHCPv6服务：服务器模式
 NDP代理：禁用
