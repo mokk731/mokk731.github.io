@@ -18,6 +18,13 @@ ipv6-helper install
 https://www.bilibili.com/read/cv21873640/
 All in one【第六篇】开启OpenWRT的IPv6，并实现外网通过IPv6访问软路由、群晖 
 
+https://ipw.cn/doc/ipv6/user/enable_ipv6.html
+个人宽带如何开启IPv6网络访问
+
+
+https://www.test-ipv6.com
+IPv6 连接测试 
+
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -75,6 +82,5 @@ DHCPv6 模式: 无状态的 + 有状态的
 
 
 
-https://www.test-ipv6.com
-IPv6 连接测试 
+
 
