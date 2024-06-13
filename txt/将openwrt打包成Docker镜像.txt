@@ -1,0 +1,85 @@
+将openwrt-x86-64-generic-rootfs.tar.gz系统文件打包成Docker镜像，以便进行旁路由部署
+https://bigppwong.github.io/cnblog/docker/openwrt/openwrt-in-docker-2/
+https://downloads.immortalwrt.org/releases/23.05.2/targets/bcm27xx/bcm2711/
+
+
+    获取OpenWrt系统文件
+        自己编译系统文件
+        从OpenWrt官方下载预编译文件
+    将下载下来的文件重命名为OpenWrt.tar.gz
+    将下面代码保存为Dockerfile文件
+
+    FROM scratch
+    ADD OpenWrt.tar.gz /
+    EXPOSE 80 443 22
+    CMD ["/sbin/init"]
+
+    构建镜像
+
+    docker build -t myopenwrt .
+
+    理论上来说到这一步Docker镜像就已经制作完成了，但由于OP默认的防火墙和IP设置，直接运行镜像会导致网络崩溃，所以接下来还要修改一些配置
+
+    将下面几个文件保存到Dockerfile同一目录
+    文件 	用途
+    turboacc 	关闭flow offloading
+    dhcp 	关闭dhcp
+    firewall 	配置旁路由所需规则
+    inittab 	开机启动所需项目
+    network 	配置容器IP、网关、DNS
+    rc.local 	开机重写resolv.conf
+    resolv.conf 	修改本机DNS
+
+    注意事项: 不同厂家硬路由防火墙对NAT实现方式不同，如遇到OP本身网络没问题，但下游设备无法上网，可在防火墙配置界面开启IP伪装MASQUERADE，如不设置也正常，则不建议开启
+    使用下列代码替换Dockerfile文件
+
+    FROM scratch
+    ADD OpenWrt.tar.gz /
+    COPY turboacc /etc/config/turboacc
+    COPY dhcp /etc/config/dhcp
+    COPY firewall /etc/config/firewall
+    COPY network /etc/config/network
+    COPY resolv.conf /root/resolv.conf
+    COPY rc.local /etc/rc.local
+    COPY inittab /etc/inittab
+    EXPOSE 80 443 22
+    CMD ["/sbin/init"]
+
+    重新构建镜像
+
+    docker build -t myopenwrt .
+
+    运行旁路由测试
+
+-------------------------------------------------
+
+https://bigppwong.github.io/cnblog/%E7%BD%91%E7%BB%9C/openwrt/openwrt-in-docker/
+
+使用docker的macvlan网络为容器虚拟出一个二层网卡，作为容器物理网卡，和虚拟机桥接网络类似
+
+
+docker-compose.yaml：
+
+version: '2'
+services:
+  openwrt:
+    image: raymondwong/openwrt_r9:21.2.1-arm64
+    container_name: openwrt_r9
+    privileged: true
+    restart: always
+    networks:
+      openwrt_macnet:
+        ipv4_address: 192.168.1.254
+
+networks:
+  openwrt_macnet:
+    driver: macvlan
+    driver_opts:
+      parent: en0
+    ipam:
+      config:
+        - subnet: 192.168.1.0/24
+          ip_range: 192.168.1.128/25
+          gateway: 192.168.1.1
+
+
