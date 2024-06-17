@@ -16,6 +16,13 @@ win10中System占用内存、CPU过高问题的解决方法
 使用Process Explorer 来检查是system内哪个线程占用的资源。
 
 关闭“superfetch”服务。
+=SysMain  维护和提高一段时间内的系统性能。
+
+Diagnostic Policy Service  诊断策略服务启用了 Windows 组件的问题检测、疑难解答和解决方案。
+
+Connected User Experiences and Telemetry  服务所启用的功能支持应用程序中用户体验和连接的用户体验。
+
+
 
 
 
