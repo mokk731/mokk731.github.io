@@ -44,6 +44,9 @@
 
 [解决win10磁盘占用率100%](https://mokk731.github.io/txt/解决win10磁盘占用率100.txt)
 
+[win10系统system,CPU占用高](https://mokk731.github.io/txt/win10系统system,CPU占用高.txt)
+
+
 
 
 
