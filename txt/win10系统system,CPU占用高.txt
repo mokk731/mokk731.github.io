@@ -1,0 +1,21 @@
+https://blog.csdn.net/qq_37964379/article/details/103026757
+解决win10系统CPU占用过高【亲测非常有效】
+
+
+https://zhuanlan.zhihu.com/p/349104738
+win10 20H2版本，system异常占用CPU问题的解决！
+
+https://www.bilibili.com/read/cv21128639/
+system占用cpu过高怎么解决？三种方法帮你解决 
+
+https://blog.csdn.net/m0_37461416/article/details/90372967
+win10中System占用内存、CPU过高问题的解决方法
+
+-----------------------------------------
+
+使用Process Explorer 来检查是system内哪个线程占用的资源。
+
+关闭“superfetch”服务。
+
+
+
