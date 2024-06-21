@@ -2,12 +2,15 @@ Updated list of public BitTorrent trackers
 Last update 2024/06/20:
 
 https://github.com/ngosang/trackerslist
+https://ngosang.github.io/trackerslist/
 
 trackers_best_ip
 https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt
+https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_best_ip.txt
 
 trackers_all_https
 https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt
+https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_https.txt
 
 
 -------------------------------------------------------------------
