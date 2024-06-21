@@ -1,71 +1,64 @@
-Last update 2024/02/01:
+Last update 2024/06/20:
 
 https://github.com/ngosang/trackerslist
 
 trackers_best_ip
+https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt
 
 trackers_all_https
+https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt
 
+
+-------------------------------------------------------------------
 
 
 
 udp://93.158.213.92:1337/announce
 
-udp://23.137.251.46:6969/announce
-
-udp://23.134.88.6:1337/announce
-
-udp://193.189.100.190:6969/announce
-
-udp://186.10.172.92:1337/announce
-
 udp://185.243.218.213:80/announce
 
 udp://91.216.110.53:451/announce
 
-udp://107.189.11.58:6969/announce
+udp://104.244.77.87:6969/announce
 
-udp://23.157.120.14:6969/announce
+udp://23.153.248.83:6969/announce
+
+udp://45.9.60.30:6969/announce
+
+udp://37.27.4.53:6969/announce
+
+udp://94.243.222.100:6969/announce
 
 udp://208.83.20.20:6969/announce
 
-udp://185.102.219.163:6969/announce
+udp://125.227.79.123:80/announce
 
-udp://83.146.98.78:6969/announce
+udp://156.234.201.18:80/announce
 
-udp://222.84.23.52:6969/announce
+udp://135.125.202.143:6969/announce
 
-udp://198.100.149.66:6969/announce
 
-udp://220.130.15.30:80/announce
-
-https://opentracker.i2p.rocks:443/announce
+https://tracker.gbitt.info:443/announce
 
 https://tracker.tamersunion.org:443/announce
 
 https://tracker.renfei.net:443/announce
 
-https://tracker.imgoingto.icu:443/announce
+https://tracker.loligirl.cn:443/announce
 
 https://tracker.yemekyedim.com:443/announce
 
-https://tracker.netmap.top:8443/announce
-
-https://tracker.loligirl.cn:443/announce
-
 https://tracker.lilithraws.org:443/announce
 
-https://tracker.gcrreen.xyz:443/announce
+https://tracker.gcrenwp.top:443/announce
 
 https://tracker.cloudit.top:443/announce
 
-https://tr.burnabyhighstar.com:443/announce
-
-https://t1.hloli.org:443/announce
-
-https://yolo.liberbear.com:443/announce
-
 https://www.peckservers.com:9443/announce
+
+https://trackers.run:443/announce
+
+https://tracker.pmman.tech:443/announce
 
 https://tracker.ipfsscan.io:443/announce
 
