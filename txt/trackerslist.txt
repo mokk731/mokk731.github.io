@@ -1,3 +1,4 @@
+Updated list of public BitTorrent trackers
 Last update 2024/06/20:
 
 https://github.com/ngosang/trackerslist
