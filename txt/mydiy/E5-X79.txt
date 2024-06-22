@@ -15,7 +15,7 @@ E5-2670 v1,
 主板X79
 无名牌，山寨板.   H67, 有usb3.0  , 千兆网口, DDR3,sata3, 但无M2, 
 
-GTX750Ti 4G  索泰
+GTX750Ti 4G  松景
 
 DDR3-1333-ECC 8G *4 三星
 
@@ -403,6 +403,27 @@ AS SSD Benchmark 测试读速度486MB/s,     写470MB/s，
 -----------------------------------------------------------
 
 
+20240622
 
+原用 松景750ti hdmi 接 redmi A24   P24fba-ra A24 202312买 有hdmi dp口，用半年后，因hdmi线断了，可能烧了A24的hdmi口，但接TV盒子就正常。
 
+202406买redmi A22 A22fab-ra  有hdmi vga口, 用hdmi口正常2天后，就出现异常，bios黑屏，win能正常显示。 vga口正常。
+改bois-boot-csm开启，没用。
+
+--------
+https://www.chiphell.com/thread-2528322-1-1.html
+[显卡] 请教HDMI进桌面才有显示怎么破？
+
+https://www.chiphell.com/thread-2461220-1-1.html
+ [显卡] Nvidia显卡4个官方修复固件汇总 
+
+https://www.bilibili.com/read/cv4827373/
+关于电脑能正常进系统但是进bios黑屏的解决办法（dp线连接） 
+--------
+
+需要修复Nvidia显卡Firmware,太麻烦了，还是老实用回vga口吧。
+改bois-boot-csm关闭.
+
+22寸redmi A22 比 24寸redmi A24 更实用，性价比高。
+-----------------------------------------------------------
 
