@@ -40,7 +40,7 @@ https://ung2thfc.mirror.aliyuncs.com
 
 202406镜像加速：
 
-"docker.io"                 "docker.fxxk.dedyn.io"       "docker.m.daocloud.io" 
+"docker.io"                 "docker.fxxk.dedyn.io" ***      "docker.m.daocloud.io" 
 "docker.adysec.com"     "registry-docker-hub-latest-9vqc.onrender.com"     "docker.chenby.cn" 
 "dockerproxy.com"          "hub.uuuadc.top"             "docker.jsdelivr.fyi" 
 "docker.registry.cyou"     "dockerhub.anzu.vip"
@@ -63,7 +63,7 @@ vim  nano /etc/docker/daemon.json
 {
     "registry-mirrors": [
         "http://hub-mirror.c.163.com",
-        "https://docker.mirrors.ustc.edu.cn",
+        "docker.fxxk.dedyn.io",
         "https://registry.docker-cn.com"
     ]
 }
