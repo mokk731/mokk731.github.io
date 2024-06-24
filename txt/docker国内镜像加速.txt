@@ -4,7 +4,7 @@ https://zhuanlan.zhihu.com/p/460489756
 
 https://www.cnblogs.com/eddyz/p/17168828.html
 
-
+------------------------------------------------------------------------
 
 1.摘要
 
@@ -36,7 +36,9 @@ https://ung2thfc.mirror.aliyuncs.com
 
 
 
--------------------------------------
+------------------------------------
+
+202406镜像加速：
 
 "docker.io"                 "docker.fxxk.dedyn.io"       "docker.m.daocloud.io" 
 "docker.adysec.com"     "registry-docker-hub-latest-9vqc.onrender.com"     "docker.chenby.cn" 
@@ -44,7 +46,7 @@ https://ung2thfc.mirror.aliyuncs.com
 "docker.registry.cyou"     "dockerhub.anzu.vip"
 
 
-----------------------------------
+----------------------------------------------------------------------
 
 2.Ubuntu中添加镜像加速
 
@@ -67,7 +69,7 @@ vim  nano /etc/docker/daemon.json
 }
 
 
-
+------------------------------------------------------------------------
 
 3.加载重启docker
 
@@ -76,6 +78,9 @@ vim  nano /etc/docker/daemon.json
 systemctl daemon-reload
 
 systemctl restart docker
+
+------------------------------------------------------------------------
+
 4.验证是否成功
 
 打开终端执行docker info命令，可见下面信息。
