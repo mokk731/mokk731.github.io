@@ -5,6 +5,7 @@ https://www.right.com.cn/forum/thread-1156368-1-1.html
 
 00 8 * * * sleep 10 && /sbin/ifup wan                      ###### 每天8:00重拨wan
 00 9 * * * sleep 5 && touch /etc/banner && reboot          ###### 每天9:00重启设备
+00 5 * * 1 sleep 5 && touch /etc/banner && reboot          ###### 每周5:00重启设备
 
 
 https://www.cnblogs.com/osnosn/p/13842055.html
