@@ -1,0 +1,26 @@
+openwrt计划任务怎么设置
+
+https://www.right.com.cn/forum/thread-1156368-1-1.html
+不懂就问，openwrt计划任务怎么设置定时拨号
+
+00 8 * * * sleep 10 && /sbin/ifup wan                      ###### 每天8:00重拨wan
+00 9 * * * sleep 5 && touch /etc/banner && reboot          ###### 每天9:00重启设备
+
+
+https://www.cnblogs.com/osnosn/p/13842055.html
+OpenWRT19.07_命令行_重拨wan_重启路由_wget/curl
+
+https://www.cnblogs.com/unknownshangke/p/16463541.html
+Openwrt_命令行计划测试网络以及重启
+
+重启设备#
+/sbin/reboot
+
+重启WiFi#
+/sbin/wifi down && /sbin/wifi/up
+
+重启所有网络#
+/etc/init.d/network restart
+
+重拨wan#
+/sbin/ifup wan
