@@ -113,6 +113,47 @@ PrivateKey7 = OEZNSXpFa3BmZ2kzSS9hUEtxdXJSYUM4RWxzVGhicitxTUdFVlZXMEwwOD0=
 PrivateKey8 = MEFZZXBPc0EraUdOTXIyTVYxK1picDliaTI0b1NEdTEwOW80MmhwblVsMD0=
 
 
+-------------------------------------------------------------------------------
+
+wireproxy
+
+
+https://www.bilibili.com/read/cv32854175/
+wireproxy实现wireguard转socket代理实战
+
+
+https://blog.cre0809.com/archives/647/
+將 Wireguard 轉換成 SOCKS5 – Wireproxy
+
+https://github.com/pufferffish/wireproxy
+
+------------------------------------------
+
+[Peer]
+PersistentKeepalive = 60                         ######
+
+
+[Socks5]
+# 將監聽在本機的 Port 8500
+BindAddress = 127.0.0.1:8500                     ######
+
+
+# Socks5 creates a socks5 proxy on your LAN, and all traffic would be routed via wireguard.
+[Socks5]
+BindAddress = 127.0.0.1:25344
+
+# http creates a http proxy on your LAN, and all traffic would be routed via wireguard.
+[http]
+BindAddress = 127.0.0.1:25345
+
+
+在我上面的範例，我將會使用 SOCKS5 接口，並將檔案存為 example.conf。
+
+打開一個 cmd 並到這個目錄底下，使用以下命令：
+
+wireproxy.exe -c wgcf-profile11.conf            ######
+
+
 
 
 
