@@ -128,4 +128,16 @@ option ipaddr 项目定义了 OpenWrt 的 IP 地址，在完成网段设置后�
 /etc/init.d/network restart    ******
 
 
+7.开启 IPv6 协议
+
+https://www.hughh.top/posts/soft-routing-guide-3/
+软路由科学上网,openclash,openwrt IPv6配置
+
+注意OpenWrt-Rpi固件编译时默认不带ipv6，设置时会发现以下问题（2022年9月28日，ImmortalWrt 18.06）
+lan接口无ipv6地址，接口没有DHCPv6协议供选择，所以无论怎么操作都没法ipv6上网
+
+wget --no-check-certificate -O "/usr/bin/ipv6-helper" https://openwrt.cc/scripts/ipv6-helper.sh              ************
+chmod +x /usr/bin/ipv6-helper
+ipv6-helper install
+# 最后重启OpenWrt
 
