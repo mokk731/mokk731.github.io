@@ -1,6 +1,6 @@
-docker pull sulinggg/openwrt:rpi2
+docker pull sulinggg/openwrt:rpi4
 
-docker pull sulinggg/openwrt-mini:rpi2
+docker pull sulinggg/openwrt-mini:rpi4
 
 
 https://mlapp.cn/376.html
@@ -13,7 +13,7 @@ https://mlapp.cn/376.html
 成功登陆到树莓派的 SSH 后，在拉取镜像之前，我们还需要进行一些额外的工作：
 1.打开网卡混杂模式
 
-sudo ip link set eth0 promisc on 
+sudo ip link set eth0 promisc on           ******
 
 2.创建网络
 
@@ -23,7 +23,7 @@ docker network create -d macvlan --subnet=192.168.123.0/24 --gateway=192.168.123
 
 这一条命令需要根据树莓派所处的网络环境来做修改，可以使用 sudo ifconfig命令来查看树莓派 eth0 网卡获得的 IP 地址，如果树莓派获得的 IP 地址为 192.168.2.154，那么说明树莓派处在 192.168.2.x网段，相应的，命令中的192.168.123.0和192.168.123.1需要被替换成 192.168.2.0和192.168.2.1：
 
-docker network create -d macvlan --subnet=192.168.2.0/24 --gateway=192.168.2.1 -o parent=eth0 macnet
+docker network create -d macvlan --subnet=192.168.11.0/24 --gateway=192.168.11.1 -o parent=eth0 macnet           ******
 
 此时，我们使用 docker network ls命令可以看到网络macnet已建立成功：
 
@@ -42,7 +42,7 @@ docker pull registry.cn-shanghai.aliyuncs.com/suling/openwrt:latest
 
 同时小苏也提供存放在 Docker 官方仓库 中的镜像：
 
-docker pull sulinggg/openwrt:rpi2       ******
+docker pull sulinggg/openwrt-mini:rpi4       ******
 
 镜像拉取完成后，我们可以执行docker images命令查看现存镜像：
 
@@ -53,7 +53,7 @@ registry.cn-shanghai.aliyuncs.com/suling/openwrt        latest              4f4b
 可见，镜像已成功拉取到本地。
 4.创建并启动容器
 
-docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt:rpi2 /sbin/init    ******
+docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi4 /sbin/init    ************
 
 其中：
 
@@ -115,19 +115,17 @@ config interface 'lan'
         option type 'bridge'
         option ifname 'eth0'
         option proto 'static'
-        option ipaddr '192.168.2.100'
+        option ipaddr '192.168.11.12'
         option netmask '255.255.255.0'
         option ip6assign '60'
-        option gateway '192.168.2.1'
-        option broadcast '192.168.2.255'
-        option dns '192.168.2.1'
+        option gateway '192.168.11.1'
+        option broadcast '192.168.11.255'
+        option dns '192.168.11.1'
 
 option ipaddr 项目定义了 OpenWrt 的 IP 地址，在完成网段设置后，IP最后一段可根据自己的爱好修改（前提是符合规则且不和现有已分配 IP 冲突）。
 6.重启网络
 
 /etc/init.d/network restart    ******
 
-
-docker pull sulinggg/openwrt:rpi2
 
 
