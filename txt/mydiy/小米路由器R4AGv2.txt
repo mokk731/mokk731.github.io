@@ -161,8 +161,7 @@ https://pan.baidu.com/s/1iZOYjbu-5bRY7-2qssaP4g  中的：openwrt-ramips-mt7621-
 
 Xiaomi_R4AGv2路由器自制稳定ROM 
 
-https://mokk7310.github.io/Rom/openwrt-mi-router-4a-v2-2024.01.03-1707.bin
-
+https://mokk7310.github.io/Rom/openwrt-mi-router-4a-gigabit-v2-2024.06.07.bin
 
 
 
