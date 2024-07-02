@@ -147,7 +147,7 @@ BindAddress = 127.0.0.1:25344
 BindAddress = 127.0.0.1:25345
 
 
-在我上面的範例，我將會使用 SOCKS5 接口，並將檔案存為 example.conf。
+在我上面的範例，我將會使用 SOCKS5 接口，並將檔案存為 example.conf         ######
 
 -------------------
 
