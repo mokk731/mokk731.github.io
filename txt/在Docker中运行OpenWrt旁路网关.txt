@@ -11,6 +11,7 @@ https://mlapp.cn/376.html
 步骤开始
 
 成功登陆到树莓派的 SSH 后，在拉取镜像之前，我们还需要进行一些额外的工作：
+
 1.打开网卡混杂模式
 
 sudo ip link set eth0 promisc on           ******
@@ -51,6 +52,7 @@ REPOSITORY                                              TAG                 IMAG
 registry.cn-shanghai.aliyuncs.com/suling/openwrt        latest              4f4bc5dca2d9        3 hours ago         112MB
 
 可见，镜像已成功拉取到本地。
+
 4.创建并启动容器
 
 docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi4 /sbin/init    ************
@@ -78,6 +80,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 a26cee7cade6        openwrt:latest      "/sbin/init"        3 hours ago         Up 3 hours                              openwrt
 
 若容器运行信息STATUS列为 UP状态，则说明容器运行正常。
+
 5.进入容器并修改相关参数
 
 (须结合实际网络情况，不能照抄配置)
@@ -123,6 +126,7 @@ config interface 'lan'
         option dns '192.168.11.1'
 
 option ipaddr 项目定义了 OpenWrt 的 IP 地址，在完成网段设置后，IP最后一段可根据自己的爱好修改（前提是符合规则且不和现有已分配 IP 冲突）。
+
 6.重启网络
 
 /etc/init.d/network restart    ******
