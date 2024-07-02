@@ -145,3 +145,29 @@ chmod +x /usr/bin/ipv6-helper
 ipv6-helper install
 # 最后重启OpenWrt
 
+8.安装ipk
+
+luci-theme-material
+luci-app-autoreboot
+luci-app-zerotier
+luci-app-eqosplus
+luci-app-passwall
+luci-app-openclash
+
+
+
+openclash
+luci-app-openclash   v0.46.011-beta                       ###
+clash-linux-arm64-v1.15.1-7-g6eee226                      ###
+clash_meta-linux-arm64-alpha-gefcb278 with_low_memory     ###
+
+Dev版本路径：     /etc/openclash/core/clash
+Tun模式版本路径： /etc/openclash/core/clash_tun
+Meta内核路径：   /etc/openclash/core/clash_meta
+
+
+https://github.com/Kuingsmile/clash-core/releases   ###
+
+
+
+
