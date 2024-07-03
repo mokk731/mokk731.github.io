@@ -3,9 +3,9 @@ openwrt计划任务怎么设置
 https://www.right.com.cn/forum/thread-1156368-1-1.html
 不懂就问，openwrt计划任务怎么设置定时拨号
 
-00 8 * * * sleep 10 && /sbin/ifup wan                      ###### 每天8:00重拨wan
-00 8 * * * sleep 10 && /sbin/ifdown wan && sleep 6 && /sbin/ifup wan                      ###### 每天8:00重拨wan
-03 8 * * * sleep 10 && /sbin/ifup wan6                      ###### 每天8:03重拨wan6
+00 8 * * * sleep 10 && /sbin/ifup wan                                         ###### 每天8:00重拨wan
+00 8 * * * sleep 10 && /sbin/ifdown wan && sleep 6 && /sbin/ifup wan          ###### 每天8:00重拨wan
+06 8 * * * sleep 10 && /sbin/ifup wan6                                        ###### 每天8:06重拨wan6
 
 
 00 9 * * * sleep 5 && touch /etc/banner && reboot          ###### 每天9:00重启设备
@@ -30,4 +30,8 @@ Openwrt_命令行计划测试网络以及重启
 重拨wan#
 /sbin/ifup wan
 
+
 实际使用中，仅执行ifup wan，有时发现ipv4不会变，仅ipv6变。所以为了更换IP，ifdown wan;sleep 2;ifup wan更好。
+
+
+
