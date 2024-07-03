@@ -1,6 +1,6 @@
 https://www.cnblogs.com/dongzhiquan/archive/2009/03/03/1994942.html
 dos批处理选择菜单方法
-
+-------------------------------------
 
 
 cls
@@ -37,7 +37,7 @@ PAUSE
 :cmd1
 
 echo 执行命令a
-rem explorer "http://www.blueidea.com"
+rem explorer "http://www.baidu.com"
 goto MENU
 
 :cmd2
