@@ -4,6 +4,10 @@ https://zhuanlan.zhihu.com/p/460489756
 
 https://www.cnblogs.com/eddyz/p/17168828.html
 
+https://github.com/DaoCloud/public-image-mirror
+https://github.com/cmliu/CF-Workers-docker.io
+
+
 ------------------------------------------------------------------------
 
 1.摘要
@@ -36,6 +40,29 @@ https://ung2thfc.mirror.aliyuncs.com
 
 
 
+
+增加前缀 (推荐方式)。比如：
+              docker.io/library/busybox
+                 |
+                 V
+m.daocloud.io/docker.io/library/busybox
+
+
+
+或者 支持的镜像仓库 的 前缀替换 就可以使用。比如：
+           docker.io/library/busybox
+             |
+             V
+docker.m.daocloud.io/library/busybox
+
+
+
+
+
+docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest
+
+
+
 ------------------------------------
 
 202406镜像加速：
@@ -64,7 +91,6 @@ vim  nano /etc/docker/daemon.json
     "registry-mirrors": [
         "http://hub-mirror.c.163.com",
         "https://docker.fxxk.dedyn.io",
-        "https://hub.uuuadc.top",
         "https://docker.m.daocloud.io"
     ]
 }
