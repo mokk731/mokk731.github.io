@@ -59,7 +59,7 @@ docker.m.daocloud.io/library/busybox
 
 
 
-docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest
+sudo docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest      ********
 
 
 
@@ -75,12 +75,12 @@ docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest
 
 ----------------------------------------------------------------------
 
-2.Ubuntu中添加镜像加速
+2.Ubuntu中添加镜像加速    ---好像omv6用不了
 
 创建或修改/etc/docker/daemon.json文件
 默认没有daemon文件，先创建。
 
-vim  nano /etc/docker/daemon.json
+vim  nano /etc/docker/daemon.json         
 
 添加如下内容：
 
