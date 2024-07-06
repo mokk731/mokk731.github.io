@@ -96,6 +96,28 @@ vim  nano /etc/docker/daemon.json
 }
 
 
+------------
+
+
+
+{
+  "bip": "172.31.0.1/24",
+  "data-root": "/var/lib/docker/",
+  "log-level": "warn",
+  "log-driver": "json-file",
+  "log-opts": {
+     "max-size": "10m",
+     "max-file": "5"
+   },
+  "registry-mirrors": [
+     "https://hub-mirror.c.163.com",
+     "https://docker.fxxk.dedyn.io",
+     "https://docker.m.daocloud.io"
+   ]
+}
+
+
+
 ------------------------------------------------------------------------
 
 3.加载重启docker
