@@ -16,6 +16,11 @@ https://mlapp.cn/376.html
 
 sudo ip link set eth0 promisc on           ******
 
+启用网卡的混杂模式，可以使用下面这条命令：ifconfig eth0 promisc
+使网卡退出混杂模式，可以使用下面这条命令：ifconfig eth0 -promisc
+ifconfig eth0  查看一个网卡是否开启了混杂模式,
+
+
 2.创建网络
 
 (须结合实际网络情况，不能照抄命令)
