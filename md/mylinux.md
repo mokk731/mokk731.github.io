@@ -213,6 +213,7 @@ commit命令：
 
  ---------
 容器备份迁移案例：
+
  docker ps    //查看正在运行的容器web
  
  docker commit -p web webdata:v1    //-p暂停web容器并提交为新镜像webdata：v1
