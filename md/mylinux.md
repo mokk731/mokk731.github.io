@@ -214,15 +214,25 @@ commit命令：
  ---------
 容器备份迁移案例：
  docker ps    //查看正在运行的容器web
+ 
  docker commit -p web webdata:v1    //-p暂停web容器并提交为新镜像webdata：v1
+ 
  docker images      //查看提交的新镜像webdata
+ 
  docker save webdata:v1 > webdata.tar   // 将镜像保存成一个tar压缩包
+ 
  ll -h webdata.tar
+ 
  scp webdata.tar root@192.168.2.128:/root/test   // 将tar压缩包复制到另一台主机
 
+---
+
  docker load -i webdata.tar    // 在另一台主机上加载镜像的tar压缩包
+ 
  docker images
+ 
  docker run -itd --name web webdata:v1   // 使用这个加载的镜像运行容器
+ 
  docker ps
  
 
