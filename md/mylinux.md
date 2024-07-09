@@ -199,7 +199,34 @@ save：将指定镜像保存成tar文件。
 或
  docker load < xxx.tar
 
+commit命令：
+ 将已存在容器中的镜像和修改内容提交为一个新的镜像，通过这个方式同样能保存读写层内容。
+命令格式：
+ docker commit [容器名称|ID] 生成新的镜像名字
+选项说明：
+ -a：提交的镜像作者
+ -c：使用dockerfile指令来创建镜像
+ -m：提交时的说明文字
+ -p：在commit的时候，将正在运行的容器暂停
+应用场景：
+ 主要作用是将配置好的一些容器生成新的镜像，可以得到复用（再次使用不需要再配置）。
 
+ ---------
+容器备份迁移案例：
+ docker ps    //查看正在运行的容器web
+ docker commit -p web webdata:v1    //-p暂停web容器并提交为新镜像webdata：v1
+ docker images      //查看提交的新镜像webdata
+ docker save webdata:v1 > webdata.tar   // 将镜像保存成一个tar压缩包
+ ll -h webdata.tar
+ scp webdata.tar root@192.168.2.128:/root/test   // 将tar压缩包复制到另一台主机
+
+ docker load -i webdata.tar    // 在另一台主机上加载镜像的tar压缩包
+ docker images
+ docker run -itd --name web webdata:v1   // 使用这个加载的镜像运行容器
+ docker ps
+ 
+
+ 
 
 ---------------------------------------------------------------------------------------
 
