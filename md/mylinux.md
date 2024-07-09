@@ -180,6 +180,27 @@ sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/do
 
 ## [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
 
+
+## [Docker镜像与容器备份迁移（export、import与commit、save、load）](https://cloud.tencent.com/developer/article/2027894)
+
+save与load命令：
+注意：
+  1.不会丢弃历史记录和元数据，并可以回滚版本。  2.启动不用加/bin/bash。
+  
+save：将指定镜像保存成tar文件。
+命令格式：
+ docker save 镜像名 > xxx.tar
+ 或
+ docker save -o xxx.tar 镜像名
+ 
+ load：导入使用docker save命令导出的镜像。在这里插入代码片
+命令格式：
+ docker load -i xxx.tar
+或
+ docker load < xxx.tar
+
+
+
 ---------------------------------------------------------------------------------------
 
 
