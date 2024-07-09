@@ -1,9 +1,12 @@
 openwrt计划任务怎么设置
 
 
-00 8 * * * sleep 10 && /sbin/ifup wan                                         ###### 每天8:00重拨wan
-00 8 * * * sleep 10 && /sbin/ifdown wan && sleep 6 && /sbin/ifup wan          ###### 每天8:00重拨wan      *****
-06 8 * * * sleep 10 && /sbin/ifup wan6                                        ###### 每天8:06重拨wan6     *****
+00 6 * * * sleep 10 && /sbin/ifup wan                                         ###### 每天6:00重拨wan
+
+00 6 * * * sleep 10 && /sbin/ifdown wan && sleep 6 && /sbin/ifup wan          ###### 每天6:00重拨wan      *****
+06 6 * * * sleep 10 && /sbin/ifup wan6                                        ###### 每天6:06重拨wan6     *****
+
+
 
 
 00 9 * * * sleep 5 && touch /etc/banner && reboot          ###### 每天9:00重启设备
