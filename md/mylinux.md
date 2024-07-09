@@ -212,27 +212,27 @@ commit命令：
  主要作用是将配置好的一些容器生成新的镜像，可以得到复用（再次使用不需要再配置）。
 
  ---------
-容器备份迁移案例：
+容器备份迁移案例：           ********
 
  docker ps    //查看正在运行的容器web
  
- docker commit -p web webdata:v1    //-p暂停web容器并提交为新镜像webdata：v1
+ sudo docker commit -p openwrt openwrtdata:v1    //-p暂停web容器并提交为新镜像webdata：v1
  
  docker images      //查看提交的新镜像webdata
  
- docker save webdata:v1 > webdata.tar   // 将镜像保存成一个tar压缩包
+ sudo docker save -o openwrtdata.tar openwrtdata:v1   // 将镜像保存成一个tar压缩包
  
- ll -h webdata.tar
+ ls -l openwrtdata.tar
  
- scp webdata.tar root@192.168.2.128:/root/test   // 将tar压缩包复制到另一台主机
+ sudo scp openwrtdata.tar /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/Temp   // 将tar压缩包复制到另一台主机
 
 ---
 
- docker load -i webdata.tar    // 在另一台主机上加载镜像的tar压缩包
+ docker load -i openwrtdata.tar    // 在另一台主机上加载镜像的tar压缩包
  
  docker images
  
- docker run -itd --name web webdata:v1   // 使用这个加载的镜像运行容器
+ docker run -itd --name openwrt openwrtdata:v1   // 使用这个加载的镜像运行容器
  
  docker ps
  
