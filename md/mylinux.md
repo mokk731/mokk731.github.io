@@ -3,7 +3,7 @@
 
 ## [Ubuntu 发行版下载](https://ubuntu.com/download/alternative-downloads)
 
-
+## [armbian 下载](https://www.armbian.com/)
 
 ## [Linux 硬盘分区指南](https://zhuanlan.zhihu.com/p/408467806)
 
