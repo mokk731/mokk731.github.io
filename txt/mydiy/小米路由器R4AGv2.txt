@@ -47,11 +47,11 @@ https://www.right.com.cn/forum/thread-8295963-1-1.html
 3 初始化设置路由器, 上网模式DHCP, 密码设置 12345678
 4 运行漏洞脚本 https://github.com/LordPinhead/OpenWRTInvasion 注意不是 https://github.com/acecilia/OpenWRTInvasion 版本
 
-Linux
+Linux-PC
 git clone https://github.com/LordPinhead/OpenWRTInvasion
 cd OpenWRTInvasion
 pip3 install -r requirements.txt        # Install requirements
-python3 remote_command_execution_vulnerability_v2.py   --------这里要有带有v2字样的python脚本，自测 2.30.20 固件可以
+python3 remote_command_execution_vulnerability.py   --------这里要有带有v2字样的python脚本，自测 2.30.20 固件可以
 
 5 第一次可能不行, 再运行一次即可.
 
@@ -83,9 +83,9 @@ mtd9: 001a0000 00010000 "kernel"
 mtd10: 00cd0000 00010000 "rootfs"
 mtd11: 00010000 00010000 "Config"
 
-
-
 这时候你发现 scp 是不能用的...只有tftp...
+
+telnet权限是临时的，重启失效。将网线改连到win-PC,打开tftp32，重连telnet,
 
 cd /tmp
 tftp 192.168.31.2 -p -l ALL_backup.bin
