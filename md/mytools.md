@@ -91,7 +91,7 @@
 
 #### [在线电影+小雅Alist](https://mokk731.github.io/txt/在线电影+小雅Alist.txt)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [1024+jav](https://mokk731.github.io/txt/1024jav.txt)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
