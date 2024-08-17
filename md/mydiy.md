@@ -64,6 +64,8 @@
 
 #### [E5-X79](https://mokk731.github.io/txt/mydiy/E5-X79.txt)
 
+#### [E3-H81](https://mokk731.github.io/txt/mydiy/E3-H81.txt)
+
 #### [中兴CT340小主机](https://mokk731.github.io/txt/mydiy/中兴CT340.txt)
 
 
