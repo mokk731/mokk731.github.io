@@ -1,0 +1,8 @@
+SM2258XT量产通用教程（SM2259XT、SM2259XT2适用），SM2258XT、SM2259XT2开卡量产工具
+https://blog.csdn.net/sycxyc/article/details/135334295
+
+量产SM2258XT开卡教程-主要用于修复固态硬盘！不认盘、无法分区、无法格式化、读写蓝屏死机无响应统统搞定
+https://cloud.tencent.com/developer/article/2129787
+
+
+
