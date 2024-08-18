@@ -53,6 +53,8 @@
 
 [dos批处理选择菜单方法](https://mokk731.github.io/txt/dos批处理选择菜单方法.txt)
 
+[win软件技巧](https://mokk731.github.io/txt/win软件技巧.txt)
+
 
 
 
