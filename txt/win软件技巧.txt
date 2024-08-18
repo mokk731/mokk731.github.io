@@ -1,1 +1,10 @@
-zzzz
+win软件技巧
+
+------------------------------------------
+
+brave-browser for win7 最后一个版本，Release v1.47.186 (Chromium 109.0.5414.119)
+
+https://github.com/brave/brave-browser/releases/tag/v1.47.186
+https://github.com/brave/brave-browser/releases/download/v1.47.186/brave-v1.47.186-win32-ia32.zip
+
+---------------------------------------------
