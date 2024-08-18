@@ -3,32 +3,30 @@
 # openwrt--- /etc/init.d/dnsmasq restart           vi /etc/myhosts
 
 # nslookup raw.githubusercontent.com 119.29.29.29
+# nslookup raw.githubusercontent.com 116.116.116.116
+# nslookup github.com 119.29.29.29
+# nslookup github.com 116.116.116.116
 
 # https://ping.chinaz.com
-# update 202406
+# update 202408
 ########################################################################
 
 # Good
 
-# GitHub Start
 # https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
 # https://raw.hellogithub.com/hosts
+# bgithub.xyz 是一个对于 GitHub.com 的镜像加速器
 
-# FastGit 是一个对于 GitHub.com 的镜像加速器
-# github.com               	 hub.fgit.cf 
-# raw.githubusercontent.com 	 raw.fgit.cf    raw.gitmirror.com
 
 # GitHub Start
 20.205.243.166     gist.github.com
 20.205.243.166     github.com
 20.205.243.166     www.github.com
-185.199.108.133    raw.githubusercontent.com
+185.199.111.133    raw.githubusercontent.com
 
 # debian omv
-146.75.114.132   httpredir.debian.org
+151.101.90.132   httpredir.debian.org
 
-
-##############################################
 
 # Ad
 
