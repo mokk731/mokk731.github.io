@@ -42,6 +42,18 @@ http://192.168.1.1/CU.html 管理员帐户:CUAdmin 密码:CUAdmin
 https://blog.csdn.net/qq_26202991/article/details/133127238
 openwrt 无线桥接/中继（WDS、relayd）
 
+无线网桥relayd     #####
+relayd包当然是必装的,还需要安装luci-proto-relay包
+Add New Interface.
+ Write a name for it (repeater_bridge is the name I used in the example), and then choose Relay bridge in the Protocol of the new interface field. Click Submit.
+You may need to reboot your device before the Relay bridge option appears. 
+In this new interface's setting page, select both lan and wwan in the Relay between networks list. 
+Move to the Firewall tab of this interface settings page and select lan. Click on Save and Apply. 
+
+
+https://openwrt.org/zh/docs/guide-user/network/wifi/atheroswds
+https://openwrt.org/zh/docs/guide-user/network/wifi/relay_configuration
+
 
 ------------------------------------------------------------------------------------------
 
