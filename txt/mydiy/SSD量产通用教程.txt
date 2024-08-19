@@ -76,3 +76,12 @@ sm2244LT_MPTool_P1019A.zip
 https://mokk731.github.io/ziprar/win-tools/sm2244LT_MPTool_P1019A.zip
 
 
+金泰克tigo S300 ssd sata 120G  测试读速度正常300MB/s,  写很慢16MB/s，老化了
+总写入：18.1TB,通电次数：4250  健康状态:87%
+2018.11--2024.04  ， 5年多
+sm2258xt 主控
+PFG29 -6 AL 大S颗粒，镁光淘汰颗粒，AL级，16G*8个=128G
+固件：R0724A0
+
+成功用SM2258XTMPToolQ1102A 开卡成功，120G，测试读写速度正常 300MB/s，健康状态:100%， 屏蔽了17个坏点。
+
