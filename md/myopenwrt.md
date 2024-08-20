@@ -26,6 +26,8 @@
 
 #### [OpenWrt指定主机DHCP获取不同网关DNS](https://mokk731.github.io/txt/OpenWrt指定主机DHCP获取不同网关DNS.txt)
 
+#### [OpenWRT无线桥接配置relayd](https://mokk731.github.io/txt/OpenWRT无线桥接配置relayd.txt)
+
 
 
 
