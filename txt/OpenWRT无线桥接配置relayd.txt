@@ -69,7 +69,7 @@ Move to the Firewall tab of this interface settings page and select lan. Click o
    新接口的协议：  中继桥
    本地IP地址：   192.168.1.30
    网络间中继：   lan、wwan
-   Firewall :   lan
+   Firewall :     lan
 
 以上配置完成后，电脑设置为自动dhcp，连接从路由，可以从主路由获取192.168.1.1网段的ip。
 
