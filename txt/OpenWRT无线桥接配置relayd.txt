@@ -4,10 +4,15 @@ openwrt 无线桥接/中继（WDS、relayd）
 https://openwrt.org/zh/docs/guide-user/network/wifi/relay_configuration
 Wifi扩展器、中继器及桥接配置
 
+
+------------------------------------------------------------------------
+
 本文中以relayd为基础的实现不保证一定能用且只适用于IPv4。
  在某些情况下,因为OpenWrt所用的开源无线驱动不支持“链路层(2层)“客户端模式下的桥接，所以LAN和无线客户端之间的流量只能用路由的方式来合并到一起，然后在其中广播比如DHCP和mDNS等本链路上的不可路由的消息。
 relayd包借由DHCP和广播中继在仅IPv4的环境下实现了类似桥接的行为。此配置可以通过SSH（远程终端）和Luci图形界面完成。
 简单起见，我们将把配置的设备称为“wifi扩展器”。 
+
+https://openwrt.org/_media/docs/guide-user/wifirepeater_802.11-routed-relay.png
 
  上图展示了一个示例配置。Wi-Fi扩展器的LAN接口必须配置为不同的子网，否则realyd无法正常工作（因为它需要两个不同的子网来进行路由）。
 因为有线端口和无线网络均属于同一个LAN接口，所有连接至Wi-Fi扩展器有线端口和无线网络的客户端将由relayd进行路由，进而连接到您的主网。
@@ -23,5 +28,52 @@ In this new interface's setting page, select both lan and wwan in the Relay betw
 This “Local IPv4 address” needs to match the IP address assigned by the Wifi-network
 Move to the Firewall tab of this interface settings page and select lan. Click on Save and Apply. 
 
+----------------------------------------------------------------------------
 
+无线桥接（relayd）
 
+主路由没有要求，192.168.1.1网段，默认的dhcp开启，WIFI为普通AP接入点模式。
+
+主要是从路由的配置流程：
+
+准备：需要确保已安装的两个包：luci-proto-relay和 relayd。
+
+1、LAN配置
+
+关闭dhcp、IP设置固定地址192.168.2.1（与主路由不同网段）。
+
+之后电脑需要设置192.168.2.1的同网段静态IP，重新登录页面继续配置。
+
+2、无线配置
+
+点击无线接口的扫描按钮，加入上级路由的无线网络。将防火墙区域设置为lan。
+
+无线的网络接口取名为wwan。
+
+3、无线网络接口配置
+
+网络->接口->wwan，点击后修改：
+
+协议：         静态地址
+
+IP地址：     192.168.1.30
+
+子网掩码：  255.255.255.0
+
+网关：         192.168.1.1
+
+使用自定义的 DNS 服务器： 192.168.1.1
+
+4、添加中继桥
+
+网络->接口->添加新接口，点击后修改：
+
+新接口的名称：repeater_bridge
+
+新接口的协议：中继桥
+
+本地IP地址：192.168.1.30
+
+网络间中继：lan、wwan
+
+以上配置完成后，电脑设置为自动dhcp，连接从路由，可以从主路由获取192.168.1.1网段的ip。
