@@ -259,6 +259,7 @@ docker network create -d macvlan --subnet=192.168.11.0/24 --gateway=192.168.11.1
  docker network ls命令可以看到网络macnet已建立成功
 
 在 host1 运行容器 c1，并指定使用 macvlan 网络：
+docker run -itd --name c1 --ip=172.16.10.2 --network mac1 busybox
 docker run -itd --name adguard-macvlan --ip 192.168.11.16 --network macnet adguard/adguardhome:v0.107.52
 
 
