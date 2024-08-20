@@ -203,5 +203,45 @@ DNS 封锁清单
 
 
 
+-----------------------------------------------------------------------------------------------------------------------
+
+adguard home docker macvlan
+
+
+https://post.smzdm.com/p/arq2zvvg/
+NAS上使用Docker搭建AdGuard Home，实现全屋网页视频去广告 
+
+关于端口映射这里，详情页页做出了具体说明，虽说端口很多，但是我们真正用到的其实就前面三个：53，67，3000。不过67和68端口因为是UDP协议，很多地方都用不了，可以设置也可以不设置。至于后面的我用翻译软件看了下，貌似是服务器用的，咱们一般人用不上，可以不管它~
+PS：这里给大家说明一下，“53”是它的拦截协议端口，“3000”是它的默认后台的访问端口。
+
+--------------------------
+
+https://blog.csdn.net/zhengyukong/article/details/140075777
+AdGuard Home Docker 宝塔部署和常见问题(值得收藏)
+
+
+docker pull adguard/adguardhome
+
+
+docker network create \
+    --driver macvlan \
+    --subnet=192.168.88.0/24 \
+    --gateway=192.168.88.254 \
+    --opt parent=br-lan \
+    adguard-macvlan
+
+docker run -d --name adguard-home \
+    --network adguard-macvlan \
+    -p 3000:3000 \
+    -p 53:53/tcp -p 53:53/udp \
+    -v /path/to/adguard_home_data:/etc/adguardhome \
+    adguard/adguardhome
+
+请根据你的网络实际情况调整--subnet、--gateway以及--opt parent参数。
+-d 表示以后台模式运行容器。
+--name adguard-home 指定容器的名称为adguard-home。
+-p 参数分别映射了容器的HTTP（3000）、DNS（TCP 53）和DNS（UDP 53）端口到主机的相应端口。
+-v /path/to/adguard_home_data:/etc/adguardhome 挂载一个宿主机目录到容器的 /etc/adguardhome 目录，用于持久化配置文件和数据。请将 /path/to/adguard_home_data 替换为你希望在宿主机上用于存放AdGuard Home数据的实际路径。
+
 
 
