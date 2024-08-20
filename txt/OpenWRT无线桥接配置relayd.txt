@@ -1,0 +1,27 @@
+https://blog.csdn.net/qq_26202991/article/details/133127238
+openwrt 无线桥接/中继（WDS、relayd）
+
+https://openwrt.org/zh/docs/guide-user/network/wifi/relay_configuration
+Wifi扩展器、中继器及桥接配置
+
+本文中以relayd为基础的实现不保证一定能用且只适用于IPv4。
+ 在某些情况下,因为OpenWrt所用的开源无线驱动不支持“链路层(2层)“客户端模式下的桥接，所以LAN和无线客户端之间的流量只能用路由的方式来合并到一起，然后在其中广播比如DHCP和mDNS等本链路上的不可路由的消息。
+relayd包借由DHCP和广播中继在仅IPv4的环境下实现了类似桥接的行为。此配置可以通过SSH（远程终端）和Luci图形界面完成。
+简单起见，我们将把配置的设备称为“wifi扩展器”。 
+
+ 上图展示了一个示例配置。Wi-Fi扩展器的LAN接口必须配置为不同的子网，否则realyd无法正常工作（因为它需要两个不同的子网来进行路由）。
+因为有线端口和无线网络均属于同一个LAN接口，所有连接至Wi-Fi扩展器有线端口和无线网络的客户端将由relayd进行路由，进而连接到您的主网。
+LAN接口所配置的子网将只被用作“管理”网段，而连接到Wi-Fi扩展器的设备则会被分配到主网段。您必须给您的PC设置一个和LAN接口同网段的静态IP地址（比如192.168.2.10）以便再次连接到Wi-Fi扩展器的管理界面或SSH。
+
+relayd包当然是必装的。如果您想使用Luci图形界面来配置您的wifi扩展器，还需要安装luci-proto-relay包。 
+
+扩展器接口
+Add New Interface.
+ Write a name for it (repeater_bridge is the name I used in the example), and then choose Relay bridge in the Protocol of the new interface field. Click Submit.
+You may need to reboot your device before the Relay bridge option appears. 
+In this new interface's setting page, select both lan and wwan in the Relay between networks list. 
+This “Local IPv4 address” needs to match the IP address assigned by the Wifi-network
+Move to the Firewall tab of this interface settings page and select lan. Click on Save and Apply. 
+
+
+
