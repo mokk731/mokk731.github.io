@@ -71,39 +71,23 @@ tcp://202.130.97.66
 
 tcp://168.95.192.1
 
-https://1.1.1.1/dns-query
 
-https://1.0.0.1/dns-query
 
 tls://8.8.8.8
-
 tls://8.8.4.4
-
 tls://dns.google:853
 
+https://1.1.1.1/dns-query
+https://1.0.0.1/dns-query
 https://dns.adguard.com/dns-query
 https://dns.cloudflare.com/dns-query
 
 
 ------------------------------
-上游DNS 
 
-
-119.29.29.29
-
-223.5.5.5
-
-223.6.6.6
-
-tcp://8.8.4.4
-
-https://1.1.1.1/dns-query
-
-
--------------------------
+Bootstrap DNS 服务器列表:
 
 116.116.116.116
-
 221.5.88.88
 
 119.29.29.29
@@ -141,11 +125,11 @@ https://www.right.com.cn/FORUM/thread-4090928-1-1.html
 
 1.DHCP/DNS配置-高级设置-DNS服务器端口:53
 
-2.DHCP/DNS-常规设置-DNS转发:127.0.0.1#533
+2.DHCP/DNS-常规设置-DNS转发:127.0.0.1#533 ,   116.116.116.116#53
 
 3.AdGuardHome-手动设置-dns:port:533
 
-4.AdGuardHome-533重定向-作为dnsmasq的上游服务器.   重定向53端口到AdGuardHome
+4.AdGuardHome-533重定向-作为dnsmasq的上游服务器.   重定向53端口到AdGuardHome     (AdGuardHome.ipk)
 
 
 
