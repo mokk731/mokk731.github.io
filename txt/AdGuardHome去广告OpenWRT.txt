@@ -23,10 +23,13 @@ https://stgod.com/4697/
 这里的上游 DNS 自然是要选择 DoT/​DoH 加密技术的服务器的，可以防止 DNS 解析记录被劫持、篡改以及跟踪。缺点是可能对解析速度会有些许影响，毕竟 TCP 协议不如 UDP 来得有效率，且加解密需要一点时间，
 不过在机器性能不错且网络通畅的情况下其实是可以忽略的，都是毫秒级别的差距。
 中国大陆网络环境推荐选择腾讯 (DNS­Pod) 和阿里的公共 DNS 。
+
 tls://dns.pub
 https://dns.pub/dns-query
 tls://dns.alidns.com
 https://dns.alidns.com/dns-query
+
+
 https://dns.cloudflare.com/dns-query
 
 
