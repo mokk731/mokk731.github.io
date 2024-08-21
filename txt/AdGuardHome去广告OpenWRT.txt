@@ -262,8 +262,11 @@ docker run -d --name adguard-home \
 
 ############
 
+#1
 docker pull adguard/adguardhome:v0.107.52   ############
 
+
+#2
 docker network create \
     --driver macvlan \
     --subnet=192.168.11.0/24 \
@@ -274,6 +277,8 @@ docker network create \
 docker network create -d macvlan --subnet=192.168.11.0/24 --gateway=192.168.11.1 -o parent=eth0 macnet   ############
  docker network ls命令 可以看到网络macnet已建立成功 
 
+
+#3
 在 host1 运行容器 c1，并指定使用 macvlan 网络：     
 docker run -itd --name c1 --ip=172.16.10.2 --network mac1 adguardhome
 
