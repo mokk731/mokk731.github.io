@@ -21,9 +21,20 @@ tls://dns.pub
 https://dns.pub/dns-query
 tls://dns.alidns.com
 https://dns.alidns.com/dns-query
+https://dns.cloudflare.com/dns-query
 
 
+DNS 服务设定
+速度限制：200
+使用 EDNS ：前面提及的上游 DNS 服务器都是支持 EDNS (ECS) 的，它有助于获取到更合适的 CDN 节点，建议勾选。
+使用 DNSSEC : 用于效验 DNS 记录的签名，防止 DNS 缓存被投毒，建议勾选。勾选后会在日志页面请求列显示小绿锁图标。  很慢，要关。
 
+DNS 缓存配置
+缓存大小:8000100
+覆盖最小 TTL 值：600
+覆盖最大 TTL 值：3600
+
+------------------------------------
 
 *上游DNS服务器列表:
 
@@ -194,7 +205,7 @@ TIPS: 这里也可以留空，使用后面将要提到的 DNS 重写功能把 Do
 DNS 服务设定
 速度限制：0
 使用 EDNS ：前面提及的上游 DNS 服务器都是支持 EDNS (ECS) 的，它有助于获取到更合适的 CDN 节点，建议勾选。
-使用 DNSSEC : 用于效验 DNS 记录的签名，防止 DNS 缓存被投毒，建议勾选。勾选后会在日志页面请求列显示小绿锁图标。
+使用 DNSSEC : 用于效验 DNS 记录的签名，防止 DNS 缓存被投毒，建议勾选。勾选后会在日志页面请求列显示小绿锁图标。  很慢，要关。
 禁用 IPv6 ：丢弃 IPv6 的 DNS 查询。在本地网络和网站都支持 IPv6 会优先使用 IPv6 去访问网站，但目前 IPv6 的建设还处于初级阶段，大多数地区的 IPv6 网络体验都一般。还有一些代理软件对 IPv6 支持不佳，开启后可能会影响国际互联网的访问。如果对此没有特殊需求，那么直勾选即可，这样既不影响 BT 软件连接 IPv6 网络，又可以优先使用 IPv4 来上网。如果只有 IPv4 ，那么是否勾选没有区别。
 
 
@@ -270,10 +281,10 @@ docker network create \
     --subnet=192.168.11.0/24 \
     --gateway=192.168.11.1 \
     --opt parent=eth0 \
-    adguard-macvlan
+    macnet
 
 docker network create -d macvlan --subnet=192.168.11.0/24 --gateway=192.168.11.1 -o parent=eth0 macnet
- docker network ls命令可以看到网络macnet已建立成功
+ docker network ls命令 可以看到网络macnet已建立成功
 
 在 host1 运行容器 c1，并指定使用 macvlan 网络：
 docker run -itd --name c1 --ip=172.16.10.2 --network mac1 busybox
@@ -296,8 +307,11 @@ docker run -itd --name adguard-home \
 -v /path/to/adguard_home_data:/etc/adguardhome 挂载一个宿主机目录到容器的 /etc/adguardhome 目录，用于持久化配置文件和数据。请将 /path/to/adguard_home_data 替换为你希望在宿主机上用于存放AdGuard Home数据的实际路径。
 
 
+-----------------------------------
 
 https://blog.51cto.com/u_16099219/11354121
+群晖 mac nfs 群晖 macvlan 多个网心云
+
 创建macvlan网络（基于物理网卡）
     docker network create --driver macvlan --subnet 172.18.18.0/24 --gateway 172.18.18.1 -o parent=ens33 macvlan_net1    
         #一个macvlan网络将会占用一块网卡，在这块网卡上进行虚拟化；
@@ -307,9 +321,8 @@ https://blog.51cto.com/u_16099219/11354121
 运行容器
     docker run -it --name macvlan_container1 --ip 172.18.18.212 --network macvlan_net1 centos
     docker run -it --name macvlan_container2 --ip 172.18.18.210 --network macvlan_net1 centos
+
 -----------------------------------
-群晖 mac nfs 群晖 macvlan 多个网心云
-https://blog.51cto.com/u_16099219/11354121
 
 https://zhuanlan.zhihu.com/p/616504632
 Docker 网络模型之 macvlan 详解，图解，实验完整
