@@ -1,11 +1,16 @@
-https://gitee.com/halflife/list/raw/master/ad.txt
-ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则 
+ ABP/ublock订阅规则
 
-   ABP/ublock订阅规则
+https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt
+ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则 
 
 
 EasylistChina    ****
 https://easylist-downloads.adblockplus.org/easylistchina.txt
+
+anti-AD 
+https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+anti-AD致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole等优秀的网络组件。
+
 
 
 ----------------------------------------------------------------
