@@ -1,5 +1,6 @@
- ABP/ublock订阅规则
+订阅规则
 
+halflife
 https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt
 ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则 
 
