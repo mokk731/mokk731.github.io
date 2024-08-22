@@ -218,7 +218,27 @@ DNS 封锁清单
 -----------------------------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------------------------------
+adguard home docker
 
+
+docker run --name adguard-home \
+    -p 3000:3000 \
+    -p 5353:53/tcp -p 5353:53/udp \
+    -p 853:853/tcp \
+    -p 8081:80/tcp -p 443:443/tcp -p 443:443/udp \
+    -v /srv/config/adguardhome/workdir:/opt/adguardhome/work \
+    -v /srv/config/adguardhome/confdir:/opt/adguardhome/conf \
+    --restart unless-stopped \
+    adguard/adguardhome:v0.107.52
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 adguard home docker macvlan
 
@@ -314,6 +334,7 @@ Ports mappings you may need:
 -p 784:784/udp -p 853:853/udp -p 8853:8853/udp: add if you are going to run AdGuard Home as a DNS-over-QUIC⁠ server. You may only leave one or two of these.
 
 -p 5443:5443/tcp -p 5443:5443/udp: add if you are going to run AdGuard Home as a DNSCrypt⁠ server.
+
 
 
 -----------------------------------
