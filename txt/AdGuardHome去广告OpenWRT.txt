@@ -288,6 +288,7 @@ docker run -itd --name adguard-home \
     --network macnet \
     -p 3000:3000 \
     -p 53:53/tcp -p 53:53/udp \
+    -p 853:853/tcp \
     -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/workdir:/opt/adguardhome/work \
     -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/confdir:/opt/adguardhome/conf \
     --restart unless-stopped \
