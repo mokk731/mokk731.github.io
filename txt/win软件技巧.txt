@@ -50,9 +50,51 @@ You may need to reboot your device before the Relay bridge option appears.
 In this new interface's setting page, select both lan and wwan in the Relay between networks list. 
 Move to the Firewall tab of this interface settings page and select lan. Click on Save and Apply. 
 
-
 https://openwrt.org/zh/docs/guide-user/network/wifi/atheroswds
 https://openwrt.org/zh/docs/guide-user/network/wifi/relay_configuration
+
+无线桥接（relayd）
+
+主路由没有要求，192.168.1.1网段，默认的dhcp开启，WIFI为普通AP接入点模式。
+
+主要是从路由的配置流程：
+
+准备：需要确保已安装的两个包：luci-proto-relay和 relayd。
+
+1、LAN配置
+
+关闭dhcp、IP设置固定地址192.168.2.1（与主路由不同网段）。
+
+之后电脑需要设置192.168.2.1的同网段静态IP，重新登录页面继续配置。
+
+2、无线配置
+
+点击无线接口的扫描按钮，加入上级路由的无线网络。将防火墙区域设置为lan。
+
+无线的网络接口取名为wwan。
+
+3、无线网络接口配置
+
+网络->接口->wwan，点击后修改：
+
+   协议：      静态地址
+   IP地址：    192.168.1.30
+   子网掩码：   255.255.255.0
+   网关：      192.168.1.1
+
+使用自定义的 DNS 服务器： 192.168.1.1
+
+4、添加中继桥
+
+网络->接口->添加新接口，点击后修改：
+
+   新接口的名称：  repeater_bridge
+   新接口的协议：  中继桥
+   本地IP地址：   192.168.1.30
+   网络间中继：   lan、wwan
+   Firewall :     lan
+
+以上配置完成后，电脑设置为自动dhcp，连接从路由，可以从主路由获取192.168.1.1网段的ip。
 
 
 ------------------------------------------------------------------------------------------
@@ -64,6 +106,36 @@ github是个知名的网站，但是在国内经常访问不了，能访问了�
 
 
 ------------------------------------------------------------------------------------------
+
+
+黑苹果
+目前 OpenCore 已比较稳定，但仍然处于快速迭代状态，每个版本的改动都非常大，但其设计理念先进好处很多，切换到 OpenCore 势在必行
+
+https://www.youtube.com/watch?v=qRvsx2LNEww
+超详细的黑苹果装机教程，手把手教你，两种方式任意安装！
+
+https://github.com/daliansky/Hackintosh
+
+https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html
+【黑果小兵】macOS Catalina 10.15.7 19H15 正式版 with Clover 5126原版镜像[双EFI版] [UEFI and MBR]
+https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-version-Clover-5126-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html
+【微信首发】macOS Catalina 10.15.7 19H15 正式版 Clover 5126/OC/PE三分区支持Intel及AMD双平台原版镜像
+10.15.7 19H2  MD5
+16GB   b44de9c1aa8aea1c7414b0d14f187b55
+32GB   f54c4c5c0bf930643469b7f064078fda
+
+https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
+macOS Catalina 10.15安装中常见的问题及解决方法
+Apple已经删除了我们必须避免APFS转换的选项，常规的方法已经无法避免安装过程中自动将分区转换为APFS格式，包括在硬盘上安装以及SSD上面安装。
+
+https://www.youtube.com/watch?v=FhvZ3ENz-XA
+黑苹果EFI配置保姆级教程，其实EFI配置没有那么难
+
+
+
+
+
+
 
 ------------------------------------------------------------------------------------------
 
