@@ -128,9 +128,13 @@ https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15
 macOS Catalina 10.15安装中常见的问题及解决方法
 Apple已经删除了我们必须避免APFS转换的选项，常规的方法已经无法避免安装过程中自动将分区转换为APFS格式，包括在硬盘上安装以及SSD上面安装。
 
-https://www.youtube.com/watch?v=FhvZ3ENz-XA
-黑苹果EFI配置保姆级教程，其实EFI配置没有那么难
 
+https://www.youtube.com/watch?v=KovP6K6KglE
+超详细的黑苹果EFI配置教程，专属于你自己的EFI，再也不用到处求人！
+
+
+https://dortania.github.io/OpenCore-Install-Guide/
+ OpenCore Install Guide
 
 
 
