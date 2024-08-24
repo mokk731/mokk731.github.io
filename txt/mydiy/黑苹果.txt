@@ -1,0 +1,36 @@
+黑苹果
+目前 OpenCore 已比较稳定，但仍然处于快速迭代状态，每个版本的改动都非常大，但其设计理念先进好处很多，切换到 OpenCore 势在必行
+
+https://www.youtube.com/watch?v=qRvsx2LNEww
+超详细的黑苹果装机教程，手把手教你，两种方式任意安装！
+
+https://github.com/daliansky/Hackintosh
+
+https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html
+【黑果小兵】macOS Catalina 10.15.7 19H15 正式版 with Clover 5126原版镜像[双EFI版] [UEFI and MBR]
+https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-version-Clover-5126-OC-WEPE-supports-both-INTEL-and-AMD-original-images.html
+【微信首发】macOS Catalina 10.15.7 19H15 正式版 Clover 5126/OC/PE三分区支持Intel及AMD双平台原版镜像
+10.15.7 19H2  MD5
+16GB   b44de9c1aa8aea1c7414b0d14f187b55
+32GB   f54c4c5c0bf930643469b7f064078fda
+
+macOS Catalina 10.15.7 19H2.dmg
+5f15506a22a11a0fe17e3dae463fceb8   ????
+
+https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
+macOS Catalina 10.15安装中常见的问题及解决方法
+Apple已经删除了我们必须避免APFS转换的选项，常规的方法已经无法避免安装过程中自动将分区转换为APFS格式，包括在硬盘上安装以及SSD上面安装。
+
+
+https://www.youtube.com/watch?v=KovP6K6KglE
+超详细的黑苹果EFI配置教程，专属于你自己的EFI，再也不用到处求人！
+
+
+https://dortania.github.io/OpenCore-Install-Guide/
+ OpenCore Install Guide
+
+跨平台镜像写入工具下载 - balenaEtcher
+一个自动生成黑苹果引导EFI的工具 - RapidEFI v2.3.0
+OpenCore Configurator 2.76.1.0 
+
+iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
