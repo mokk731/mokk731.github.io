@@ -27,18 +27,20 @@ Apple已经删除了我们必须避免APFS转换的选项，常规的方法已�
 https://www.youtube.com/watch?v=KovP6K6KglE
 超详细的黑苹果EFI配置教程，专属于你自己的EFI，再也不用到处求人！
 
+------------------------------------------------------
+
 OpenCore
 https://dortania.github.io/OpenCore-Install-Guide/
  OpenCore Install Guide
+OpenCore Configurator 2.76.1.0 
+
 
 跨平台镜像写入工具下载 - balenaEtcher
+https://github.com/balena-io/etcher
 
-一个自动生成黑苹果引导EFI的工具 - RapidEFI v2.3.0                   ##############
+一个自动生成黑苹果引导EFI的工具 - RapidEFI 
 https://github.com/JeoJay127/RapidEFI-Tool
 重要说明:由于版权原因,目前已删除NootedRed.kext,NootRX.kext驱动!!!
-
-
-OpenCore Configurator 2.76.1.0 
 
 
 
