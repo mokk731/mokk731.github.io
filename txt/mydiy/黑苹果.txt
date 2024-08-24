@@ -108,7 +108,11 @@ SSD
 
 使用RapidEFI一键生成工具或者给大家寻找的EFI引导文件都可以。
 
-如果想让我帮忙制作或者寻找，请在此视频评论区给我留言，我会定期发在公众号（菜鸟搞机）内的，视频留言区地址：《想装黑苹果系统，只要找到对的EFI引导文件就行！》。 
+RapidEFI官网地址：https://github.com/JeoJay127/RapidEFI-Tool/releases
+
+获取地址1：https://pan.quark.cn/s/0e1766310e0d
+
+获取地址2：https://pan.xunlei.com/s/VO0mDDrmfttNlElcUvrsmRP0A1?pwd=w63n# 
 
 -------------------------------------
 
