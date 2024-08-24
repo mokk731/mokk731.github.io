@@ -46,7 +46,7 @@ OpenCore Configurator 2.76.1.0
 iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
 
 
-https://www.bilibili.com/read/cv34673546
+https://www.bilibili.com/read/cv34673546                       ##############
  黑苹果镜像 | 更新至macOS Sonoma 14.5(23F79)正式版 
 
 https://www.bilibili.com/read/cv35927421/                        ##############
