@@ -75,10 +75,10 @@
 
 #### [中兴CT340小主机](https://mokk731.github.io/txt/mydiy/中兴CT340.txt)
 
+#### [黑苹果](https://mokk731.github.io/txt/mydiy/黑苹果.txt)
 
 
 
-#### [树莓派+OMV](https://mokk731.github.io/txt/mydiy/树莓派+OMV.txt)
 
 #### [树莓派+OMV](https://mokk731.github.io/txt/mydiy/树莓派+OMV.txt)
 
