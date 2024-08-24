@@ -14,8 +14,10 @@ https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-ve
 16GB   b44de9c1aa8aea1c7414b0d14f187b55
 32GB   f54c4c5c0bf930643469b7f064078fda
 
+
+我下载的BT文件:
 macOS Catalina 10.15.7 19H2.dmg
-5f15506a22a11a0fe17e3dae463fceb8   ????
+MD5:  5f15506a22a11a0fe17e3dae463fceb8   ????
 
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
 macOS Catalina 10.15安装中常见的问题及解决方法
@@ -25,7 +27,7 @@ Apple已经删除了我们必须避免APFS转换的选项，常规的方法已�
 https://www.youtube.com/watch?v=KovP6K6KglE
 超详细的黑苹果EFI配置教程，专属于你自己的EFI，再也不用到处求人！
 
-
+OpenCore
 https://dortania.github.io/OpenCore-Install-Guide/
  OpenCore Install Guide
 
@@ -33,4 +35,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 一个自动生成黑苹果引导EFI的工具 - RapidEFI v2.3.0
 OpenCore Configurator 2.76.1.0 
 
+选择机型：
 iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
+
+
