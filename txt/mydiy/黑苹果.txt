@@ -43,8 +43,8 @@ iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无�
 cpu    E3-1225V3
 主板   dell optiplex 3020 主板 H81 
 显卡   核显HD4600
-声卡
-网卡
+声卡   Realtek ALC3220
+网卡   Intel 10/100/1000 Mbps Ethernet 
 SSD
 
 
