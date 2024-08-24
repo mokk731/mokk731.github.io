@@ -32,11 +32,31 @@ https://dortania.github.io/OpenCore-Install-Guide/
  OpenCore Install Guide
 
 跨平台镜像写入工具下载 - balenaEtcher
-一个自动生成黑苹果引导EFI的工具 - RapidEFI v2.3.0
+
+一个自动生成黑苹果引导EFI的工具 - RapidEFI v2.3.0                   ##############
+https://github.com/JeoJay127/RapidEFI-Tool
+重要说明:由于版权原因,目前已删除NootedRed.kext,NootRX.kext驱动!!!
+
+
 OpenCore Configurator 2.76.1.0 
+
+
 
 选择机型：
 iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
+
+
+https://www.bilibili.com/read/cv34673546
+ 黑苹果镜像 | 更新至macOS Sonoma 14.5(23F79)正式版 
+
+https://www.bilibili.com/read/cv35927421/                        ##############
+台式机使用RapidEFI一键生成EFI引导文件，成功安装macOS 15 Sequoia
+
+https://www.bilibili.com/video/BV1Li421h7FZ                     ##############
+重磅来袭! RapidEFI 3.0全新UI, 这些新功能你不容错过
+
+
+
 
 ------------------------------------------------------
 我的硬件表：
