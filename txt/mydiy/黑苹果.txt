@@ -204,8 +204,7 @@ macOS 版本历史回顾：从 2001 到 2024，功能、代号和发布时间
 2020 年 11 月 10 日发布的 Big Sur 标志着 macOS 发展史上的一个重要里程碑。此版本带来了重大的设计变革，是第一个支持搭载 Apple Silicon 芯片的 Mac 系统，同时也是首个允许 iOS 应用程序在 Mac 上原生运行（称为通用应用程序）的 macOS 版本。
 
 macOS BigSur 11.7.10(20G1427)with OpenCore 0.9.6以及Clover r5155 and FirPE
-
-    获取链接1：https://pan.quark.cn/s/deaf156606ff 
+获取链接1：https://pan.quark.cn/s/deaf156606ff 
 
 macOS Big Sur 11.6.8 (20G730) [MAS].dmg
 magnet:?xt=urn:btih:04BC3ABC6D8D659323B6286A5FF1FE1495AC6B76
