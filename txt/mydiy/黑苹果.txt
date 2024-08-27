@@ -66,7 +66,7 @@ cpu    E3-1225V3
 主板   dell optiplex 3020 主板  040DDP  H81  C220
 内存   DDR3 1333 2G*2
 显卡   核显HD P4600
-声卡   Realtek ALC280
+声卡   Realtek ALC280   ALC3220
 网卡   RTL8111/RTL8168
 SSD    32G sata ssd
 bios   AMI uEFI
@@ -194,6 +194,55 @@ RapidEFI官网地址：https://github.com/JeoJay127/RapidEFI-Tool/releases
 
 
 ---------------------------------------
+
+
+
+https://www.sysgeek.cn/macos-version-history/
+macOS 版本历史回顾：从 2001 到 2024，功能、代号和发布时间
+
+
+2020 年 11 月 10 日发布的 Big Sur 标志着 macOS 发展史上的一个重要里程碑。此版本带来了重大的设计变革，是第一个支持搭载 Apple Silicon 芯片的 Mac 系统，同时也是首个允许 iOS 应用程序在 Mac 上原生运行（称为通用应用程序）的 macOS 版本。
+
+macOS BigSur 11.7.10(20G1427)with OpenCore 0.9.6以及Clover r5155 and FirPE
+
+    获取链接1：https://pan.quark.cn/s/deaf156606ff 
+
+macOS Big Sur 11.6.8 (20G730) [MAS].dmg
+magnet:?xt=urn:btih:04BC3ABC6D8D659323B6286A5FF1FE1495AC6B76
+
+macOS Big Sur 11.5.2 (20G95).iso    ######
+magnet:?xt=urn:btih:95D8B911607D39A5C5EA216942A00027667D338B
+
+
+https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html
+天逸510s Mini兼macOS BigSur安装教程
+
+https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html
+macOS BigSur 11.0安装中常见的问题及解决方法
+
+https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
+macOS Catalina 10.15安装中常见的问题及解决方法
+
+------------------------
+
+EFI
+
+https://github.com/inokoe/MSI-H81M-P33-Hackintosh-EFI
+MSI H81M-P33 Hackintosh-EFI, and the CPU is E3 1246 V3 ( haswell )
+测试时间为 2022/7/14 模拟平台为iMac14,4 安装镜像为macOS Big Sur 11.6.7
+E3 1246 V3 核显为 P4600
+
+
+https://github.com/corpnewt/GenSMBIOS
+https://github.com/corpnewt/ProperTree
+
+
+
+
+
+
+
+
 
 
 
