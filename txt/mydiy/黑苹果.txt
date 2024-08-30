@@ -236,6 +236,44 @@ https://github.com/corpnewt/GenSMBIOS
 https://github.com/corpnewt/ProperTree
 
 
+https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI       #########
+EFI Files for my Dell Optiplex 3020M. Tested and working with macOS Catalina
+This repository contains EFI files for my Dell Optiplex 3020M, tested and confirmed to work with macOS Catalina 10.15.7.
+
+可以正常引导！！！
+
+Important BIOS settings
+Download modGRUBShell and place it in the EFI/OC/Tools folder. Add it to the Misc → Tools section of config.plist.
+
+Boot into OpenCore and select the modGRUBShell option.
+
+Enter the following values:
+
+Disable CFG Lock:
+
+setup_var 0xD9F 0x0
+Set DVMT pre-alloc to 64MB:
+
+setup_var 0x263 0x2
+Enable EHCI hand-off:
+
+setup_var 0x2 0x1
+setup_var 0x144 0x1
+setup_var 0x15A 0x2
+setup_var 0x146 0x0
+setup_var 0x147 0x0
+Reboot the system when done.
+
+
+
+
+Tips
+VGA is not supported by macOS Catalina. Installer will never go graphical without a DisplayPort display.
+AirportItlwm.kext is used for networking. It is macOS version specific. To suit your version, you can find compatible kexts here. Remember to update config.plist with the new filename.
+Press spacebar within the OpenCore loader to show hidden options such as Clear NVRAM.
+To use iCloud, App Store, etc. You must first generate a new SMBIOS and update config.plist with the generated values (Refer to the image below). Make sure to generate SMBIOS for iMac14,3.
+For the 'ROM' line in the SMBIOS: Find your machines MAC address, remove the ':' delimiters and encode in base64.
+When macOS installation is completed. Use a tool like EFIAgent to mount the EFI partition to the EFI partition of your machine.
 
 
 
