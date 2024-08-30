@@ -210,8 +210,8 @@ macOS BigSur 11.7.10(20G1427)with OpenCore 0.9.6以及Clover r5155 and FirPE
 macOS Big Sur 11.6.8 (20G730) [MAS].dmg
 magnet:?xt=urn:btih:04BC3ABC6D8D659323B6286A5FF1FE1495AC6B76
 
-macOS Big Sur 11.5.2 (20G95).iso    ######
-magnet:?xt=urn:btih:95D8B911607D39A5C5EA216942A00027667D338B
+Install macOS Big Sur 11.5.1 (20G80).dmg
+magnet:?xt=urn:btih:3C5772730865188F153BCCF0550E0780F19C9E76
 
 
 https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation-Tutorial.html
@@ -250,22 +250,20 @@ Boot into OpenCore and select the modGRUBShell option.
 
 Enter the following values:
 
-Disable CFG Lock:
-
+# Disable CFG Lock:
 setup_var 0xD9F 0x0
-Set DVMT pre-alloc to 64MB:
 
+# Set DVMT pre-alloc to 64MB:
 setup_var 0x263 0x2
-Enable EHCI hand-off:
 
+# Enable EHCI hand-off:
 setup_var 0x2 0x1
 setup_var 0x144 0x1
 setup_var 0x15A 0x2
 setup_var 0x146 0x0
 setup_var 0x147 0x0
+
 Reboot the system when done.
-
-
 
 
 Tips
@@ -276,7 +274,7 @@ To use iCloud, App Store, etc. You must first generate a new SMBIOS and update c
 For the 'ROM' line in the SMBIOS: Find your machines MAC address, remove the ':' delimiters and encode in base64.
 When macOS installation is completed. Use a tool like EFIAgent to mount the EFI partition to the EFI partition of your machine.
 
-
+------------------------------------------------
 
 
 
