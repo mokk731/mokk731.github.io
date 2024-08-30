@@ -17,6 +17,7 @@ https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-ve
 
 我下载的BT文件:
 macOS Catalina 10.15.7 19H2.dmg
+magnet:?xt=urn:btih:8FE3D5E14715C6F2C60B6433AF230A281CFDF8DD
 MD5:  5f15506a22a11a0fe17e3dae463fceb8   ????
 
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
