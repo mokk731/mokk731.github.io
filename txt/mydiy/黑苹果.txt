@@ -123,6 +123,12 @@ RapidEFI官网地址：https://github.com/JeoJay127/RapidEFI-Tool/releases
 
 获取地址2：https://pan.xunlei.com/s/VO0mDDrmfttNlElcUvrsmRP0A1?pwd=w63n# 
 
+
+https://github.com/ic005k/OCAuxiliaryTools
+OCAuxiliaryTools（简称OCAT或ocat） = Config.plist编辑器 + Config.plist数据库
+
+
+
 -------------------------------------
 
 使用DiskGenius对Mac系统盘进行分区 
