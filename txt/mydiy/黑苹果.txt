@@ -324,7 +324,7 @@ PS. sudo 是一个安全为考虑的执行管理指令的方法，这边不多�
 方法一：直接进入" /System/Library/Extensions/ "目录中，将自己的驱动 .kext 档案复制到里面，中途可能要输入密码；
 方法二：假设你的驱动叫AppleBCM5751Ethernet.kext，并放在桌面的，
 指令如下：
-cp ~/Desktop/AppleBCM5751Ethernet.kext /System/Library/Extensions/
+cp -r ~/Desktop/AppleBCM5751Ethernet.kext /System/Library/Extensions/
 注意：请把AppleBCM5751Ethernet.kext换成你自己要安装的.kext驱动名
 3. 更改文件权限：
 文件权限是UNIX系统中蛮重要的一个观念，在Unix为基础的Mac OS X中也一样，就是要把这些复制到系统内的文件的权限切换成系统（管理员）拥有与使用，指令如下：
@@ -343,5 +343,13 @@ kextcache -k /System/Library/Extensions
 MAC OS驱动安装与卸载
 假设您已经有简单的概念后，我们知道，其实Mac的驱动程序就是 Kernel Extension，
 也就是硬件相对应的 .kext 档案，
+
+由于macOS 10.15 锁住了S/L/E的修改权限，因此在修改kext前要使用终端先解锁S/L/E权限
+打开终端依次输入
+    sudo su
+    sudo mount -uw /
+    killall Finder
+
+----------------------------------------------
 
 
