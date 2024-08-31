@@ -48,6 +48,8 @@ https://github.com/JeoJay127/RapidEFI-Tool
 选择机型：
 iMac14,4 : iMac (21.5-inch, Mid 2014)；适合四代酷睿HD4400/4600核显无独显使用。
 
+iMac15,1 as the machine type. This is the closest Mac configuration to our Hackintosh machine.
+
 
 https://www.bilibili.com/read/cv34673546                       ##############
  黑苹果镜像 | 更新至macOS Sonoma 14.5(23F79)正式版 
@@ -64,7 +66,7 @@ https://www.bilibili.com/video/BV1Li421h7FZ                     ##############
 ------------------------------------------------------
 我的硬件表：
 cpu    E3-1225V3
-主板   dell optiplex 3020 主板  040DDP  H81  C220
+主板   dell optiplex 3020mt 主板  040DDP  H81  C220
 内存   DDR3 1333 2G*2
 显卡   核显HD P4600
 声卡   Realtek ALC280   ALC3220
