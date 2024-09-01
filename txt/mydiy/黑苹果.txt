@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=KovP6K6KglE                     ################
 
 
 https://github.com/daliansky/Hackintosh
+Hackintosh 黑苹果长期维护机型 EFI 及安装教程整理  黑果小兵的部落阁
 
 https://blog.daliansky.net/macOS-Catalina-10.15.7-19H2-Release-version-with-Clover-5122-original-image-Double-EFI-Version-UEFI-and-MBR.html
 【黑果小兵】macOS Catalina 10.15.7 19H15 正式版 with Clover 5126原版镜像[双EFI版] [UEFI and MBR]
@@ -22,16 +23,15 @@ https://blog.daliansky.net/WeChat-First-macOS-Catalina-10.15.7-19H15-official-ve
 我下载的BT文件:
 macOS Catalina 10.15.7 19H2.dmg               7.7GB            ####################
 magnet:?xt=urn:btih:8FE3D5E14715C6F2C60B6433AF230A281CFDF8DD
-MD5:  5f15506a22a11a0fe17e3dae463fceb8   ????
+MD5:  5f15506a22a11a0fe17e3dae463fceb8   
 
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
 macOS Catalina 10.15安装中常见的问题及解决方法
 Apple已经删除了我们必须避免APFS转换的选项，常规的方法已经无法避免安装过程中自动将分区转换为APFS格式，包括在硬盘上安装以及SSD上面安装。
 
 
-https://www.youtube.com/watch?v=KovP6K6KglE
-超详细的黑苹果EFI配置教程，专属于你自己的EFI，再也不用到处求人！
-
+h
+----------------------------------
 
 https://www.sysgeek.cn/macos-version-history/
 macOS 版本历史回顾：从 2001 到 2024，功能、代号和发布时间
@@ -55,8 +55,7 @@ https://blog.daliansky.net/Lenovo-Tianyi-510s-Mini-and-macOS-BigSur-Installation
 https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-BigSur-11.0-installation.html
 macOS BigSur 11.0安装中常见的问题及解决方法
 
-https://blog.daliansky.net/Common-problems-and-solutions-in-macOS-Catalina-10.15-installation.html
-macOS Catalina 10.15安装中常见的问题及解决方法
+
 
 ------------------------------------------------------
 
@@ -115,8 +114,6 @@ https://www.bilibili.com/read/cv34673546                       ##############
 https://www.bilibili.com/read/cv35927421/                        ##############
 台式机使用RapidEFI一键生成EFI引导文件，成功安装macOS 15 Sequoia
 
-https://www.bilibili.com/video/BV1Li421h7FZ                     ##############
-重磅来袭! RapidEFI 3.0全新UI, 这些新功能你不容错过
 
 
 https://geekdaxue.co/read/hejianzhao@zgnsc5/ygaw0e
@@ -125,7 +122,7 @@ https://geekdaxue.co/read/hejianzhao@zgnsc5/ygaw0e
 ------------------------------------------------------
 我的硬件表：
 cpu    E3-1225V3
-主板   dell optiplex 3020mt 主板  040DDP  H81  C220
+主板   dell optiplex 3020mt 主板   H81  C220
 内存   DDR3 1333 2G*2
 显卡   核显HD P4600
 声卡   Realtek ALC280   ALC3220
@@ -139,7 +136,7 @@ bios   AMI uEFI
 安装黑苹果前的准备工作
 
 需要的软件及硬件如下：
-图片
+
 
 1.一个U盘
 
@@ -177,6 +174,7 @@ RapidEFI官网地址：https://github.com/JeoJay127/RapidEFI-Tool/releases
 
 获取地址2：https://pan.xunlei.com/s/VO0mDDrmfttNlElcUvrsmRP0A1?pwd=w63n# 
 
+7.OCAuxiliaryTools
 
 https://github.com/ic005k/OCAuxiliaryTools
 OCAuxiliaryTools（简称OCAT或ocat） = Config.plist编辑器 + Config.plist数据库
@@ -281,11 +279,11 @@ https://github.com/corpnewt/GenSMBIOS
 https://github.com/corpnewt/ProperTree
 
 
-https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI       #########
+https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI                           #########
 EFI Files for my Dell Optiplex 3020M. Tested and working with macOS Catalina
 This repository contains EFI files for my Dell Optiplex 3020M, tested and confirmed to work with macOS Catalina 10.15.7.
 
-可以正常引导！！！
+可以正常引导！！！但网卡，声卡不正常。
 
 Important BIOS settings
 Download modGRUBShell and place it in the EFI/OC/Tools folder. Add it to the Misc → Tools section of config.plist.
