@@ -72,7 +72,17 @@ Now run one of the following depending on what version of macOS you want(Note th
 create a new simple volume. Make sure it is FAT32 and at least a gigabyte or two big. Name it "EFI".
 Next, go to the root of this USB drive and create a folder called com.apple.recovery.boot. Then move the downloaded BaseSystem or RecoveryImage files. Please ensure you copy over both the .dmg and .chunklist files to this folder
 
+# Mojave (10.14)
+py macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
 
+# Catalina (10.15)
+py macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
+
+# Big Sur (11)
+py macrecovery.py -b Mac-42FD25EABCABB274 -m 00000000000000000 download
+
+# Monterey (12)
+py macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000000000 download
 
 ------------------------------------------------------
 
