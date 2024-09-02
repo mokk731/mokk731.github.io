@@ -293,7 +293,7 @@ Boot into OpenCore and select the modGRUBShell option.
 Enter the following values:
 
 # Disable CFG Lock:
-setup_var 0xD9F 0x0
+setup_var 0xD9E 0x0
 
 # Set DVMT pre-alloc to 64MB:
 setup_var 0x263 0x2
