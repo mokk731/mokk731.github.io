@@ -75,7 +75,7 @@ Next, go to the root of this USB drive and create a folder called com.apple.reco
 py macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300 download
 py macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
 
-# Mojave (10.14)
+# Mojave (10.14)   #####
 py macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
 
 # Catalina (10.15)
