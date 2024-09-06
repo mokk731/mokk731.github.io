@@ -154,7 +154,7 @@ cpu    E3-1225V3
 显卡   核显HD P4600
 声卡   Realtek ALC280   ALC3220
 网卡   RTL8111/RTL8168
-SSD    32G sata ssd
+SSD    120G sata ssd
 bios   AMI uEFI
 
 
