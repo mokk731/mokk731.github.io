@@ -91,6 +91,29 @@ py macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 # Ventura (13)
 py macrecovery.py -b Mac-B4831CEBD52A0C4C -m 00000000000000000 download
 
+
+
+
+
+https://support.apple.com/zh-cn/102662
+如何下载和安装 macOS
+
+https://apps.apple.com/cn/app/macos-mojave/id1398502828?ls=1&mt=12
+macOS Mojave
+
+https://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12
+macOS Catalina
+
+https://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12
+macOS Monterey
+https://divineengine.net/article/creating-a-bootable-installer-for-macos/
+
+下载可引导的 macOS 系统安装镜像及制作安装 U 盘
+InstallESD.dmg 文件就是压缩后带引导的安装镜像了。使用「balenaEtcher」将系统镜像写入 U 盘.
+
+https://jingyan.baidu.com/article/49711c61961428fa451b7c46.html
+如何提取原版镜像中的installESD.dmg文件
+
 ------------------------------------------------------
 
 OpenCore
@@ -118,10 +141,6 @@ iMac15,1 as the machine type. This is the closest Mac configuration to our Hacki
 
 https://www.bilibili.com/read/cv34673546                       ##############
  黑苹果镜像 | 更新至macOS Sonoma 14.5(23F79)正式版 
-
-https://www.bilibili.com/read/cv35927421/                        ##############
-台式机使用RapidEFI一键生成EFI引导文件，成功安装macOS 15 Sequoia
-
 
 
 https://geekdaxue.co/read/hejianzhao@zgnsc5/ygaw0e
@@ -290,8 +309,8 @@ https://github.com/corpnewt/ProperTree
 https://github.com/tbwcjw/Dell-Optiplex-3020M-EFI                           #########
 EFI Files for my Dell Optiplex 3020M. Tested and working with macOS Catalina
 This repository contains EFI files for my Dell Optiplex 3020M, tested and confirmed to work with macOS Catalina 10.15.7.
-
 可以正常引导！！！但网卡，声卡不正常。
+
 
 Important BIOS settings
 Download modGRUBShell and place it in the EFI/OC/Tools folder. Add it to the Misc → Tools section of config.plist.
@@ -402,10 +421,17 @@ MAC OS驱动安装与卸载
 https://heipg.cn/tutorial/applealc-patch.html
 使用 AppleALC 驱动黑苹果声卡
 下载 AppleALC.kext，把文件放到 /EFI/OC/Kexts/ 目录，然后使用你喜欢的编辑器编辑 config.plist 文件，找到以下位置：
-NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args
+NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args  （临时用）
 直接添加启动参数 alcid=1，重启后若没有效果则修改为 alcid=2，以此类推，直到找到适合使用的布局 ID。
 
-ALC280 : 3,4,11,13,15,16,17,18,21
+
+Realtek ALC280 alcid=3，4，11，13，15，16，17,18,21
+
+我用alcid=3，就正常发声。但没有内置。
+
+修改为17，---11(16进制) 声卡有内置+耳机 编辑器编辑 config.plist 文件，找到以下位置：
+
+DP--PciRoot---layout-id  11000000    (正式用)
 
 ----------------------------------------------
 
