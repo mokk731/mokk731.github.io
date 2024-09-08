@@ -106,13 +106,43 @@ macOS Catalina
 
 https://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12
 macOS Monterey
-https://divineengine.net/article/creating-a-bootable-installer-for-macos/
 
-下载可引导的 macOS 系统安装镜像及制作安装 U 盘
-InstallESD.dmg 文件就是压缩后带引导的安装镜像了。使用「balenaEtcher」将系统镜像写入 U 盘.
 
-https://jingyan.baidu.com/article/49711c61961428fa451b7c46.html
-如何提取原版镜像中的installESD.dmg文件
+
+https://support.apple.com/zh-cn/101578
+创建可引导的 macOS 安装器
+
+https://www.cnblogs.com/sysin/p/18241861
+如何创建可引导的 macOS Sequoia 15 安装介质
+
+https://macoshome.com/course/7096.html
+使用终端命令制作macOS安装U盘(可引导启动的macOS系统安装盘)
+
+支持10.13以上版本的Mac请下载：macOS Big Sur、macOS Catalina、macOS Mojave 或 macOS High Sierra 所有从App Store商店下载的镜像都会作为名为“安装 macOS [版本名称]”的 App 下载到你的“应用程序”文件夹里面。如果安装器在下载后打开，直接点击退出不要继续安装。
+
+确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。
+
+sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+
+键入命令后：
+
+按下 Return 键以运行这个命令。
+出现Password提示时，输入你的Mac管理员密码(开机密码)，然后再次按下 Return 键。这个位置输入密码时，“终端”不会显示任何字符。
+出现提示时，请键入 Y 以确认你要抹掉宗卷，然后按下 Return 键运行。在抹掉宗卷的过程中，“终端”会显示进度。
+如果“终端”无法成功完成抹掉操作，请使用“磁盘工具”以“Mac OS 扩展（日志式）”格式抹掉宗卷，然后重新开始。
+宗卷被抹掉后，你可能会看到一条提醒，提示“终端”要访问可移除宗卷上的文件。点按“好”以允许继续拷贝。 
+当“终端”显示操作已完成时，你会在桌面看到一个对应镜像版本的名称盘，例如Install macOS Big Sur，就可以退出“终端”并推出安装U盘了。
+
+启动安装U盘
+
+1.把要重装系统的电脑关机，把制作好的macOS安装u盘插上Mac电脑，
+
+2.然后按下电源键开机，接着马上按住Option键三秒以上再松开；
+
+3.等出现选择界面之后，选择你制作好的安装U盘系统，如果是Big sur 系统，就会显示一个Big sur 圆形图标，选择它按回车键（Return键），开始从安装U盘引导启动了。
+
 
 ------------------------------------------------------
 
@@ -435,11 +465,7 @@ DP--PciRoot---layout-id  11000000    (正式用)
 
 ----------------------------------------------
 
-----------------------------------------------
 
-----------------------------------------------
-
-----------------------------------------------
 
 https://zhiyou.smzdm.com/member/1184503638/article/
 实战黑苹果
