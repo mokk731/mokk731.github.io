@@ -475,6 +475,21 @@ https://www.youtube.com/watch?v=uS3X13naPcM
 解锁BIOS的CFG Lock，完美黑苹果的重要一步，别看步骤多其实特简单
 
 
+--------------------------------------------------------------------------------------------
+
+Mac OS 实用软件；
+
+https://github.com/benbaker76/Hackintool
+Hackintool  The Swiss army knife of vanilla Hackintoshing
+
+https://github.com/exelban/stats
+macOS system monitor in your menu bar
+
+https://github.com/brave/brave-browser
+brave-browser
+
+
+
 
 
 
