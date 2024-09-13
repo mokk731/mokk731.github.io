@@ -10,10 +10,8 @@
 
 #### [v2rayN for win](https://github.com/2dust/v2rayN)
 
-#### [WireGuard.apk](https://mokk731.github.io/apk/Wireguard-1.0.20231018.zip)
 
-
-#### [WireGuard](https://www.wireguard.com/install/)
+#### [WireGuard for win mac Android iOS Ubuntu](https://www.wireguard.com/install/)
 
 #### [V2rayU for mac](https://github.com/yanue/V2rayU)
 
