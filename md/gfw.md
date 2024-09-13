@@ -17,7 +17,7 @@
 
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
-#### Clash
+#### [clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
 
 
 #### [Oblivion VPN.apk](https://github.com/bepass-org/oblivion/releases)
