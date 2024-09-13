@@ -483,10 +483,16 @@ https://github.com/benbaker76/Hackintool
 Hackintool  The Swiss army knife of vanilla Hackintoshing
 
 https://github.com/exelban/stats
-macOS system monitor in your menu bar
+stats  macOS system monitor in your menu bar
 
 https://github.com/brave/brave-browser
 brave-browser
+
+
+https://www.videolan.org/vlc/download-macosx.html
+VLC media playe
+
+
 
 
 
