@@ -6,7 +6,7 @@
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
 
-#### [v2rayNG.apk](https://mokk731.github.io/apk/v2rayNG_v1.6.28_202201.apk)
+#### [v2rayNG.apk](https://github.com/2dust/v2rayNG)
 
 #### [WireGuard.apk](https://mokk731.github.io/apk/Wireguard-1.0.20231018.zip)
 
