@@ -8,6 +8,8 @@
 
 #### [v2rayNG.apk](https://github.com/2dust/v2rayNG)
 
+#### [v2rayN for win](https://github.com/2dust/v2rayN)
+
 #### [WireGuard.apk](https://mokk731.github.io/apk/Wireguard-1.0.20231018.zip)
 
 
