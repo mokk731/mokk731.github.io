@@ -15,6 +15,8 @@
 
 #### [V2rayU for mac](https://github.com/yanue/V2rayU)
 
+#### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
+
 #### Clash
 
 
