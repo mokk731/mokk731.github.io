@@ -33,12 +33,11 @@ TV
 
 my-tv.apk
 https://github.com/lizongying/my-tv/releases
-https://github.com/lizongying/my-tv/blob/main/app/src/main/java/com/lizongying/mytv/TVList.kt
 
 
 BLBL_第三方哔哩哔哩客户端_v1.4.9.apk
 https://github.com/xiaye13579/BBLL
-https://github.com/xiaye13579/BBLL/releases
+
 
 
 小薇直播2.4.0.apk
@@ -86,5 +85,28 @@ https://www.yicai.com/api/dycj/liveIndex.m3u8
 
 
 ####################################################################################
+
+在线音乐
+
+MusicFree
+https://github.com/maotoumao/MusicFree
+https://github.com/maotoumao/MusicFreeDesktop
+
+安装插件
+https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json
+
+QQ音乐
+http://adad23u.appinstall.life/dist/qq/index.js
+
+网易云音乐
+https://gitee.com/raycn120/musicfree/raw/master/netease.js
+
+####################################################################################
+
+####################################################################################
+
+####################################################################################
+
+
 
 
