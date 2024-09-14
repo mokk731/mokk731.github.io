@@ -156,10 +156,16 @@ AdGuard 文档中给出了一些知名的 DNS 服务器供选择。
 根据所在网络环境的不同推荐以下两组支持 ECS 功能的 DNS 服务器。如果有科学魔法爱国上网需求，你应该部署两个 Ad­Guard Home ，通过 DNS 分流才能达到较为理想的防污染和去广告效果。
 中国大陆网络环境推荐选择腾讯 (DNSPod) 和阿里云的公共 DNS 。使用它们你会惊奇的发现偶尔某些不存在的网站都是能正常解析的，只不过解析的结果并不是离你的代理服务器最近的 IP ，所以效果并不理想，而且非常不稳定。
 TIPS: 中国大陆不推荐使用任何海外的 DNS ，因为延迟很高且都受到了不同程度的干扰，可用性不高，强行设置只会得到减速效果或者报错。
-tls://dns.pub
-https://dns.pub/dns-query
-tls://dns.alidns.com
-https://dns.alidns.com/dns-query
+
+DoH: https://doh.pub/dns-query
+     https://120.53.53.53/dns-query
+DoT: tls://dot.pub
+     tls://120.53.53.53
+
+DoH: https://dns.alidns.com/dns-query
+     https://223.5.5.5/dns-query
+DoT: tls://dns.alidns.com
+     tls://223.6.6.6
 
 国际网络环境，比如海外的 VPS 或者给科学魔法爱国上网软件做 DNS ，则推荐使用 Google 和 Quad9 的公共 DNS。给科学魔法爱国上网软件使用的前提是它们必须在魔法名单中。
 tls://dns.google
