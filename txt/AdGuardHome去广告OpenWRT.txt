@@ -24,14 +24,16 @@ https://stgod.com/4697/
 不过在机器性能不错且网络通畅的情况下其实是可以忽略的，都是毫秒级别的差距。
 中国大陆网络环境推荐选择腾讯 (DNS­Pod) 和阿里的公共 DNS 。
 
-tls://dns.pub
-https://dns.pub/dns-query
-tls://dns.alidns.com
-https://dns.alidns.com/dns-query
+DoH: https://doh.pub/dns-query
+     https://120.53.53.53/dns-query
+DoT: tls://dot.pub
+     tls://120.53.53.53
 
 
-https://dns.cloudflare.com/dns-query
-
+DoH: https://dns.alidns.com/dns-query
+     https://223.5.5.5/dns-query
+DoT: tls://dns.alidns.com
+     tls://223.6.6.6
 
 DNS 服务设定
 速度限制：200
