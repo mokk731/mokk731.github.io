@@ -463,6 +463,10 @@ Realtek ALC280 alcid=3，4，11，13，15，16，17,18,21
 
 DP--PciRoot---layout-id  11000000    (正式用)
 
+
+## 我改进的黑苹果EFI
+https://github.com/mokk731/Dell-Optiplex-3020MT-OpenCore-EFI
+
 ----------------------------------------------
 
 
@@ -477,7 +481,7 @@ https://www.youtube.com/watch?v=uS3X13naPcM
 
 --------------------------------------------------------------------------------------------
 
-Mac OS 实用软件；
+Mac OS 实用软件:
 
 https://github.com/benbaker76/Hackintool
 Hackintool  The Swiss army knife of vanilla Hackintoshing
@@ -492,6 +496,8 @@ brave-browser
 https://www.videolan.org/vlc/download-macosx.html
 VLC media playe
 
+https://github.com/yanue/V2rayU
+V2rayU,基于v2ray核心的mac版客户端,用于科学上网
 
 
 
