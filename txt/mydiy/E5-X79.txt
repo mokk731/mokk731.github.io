@@ -326,6 +326,8 @@ R3-3200g    c4t4         5.9                            20.5
 
 http://www.ppnames.com/html/cputianti.html
 2020最新CPU性能排行榜天梯图
+http://www.360doc.com/content/20/1026/12/39305448_942429466.shtml
+https://mokk731.github.io/txt/2020最新CPU性能排行榜天梯图.txt
 
 
 Intel Xeon E5-2670 	     9091
