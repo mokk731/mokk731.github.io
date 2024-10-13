@@ -31,6 +31,7 @@ TV
 
 my-tv.apk
 https://github.com/lizongying/my-tv/releases
+https://github.com/lizongying/my-tv-0
 
 
 BLBL_第三方哔哩哔哩客户端_v1.4.9.apk
