@@ -322,7 +322,7 @@ docker run -itd --name adguard-home \
     -p 853:853/tcp \
     -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/workdir:/opt/adguardhome/work \
     -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/confdir:/opt/adguardhome/conf \
-    --restart unless-stopped \
+    --restart always \
     adguard/adguardhome:v0.107.52
 
 请根据你的网络实际情况调整--subnet、--gateway以及--opt parent参数。
