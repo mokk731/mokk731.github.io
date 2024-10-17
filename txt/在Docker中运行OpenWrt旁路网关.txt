@@ -8,6 +8,17 @@ https://mlapp.cn/376.html
 众所周知，OpenWrt 是面向嵌入型设备的 Linux 发行版，所以 OpenWrt 系统运行时的资源占用率会很低。而树莓派的硬件性能要比普通路由器要高很多。虽然树莓派在硬件配置上的绝对优势能让 OpenWrt 有更大的施展空间，但相应的，硬件上的优势也带来了资源的浪费（OpenWrt 在树莓派上正常运行时，资源占用率只有不到 1/10）。再加上 OpenWrt 的可扩展性不是很强，所以很多能在 Raspbian/Debian 上能做的事情在 OpenWrt 上往往无法实现。
 
 
+
+https://github.com/zzsrv/OpenWrt-Docker
+https://hub.docker.com/r/zzsrv/openwrt
+
+docker pull zzsrv/openwrt:arm64      ******
+
+armv8  =aarch64  =arm64
+
+------------------------------------------------------------------------------------------
+
+
 步骤开始
 
 成功登陆到树莓派的 SSH 后，在拉取镜像之前，我们还需要进行一些额外的工作：
