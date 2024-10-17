@@ -11,12 +11,12 @@ https://mlapp.cn/376.html
 
 https://github.com/zzsrv/OpenWrt-Docker
 https://hub.docker.com/r/zzsrv/openwrt
-docker pull zzsrv/openwrt:arm64             ************
+docker pull zzsrv/openwrt:arm64                   *******
 
 
 https://github.com/14790897/OpenWrt-In-Docker
 https://hub.docker.com/r/14790897/openwrt-mini
-docker pull 14790897/openwrt-mini:rpi4
+docker pull 14790897/openwrt-mini:rpi4           ************
 
 
 
