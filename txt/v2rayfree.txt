@@ -8,6 +8,8 @@ aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FpYm9ib3h4L3YycmF5ZnJlZS9tYWluL3Yy
 
 aHR0cHM6Ly9yYXcuZ2l0bWlycm9yLmNvbS9haWJvYm94eC92MnJheWZyZWUvbWFpbi92Mg==
 
+c3Nyc3ViL3Nzcg==
+
 clash订阅链接：
 aHR0cHM6Ly9naXRodWIuY29tL2FpYm9ib3h4L2NsYXNoZnJlZS9ibG9iL21haW4vY2xhc2gueW1s
 
@@ -17,3 +19,6 @@ aHR0cHM6Ly9naXRodWIuY29tL2FpYm9ib3h4L2NsYXNoZnJlZS9ibG9iL21haW4vY2xhc2gueW1s
 
 
 https://github.com/Kuingsmile/clash-core/releases
+
+
+
