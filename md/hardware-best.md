@@ -9,7 +9,7 @@
 |Mesh组网:         | 小米AX3000T, 小米WR30U,..... 锐捷雪豹X30E电竞路由器                               |
 |NAS:             |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,   OrangePi-Zero3-h618          |
 |电视盒子：         | 外贸盒子HK1 box ,  魔百盒CM-311 ,                                                | 
-|看电视app：       | 小薇直播,,       TV-box ,    灵犀直播TV  ,  看看TV  ,    my-tv                     |
+|看电视app：       | 小薇直播,,TV-box  灵犀直播TV ,  看看TV  , my-tv  ,荐片pc+app                   |
 |在线免费电影：     | www.smdyy.cc 神马电影网 ,  www.pkmp4.xyz 片库 ,  www.dygod.net 电影天堂    ,       |
 | 耳机：           |      飞利浦9500                                                                 | 
 | 万用表:          |  DT9205A   ,     胜利890D,    优利德UT39A+                                      |
