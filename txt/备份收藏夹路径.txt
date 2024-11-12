@@ -16,13 +16,11 @@ C:\Users\Administrator\AppData\Local\BraveSoftware\Brave-Browser\User Data\Defau
 
 360浏览器的默认收藏夹路径：
 https://browser.360.cn/se/help/recoverbooks.html
-
 （1）360default_ori_2024_02_23.favdb含有ori字符的文件是不加密的，复制到别的电脑，也可以恢复出来数据。
 （2）360sefav_new_2024_02_23.favdb含有new字符的文件是加密的，重装系统或复制到别的电脑，无法恢复出来数据。
 
 
 https://www.ghxi.com/jc202308126.html
-
 C:\Users\用户名\AppData\Roaming\360se6\User Data\Default\
 其中，"用户名"是您登录电脑的账户名，您需要根据自己的实际情况进行替换。
 在这个文件夹路径中，您可以找到一个名为"360Bookmarks"的文件，这就是360浏览器的收藏夹文件。
