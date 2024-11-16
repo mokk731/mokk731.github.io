@@ -1,5 +1,5 @@
 Updated list of public BitTorrent trackers
-Last update 2024/06/20:
+Last update 2024/11/16
 
 https://github.com/ngosang/trackerslist
 https://ngosang.github.io/trackerslist/
@@ -16,30 +16,43 @@ https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_https.txt
 -------------------------------------------------------------------
 
 
-
 udp://93.158.213.92:1337/announce
+udp://23.140.248.9:1337/announce
+udp://186.10.170.97:1337/announce
 udp://185.243.218.213:80/announce
 udp://91.216.110.53:451/announce
-udp://104.244.77.87:6969/announce
-udp://23.153.248.83:6969/announce
+udp://23.157.120.14:6969/announce
+udp://45.154.96.35:6969/announce
+udp://51.159.89.93:6969/announce
 udp://45.9.60.30:6969/announce
-udp://37.27.4.53:6969/announce
-udp://94.243.222.100:6969/announce
 udp://208.83.20.20:6969/announce
-udp://125.227.79.123:80/announce
-udp://156.234.201.18:80/announce
-udp://135.125.202.143:6969/announce
+http://34.94.76.146:2701/announce
+http://34.94.76.146:2710/announce
+http://34.94.76.146:11450/announce
+http://34.94.76.146:6969/announce
+http://34.94.76.146:2710/announce
+http://34.94.76.146:80/announce
+http://35.227.59.57:2710/announce
+http://35.227.59.57:80/announce
+http://34.94.76.146:80/announce
+http://34.94.76.146:2710/announce
 
-https://tracker.gbitt.info:443/announce
 https://tracker.tamersunion.org:443/announce
-https://tracker.renfei.net:443/announce
-https://tracker.loligirl.cn:443/announce
-https://tracker.yemekyedim.com:443/announce
-https://tracker.lilithraws.org:443/announce
-https://tracker.gcrenwp.top:443/announce
-https://tracker.cloudit.top:443/announce
 https://www.peckservers.com:9443/announce
-https://trackers.run:443/announce
+https://tracker.yemekyedim.com:443/announce
 https://tracker.pmman.tech:443/announce
+https://tracker.itscraftsoftware.my.id:443/announce
 https://tracker.ipfsscan.io:443/announce
+https://tracker.cloudit.top:443/announce
+https://tracker.bt4g.com:443/announce
+https://tracker-zhuqiy.dgj055.icu:443/announce
+https://tr.zukizuki.org:443/announce
+https://sparkle.ghostchu-services.top:443/announce
+https://api.ipv4online.uk:443/announce
+https://tracker.lilithraws.org:443/announce
+https://tracker.leechshield.link:443/announce
+https://tracker.gcrenwp.top:443/announce
+
+https://tr.nyacat.pw:443/announce
+
 
