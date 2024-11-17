@@ -3,9 +3,8 @@
 # openwrt--- /etc/init.d/dnsmasq restart           vi /etc/myhosts
 
 # nslookup raw.githubusercontent.com 119.29.29.29
-# nslookup raw.githubusercontent.com 116.116.116.116
 # nslookup github.com 119.29.29.29
-# nslookup github.com 116.116.116.116
+# nslookup -qt=A github.com 119.29.29.29    A 地址记录(Ipv4) 
 
 # https://ping.chinaz.com
 
@@ -18,13 +17,26 @@
 
 ########################################################################
 
-# update 202408
+# update 202411
 
 # GitHub Start
-20.205.243.166     gist.github.com
-20.205.243.166     github.com
-20.205.243.166     www.github.com
-185.199.111.133    raw.githubusercontent.com
+20.205.243.166  github.com
+20.205.243.166  gist.github.com
+151.101.77.194  github.global.ssl.fastly.net
+185.199.109.153  assets-cdn.github.com
+185.199.108.133  raw.githubusercontent.com
+
+185.199.108.133  cloud.githubusercontent.com
+185.199.108.133  camo.githubusercontent.com
+185.199.108.133  avatars0.githubusercontent.com
+185.199.108.133  avatars1.githubusercontent.com
+185.199.108.133  avatars2.githubusercontent.com
+185.199.108.133  avatars3.githubusercontent.com
+185.199.108.133  avatars4.githubusercontent.com
+185.199.108.133  avatars5.githubusercontent.com
+185.199.108.133  avatars6.githubusercontent.com
+185.199.108.133  avatars7.githubusercontent.com
+185.199.108.133  avatars8.githubusercontent.com
 
 # debian omv
 151.101.90.132   httpredir.debian.org
