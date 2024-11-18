@@ -72,6 +72,7 @@ macOS BigSur 11.0安装中常见的问题及解决方法
 ------------------------------------------------------
 
 Downloading macOS
+
 https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html
 
 https://github.com/acidanthera/OpenCorePkg/releases
@@ -90,14 +91,14 @@ py macrecovery.py -b Mac-BE088AF8C5EB4FA2 -m 00000000000J80300 download
 # Mojave (10.14)   
 py macrecovery.py -b Mac-7BA5B2DFE22DDD8C -m 00000000000KXPG00 download
 
-# Catalina (10.15)   ####################
+# Catalina (10.15)         ####################
 py macrecovery.py -b Mac-00BE6ED71E35EB86 -m 00000000000000000 download
 py macrecovery.py -b Mac-CFF7D910A743CAAF -m 00000000000PHCD00 download
 
 # Big Sur (11)
 py macrecovery.py -b Mac-2BD1B31983FE1663 -m 00000000000000000 download
 
-# Monterey (12)    ####################
+# Monterey (12)           ####################
 py macrecovery.py -b Mac-E43C1C25D4880AD6 -m 00000000000000000 download
 
 # Ventura (13)
@@ -159,6 +160,7 @@ sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstall
 ------------------------------------------------------
 
 OpenCore
+
 https://dortania.github.io/OpenCore-Install-Guide/
  OpenCore Install Guide
 OpenCore Configurator 2.76.1.0 
@@ -191,6 +193,7 @@ https://geekdaxue.co/read/hejianzhao@zgnsc5/ygaw0e
 ------------------------------------------------------
 
 我的硬件表：
+
 cpu    E3-1225V3
 主板   dell optiplex 3020mt 主板   H81  C220
 内存   DDR3 1333 2G*2
@@ -252,22 +255,18 @@ OCAuxiliaryTools（简称OCAT或ocat） = Config.plist编辑器 + Config.plist�
 
 
 
--------------------------------------
-
-使用DiskGenius对Mac系统盘进行分区 
+8.使用DiskGenius对Mac系统盘进行分区 
 
 我们要新建一个大于等于300MB的ESP分区盘，这样可以更好的引导Windows 10/11和macOS（黑苹果）。
 注意：如果你的ESP分区盘容量很小的话，可能会导致进不去macOS（黑苹果）系统的。 
 不勾选建立MSR分区。 
 
 
--------------------------------------
+9.替换烧录入U盘内的镜像EFI引导文件夹
 
-替换烧录入U盘内的镜像EFI引导文件夹
-
-1.选择刚才能烧录成功的USB接口，将U盘插入电脑。
-2.找到OC分区，选中分区内的所有文件，鼠标右键点击强制删除删掉，包括EFI引导文件夹。 
-3.将使用RapidEFI软件制作或者我帮忙寻找制作的黑苹果EFI引导文件夹拖入OC分区内，就刚才删除的位置。
+  1.选择刚才能烧录成功的USB接口，将U盘插入电脑。
+  2.找到OC分区，选中分区内的所有文件，鼠标右键点击强制删除删掉，包括EFI引导文件夹。 
+  3.将使用RapidEFI软件制作或者我帮忙寻找制作的黑苹果EFI引导文件夹拖入OC分区内，就刚才删除的位置。
 
 
 
@@ -383,6 +382,7 @@ When macOS installation is completed. Use a tool like EFIAgent to mount the EFI 
 
 ------------------------------------------------
 
+黑苹果三码
 
 https://github.com/Kinetik/Dell-Optiplex-3020-sff-OC
 This repository contains a fully working (with standard hardware) EFI package with you can use to install all macOS versions up to Big Sur.
@@ -415,6 +415,7 @@ GenSMBIOS 生成SMBIOS
 
 https://bbs.pcbeta.com/viewthread-1094423-1-1.html
  Mac OS硬件驱动(.kext)安装方法
+
 我当初找到了 T43 用的 Broadcomd 5751 的kext档案 AppleBCM5751Ethernet.kext
 我以他为例安装入系统内的步骤如下：
 1. 打开终端：
@@ -458,6 +459,7 @@ MAC OS驱动安装与卸载
 
 https://heipg.cn/tutorial/applealc-patch.html
 使用 AppleALC 驱动黑苹果声卡
+
 下载 AppleALC.kext，把文件放到 /EFI/OC/Kexts/ 目录，然后使用你喜欢的编辑器编辑 config.plist 文件，找到以下位置：
 NVRAM → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → boot-args  （临时用）
 直接添加启动参数 alcid=1，重启后若没有效果则修改为 alcid=2，以此类推，直到找到适合使用的布局 ID。
