@@ -75,13 +75,14 @@ KMS 激活 Windows 10 企业版 LTSC 2019    ##############
 
 2, Enterprise LTSC 2019激活
 
-打开Windows PowerShelll
+打开Windows PowerShelll 
 
 slmgr /ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D             ##############
 
-slmgr /skms 192.168.11.1
+slmgr /skms win.kms.pub                              ##############
+或  slmgr /skms 192.168.11.1
 
-slmgr /ato
+slmgr /ato                                          ##############
 
 
 -----------------------------------------------------
@@ -89,8 +90,18 @@ slmgr /ato
 适用于windows && office 可用kms服务器激活地址汇总
 https://cloud.tencent.com/developer/article/1939873
 
+KMS服务器排行榜
+https://www.kms.pub/rank.html
+
+检测KMS服务是否正常运行
+https://www.kms.pub/check.html
+
 
 目前可用kms服务器地址汇总、可同时激活Windows和office
+
+win.kms.pub
+kms.dun.pub
+
 
 kms.03k.org
 kms.chinancce.com
@@ -100,44 +111,37 @@ kms.luochenzhimu.com
 kms8.MSGuides.com
 kms9.MSGuides.com
 
-kms可用性检测网址“https://www.kms.pub/check.html”
+
 
 
 
 ---------------------------------
 
-本站已收录KMS服务器排行榜 202310
+本站已收录KMS服务器排行榜 202411
 https://www.kms.pub/rank.html
 
 win.kms.pub	
-kms.xingez.me	
-iwangzhu.cn	
-kms.itsjzx.com	
-kms.idina.cn	
-xincheng213618.cn	
-nas.jszjcc.com	
-kms.jszjcc.com	
 kms.dun.pub	
-windows.kms.app	
-kms.6yit.com
-kms.sixyin.com	
 kms.000606.xyz	
-kms.zhi.fun	
-kms.boiling.top	
-kms.moeyuuko.com
+xincheng213618.cn	
+kms.idina.cn	
+win.xdym11235.com	
+kms.xuanlove.cn	
+ato.sheldon11.xyz	
 kms.sevenxu.cc	
-kms.moeyuuko.top	
-kms.cgtsoft.com	
 kms.hmg.pw
-luckyfanly.top	
-kms.wyxnb.com	
+kms.ghxi.com	
+kms.ietsk.com	
+kms.zhi.fun	
+windows.kms.app	
+kms.6yit.com	
+kms.boiling.top	
+livejq.top	
 kms.back2me.cn	
+kms.xingez.me	
 kms.iddddg.com	
-test.kms.pub	
-api.lpv4.cn	
-kms.livedns.cn	
-kms.cary.cc	
-kms.xiaohuai.org
+loongcn777.top	
+kms.vmem.top
 
 
 
