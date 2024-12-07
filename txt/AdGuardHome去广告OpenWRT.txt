@@ -5,13 +5,18 @@ https://cdn.jsdelivr.net/gh/sbwml/halflife-list@master/ad.txt
 ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则 
 
 
-EasylistChina    ****
+EasylistChina    
 https://easylist-downloads.adblockplus.org/easylistchina.txt
 
-anti-AD 
+anti-AD    ****
 https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
 anti-AD致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole等优秀的网络组件。
 
+AWAvenue 秋风广告规则     ****
+可以拦截提瓦特大陆现有九成以上的广告sdk
+烦人的摇一摇广告不见了，订阅号列表和文中文末的广告流无法加载，自动播放的广告视频直接绝迹，电视盒子/智能电视的开机广告消失，
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+https://gcore.jsdelivr.net/gh/TG-Twilight/AWAvenue-Ads-Rule@main/AWAvenue-Ads-Rule.txt
 
 
 ----------------------------------------------------------------
