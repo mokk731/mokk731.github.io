@@ -123,6 +123,18 @@ vim  nano /etc/docker/daemon.json
    ]
 }
 
+--------------------------------
+202501
+
+{
+  "data-root": "/var/lib/docker",
+  "registry-mirrors": [
+     "https://dockerhub.anzu.vip",
+     "https://docker.jsdelivr.fyi",
+     "https://docker.adysec.com"
+   ]
+}
+
 
 
 ------------------------------------------------------------------------
