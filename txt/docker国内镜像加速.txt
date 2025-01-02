@@ -95,7 +95,7 @@ docker.adysec.com
 
 ----------------------------------------------------------------------
 
-2.Ubuntu中添加镜像加速    ---好像omv6用不了
+2.Ubuntu中添加镜像加速    
 
 创建或修改/etc/docker/daemon.json文件
 默认没有daemon文件，先创建。
@@ -137,7 +137,7 @@ vim  nano /etc/docker/daemon.json
 }
 
 --------------------------------
-202501
+202501  -omv6
 
 {
   "data-root": "/var/lib/docker",
