@@ -73,6 +73,13 @@ sudo docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest      ********
 "docker.registry.cyou"     "dockerhub.anzu.vip"
 
 
+202501镜像加速：
+
+dockerhub.anzu.vip
+docker.jsdelivr.fyi
+docker.adysec.com
+
+
 ----------------------------------------------------------------------
 
 2.Ubuntu中添加镜像加速    ---好像omv6用不了
