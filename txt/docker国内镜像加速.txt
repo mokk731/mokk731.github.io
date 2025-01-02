@@ -8,6 +8,10 @@ https://github.com/DaoCloud/public-image-mirror
 https://github.com/cmliu/CF-Workers-docker.io
 
 
+https://xuanyuan.me/blog/archives/1154
+Docker/DockerHub 国内镜像源/加速列表（2025年 1月1日更新-长期维护）
+
+
 ------------------------------------------------------------------------
 
 1.摘要
@@ -78,6 +82,15 @@ sudo docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest      ********
 dockerhub.anzu.vip
 docker.jsdelivr.fyi
 docker.adysec.com
+
+
+2025年 1月1日更新-长期维护
+
+1 月 1 日确认可用：https://docker.1ms.run
+11 月 21 日新增镜像：https://docker.xuanyuan.me
+10 月 09 日 确认可用镜像：https://docker.rainbond.cc
+10 月 09 日 确认可用镜像：https://docker.udayun.com
+10 月 21 日新增镜像：https://xdark.top
 
 
 ----------------------------------------------------------------------
