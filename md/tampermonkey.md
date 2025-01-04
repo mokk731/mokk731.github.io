@@ -18,7 +18,7 @@
 ## [greasyfork提供用户脚本的网站](https://greasyfork.org/zh-CN/scripts)
 
 
-#### [Simple-YouTube-Age-Restriction-Bypass](https://mokk731.github.io/ziprar/Greasy%20Fork/Simple-YouTube-Age-Restriction-Bypass.user.js)
+#### [Simple-YouTube-Age-Restriction-Bypass](https://github.com/zerodytrash/Simple-YouTube-Age-Restriction-Bypass/)
 
 
 #### [YouTube Fixed Video Quality](https://mokk731.github.io/ziprar/Greasy%20Fork/YouTube%20Fixed%20Video%20Quality.1.1.js)
