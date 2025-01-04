@@ -32,6 +32,7 @@
 
 #### [本地 YouTube 下載器](https://mokk731.github.io/ziprar/Greasy%20Fork/%E6%9C%AC%E5%9C%B0%20YouTube%20%E4%B8%8B%E8%BC%89%E5%99%A80.9.54.js)
 
+#### [bilibili 页面净化大师](https://greasyfork.org/zh-CN/scripts/479861-bilibili-%E9%A1%B5%E9%9D%A2%E5%87%80%E5%8C%96%E5%A4%A7%E5%B8%88)
 
 
 
