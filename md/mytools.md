@@ -85,7 +85,7 @@
 
 #### [电影天堂](https://www.dygod.net/html/gndy/)
 
-#### [磁力狗-ciligou.top](http://clg34.top/)
+#### [磁力猫](https://rlytxykg.clm447.buzz/)
 
 #### [SkrBT-skrso.link](https://skrbtyx.top/)
 
