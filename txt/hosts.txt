@@ -12,6 +12,7 @@
 # https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
 # https://raw.hellogithub.com/hosts
 # bgithub.xyz 是一个对于 GitHub.com 的镜像加速器
+# raw.gitmirror.com  是一个对于 raw.githubusercontent.com 的镜像加速器
 
 
 
