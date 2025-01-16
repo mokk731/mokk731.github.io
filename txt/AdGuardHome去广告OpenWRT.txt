@@ -32,8 +32,10 @@ https://stgod.com/4697/
 中国大陆网络环境推荐选择腾讯 (DNS­Pod) 和阿里的公共 DNS 。
 
 DoH: https://doh.pub/dns-query
-     https://120.53.53.53/dns-query
+     https://1.12.12.12/dns-query
+     https://120.53.53.53/dns-query     
 DoT: tls://dot.pub
+     tls://1.12.12.12
      tls://120.53.53.53
 
 
