@@ -36,7 +36,7 @@ my-tv.apk
 https://github.com/lizongying/my-tv-0
 
 
-BLBL_第三方哔哩哔哩客户端_v1.4.9.apk
+BLBL_第三方哔哩哔哩客户端
 https://github.com/xiaye13579/BBLL
 
 
@@ -45,12 +45,12 @@ https://github.com/xiaye13579/BBLL
 
 灵犀直播TV_1.0.115
 
-美家市场_v3.2.4
+美家市场
+https://www.mjapk.com
 
-当贝市场_4.4.0_288.apk
+当贝市场
 
 当贝桌面_4.1.6.apk
-
 
 Kodi_v19.0_32.apk
 
