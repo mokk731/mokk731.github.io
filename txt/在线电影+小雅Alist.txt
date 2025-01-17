@@ -21,11 +21,6 @@ http://home.openhd.cn:5789
 
 在线影院
 
-金曼TV 
-https://jinmantv.com/
-
-freeok
-https://www.freeok.vip/
 
 荐片pc+app
 https://jianpianyy.com/
@@ -38,7 +33,6 @@ https://www.jianpian9.com
 TV
 
 my-tv.apk
-https://github.com/lizongying/my-tv/releases
 https://github.com/lizongying/my-tv-0
 
 
