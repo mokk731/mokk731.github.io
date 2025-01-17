@@ -5,6 +5,8 @@
 
 
 可以公网使用的免费xiaoya：            ##############
+Last update 2025/01
+
 
 http://lisandong.cn:5678
 https://xiaoya.uncley.cc
@@ -14,7 +16,6 @@ https://alist.real9.cn
 
 http://home.openhd.cn:5789
 
-202501
 
 ####################################################################################
 
@@ -41,7 +42,7 @@ https://github.com/xiaye13579/BBLL
 
 
 
-小薇直播2.4.0.apk
+小薇直播_2.4.0.apk
 
 灵犀直播TV_1.0.115
 
