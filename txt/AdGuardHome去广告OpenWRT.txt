@@ -22,7 +22,7 @@ https://github.com/217heidai/adblockfilters
 规则1
 https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
 https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockdns.txt
-规则2 仅适用浏览器插件
+规则2 为规则1的补充，仅适用浏览器插件
 https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
 https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockfilters.txt
 
