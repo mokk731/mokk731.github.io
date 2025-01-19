@@ -36,6 +36,10 @@ ad.txt：[推荐移动端]合并自乘风视频广告过滤规则、EasylistChin
 EasylistChina    
 https://easylist-downloads.adblockplus.org/easylistchina.txt
 
+
+adblock检测地址    ********
+https://tracksong.github.io/tools/adblock
+
 ----------------------------------------------------------------
 
 https://stgod.com/4697/
