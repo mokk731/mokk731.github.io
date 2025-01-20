@@ -1,57 +1,75 @@
 #EXTM3U
 
-#EXTINF:-1 ,上海第一财经360p 20240826
+#EXTINF:-1 ,湖南卫视 高清
+http://112.89.121.21:80/PLTV/88888973/224/3221225716/10000100000000060000000000334645_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7859,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmYFxT4GHZGgEnkV4czc5R/:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,浙江卫视 高清
+http://112.89.121.21:80/PLTV/88888973/224/3221225713/10000100000000060000000000334649_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7858,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowkN8TjPTKRAZyLEJcForH/D:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,江苏卫视 高清
+http://112.89.121.21:80/PLTV/88888973/224/3221225710/10000100000000060000000000334652_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7859,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCownJ6J/Ye1LAzaoieL+BqFym:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,北京卫视 高清
+http://112.89.121.23:80/PLTV/88888973/224/3221225706/10000100000000060000000000334665_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7956,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCownNYKZoZO6v4p4y2xIBed7k:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,东方卫视 高清
+http://112.89.121.23:80/PLTV/88888973/224/3221225707/10000100000000060000000000334659_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7956,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmhHVtq6Cb/lStC/0k4vNUC:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,广东卫视
+http://112.89.121.21:80/PLTV/88888973/224/3221225766/10000100000000060000000000337111_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2420,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowniek5vI5PoY2MhAg+QWDrm:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,CCTV1 高清
+http://112.89.121.23:80/PLTV/88888973/224/3221225768/10000100000000060000000000337107_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7818,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlhOLuRCiHgtW469LYGcBty:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,CCTV2 高清
+http://112.89.121.23:80/PLTV/88888973/224/3221225767/10000100000000060000000000337109_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7808,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlG9GiJF+eXKeOHX9LOxR9k:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,CCTV5+ 高清
+http://112.89.121.23:80/PLTV/88888973/224/3221225705/10000100000000060000000000334542_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7819,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCown2FDVNG+ZNzdxPe0phXLWm:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,湖南卫视
+http://112.89.121.24:80/PLTV/88888973/224/3221225682/10000100000000060000000000333514_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2574,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmHugZEeK9ErtVCfFepUxsf:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,浙江卫视
+http://112.89.121.22:80/PLTV/88888973/224/3221225684/10000100000000060000000000334089_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2576,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowkt1P84U1FTH1Fp2yP15/lF:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,东方卫视
+http://112.89.121.21:80/PLTV/88888973/224/3221225686/10000100000000060000000000333818_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2574,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowk9f/iY6l7W4M0jcF7jSrjf:20181110091937,END&GuardEncType=2
+
+
+#EXTINF:-1 ,上海第一财经360p 202411
 https://www.yicai.com/api/dycj/liveIndex.m3u8
 
 #EXTINF:-1 ,上海第一财经 1
-http://58.41.27.144:18888/udp/239.45.3.211:5140
+http://125.123.121.86:4022/udp/233.50.200.125:5140
 #EXTINF:-1 ,上海第一财经  2
-http://58.37.132.119:8888/udp/239.45.3.211:5140
-#EXTINF:-1 ,上海第一财经  3
 http://php.jdshipin.com:8880/itv6.php?cid=bestzb&id=5000000010000027146
-#EXTINF:-1 ,上海第一财经  4
-http://58.38.162.136:5002/udp/239.45.3.211:5140
-#EXTINF:-1 ,上海第一财经  5
-http://114.95.242.92:7086/udp/239.45.3.211:5140
+#EXTINF:-1 ,上海第一财经  3
+http://lu.wqwqwq.sbs/itv/5000000010000027146.m3u8?cdn=bestzb
+
 
 
 
 #EXTINF:-1 ,CCTV-13新闻 1
-http://www.dsmcloud.top:8888/udp/239.81.0.206:4056
+http://219.156.141.236:7000/rtp/225.1.4.113:1293
 #EXTINF:-1 ,CCTV-13新闻 2
-http://43.141.130.51/dongfang5g-mobile-v51-live.bestvcdn.com.cn/SB/live/program/live/cctv13xwhd8m/8000000/mnf.m3u8
+http://113.205.49.165:8089/newlive/live/hls/14/live.m3u8
 #EXTINF:-1 ,CCTV-2财经  1 
-http://171.117.202.169:8082/rtp/226.0.2.19:8064
+http://60.169.117.157:58888/rtp/238.1.78.235:7752
 #EXTINF:-1 ,CCTV-2财经  2
-https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
+http://113.205.49.165:8089/newlive/live/hls/3/live.m3u8
 
 
 #EXTINF:-1 ,湖南卫视高清1
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225610/index.m3u8
+http://171.213.131.78:55555/udp/239.93.0.88:5140
 #EXTINF:-1 ,湖南卫视高清2
-http://222.241.154.37:9901/tsfile/live/23019_1.m3u8
+http://113.205.49.165:8089/newlive/live/hls/22/live.m3u8
 #EXTINF:-1 ,湖南卫视高清3
-http://123.184.28.50/hlslive-tx-cdn.ysp.cctv.cn/048/2024054803.m3u8
+http://cc-ynbit-wszhibo.ifengli.com:2000/live/hnws-hd/2500.m3u8?innersid=11355377224826061225
 
 #EXTINF:-1 ,BBC News Asia Pacific (720p)
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
 
 #EXTINF:-1 ,鳳凰衛視中文1
-http://64.140.167.170:8080/live/xsjgat2/hls.m3u8
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw
 #EXTINF:-1 ,鳳凰衛視中文2
-http://tvbox.netsite.cc/proxy/1650326537/1650326537.m3u8
+http://50.7.234.10:8278/phoenixtv_hd/playlist.m3u8?tid=MF6F2163882521638825&ct=19249&tsum=2375037c2689c4190d14c8a52bc35c83
 #EXTINF:-1 ,鳳凰衛視資訊1
-http://116.162.6.191/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226320/index.m3u8
+http://lu.wqwqwq.sbs/rptv/HD-10000k-1080P-fhzixun5s.m3u8?license=cntv
 #EXTINF:-1 ,鳳凰衛視資訊2
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 ,鳳凰衛視資訊3
-http://125.210.150.58:9090/live/hszx-fhzx-h264.m3u8
-
-
-#EXTINF:-1 ,TVBS新聞1 
-https://z88.ubtvfans.com/live/rx5/2736/be2d52910873cb20d510f4f1ef0804ba/index.m3u8
+http://210.210.155.35/uq2663/h/h157/index2.m3u8
 #EXTINF:-1 ,TVBS
-https://z88.ubtvfans.com/live/rx1/2273/d72f24016c5ba7087527fb648d02969a/index.m3u8
+http://61.221.215.25:8800/hls/9/index.m3u8
 
 
 #EXTINF:-1 ,点掌财经 1
@@ -60,8 +78,3 @@ http://tvbox.netsite.cc/proxy/1577752441/1577752441.m3u8
 https://volcanopull.aniu.tv/live/aniu2/index.m3u8
 #EXTINF:-1 ,点掌财经 3
 https://wsvideo.aniu.tv/live/aniu/playlist.m3u8
-
-#EXTINF:-1 ,CCTV1综合 
-https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
-#EXTINF:-1 ,CCTV5体育
-https://node1.olelive.com:6443/live/CCTV5HD/hls.m3u8
