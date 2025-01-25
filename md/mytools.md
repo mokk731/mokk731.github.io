@@ -103,7 +103,7 @@
 
 ## IPTV
 
-#### [自制卫视iptv电视源.m3u](https://mokk731.github.io/txt/自制卫视iptv电视源.m3u.txt)
+#### [自制卫视iptv电视源.m3u](https://mokk731.github.io/txt/自制卫视iptv电视源.m3u)
 
 #### [iptv电视源](http://tonkiang.us)
 
