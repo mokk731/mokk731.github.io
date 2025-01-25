@@ -96,6 +96,7 @@ https://github.com/nature2608/IPTV2M3U
 
 广东联通iptv
 https://github.com/qcgzxw/MyIPTV/blob/main/%E5%B9%BF%E5%B7%9E%E8%81%94%E9%80%9AIPTV.m3u8
+https://github.com/qcgzxw/MyIPTV
 
 多省iptv
 https://github.com/wcb1969/iptv
