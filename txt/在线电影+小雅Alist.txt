@@ -91,6 +91,14 @@ http://tonkiang.us
 https://www.yicai.com/api/dycj/liveIndex.m3u8
 
 
+广东移动iptv一键转m3u文件 
+https://github.com/nature2608/IPTV2M3U
+
+广东联通iptv
+https://github.com/qcgzxw/MyIPTV/blob/main/%E5%B9%BF%E5%B7%9E%E8%81%94%E9%80%9AIPTV.m3u8
+
+多省iptv
+https://github.com/wcb1969/iptv
 
 ####################################################################################
 
