@@ -104,6 +104,7 @@ https://github.com/wcb1969/iptv
 iptv-checker
 适用于Docker & Desktop & & CMD的IPTV检查工具
 https://github.com/zhimin-dev/iptv-checker
+https://hub.docker.com/r/zmisgod/iptvchecker
 
 ####################################################################################
 
