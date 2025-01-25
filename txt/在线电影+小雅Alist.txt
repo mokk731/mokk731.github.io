@@ -82,7 +82,7 @@ zbefine/iptv     https://github.com/zbefine/iptv/blob/main/iptv.m3u
 
 
 自制卫视iptv电视源.m3u
-https://mokk731.github.io/txt/%E8%87%AA%E5%88%B6%E5%8D%AB%E8%A7%86iptv%E7%94%B5%E8%A7%86%E6%BA%90.m3u.txt
+https://mokk731.github.io/txt/%E8%87%AA%E5%88%B6%E5%8D%AB%E8%A7%86iptv%E7%94%B5%E8%A7%86%E6%BA%90.m3u
 
 
 ***
