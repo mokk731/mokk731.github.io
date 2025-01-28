@@ -77,7 +77,12 @@ China	639	https://iptv-org.github.io/iptv/countries/cn.m3u
 Hong Kong  21	https://iptv-org.github.io/iptv/countries/hk.m3u
 Taiwan	76     https://iptv-org.github.io/iptv/countries/tw.m3u
 
-zbefine/iptv     https://github.com/zbefine/iptv/blob/main/iptv.m3u
+zbefine/iptv     
+https://github.com/zbefine/iptv/blob/main/iptv.m3u
+
+suxuang/myIPTV
+https://github.com/suxuang/myIPTV
+https://github.com/suxuang/myIPTV/blob/main/ipv6.m3u
 
 
 
