@@ -28,11 +28,39 @@
 
 
 #### [文本选中复制](https://mokk731.github.io/ziprar/Greasy%20Fork/%E6%96%87%E6%9C%AC%E9%80%89%E4%B8%AD%E5%A4%8D%E5%88%B66.1.15.js)
+    https://greasyfork.org/scripts/405130
+    https://github.com/WindrunnerMax/TKScript
 
 
 #### [本地 YouTube 下載器](https://mokk731.github.io/ziprar/Greasy%20Fork/%E6%9C%AC%E5%9C%B0%20YouTube%20%E4%B8%8B%E8%BC%89%E5%99%A80.9.54.js)
+    https://greasyfork.org/zh-CN/scripts/481961-youtube-tools
 
 #### [bilibili 页面净化大师](https://greasyfork.org/zh-CN/scripts/479861-bilibili-%E9%A1%B5%E9%9D%A2%E5%87%80%E5%8C%96%E5%A4%A7%E5%B8%88)
+    https://github.com/festoney8/bilibili-cleaner
+    https://greasyfork.org/zh-CN/scripts/479861
+
+## FirefoxPortable扩展插件:   
+    Adguard,     
+    Gproxy Plus,     
+    FoxyProxy Basic  , 
+    Reload Every    ,
+    Tampermonkey
+
+    
+## Brave-Browser Chrome扩展插件:
+    Tampermonkey,   
+    Proxy Swithysharp,    
+    Adguard ,   
+    Auto Quality for YouTube.,,,,,   ###
+    YouTube Auto HD  ,
+    简约翻译
+    https://github.com/brave/brave-browser/releases
+
+    
+
+    
+
+
 
 
 
