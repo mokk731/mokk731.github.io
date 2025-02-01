@@ -126,9 +126,9 @@ lan wan 相对换
 
 -------------------------------------
 
-中兴E8820S路由器自制稳定ROM 
+中兴E8820S路由器自制稳定ROM   ####
 
-
-https://mokk7310.github.io/Rom/openwrt-zte_e8820sv6-2024.06.10-2121.bin
+material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan+vlmcsd-KMS+relay
+https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
 -------------------------------------
 
