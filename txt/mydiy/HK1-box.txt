@@ -428,13 +428,14 @@ chroot_local_user=YES
 anonymous_enable=YES
 设置匿名用户根目录（可选）：
 如果你启用了匿名访问，可以指定匿名用户的根目录。例如：
-anon_root=/srv/ftp
+anon_root=/home/public
 设置用户列表（可选）：
 如果你只想允许某些用户访问FTP服务器，可以使用userlist_enable和userlist_file选项。例如：
 复制
 userlist_enable=YES
 userlist_file=/etc/vsftpd.userlist
 userlist_deny=NO
+local_root=/home/public
 然后将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中。
 修改完成后，保存并关闭文件。
 
