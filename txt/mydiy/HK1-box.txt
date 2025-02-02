@@ -437,6 +437,14 @@ userlist_file=/etc/vsftpd.userlist
 userlist_deny=NO
 然后将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中。
 修改完成后，保存并关闭文件。
+
+修改监听端口：
+在配置文件中，找到以下行（如果没有则添加）：
+listen_port=21
+将21替换为你想要的端口号，例如2121：
+listen_port=2121
+
+
 重启 vsftpd 服务：
 保存配置文件后，重启vsftpd服务以使更改生效：
 bash复制
