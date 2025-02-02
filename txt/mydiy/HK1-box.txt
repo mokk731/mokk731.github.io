@@ -376,8 +376,104 @@ nmcli 提供了许多其他有用的命令来管理和配置网络连接。以�
 
 您可以通过执行 nmcli --help 命令或参考 nmcli 的文档来了解更多 nmcli 命令和选项。
 
+------------------------------------------------------------
+
+如何 设置 ubuntu 的 vsftpd
+
+vsftpd（Very Secure FTP Daemon）是一个轻量级、安全的FTP服务器，广泛用于在Linux系统（如Ubuntu）上提供文件传输服务。以下是在Ubuntu系统上安装和配置vsftpd的详细步骤：
+
+一、安装 vsftpd
+更新系统包列表：
+打开终端，运行以下命令以确保系统包列表是最新的：
+bash复制
+sudo apt update
+安装 vsftpd：
+使用以下命令安装vsftpd：
+bash复制
+sudo apt install vsftpd
+启动 vsftpd 服务：
+安装完成后，启动vsftpd服务：
+bash复制
+sudo systemctl start vsftpd
+设置开机自启：
+为了确保系统重启后vsftpd服务自动启动，运行以下命令：
+bash复制
+sudo systemctl enable vsftpd
+
+二、配置 vsftpd
+vsftpd的配置文件位于/etc/vsftpd.conf。你可以使用文本编辑器（如nano或vim）来编辑它。
+备份配置文件：
+在修改配置文件之前，建议先备份原始文件：
+bash复制
+sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.bak
+编辑配置文件：
+使用文本编辑器打开配置文件：
+bash复制
+sudo nano /etc/vsftpd.conf
+下面是一些常见的配置选项及其说明：
+允许本地用户登录：
+确保以下行未被注释（即去掉行前的#）：
+local_enable=YES
+允许上传文件：
+如果你想允许用户上传文件，确保以下行未被注释：
+write_enable=YES
+启用被动模式：
+如果你的FTP服务器需要支持被动模式，可以添加以下行：
+pasv_enable=YES
+限制用户访问自己的目录：
+如果你想限制用户只能访问自己的主目录，添加以下行：
+chroot_local_user=YES
+启用匿名访问（可选）：
+如果你想允许匿名用户访问FTP服务器，确保以下行未被注释：
+anonymous_enable=YES
+设置匿名用户根目录（可选）：
+如果你启用了匿名访问，可以指定匿名用户的根目录。例如：
+anon_root=/srv/ftp
+设置用户列表（可选）：
+如果你只想允许某些用户访问FTP服务器，可以使用userlist_enable和userlist_file选项。例如：
+复制
+userlist_enable=YES
+userlist_file=/etc/vsftpd.userlist
+userlist_deny=NO
+然后将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中。
+修改完成后，保存并关闭文件。
+重启 vsftpd 服务：
+保存配置文件后，重启vsftpd服务以使更改生效：
+bash复制
+sudo systemctl restart vsftpd
+
+三、配置防火墙
+确保防火墙允许FTP流量。默认情况下，FTP使用端口21。
+允许FTP端口：
+如果你使用的是ufw防火墙，运行以下命令：
+bash复制
+sudo ufw allow 21/tcp
+sudo ufw reload
+如果你启用了被动模式，还需要允许被动模式使用的端口范围。例如，如果你的被动模式端口范围是30000-30009，运行以下命令：
+bash复制
+sudo ufw allow 30000:30009/tcp
+sudo ufw reload
+检查防火墙状态：
+确保防火墙已正确配置：
+bash复制
+sudo ufw status
+
+四、测试 FTP 服务
+使用FTP客户端连接：
+你可以使用任何FTP客户端（如FileZilla）来测试FTP服务器。输入服务器的IP地址、用户名和密码，尝试连接。
+检查日志文件：
+如果连接失败，可以查看vsftpd的日志文件以获取错误信息。日志文件通常位于/var/log/目录下，例如/var/log/syslog或/var/log/vsftpd.log（如果已启用日志记录）。
+
+五、其他注意事项
+安全性：
+确保FTP服务器的密码足够复杂。
+考虑使用SFTP（SSH文件传输协议）或FTPS（FTP over SSL/TLS）来提高安全性。
+用户权限：
+根据需要调整用户权限，确保用户只能访问和操作他们需要的文件和目录。
+被动模式端口范围：
+如果你启用了被动模式，确保防火墙允许被动模式使用的端口范围。
+通过以上步骤，你可以在Ubuntu系统上成功安装和配置vsftpd，并根据需求进行定制。
 
 
-
-
+-------------------------------------------------------
 
