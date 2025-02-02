@@ -499,5 +499,13 @@ sudo ufw status
 
 要从用户中删除用户，请使用 userdel 命令，例如，要删除用户“Paul”，请运行以下命令：
  sudo userdel -r Paul
+
+
+#####
+1,将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中,
+2,在 Ubuntu 中创建用户: sudo useradd -m [username]
+3,设置密码： sudo passwd Paul
+4,启用匿名访问,没成功。
+
 -------------------------------------------------------
 
