@@ -503,9 +503,9 @@ sudo ufw status
 
 #####
 1,将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中,
-2,在 Ubuntu 中创建用户: sudo useradd -m [username]
-3,设置密码： sudo passwd Paul
+2,在 Ubuntu 中创建用户:   sudo useradd -m [username]
+3,设置密码：   sudo passwd [username]
 4,启用匿名访问,没成功。
-
+5,ufw防火墙,本来就没有安装。
 -------------------------------------------------------
 
