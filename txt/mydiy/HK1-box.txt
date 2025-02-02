@@ -483,5 +483,20 @@ sudo ufw status
 通过以上步骤，你可以在Ubuntu系统上成功安装和配置vsftpd，并根据需求进行定制。
 
 
+
+
+在 Ubuntu 中创建用户，
+ sudo useradd -m [username]
+
+执行上述命令后，只需将“[username]”替换为用户名，“-m”选项用于创建新创建的用户的主目录，例如，假设用户名为“Paul”在Ubuntu中添加，上面的命令会改变：
+ sudo useradd -m Paul
+
+用户已创建，但是为了使用户帐户更安全，请使用以下命令设置密码：
+ sudo passwd Paul
+
+执行命令时，会要求设置密码，然后重新输入密码以匹配两个密码。
+
+要从用户中删除用户，请使用 userdel 命令，例如，要删除用户“Paul”，请运行以下命令：
+ sudo userdel -r Paul
 -------------------------------------------------------
 
