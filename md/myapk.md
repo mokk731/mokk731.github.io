@@ -43,6 +43,8 @@ https://github.com/AIsouler/GKD_subscription
 #### [GKD 第三方订阅规则](https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5)
 
 
+#### [开源软件GKD的介绍与使用](https://www.bilibili.com/video/BV1mrPCeBEff)
+
 ## other
 
 #### [1024app_android_2.2.9.apk](https://mokk731.github.io/apk/1024app_android_2.2.9.apk)
