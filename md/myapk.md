@@ -29,6 +29,20 @@
 #### [my-tv](https://github.com/lizongying/my-tv/releases)
 
 
+## 跳广告神器gkd
+
+基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 gkd  
+https://github.com/gkd-kit/gkd/
+
+#### [基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 gkd](https://github.com/gkd-kit/gkd/releases)
+
+
+GKD 第三方订阅规则
+https://github.com/AIsouler/GKD_subscription
+
+#### [GKD 第三方订阅规则](https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5)
+
+
 ## other
 
 #### [1024app_android_2.2.9.apk](https://mokk731.github.io/apk/1024app_android_2.2.9.apk)
