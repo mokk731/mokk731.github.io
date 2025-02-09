@@ -1,10 +1,15 @@
 # win cmd --- ipconfig /flushdns                       notepad C:\Windows\System32\drivers\etc\hosts
-# linux---- sudo /etc/init.d/dns-clean start         nano /etc/hosts
-# openwrt--- /etc/init.d/dnsmasq restart            vi /etc/myhosts     ***
+# linux---- sudo /etc/init.d/dns-clean start           nano /etc/hosts
+# openwrt--- /etc/init.d/dnsmasq restart               vi /etc/myhosts     ***
 
 # nslookup raw.githubusercontent.com 119.29.29.29
 # nslookup github.com 119.29.29.29
-# nslookup -qt=A github.com 119.29.29.29    A 地址记录(Ipv4)     ***
+# nslookup -qt=A github.com 119.29.29.29                                  A 地址记录(Ipv4)     ***
+# nslookup -qt=A raw.githubusercontent.com 119.29.29.29                                       ***
+# nslookup -qt=A httpredir.debian.org 119.29.29.29                                            ***
+
+
+
 
 # https://ping.chinaz.com
 
