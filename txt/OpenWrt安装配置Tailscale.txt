@@ -57,11 +57,11 @@ tailscale netcheck
 
 
 退出Tailscale：tailscale logout
-
 关闭Tailscale：tailscale down
+登录Tailscale：tailscale up
+
 
 检查Derp服务器：tailscale netcheck
-
 检查Tailscale：tailscale status
 
 ---------------------------------------------------------------------------------------------------------
