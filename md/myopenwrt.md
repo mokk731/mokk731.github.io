@@ -28,6 +28,8 @@
 
 #### [OpenWRT无线桥接配置relayd](https://mokk731.github.io/txt/OpenWRT无线桥接配置relayd.txt)
 
+#### [OpenWrt安装配置Tailscale实现内网穿透](https://mokk731.github.io/txt/OpenWrt安装配置Tailscale.txt)
+
 
 
 
@@ -44,5 +46,9 @@
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
+#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
+#### [hosts](https://mokk731.github.io/txt/hosts.txt)
+
+#### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
