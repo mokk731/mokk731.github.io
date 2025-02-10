@@ -1,14 +1,16 @@
 tailscale.com
 
+---------------------------------------------------------------------------------------------------------
+
 https://blog.csdn.net/qq_29064203/article/details/135421752
 OpenWrt安装Tailscale
 
 https://github.com/adyanth/openwrt-tailscale-enabler/releases
 
 
-
 https://iqotom.com/?p=1873
 OpenWrt安装配置Tailscale实现内网穿透，异地组网
+
 
 下载软件,解压缩软件
 wget https://github.com/adyanth/openwrt-tailscale-enabler/releases/download/v1.60.0-e428948-autoupdate/openwrt-tailscale-enabler-v1.60.0-e428948-autoupdate.tgz
@@ -30,11 +32,6 @@ tailscale up --accept-routes --accept-dns=false --advertise-routes=192.168.11.0/
 
 
 
-
-
-
-
-
 ---------------
 
 OpenWrt添加接口
@@ -50,7 +47,6 @@ iptables -I FORWARD -o tailscale0 -j ACCEPT
 iptables -t nat -I POSTROUTING -o tailscale0 -j MASQUERADE
 
 
-
 验证：
 
 tailscale status
@@ -59,13 +55,11 @@ tailscale ping 100.100.69.105
 
 
 
-
-
-
-
 ---------------------------------------------------------------------------------------------------------
 
+
 docker
+
 
 version: '3.7'
 services:
