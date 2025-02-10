@@ -30,6 +30,19 @@ tailscale up --accept-routes --accept-dns=false --advertise-routes=192.168.11.0/
 
 
 
+
+
+
+
+
+---------------
+
+OpenWrt添加接口
+
+在OpenWrt上新建一个接口，协议选静态地址，设备选tailscale0，地址为Taliscale管理页面上分配的地址100.100.XXX.XXX，掩码255.0.0.0。防火墙区域选lan区域。
+
+添加防火墙规则
+
 将以下内容，加到防火墙的自定义规则当中，并重启防火墙。
 
 iptables -I FORWARD -i tailscale0 -j ACCEPT
@@ -45,7 +58,12 @@ tailscale status
 tailscale ping 100.100.69.105
 
 
------------------------------------
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
 
 docker
 
