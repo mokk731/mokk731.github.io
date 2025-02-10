@@ -507,5 +507,37 @@ sudo ufw status
 3,设置密码：   sudo passwd [username]
 4,启用匿名访问,没成功。
 5,ufw防火墙,本来就没有安装。
+
+
 -------------------------------------------------------
+
+tailscale.com
+
+
+version: '3.7'
+services:
+    tailscale:
+        container_name: tailscale
+        volumes:
+            - /srv/config/tailscale/var/lib:/var/lib
+            - /srv/config/tailscale/dev/net/tun:/dev/net/tun
+        network_mode: host
+        restart: unless-stopped
+        environment:
+            - TS_AUTHKEY=             ????????tskey-auth
+            - TS_EXTRA_ARGS=--advertise-exit-node
+            - TS_ROUTES=192.168.31.0/24
+            - TS_HOSTNAME=hk1-box
+            - TS_STATE_DIR=./state/
+        image: tailscale/tailscale:v1.80.0
+
+docker run -d --name=tailscaled -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tun --network=host --cap-add=NET_ADMIN --cap-add=NET_RAW tailscale/tailscale
+
+
+docker pull tailscale/tailscale:v1.80.0
+
+-------------------------------------------------------
+
+
+
 
