@@ -53,7 +53,16 @@ tailscale status
 
 tailscale ping 100.100.69.105
 
+tailscale netcheck
 
+
+退出Tailscale：tailscale logout
+
+关闭Tailscale：tailscale down
+
+检查Derp服务器：tailscale netcheck
+
+检查Tailscale：tailscale status
 
 ---------------------------------------------------------------------------------------------------------
 
