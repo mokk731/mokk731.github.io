@@ -234,7 +234,8 @@ https://www.jianshu.com/p/d2eaa681e7a2
 openwrt 内容过滤 :tinyproxy+dansguardian
 
 下载安装
-opkg install tinyproxy
+opkg install tinyproxy  没成功
+ipkg install tinyproxy
 
 修改/etc/config/tinyproxy 取消注释并改变其中的某些option:
 
@@ -244,11 +245,15 @@ option Port 8888
 list Allow 127.0.0.1
 list Allow 192.168.192.0/24
 
-
 验证 
 可以使用curl，在需要代理的机器上执行命令。
 curl ip.sb --proxy 192.168.31.1:8888
 显示服务器IP，则成功.
+
+
+下载上传安装ipk
+openwrt_luci https://archive.openwrt.org/releases/18.06.8/packages/mipsel_24kc/luci
+openwrt_packages https://archive.openwrt.org/releases/18.06.8/packages/mipsel_24kc/packages
 
 ------------------------------------------
 immortalwrt
