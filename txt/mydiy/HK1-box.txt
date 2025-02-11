@@ -555,12 +555,12 @@ sudo apt-get install tinyproxy
 定义配置文件
 sudo vim /etc/tinyproxy/tinyproxy.conf
 
-绑定监听端口号
-Port 8888
+    绑定监听端口号
+    Port 8888
 
-访问来源限制
-Allow 172.16.0.0/24
-Allow 192.168.1.0/24
+    访问来源限制
+    Allow 172.16.0.0/24
+    Allow 192.168.1.0/24
 
 
 
