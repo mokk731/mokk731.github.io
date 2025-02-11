@@ -17,7 +17,7 @@ docker pull zzsrv/openwrt:arm64                   *******
 https://github.com/14790897/OpenWrt-In-Docker
 https://hub.docker.com/r/14790897/openwrt-mini
 docker pull 14790897/openwrt-mini:rpi4           ************
-
+docker pull 14790897/openwrt:rpi4
 
 
 
@@ -118,7 +118,7 @@ bash为进入容器后执行的命令。
 
 执行此命令后我们便进入 OpenWrt 的命令行界面，首先，我们需要编辑 OpenWrt 的网络配置文件：
 
-vim /etc/config/network     ******
+vim nano /etc/config/network     ******
 
 我们需要更改 Lan 口设置：
 
@@ -191,6 +191,33 @@ Meta内核路径：   /etc/openclash/core/clash_meta
 
 https://github.com/Kuingsmile/clash-core/releases   ###
 
+----------------------------------------------------
+
+https://github.com/14790897/OpenWrt-In-Docker/blob/main/tutorial.md
+
+使用 docker-compose
+services:
+  openwrt:
+    image: 14790897/openwrt:rpi4
+    container_name: openwrt
+    restart: unless-stopped
+    # privileged: true
+    cap_add:
+      - NET_ADMIN # 增加 NET_ADMIN 权限
+      - NET_RAW
+    networks:
+      macvlan_net:
+    command: /sbin/init
+
+networks:
+  macvlan_net:
+    driver: macvlan
+    driver_opts:
+      parent: eth0 # 宿主机的网卡名称，需要使用ip link show 手动查询，保持一致
+    ipam:
+      config:
+        - subnet: 192.168.11.0/24 # 定义容器使用的子网，需要和当前网络一致
+          gateway: 192.168.11.1 # 定义网关，需要和当前网络一致
 
 
 
