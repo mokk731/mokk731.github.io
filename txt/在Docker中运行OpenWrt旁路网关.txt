@@ -18,7 +18,7 @@ https://github.com/14790897/OpenWrt-In-Docker
 https://hub.docker.com/r/14790897/openwrt-mini
 docker pull 14790897/openwrt-mini:rpi4           ************
 docker pull 14790897/openwrt:rpi4
-
+docker pull 14790897/openwrt-mini:rpi4-stable
 
 
 armv8  =aarch64  =arm64
@@ -195,7 +195,7 @@ https://github.com/Kuingsmile/clash-core/releases   ###
 
 https://github.com/14790897/OpenWrt-In-Docker/blob/main/tutorial.md
 
-使用 docker-compose
+使用 docker-compose  也没成功/
 services:
   openwrt:
     image: 14790897/openwrt:rpi4
@@ -208,6 +208,7 @@ services:
     networks:
       macvlan_net:
     command: /sbin/init
+
 
 networks:
   macvlan_net:
