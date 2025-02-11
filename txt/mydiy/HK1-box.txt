@@ -539,5 +539,49 @@ docker pull tailscale/tailscale:v1.80.0
 -------------------------------------------------------
 
 
+tinyproxy
+
+https://www.cnblogs.com/sugartang/p/18447561
+两种方案手把手教你多种服务器使用tinyproxy搭建http代理
+
+http://www.suiw9.com/post/392.html
+Linux上使用tinyproxy快速搭建HTTP/HTTPS代理器
 
 
+
+安装Tinyproxy
+sudo apt-get install tinyproxy
+
+定义配置文件
+sudo vim /etc/tinyproxy/tinyproxy.conf
+
+绑定监听端口号
+Port 8888
+
+访问来源限制
+Allow 172.16.0.0/24
+Allow 192.168.1.0/24
+
+
+
+启动 Tinyproxy:
+sudo systemctl start tinyproxy
+
+检查状态:
+sudo systemctl status tinyproxy
+
+停止 Tinyproxy:
+sudo systemctl stop tinyproxy
+
+重启 Tinyproxy:
+sudo systemctl restart tinyproxy
+
+
+
+安装tinyproxy镜像
+docker pull monokal/tinyproxy:latest
+docker run -d --name='tinyproxy' -p 8888:8888 monokal/tinyproxy:latest ANY
+
+
+
+-------------------------------------------------------
