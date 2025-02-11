@@ -201,7 +201,7 @@ services:
     image: 14790897/openwrt:rpi4
     container_name: openwrt
     restart: unless-stopped
-    # privileged: true
+    privileged: true
     cap_add:
       - NET_ADMIN # 增加 NET_ADMIN 权限
       - NET_RAW
@@ -217,7 +217,7 @@ networks:
     ipam:
       config:
         - subnet: 192.168.11.0/24 # 定义容器使用的子网，需要和当前网络一致
-          gateway: 192.168.11.1 # 定义网关，需要和当前网络一致
+        - gateway: 192.168.11.1 # 定义网关，需要和当前网络一致
 
 
 
