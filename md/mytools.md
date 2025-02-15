@@ -41,7 +41,7 @@
 
 
 
-#### [千千静听(TTPlayer) 7.0.4 绿色版.rar](https://mokk731.github.io/ziprar/win-tools/千千静听(TTPlayer) 7.0.4 绿色版.rar)
+#### [千千静听(TTPlayer)5 绿色版](https://mokk731.github.io/ziprar/win-tools/TTPlayerv5.7.9.zip)
 
 
 
