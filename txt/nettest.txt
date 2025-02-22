@@ -4,14 +4,13 @@ ip网络测试工具
 
 
 
-https://ip233.cn/
+https://ip233.cn/              ***********
 ip233.cn 全方位查询您的IP地址
 内网+外网
 
-http://www.ip33.com/
 
 https://ip138.com/
-iP地址归属地查询
+iP地址归属地查询   内网
 网络工具箱
 
 https://www.myip.com/
@@ -20,11 +19,14 @@ https://www.myip.com/
 https://whoer.net/zh
 外网ip
 
+http://www.ip33.com/
+内网ip
+
 https://ping.chinaz.com/
 站长工具ping测速是一款全面的网站测速工具，它利用全球分布的多个节点，为全球用户提供准确、高效的网站测速服务。这款产品的主要功能包括Ping测速和HTTP测速，能够全面评估网站的响应速度和连接质量。 
 
 
-https://plugin.speedtest.cn/#/
+https://plugin.speedtest.cn/#/               *****************
 speedtest
 
 https://www.test-ipv6.com/index.html.zh_CN
@@ -57,7 +59,7 @@ A50
 https://finance.sina.com.cn/money/forex/hq/BTCBTCUSD.shtml
 BTC
 
-https://kimi.moonshot.cn/
+https://kimi.moonshot.cn/            *****************
 kimi AI
 
 https://grok.com/
@@ -67,10 +69,10 @@ https://bot.n.cn/
 纳米 AI
 
 
-https://www.dygod.net/html/gndy/
+https://www.dygod.net/html/gndy/            *****************
 电影天堂
 
-https://fanyi.baidu.com
+https://fanyi.baidu.com                     *****************
 baidu翻译
 
 
