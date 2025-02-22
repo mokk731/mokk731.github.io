@@ -93,6 +93,8 @@
 
 #### [1024+jav](https://mokk731.github.io/txt/1024jav.txt)
 
+#### [网络测试ip工具](https://mokk731.github.io/txt/nettest.txt)
+
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
@@ -115,6 +117,9 @@
 
 #### [win软件技巧](https://mokk731.github.io/txt/win软件技巧.txt)
 
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 
 
