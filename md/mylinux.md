@@ -130,7 +130,7 @@ sudo apt-get install plank
 
 按住Ctrl键，鼠标右击plank上的任意图标，在弹出来的菜单中选择首选项，可以对plank进行配置。
 
-8：基础开发环境
+#8：基础开发环境
 
 java环境安装可以参看「如何在 Ubuntu 18.04 上安装 Java」。
 
@@ -162,7 +162,7 @@ sudo apt-get autoremove #清除所有未使用的依赖项
 
 ## [树莓派上 Docker 的安装和使用](https://shumeipai.nxez.com/2019/05/20/how-to-install-docker-on-your-raspberry-pi.html)
 
-[sudo curl -sSL https://get.docker.com | sh]
+    sudo curl -sSL https://get.docker.com | sh
 
 如果采用这一步安装成功，可直接跳到下文的图形界面安装那里继续阅读。
 
