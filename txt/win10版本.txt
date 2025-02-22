@@ -163,7 +163,34 @@ AtlasOS 剥离大量在 Windows 后台运行的进程，例如原本 Windows 10 
 TPM 可信平台模块  Windows Defender  存储空间管理  eMMC 驱动  RAID 配置功能  Bitlocker  生物识别功能，包括指纹和面部识别都被删除  语音命令  还原点和系统重置功能等。
 
 
+https://xiaoyi.vc/atlasos.html
+游戏玩家福音！Win10 性能优化版：AtlasOS
+2022年11月30日
 
+下载地址
+
+    官方网站：
+    https://atlasos.net
+    项目地址：
+    https://github.com/Atlas-OS/Atlas
+    英文版镜像：
+    https://www.123pan.com/s/c8zA-qLzN3
+    中文语言包：
+    https://www.123pan.com/s/c8zA-jLzN3
+    中文版镜像：
+    https://www.123pan.com/s/c8zA-T5zN3
+
+
+安装中文语言
+
+系统默认是英文语言界面的，所以需要安装中文语言包。下载语言包文件到桌面，然后打开 powershell(管理员) 模式，输入下面的命令：
+
+cd desktop
+​add-appxpackage 19041.cn.pack.Appx
+
+安装好后，打开系统设置 - Language - Windows display language - 选择中文。之后注销或重新系统就是中文界面了，然后自行添加中文输入布局，修改时间市区为 UTC+8 等。
+
+* 如果你懒得手动添加语言包的话，也可以下载网友 @9zhmke 整合的中文版镜像。
 
 ---------------------------------------------------------------------
 
