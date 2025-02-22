@@ -43,5 +43,25 @@ https://www.265.com/
 265导航
 
 
+------------------------------------------------------------
+
+https://finance.sina.com.cn/money/globalindex/hf.shtml
+finance global
+
+https://finance.sina.com.cn/futures/quotes/CHA50CFD.shtml
+A50
+
+https://finance.sina.com.cn/money/forex/hq/BTCBTCUSD.shtml
+BTC
+
+https://kimi.moonshot.cn/
+kimi AI
+
+https://grok.com/
+grok AI
+
+
+
+
 
 
