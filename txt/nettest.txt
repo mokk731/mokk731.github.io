@@ -27,6 +27,9 @@ https://ping.chinaz.com/
 https://plugin.speedtest.cn/#/
 speedtest
 
+https://www.test-ipv6.com/index.html.zh_CN
+test-ipv6
+
 
 ------------------------------------------------------------
 
@@ -59,6 +62,23 @@ kimi AI
 
 https://grok.com/
 grok AI
+
+https://bot.n.cn/
+纳米 AI
+
+
+https://www.dygod.net/html/gndy/
+电影天堂
+
+https://fanyi.baidu.com
+baidu翻译
+
+
+
+
+
+https://earth.gggis.com/
+谷歌地球 国内
 
 
 
