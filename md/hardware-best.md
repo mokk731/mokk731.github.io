@@ -4,7 +4,7 @@
 |硬件                  |            内容                                                                 |
 |-------------          |-------------------------------------------------------------                    |
 | 神U：                | R5-5500GT  ,  i3-12100    ,   N100                                              |
-| 手机：               | 骁龙8sGen3 RedmiTurbo3,, 7300ultra RedmiNote14Pro ...A11,iphone8p,      |
+| 手机：               | 骁龙8sGen3 RedmiTurbo3,, MTK7300ultra RedmiNote14Pro,, MTK8300ultra...A11,iphone8p,      |
 |路由器:               | 中兴E8820S , mi-R4a-G,, ,小米AX3000T, 小米WR30U, 360 T7, 华三NX30Pro,中移动RAX3000m   |
 |Mesh组网:             | 小米AX3000T, 小米WR30U,..... 锐捷雪豹X30E电竞路由器                               |
 |NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,   OrangePi-Zero3-h618          |
