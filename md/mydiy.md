@@ -18,8 +18,9 @@
 
 #### [TWRP使用adb线刷ROM的方法](https://mokk731.github.io/txt/mydiy/TWRP使用adb线刷ROM的方法.txt)
 
-
 #### [一些关于红米的隐藏小功能](https://mokk731.github.io/txt/mydiy/一些关于红米的隐藏小功能.txt)
+
+#### [小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT](https://mokk731.github.io/txt/mydiy/小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT.txt)
 
 
 
