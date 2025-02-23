@@ -1,0 +1,11 @@
+https://www.bilibili.com/opus/908631014747668585
+小米澎湃OS（HyperOS）绕过小米社区5级绑定限制解锁BL锁刷ROOT   2024年03月
+
+
+买回来手机，激活的时候手机出厂自带澎湃OS系统的老铁可以不用往下看了，封死了的，无解。手机是由MIUI升级到澎湃OS的话，可以试试
+
+本脚本原理是将手机版本伪装成miui14从而绕过hyperOS的社区等级限制，因为小米14出厂即是HyperOS所以小米14即以后系列均无法使用（在运行成功后会报30001错误），小米13即13版本以下用户则可以正常通过本脚本绕过限制。故14或14pro用户可不必尝试。
+
+脚本作者：酷安@mlgmxyysd
+脚本项目链接：https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass/
+
