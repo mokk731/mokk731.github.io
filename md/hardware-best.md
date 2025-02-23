@@ -27,4 +27,4 @@
 
 [安兔兔安卓手机性价比榜](https://www.antutu.com/ranking/rank202.htm)
 
-[安兔兔安卓SOC天梯榜](https://www.antutu.com/ranking/rank101.htm)
+[安兔兔安卓SOC天梯榜](https://www.antutu.com/ranking/rank301.htm)
