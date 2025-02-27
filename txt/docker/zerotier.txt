@@ -36,7 +36,7 @@ docker exec zerotier-one zerotier-cli join NETWORK-ID
 ----------------------------------
 
 https://zhuanlan.zhihu.com/p/386597193
-¡¾N1Ğ¡¸ÖÅÚ¡¤Ò»¡¿°²×°docker°æzerotier
+ã€N1å°é’¢ç‚®Â·ä¸€ã€‘å®‰è£…dockerç‰ˆzerotier
 
 ********
 
@@ -51,11 +51,11 @@ docker run -d \
    bltavares/zerotier:1.10.3
 
 
-¼ÓÈëzerotierÍøÂç
+åŠ å…¥zerotierç½‘ç»œ
 
 docker exec zerotier-one zerotier-cli join 17d7XXXX
 
-ÏÔÊ¾ 200 join ok ¼´Ìí¼Ó³É¹¦
+æ˜¾ç¤º 200 join ok å³æ·»åŠ æˆåŠŸ
 
 docker exec zerotier-one zerotier-cli listnetworks
 
@@ -108,4 +108,4 @@ docker run \
 bltavares/zerotier:1.6.2-2
 
 
-1.10.3  Õı³£.
+1.10.3  æ­£å¸¸.
