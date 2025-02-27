@@ -3,7 +3,6 @@ https://hub.docker.com/r/linuxserver/jellyfin
 
 
 
-
 linuxserver/jellyfin:amd64-2021.11.30
 
 
