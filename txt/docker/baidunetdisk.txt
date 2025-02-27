@@ -2,22 +2,22 @@ baidunetdisk
 
 ------------------------------------------------------------------------
 https://zhuanlan.zhihu.com/p/622114611
-Docker ´î½¨°Ù¶ÈÍøÅÌ
-ÔËĞĞÃüÁîºó£¬·ÃÎÊ 5800 ¶Ë¿Ú£¬ÊäÈëÃÜÂëºó¼´¿É¿´¼û°Ù¶ÈÍøÅÌµÄµÇÂ¼Ò³Ãæ¡£5900 ÊÇ vnc ¶Ë¿Ú£¬¿ÉÒÔÍ¨¹ı vnc ¿Í»§¶Ë½øĞĞ·ÃÎÊ¡£
+Docker æ­å»ºç™¾åº¦ç½‘ç›˜
+è¿è¡Œå‘½ä»¤åï¼Œè®¿é—® 5800 ç«¯å£ï¼Œè¾“å…¥å¯†ç åå³å¯çœ‹è§ç™¾åº¦ç½‘ç›˜çš„ç™»å½•é¡µé¢ã€‚5900 æ˜¯ vnc ç«¯å£ï¼Œå¯ä»¥é€šè¿‡ vnc å®¢æˆ·ç«¯è¿›è¡Œè®¿é—®ã€‚
 
 ------------------------------------------------------------------------
 
 
 
 https://hub.docker.com/r/johngong/baidunetdisk
-¹Ù·½°Ù¶ÈÍøÅÌ¿Í»§¶ËVNC°æ:(baidunetdisk:4.17.7)
+å®˜æ–¹ç™¾åº¦ç½‘ç›˜å®¢æˆ·ç«¯VNCç‰ˆ:(baidunetdisk:4.17.7)
 
  docker create \
     --name=baidunetdisk \
     -p 5800:5800 \
     -p 5900:5900 \
-    -v /ÅäÖÃÎÄ¼şÎ»ÖÃ:/config \
-    -v /ÏÂÔØÎ»ÖÃ:/config/baidunetdiskdownload \
+    -v /é…ç½®æ–‡ä»¶ä½ç½®:/config \
+    -v /ä¸‹è½½ä½ç½®:/config/baidunetdiskdownload \
     --restart unless-stopped \
     johngong/baidunetdisk:latest
 
