@@ -19,21 +19,21 @@ https://mlapp.cn/376.html
 ****
 docker run --restart unless-stopped --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi2 /sbin/init
 
-ÆäÖĞ£º
+å…¶ä¸­ï¼š
 
---restart always²ÎÊı±íÊ¾ÈİÆ÷ÍË³öÊ±Ê¼ÖÕÖØÆô£¬Ê¹·şÎñ¾¡Á¿±£³ÖÊ¼ÖÕ¿ÉÓÃ£»
+--restart alwayså‚æ•°è¡¨ç¤ºå®¹å™¨é€€å‡ºæ—¶å§‹ç»ˆé‡å¯ï¼Œä½¿æœåŠ¡å°½é‡ä¿æŒå§‹ç»ˆå¯ç”¨ï¼›
 
---name openwrt²ÎÊı¶¨ÒåÁËÈİÆ÷µÄÃû³Æ£»
+--name openwrtå‚æ•°å®šä¹‰äº†å®¹å™¨çš„åç§°ï¼›
 
--d²ÎÊı¶¨ÒåÊ¹ÈİÆ÷ÔËĞĞÔÚ Daemon Ä£Ê½£»
+-då‚æ•°å®šä¹‰ä½¿å®¹å™¨è¿è¡Œåœ¨ Daemon æ¨¡å¼ï¼›
 
---network macnet²ÎÊı¶¨Òå½«ÈİÆ÷¼ÓÈë maxnetÍøÂç£»
+--network macnetå‚æ•°å®šä¹‰å°†å®¹å™¨åŠ å…¥ maxnetç½‘ç»œï¼›
 
---privileged ²ÎÊı¶¨ÒåÈİÆ÷ÔËĞĞÔÚÌØÈ¨Ä£Ê½ÏÂ£»
+--privileged å‚æ•°å®šä¹‰å®¹å™¨è¿è¡Œåœ¨ç‰¹æƒæ¨¡å¼ä¸‹ï¼›
 
-registry.cn-shanghai.aliyuncs.com/suling/openwrt:latestÎª Docker ¾µÏñÃû£¬ÒòÈİÆ÷ÍĞ¹ÜÔÚ°¢ÀïÔÆ Docker ¾µÏñ²Ö¿âÄÚ£¬ËùÒÔÔÚ¾µÏñÃûÖĞº¬ÓĞ°¢ÀïÔÆ²Ö¿âĞÅÏ¢£»
+registry.cn-shanghai.aliyuncs.com/suling/openwrt:latestä¸º Docker é•œåƒåï¼Œå› å®¹å™¨æ‰˜ç®¡åœ¨é˜¿é‡Œäº‘ Docker é•œåƒä»“åº“å†…ï¼Œæ‰€ä»¥åœ¨é•œåƒåä¸­å«æœ‰é˜¿é‡Œäº‘ä»“åº“ä¿¡æ¯ï¼›
 
-/sbin/init¶¨ÒåÈİÆ÷Æô¶¯ºóÖ´ĞĞµÄÃüÁî¡£
+/sbin/initå®šä¹‰å®¹å™¨å¯åŠ¨åæ‰§è¡Œçš„å‘½ä»¤ã€‚
 
 ------------------------------------
 
