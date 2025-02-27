@@ -1,0 +1,41 @@
+samba
+
+
+--------------------
+
+https://hub.docker.com/r/elswork/samba
+
+https://hub.docker.com/r/dperson/samba
+
+
+
+https://www.cnblogs.com/zzxworld/p/13375452.html
+
+
+
+docker pull dperson/samba:latest
+
+chmod -R 777 /home/public
+----------------------
+
+
+
+docker run -it -d \
+  --name samba \
+  -p 139:139 \
+  -p 445:445 \
+  -v /home/public:/mount \
+  --restart unless-stopped \
+  dperson/samba:latest \
+  -s "fox;/mount/fox;yes;no;yes;all;all;all" \
+  -g "force user=fox" \
+  -g "guest account=fox" \
+  -w "WORKGROUP" \
+  -u "fox;XXXXXX" 
+  
+
+
+
+   --rm  -d  
+
+
