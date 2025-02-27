@@ -1,0 +1,74 @@
+#qbittorrent
+https://hub.docker.com/r/linuxserver/qbittorrent
+
+
+docker pull linuxserver/qbittorrent 
+
+docker pull linuxserver/qbittorrent:arm32v7-4.5.3
+docker pull linuxserver/qbittorrent:arm32v7-unstable-4.4.0202012311433-7161-a579b4a51ubuntu18.04.1-ls151
+2021-03-22
+
+docker pull linuxserver/qbittorrent:arm32v7-14.3.9.99202110311443-7435-01519b5e7ubuntu20.04.1-ls166
+2022-01-07
+
+
+linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.1-ls114
+2021-02-08 
+
+
+docker pull linuxserver/qbittorrent:4.6.3-r0-ls320
+2024-03
+
+
+
+/mnt/sda1/btdownloads
+
+/mnt/sda1/btconfig
+
+admin/adminadmin
+
+
+
+
+sudo docker run -d \
+       --name=qbittorrent \
+       -e PUID=1000 \
+       -e PGID=1000 \
+       -e TZ=Asia/Shanghai \
+       -e UMASK_SET=022 \
+       -e WEBUI_PORT=8181 \
+       -p 16881:16881 \
+       -p 16881:16881/udp \
+       -p 8181:8181 \
+       -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btconfig:/config \
+       -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btdownloads:/downloads \
+       --restart unless-stopped \
+       linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.1-ls114
+
+
+
+docker pull linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.1-ls114
+287.3 MB 	2021-02-08 
+
+---------------------------------------------
+
+**********
+
+version: "2.1"
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.1-ls114
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8181
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btconfig:/config
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/btdownloads:/downloads
+    ports:
+      - 16881:16881
+      - 16881:16881/udp
+      - 8181:8181
+    restart: unless-stopped

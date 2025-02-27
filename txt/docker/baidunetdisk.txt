@@ -1,0 +1,45 @@
+baidunetdisk
+
+------------------------------------------------------------------------
+https://zhuanlan.zhihu.com/p/622114611
+Docker 搭建百度网盘
+运行命令后，访问 5800 端口，输入密码后即可看见百度网盘的登录页面。5900 是 vnc 端口，可以通过 vnc 客户端进行访问。
+
+------------------------------------------------------------------------
+
+
+
+https://hub.docker.com/r/johngong/baidunetdisk
+官方百度网盘客户端VNC版:(baidunetdisk:4.17.7)
+
+ docker create \
+    --name=baidunetdisk \
+    -p 5800:5800 \
+    -p 5900:5900 \
+    -v /配置文件位置:/config \
+    -v /下载位置:/config/baidunetdiskdownload \
+    --restart unless-stopped \
+    johngong/baidunetdisk:latest
+
+
+docker pull johngong/baidunetdisk:v_4.17.7_4.6.4_arm64v8
+202410
+
+------------------------------------------------------------------------
+
+services:
+  baidunetdisk:
+    image:  johngong/baidunetdisk:v_4.17.7_4.6.4_arm64v8
+    container_name: baidunetdisk
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${UDISK0}/baidunetdisk/config:/config
+      - ${UDISK0}/baidunetdisk/config/downloads:/config/baidunetdiskdownload
+    ports:
+      - 5800:5800
+      - 5900:5900
+    restart: unless-stopped
+

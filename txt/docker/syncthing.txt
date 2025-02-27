@@ -1,0 +1,85 @@
+https://hub.docker.com/r/syncthing/syncthing
+
+
+docker pull syncthing/syncthing:1.27
+202403
+
+ 	
+-------------------------------------------
+
+docker-compose (recommended)
+
+Compatible with docker-compose v2 schemas.
+
+---
+
+********
+
+
+version: "3"
+services:
+  syncthing:
+    image: syncthing/syncthing:1.20.2
+    container_name: syncthing
+    hostname: my-syncthing
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8384
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/syncthing:/var/syncthing
+    ports:
+      - 8384:8384
+      - 22000:22000
+      - 22000:22000/udp
+    restart: unless-stopped
+
+
+
+
+docker pull syncthing/syncthing:1.18.3
+26.2 MB 	2021-10-04 19:48:00
+
+
+--------------------------------------------
+
+docker run -p 8384:8384 -p 22000:22000/tcp -p 22000:22000/udp \
+    -v /wherever/st-sync:/var/syncthing \
+    --hostname=my-syncthing \
+    syncthing/syncthing:latest
+
+
+------------------------
+
+
+
+docker cli
+
+docker run -d \
+  --name=syncthing \
+  --hostname=my-syncthing \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Europe/London \
+  -p 8384:8384 \
+  -p 22000:22000/tcp \
+  -p 22000:22000/udp \
+  -p 21027:21027/udp \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/syncthing:/var/syncthing \
+  --restart unless-stopped \
+  syncthing/syncthing:1.20.2
+
+
+-------------------------------------
+
+Permission denied：权限被拒绝，没有访问文件的权限
+-R 是指级联应用到目录里的所有子目录和文件
+777 是所有用户都拥有最高权限
+
+如果目标是文件夹：
+sudo chmod -R 777 config
+
+查询对文件的权限：
+ls -l 文件名
+

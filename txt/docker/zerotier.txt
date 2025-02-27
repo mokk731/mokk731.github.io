@@ -1,0 +1,111 @@
+zerotier
+
+
+
+Networks ID: 17d7XXXXX
+Openwrt 17d7_192.168.192.0
+
+Network ID: 233cXXXXXX
+Testnet 233c-192.168.193.0
+
+
+
+https://hub.docker.com/r/bltavares/zerotier/tags
+
+
+
+docker pull bltavares/zerotier:1.10.3   
+ 202302
+
+docker pull bltavares/zerotier:1.12.1 
+202308   
+--------------------------------
+
+
+
+
+Show status of the service:
+
+docker exec zerotier-one zerotier-cli status
+
+Join a specific network:
+
+docker exec zerotier-one zerotier-cli join NETWORK-ID
+
+
+----------------------------------
+
+https://zhuanlan.zhihu.com/p/386597193
+【N1小钢炮·一】安装docker版zerotier
+
+********
+
+docker run -d \
+ --name=zerotier-one \
+ --device=/dev/net/tun \
+ --net=host \
+ --cap-add=NET_ADMIN \
+ --cap-add=SYS_ADMIN \
+ -v /srv/config/zerotier-one:/var/lib/zerotier-one \
+ --restart unless-stopped \
+   bltavares/zerotier:1.10.3
+
+
+加入zerotier网络
+
+docker exec zerotier-one zerotier-cli join 17d7XXXX
+
+显示 200 join ok 即添加成功
+
+docker exec zerotier-one zerotier-cli listnetworks
+
+----------------------------------------
+
+
+
+-------------------------------------
+
+
+
+version: "3"
+services:
+  zerotier:
+    image: bltavares/zerotier:1.6.2-2
+    container_name: zerotier-one
+    devices:
+      - /dev/net/tun
+    network_mode: host
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/zerotier-one:/var/lib/zerotier-one
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+      - NET_RAW
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - PUID=1000
+      - PGID=1000
+      - ZEROTIER_ONE_LOCAL_PHYS=eth0
+      - ZEROTIER_ONE_USE_IPTABLES_NFT=false
+      - ZEROTIER_ONE_GATEWAY_MODE=inbound
+      - ZEROTIER_ONE_NETWORK_IDS=17d7XXXXX
+
+==============================================
+
+https://www.cnblogs.com/sicko/p/10997230.html
+
+bltavares/zerotier:1.6.2-2
+
+docker run \
+--name=zerotier-one \
+--device=/dev/net/tun \
+--net=host \
+--cap-add=NET_ADMIN \
+--cap-add=SYS_ADMIN \
+-d -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/zerotier-one:/var/lib/zerotier-one \
+--restart unless-stopped \
+bltavares/zerotier:1.6.2-2
+
+
+1.10.3  正常.

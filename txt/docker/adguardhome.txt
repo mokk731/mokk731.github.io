@@ -1,0 +1,185 @@
+https://hub.docker.com/r/adguard/adguardhome
+
+docker pull adguard/adguardhome:v0.107.52
+
+
+不成功， tcp53 已被占用。
+
+----------------------------
+docker run --name adguardhome\
+    --restart unless-stopped\
+    -v /my/own/workdir:/opt/adguardhome/work\
+    -v /my/own/confdir:/opt/adguardhome/conf\
+    -p 53:53/tcp -p 53:53/udp\
+    -p 67:67/udp -p 68:68/udp\
+    -p 80:80/tcp -p 443:443/tcp -p 443:443/udp -p 3000:3000/tcp\
+    -p 853:853/tcp\
+    -p 784:784/udp -p 853:853/udp -p 8853:8853/udp\
+    -p 5443:5443/tcp -p 5443:5443/udp\
+    -d adguard/adguardhome
+
+-----------------------------
+
+version: "2.1"
+services:
+  adguardhome:
+    image: adguard/adguardhome:v0.107.45
+    container_name: adguardhome
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=3000
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/workdir:/opt/adguardhome/work
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/confdir:/opt/adguardhome/conf
+    ports:
+      - 53:53
+      - 53:53/udp
+      - 67:67/udp
+      - 68:68/udp
+      - 80:80
+      - 443:443
+      - 443:443/udp
+      - 3000:3000
+      - 853:853
+      - 784:784/udp
+      - 853:853/udp
+      - 8853:8853/udp
+      - 5443:5443
+      - 5443:5443/udp
+    restart: unless-stopped
+
+
+
+
+----------------------------------------
+ http://127.0.0.1:3000/ to control your AdGuard Home service.
+
+-p 53:53/tcp -p 53:53/udp: plain DNS.
+
+-p 67:67/udp -p 68:68/tcp -p 68:68/udp: add if you intend to use AdGuard Home as a DHCP server.
+
+-p 80:80/tcp -p 443:443/tcp -p 443:443/udp -p 3000:3000/tcp: add if you are going to use AdGuard Home's admin panel as well as run AdGuard Home as an HTTPS/DNS-over-HTTPS server.
+
+-p 853:853/tcp: add if you are going to run AdGuard Home as a DNS-over-TLS server.
+
+-p 784:784/udp -p 853:853/udp -p 8853:8853/udp: add if you are going to run AdGuard Home as a DNS-over-QUIC server. You may only leave one or two of these.
+
+-p 5443:5443/tcp -p 5443:5443/udp: add if you are going to run AdGuard Home as a DNSCrypt server.
+
+
+
+关于端口映射这里，详情页页做出了具体说明，虽说端口很多，但是我们真正用到的其实就前面三个：53，67，3000。不过67和68端口因为是UDP协议，很多地方都用不了，可以设置也可以不设置。至于后面的我用翻译软件看了下，貌似是服务器用的，咱们一般人用不上，可以不管它~
+PS：这里给大家说明一下，“53”是它的拦截协议端口，“3000”是它的默认后台的访问端口。
+
+
+--------------------------------------------------------------------------------------
+
+
+https://blog.csdn.net/zhengyukong/article/details/140075777
+AdGuard Home Docker 宝塔部署和常见问题(值得收藏)
+
+
+docker pull adguard/adguardhome
+
+
+docker network create \
+    --driver macvlan \
+    --subnet=192.168.88.0/24 \
+    --gateway=192.168.88.1 \
+    --opt parent=br-lan \
+    adguard-macvlan
+
+docker run -d --name adguard-home \
+    --network adguard-macvlan \
+    -p 3000:3000 \
+    -p 53:53/tcp -p 53:53/udp \
+    -v /path/to/adguard_home_data:/etc/adguardhome \
+    adguard/adguardhome
+
+请根据你的网络实际情况调整--subnet、--gateway以及--opt parent参数。
+-d 表示以后台模式运行容器。
+--name adguard-home 指定容器的名称为adguard-home。
+-p 参数分别映射了容器的HTTP（3000）、DNS（TCP 53）和DNS（UDP 53）端口到主机的相应端口。
+-v /path/to/adguard_home_data:/etc/adguardhome 挂载一个宿主机目录到容器的 /etc/adguardhome 目录，用于持久化配置文件和数据。请将 /path/to/adguard_home_data 替换为你希望在宿主机上用于存放AdGuard Home数据的实际路径。
+
+--------------------------
+
+############
+
+#1
+docker pull adguard/adguardhome:v0.107.52   ############
+
+
+#2
+docker network create \
+    --driver macvlan \
+    --subnet=192.168.11.0/24 \
+    --gateway=192.168.11.1 \
+    --opt parent=eth0 \
+    macnet
+
+docker network create -d macvlan --subnet=192.168.11.0/24 --gateway=192.168.11.1 -o parent=eth0 macnet   ############
+ docker network ls命令 可以看到网络macnet已建立成功 
+
+
+#3
+在 host1 运行容器 c1，并指定使用 macvlan 网络：     
+docker run -itd --name c1 --ip=172.16.10.2 --network mac1 adguardhome
+
+############
+docker run -itd --name adguard-home \
+    --ip 192.168.11.16 \
+    --network macnet \
+    -p 3000:3000 \
+    -p 53:53/tcp -p 53:53/udp \
+    -p 80:80/tcp -p 443:443/tcp -p 443:443/udp \
+    -p 853:853/tcp \
+    -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/workdir:/opt/adguardhome/work \
+    -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/adguardhome/confdir:/opt/adguardhome/conf \
+    --restart always \
+    adguard/adguardhome:v0.107.52
+
+请根据你的网络实际情况调整--subnet、--gateway以及--opt parent参数。
+-d 表示以后台模式运行容器。
+--name adguard-home 指定容器的名称为adguard-home。
+-p 参数分别映射了容器的HTTP（3000）、DNS（TCP 53）和DNS（UDP 53）端口到主机的相应端口。
+-v /path/to/adguard_home_data:/etc/adguardhome 挂载一个宿主机目录到容器的 /etc/adguardhome 目录，用于持久化配置文件和数据。请将 /path/to/adguard_home_data 替换为你希望在宿主机上用于存放AdGuard Home数据的实际路径。
+
+Ports mappings you may need:
+
+-p 53:53/tcp -p 53:53/udp: plain DNS.
+
+-p 67:67/udp -p 68:68/tcp -p 68:68/udp: add if you intend to use AdGuard Home as a DHCP server.
+
+-p 80:80/tcp -p 443:443/tcp -p 443:443/udp -p 3000:3000/tcp: add if you are going to use AdGuard Home's admin panel as well as run AdGuard Home as an HTTPS/DNS-over-HTTPS? server.
+
+-p 853:853/tcp: add if you are going to run AdGuard Home as a DNS-over-TLS? server.
+
+-p 784:784/udp -p 853:853/udp -p 8853:8853/udp: add if you are going to run AdGuard Home as a DNS-over-QUIC? server. You may only leave one or two of these.
+
+-p 5443:5443/tcp -p 5443:5443/udp: add if you are going to run AdGuard Home as a DNSCrypt? server.
+
+
+-----------------------------------
+
+adguard home docker
+
+docker run --name adguard-home \
+    -p 3000:3000 \
+    -p 5353:53/tcp -p 5353:53/udp \
+    -p 853:853/tcp \
+    -p 8181:80/tcp -p 443:443/tcp -p 443:443/udp \
+    -v /srv/config/adguardhome/workdir:/opt/adguardhome/work \
+    -v /srv/config/adguardhome/confdir:/opt/adguardhome/conf \
+    --restart unless-stopped \
+    adguard/adguardhome:v0.107.52
+
+
+53, 80  端口被占用，只能改别的。
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------

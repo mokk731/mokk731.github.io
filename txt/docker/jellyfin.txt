@@ -1,0 +1,74 @@
+
+https://hub.docker.com/r/linuxserver/jellyfin
+
+
+
+
+linuxserver/jellyfin:amd64-2021.11.30
+
+
+playback---VAAPI--renderD128
+
+服务器地址设置---LAN网络----192.168.11.0/24
+
+
+docker-compose (recommended)
+
+Compatible with docker-compose v2 schemas.
+
+----------------------------------------------------
+version: "2.1"
+services:
+  jellyfin:
+    image: linuxserver/jellyfin:amd64-2021.12.02
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - JELLYFIN_PublishedServerUrl=192.168.11.160 #optional
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8096
+    volumes:
+      - /path/to/library:/config
+      - /home/fox1/tvshows:/data/tvshows
+      - /home/fox1/Mov:/data/movies
+      - /opt/vc/lib:/opt/vc/lib #optional
+      - /media/fox1/Vcd/vcd:/data/mov2vcd
+    ports:
+      - 8096:8096
+      - 8920:8920 #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
+    devices:
+      - /dev/dri:/dev/dri #optional
+    restart: unless-stopped
+
+
+
+------------------------------------------------
+
+
+
+docker cli
+
+docker run -d \
+  --name=jellyfin \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e JELLYFIN_PublishedServerUrl=192.168.11.160 `#optional` \
+  -p 8096:8096 \
+  -p 8920:8920 `#optional` \
+  -p 7359:7359/udp `#optional` \
+  -p 1900:1900/udp `#optional` \
+  -v /path/to/library:/config \
+  -v /path/to/tvseries:/data/tvshows \
+  -v /home/fox1/Mov:/data/movies \
+  -v /opt/vc/lib:/opt/vc/lib `#optional` \
+  --device /dev/dri:/dev/dri `#optional` \
+  --device /dev/vcsm:/dev/vcsm `#optional` \
+  --device /dev/vchiq:/dev/vchiq `#optional` \
+  --device /dev/video10:/dev/video10 `#optional` \
+  --device /dev/video11:/dev/video11 `#optional` \
+  --device /dev/video12:/dev/video12 `#optional` \
+  --restart unless-stopped \
+  linuxserver/jellyfin:nightly-version-20210524.6-unstable

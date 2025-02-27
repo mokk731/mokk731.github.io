@@ -1,0 +1,86 @@
+https://hub.docker.com/r/sulinggg/openwrt
+
+ docker pull sulinggg/openwrt:rpi2
+
+
+ docker pull registry.cn-shanghai.aliyuncs.com/suling/openwrt:rpi2
+
+
+https://hub.docker.com/r/sulinggg/openwrt-mini
+docker pull sulinggg/openwrt-mini:rpi2                   *****
+docker pull sulinggg/openwrt-mini:rpi4
+202305
+
+
+
+https://mlapp.cn/376.html	
+-------------------------------------------
+
+****
+docker run --restart unless-stopped --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi2 /sbin/init
+
+其中：
+
+--restart always参数表示容器退出时始终重启，使服务尽量保持始终可用；
+
+--name openwrt参数定义了容器的名称；
+
+-d参数定义使容器运行在 Daemon 模式；
+
+--network macnet参数定义将容器加入 maxnet网络；
+
+--privileged 参数定义容器运行在特权模式下；
+
+registry.cn-shanghai.aliyuncs.com/suling/openwrt:latest为 Docker 镜像名，因容器托管在阿里云 Docker 镜像仓库内，所以在镜像名中含有阿里云仓库信息；
+
+/sbin/init定义容器启动后执行的命令。
+
+------------------------------------
+
+????????????????????????????????????????????????????
+
+docker-compose (recommended)
+
+Compatible with docker-compose v2 schemas.
+
+---
+version: "2"
+services:
+  syncthing:
+    image: sulinggg/openwrt:rpi2
+    container_name: openwrt
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=80
+      - daemon              ????????????
+      - privileged          ????????????
+    /sbin/init              ????????????
+    restart: unless-stopped
+
+
+
+
+docker pull sulinggg/openwrt-mini:rpi2	
+
+
+
+--------------------------------------------
+
+
+luci-theme-material
+
+luci-app-eqos
+
+luci-app-zerotier
+
+luci-app-autoreboot
+
+luci-app-adguardhome
+
+luci-app-openclash
+
+luci-app-passwall2
+
+

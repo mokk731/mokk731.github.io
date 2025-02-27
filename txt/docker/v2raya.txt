@@ -1,0 +1,49 @@
+﻿https://hub.docker.com/r/mzz2017/v2raya
+
+https://github.com/v2rayA/v2rayA
+
+docker pull mzz2017/v2raya:v2.2.5.1
+202403
+
+
+
+sudo docker run -d \
+        --name v2raya \
+        -e TZ=Asia/Shanghai \
+        -e WEBUI_PORT=2017 \
+	-p 2017:2017 \
+	-p 8500-8502:8500-8502 \
+	-v /etc/v2raya:/etc/v2raya \
+        --restart=always \
+	mzz2017/v2raya:1.5.2
+
+
+
+docker pull mzz2017/v2raya:1.5.2
+110.3 MB 	2021-09-04 01:53:10
+
+部署完毕后，访问该机器的2017端口即可使用，如http://localhost:2017。
+
+忘记密码或是想修改密码怎么办？
+v2raya-gui --reset-password
+
+-------------------------------
+
+version: "2.1"
+services:
+  v2raya:
+    image: mzz2017/v2raya:1.5.2
+    container_name: v2raya
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=2017
+    volumes:
+      - /etc/v2raya:/etc/v2raya
+    ports:
+      - 2017:2017
+      - 8500-8502:8500-8502
+    restart: unless-stopped
+
+

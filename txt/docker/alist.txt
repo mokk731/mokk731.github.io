@@ -1,0 +1,46 @@
+alist
+
+https://hub.docker.com/r/xhofe/alist
+https://alist.nn.ci/zh/
+
+
+docker pull xhofe/alist:latest
+------------------------------------------------------
+
+version: '3.3'
+services:
+    alist:
+        restart: unless-stopped
+        volumes:
+            - '/srv/config/alist:/opt/alist/data'
+        ports:
+            - '5244:5244'
+        environment:
+            - PUID=1000
+            - PGID=1000
+            - UMASK=022
+        container_name: alist
+        image: 'xhofe/alist:latest'
+
+
+--------------------------------------------------
+
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUID=0 -e PGID=0 -e UMASK=022 --name="alist" xhofe/alist:latest
+
+
+
+----------------------------------------------------
+
+如果您是站点的所有者，您可以通过在终端中运行 ./alist admin 来获取管理员账号信息。
+
+
+设置-存储:
+
+https://github.com/alist-org/alist/discussions/2215#discussioncomment-4104018
+
+
+/mov            SMB          /mov       0     本地代理     ./    192.168.11.20:445         guest     media
+
+
+
+/小雅电影      AList V3     /小雅电影   0     本地代理      /    http://alist.xiaoya.pro

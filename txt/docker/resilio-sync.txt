@@ -1,0 +1,57 @@
+#resilio-sync
+
+/mnt/sda1/resilio-sync/resiliodownloads
+
+/mnt/sda1/resilio-sync/resilioconfig
+
+admin/123456
+
+
+docker run -d \
+  --name=resilio-sync \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=Asia/Shanghai \
+  -e UMASK_SET=022 \
+  -e WEBUI_PORT=8888 \
+  -p 55555:55555 \
+  -p 55555:55555/udp \
+  -p 8888:8888 \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resilioconfig:/config \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resiliodownloads:/downloads \
+  -v /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resilio-sync:/sync \
+  --restart unless-stopped \
+  linuxserver/resilio-sync:arm32v7-2.7.2.1375-ls91
+
+
+
+
+docker pull linuxserver/resilio-sync:arm32v7-2.7.2.1375-ls91
+106 MB 	2021-07-04 09:53:14
+
+
+-----------------------------------------------
+ 
+********
+
+
+version: "2.1"
+services:
+  resilio-sync:
+    image: linuxserver/resilio-sync:arm32v7-2.7.2.1375-ls91
+    container_name: resilio-sync
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8888
+    volumes:
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resilioconfig:/config
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resiliodownloads:/downloads
+      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/resilio-sync:/sync
+    ports:
+      - 8888:8888
+      - 55555:55555
+      - 55555:55555/udp
+    restart: unless-stopped
+  
