@@ -313,24 +313,35 @@ sudo modprobe rtw89pci
 ---------------------------------------------------------------------------------------
 
 ## Docker 配置
-[docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
+[adguardhome](https://mokk731.github.io/txt/adguardhome.txt)
+
+[alist](https://mokk731.github.io/txt/alist.txt)
+
+[baidunetdisk](https://mokk731.github.io/txt/baidunetdisk.txt)
+
+[jellyfin](https://mokk731.github.io/txt/jellyfin.txt)
+
+[openwrt](https://mokk731.github.io/txt/openwrt.txt)
+
+[qbittorrent](https://mokk731.github.io/txt/qbittorrent.txt)
+
+[resilio-sync](https://mokk731.github.io/txt/resilio-sync.txt)
+
+[samba](https://mokk731.github.io/txt/samba.txt)
+
+[syncthing](https://mokk731.github.io/txt/syncthing.txt)
+
+[tailscale](https://mokk731.github.io/txt/tailscale.txt)
+
+[v2raya](https://mokk731.github.io/txt/v2raya.txt)
+
+[zerotier](https://mokk731.github.io/txt/zerotier.txt)
 
 [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
 
 [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
 
 [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
-
-[docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
-
-[docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
-
-[docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
-
-[docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
-
-[docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
-
 
 
 
