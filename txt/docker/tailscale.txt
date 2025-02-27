@@ -33,15 +33,15 @@ docker run -d --name=tailscaled -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tu
 ---------------------------------------------------
 
 https://www.bilibili.com/opus/797663693002244101
-Tailscale+�˿�ת�� ��ѵ��ӳ�Զ��������WinNas��Ԥ����
+Tailscale+端口转发 免费低延迟远程桌面与WinNas的预配置
 
-����Tailscale�ĵ����йض˿ڵĽ��ܣ���Ҫ���õ���443��41641��3478�����п���41641����˿�������Tailscale����ֱ����ͨ����ͨ��˫��ֻҪ��һ��������41641�˿ڼ��ɡ�
+根据Tailscale文档中有关端口的介绍，主要是用到了443、41641和3478，其中开放41641这个端口有助于Tailscale进行直接连通，且通信双方只要有一方开启了41641端口即可。
 
 
 
-�ڸ��������֮���������ᷢ���ڲ�ͬ���绷���£�Զ�̵��豸Ϊrelay״̬����ʱ��˵������ͨ��Tailscale�ķ��������е����ӣ���ʱ����ȥping��Ӧ�豸���ӳٴ��Ϊ���ٺ��룬��һ�ֲ����õ�״̬��
-Ϊ������Ҫ������Ǳ�Զ�̵�Ŀ���豸����һЩ���������Ż���
- relay "tok" ����ת��
+在刚配置完成之后，你往往会发现在不同网络环境下，远程的设备为relay状态，这时候说明你是通过Tailscale的服务器进行的链接，此时我们去ping对应设备的延迟大多为几百毫秒，是一种不可用的状态，
+为此我们要针对我们被远程的目标设备进行一些网络配置优化。
+ relay "tok" ：中转，
 
-41641��3478�˿�ת����
-�ٴ�ʹ��Tailscale status��������飬���������豸�����ö˿�ת����WinNAS�豸֮�䶼��direct״̬���ӳ���10ms���ڡ�
+41641和3478端口转发，
+再次使用Tailscale status命令来检查，发现任意设备与做好端口转发的WinNAS设备之间都是direct状态，延迟在10ms以内。
