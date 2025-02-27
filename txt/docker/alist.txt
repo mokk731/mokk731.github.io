@@ -31,16 +31,16 @@ docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUI
 
 ----------------------------------------------------
 
-Èç¹ûÄúÊÇÕ¾µãµÄËùÓĞÕß£¬Äú¿ÉÒÔÍ¨¹ıÔÚÖÕ¶ËÖĞÔËĞĞ ./alist admin À´»ñÈ¡¹ÜÀíÔ±ÕËºÅĞÅÏ¢¡£
+å¦‚æœæ‚¨æ˜¯ç«™ç‚¹çš„æ‰€æœ‰è€…ï¼Œæ‚¨å¯ä»¥é€šè¿‡åœ¨ç»ˆç«¯ä¸­è¿è¡Œ ./alist admin æ¥è·å–ç®¡ç†å‘˜è´¦å·ä¿¡æ¯ã€‚
 
 
-ÉèÖÃ-´æ´¢:
+è®¾ç½®-å­˜å‚¨:
 
 https://github.com/alist-org/alist/discussions/2215#discussioncomment-4104018
 
 
-/mov            SMB          /mov       0     ±¾µØ´úÀí     ./    192.168.11.20:445         guest     media
+/mov            SMB          /mov       0     æœ¬åœ°ä»£ç†     ./    192.168.11.20:445         guest     media
 
 
 
-/Ğ¡ÑÅµçÓ°      AList V3     /Ğ¡ÑÅµçÓ°   0     ±¾µØ´úÀí      /    http://alist.xiaoya.pro
+/å°é›…ç”µå½±      AList V3     /å°é›…ç”µå½±   0     æœ¬åœ°ä»£ç†      /    http://alist.xiaoya.pro
