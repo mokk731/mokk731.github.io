@@ -8,12 +8,9 @@
 Last update 2025/01
 
 
-http://lisandong.cn:5678
-https://xiaoya.uncley.cc
-http://www.igarlan.com:15678
-http://121.37.136.3:5678
-https://alist.real9.cn
 
+https://xiaoya.uncley.cc
+http://121.37.136.3:5678
 http://home.openhd.cn:5789
 
 
