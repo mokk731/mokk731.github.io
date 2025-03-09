@@ -46,6 +46,9 @@ Login to OpenWrt → System → Amlogic Service → Install OpenWrt
 
 115,116-MG101
 
+关机拨出usb,重启失败，
+又插入usb 启动openwrt,成功后，关机拨出usb,
+再次启动openwrt,成功！
 
 
 
