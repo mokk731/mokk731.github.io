@@ -39,16 +39,9 @@ https://www.jianpian14.com
 
 TV
 
-my-tv.apk
-https://github.com/lizongying/my-tv-0
+电视直播Pro_2.6.12.apk   ******
 
-
-BLBL_第三方哔哩哔哩客户端
-https://github.com/xiaye13579/BBLL
-
-
-
-小薇直播_2.4.0.apk
+小薇直播_2.4.0.apk    新版2.8 提示有病毒？？？
 
 灵犀直播TV_1.0.115
 
@@ -61,7 +54,11 @@ https://www.mjapk.com
 
 Kodi_v19.0_32.apk
 
+BLBL_第三方哔哩哔哩客户端
+https://github.com/xiaye13579/BBLL
 
+my-tv.apk
+https://github.com/lizongying/my-tv-0
 
 ####################################################################################
 
