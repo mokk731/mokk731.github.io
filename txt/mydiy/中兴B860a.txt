@@ -132,7 +132,7 @@ https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_bullsey
 
 ----------------------
 https://www.qibohan.com/archives/218
-中兴机顶盒ZXV10 B860AV2.1T 2022款刷armbian系统
+中兴机顶盒ZXV10 B860AV2.1T 2022款刷armbian系统     *************
 
 
 1, 复制 u-boot-s905x-s912.bin 成 u-boot.ext
@@ -158,7 +158,7 @@ FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
 
 https://github.com/ophub/amlogic-s9xxx-armbian/issues/2491
 
-Armbian Version | 系统版本
+Armbian Version | 系统版本                                *************
 Armbian OS 24.8.0 Bullseye with Linux 6.6.46-ophub
 1、盒子标签，据说是S905l处理器
 https://data.znds.com/attachment/forum/202407/23/135649og4df6jnh32xnadf.png
