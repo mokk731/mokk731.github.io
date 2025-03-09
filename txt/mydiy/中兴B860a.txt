@@ -25,15 +25,26 @@
 
 ----
 
-https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_lede_save_2025.03/openwrt_lede_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz
+https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_lede_save_2025.03/openwrt_lede_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz   *************
 https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_lede_save_2025.03/openwrt_lede_amlogic_s905l_k6.1.129_2025.03.02.img.gz
 
+https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immortalwrt_save_2025.03/openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz    *************
+
 更改下 uEnv.ini 
-FDT=/dtb/amlogic/meson-gxl-s905l.dtb
+FDT=/dtb/amlogic/meson-gxl-s905l-venz-v10.dtb
 
 就可以usb启动
 
+Default IP: 192.168.1.1
+Default username: root
+Default password: password
+Default WIFI name: OpenWrt
+Default WIFI password: none
 
+Install to EMMC
+Login to OpenWrt → System → Amlogic Service → Install OpenWrt
+
+115,116-MG101
 
 
 
