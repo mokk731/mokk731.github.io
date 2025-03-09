@@ -5,13 +5,21 @@
 
 
 可以公网使用的免费xiaoya：            ##############
-Last update 2025/01
+Last update 2025/03
 
 
 
 https://xiaoya.uncley.cc
 http://121.37.136.3:5678
 http://home.openhd.cn:5789
+
+
+https://www.wangxiaotian.com/
+https://alist.nightsoil.cn/
+http://www.mattoid.cn:15678/
+https://alist.xphuhu.cn/
+http://221.4.252.3:66/
+
 
 
 ####################################################################################
