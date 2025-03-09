@@ -153,3 +153,28 @@ FDT=/dtb/amlogic/meson-gxl-s905x-p212.dtb
 试了多个方案，都不成功，不能进入U盘armbian系统,openwrt引导，放弃。。。。。。。。。
 
 
+----------------------
+
+
+https://github.com/ophub/amlogic-s9xxx-armbian/issues/2491
+
+Armbian Version | 系统版本
+Armbian OS 24.8.0 Bullseye with Linux 6.6.46-ophub
+1、盒子标签，据说是S905l处理器
+https://data.znds.com/attachment/forum/202407/23/135649og4df6jnh32xnadf.png
+2、先刷安卓6 root固件20191219-R3300L-Q7-6.0-root-twrp-Milton
+固件在这里https://pan.baidu.com/s/1szzamBS1NEYoOiL0ExOWRw?pwd=7yl5
+注意： 短接C125，然后插电，按主板上开机按钮，插usb线刷，选中双擦
+
+3、用这个armbian系统Armbian_24.8.0_amlogic_s905l-mg101_bullseye_6.6.46_server_2024.08.17.img
+安装列表中无盒子型号，大佬添加上
+
+4、用apk切换armbian引导盘启动，或者ttl输入reboot update从u盘引导armbian
+armbian固件里面没有这个型号，找了个同样处理器的，选择115
+115 s905l UNT402A,M201-S,MiBox-4C,IP108H-53u1m meson-gxl-s905l3b-m302a.dtb
+
+202503
+刷 安卓6 root固件20191219-R3300L-Q7-6.0-root-twrp-Milton  成功， wifi用不了。
+
+
+
