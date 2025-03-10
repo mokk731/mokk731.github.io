@@ -28,3 +28,5 @@
 [安兔兔安卓手机性价比榜](https://www.antutu.com/ranking/rank202.htm)
 
 [安兔兔安卓SOC天梯榜](https://www.antutu.com/ranking/rank301.htm)
+
+[路由器CPU性能天梯排行榜](https://umi.im/router-cpu-coremark/)
