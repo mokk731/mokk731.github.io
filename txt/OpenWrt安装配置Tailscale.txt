@@ -12,33 +12,36 @@ https://iqotom.com/?p=1873
 OpenWrt安装配置Tailscale实现内网穿透，异地组网
 
 
-下载软件,解压缩软件
+# 下载软件,解压缩软件
 wget https://github.com/adyanth/openwrt-tailscale-enabler/releases/download/v1.60.0-e428948-autoupdate/openwrt-tailscale-enabler-v1.60.0-e428948-autoupdate.tgz
 tar x -zvC / -f openwrt-tailscale-enabler-v1.60.0-e428948-autoupdate.tgz
 
-安装依赖包
+# 安装依赖包
 opkg update
 opkg install libustream-openssl ca-bundle kmod-tun
 
-设置开机启动，验证开机启动
+# 设置开机启动，验证开机启动
 /etc/init.d/tailscale enable
 ls /etc/rc.d/S*tailscale*
 
-启动tailscale
+# 启动tailscale
 /etc/init.d/tailscale start
 
-获取登录链接，配置路由
+# 获取登录链接，配置路由
 tailscale up --accept-routes --accept-dns=false --advertise-routes=192.168.11.0/24 
 
 
 
 ---------------
 
-OpenWrt添加接口
+# OpenWrt添加接口
 
-在OpenWrt上新建一个接口，协议选静态地址，设备选tailscale0，地址为Taliscale管理页面上分配的地址100.100.XXX.XXX，掩码255.0.0.0。防火墙区域选lan区域。
+在OpenWrt上新建一个接口，协议选静态地址，设备选tailscale0，
+地址为Taliscale管理页面上分配的地址100.100.XXX.XXX，掩码255.0.0.0。 
+接口: 以太网适配器: "tailscale0" (tailscale0) 
+防火墙区域选lan区域。
 
-添加防火墙规则
+# 添加防火墙规则
 
 将以下内容，加到防火墙的自定义规则当中，并重启防火墙。
 
@@ -47,7 +50,7 @@ iptables -I FORWARD -o tailscale0 -j ACCEPT
 iptables -t nat -I POSTROUTING -o tailscale0 -j MASQUERADE
 
 
-验证：
+# 验证：
 
 tailscale status
 
