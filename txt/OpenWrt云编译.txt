@@ -2,9 +2,8 @@
 https://github.com/P3TERX/Actions-OpenWrt
 ---------------
 
+
 diy-part2.sh
-
-
 
 
 # Modify default IP
@@ -17,26 +16,30 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 # 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 sed -i 's/OpenWrt /编译时间 $(TZ=UTC-8 date "+%Y.%m.%d") @ 博弈江湖 /g' package/lean/default-settings/files/zzz-default-settings
 
+# 修改默认 wifi 名称 ssid为 WiFi_R4AGv2
+sed -i 's/ssid=OpenWrt/ssid=WiFi_E8820s/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+# 修改默认wifi密码key为password
+sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
 
 -----------------
  work-flow 文件
 
 yml
 #  schedule:
-#    - cron: 0 5 2 2 * ?
+#    - cron: 0 5 2 2 * ?                - cron: 0 20 9 * ?
 0 15 10 15 * ? 每月15号上午10点15分触发
 
 UPLOAD_FIRMWARE: true
-UPLOAD_RELEASE: false  true
+UPLOAD_RELEASE: true
 
 
 -----------------------------------
-
+主题
 luci-theme-material
 ------------------------------------------
-
------------------------------------------
-
 
 
 --------------------------------
@@ -90,23 +93,19 @@ fork后到自己仓库可以看见如上图所示，esir为大家提供了R2S,R4
 
 ---------------------------------------------
 
+
 zte_e8820s.config
 
------------------------
-
-
-
-#test
+# type
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_ramips_mt7621_DEVICE_zte_e8820s=y
 CONFIG_TARGET_IMAGES_GZIP=y
 
-#wifi ky
+# wifi ky
 CONFIG_PACKAGE_kmod-mt7603e=n
 CONFIG_PACKAGE_kmod-mt76x2e=n
 CONFIG_PACKAGE_luci-app-mtwifi=n
-
 
 CONFIG_PACKAGE_kmod-mt7603=y
 CONFIG_PACKAGE_kmod-mt76x2=y
@@ -117,11 +116,12 @@ CONFIG_PACKAGE_kmod-mac80211=y
 CONFIG_PACKAGE_kmod-cfg80211=y
 CONFIG_PACKAGE_kmod-mt76-core=y
 
-
 --------------------------------------------
 
 serverchan   「Server酱」，英文名「ServerChan」
 CONFIG_PACKAGE_luci-app-serverchan=y
+# CONFIG_PACKAGE_luci-app-wechatpush=y
+
 CONFIG_PACKAGE_luci-theme-material=y
 CONFIG_PACKAGE_luci-app-sqm=y
 CONFIG_PACKAGE_luci-app-eqos=y
@@ -218,6 +218,8 @@ wireguard
 CONFIG_PACKAGE_luci-app-wireguard=y
 
 tailscale
+CONFIG_PACKAGE_luci-app-tailscale=y
+https://github.com/asvow/luci-app-tailscale
 
 zerotier
 CONFIG_PACKAGE_luci-app-zerotier=y 
