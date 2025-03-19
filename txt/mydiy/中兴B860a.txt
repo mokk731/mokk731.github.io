@@ -206,7 +206,7 @@ https://data.znds.com/attachment/forum/202407/23/135649og4df6jnh32xnadf.png
 固件在这里https://pan.baidu.com/s/1szzamBS1NEYoOiL0ExOWRw?pwd=7yl5                  *************
 注意： 短接C125，然后插电，按主板上开机按钮，插usb线刷，选中双擦
 
-3、用这个armbian系统Armbian_24.8.0_amlogic_s905l-mg101_bullseye_6.6.46_server_2024.08.17.img
+3、用这个armbian系统 openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz
 安装列表中无盒子型号，大佬添加上       meson-gxl-s905l-venz-v10.dtb
 
 4、用apk切换armbian引导盘启动，或者ttl输入reboot update从u盘引导armbian
@@ -216,8 +216,9 @@ armbian固件里面没有这个型号，找了个同样处理器的，选择115 
 
 202503
 刷 安卓6 root固件20191219-R3300L-Q7-6.0-root-twrp-Milton  成功， wifi用不了。
-刷 immortalwrt 成功， wifi用不了。  
-   LEDE 成功，软件源用不了，wifi用不了。
+刷 immortalwrt 成功， wifi用不了。  openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz 
+https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immortalwrt_save_2025.03/openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz
+刷 LEDE 成功，软件源用不了，wifi用不了。
 
 
 https://downloads.immortalwrt.org/snapshots/packages/aarch64_generic/
