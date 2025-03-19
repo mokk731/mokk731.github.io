@@ -233,5 +233,6 @@ armbian固件里面没有这个型号，找了个同样处理器的，选择115 
 
 https://mirrors.cloud.tencent.com/openwrt/
 https://mirrors.cloud.tencent.com/openwrt/releases/22.03.6/targets/armvirt/64/kmods/5.10.201-1-a78f82e91c30cec59ccf45def4151bd2/
+https://mirrors.cloud.tencent.com/openwrt/snapshots/targets/armsr/armv8/kmods/6.1.86-1-4f759fb637b59dfd021404e96ce9f182/
 
 
