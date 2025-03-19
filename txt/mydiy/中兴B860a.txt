@@ -226,3 +226,12 @@ armbian固件里面没有这个型号，找了个同样处理器的，选择115 
     依赖的软件包 kmod-netlink-diag 在所有仓库都未提供。
 要自己编译，。。。。。。
 
+依赖的软件包 kmod-nft-socket 在所有仓库都未提供。
+依赖的软件包 kmod-nft-tproxy 在所有仓库都未提供。
+依赖的软件包 kmod-nft-nat 在所有仓库都未提供。
+依赖的软件包 kmod-netlink-diag 在所有仓库都未提供。
+
+https://mirrors.cloud.tencent.com/openwrt/
+https://mirrors.cloud.tencent.com/openwrt/releases/22.03.6/targets/armvirt/64/kmods/5.10.201-1-a78f82e91c30cec59ccf45def4151bd2/
+
+
