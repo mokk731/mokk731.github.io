@@ -221,6 +221,13 @@ https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immorta
 刷 LEDE 成功，软件源用不了，wifi用不了。
 
 
+
+主机名	  ZTE-ImmortalWrt
+型号	  Venz V10
+固件版本 ImmortalWrt SNAPSHOT r0-3c5ff02 / LuCI Master 25.050.43906~5a10c75
+内核版本	6.1.129-ophub
+
+
 https://downloads.immortalwrt.org/snapshots/packages/aarch64_generic/
 
 想安装某个科学ipk,装不上，少了3个依赖。
