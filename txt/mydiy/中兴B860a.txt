@@ -220,6 +220,8 @@ armbian固件里面没有这个型号，找了个同样处理器的，选择115 
    LEDE 成功，软件源用不了，wifi用不了。
 
 
+https://downloads.immortalwrt.org/snapshots/packages/aarch64_generic/
+
 想安装某个科学ipk,装不上，少了3个依赖。
     依赖的软件包 kmod-nft-socket 在所有仓库都未提供。
     依赖的软件包 kmod-nft-tproxy 在所有仓库都未提供。
