@@ -11,6 +11,7 @@
 
 #### [OpenWrt云编译](https://mokk731.github.io/txt/OpenWrt云编译.txt)
 
+#### [OpenWrt启用upnp功能+TurboACC加速](https://mokk731.github.io/txt/OpenWrt启用upnp功能+TurboACC加速.txt)
 
 
 
