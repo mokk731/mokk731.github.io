@@ -1,0 +1,44 @@
+https://www.cheshirex.com/9019.html
+DeepSeek-R1:14B 未受限版本 模型本地部署教程（N卡+A卡）
+
+DeepSeek深度求索官网：https://www.deepseek.com
+Ollama官网：https://ollama.com/
+Chatbox官网：https://chatboxai.app/zh
+DeepSeek-R1-Distill-Qwen-14B-abliterated-v2未受限模型：
+https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-14B-abliterated-v2
+
+
+
+
+
+# 部署步骤
+
+1.下载安装Ollama程序
+
+打开Ollama官网直接下载，自己是什么系统就下什么安装包。
+文件大概745MB，国内直接下载速度可能比较慢，可以开梯子下载。
+下载完成直接打开安装包安装，安装不可以选安装目录，默认安装到C盘。
+
+2.设置环境变量
+
+一般C盘没那么多空间给我们存放模型文件，这里本文将变量目录指向了D盘，自己根据实际需求设置，目录名随便。
+变量名：OLLAMA_MODELS
+变量值：D:\deepseek 你要存放模型的目录，可以根据自己磁盘实际情况随便创建个目录。
+重要：设置完成后重启电脑，否则直接开始使用会将文件下载到C盘。
+
+3.安装模型
+
+本文安装的是14B的未受限模型，使用下面命令在CMD运行就可以了。
+下载过成可能前面速度快，到了后面比较慢，耐心等待吧。
+ollama run huihui_ai/deepseek-r1-abliterated:14b
+ollama run huihui_ai/deepseek-r1-abliterated:32b
+ollama run huihui_ai/deepseek-r1-abliterated:70b
+
+
+# 下载安装Chatbox
+
+Chatbox可以直接在官网免费下载：https://chatboxai.app/zh
+安装Chatbox后我们可以通过常见的对话框来使用deepseek。
+
+
+
