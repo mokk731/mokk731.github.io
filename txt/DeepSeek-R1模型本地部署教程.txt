@@ -51,6 +51,10 @@ ollama run huihui_ai/deepseek-r1-abliterated:70b
 
 Chatbox可以直接在官网免费下载：https://chatboxai.app/zh
 安装Chatbox后我们可以通过常见的对话框来使用deepseek。
+安装后运行Chatbox，我们选择是用自己的本地模型
+然后选择本地模型，请注意这里选择Ollama API，不要选择deepseek API。
+我们本地模型是通过Ollama来提供的。
+
 
 
 
