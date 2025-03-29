@@ -10,7 +10,7 @@ https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-14B-abliterated-v2
 
 
 
-模型名称	                                        建议显存	
+模型名称	                                          建议显存	
 DeepSeek-R1-Distill-Qwen-1.5B                 	6G及以下	
 DeepSeek-R1-Distill-Qwen-7B                   	8G及以下	
 DeepSeek-R1-Distill-Llama-8B                  	8G以上	
