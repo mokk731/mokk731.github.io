@@ -117,11 +117,21 @@
 
 #### [win软件技巧](https://mokk731.github.io/txt/win软件技巧.txt)
 
+#### [DeepSeek-R1模型本地部署教程](https://mokk731.github.io/txt/DeepSeek-R1模型本地部署教程,txt)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 
 
