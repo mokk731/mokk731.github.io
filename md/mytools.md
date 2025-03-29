@@ -115,7 +115,7 @@
 
 ## 软件技巧
 
-#### [win软件技巧](https://mokk731.github.io/txt/win软件技巧.txt)
+#### [win软件技巧-杂](https://mokk731.github.io/txt/win软件技巧.txt)
 
 #### [DeepSeek-R1模型本地部署教程](https://mokk731.github.io/txt/DeepSeek-R1模型本地部署教程,txt)
 
