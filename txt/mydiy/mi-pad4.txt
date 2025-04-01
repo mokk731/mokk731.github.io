@@ -7,6 +7,19 @@ https://baike.baidu.com/item/%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF4
 小米平板4搭载骁龙660AIE处理器，支持5伏/2安快充，电池容量6000毫安时 (典型值) ，1300万像素后置相机。
 
 -----------------------------------------------------------------------
+
+解锁BL锁 
+
+miflash_unlock
+
+用win7电脑才成功，win10没成功。
+
+---------------------------------------------------------
+https://developer.android.google.cn/tools/releases/platform-tools?hl=zh-cn
+Android SDK Platform-Tools 是 Android SDK 的一个组件。它包含与 Android 平台进行交互的工具，主要是 adb 和 fastboot。
+
+
+
 https://wiki.pixelexperience.org/devices/clover/install/
 Install PixelExperience on clover
 
