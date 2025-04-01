@@ -1,0 +1,60 @@
+https://baike.baidu.com/item/%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF4
+小米平板4
+
+2018年6月25日小米公司发布的平板电脑
+小米平板4是2018年6月25日小米公司发布的平板电脑产品。 [1]
+小米平板4采用8.0英寸全高清屏幕；小米平板4高度200.2毫米，宽度120.3毫米，厚度7.9毫米，重量342.5克。小米平板4有黑色、金色两种颜色。 [5]
+小米平板4搭载骁龙660AIE处理器，支持5伏/2安快充，电池容量6000毫安时 (典型值) ，1300万像素后置相机。
+
+-----------------------------------------------------------------------
+https://wiki.pixelexperience.org/devices/clover/install/
+Install PixelExperience on clover
+
+https://www.youtube.com/watch?v=FzWWye1roWs
+有手就行！3行指令，把小米平板4 (Plus) 刷成 Pixel Tablet青春版
+
+fastboot flash recovery D:\temp\222\mipad4\recovery.img
+adb sideload D:\temp\222\mipad4\PixelExperience_Plus_clover-13.0-20240126-2042-OFFICIAL.zip
+
+
+https://post.smzdm.com/p/a96dvpo0/
+刷机笔记(一): 小米平板4刷机Pixel Experience(Plus)(目前最完整的教程)
+
+#recovery一键刷入工具.zip: https://url56.ctfile.com/f/56543956-1315846859-f96cc1?p=9465 (访问密码: 9465)
+
+recovery一键刷入工具 MD5：e7d497cc6192fb0c214965192aea34c5
+
+#Pixel Experience Plus原地址（包含了线刷包和4个屏幕超频img）：PixelExperience_Plus_clover-13.0-20240126-2042-OFFICIAL
+https://androidfilehost.com/?w=files&flid=340973     #######
+
+#Pixel Experience Plus国内备用地址： https://url56.ctfile.com/d/56543956-61751524-c6af53?p=9465 (访问密码: 9465)
+
+#屏幕超频国内备用地址: https://url56.ctfile.com/d/56543956-61751395-7d82fc?p=9465 (访问密码: 9465)
+
+Pixel Experience Plus MD5：6c449a3cd9e67301560fe3fb66eacbf9
+
+
+
+https://www.bilibili.com/opus/1011067208817704963
+[HOW]如何在Android File Host下载资源
+:解决办法为使用能从诸如Microsoft Addon等插件商城安装插件的浏览器，如Chrome，Edge等（当然Firefox亦可），安装插件
+Decentraleyes
+
+https://mde1.androidfilehost.com/dl/ytushzjIQumJAOj6Eahtjw/1740331397/11701882489785038435/PixelExperience_Plus_clover-13.0-20240126-2042-OFFICIAL.zip
+
+https://mpl1.androidfilehost.com/dl/ytushzjIQumJAOj6Eahtjw/1740331397/11701882489785038435/PixelExperience_Plus_clover-13.0-20240126-2042-OFFICIAL.zip
+
+https://ava2.androidfilehost.com/dl/ytushzjIQumJAOj6Eahtjw/1740331397/11701882489785038435/PixelExperience_Plus_clover-13.0-20240126-2042-OFFICIAL.zip
+
+https://mva1.androidfilehost.com/dl/ExlSKTNMiHED97kv0rXHVQ/1740331398/11701882489785038435/PixelExperience_Plus_clover-13.0-20240126-2042-OFFICIAL.zip
+
+
+https://github.com/MlgmXyysd/Xiaomi-HyperOS-BootLoader-Bypass/
+Xiaomi HyperOS BootLoader Bypass
+A PoC that exploits a vulnerability to bypass the Xiaomi HyperOS community restrictions of BootLoader unlocked account bindings.
+
+https://www.youtube.com/watch?v=Rz__ODnIhLg
+我把我的红米手机刷机了！——小米HyperOS绕过社区&答题解锁BL刷入国际版全过程指导。
+
+小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT
+
