@@ -22,7 +22,7 @@
 
 #### [小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT](https://mokk731.github.io/txt/mydiy/小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT.txt)
 
-
+#### [小米平板4](https://mokk731.github.io/txt/mydiy/mi-pad4.txt)
 
 
 ----------------------------------------------------------------
