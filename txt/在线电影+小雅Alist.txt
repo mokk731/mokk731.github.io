@@ -39,6 +39,17 @@ https://www.jianpian9.com
 https://www.jianpian14.com
 
 
+简简单单的看直播
+dart_simple_live
+https://github.com/xiaoyaocz/dart_simple_live/releases
+虎牙直播
+斗鱼直播
+哔哩哔哩直播
+抖音直播
+
+
+
+
 
 ####################################################################################
 
