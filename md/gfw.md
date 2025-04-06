@@ -53,7 +53,7 @@
 
 ####  Passwall
 
-####  Clash
+####  OpenClash
 
 ####  singbox插件homeproxy
 
