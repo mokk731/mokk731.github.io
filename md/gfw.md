@@ -10,7 +10,7 @@
 
 #### [v2rayN for win](https://github.com/2dust/v2rayN)
 
-#### [Hiddify]（https://github.com/hiddify/hiddify-app/releases）
+#### [Hiddify](https://github.com/hiddify/hiddify-app/releases）
 
 #### [clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
 
