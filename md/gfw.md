@@ -10,6 +10,10 @@
 
 #### [v2rayN for win](https://github.com/2dust/v2rayN)
 
+#### [Hiddify]（https://github.com/hiddify/hiddify-app/releases）
+
+#### [clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
+
 
 #### [WireGuard for win mac Android iOS Ubuntu](https://www.wireguard.com/install/)
 
@@ -17,7 +21,6 @@
 
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
-#### [clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
 
 
 #### [Oblivion VPN.apk](https://github.com/bepass-org/oblivion/releases)
@@ -30,17 +33,17 @@
 
 #### [TOR Browser](https://www.torproject.org/zh-CN/)
 
-####  I2P
+#### [I2P](https://geti2p.net/zh/download)
+
+
 
 ####  Telegram
-
-
 
 ####  v2rayfree
 
 ####  MahsaNG
 
-####  Hiddify
+
 
 
 --------------------------------------------------------------------------
