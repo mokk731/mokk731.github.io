@@ -166,5 +166,24 @@ https://mokk7310.github.io/Rom/openwrt-mi-router-4a-gigabit-v2-2024.09.16-1741.b
 
 
 
+---------------------------------------------------------------------
+
+202504
+Xiaomi_R4AGv3    2024
+Xiaomi路由器4A千兆版 	MiWiFi 稳定版 1.0.34 
+小米自研Mesh组网
+可能是新版，无法解锁
+
+https://www.right.com.cn/forum/thread-8423707-1-1.html
+这个版本的cpu换螃蟹的了
+
+CPU都换螃蟹的了，又不出公告，垃圾， 应该没大神会有兴趣研究破解和ROM了，
+只有MTK的cpu,大神会才兴趣研究.
+
+
+
+
+
+
 
 
