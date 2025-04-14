@@ -91,6 +91,8 @@
 
 #### [在线电影+小雅Alist](https://mokk731.github.io/txt/在线电影+小雅Alist.txt)
 
+#### [Simple Live](https://github.com/xiaoyaocz/dart_simple_live/releases)
+
 #### [1024+jav](https://mokk731.github.io/txt/1024jav.txt)
 
 #### [网络测试ip工具](https://mokk731.github.io/txt/nettest.txt)
