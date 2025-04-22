@@ -120,3 +120,5 @@ telnet <router_ip_address>
 
 https://mokk7310.github.io/Rom/openwrt_mi-router-4a-2024.07.02-1310.bin
 
+https://mokk7310.github.io/Rom/openwrt-mi-router-4a-v1-2025.04.22.bin
+
