@@ -177,8 +177,18 @@ Xiaomi路由器4A千兆版 	MiWiFi 稳定版 1.0.34
 https://www.right.com.cn/forum/thread-8423707-1-1.html
 这个版本的cpu换螃蟹的了
 
+https://github.com/acecilia/OpenWRTInvasion/issues/205
+有用户报告称，他们购买的 R4AG 路由器（生产日期为 2024 年 10 月）预装了固件版本 1.0.34。该设备的硬件配置包括
+主控芯片Realtek RTL8197FH
+交换芯片Realtek RTL8367RB
+5GHz 无线芯片Realtek RTL8812FR
+
+
+
 CPU都换螃蟹的了，又不出公告，垃圾， 应该没大神会有兴趣研究破解和ROM了，
 只有MTK的cpu,大神会才兴趣研究.
+
+
 
 
 -----------------------------------------------------------------
