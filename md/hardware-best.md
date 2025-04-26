@@ -6,10 +6,10 @@
 | 神U：                | R5-5500GT  ,  i3-12100    ,   N100                                              |
 | 手机：               | 骁龙8sGen3 RedmiTurbo3,, MTK7300ultra RedmiNote14Pro,, MTK8300ultra...A11,iphone8p,      |
 |路由器:               | 中兴E8820S , mi-R4a-G,, ,小米AX3000T, 小米WR30U, 360 T7, 华三NX30Pro,中移动RAX3000m   |
-|Mesh组网:             | 小米AX3000T, 小米WR30U,..... 锐捷雪豹X30E电竞路由器                               |
+|Mesh组网:             | 小米AX3000T,小米AX3000E-苹果友好, 小米WR30U,..... 锐捷雪豹X30E电竞路由器                |
 |NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,   OrangePi-Zero3-h618          |
 |电视盒子：             | 外贸盒子HK1 box ,  魔百盒CM-311 ,                                                | 
-|看电视app：           | 小薇直播,,TV-box  灵犀直播TV ,  看看TV  , my-tv  ,荐片pc+app                   |
+|看电视app：           | 小薇直播,,TV-box  灵犀直播TV ,  电视直播Pro  , my-tv  ,荐片pc+app                   |
 |在线免费电影：         | www.smdyy.cc 神马电影网 ,  www.pkmp4.xyz 片库 ,  www.dygod.net 电影天堂    ,       |
 | 耳机：               |      飞利浦9500                                                                 | 
 | 万用表:              |  DT9205A   ,     胜利890D,    优利德UT39A+                                      |
