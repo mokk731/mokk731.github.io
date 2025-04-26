@@ -96,7 +96,6 @@
 127.0.0.1    mediav.com
 127.0.0.1    nzwgs.com
 
-
 # gzads TV
 127.0.0.1    gzads.com
 127.0.0.1    gozendata.com
@@ -113,6 +112,7 @@
 127.0.0.1    gdmf.apple.com
 127.0.0.1    ns.itunes.apple.com
 127.0.0.1    gg.apple.com
+
 
 ##############################################
 
