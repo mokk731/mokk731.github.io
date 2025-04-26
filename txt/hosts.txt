@@ -87,10 +87,13 @@
 
 
 # baidu Ad
-127.0.0.1   pos.baidu.com
-127.0.0.1   dhyto.com
-127.0.0.1   hjttif.com
-127.0.0.1   wyswgb.com
+127.0.0.1     pos.baidu.com
+127.0.0.1     eclick.baidu.com
+127.0.0.1     crs.baidu.com
+127.0.0.1     hm.baidu.com
+127.0.0.1     drmcmm.baidu.com
+127.0.0.1     cpro.baidu.com
+
 
 # 360 Ad
 127.0.0.1   qhmsg.com
