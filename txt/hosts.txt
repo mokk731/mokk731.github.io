@@ -67,6 +67,8 @@
 127.0.0.1   qhmsg.com
 127.0.0.1   lianmeng.360.cn
 127.0.0.1   mediav.com
+127.0.0.1   nzwgs.com
+
 
 # gzads TV
 127.0.0.1   gzads.com
