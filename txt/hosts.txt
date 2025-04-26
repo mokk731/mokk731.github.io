@@ -7,11 +7,11 @@
 # nslookup -qt=A github.com 119.29.29.29                                  A 地址记录(Ipv4)     ***
 # nslookup -qt=A httpredir.debian.org 119.29.29.29                                            ***
 # nslookup -qt=A raw.githubusercontent.com 119.29.29.29                                       ***
-#                 ip              ping
-#           185.199.110.133       285ms
-#           185.199.111.133       285
-#           185.199.109.133       100
-#           185.199.108.133       100
+#                 ip             time
+#     ping 185.199.110.133       285ms
+#     ping 185.199.111.133       285
+#     ping 185.199.109.133       100
+#     ping 185.199.108.133       100
           
 
 
