@@ -28,8 +28,8 @@
 
 ########################################################################
 
-
-#  update 202504  GitHub Start  
+#  nslookup raw.githubusercontent.com 119.29.29.29
+#   GitHub Start  update 202504
 20.205.243.166  github.com
 20.205.243.166  gist.github.com
 151.101.77.194  github.global.ssl.fastly.net
