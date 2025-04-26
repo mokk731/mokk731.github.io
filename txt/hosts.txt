@@ -57,6 +57,13 @@
 127.0.0.1   2345.com
 127.0.0.1   2345.cc
 
+# baidu Ad
+127.0.0.1   pos.baidu.com
+127.0.0.1   dhyto.com
+127.0.0.1   hjttif.com
+127.0.0.1   wyswgb.com
+
+
 # gzads TV
 127.0.0.1   gzads.com
 127.0.0.1   gozendata.com
