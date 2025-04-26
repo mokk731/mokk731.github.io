@@ -2,6 +2,7 @@
 # linux---- sudo /etc/init.d/dns-clean start           nano /etc/hosts
 # openwrt--- /etc/init.d/dnsmasq restart               vi /etc/myhosts     ***
 
+# myhosts
 # nslookup raw.githubusercontent.com 119.29.29.29
 # nslookup github.com 119.29.29.29
 # nslookup -qt=A github.com 119.29.29.29                                  A 地址记录(Ipv4)     ***
@@ -10,19 +11,17 @@
 #                 ip             time
 #     ping 185.199.110.133       270ms
 #     ping 185.199.111.133       270
-#     ping 185.199.109.133       95
+#     ping 185.199.109.133       95      ***
 #     ping 185.199.108.133       95
           
+# https://ping.chinaz.com                ***
 
 
-
-
-
-# https://ping.chinaz.com
-
-# GitHub
+# GitHub hosts
 # https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
 # https://raw.hellogithub.com/hosts
+
+# 镜像加速器
 # bgithub.xyz 是一个对于 GitHub.com 的镜像加速器
 # raw.gitmirror.com  是一个对于 raw.githubusercontent.com 的镜像加速器
 
