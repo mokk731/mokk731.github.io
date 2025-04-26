@@ -52,7 +52,6 @@
 151.101.90.132   httpredir.debian.org
 
 
-
 # 2345  Ad
 127.0.0.1    2345.com
 127.0.0.1    www.2345.com
@@ -84,7 +83,6 @@
 127.0.0.1    2345soft.cc
 127.0.0.1    2345explorer.com
 127.0.0.1    2345explorer.cc
-
 
 # baidu Ad
 127.0.0.1    pos.baidu.com
