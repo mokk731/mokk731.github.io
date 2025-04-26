@@ -88,6 +88,7 @@
 127.0.0.1    pos.baidu.com
 127.0.0.1    fclick.baidu.com
 127.0.0.1    hm.baidu.com
+127.0.0.1    miao.baidu.com
 
 # 360 Ad
 127.0.0.1    qhmsg.com
