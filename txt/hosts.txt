@@ -5,8 +5,15 @@
 # nslookup raw.githubusercontent.com 119.29.29.29
 # nslookup github.com 119.29.29.29
 # nslookup -qt=A github.com 119.29.29.29                                  A 地址记录(Ipv4)     ***
-# nslookup -qt=A raw.githubusercontent.com 119.29.29.29                                       ***
 # nslookup -qt=A httpredir.debian.org 119.29.29.29                                            ***
+# nslookup -qt=A raw.githubusercontent.com 119.29.29.29                                       ***
+#                 ip              ping
+#           185.199.110.133       285ms
+#           185.199.111.133       285
+#           185.199.109.133       100
+#           185.199.108.133       100
+          
+
 
 
 
@@ -22,26 +29,26 @@
 
 ########################################################################
 
-# update 202502
+# update 202504
 
 # GitHub Start
 20.205.243.166  github.com
 20.205.243.166  gist.github.com
 151.101.77.194  github.global.ssl.fastly.net
 185.199.109.153  assets-cdn.github.com
-185.199.111.133  raw.githubusercontent.com
+185.199.109.133  raw.githubusercontent.com
 
-185.199.111.133  cloud.githubusercontent.com
-185.199.111.133  camo.githubusercontent.com
-185.199.111.133  avatars0.githubusercontent.com
-185.199.111.133  avatars1.githubusercontent.com
-185.199.111.133  avatars2.githubusercontent.com
-185.199.111.133  avatars3.githubusercontent.com
-185.199.111.133  avatars4.githubusercontent.com
-185.199.111.133  avatars5.githubusercontent.com
-185.199.111.133  avatars6.githubusercontent.com
-185.199.111.133  avatars7.githubusercontent.com
-185.199.111.133  avatars8.githubusercontent.com
+185.199.109.133  cloud.githubusercontent.com
+185.199.109.133  camo.githubusercontent.com
+185.199.109.133  avatars0.githubusercontent.com
+185.199.109.133  avatars1.githubusercontent.com
+185.199.109.133  avatars2.githubusercontent.com
+185.199.109.133  avatars3.githubusercontent.com
+185.199.109.133  avatars4.githubusercontent.com
+185.199.109.133  avatars5.githubusercontent.com
+185.199.109.133  avatars6.githubusercontent.com
+185.199.109.133  avatars7.githubusercontent.com
+185.199.109.133  avatars8.githubusercontent.com
 
 # debian omv
 151.101.90.132   httpredir.debian.org
