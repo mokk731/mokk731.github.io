@@ -63,6 +63,10 @@
 127.0.0.1   hjttif.com
 127.0.0.1   wyswgb.com
 
+# 360 Ad
+127.0.0.1   qhmsg.com
+127.0.0.1   lianmeng.360.cn
+127.0.0.1   mediav.com
 
 # gzads TV
 127.0.0.1   gzads.com
