@@ -29,27 +29,27 @@
 ########################################################################
 
 #  nslookup raw.githubusercontent.com 119.29.29.29
-#   GitHub Start  update 202504
-20.205.243.166  github.com
-20.205.243.166  gist.github.com
-151.101.77.194  github.global.ssl.fastly.net
-185.199.109.153  assets-cdn.github.com
-185.199.109.133  raw.githubusercontent.com
+#  GitHub Start    update 202504
+20.205.243.166     github.com
+20.205.243.166     gist.github.com
+151.101.77.194     github.global.ssl.fastly.net
+185.199.109.153    assets-cdn.github.com
+185.199.109.133    raw.githubusercontent.com
 
-185.199.109.133  cloud.githubusercontent.com
-185.199.109.133  camo.githubusercontent.com
-185.199.109.133  avatars0.githubusercontent.com
-185.199.109.133  avatars1.githubusercontent.com
-185.199.109.133  avatars2.githubusercontent.com
-185.199.109.133  avatars3.githubusercontent.com
-185.199.109.133  avatars4.githubusercontent.com
-185.199.109.133  avatars5.githubusercontent.com
-185.199.109.133  avatars6.githubusercontent.com
-185.199.109.133  avatars7.githubusercontent.com
-185.199.109.133  avatars8.githubusercontent.com
+185.199.109.133    cloud.githubusercontent.com
+185.199.109.133    camo.githubusercontent.com
+185.199.109.133    avatars0.githubusercontent.com
+185.199.109.133    avatars1.githubusercontent.com
+185.199.109.133    avatars2.githubusercontent.com
+185.199.109.133    avatars3.githubusercontent.com
+185.199.109.133    avatars4.githubusercontent.com
+185.199.109.133    avatars5.githubusercontent.com
+185.199.109.133    avatars6.githubusercontent.com
+185.199.109.133    avatars7.githubusercontent.com
+185.199.109.133    avatars8.githubusercontent.com
 
 # debian omv
-151.101.90.132   httpredir.debian.org
+151.101.90.132     httpredir.debian.org
 
 
 # 2345  Ad
@@ -90,28 +90,28 @@
 127.0.0.1    hm.baidu.com
 
 # 360 Ad
-127.0.0.1   qhmsg.com
-127.0.0.1   lianmeng.360.cn
-127.0.0.1   mediav.com
-127.0.0.1   nzwgs.com
+127.0.0.1    qhmsg.com
+127.0.0.1    lianmeng.360.cn
+127.0.0.1    mediav.com
+127.0.0.1    nzwgs.com
 
 
 # gzads TV
-127.0.0.1   gzads.com
-127.0.0.1   gozendata.com
-127.0.0.1   gz-data.com
+127.0.0.1    gzads.com
+127.0.0.1    gozendata.com
+127.0.0.1    gz-data.com
 
 # Hisense TV
-127.0.0.1   hismarttv.com
-127.0.0.1   wasu.tv
+127.0.0.1    hismarttv.com
+127.0.0.1    wasu.tv
 
 # iOS-update
-127.0.0.1   mesu.apple.com
-127.0.0.1   appldnld.apple.com
-127.0.0.1   xp.apple.com
-127.0.0.1   gdmf.apple.com
-127.0.0.1   ns.itunes.apple.com
-127.0.0.1   gg.apple.com
+127.0.0.1    mesu.apple.com
+127.0.0.1    appldnld.apple.com
+127.0.0.1    xp.apple.com
+127.0.0.1    gdmf.apple.com
+127.0.0.1    ns.itunes.apple.com
+127.0.0.1    gg.apple.com
 
 ##############################################
 
