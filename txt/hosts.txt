@@ -54,8 +54,37 @@
 
 
 # 2345  Ad
-127.0.0.1   2345.com
-127.0.0.1   2345.cc
+127.0.0.1    2345.com
+127.0.0.1    www.2345.com
+127.0.0.1    m.2345.com
+127.0.0.1    pc.2345.com
+127.0.0.1    mobi.2345.com
+127.0.0.1    api.2345.com
+127.0.0.1    news.2345.com
+127.0.0.1    browser.2345.com
+127.0.0.1    www.2345.cc
+127.0.0.1    2345.cc
+127.0.0.1    ie.2345.com
+127.0.0.1    ie.2345.cc
+127.0.0.1    helper.2345.com
+127.0.0.1    helper.2345.cc
+127.0.0.1    update.helper.2345.com
+127.0.0.1    update.helper.2345.cc
+127.0.0.1    t.helper.2345.com
+127.0.0.1    t.helper.2345.cc
+127.0.0.1    download.2345.com
+127.0.0.1    download.2345.cc
+127.0.0.1    safe.2345.com
+127.0.0.1    safe.2345.cc
+127.0.0.1    pcsafe.2345.com
+127.0.0.1    pcsafe.2345.cc
+127.0.0.1    2345helper.com
+127.0.0.1    2345helper.cc
+127.0.0.1    2345soft.com
+127.0.0.1    2345soft.cc
+127.0.0.1    2345explorer.com
+127.0.0.1    2345explorer.cc
+
 
 # baidu Ad
 127.0.0.1   pos.baidu.com
