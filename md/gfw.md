@@ -40,7 +40,6 @@
 
 ####  Telegram
 
-####  v2rayfree
 
 ####  MahsaNG
 
@@ -55,7 +54,7 @@
 
 ####  OpenClash
 
-####  singbox插件homeproxy
+####  homeproxy-singbox
 
  
 
