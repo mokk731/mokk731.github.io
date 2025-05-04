@@ -53,7 +53,7 @@
 
 #### [Windows Update Blocker 1.7(禁止WIN10更新).rar](https://mokk731.github.io/ziprar/win-tools/WindowsUpdateBlocker1.7禁止WIN10更新.rar)
 
-#### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-4.3.64-202407.xpi)
+#### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-5.1.72-202504.xpi)
 
 #### [GoldWave512-SY.rar](https://mokk731.github.io/ziprar/win-tools/HA-GoldWave512-SY.rar)
 
