@@ -182,12 +182,20 @@ sudo reaver -i wlan0mon -b E4:47 -c 8 -M -S -K -vv
 sudo reaver -i wlan0mon -b BC:D1  -vv
 
 
-
+------------------------------------------------------------------------------------------------------
 
 
 
 Wifite是一款能够攻击多种无线加密方式（WEP/WPA/WPA2和WPS）的自动化工具， Wifite在运行之前需要提供几个参数，而Wifite将会自动帮我们完成所有的任务。
 它可以捕获WPA握手包，自动化去客户端验证，进行MAC地址欺骗，以及破解WiFi密码。
+
+https://www.kali.org/tools/wifite/
+https://github.com/kimocoder/wifite2
+
+wget https://github.com/kimocoder/wifite2/archive/master.zip && unzip master.zip
+
+cd wifite2-master
+sudo python3 wifite.py
 
 
 ------------------------------------------------------------------------------------------------------
