@@ -25,7 +25,7 @@ sudo apt install  aircrack-ng      ######
 
 步骤1：ifconfig（接口配置）：查看或更改系统上网络接口的配置。
 
-ifconfig -a                       iwconfig            
+ifconfig -a                       iwconfig  ######          
 
 iw list   ######
 如果列出的模式有monitor，则表示支持监听。否则，不支持。
@@ -42,7 +42,7 @@ sudo airmon-ng check kill   ###########
 
 sudo airmon-ng start wlx000d18302a4a   ########### 
 
- rfkill list   #########
+ rfkill list   ####
 
           0: phy0: Wireless LAN
                         Soft blocked: no
@@ -115,6 +115,8 @@ aircrack-ng：802.11WEP和WPA-PSK密钥破解程序-a：用于WPA2的-a2和-用�
 
 ===================================================================
 
+Reaver 
+
 https://github.com/t6x/reaver-wps-fork-t6x
 Reaver has been designed to be a robust and practical attack against Wi-Fi Protected Setup (WPS) registrar PINs in order to recover WPA/WPA2 passphrases
 and has been tested against a wide variety of access points and WPS implementations.
@@ -145,7 +147,13 @@ sudo make install
 
 ----------------------------------
 
-sudo wash -i wlan0mon
+Wash
+当攻击者在对WPS PIN码进行暴力破解攻击时，很多接入点会将自己锁定以保证路由器的安全性。而Wash就是一款能够确定目标接入点是否开启了WPS的工具，
+在使用Reaver进行了多次尝试之后，你可以用Wash来检查接入点是否锁定了WPS。
+sudo wash -i wlan0mon 扫描周围网络是否禁用wps
+
+sudo wash -i wlan0mon    #########
+
 
 已淘汰 reaver
 sudo reaver -i wlan0mon -b A8:57 -a -c 11 -e CMCC-XX -l 60 -S -vv
@@ -153,7 +161,11 @@ sudo reaver -i wlan0mon -b A8:57 -a -c 11 -e CMCC-XX -l 60 -S -vv
 sudo reaver -i wlan0mon -b E4:47 -c 8 -vv -S     -A  -F  -l 60
 
 
+Wifite是一款能够攻击多种无线加密方式（WEP/WPA/WPA2和WPS）的自动化工具， Wifite在运行之前需要提供几个参数，而Wifite将会自动帮我们完成所有的任务。
+它可以捕获WPA握手包，自动化去客户端验证，进行MAC地址欺骗，以及破解WiFi密码。
 
+
+------------------------------------------------------------------------------------------------------
 
 
 https://github.com/ChunshengZhao/inflator
@@ -168,6 +180,20 @@ sudo ./inflator
 
 
 -----------------------------------------------------
+
+https://segmentfault.com/a/1190000021829795
+Kali从入门到银手镯（二）：开启WPS的无线网络渗透测试
+
+
+https://zhuanlan.zhihu.com/p/476928522
+无线渗透(中)--WPS破解
+(1)airodump wlan0mon --wps 开启WPS的设备会显示如下
+(2)wash -i wlan0mon 采用wash命令只会显示开启WPS的设备，但是会显示设备是否已经被锁上，因为有时爆破PIN码时会导致路由器被锁住
+
+
+-----------------------------------------------------
+
+
 fluxion就是利用了钓鱼的方法来伪造登录界面进行入侵。
 https://github.com/FluxionNetwork/fluxion
 
