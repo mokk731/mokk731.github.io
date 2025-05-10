@@ -70,10 +70,9 @@ hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --fo
 
 
 
-hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 13828?d?d?d?d?d?d --force
-13828
-hashcat -a 3  -m 22000  C:\tools\temp\2022\XXXX.hc22000    lw?d?d?d?d?d?d  --force
-lw
+hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 138?d?d?d?d?d?d?d?d --force       #######
+138+8数字
+
 
 
 
@@ -87,7 +86,7 @@ hashcat  -m 22000 11.hccapx  pass.txt --force --show
 
 https://hashcat.net/wiki/doku.php?id=restore
 不保存进度，直接退出： 按 q
-开启自动记录(监控)还原点，在创建下一次记录还原点后，自动退出：按 c
+开启自动记录(监控)还原点，在创建下一次记录还原点后，自动退出：按 c         #######
 --session mydz 就是保存信息到 mydz 文件中，后缀是.restore。全名：mydz.restore
 如果没有指定 --session 选项参数, 则默认保存到 hashcat.restore
 
@@ -98,7 +97,7 @@ https://hashcat.net/wiki/doku.php?id=restore
 
 
 ------------------------------------------
-hashcat-my-restore.bat
+hashcat-my-restore.bat        #######
 
 @echo off
 echo 正在hashcat --session XXXX --restore文件，请稍等......
