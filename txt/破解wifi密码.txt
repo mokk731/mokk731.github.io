@@ -1,8 +1,20 @@
 破解wifi密码
 
+https://www.cnblogs.com/pshell/p/8339818.html
+适用于WIFI Hacking的无线网卡推荐
+
+    Atheros AR9271
+    Ralink RT3070
+    Ralink RT3572
+    Realtek 8187L (Wireless G adapters)
+    Realtek RTL8812AU (2017年新增)
+    经过我的测试Ralink RT5370N也是兼容的
+
 
 选择特殊USB网卡， 8187L ,RT3070 . 有监听功能，，蹭网器常用 8187L芯片和3070芯片两种核心.
 
+
+--------------------------------------------------
 
 启动Linux mint 。打开终端窗口。并执行以下步骤。
 
@@ -13,9 +25,14 @@ sudo apt install  aircrack-ng      ######
 
 步骤1：ifconfig（接口配置）：查看或更改系统上网络接口的配置。
 
-ifconfig -a                       iwconfig  ####             iw list   airmon-ng
+ifconfig -a                       iwconfig            
+
+iw list   ######
+如果列出的模式有monitor，则表示支持监听。否则，不支持。
 
 wlan0：系统上的第一个无线网络接口。（这就是我们需要的。）
+
+
 
 步骤2：停止当前使用WiFi接口的进程。
 
