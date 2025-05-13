@@ -251,6 +251,16 @@ https://wen.baidu.com/question/337015506653128245.html
 miui13怎么开通obb文件夹的权限
 
 解除限制的方法我个人使用的是es文件管理器这个应用，当然其它的应用也可以，比如mt管理器，大家可以多多尝试，选择一个适合自己的来使用具体方法如下1、打开es文件浏览器，点击内部存储，在点击Android文件夹2、在弹出的窗口中，点击去授权，然后在点击允许，之后就可以正常访问data和obb文件夹了，以及移动和删除
-
-
 将main.1783.com.tencent.mm.obb   复制到 /Android/obb/com.tencent.mm/
+----------------------------------------------------
+
+
+https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation
+Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.
+
+https://www.youtube.com/watch?v=VpIMfwfu2cM
+一键卸载安卓预装内置软件，彻底释放手机内存占用，提高续航
+
+
+
+
