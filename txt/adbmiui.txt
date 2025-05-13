@@ -261,6 +261,36 @@ Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devic
 https://www.youtube.com/watch?v=VpIMfwfu2cM
 一键卸载安卓预装内置软件，彻底释放手机内存占用，提高续航
 
+----------------------------------------------------
+
+https://www.jamcz.com/gjgjx/
+《搞机工具箱》是一款利用ADB (安卓调试桥）来控制手机的玩机工具。
+
+由于ADB的权限shell介于用户与超级用户(Root)之间，因此本工具可在不Root的情况下实现一些手机自带设置中不具有的功能。
+
+为什么选择《搞机工具箱》？
+
+免ROOT:
+所有功能均无需ROOT，Android全机型通用
+
+简洁易用:
+全图形化界面，一键操作，告别手打代码
+
+真正小而美:
+原生开发、超小体积、超快启动、无需安装、解压即用
+
+通俗易懂:
+各功能说明清晰，配合图文视频等引导教程，新手轻松入门
+
+无需UAC:
+自带ADB组件，无需管理员权限，可在网吧等公用电脑完美使用
+
+隐私保护:
+完全单机，无任何联网功能
+
+https://www.bilibili.com/video/BV1fiCWYmEUD
+7年更新150次，只为打造更强“小而美”安卓工具箱！
+
 
 
 
