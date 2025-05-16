@@ -1,3 +1,5 @@
+中兴E8820S
+
 
 
 https://www.mydigit.cn/forum.php?mod=viewthread&tid=200076
@@ -18,7 +20,6 @@ https://post.smzdm.com/p/alx8zo00/
 50元包邮的中兴E8820S路由器刷Openwrt 
 
 
-
 需要的工具
 https://d6.cx/s/Nrtq
 
@@ -29,8 +30,6 @@ TTL转USB，我用的CH340
 找到固件 点击选择 openwrt-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin，点击上传，开刷即可
 
 当然你也可以刷其他固件，如pandorabox或者padavan，理论上支持极路由B70的固件都可以刷，但是不知道为啥我刷不了B70其他的openwrt固件，卡50失败，我准备的这个8M多的openwrt刷起来没有问题。
-
-
 
 
 
@@ -66,8 +65,6 @@ https://www.bilibili.com/video/BV1CT4y1R71K?from=search&seid=1632387401742599531
 
 
 更新了工具包的下载地址：https://asymt.lanzoui.com/i9Tfow0exti
-
-
 
 
 
@@ -174,8 +171,11 @@ https://opt.cn2qq.com/
 
 material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan+vlmcsd-KMS+relay
 https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
+
 -------------------------------------
 
 https://downloads.immortalwrt.org/releases/23.05.4/targets/ramips/mt7621/immortalwrt-23.05.4-ramips-mt7621-zte_e8820s-squashfs-factory.bin
 
 https://opt.cn2qq.com/padavan/ZTE_E8820S_3.4.3.9-099.trx
+
+
