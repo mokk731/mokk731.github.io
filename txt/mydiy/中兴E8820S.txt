@@ -97,32 +97,76 @@ LAN MAC：机器背面的MAC地址即LAN地址，也可以进官方固件查看�
 
 ----------------------------------------------------------
 
-个人总结：20220108    
+个人总结：202505
 
-1，经过研究发现中兴给了后门直接可以刷breed。打开tftp64.exe软件 一定要是breed或者bp-boot目录下  要改名字为“ZTE_img.bin”文件中已经改好了，关键的来了，按住复位键 ，插电 开机， 刷机breed或者pb-boot成功，成功就可以刷固件了。此方法只对中兴原uboot有用。
+1， 经过研究发现中兴给了后门直接可以刷breed。打开tftp64.exe软件 一定要是breed或者bp-boot目录下 要改名
 
+字为“ZTE_img.bin”文件中已经改好了，关键的来了，按住复位键 ，插电 开机， 刷机breed或者pb-boot成功，成
 
-2，进入breed，重刷了 lemom大定制的 eeprom: 8820s_eeprom_b70gs_yh_nomac.bin，5G信号一下就改善了。
+功就可以刷固件了。此方法只对中兴原uboot有用。
+2， 进入breed，重刷了 lemom大定制的 eeprom: 8820s_eeprom_b70gs_yh_nomac.bin，5G信号一下就改善了。
 
-3，修改成自己的MAC地址。Mac地址的规则是：LAN，WAN，RF1WLAN就是机器背面的地址，RF2的地址加1.
+3， 修改成自己的MAC地址。Mac地址的规则是：lan,wan 相反. 实际lan=2.4G, 实际wan: XXXX+1, 5G: D0XXXX
 
-B70
-lan: D2    11
-5G   D0
-wan        12
-lan wan 相对换 
+202309后，lan wan 正常，，用Vlan
+4， breed202010 刷机入固件提示报错 ， nand flash有坏块， breed下升级bp-boot即可正常刷入固件。
 
+2021-09-14-openwrt-ramips-mt7621-zte_e8820s-squashfs-factory.bin  23M 。
+5， 这个openwrt固件，U盘用不了，但刷padavan固件，U盘正常。过段时间，换个openwrt固件，U盘正常
 
+6, 换新的2021.12 breed 刷机，即可刷入固件。不定时的不好使。说不上什么时候就断流了。emm……用断流来形容
 
-4，breed202010 刷机入固件提示报错 ， nand flash有坏块， breed下升级bp-boot即可正常刷入固件。2021-09-14-openwrt-ramips-mt7621-zte_e8820s-squashfs-factory.bin  23M 。
+比较准确。就比如刷b站视频。刷着刷着就卡住了。    看来只有2019.3 bp-boot才能正常刷入固件。
+7, WIFI 5G 不好用,刷了8820s_eeprom_b70gs_yh_nomac.bin,信号好一点.只能用n,如果用ac,就信号差.
 
+设定:WIFI 5G ,n, 40mHz.
+8, openwrt固件,默认: ,,IP:192.168.11.1 ...ID:root ... SN:password 或空
 
+9, 老毛子Padavan固件默认配置
 
-5，这个openwrt固件，U盘用不了，但刷padavan固件，U盘正常。过段时间，换个openwrt固件，试下。
+固件网关：192.168.123.1
 
-6, 换新的2021.12 breed 刷机，即可刷入固件。不定时的不好使。说不上什么时候就断流了。emm……用断流来形容比较准确。就比如刷b站视频。刷着刷着就卡住了。    看来只有2019.3 bp-boot才能正常刷入固件。
+管理页面：http://my.router/
 
-7, WIFI 5G 不好用,刷了8820s_eeprom_b70gs_yh_nomac.bin,信号好一点.只能用n,如果用ac,就信号差. ...设定:WIFI 5G ,n, 40mHz.
+管理页面：http://192.168.123.1/
+
+管理账号：admin  管理密码：admin
+
+wifi密码：1234567890
+
+刷机不恢复默认值
+https://opt.cn2qq.com/
+10, Lean's OpenWrt-rom，原其中一个zte_e8820s的5G wifi 是坏的， 刷了immortalwrt精简rom，就正常好了。
+
+两个zte_e8820s 都是好的。
+11, 主路由只开wifi 5G-112233 LAN:192.168.11.1
+
+  设定:WIFI 5G ,   n, 40 , 20mHz ,22dBm
+
+  副路由开wifi 2.4+5G-123123，通过wifi 5G做中继。LAN:192.168.10.1 ，不同网段。
+
+  wifi 2.4邻居的信号干扰大，wifi 5G信号干扰小，故选wifi 5G做两路由间通讯。
+12, passwall,不稳定. 不用........,,,,,,编译易出错，Xray出错
+
+  SSR+ ,只支持socks代理,不支持http代理. 但比较稳定，编译稳定，，可不用Xray,,,
+13, 202309后，lan wan 正常，，用Vlan
+
+14, 2024年10月中 coolsnowwolf/lede Lean 的 LEDE 源码仓库 改新版了，有点不适应， LuCI 18.06 升级到 LuCI 23.05
+
+  原版本:
+  固件版本	mokk build 2024.10.10 @ OpenWrt R24.9.18 / LuCI Master (git-24.283.20555-a1e6216)
+  内核版本	5.4.284
+
+  新版本:
+  固件版本	LEDE R24.10.24 / LuCI openwrt-23.05 branch git-24.314.55062-0d4bfb8
+  内核版本	5.10.221
+15, The Ubuntu 20.04 Actions runner image will be fully unsupported by 2025-04-15
+
+ workflows-yml  改 Ubuntu 22.04  或 Ubuntu 24.04 
+ 改两处: runs-on: ubuntu-22.04
+        sudo -E apt-get -qq install $(curl -fsSL git.io/depends-ubuntu-2204)
+ 
+ https://github.com/actions/runner-images/issues/11101
 
 -------------------------------------
 
@@ -132,3 +176,4 @@ material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan
 https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
 -------------------------------------
 
+https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/immortalwrt-21.02.7-ramips-mt7621-zte_e8820s-squashfs-factory.bin
