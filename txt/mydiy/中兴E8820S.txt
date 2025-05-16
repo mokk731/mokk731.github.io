@@ -176,6 +176,6 @@ material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan
 https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
 -------------------------------------
 
-https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/immortalwrt-21.02.7-ramips-mt7621-zte_e8820s-squashfs-factory.bin
+https://downloads.immortalwrt.org/releases/23.05.4/targets/ramips/mt7621/immortalwrt-23.05.4-ramips-mt7621-zte_e8820s-squashfs-factory.bin
 
 https://opt.cn2qq.com/padavan/ZTE_E8820S_3.4.3.9-099.trx
