@@ -110,10 +110,14 @@ Success: ssh port is 22
 ----------------------------------------------------------------------
 
 极路由4增强版HC5962路由器自制稳定ROM     ###
+SSR+material+sqm + turboacc +zerotier+vlmcsd-KMS+autoreboot+accesscontrol+adbyby-plus+ ttyd+vlan+ipv6
 https://mokk7310.github.io/Rom/openwrt-hiwifi_hc5962V6-2024.06.11-1224.bin
 
 immortalwrt
 https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/immortalwrt-21.02.7-ramips-mt7621-hiwifi_hc5962-squashfs-factory.bin
+
+padavan
+https://opt.cn2qq.com/padavan/B70_3.4.3.9-099.trx
 
 ----------------------------------------------------------------------
 
