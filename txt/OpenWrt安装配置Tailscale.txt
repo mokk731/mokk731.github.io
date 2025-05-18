@@ -14,6 +14,8 @@ OpenWrt安装配置Tailscale实现内网穿透，异地组网
 
 # 下载软件,解压缩软件
 wget https://github.com/adyanth/openwrt-tailscale-enabler/releases/download/v1.60.0-e428948-autoupdate/openwrt-tailscale-enabler-v1.60.0-e428948-autoupdate.tgz
+或： wget https://mokk731.github.io/ziprar/temp/openwrt-tailscale-enabler-v1.60.0-e428948-autoupdate.tgz
+
 tar x -zvC / -f openwrt-tailscale-enabler-v1.60.0-e428948-autoupdate.tgz
 
 # 安装依赖包
@@ -30,6 +32,11 @@ ls /etc/rc.d/S*tailscale*
 # 获取登录链接，配置路由
 tailscale up --accept-routes --accept-dns=false --advertise-routes=192.168.11.0/24 
 
+## luci23.5 
+tailscale up
+网页同意
+tailscale set  --advertise-routes=192.168.11.0/24,100.100.69.0/24
+网页同意Subnets
 
 
 ---------------
