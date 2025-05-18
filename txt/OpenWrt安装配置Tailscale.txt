@@ -37,6 +37,7 @@ tailscale up
 网页同意
 tailscale set  --advertise-routes=192.168.11.0/24,100.100.69.0/24
 网页同意Subnets
+tailscale set --accept-routes
 
 
 ---------------
