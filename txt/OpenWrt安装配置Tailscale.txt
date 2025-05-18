@@ -32,7 +32,7 @@ ls /etc/rc.d/S*tailscale*
 # 获取登录链接，配置路由
 tailscale up --accept-routes --accept-dns=false --advertise-routes=192.168.11.0/24 
 
-## luci23.5 
+## luci23.05 
 tailscale up
 网页同意
 tailscale set  --advertise-routes=192.168.11.0/24,100.100.69.0/24
