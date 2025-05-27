@@ -3,6 +3,12 @@ https://www.cnblogs.com/lonmyblog/p/8006789.html
 https://www.jianshu.com/p/333ef27bace4
 https://zhuanlan.zhihu.com/p/350671948
 
+
+https://worktile.com/kb/ask/1177451.html
+ubuntu如何设置定时重启服务器
+
+-------------------------------------------------
+
 # 安装
  apt-get install cron
 
@@ -43,6 +49,12 @@ m h dom mon dow   command
 
 ## 指定多个时间
 30  7 3,6 *  * ls    #每月的3号和6号的7：30分各执行一次 ls 命令
+
+
+
+例如，要在每天凌晨2点执行重启服务器的操作，可以在crontab文件中添加以下一行：
+0 2 * * * reboot
+这里的0表示每小时的第0分钟，2表示凌晨2点，星号表示每天，星号表示每月，星号表示每周。
 
 
 30 7 8 * * ls    // 指定每月8号的7：30分执行ls命令 
