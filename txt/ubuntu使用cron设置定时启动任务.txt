@@ -1,0 +1,49 @@
+ubuntu使用cron设置定时启动任务
+https://www.cnblogs.com/lonmyblog/p/8006789.html
+https://www.jianshu.com/p/333ef27bace4
+https://zhuanlan.zhihu.com/p/350671948
+
+安装
+ apt-get install cron
+
+判断 cron 服务是否启动
+ pgrep cron
+
+启动 cron 服务
+ service cron start
+
+cron 的所有任务计划都记录在 crontab 任务计划文件中，通过 crontab 命令对该任务文件进行管理
+
+$ crontab -u foo -e     #编辑用户 foo 的计划任务文件
+
+$ crontab -e            #编辑当前用户的计划任务文件
+
+$ crontab -u foo -l     #显示用户 foo 的计划任务文件
+
+$ crontab -l            #显示当前用户的计划任务文件
+
+$ crontab -r            #删除当前用户的计划任务文件
+
+
+初次使用 crontab -e，可能需要选择编辑器，输入编辑器序号点击回车后进入计划任务文件编辑模式。
+m h dom mon dow   command
+0-59 0-23 1-31 1-12 0-7  command
+
+## 指定具体执行时间
+2   *  *  *  * ls    #每个小时的第2分钟执行一次 ls 命令
+30  7  *  *  * ls    #每天7：30执行一次 ls 命令
+30 20  *  *  2 ls    #每周二，20：30执行一次 ls 命令（0和7表示星期天）
+
+## 指定间隔时间
+*/2 *  *  *  * ls    #每隔2分钟执行一次 ls 命令
+
+## 指定时间段
+30  7 3-6 *  * ls    #每个月的3，4，5，6号的7：30分各执行一次 ls 命令
+
+## 指定多个时间
+30  7 3,6 *  * ls    #每月的3号和6号的7：30分各执行一次 ls 命令
+
+
+
+
+
