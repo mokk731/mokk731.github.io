@@ -10,19 +10,20 @@ ubuntu如何设置定时重启服务器
 -------------------------------------------------
 
 # 安装
- apt-get install cron
+sudo apt-get install cron               ########
 
 # 判断 cron 服务是否启动
- pgrep cron
+ pgrep cron                             ########
+如果有 pid （一串数字）输出则说明 cron 服务已经启动，没有任何输出说明需要手动启动 cron 服务。
 
 # 启动 cron 服务
- service cron start
+ sudo service cron start                ########
 
 cron 的所有任务计划都记录在 crontab 任务计划文件中，通过 crontab 命令对该任务文件进行管理
 
 $ crontab -u foo -e     #编辑用户 foo 的计划任务文件
 
-$ crontab -e            #编辑当前用户的计划任务文件
+sudo crontab -e            #编辑当前用户的计划任务文件              ########
 
 $ crontab -u foo -l     #显示用户 foo 的计划任务文件
 
@@ -60,6 +61,6 @@ m h dom mon dow   command
 30 7 8 * * ls    // 指定每月8号的7：30分执行ls命令 
 
 ######## 每月重启
-30 5 1 * * reboot    // 指定每月1号的5：30分重启
+30 5 1 * * reboot    // 指定每月1号的5：30分重启           ########
 
 
