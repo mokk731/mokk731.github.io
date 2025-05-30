@@ -72,7 +72,7 @@ hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 138?d?d?d?d?d?d?d?d --fo
 
 显示破解完成的密码
 hashcat  -m 22000 11.hccapx  pass.txt --force --show
-hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force   --show        #########
+hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force --show        #########
 
 --show      将hashlist与potfile比较; 显示破解的哈希                                                    #########
 --left      将hashlist与potfile比较; 显示未破裂的哈希  
@@ -93,7 +93,8 @@ https://hashcat.net/wiki/doku.php?id=restore
 
 
 ------------------------------------------
-hashcat-my-restore.bat        #######
+
+hashcat-my-restore.bat                                                     #######
 
 @echo off
 echo 正在hashcat --session XXXX --restore文件，请稍等......
@@ -150,9 +151,6 @@ H | 0123456789ABCDEF                        十六进制大写字母和数字
 s |  !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~       特殊字符
 a | ?l?u?d?s                                键盘上所有可见的字符
 b | 0x00 - 0xff                             匹配密码空格
-
-
-
 
 
 
