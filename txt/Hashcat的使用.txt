@@ -6,6 +6,10 @@ https://www.jianshu.com/p/52d1ed684020
 https://www.cnblogs.com/diligenceday/p/6359661.html
 
 -----------------------------------------------------------------------
+https://github.com/hashcat/hashcat
+https://hashcat.net/hashcat/
+
+
 
 -D 1 //1默认cpu，2为gpu…
 hashcat64.exe -m 2500 -D 1 1Anomymous.hccapx rockyou.txt
@@ -26,7 +30,7 @@ hashcat64.exe -a 3 -m 2500 G:\wifi\pcap\ziroom301\34-96-72-0A-0C-DA_handshake.ca
 hashcat64.exe -a 3 -m 2500 G:\wifi\pcap\ziroom301\34-96-72-0A-0C-DA_handshake.cap.hccap --custom-charset1=?a ?1?1?1?1?1?1?1?1?1
 
 
-使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/          ##############
+使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/                                                         ##############
 将握手包转换成 hc22000 格式
 
 显卡最低要求：gtx750
@@ -61,11 +65,11 @@ hashcat -a 3 -m 22000 XXX.hc22000 ?d?d?d?d?d?d?d?d --force
 .\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 1?d?d?d?d?d?d?d?d?d?d --force  --session CMCC-XXXX     11位手机号，1开头+10数字    2.7d      
 .\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 13?d?d?d?d?d?d?d?d?d --force  --session CMCC-XXXX      11位手机号，13开头+9数字    6h           #######
 
-hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 abc?d?d?d?d?d?d?d?d --force  --session CMCC-XXXX         8数字       40m    
+hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 abc?d?d?d?d?d?d?d?d --force                              8数字       40m    
 abc+8数字
 
 
-hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 138?d?d?d?d?d?d?d?d --force                                 8数字       40m           #######
+hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 138?d?d?d?d?d?d?d?d --force                                 8数字       40m                        #######
 138+8数字
 
 -----------------------------
