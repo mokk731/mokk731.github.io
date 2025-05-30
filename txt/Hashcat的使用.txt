@@ -5,13 +5,10 @@ https://www.jianshu.com/p/52d1ed684020
 用Hashcat每秒计算1.4亿个密码，破解隔壁WIFI密码
 https://www.cnblogs.com/diligenceday/p/6359661.html
 
-
-
-
+-----------------------------------------------------------------------
 
 -D 1 //1默认cpu，2为gpu…
 hashcat64.exe -m 2500 -D 1 1Anomymous.hccapx rockyou.txt
-
 
 hashcat -m 2500 -a 3 handshake.hccap ?d?d?d?d?d?d?d?d
 
@@ -55,43 +52,42 @@ powershell           6.2W H/S
 使用 hashcat 官网提供的在线工具进行格式转换：https://hashcat.net/cap2hashcat/             #########
 将握手包转换成 hc22000 格式
 
+-----------------------------
+
 hashcat -a 3 -m 22000 XXX.hc22000 ?d?d?d?d?d?d?d?d --force
-.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force                          8数字       40m                      #######
-.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?l?l?l?l?l?l?l?l  --force  --session XXXX         8字母       50d
+.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force                               8数字       40m                        #######
+.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?l?l?l?l?l?l?l?l  --force  --session CMCC-XXXX         8字母       50d
 
-.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 1?d?d?d?d?d?d?d?d?d?d --force  --session XXXX     11位手机号，1开头+10数字    2.7d      #######
+.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 1?d?d?d?d?d?d?d?d?d?d --force  --session CMCC-XXXX     11位手机号，1开头+10数字    2.7d      
+.\hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 13?d?d?d?d?d?d?d?d?d --force  --session CMCC-XXXX      11位手机号，13开头+9数字    6h           #######
 
-
-hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 abc?d?d?d?d?d?d?d?d --force  --session XXXX
+hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 abc?d?d?d?d?d?d?d?d --force  --session CMCC-XXXX         8数字       40m    
 abc+8数字
 
-hashcat -a 3 -m 22000 C:\tools\temp\2022\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force
 
-
-
-
-hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 138?d?d?d?d?d?d?d?d --force       #######
+hashcat -a 3  -m 22000  C:\tools\temp\2023\XXXX.hc22000 138?d?d?d?d?d?d?d?d --force                                 8数字       40m           #######
 138+8数字
 
-
-
-
+-----------------------------
 
 显示破解完成的密码
 hashcat  -m 22000 11.hccapx  pass.txt --force --show
+hashcat -a 3 -m 22000 C:\tools\temp\2023\CMCC-XXXX.hc22000 ?d?d?d?d?d?d?d?d --force   --show        #########
 
---show      将hashlist与potfile比较; 显示破解的哈希    
+--show      将hashlist与potfile比较; 显示破解的哈希                                                    #########
 --left      将hashlist与potfile比较; 显示未破裂的哈希  
 
 
+-----------------------------
+
 https://hashcat.net/wiki/doku.php?id=restore
 不保存进度，直接退出： 按 q
-开启自动记录(监控)还原点，在创建下一次记录还原点后，自动退出：按 c         #######
+开启自动记录(监控)还原点，在创建下一次记录还原点后，自动退出：按 c                     #######
 --session mydz 就是保存信息到 mydz 文件中，后缀是.restore。全名：mydz.restore
 如果没有指定 --session 选项参数, 则默认保存到 hashcat.restore
 
 恢复破解恢复会话
-.\hashcat  --session XXXX --restore    #######
+.\hashcat  --session XXXX --restore                                         #######
 
 
 
