@@ -101,7 +101,7 @@ services:
 
 docker run -d --name=tailscaled -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tun --network=host --cap-add=NET_ADMIN --cap-add=NET_RAW tailscale/tailscale
 
-
+https://hub.docker.com/r/tailscale/tailscale
 docker pull tailscale/tailscale:v1.82
 
 Auth keys 申请：
