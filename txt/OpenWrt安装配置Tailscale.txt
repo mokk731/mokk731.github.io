@@ -96,13 +96,18 @@ services:
             - TS_ROUTES=192.168.31.0/24
             - TS_HOSTNAME=hk1-box
             - TS_STATE_DIR=./state/
-        image: tailscale/tailscale:v1.80.0
+        image: tailscale/tailscale:v1.82
 
 
 docker run -d --name=tailscaled -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tun --network=host --cap-add=NET_ADMIN --cap-add=NET_RAW tailscale/tailscale
 
 
-docker pull tailscale/tailscale:v1.80.0
+docker pull tailscale/tailscale:v1.82
+
+Auth keys 申请：
+https://login.tailscale.com/admin/settings/keys
+Personal Settings--Keys--Auth keys--Generate auth key--
+
 
 
 ---------------------------------------------------
