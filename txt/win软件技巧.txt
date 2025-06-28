@@ -173,8 +173,10 @@ sidbg 1 DB save
 20250628
 win10 常出现firefox,brave 浏览器 cpu占用100%, 不知道何因。
 近日听说winrar漏洞，可能会执行恶意代码。 
+
 https://www.ithome.com/0/863/760.htm
 WinRAR 高危漏洞曝光：攻击者可远程执行任意代码
+2025/6/26 10:02:29 来源：IT之家
 
 删了winrar,换 7-zip
 
