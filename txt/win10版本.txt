@@ -1,3 +1,6 @@
+win10版本
+
+
 简体中文 - 企业版 LTSC 2019（3月更新 - 17763.316）
 
 企业版 LTSC 2019 (1)
@@ -6,10 +9,16 @@
 SHA-1: 24B59706D5EDED392423936C82BA5A83596B50CC
 cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso (4.17 GB)
 
-
 ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
 
 
+
+
+Windows 10 Enterprise LTSC 2021 (x64) - DVD (Chinese-Simplified)
+
+ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/
+
+magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO&xl=5044211712
 
 
 ==========================
