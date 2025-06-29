@@ -28,6 +28,10 @@ ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|504421171
 
 magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO&xl=5044211712
 
+由于ltsc2021砍掉vc140这个组件，导致新版输入法（从1903开始的新输入法）选字框无法正常显示；其次部分系统程序cpu占用提高（我这边是10%左右）。
+解决的办法自然就是恢复vc140组件了，可以参考 https://bbs.pcbeta.com/viewthread-1912605-1-1.html
+
+
 
 ==========================
 lopatkin俄大神
