@@ -114,9 +114,11 @@ config tag 'outsea'
 https://blog.51cto.com/fxn2025/9836451
 OpenWrt旁路由DHCP指定主路由网关方法
 
+DHCP/DNS--静态地址分配--加tag标签
+
 网络--接口--LAN--DHCP高级选项
 tag:dns16,6,192.168.11.16   DNS
-tag:dns16,3,192.168.11.16   网关
+tag:dns16,3,192.168.11.1    网关
 
 
 
