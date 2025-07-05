@@ -8,6 +8,8 @@
 https://www.bilibili.com/video/BV1s24y137cK/
 MicroPython ESP32 S3 16M+8M （配套教程）
 esptool 烧特殊固件，
+https://space.bilibili.com/235630830       fvstory
+
 thonny 工作模式,
 
 
