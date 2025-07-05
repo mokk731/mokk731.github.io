@@ -2,8 +2,13 @@
   特点：合宙的 ESP32-S3 开发板性价比很高。例如其 29.9 元的开发板配备了 8MB PSRAM + 16MB Flash，可以满足大多数开发需求
   优点：价格实惠，性能稳定，适合预算有限的开发者和学生。
   缺点：相比乐鑫官方开发板，技术支持和社区资源可能稍弱。
+https://wiki.luatos.com/chips/esp32s3/board.html
+ESP32S3-CORE开发板
 
 
+
+
+--------------------------------------------------
 
 https://www.bilibili.com/video/BV1s24y137cK/
 MicroPython ESP32 S3 16M+8M （配套教程）
