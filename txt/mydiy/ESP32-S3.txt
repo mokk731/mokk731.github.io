@@ -23,3 +23,6 @@ thonny 工作模式,
 https://www.zhihu.com/column/c_1755557702322016256
 ESP32开发入门教程
 
+https://www.cnblogs.com/xuejiangqiang/p/17516547.html
+[ESP32][esp-idf] AP+STA实现无线桥接 中转wifi信号 路由器 
+
