@@ -12,7 +12,7 @@ vi /etc/config/dhcp
 config host
         option ip '192.168.1.3'                                          -----指定IP地址（必须）----------
         option mac '11:22:33:44:55:66 aa:bb:cc:dd:ee:ff'              -------MAC地址（必须）---------
-        option tag 'gfw'                                 ####         -------指定标签（必设 名字可自选）
+        option tag 'gfw'                                 ####         -------指定标签（必设 名字可自选）               ########
 
 config tag 'gfw'                                         ####         -------定义标签，名字可自选--------
         list dhcp_option '3,192.168.11.12'               ####          ------定义参数 ，3为指定网关 ，6为指定DNS
@@ -114,14 +114,24 @@ config tag 'outsea'
 https://blog.51cto.com/fxn2025/9836451
 OpenWrt旁路由DHCP指定主路由网关方法
 
-DHCP/DNS--静态地址分配--加tag标签
-标签: dns16	
-匹配标签: 无
+1, 设置DHCP的tag标签
+LuCI openwrt-23.05 :
+        DHCP/DNS--静态地址分配--加tag标签       
+        标签: dns16	                                     ####
+        匹配标签: 无                                           ####
+
+LuCI openwrt-18.06 :
+        vi /etc/config/dhcp
+        config host
+        option tag 'gfw'                                      ####
 
 
-网络--接口--LAN--DHCP高级选项
-tag:dns16,6,192.168.11.16,119.29.29.29     DNS
-tag:dns16,3,192.168.11.1                   网关
+2, 网络--接口--LAN--DHCP高级选项
+tag:dns16,6,192.168.11.16,119.29.29.29     DNS            ####
+tag:dns16,3,192.168.11.1                   网关            ####
+
+
+
 
 https://maifeipin.com/archives/%E5%85%B3%E4%BA%8E%E9%80%8F%E6%98%8E%E7%BD%91%E5%85%B3
 通过路由器DHCP选项的Tag，来指定终端的网关
