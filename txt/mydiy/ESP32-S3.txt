@@ -29,3 +29,9 @@ https://www.cnblogs.com/xuejiangqiang/p/17516547.html
 https://github.com/martin-ger/esp_wifi_repeater
 一款功能完备的WiFi中继器（准确地说是WiFi网络地址转换路由器）
 
+
+
+esp32 handshake
+
+https://github.com/risinek/esp32-wifi-penetration-tool
+Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
