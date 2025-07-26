@@ -22,6 +22,9 @@ Diagnostic Policy Service  诊断策略服务启用了 Windows 组件的问题�
 
 Connected User Experiences and Telemetry  服务所启用的功能支持应用程序中用户体验和连接的用户体验。
 
+-------------------------------
+
+还有可能是SSD的SATA线接触不良，ssd速度下降，而导制。  M2 ssd 接触不良 少见。
 
 
 
