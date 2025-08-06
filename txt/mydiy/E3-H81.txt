@@ -95,6 +95,8 @@ Coffee Lake   14 nm  C4T4  3.4-4.1GHz  8MB  71W   Q3'18  DDR4-2666  UHD P630  FC
 
 E-2100/2200对应的就是8、9代酷睿，但由于只能在C246芯片组使用，以及价格上没有什么性价比，大神魔改后可以使用100，200，300系列的主板
 
+
+E2144G  E2174G
 https://www.bilibili.com/video/BV1kgt3zpEcj/
 800元捡垃圾能1080P高画质畅玩3A大作和二游原神/鸣潮？E2174G+30HX新时代的百元洋垃圾性价比主机。
 E2174G   Coffee Lake   14 nm  C4T8
