@@ -5,15 +5,12 @@ https://next.itellyou.cn
 
 
 简体中文 - 企业版 LTSC 2019（3月更新 - 17763.316）
-
 企业版 LTSC 2019 (1)
 架构: x64
 文件: cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
 SHA-1: 24B59706D5EDED392423936C82BA5A83596B50CC
 cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso (4.17 GB)
-
 ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
-
 
 
 
@@ -23,14 +20,49 @@ Windows 10 Enterprise LTSC 2021 (x64) - DVD (Chinese-Simplified)   2021-11-17
 MD5：2579B3865C0591EAD3A2B45AF3CABEEE
 SHA1：C19D7DAFBAFEB26C36E31D97C465E87C7A6E8A4C
 SHA256：C117C5DDBC51F315C739F9321D4907FA50090BA7B48E7E9A2D173D49EF2F73A3
-
 ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/
-
 magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO&xl=5044211712
 
 由于ltsc2021砍掉vc140这个组件，导致新版输入法（从1903开始的新输入法）选字框无法正常显示；其次部分系统程序cpu占用提高（我这边是10%左右）。
 解决的办法自然就是恢复vc140组件了，可以参考 https://bbs.pcbeta.com/viewthread-1912605-1-1.html
+此版本自带许可证，非评估版，只需要输入转换密钥即可转换为iot ltsc
 
+-------------------------------------
+
+## windows10 ltsc 转iot ltsc方法
+
+https://www.bilibili.com/opus/869269387518935062
+windows 10 iot ltsc/ltsc 2021的下载渠道
+
+
+https://www.bilibili.com/opus/869769721148342293
+官方下载windows 10 ltsc企业评估版和转iot ltsc方法
+
+由于原评估版镜像有输入法和占用过高问题，建议打一下最新补丁
+up主用的是Win_ISO_Patching_Scripts这款镜像打补丁的软件，方便快捷
+https://github.com/adavak/Win_ISO_Patching_Scripts/releases
+
+安装完毕后你会发现桌面右下角有水印，而且显示企业评估版
+QPM6N-7J2WJ-P88HH-P3YRH-YY74H 这个密钥也不能转换为iot ltsc
+这是由于缺乏数字许可证的原因，需要安装相对应数字许可证，需要从正式版的iot ltsc拷贝并注册
+把正式版的三个许可证夹拖入C:\Windows\System32\spp\tokens\skus文件夹中
+然后管理员身份运行powershell，输入slmgr.vbs /rilc命令
+按enter出现这个安装成功
+或者在激活页面输入QPM6N-7J2WJ-P88HH-P3YRH-YY74H密钥点击激活进行转换（一定要在激活页面中激活，slmgr命令可能会出错）
+
+许可证文件
+https://www.123pan.com/s/fmwzVv-NsXAh.html  提取码:D7Tx
+百度网盘分流
+链接：https://pan.baidu.com/s/1B0SiCQH_g3OgimRTExsFfQ?pwd=yn4p 提取码：yn4p
+
+https://bbs.pcbeta.com/viewthread-1921511-1-1.html
+第二枚泄露出来的Win10 IoT LTSC 2021 OEM 公钥，需要的自取
+地址：key数字证书地址：LTSC2021数字证书，感谢itohina256的分享。
+使用方法：
+1. 在Win10中导入数字集火证书:
+将 Windows数字证书文件 IoTEnterpriseS 解压后复制到 C:\Windows\System32\spp\tokens\skus，然后以管理员身份cmd，输入 slmgr.vbs /rilc，耐心等待其完成。
+2. 输入公key：
+以管理员身份 cmd 输入 slmgr.vbs /ipk xxxxx（xxxxx为密钥）
 
 
 ==========================
@@ -41,22 +73,15 @@ http://109.195.3.148/tracker.php?rid=728
 ---------------------------------------------------------
 
 2016.12.4俄大神更新的Microsoft Windows 10 Enterprise 2016 LTSB 14393.479 x86-x64 ZH-CN PIP
-
 https://pan.baidu.com/s/1Rd0FomjWNHpfdSdOB-vRuA
-
-
 
 
 ===========================
 
 Microsoft Windows 10 1809 Enterprise LTSC 2019 17763.437 x86-x64 RU-RU PIP
 
-
 大神俄语企业版版，看教程自己汉化
-
 很简单：安装俄文系统---下载中文语言包--安装字体库--设置中文语言---区域设置成中文，重启系统---中文系统。
-
-
 有些还是俄文是没有安装那个软件的字体库造成的，启动程序时系统找不到中文语言字体，就会出现俄文，字体库只要安装全就不会出现中文。如果你有原版的中文系统最好，把那个中文包复制过去就行了。
 
 种子：
@@ -75,10 +100,6 @@ CES_X64FREV_RU-RU_PIP.isoCRC32: 7DC85D6BMD5: A5883AD889A6022E37B0C89455E98833SHA
 ---------------------------------------------------------------------
 
 Microsoft Windows 10 1607 Enterprise LTSB 2016 x86-x64 ZH-CN 2x1
-
-
-
-
 CES_X64FREV_ZH-CN_2x1.iso
 CRC32: 0DAC255B
 MD5: FEF3448AA3FDAA17175439EDCE5D21FD
@@ -86,10 +107,7 @@ SHA-1: 860B6A844FB2E2C568C4F6DC801EE23E1FB3A2CD
 
 
 
-
-
 1607_ENTERPRISE-LTSB-2016_X86-X64_ZH-CN_2x1
-
     CES_X64FREV_ZH-CN_2x1.iso 2.39 GB (2573664256)
     CES_X86FREV_ZH-CN_2x1.iso 1.69 GB (1814790144)
 
@@ -98,9 +116,6 @@ magnet:?xt=urn:btih:DFF3D9C6555C7526F1F8E535A8F17EF8E5C86473
 
 ===================================================
 
-
-
-=============================================
 
 文件名: 【不忘初心】Win10_X64_ltsc2019_17763.914[纯净精简版](2020.1.1) .iso
 文件大小: 2558492672 字节
@@ -136,28 +151,18 @@ Tiny10
 https://archive.org/details/tiny-10-NTDEV
 
 
-
-
 https://zhuanlan.zhihu.com/p/641403790
 低配PC福音！大佬研发Win10极限精简版Tiny10，速度超快
-
 Tiny10通过删除不必要的预装应用程序、服务、驱动程序和特性，显著减小系统的体积。
-
 这样可以节省磁盘空间，并提高系统的响应速度和启动时间。
-
 而且，它和标准的Win10安装程序不一样，采用的是自动化的安装过程。
-
 目前，Tiny10最新版本为tiny10 23H1 x64，支持 64 位系统，占用空间小，更新速度快，适合低端硬件运行。
-
 
 
 https://zhuanlan.zhihu.com/p/565745440
 国外大神制作的史上最精简Win10系统，真有那么好用吗？
-
 接着再谈谈系统组件，包括应用商店在内的所有应用，以及我们经常安装完系统就会禁用掉的 Defender 都被移除，但保留了 Edge 浏览器。
-
 剩下的包括 powershell、CMD、磁盘管理等系统核心功能都能正常使用，没有发现任何问题。
-
 系统运行起 PS 这种大型软件也毫不费力，流畅程度很高，稳定性不错。
 
 ---------------------------------------------------------------------
@@ -168,19 +173,12 @@ https://atlasos.net/downloads
 https://github.com/atlas-os/atlas
 
 
-
-
 https://zhuanlan.zhihu.com/p/591397669
 AtlasOS：专为游戏党定制的高性能Windows 10系统
-
 AtlasOS 剥离大量在 Windows 后台运行的进程，例如原本 Windows 10 20H2 有 185 个默认后台进程，被删减后现在只有 35 个。
-
 内存使用方面原本 Windows 10 20H2 需要占用 1.5GB + 内存，现在只需要 600MB 内存；进程延迟方面也从 3.09 降低到 2.55；安装包从 4.5GB 降低到 1.49GB。
-
 上面提了 AtlasOS 一切以游戏性能为目标，所以默认情况下禁用幽灵和熔断系列漏洞的缓解措施，这些缓解措施会导致英特尔 CPU 性能大幅度下降。
-
 同时以下功能也被删除或修改：
-
 TPM 可信平台模块  Windows Defender  存储空间管理  eMMC 驱动  RAID 配置功能  Bitlocker  生物识别功能，包括指纹和面部识别都被删除  语音命令  还原点和系统重置功能等。
 
 
@@ -217,6 +215,7 @@ cd desktop
 
 
 ---------------------------------------------------------------------
+
 
 
 
