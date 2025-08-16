@@ -76,6 +76,8 @@
 
 #### [E3-H81](https://mokk731.github.io/txt/mydiy/E3-H81.txt)
 
+#### [E-2100-8代志强](https://mokk731.github.io/txt/mydiy/E-2100-8代志强.txt)
+
 #### [中兴CT340小主机](https://mokk731.github.io/txt/mydiy/中兴CT340.txt)
 
 #### [黑苹果](https://mokk731.github.io/txt/mydiy/黑苹果.txt)
