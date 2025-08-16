@@ -165,3 +165,16 @@ systemctl restart docker
 4.验证是否成功
 
 打开终端执行docker info命令，可见下面信息。
+
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+
+国内可以从南京大学镜像源下载
+只需要在原来的标签前面加上 ghcr.nju.edu.cn 即可，例如：
+docker pull ghcr.nju.edu.cn/14790897/openwrt:<tag>
+docker pull ghcr.nju.edu.cn/14790897/openwrt-mini:<tag>
+
+或者使用ghcr :
+docker pull ghcr.io/14790897/openwrt:<tag>
+docker pull ghcr.io/14790897/openwrt-mini:<tag>
+
