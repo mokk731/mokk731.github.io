@@ -1,4 +1,4 @@
-win10版本
+## win10版本
 
 https://msdn.itellyou.cn
 https://next.itellyou.cn
@@ -66,9 +66,12 @@ https://bbs.pcbeta.com/viewthread-1921511-1-1.html
 
 
 ==========================
+
 ## lopatkin俄大神
+
 http://www.emtrek.org/viewforum.php?f=264
 http://109.195.3.148/tracker.php?rid=728
+https://tieba.baidu.com/f?kw=%E4%BF%84%E7%BD%97%E6%96%AF%E5%A4%A7%E7%A5%9E%E7%B3%BB%E7%BB%9F&ie=utf-8&tab=good
 
 2016.12.4俄大神更新的Microsoft Windows 10 Enterprise 2016 LTSB 14393.479 x86-x64 ZH-CN PIP
 https://pan.baidu.com/s/1Rd0FomjWNHpfdSdOB-vRuA
@@ -140,10 +143,9 @@ CRC32: CE438590
 
 ---------------------------------------------------------------------
 
-Tiny10
+## Tiny10
 
 https://archive.org/details/tiny-10-NTDEV
-
 
 https://zhuanlan.zhihu.com/p/641403790
 低配PC福音！大佬研发Win10极限精简版Tiny10，速度超快
@@ -151,7 +153,6 @@ Tiny10通过删除不必要的预装应用程序、服务、驱动程序和特�
 这样可以节省磁盘空间，并提高系统的响应速度和启动时间。
 而且，它和标准的Win10安装程序不一样，采用的是自动化的安装过程。
 目前，Tiny10最新版本为tiny10 23H1 x64，支持 64 位系统，占用空间小，更新速度快，适合低端硬件运行。
-
 
 https://zhuanlan.zhihu.com/p/565745440
 国外大神制作的史上最精简Win10系统，真有那么好用吗？
@@ -161,7 +162,7 @@ https://zhuanlan.zhihu.com/p/565745440
 
 ---------------------------------------------------------------------
 
-AtlasOS
+## AtlasOS
 
 https://atlasos.net/downloads
 https://github.com/atlas-os/atlas
@@ -175,13 +176,10 @@ AtlasOS 剥离大量在 Windows 后台运行的进程，例如原本 Windows 10 
 同时以下功能也被删除或修改：
 TPM 可信平台模块  Windows Defender  存储空间管理  eMMC 驱动  RAID 配置功能  Bitlocker  生物识别功能，包括指纹和面部识别都被删除  语音命令  还原点和系统重置功能等。
 
-
 https://xiaoyi.vc/atlasos.html
 游戏玩家福音！Win10 性能优化版：AtlasOS
 2022年11月30日
-
 下载地址
-
     官方网站：
     https://atlasos.net
     项目地址：
@@ -195,20 +193,17 @@ https://xiaoyi.vc/atlasos.html
 
 
 安装中文语言
-
 系统默认是英文语言界面的，所以需要安装中文语言包。下载语言包文件到桌面，然后打开 powershell(管理员) 模式，输入下面的命令：
-
 cd desktop
 ​add-appxpackage 19041.cn.pack.Appx
-
 安装好后，打开系统设置 - Language - Windows display language - 选择中文。之后注销或重新系统就是中文界面了，然后自行添加中文输入布局，修改时间市区为 UTC+8 等。
-
 * 如果你懒得手动添加语言包的话，也可以下载网友 @9zhmke 整合的中文版镜像。
 
 ---------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------
+
 
 
 
