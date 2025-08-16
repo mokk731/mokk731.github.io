@@ -1,6 +1,7 @@
+https://github.com/SuLingGG/OpenWrt-Docker
+https://hub.docker.com/r/sulinggg/openwrt-mini
 docker pull sulinggg/openwrt:rpi4
-
-docker pull sulinggg/openwrt-mini:rpi4
+docker pull sulinggg/openwrt-mini:rpi4            ************
 
 
 https://mlapp.cn/376.html
@@ -78,7 +79,7 @@ registry.cn-shanghai.aliyuncs.com/suling/openwrt        latest              4f4b
 
 4.创建并启动容器
 
-docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi4 /sbin/init    ************
+docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi4 /sbin/init       ************
 
 其中：
 
@@ -141,7 +142,7 @@ config interface 'lan'
         option type 'bridge'
         option ifname 'eth0'
         option proto 'static'
-        option ipaddr '192.168.11.12'
+        option ipaddr '192.168.11.12'                       ******
         option netmask '255.255.255.0'
         option ip6assign '60'
         option gateway '192.168.11.1'
@@ -219,6 +220,7 @@ networks:
       config:
         - subnet: 192.168.11.0/24 # 定义容器使用的子网，需要和当前网络一致
         - gateway: 192.168.11.1 # 定义网关，需要和当前网络一致
+
 
 
 
