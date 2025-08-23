@@ -6,16 +6,16 @@
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
 
 
-#### [v2rayNG.apk](https://github.com/2dust/v2rayNG)
+#### [V2rayNG.apk](https://github.com/2dust/v2rayNG)
 
-#### [v2rayN for win](https://github.com/2dust/v2rayN)
+#### [V2rayN for win](https://github.com/2dust/v2rayN)
 
 #### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
 
-#### [v2rayA-V2Ray client](https://github.com/v2rayA/v2rayA/releases)
+#### [V2rayA-V2Ray client](https://github.com/v2rayA/v2rayA/releases)
 
 
-#### [clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
+#### [Clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
 
 
 #### [WireGuard for win mac Android iOS Ubuntu](https://www.wireguard.com/install/)
