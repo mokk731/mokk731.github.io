@@ -26,6 +26,8 @@
 
 #### [小米平板4](https://mokk731.github.io/txt/mydiy/mi-pad4.txt)
 
+#### [Magisk-LSPosed](https://mokk731.github.io/txt/mydiy/Magisk-LSPosed.txt)
+
 
 ----------------------------------------------------------------
 
