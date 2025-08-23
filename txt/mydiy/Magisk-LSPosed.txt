@@ -50,8 +50,13 @@ https://magisk.suchenqaq.club/Magisk%20%E6%A8%A1%E5%9D%97/
 Magisk 模块下载
 
 
+Advanced Charging Controller (ACC)
+主要用于延长 Android 设备的电池使用寿命。简而言之，这是通过限制充电电流、温度和电压来实现的。支持任何根解决方案。无论系统是否植根于 Magisk，安装始终是“无系统”的。
+https://downloads.suchenqaq.club/download/magisk_module/charging/eadf474a38e3654b74652fedf341e8a2/%E9%AB%98%E7%BA%A7%E5%85%85%E7%94%B5%E6%8E%A7%E5%88%B6%E5%99%A8ACC-v2022.6.4-2022060.zip&id=308
 
 
+
+------------------------------------------------------------------------------------------
 https://magiskcn.com/lsposed-install.html
 LSPosed 安装教程
 
