@@ -12,6 +12,8 @@
 
 #### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
 
+#### [v2rayA-V2Ray client](https://github.com/v2rayA/v2rayA/releases)
+
 
 #### [clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
 
