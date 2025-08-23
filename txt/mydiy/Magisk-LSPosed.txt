@@ -11,6 +11,39 @@ Xposed Module Repository
 https://magiskcn.com
 Magisk 中文网
 
+https://magiskcn.com/mi-boot.html
+小米手机安装面具教程（修补 boot.img）
+
+1、解锁 Bootloader mi-unlock
+如果你的手机不能解锁 BL，推荐 光速虚拟机（不解锁 BL 也可以体验 ROOT）
+
+2、提取 boot.img payload-dumper-go-boot（如果系统包有 boot.img 可以跳过提取步骤）
+
+3、手机插电脑文件传输模式复制 boot.img 进手机 Download 目录
+
+4、手机下载安装 Magisk Magisk-download
+
+5、安装 – 选择 boot.img– 开始修补文件 – 修补完成
+修补生成的文件 magisk_patched-xxx.img 在 Download 目录
+
+6、电脑下载工具 adb-fastboot蓝奏盘（解压出来）
+
+7、手机插电脑，打开 传输文件 模式，打开 Download 目录，把 magisk.img 复制到电脑 adb-fastboot 目录
+
+8、手机进入 Bootloader 模式
+手机关机，电源键 + 音量下键，两个键长按
+
+9、打开CMD命令行.bat 输入下面的刷入命令
+magisk.img 每次修补生成的名字都不一样，使用的时候请输入生成的名字
+
+10、显示 OKAY 就是成功刷入了。再使用指令 fastboot reboot 重启手机
+
+11、开机有震动基本没问题了，耐心等开机。（显示 Magisk 的版本，就是刷好了的）
+
+
+
+
+
 
 https://magiskcn.com/lsposed-install.html
 LSPosed 安装教程
