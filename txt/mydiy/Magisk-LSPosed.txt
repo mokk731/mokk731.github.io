@@ -52,4 +52,4 @@ https://magiskcn.com/lsposed-install.html
 LSPosed 安装教程
 
 
-
+仓库：https://modules.lsposed.org  ,   Browse Modules，把apk下载下来安装就行了
