@@ -52,6 +52,7 @@ Magisk 模块下载
 
 Advanced Charging Controller (ACC)
 主要用于延长 Android 设备的电池使用寿命。简而言之，这是通过限制充电电流、温度和电压来实现的。支持任何根解决方案。无论系统是否植根于 Magisk，安装始终是“无系统”的。
+充到75%，停止
 https://github.com/VR-25/acc/releases
 
 Shamiko模块：
