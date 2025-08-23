@@ -85,8 +85,6 @@
 
 #### [备份批处理清除垃圾win10-202403.rar](https://mokk731.github.io/ziprar/备份批处理清除垃圾win10-202403.rar)
 
-#### [zte_e8820s.config202301.txt](https://mokk731.github.io/txt/zte_e8820s.config202301.txt)
-
 
 --------------------------------------------------------------------------
 
