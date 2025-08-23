@@ -57,6 +57,9 @@ https://github.com/VR-25/acc/releases
 
 Shamiko模块：
 基于Zygisk环境下隐藏root权限的一款神器
+https://github.com/LSPosed/LSPosed.github.io/releases
+
+
 
 ------------------------------------------------------------------------------------------
 https://magiskcn.com/lsposed-install.html
