@@ -46,6 +46,10 @@ Zygisk命名非常形象，意思是注入Zygote后的Magisk。它能为Magisk�
 注意，该功能跟Riru Hide不同，不能避免root被检测到，没有任何隐藏作用。即使你把某些程序加入排除列表，它们依旧可以发现Zygisk。如果用户要隐藏root，只能借助其他方式，比如添加Shamiko模块。
 
 
+https://magisk.suchenqaq.club/Magisk%20%E6%A8%A1%E5%9D%97/
+Magisk 模块下载
+
+
 
 
 https://magiskcn.com/lsposed-install.html
