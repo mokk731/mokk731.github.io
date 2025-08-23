@@ -1,0 +1,16 @@
+Magisk-LSPosed
+
+https://github.com/topjohnwu/Magisk
+https://github.com/LSPosed/LSPosed
+
+https://modules.lsposed.org/
+Xposed Module Repository
+
+------------------------
+
+https://magiskcn.com
+Magisk 中文网
+
+
+https://magiskcn.com/lsposed-install.html
+LSPosed 安装教程
