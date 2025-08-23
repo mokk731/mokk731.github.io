@@ -41,9 +41,15 @@ magisk.img 每次修补生成的名字都不一样，使用的时候请输入生
 11、开机有震动基本没问题了，耐心等开机。（显示 Magisk 的版本，就是刷好了的）
 
 
+从Magisk v24.0版本开始，之前的Riru改成了Zygisk。考虑到部分用户对此可能不太明白，所以这次，小编就简单介绍下。
+Zygisk命名非常形象，意思是注入Zygote后的Magisk。它能为Magisk模块，提供更深入、更强悍的修改能力。它有一个排除列表，可以撤销Magisk做的所有修改。这样你就能手动划定，模块起作用的范围。
+注意，该功能跟Riru Hide不同，不能避免root被检测到，没有任何隐藏作用。即使你把某些程序加入排除列表，它们依旧可以发现Zygisk。如果用户要隐藏root，只能借助其他方式，比如添加Shamiko模块。
 
 
 
 
 https://magiskcn.com/lsposed-install.html
 LSPosed 安装教程
+
+
+
