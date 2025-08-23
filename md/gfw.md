@@ -45,7 +45,7 @@
     Jisou 极搜
 
 
-#### [MahsaNG](https://github.com/GFW-knocker/MahsaNG/releases)
+#### [MahsaNG.apk](https://github.com/GFW-knocker/MahsaNG/releases)
 
 --------------------------------------------------------------------------
 
