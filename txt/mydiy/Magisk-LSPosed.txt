@@ -51,7 +51,7 @@ https://magisk.suchenqaq.club/Magisk%20%E6%A8%A1%E5%9D%97/
 Magisk 模块下载
 
 
-Advanced Charging Controller (ACC)
+Advanced Charging Controller (ACC)模块：
 主要用于延长 Android 设备的电池使用寿命。简而言之，这是通过限制充电电流、温度和电压来实现的。支持任何根解决方案。无论系统是否植根于 Magisk，安装始终是“无系统”的。
 充到75%，停止
 \install\default-config.txt     capacity=(5 50 70 75 false false)   改70-75 75-80 ，充到80%，停止。
@@ -61,13 +61,15 @@ Shamiko模块：
 基于Zygisk环境下隐藏root权限的一款神器
 https://github.com/LSPosed/LSPosed.github.io/releases
 
-AdGuardHome_magisk
+AdGuardHome_magisk模块：
 去广告magisk模块，通过DNS层面过滤广告、防DNS劫持，使用前请先详读mode.conf文件，使用前需关闭私人dns，不可用wap接入点，支持订阅过滤规则，可兼容VPN、免模块、翻模块、校园网等特殊使用环境。top大佬(酷安)
 AdHome后台管理地址127.0.0.1:3000，用户名root，密码root，可兼容VPN、免模块、翻模块、校园网等特殊使用环境。
 /AdGuardHome.yaml    bootstrap_dns:   - 119.29.29.29   - 223.5.5.5 - 1.1.1.1  会变成 2620:fe::10   2620:fe::fe:10  ，其它文件改了，网络就出错 。
 https://github.com/410154425/AdGuardHome_magisk/releases
 
-
+LSPosed模块：
+LSPosed-v1.9.2-7024-zygisk-release
+https://github.com/LSPosed/LSPosed/releases
 
 ------------------------------------------------------------------------------------------
 https://magiskcn.com/lsposed-install.html
