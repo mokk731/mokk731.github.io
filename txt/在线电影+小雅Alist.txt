@@ -14,7 +14,11 @@ http://8.155.14.174:5678/
 http://www.cyanice.cn:5678/
 http://www.cqwintech.cn:5678/
 
-
+https://xy.qdsc.net/
+https://alist.xphuhu.cn/
+http://120.197.105.234:5678/
+http://158.101.157.199:5678/
+https://alist.xiaoya.pro/
 
 
 
