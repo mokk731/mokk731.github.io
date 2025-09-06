@@ -20,8 +20,8 @@
 
 #### [WireGuard for win mac Android iOS Ubuntu](https://www.wireguard.com/install/)
 
-#### [V2rayU for mac](https://github.com/yanue/V2rayU) 
-     macos15.7---
+#### [V2rayU for mac](https://github.com/yanue/V2rayU/releases) 
+     macos15.7---V2rayU 3.9.0
 
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
