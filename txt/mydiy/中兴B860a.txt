@@ -214,12 +214,25 @@ armbian固件里面没有这个型号，找了个同样处理器的，选择115 
 115 s905l UNT402A,M201-S,MiBox-4C,IP108H-53u1m 
 116 s905l  mg101                                                                 *************
 
+关机拨出usb,重启失败，
+又插入usb 启动openwrt,成功后，关机拨出usb,
+再次启动openwrt,成功！
+
+openwrt如果开不了机， 插入usb 启动openwrt,成功后，
+Install to EMMC
+Login to OpenWrt → System → Amlogic Service → Install OpenWrt    116 s905l  mg101 
+
+
+
+
 202503
 刷 安卓6 root固件20191219-R3300L-Q7-6.0-root-twrp-Milton  成功， wifi用不了。
 刷 immortalwrt 成功， wifi用不了。  openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz 
 https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immortalwrt_save_2025.03/openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz
 刷 LEDE 成功，软件源用不了，wifi用不了。
 
+可用docker --mzz2017/v2raya 代理
+docker--containers--新增--解析CLI 命令行
 
 
 主机名	  ZTE-ImmortalWrt
@@ -249,5 +262,8 @@ https://www.right.com.cn/forum/thread-8272519-1-1.html
 https://mirrors.cloud.tencent.com/openwrt/
 https://mirrors.cloud.tencent.com/openwrt/releases/22.03.6/targets/armvirt/64/kmods/5.10.201-1-a78f82e91c30cec59ccf45def4151bd2/
 https://mirrors.cloud.tencent.com/openwrt/snapshots/targets/armsr/armv8/kmods/6.1.86-1-4f759fb637b59dfd021404e96ce9f182/
+
+
+
 
 
