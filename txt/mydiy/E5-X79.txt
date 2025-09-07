@@ -614,7 +614,7 @@ win10 ，system异常占用CPU 20% , 加上2个浏览器，cpu 100%
 SATA1端口容易接触不良，重新插拨，也是这样。
 改用SATA2端口,就正常了。
 
-asssd benchmark --seq--read write 都要在450MB/S 以上才是正常速度。
+AS SSD Benchmark --Seq--Read Write 都要在450MB/s 以上才是正常速度。
 
 -----------------------------------------------------------
 
