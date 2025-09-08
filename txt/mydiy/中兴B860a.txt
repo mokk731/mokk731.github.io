@@ -233,35 +233,21 @@ https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immorta
 
 可用docker --mzz2017/v2raya 代理
 docker--containers--新增--解析CLI 命令行
+下载不了img
 
 
-主机名	  ZTE-ImmortalWrt
-型号	  Venz V10
-固件版本 ImmortalWrt SNAPSHOT r0-3c5ff02 / LuCI Master 25.050.43906~5a10c75
-内核版本	6.1.129-ophub
-
-
-https://downloads.immortalwrt.org/snapshots/packages/aarch64_generic/
-
-想安装某个科学ipk,装不上，少了3个依赖。
-    依赖的软件包 kmod-nft-socket 在所有仓库都未提供。
-    依赖的软件包 kmod-nft-tproxy 在所有仓库都未提供。
-    依赖的软件包 kmod-netlink-diag 在所有仓库都未提供。
-要自己编译，。。。。。。
+luci-app-v2raya  ， 比较好用。
+v2ray-geoip 
+v2ray-geosite
 
 
 
-依赖的软件包 kmod-nft-socket 在所有仓库都未提供。
-依赖的软件包 kmod-nft-tproxy 在所有仓库都未提供。
-依赖的软件包 kmod-nft-nat 在所有仓库都未提供。
-依赖的软件包 kmod-netlink-diag 在所有仓库都未提供。
 
-https://www.right.com.cn/forum/thread-8272519-1-1.html
-求助,安装某些IPK时的依赖包没有怎么办
 
-https://mirrors.cloud.tencent.com/openwrt/
-https://mirrors.cloud.tencent.com/openwrt/releases/22.03.6/targets/armvirt/64/kmods/5.10.201-1-a78f82e91c30cec59ccf45def4151bd2/
-https://mirrors.cloud.tencent.com/openwrt/snapshots/targets/armsr/armv8/kmods/6.1.86-1-4f759fb637b59dfd021404e96ce9f182/
+
+
+
+
 
 
 
