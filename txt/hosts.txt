@@ -9,10 +9,10 @@
 # nslookup -qt=A httpredir.debian.org 119.29.29.29                                            ***
 # nslookup -qt=A raw.githubusercontent.com 119.29.29.29                                       ***
 #                 ip             time
-#     ping 185.199.110.133       270ms
-#     ping 185.199.111.133       270
-#     ping 185.199.109.133       95      ***
-#     ping 185.199.108.133       95
+#     ping 185.199.110.133       88ms    ***
+#     ping 185.199.111.133       87
+#     ping 185.199.109.133      218      
+#     ping 185.199.108.133       87
           
 # https://ping.chinaz.com                ***
 
@@ -29,27 +29,27 @@
 ########################################################################
 
 #  nslookup raw.githubusercontent.com 119.29.29.29
-#  GitHub Start    update 202504
+#  GitHub Start    update 202509
 20.205.243.166     github.com
 20.205.243.166     gist.github.com
 151.101.77.194     github.global.ssl.fastly.net
-185.199.109.153    assets-cdn.github.com
-185.199.109.133    raw.githubusercontent.com
+185.199.110.153    assets-cdn.github.com
+185.199.110.133    raw.githubusercontent.com
 
-185.199.109.133    cloud.githubusercontent.com
-185.199.109.133    camo.githubusercontent.com
-185.199.109.133    avatars0.githubusercontent.com
-185.199.109.133    avatars1.githubusercontent.com
-185.199.109.133    avatars2.githubusercontent.com
-185.199.109.133    avatars3.githubusercontent.com
-185.199.109.133    avatars4.githubusercontent.com
-185.199.109.133    avatars5.githubusercontent.com
-185.199.109.133    avatars6.githubusercontent.com
-185.199.109.133    avatars7.githubusercontent.com
-185.199.109.133    avatars8.githubusercontent.com
+185.199.110.133    cloud.githubusercontent.com
+185.199.110.133    camo.githubusercontent.com
+185.199.110.133    avatars0.githubusercontent.com
+185.199.110.133    avatars1.githubusercontent.com
+185.199.110.133    avatars2.githubusercontent.com
+185.199.110.133    avatars3.githubusercontent.com
+185.199.110.133    avatars4.githubusercontent.com
+185.199.110.133    avatars5.githubusercontent.com
+185.199.110.133    avatars6.githubusercontent.com
+185.199.110.133    avatars7.githubusercontent.com
+185.199.110.133    avatars8.githubusercontent.com
 
 # debian omv
-151.101.90.132     httpredir.debian.org
+151.101.110.132     httpredir.debian.org
 
 
 # 2345  Ad
