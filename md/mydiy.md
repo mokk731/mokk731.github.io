@@ -92,7 +92,7 @@
 
 #### [小米热水壶烧开不能自动断电](https://mokk731.github.io/txt/mydiy/小米热水壶烧开不能自动断电.txt)
 
-
+#### [HiFi音响Diy计划](https://mokk731.github.io/txt/mydiy/HiFi音响Diy计划.txt)
 
 
 
