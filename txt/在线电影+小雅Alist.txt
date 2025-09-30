@@ -145,13 +145,33 @@ https://github.com/maotoumao/MusicFree
 https://github.com/maotoumao/MusicFreeDesktop
 
 安装插件
-https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json
+https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json              *****
 
 QQ音乐
 http://adad23u.appinstall.life/dist/qq/index.js
-
 网易云音乐
 https://gitee.com/raycn120/musicfree/raw/master/netease.js
+
+--------------------------------------
+
+https://www.zhihu.com/question/5588760876
+有哪些免费下载音乐的网站？
+
+极光无损
+地址：https://www.jgwav.cc/
+
+动感酷音乐
+地址：https://www.dgcol.com/
+
+音乐湖
+地址：https://yinyuehoo.com/
+
+皮皮音乐网
+地址：https://www.vipp3.com/
+
+布谷音乐 布谷音乐网-在线音乐-无损音乐免费下载app   *****
+地址：https://www.buguyy.top/
+
 
 ####################################################################################
 
