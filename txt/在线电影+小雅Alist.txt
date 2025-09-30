@@ -41,6 +41,11 @@ https://www.jianpian9.com
 https://www.jianpian15.com
 
 
+磁力熊，在这里，只有豆瓣高分电影/剧集
+https://www.cilixiong.org/
+
+
+
 简简单单的看直播
 dart_simple_live
 https://github.com/xiaoyaocz/dart_simple_live/releases
