@@ -158,7 +158,7 @@ MusicFreePluginsHub
 https://github.com/xxnuo/MusicFreePluginsHub
 个人 MusicFree 源插件订阅聚合器
 https://musicfreepluginshub.2020818.xyz/plugins.json         *****
-
+酷我_1 元力KW,
 
 https://gitee.com/kevinr/tvbox/tree/master/musicfree
 https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins.json
