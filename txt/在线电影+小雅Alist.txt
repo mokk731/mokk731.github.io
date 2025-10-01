@@ -163,6 +163,21 @@ https://musicfreepluginshub.2020818.xyz/plugins.json         *****
 https://gitee.com/kevinr/tvbox/tree/master/musicfree
 https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins.json
 
+元力音乐.json
+http://music.haitangw.net/%E5%85%83%E5%8A%9B%E9%9F%B3%E4%B9%90.json     *****
+
+搜集整合了一下午的插件，测试好用的几个https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/at.js
+https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/gequbao.js
+http://music.haitangw.net/cqapi/kg.js
+http://music.haitangw.net/cqapi/qq.js
+http://music.haitangw.net/cqapi/kw.js
+http://music.haitangw.net/cqapi/xiaomi.js
+https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/bilibili/index.js
+https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/yinyuetai/index.js
+https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/maoerfm/index.js
+
+
+
 
 
 --------------------------------------
