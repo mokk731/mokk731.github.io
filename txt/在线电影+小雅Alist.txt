@@ -151,7 +151,7 @@ https://github.com/maotoumao/MusicFreeDesktop
 
 安装插件
 https://gitee.com/maotoumao/MusicFreePlugins/raw/master/plugins.json              *****
-
+无国内源
 
 
 MusicFreePluginsHub
@@ -165,6 +165,8 @@ https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins.json
 
 元力音乐.json
 http://music.haitangw.net/%E5%85%83%E5%8A%9B%E9%9F%B3%E4%B9%90.json     *****
+如果在导入过程中遇到问题，如导入不成功等，可以尝试多次点击“确定”按钮，或者检查网络连接是否稳定。
+
 
 搜集整合了一下午的插件，测试好用的几个
 https://gitee.com/kevinr/tvbox/raw/master/musicfree/plugins/at.js
