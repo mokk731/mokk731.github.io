@@ -74,7 +74,7 @@
 
 ### PC主机
 
-#### [E5-X79](https://mokk731.github.io/txt/mydiy/E5-X79.txt)
+#### [E5-X79-X99](https://mokk731.github.io/txt/mydiy/E5-X79-X99.txt)
 
 #### [E3-H81](https://mokk731.github.io/txt/mydiy/E3-H81.txt)
 
