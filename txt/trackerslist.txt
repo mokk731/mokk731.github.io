@@ -15,41 +15,50 @@ https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_https.txt
 
 -------------------------------------------------------------------
 
-Last update 2025/08/16:
 
+Last update 2025/10/08:
 
 udp://93.158.213.92:1337/announce
-udp://23.168.232.9:1337/announce
+udp://23.134.88.9:6969/announce
+udp://23.134.88.9:1337/announce
 udp://185.243.218.213:80/announce
-udp://83.31.31.143:6969/announce
+udp://178.128.94.74:6969/announce
+udp://44.30.4.4:6969/announce
 udp://51.222.82.36:6969/announce
-udp://211.75.205.188:80/announce
+udp://211.75.210.221:80/announce
+udp://94.136.190.183:6969/announce
+udp://135.125.236.64:6969/announce
+udp://193.233.161.213:6969/announce
 udp://77.91.85.95:6969/announce
-udp://5.255.124.190:6969/announce
-udp://35.227.59.57:1337/announce
-udp://189.69.169.237:6969/announce
-udp://83.102.180.21:80/announce
-udp://62.60.157.92:6969/announce
-udp://185.230.4.150:1337/announce
-udp://45.9.60.30:6969/announce
-udp://5.45.69.185:6969/announce
-udp://185.216.179.62:25/announce
-udp://23.163.56.66:6969/announce
-udp://176.99.7.59:6969/announce
-udp://107.189.2.131:1337/announce
-udp://185.189.13.108:6969/announce
+udp://45.13.119.213:6969/announce
+udp://54.36.179.216:6969/announce
+udp://94.136.190.183:2710/announce
+udp://94.136.190.183:1337/announce
+udp://209.141.59.25:6969/announce
+udp://52.58.128.163:6969/announce
+udp://211.75.205.189:6969/announce
+udp://109.201.134.183:80/announce
 
+
+https://tracker.tamersunion.org:443/announce
+https://yuki.bt.bontal.net:443/announce
+https://tracker.zhuqiy.com:443/announce
 https://tracker.yemekyedim.com:443/announce
 https://tracker.pmman.tech:443/announce
 https://tracker.moeblog.cn:443/announce
-https://tracker.gcrenwp.top:443/announce
-https://tracker.expli.top:443/announce
-https://tracker.cutie.dating:443/announce
-https://tracker.bt4g.com:443/announce
-https://tracker.zhuqiy.top:443/announce
-https://tracker.leechshield.link:443/announce
 https://tracker.ghostchu-services.top:443/announce
-https://tracker.aburaya.live:443/announce
+https://tracker.cutie.dating:443/announce
+https://tr.zukizuki.org:443/announce
+https://tr.nyacat.pw:443/announce
+https://shahidrazi.online:443/announce
+https://bt.bontal.net:443/announce
+https://tracker.leechshield.link:443/announce
+https://tracker.gcrenwp.top:443/announce
+https://t.213891.xyz:443/announce
+
+
+
+
 
 
 
