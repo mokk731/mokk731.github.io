@@ -49,3 +49,23 @@ https://raw.githubusercontent.com/ GitHub引擎
 
 
 
+https://raw.githubusercontent.com/Firmfox/Proxify/main/v2ray_configs/mixed/subscription-12.txt
+(来源：Firmfox/Proxify；vless://为主，今日高速节点，速度达10M/S)
+
+https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt
+(来源：barry-far/V2ray-config；vless://协议节点，免费高速配置)
+
+https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Vless.txt
+(来源：Argh94/V2RayAutoConfig；vless://订阅，包含伊朗/全球节点)
+
+https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt
+(来源：SoliSpirit/v2ray-configs；协议拆分vless://，免费精选)
+
+https://raw.githubusercontent.com/Kolandone/v2raycollector/main/vless.txt
+(来源：Kolandone/v2raycollector；Telegram源vless://，今日更新)
+
+https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+(来源：ermaozi/get_subscribe；综合v2ray.txt，包含最高速度M/S标签节点)
+
+
+
