@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/ GitHub引擎
 
 20251010
 
-https://raw.githubusercontent.com/Firmfox/Proxify/main/v2ray_configs/mixed/subscription-12.txt
+https://raw.githubusercontent.com/Firmfox/Proxify/main/v2ray_configs/mixed/subscription-12.txt          *****
 (来源：Firmfox/Proxify；vless://为主，今日高速节点，速度达10M/S)
 
 https://raw.githubusercontent.com/barry-far/V2ray-config/main/Splitted-By-Protocol/vless.txt
