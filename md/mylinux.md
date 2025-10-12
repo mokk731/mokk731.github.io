@@ -45,21 +45,21 @@ swap：Swap 交换分区专属的文件系统，如果有划分 Swap 分区，�
 
 输入命令：
 
-sudo xed /etc/default/grub
+    sudo xed /etc/default/grub
 
 回车输入密码
 
 
 2,在如下的界面我们看到
 
-GRUB_DEFAULT=0
+    GRUB_DEFAULT=0
 
 默认启动项排序以0开始，第几个为windows我们就设置为几就可以了
 
 
 3,最后我们运行命令更新grub
 
-sudo update-grub
+    sudo update-grub
 
 ---------------------------------------------------------------------------------------
 
@@ -86,8 +86,8 @@ LinuxMint 19.3系统安装完成后，
 
 LinuxMint系统版本发布后的一定时间，往往系统都会有一些安全补丁或者软件更新。所以，安装安LinuxMint系统中，第一件事情就是检查一下系统是否有更新，及时更新。
 
-sudo apt-get update
-sudo apt-get upgrade
+    sudo apt-get update
+    sudo apt-get upgrade
 
 #3：安装中文输入法
 
@@ -101,7 +101,7 @@ Linux Mint 19.3 整合了多种媒体播放器，但仍缺少一些多媒体代�
 
 运行下列命令来安装媒体插件，享受出色的电影观赏和音乐聆听体验。
 
-sudo apt-get install mint-meta-codecs
+    sudo apt-get install mint-meta-codecs
 
 #5：安装最新的图形驱动程序
 
@@ -113,10 +113,10 @@ sudo apt-get install mint-meta-codecs
 
 #6：安装常用软件
 
-sudo apt-get install chromium-browser #Chronium浏览器
-sudo apt-get install unace p7zip-rar sharutils rar arj lunzip lzip #rar和其它归档工具
-sudo apt-get install uget #下载管理器
-sudo apt-get install deluge-torrent  #torrent客户端
+    sudo apt-get install chromium-browser #Chronium浏览器
+    sudo apt-get install unace p7zip-rar sharutils rar arj lunzip lzip #rar和其它归档工具
+    sudo apt-get install uget #下载管理器
+    sudo apt-get install deluge-torrent  #torrent客户端
 
 
 
@@ -126,7 +126,7 @@ sudo apt-get install deluge-torrent  #torrent客户端
 
 这里我安装了一个dock工具条，默认的菜单面板放置在顶部，主题选择黑色，更换了默认壁纸。
 
-sudo apt-get install plank
+    sudo apt-get install plank
 
 按住Ctrl键，鼠标右击plank上的任意图标，在弹出来的菜单中选择首选项，可以对plank进行配置。
 
@@ -151,9 +151,9 @@ sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm p
 
 #10：清理系统
 
-sudo apt-get clean      #自动清理apt-cache
-sudo apt-get autoclean  #清理部分不再使用的软件包
-sudo apt-get autoremove #清除所有未使用的依赖项
+    sudo apt-get clean      #自动清理apt-cache
+    sudo apt-get autoclean  #清理部分不再使用的软件包
+    sudo apt-get autoremove #清除所有未使用的依赖项
 
 ------------------------------------------------------------------------------
 
@@ -168,15 +168,15 @@ sudo apt-get autoremove #清除所有未使用的依赖项
 
 #下载 Docker 图形化界面 portainer
 
-sudo docker pull portainer/portainer
+    sudo docker pull portainer/portainer
 
 #创建 portainer 容器
 
-sudo docker volume create portainer_data
+    sudo docker volume create portainer_data
 
 #运行 portainer
 
-sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+    sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 
 ## [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
 
@@ -268,7 +268,8 @@ https://github.com/kvalo/ath10k-firmware
 ## [Ubuntu + 高通QCA6174无线网卡连接不上WIFI问题解决](https://blog.csdn.net/qq_25782145/article/details/121214291)
 
 查看无线网卡驱动型号：
-lshw -c network
+        
+    lshw -c network
 
 ---------------------------------------------------------------------------------------------
 ## [rtl8852ae网卡驱动](https://zhuanlan.zhihu.com/p/393291458)
