@@ -85,7 +85,8 @@ registry.cn-shanghai.aliyuncs.com/suling/openwrt        latest              4f4b
 
 4.创建并启动容器
 
-docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi4 /sbin/init       ************
+docker run --restart always --name openwrt -d --network macnet --privileged sulinggg/openwrt-mini:rpi4 /sbin/init  
+docker run --restart unless-stopped --name openwrt -d --network macnet --privileged sulinggg/openwrt:rpi4 /sbin/init    ************
 
 其中：
 
@@ -242,6 +243,7 @@ src/gz openwrt_luci https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSH
 src/gz openwrt_packages https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/packages
 src/gz openwrt_routing https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/routing
 src/gz openwrt_telephony https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/telephony
+
 
 
 
