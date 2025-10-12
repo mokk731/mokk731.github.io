@@ -234,7 +234,7 @@ OPKG 配置:
 bcm2711 raspi4b aarch64_cortex-a72  ImmortalWrt 18.06-k5.4 ,sulinggg/openwrt-mini:rpi4 
 
 
-src/gz openwrt_kmods https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/targets/bcm27xx/bcm2711/kmods/5.4.203-1-c41715f1e28e8768b9bea860f789dbd2
+src/gz openwrt_kmods https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/targets/bcm27xx/bcm2711/kmods/5.4.203-1-b731aded3325153a1196cc305a361e06
 src/gz openwrt_core https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/targets/bcm27xx/bcm2711/packages
 
 src/gz openwrt_base https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/base
@@ -242,6 +242,7 @@ src/gz openwrt_luci https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSH
 src/gz openwrt_packages https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/packages
 src/gz openwrt_routing https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/routing
 src/gz openwrt_telephony https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/telephony
+
 
 
 
