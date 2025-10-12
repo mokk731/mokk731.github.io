@@ -24,6 +24,12 @@ docker pull 14790897/openwrt-mini:rpi4-stable
 
 armv8  =aarch64  =arm64
 
+
+https://hub.docker.com/r/piaoyizy/openwrt-aarch64
+openwrt ARM64版，最新源码编译，集成ssrplus+ 、passwall、openclash
+docker pull piaoyizy/openwrt-aarch64:latest
+docker run -d --name=openwrt --restart always --privileged --network macnet --ip 10.10.10.30 piaoyizy/openwrt-aarch64:latest
+
 ------------------------------------------------------------------------------------------
 
 
@@ -220,6 +226,7 @@ networks:
       config:
         - subnet: 192.168.11.0/24 # 定义容器使用的子网，需要和当前网络一致
         - gateway: 192.168.11.1 # 定义网关，需要和当前网络一致
+
 
 
 
