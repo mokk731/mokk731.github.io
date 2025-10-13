@@ -1,7 +1,7 @@
 https://github.com/SuLingGG/OpenWrt-Docker
 https://hub.docker.com/r/sulinggg/openwrt-mini
-docker pull sulinggg/openwrt:rpi4
-docker pull sulinggg/openwrt-mini:rpi4            ************
+docker pull sulinggg/openwrt:rpi4                      ************
+docker pull sulinggg/openwrt-mini:rpi4            
 
 
 https://mlapp.cn/376.html
@@ -12,12 +12,12 @@ https://mlapp.cn/376.html
 
 https://github.com/zzsrv/OpenWrt-Docker
 https://hub.docker.com/r/zzsrv/openwrt
-docker pull zzsrv/openwrt:arm64                   *******
+docker pull zzsrv/openwrt:arm64                
 
 
 https://github.com/14790897/OpenWrt-In-Docker
 https://hub.docker.com/r/14790897/openwrt-mini
-docker pull 14790897/openwrt-mini:rpi4           ************
+docker pull 14790897/openwrt-mini:rpi4           ***
 docker pull 14790897/openwrt:rpi4
 docker pull 14790897/openwrt-mini:rpi4-stable
 
@@ -160,7 +160,7 @@ option ipaddr 项目定义了 OpenWrt 的 IP 地址，在完成网段设置后�
 
 6.重启网络
 
-/etc/init.d/network restart    ******
+/etc/init.d/network restart      ******
 
 
 7.开启 IPv6 协议
@@ -232,8 +232,7 @@ networks:
 ------------------------------------------------------
 
 OPKG 配置:   
-bcm2711 raspi4b aarch64_cortex-a72  ImmortalWrt 18.06-k5.4 ,sulinggg/openwrt-mini:rpi4 
-
+bcm2711 raspi4b aarch64_cortex-a72  ImmortalWrt 18.06-k5.4 ,sulinggg/openwr:rpi4 
 
 src/gz openwrt_kmods https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/targets/bcm27xx/bcm2711/kmods/5.4.203-1-b731aded3325153a1196cc305a361e06
 src/gz openwrt_core https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/targets/bcm27xx/bcm2711/packages
@@ -243,6 +242,14 @@ src/gz openwrt_luci https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSH
 src/gz openwrt_packages https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/packages
 src/gz openwrt_routing https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/routing
 src/gz openwrt_telephony https://downloads.immortalwrt.org/releases/18.06-k5.4-SNAPSHOT/packages/aarch64_cortex-a72/telephony
+
+------------------------------------------------------
+
+202510
+rpi4 ：ImmortalWrt 18.06-k5.4 ,,,Luci太旧了，很多新app不支持，只能用sulinggg/openwr:rpi4，
+其中passwall能用，但只能全局。  SSR不能正常代理。
+
+openwrt-mini:rpi4，新app安装不上，放弃。   其它docker img ,更用不了。
 
 
 
