@@ -73,7 +73,7 @@ docker pull registry.cn-shanghai.aliyuncs.com/suling/openwrt:latest
 
 同时小苏也提供存放在 Docker 官方仓库 中的镜像：
 
-docker pull sulinggg/openwrt-mini:rpi4       ******
+docker pull sulinggg/openwrt:rpi4       ******
 
 镜像拉取完成后，我们可以执行docker images命令查看现存镜像：
 
@@ -160,7 +160,7 @@ option ipaddr 项目定义了 OpenWrt 的 IP 地址，在完成网段设置后�
 
 6.重启网络
 
-/etc/init.d/network restart      ******
+/etc/init.d/network restart            ******
 
 
 7.开启 IPv6 协议
@@ -247,9 +247,10 @@ src/gz openwrt_telephony https://downloads.immortalwrt.org/releases/18.06-k5.4-S
 
 202510
 rpi4 ：ImmortalWrt 18.06-k5.4 ,,,Luci太旧了，很多新app不支持，只能用sulinggg/openwr:rpi4，
-其中passwall能用，但只能全局,不能分流。  SSR不能正常代理。
+其中 passwall能用，但只能全局,不能分流。     SSR不能正常代理。     openclash用不了。
 
 sulinggg/openwrt-mini:rpi4，新app安装不上，放弃。   其它docker img ,更用不了。
+
 
 
 
