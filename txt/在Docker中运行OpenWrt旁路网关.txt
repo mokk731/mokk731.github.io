@@ -247,9 +247,10 @@ src/gz openwrt_telephony https://downloads.immortalwrt.org/releases/18.06-k5.4-S
 
 202510
 rpi4 ：ImmortalWrt 18.06-k5.4 ,,,Luci太旧了，很多新app不支持，只能用sulinggg/openwr:rpi4，
-其中passwall能用，但只能全局。  SSR不能正常代理。
+其中passwall能用，但只能全局,不能分流。  SSR不能正常代理。
 
 openwrt-mini:rpi4，新app安装不上，放弃。   其它docker img ,更用不了。
+
 
 
 
