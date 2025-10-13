@@ -225,6 +225,26 @@ Login to OpenWrt → System → Amlogic Service → Install OpenWrt    116 s905l
 
 
 
+
+
+-------------------------------------------------------------------
+
+OPKG 配置: 
+中兴 ZTE-B860aV2.1  amlogic-s9xxx  armv8 aarch64  tencent 
+
+src/gz openwrt_core https://mirrors.cloud.tencent.com/lede/releases/23.05.6/targets/armsr/armv8/packages/
+
+src/gz openwrt_base https://mirrors.cloud.tencent.com/lede/releases/23.05.6/packages/aarch64_generic/base/
+src/gz openwrt_luci https://mirrors.cloud.tencent.com/lede/releases/23.05.6/packages/aarch64_generic/luci/
+src/gz openwrt_packages https://mirrors.cloud.tencent.com/lede/releases/23.05.6/packages/aarch64_generic/packages/
+src/gz openwrt_routing https://mirrors.cloud.tencent.com/lede/releases/23.05.6/packages/aarch64_generic/routing/
+src/gz openwrt_telephony https://mirrors.cloud.tencent.com/lede/releases/23.05.6/packages/aarch64_generic/telephony/
+
+src/gz kenzok8 https://op.dllkids.xyz/packages/aarch64_generic
+
+
+--------------------------------------------------------
+
 202503
 刷 安卓6 root固件20191219-R3300L-Q7-6.0-root-twrp-Milton  成功， wifi用不了。
 刷 immortalwrt 成功， wifi用不了。  openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz 
@@ -233,12 +253,13 @@ https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immorta
 
 可用docker --mzz2017/v2raya 代理
 docker--containers--新增--解析CLI 命令行
-下载不了img
+下载不了img ,怪
 
 
 luci-app-v2raya  ， 比较好用。
 v2ray-geoip 
 v2ray-geosite
+
 
 
 
