@@ -165,6 +165,23 @@ https://opt.cn2qq.com/
  
  https://github.com/actions/runner-images/issues/11101
 
+
+----------------------------------------
+
+OPKG 配置:   
+
+中兴 ZTE-E8820S  mipsel_24kc   mtk7621   ustc
+
+src/gz openwrt_core https://mirrors.ustc.edu.cn/openwrt/releases/23.05.5/targets/ramips/mt7621/packages
+
+src/gz openwrt_base https://mirrors.ustc.edu.cn/openwrt/releases/23.05.5/packages/mipsel_24kc/base
+src/gz openwrt_luci https://mirrors.ustc.edu.cn/openwrt/releases/23.05.5/packages/mipsel_24kc/luci
+src/gz openwrt_packages https://mirrors.ustc.edu.cn/openwrt/releases/23.05.5/packages/mipsel_24kc/packages
+src/gz openwrt_routing https://mirrors.ustc.edu.cn/openwrt/releases/23.05.5/packages/mipsel_24kc/routing
+src/gz openwrt_telephony https://mirrors.ustc.edu.cn/openwrt/releases/23.05.5/packages/mipsel_24kc/telephony
+
+src/gz kenzok8 https://op.dllkids.xyz/packages/mipsel_24kc
+
 -------------------------------------
 
 中兴E8820S路由器自制稳定ROM   ####
@@ -172,10 +189,10 @@ https://opt.cn2qq.com/
 material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan+vlmcsd-KMS+relay
 https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
 
--------------------------------------
 
 https://downloads.immortalwrt.org/releases/23.05.4/targets/ramips/mt7621/immortalwrt-23.05.4-ramips-mt7621-zte_e8820s-squashfs-factory.bin
 
 https://opt.cn2qq.com/padavan/ZTE_E8820S_3.4.3.9-099.trx
+
 
 
