@@ -17,9 +17,10 @@ docker pull zzsrv/openwrt:arm64
 
 https://github.com/14790897/OpenWrt-In-Docker
 https://hub.docker.com/r/14790897/openwrt-mini
-docker pull 14790897/openwrt-mini:rpi4           ***
-docker pull 14790897/openwrt:rpi4
-docker pull 14790897/openwrt-mini:rpi4-stable
+docker pull 14790897/openwrt-mini:rpi4           
+docker pull 14790897/openwrt:rpi4             ***
+https://github.com/14790897/OpenWrt-In-Docker/blob/main/tutorial.md
+「在 Docker 中运行 OpenWrt 旁路网关」
 
 
 armv8  =aarch64  =arm64
@@ -250,6 +251,7 @@ rpi4 ：ImmortalWrt 18.06-k5.4 ,,,Luci太旧了，很多新app不支持，只能
 其中 passwall能用，但只能全局,不能分流。     SSR不能正常代理。     openclash用不了。
 
 sulinggg/openwrt-mini:rpi4，新app安装不上，放弃。   其它docker img ,更用不了。
+
 
 
 
