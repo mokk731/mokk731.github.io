@@ -8,6 +8,7 @@ CR8808是有两个版本的，一个是M81,一个是M79,使用CR8808（M81主板
 CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常使用。
 -----------------------------------------------------------------
 
+
 https://www.bilibili.com/video/BV1KofUYKELP
 红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器
 https://www.right.com.cn/forum/thread-8374973-1-1.html
@@ -24,3 +25,24 @@ https://www.bilibili.com/video/BV1W94y1H71P
 
 https://zhuanlan.zhihu.com/p/661587532
 95元捡垃圾之小米CR8808路由器刷机公版AX3000固件保姆级教程
+
+
+https://www.right.com.cn/forum/thread-8315460-1-1.html
+ [红米AX3000/CR8809/CR8808/CR8806] AX3000/CR880X-openwrt-WiFi满血固件 
+https://github.com/hzyitc/openwrt-redmi-ax3000
+https://github.com/hzyitc/openwrt-redmi-ax3000/tree/ipq50xx-qsdk-kernel-5.4-openwrt-21.02-qsdk-11.5.05.841.1029
+有3个内核版本的，4.4、5.4、5.15，
+5.15不支持硬件NAT，靠CPU做NAT，下载速度大概只有8MB/s
+5.4有两个版本的，其中一个能跑满千兆，但是平均负载一直很高，经常自动重启，应该是鸡血版。
+     另一个带wifi-rebase字样的，应该是稳定版，网速跑不满千兆，但是胜在稳定，最终还是选了这个。
+     如果github打不开，可以点下方的链接下载我在用的版本。
+    https://haojie7366.pages.dev/5/s ... ory-wifi-rebase.ubi
+在网络-防火墙，开启硬件流量分载可以跑到600-800兆，偶尔能到千兆
+4.4的也是鸡血版，平均负载一直很高，经常自动重启，不稳定。
+
+
+
+https://blog.csdn.net/wxqcom007/article/details/133765558
+小米CR880X路由刷不死合并分区再刷OPENWRT系统
+在刷入OpenWRT系统之前，刷入不死UBoot时，会自动完成分区合并操作。
+刷入大分区UBoot后，OpenWRT系统的可用空间将从默认的16MB提升到80MB左右
