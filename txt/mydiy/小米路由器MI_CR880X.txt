@@ -1,0 +1,26 @@
+CR880X
+
+小米 CR8809 也就五十块左右。高通IPQ5000系列平台，双核1G，单核1G NPU 运行内存 256 MB，闪存 128 MB   CPU频率双核 ARM 64 位 A53 @1.0 GHz 
+CR8806—联通、CR8808—移动、CR8809—电信    (闲鱼 以诚信这生存之本  55元)
+
+CR8808是有两个版本的，一个是M81,一个是M79,使用CR8808（M81主板）刷机公开固件后2.4G 5G都可以正常使用，M79版本主板会有2.4G功率减半情况，虽然刷机后可以与其他小米路由器组mesh、且解除营运商限制。但是2.4G基本上也是残废状态了，因为2.4G的FEM芯片是有区别的，M81用的是CTR66266，M79用的是以下这颗MXD7223。
+
+CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常使用。
+-----------------------------------------------------------------
+
+https://www.bilibili.com/video/BV1KofUYKELP
+红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器
+https://www.right.com.cn/forum/thread-8374973-1-1.html
+[红米AX3000/CR8809/CR8808/CR8806] 小米/红米ax路由器全系万能一键ssh工具(支持ax6, ax6s, ax5jdc, ax3000, CR880X) 
+https://github.com/openwrt-xiaomi/xmir-patcher
+Firmware patcher for Xiaomi routers
+
+
+
+https://www.bilibili.com/video/BV1W94y1H71P
+小米CR8808 刷openwrt小白保姆级教程
+
+
+
+https://zhuanlan.zhihu.com/p/661587532
+95元捡垃圾之小米CR8808路由器刷机公版AX3000固件保姆级教程
