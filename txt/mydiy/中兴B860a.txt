@@ -250,6 +250,7 @@ src/gz kenzok8 https://op.dllkids.xyz/packages/aarch64_generic
 刷 immortalwrt 成功， wifi用不了。  openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz 
 https://github.com/ophub/amlogic-s9xxx-openwrt/releases/download/OpenWrt_immortalwrt_save_2025.03/openwrt_immortalwrt_amlogic_s905l-mg101_k6.1.129_2025.03.02.img.gz
 刷 LEDE 成功，软件源用不了，wifi用不了。
+192.168.5.10
 
 可用docker --mzz2017/v2raya 代理
 docker--containers--新增--解析CLI 命令行
@@ -259,6 +260,7 @@ docker--containers--新增--解析CLI 命令行
 luci-app-v2raya  ， 比较好用。
 v2ray-geoip 
 v2ray-geosite
+192.168.5.10:2017
 
 
 
