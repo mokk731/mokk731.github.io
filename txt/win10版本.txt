@@ -205,6 +205,22 @@ cd desktop
 
 ---------------------------------------------------------------------
 
+## win11版本
+
+Windows 11 Enterprise LTSC 2024 (x64) - DVD (Chinese-Simplified)
+magnet:?xt=urn:btih:b84e74c1dbcc88a02c5b24a6f84383f353a2e1dd&dn=zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso&xl=5287520256
+ed2k://|file|zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso|5287520256|D6E4FE0BA5FD8A2F22FC9C0326481791|/
+
+
+Windows 11 IoT Enterprise LTSC, version 24H2 (x64) - DVD (English)
+magnet:?xt=urn:btih:7352bd2db48c3381dffa783763dc75aa4a6f1cff&dn=en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso&xl=5144817664
+ed2k://|file|en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso|5144817664|5E748CCAC9DB8C0783B1559731BD7183|/
+
+
+
+
+
+
 
 
 
