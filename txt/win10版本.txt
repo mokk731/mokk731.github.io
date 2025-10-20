@@ -4,7 +4,7 @@ https://msdn.itellyou.cn
 https://next.itellyou.cn
 
 
-简体中文 - 企业版 LTSC 2019（3月更新 - 17763.316）
+简体中文 - 企业版 LTSC 2019（3月更新 - 17763.316） 2019-03-15        ******************
 企业版 LTSC 2019 (1)
 架构: x64
 文件: cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
@@ -207,12 +207,12 @@ cd desktop
 
 ## win11版本
 
-Windows 11 Enterprise LTSC 2024 (x64) - DVD (Chinese-Simplified)
+Windows 11 Enterprise LTSC 2024 (x64) - DVD (Chinese-Simplified)   2024-10-01           ******************
 magnet:?xt=urn:btih:b84e74c1dbcc88a02c5b24a6f84383f353a2e1dd&dn=zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso&xl=5287520256
 ed2k://|file|zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso|5287520256|D6E4FE0BA5FD8A2F22FC9C0326481791|/
 
 
-Windows 11 IoT Enterprise LTSC, version 24H2 (x64) - DVD (English)
+Windows 11 IoT Enterprise LTSC, version 24H2 (x64) - DVD (English)  2024-10-01
 magnet:?xt=urn:btih:7352bd2db48c3381dffa783763dc75aa4a6f1cff&dn=en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso&xl=5144817664
 ed2k://|file|en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso|5144817664|5E748CCAC9DB8C0783B1559731BD7183|/
 
@@ -225,11 +225,26 @@ ed2k://|file|en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso|5144
 
 ## macOS Catalina
 
-macOS Catalina 10.15.7 (19H2) （无第三方引导）
+macOS Catalina 10.15.7 (19H2) （无第三方引导）  2020-09-24         ******************
 magnet:?xt=urn:btih:8FE3D5E14715C6F2C60B6433AF230A281CFDF8DD&dn=macOS Catalina 10.15.7 19H2.dmg&xl=8278775785
 
-macOS Catalina 10.15.6 (19G2021) （无第三方引导）
+macOS Catalina 10.15.6 (19G2021) （无第三方引导）  2020-07-15
 magnet:?xt=urn:btih:782AC70F6A0472E16A29330075933D3A1D26D664&dn=macOS Catalina 10.15.6 19G2021.dmg&xl=8278727342
+
+
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+
 
 
 
