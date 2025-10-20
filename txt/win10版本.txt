@@ -4,6 +4,7 @@ https://msdn.itellyou.cn
 https://next.itellyou.cn
 
 
+
 简体中文 - 企业版 LTSC 2019（3月更新 - 17763.316） 2019-03-15        ******************
 企业版 LTSC 2019 (1)
 架构: x64
@@ -26,6 +27,17 @@ magnet:?xt=urn:btih:366ADAA52FB3639B17D73718DD5F9E3EE9477B40&dn=SW_DVD9_WIN_ENT_
 由于ltsc2021砍掉vc140这个组件，导致新版输入法（从1903开始的新输入法）选字框无法正常显示；其次部分系统程序cpu占用提高（我这边是10%左右）。
 解决的办法自然就是恢复vc140组件了，可以参考 https://bbs.pcbeta.com/viewthread-1912605-1-1.html
 此版本自带许可证，非评估版，只需要输入转换密钥即可转换为iot ltsc
+
+
+
+Windows 10 (business editions), version 22H2 (updated Sep 2025) (x64) - DVD (Chinese-Simplified)	2025-09-16
+ed2k://|file|zh-cn_windows_10_business_editions_version_22h2_updated_sep_2025_x64_dvd_86874d1c.iso|6945916928|2C5A8CA31497498664D51BE2A9A61750|/
+magnet:?xt=urn:btih:4381731f4e7be7d2e65bfac823d666a76fb1e2a0&dn=zh-cn_windows_10_business_editions_version_22h2_updated_sep_2025_x64_dvd_86874d1c.iso&xl=6945916928
+
+Windows 10 (consumer editions), version 22H2 (updated Sep 2025) (x64) - DVD (Chinese-Simplified)	2025-09-16
+ed2k://|file|zh-cn_windows_10_consumer_editions_version_22h2_updated_sep_2025_x64_dvd_4a22741d.iso|7135266816|C22612AC310B105A1B4BE9C7091D7575|/
+magnet:?xt=urn:btih:6ef386da55844d1144f0a16179c43687bc529d55&dn=zh-cn_windows_10_consumer_editions_version_22h2_updated_sep_2025_x64_dvd_4a22741d.iso&xl=7135266816
+
 
 -------------------------------------
 
@@ -244,6 +256,7 @@ magnet:?xt=urn:btih:782AC70F6A0472E16A29330075933D3A1D26D664&dn=macOS Catalina 1
 
 
 ---------------------------------------------------------------------
+
 
 
 
