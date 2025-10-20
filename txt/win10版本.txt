@@ -218,6 +218,21 @@ ed2k://|file|en-us_windows_11_iot_enterprise_ltsc_2024_x64_dvd_f6b14814.iso|5144
 
 
 
+---------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+
+## macOS Catalina
+
+macOS Catalina 10.15.7 (19H2) （无第三方引导）
+magnet:?xt=urn:btih:8FE3D5E14715C6F2C60B6433AF230A281CFDF8DD&dn=macOS Catalina 10.15.7 19H2.dmg&xl=8278775785
+
+macOS Catalina 10.15.6 (19G2021) （无第三方引导）
+magnet:?xt=urn:btih:782AC70F6A0472E16A29330075933D3A1D26D664&dn=macOS Catalina 10.15.6 19G2021.dmg&xl=8278727342
+
+
+
 
 
 
