@@ -46,7 +46,7 @@ http://112.89.121.24:80/PLTV/88888973/224/3221225692/100001000000000600000000003
 #EXTINF:-1 ,上海第一财经360p 202510
 https://ycallive.yicai.com/live/cbn_yld.m3u8
 #EXTINF:-1 ,上海第一财经360p 
-https://www.yicai.com/api/dycj/liveIndex.m3u8
+https://t2.livecdn.yicai.com/live/102883355.m3u8?auth_key=1761714245-0-0-bd73eb1cf9cc2d60f05ce8d5e4d7fc0c
 
 #EXTINF:-1 ,上海第一财经 1
 https://cdn3.163189.xyz/163189/dycj
