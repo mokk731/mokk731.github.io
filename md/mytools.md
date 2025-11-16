@@ -11,7 +11,7 @@
 
 
 
-#### [jpwb81.zip](https://mokk731.github.io/ziprar/win-tools/jpwb81.zip)
+#### [jpwb81.zip 极品五笔](https://mokk731.github.io/ziprar/win-tools/jpwb81.zip)
 
 
 #### [Geek Uninstaller.zip](https://mokk731.github.io/ziprar/win-tools/Geek Uninstaller.zip)
@@ -21,7 +21,7 @@
 
 
 
-#### [HyperSnap.rar](https://mokk731.github.io/ziprar/win-tools/HyperSnap.rar)
+#### [HyperSnap.rar 截图软件](https://mokk731.github.io/ziprar/win-tools/HyperSnap.rar)
 
 
 #### [WinRARv5.70.zip](https://mokk731.github.io/ziprar/win-tools/WinRARv5.70.zip)
@@ -55,7 +55,7 @@
 
 #### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-5.1.72-202504.xpi)
 
-#### [GoldWave512-SY.rar](https://mokk731.github.io/ziprar/win-tools/HA-GoldWave512-SY.rar)
+#### [GoldWave512-SY.rar 音频编辑](https://mokk731.github.io/ziprar/win-tools/HA-GoldWave512-SY.rar)
 
 
 #### [FoxitPDFEditor.rar](https://mokk731.github.io/ziprar/win-tools/HA-FoxitPDFEditor.rar)
