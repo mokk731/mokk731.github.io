@@ -26,6 +26,8 @@
 
 #### [WinRARv5.70.zip](https://mokk731.github.io/ziprar/win-tools/WinRARv5.70.zip)
 
+#### [7-Zip 免费压缩软件](https://www.7-zip.org/)
+
 
 #### [putty-0.73-installer.msi](https://mokk731.github.io/ziprar/win-tools/putty-0.73-installer.msi)
 
