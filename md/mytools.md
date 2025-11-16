@@ -66,7 +66,7 @@
 
 #### [HandBrake视频压缩软件免费版](https://handbrake.fr/downloads.php)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [OBS Studio免费开源的跨平台直播推流和屏幕录制工具](https://obsproject.com/download)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
