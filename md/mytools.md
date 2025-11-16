@@ -62,9 +62,9 @@
 
 #### [FOXIT READER2.0专业完整功能版.rar](https://mokk731.github.io/ziprar/win-tools/FOXIT READER2.0专业完整功能版.rar)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [gimp图像处理程序](https://www.gimp.org/downloads/)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [HandBrake视频压缩软件免费版](https://handbrake.fr/downloads.php)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
