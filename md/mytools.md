@@ -70,6 +70,18 @@
 
 #### [OBS Studio免费开源的跨平台直播推流和屏幕录制工具](https://obsproject.com/download)
 
+#### [CapCut国际版 视频编辑软件](https://cn.capcut.jp/download.html)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
