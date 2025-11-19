@@ -14,6 +14,24 @@ https://www.cnblogs.com/pshell/p/8339818.html
 选择特殊USB网卡， 8187L ,RT3070 . 有监听功能，，蹭网器常用 8187L芯片和3070芯片两种核心.
 
 
+https://zhuanlan.zhihu.com/p/1950661828968452369
+支持无线抓包的USB网卡收录
+目前抓包网卡市面卖的最多的也使用的最多的芯片有RTL3070、RTL8187、RT8812AU、AR9271、MT7601U、MT5572、MT7612U，
+
+腾达（Tenda）	U12	    rtl8812au	2.4G/5G
+腾达（Tenda）	U10	    rtl8811cu	2.4G/5G
+腾达（Tenda）	U9	    rtl8811cu	2.4G/5G
+水星（Mercury）	UD13H	mt7612u	   2.4G/5G
+水星（Mercury）	UD6S	rtl8811cu	2.4G/5G
+翼联（EDUP）	EP-AX1672	mt7921u	   2.4G/5G/6G
+翼联（EDUP）	EP-AC1662	rtl8821cu	2.4G/5G
+
+普联（TP-Link）	TL-XDN8000H	rtl8832au	2.4G/5G
+普联（TP-Link）	WDN7200H	rtl8814au	2.4G/5G
+
+
+
+
 --------------------------------------------------
 
 启动Linux mint 。打开终端窗口。并执行以下步骤。
