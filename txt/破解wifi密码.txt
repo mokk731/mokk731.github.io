@@ -10,12 +10,13 @@ https://www.cnblogs.com/pshell/p/8339818.html
     Realtek RTL8812AU (2017年新增)
     经过我的测试Ralink RT5370N也是兼容的
 
-
 选择特殊USB网卡， 8187L ,RT3070 . 有监听功能，，蹭网器常用 8187L芯片和3070芯片两种核心.
 
+----------
 
 https://zhuanlan.zhihu.com/p/1950661828968452369
 支持无线抓包的USB网卡收录
+
 目前抓包网卡市面卖的最多的也使用的最多的芯片有RTL3070、RTL8187、RT8812AU、AR9271、MT7601U、MT5572、MT7612U，
 
 腾达（Tenda）	U12	    rtl8812au	2.4G/5G
