@@ -29,10 +29,10 @@
 ########################################################################
 
 #  nslookup raw.githubusercontent.com 119.29.29.29
-#  GitHub Start    update 202509
+#  GitHub Start    update 202511
 20.205.243.166     github.com
 20.205.243.166     gist.github.com
-174.36.228.136     github.global.ssl.fastly.net
+80.87.199.46     github.global.ssl.fastly.net
 185.199.110.153    assets-cdn.github.com
 185.199.110.133    raw.githubusercontent.com
 
@@ -49,7 +49,7 @@
 185.199.110.133    avatars8.githubusercontent.com
 
 # debian omv
-151.101.110.132     httpredir.debian.org
+151.101.90.132     httpredir.debian.org
 
 
 # 2345  Ad
