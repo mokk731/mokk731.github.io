@@ -24,6 +24,9 @@
 
 #### [小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT](https://mokk731.github.io/txt/mydiy/小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT.txt)
 
+#### [使用ADB删除小米MIUI系统自带应用](https://mokk731.github.io/txt/mydiy/adbmiui.txt)
+#### [ADB卸载小米预装系统应用HyperOS](https://mokk731.github.io/txt/mydiy/adbhyperos.txt)
+
 #### [小米平板4](https://mokk731.github.io/txt/mydiy/mi-pad4.txt)
 
 #### [Magisk-LSPosed](https://mokk731.github.io/txt/mydiy/Magisk-LSPosed.txt)
