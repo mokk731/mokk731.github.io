@@ -1,0 +1,209 @@
+https://www.bilibili.com/opus/1073374956499238916
+ADB卸载小米预装系统应用（Hyper OS 2）
+
+MIUI应该也部分适用
+
+PS：为了省电和流畅而卸载多余APP的前提是：这些APP在后台运行，不然卸了也没什么效果，反而会引发Bug。所以应该参考后台运行有选择地卸载多余APP。
+
+查看后台运行最简单的办法就是使用ADB命令打开安卓系统自带的服务（adb shell am start -n com.android.settings/com.android.settings.RunningServices），其中正在运行中的服务日常耗电，已缓存的进程基本不耗电。
+cut-off
+推荐卸载（小米广告与快应用跳转的含金量懂的都懂）
+
+adb shell pm uninstall --user 0 com.miui.analytics #Analytics——后台上传数据耗电
+
+adb shell pm uninstall --user 0 com.miui.systemAdSolution #小米系统广告
+
+adb shell pm uninstall --user 0 com.miui.hybrid #快应用服务框架
+
+adb shell pm uninstall --user 0 com.miui.hybrid.accessory # 智慧生活
+cut-off
+可选卸载
+
+adb shell pm uninstall --user 0 com.xiaomi.joyose # Joyose——神秘云控之一(也有说这个是温控的。卸载后会解除小米的性能限制，发热增加流畅增加性能增加耗电自然也增加，保留这个可以省电，但如果觉得系统卡卡卡，也可以试试卸了。另一云控为html查看器，但这个就不建议卸载了，因为很多官方或第三方APP都会用到这个系统组件，有热心友友反映卸了会卡米）
+
+adb shell pm uninstall --user 0 com.sohu.inputmethod.sogou.xiaomi #小米定制版搜狗输入法
+
+adb shell pm uninstall --user 0 com.android.browser #小米浏览器
+
+adb shell pm uninstall --user 0 com.miui.newmidrive #小米云盘
+
+adb shell pm uninstall --user 0 com.miui.video #小米视频
+
+adb shell pm uninstall --user 0 com.miui.player #音乐
+
+adb shell pm uninstall --user 0 com.android.quicksearchbox #搜索，桌面的那个搜索框，偶尔需重新安装才能去除桌面图标，提前去除可以避免此事
+
+adb shell pm uninstall --user 0 com.miui.accessibility #小米闻声-小米无障碍
+
+adb shell pm uninstall --user 0 com.miui.touchassistant # 悬浮球
+
+adb shell pm uninstall --user 0 com.miui.greenguard #家人守护——是家长监控吧
+
+adb shell pm uninstall --user 0 com.miui.bugreport #用户反馈
+
+adb shell pm uninstall --user 0 com.xiaomi.ab #售后支持
+
+adb shell pm uninstall --user 0 com.miui.miservice #服务与反馈
+
+adb shell pm uninstall --user 0 com.android.email #电子邮件
+cut-off
+不建议卸载
+
+adb shell pm uninstall --user 0 com.xiaomi.misettings #小米设置-屏幕使用时长统计、刷新率管理、应用使用限制、专注模式、家长管控
+
+adb shell pm uninstall --user 0 com.miui.misound #音质音效-卸载了就没有小米调音和杜比全景声了（不过小米调音似乎也没有值得留下的必要，卸载前建议先调回原声）
+
+adb shell pm uninstall --user 0 com.miui.securityadd #系统服务组件-游戏加速、儿童空间、家长中心、红包助手、小米流量卡、迅游服务等
+
+adb shell pm uninstall --user 0 com.miui.personalassistant #智能助理-负一屏、第三方小组件。不过设置好小组件后冻结不会改变已设置好的布局。
+
+adb shell pm uninstall --user 0 com.android.thememanager #主题壁纸-掌控桌面壁纸、铃声、图标等系统美化。不过设置好后冻结不会改变已设置好的布局。
+
+adb shell pm uninstall --user 0 com.miui.yellowpage #生活黄页-号码黑名单、骚扰标记等
+
+adb shell pm uninstall --user 0 com.xiaomi.finddevice #查找设备-卸载后小米账号闪退，应用商店无法下载app，概率无法开机卡米
+
+
+卸载后影响未知，但应该会减少耗电
+
+adb shell pm uninstall --user 0 com.miui.daemon #系统质量服务
+
+adb shell pm uninstall --user 0 com.miui.misightservice #系统质量监测-仅出现于版本号高的Hyper OS 2系统
+
+adb shell pm uninstall --user 0 com.android.traceur #系统跟踪-（据说某些机型的某些系统版本卸载了会卡米，慎重）
+
+adb shell pm uninstall --user 0 com.android.healthconnect.controller #healthconnect
+
+adb shell pm uninstall --user 0 com.xiaomi.gnss.polaris #GNSS-（全球导航卫星系统）组件，可能会影响GPS定位精度
+
+adb shell pm uninstall --user 0 com.xiaomi.security.onetrack #似乎与用户数据收集有关
+不能插SIM卡的小米平板可选卸载
+
+#adb shell pm uninstall --user 0 com.android.mms #短信-不可删，删了会重启恢复
+
+adb shell pm uninstall --user 0 com.xiaomi.phone #HyperPhone
+
+adb shell pm uninstall --user 0 com.xiaomi.registration #运营商服务
+
+adb shell pm uninstall --user 0 com.android.phone #电话服务
+
+adb shell pm uninstall --user 0 com.android.server.telecom #通话管理
+
+adb shell pm uninstall --user 0 com.android.contacts #通讯录与拨号
+
+adb shell pm uninstall --user 0 com.android.providers.telephony #电话和短信存储
+
+adb shell pm uninstall --user 0 com.android.providers.blockednumber #储存已屏蔽的号码
+
+adb shell pm uninstall --user 0 com.android.providers.contacts #联系人存储
+
+adb shell pm uninstall --user 0 com.android.stk #USIM卡应用
+cut-off
+难以评价（看个人爱好取舍）
+
+1.小爱全家桶（后台耗电大户，但某些情况下又很有用）
+
+adb shell pm uninstall --user 0 com.miui.voiceassist #小爱同学/超级小爱
+
+adb shell pm uninstall --user 0 com.xiaomi.aicr #小米澎湃AI引擎-设置景深壁纸需要用到，缺失时换壁纸会一直卡分屏计算
+
+adb shell pm uninstall --user 0 com.miui.voicetrigger #语音唤醒
+
+adb shell pm uninstall --user 0 com.mediatek.voicecommand #语音控制-联发科处理器才有
+
+adb shell pm uninstall --user 0 com.xiaomi.aireco #小爱建议
+
+adb shell pm uninstall --user 0 com.xiaomi.aiasst.service #AI通话/小爱通话
+
+adb shell pm uninstall --user 0 com.xiaomi.aiasst.vision #翻译
+
+2.小米互联全家桶（后台耗电，但某些情况下又很有用）
+
+adb shell pm uninstall --user 0 com.xiaomi.mirror #跨屏协同服务/MIUI+ Beta版
+
+adb shell pm uninstall --user 0 com.xiaomi.mi_connect_service #小米互联通信服务
+
+adb shell pm uninstall --user 0 com.milink.service #互联互通服务/小米妙享中心
+
+adb shell pm uninstall --user 0 com.miui.mishare.connectivity #小米互传
+
+adb shell pm uninstall --user 0 com.miui.phrase # 剪贴板与常用语/常用语-小米云剪贴板
+
+
+3.传送门（超级小爱的识屏已经超越了它。。。）
+
+adb shell pm uninstall --user 0 com.miui.contentextension #传送门
+
+4.游戏加速服务（核心组件在手机管家里，所以就算卸了还是会给你弹加速窗口）
+
+adb shell pm uninstall --user 0 com.xiaomi.gamecenter #游戏中心
+
+adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service #游戏服务
+
+adb shell pm uninstall --user 0 com.xiaomi.migameservice #游戏高能时刻
+
+adb shell pm uninstall --user 0 com.miui.vpnsdkmanager #MiuiVpnSdkManager-小米游戏加速的VPN服务，不影响安卓系统的VPN使用
+
+adb shell pm uninstall --user 0 com.xiaomi.macro #自动连招
+
+adb shell pm uninstall --user 0 com.xiaomi.barrage #弹幕通知
+
+5.下载管理组件-小米手机内置的精简版迅雷下载
+
+adb shell pm uninstall --user 0 com.android.providers.downloads.ui #下载管理
+
+adb shell pm uninstall --user 0 com.android.providers.downloads #下载管理程序
+
+6.小米支付全家桶（小米钱包和小米智能卡这3个app涉及NFC复制门禁卡功能）
+
+adb shell pm uninstall --user 0 com.mipay.wallet # 小米钱包
+
+adb shell pm uninstall --user 0 com.miui.nextpay #小米支付
+
+adb shell pm uninstall --user 0 org.mipay.android.manager #Mipayservice
+
+adb shell pm uninstall --user 0 com.xiaomi.payment #米币支付
+
+adb shell pm uninstall --user 0 com.miui.tsmclient #小米智能卡
+
+adb shell pm uninstall --user 0 com.miui.nextpay #小米智能卡网页组件
+
+7.小米人车家体系
+
+adb shell pm uninstall --user 0 com.xiaomi.mis #小米汽车互联服务（某些系统预装）
+
+adb shell pm uninstall --user 0 com.miui.carlink #CarWith
+
+adb shell pm uninstall --user 0 com.xiaomi.digitalkey #小米数字钥匙框架
+
+特别说明
+
+1.如需保留应用数据及缓存卸载，adb命令替换为
+
+   adb shell cmd package uninstall -k <包名>
+
+2.恢复出厂预设应用的adb命令，不过我还是建议用scene3.7.3免费版恢复，简单嘛
+
+    adb shell cmd package install-existing <包名>
+
+3.启用已冻结应用的adb命令(上条适用于无root权限情况，但无法解冻系统应用。下条为使用root权限进行应用解冻)
+
+    adb shell pm enable <包名>
+
+    adb shell su -c "pm enable <包名>"
+
+ps：冻结应用的adb命令(上条适用于无root权限情况，但无法冻结系统应用。下条为使用root权限进行应用冻结)
+
+   adb shell pm disable-user <包名>
+
+   adb shell su -c "pm disable <包名>"
+
+4.除非刷了官改系统或修改过system/framework中的services.jar文件，否则卸载会卡米的应用有：应用商店(com.xiaomi.market，MIUI必卡米，hyperos似乎不会卡米)、小米账户(com.xiaomi.account)、小米云服务(com.miui.cloudservice)、小米云备份(com.miui.cloudbackup) 、系统更新（com.android.updater，概率卡米）、查找设备(com.xiaomi.finddevice，概率卡米)、手机管家、系统界面、Android系统、html查看器、网络管理。
+
+如果非要卸载卡米应用，解锁BL是大前提，修改services.jar文件具体做法参考 https://www.zhihu.com/question/265117194
+
+PS：所谓卡米就是开机之后屏幕只显示小米的logo进不了系统。以上卡米应用未实测，仅收集各路消息作汇总防止踩雷，尝试前记得备份好数据。因为如果不小心卡米了，还没解BL，那只有进recovery重置系统一条路了，所有的数据都会消失。。。去售后也是帮你重置系统，救不了数据
+
+5.打开屏幕旋转建议的adb命令，偶尔需要搭配HyperCeiler中强制开启旋转建议使用
+
+adb shell settings put secure show_rotation_suggestions 1
