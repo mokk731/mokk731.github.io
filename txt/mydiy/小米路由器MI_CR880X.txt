@@ -81,7 +81,7 @@ mtd write /tmp/MIBIB.bin /dev/mtd1
 mtd write /tmp/APPSBL.bin /dev/mtd11
 mtd write /tmp/APPSBL1.bin /dev/mtd12
 
-
+如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了
 
 
 ---------------------------------------------------------------------------------------
