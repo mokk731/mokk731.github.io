@@ -90,7 +90,7 @@ Dell 7020mt 准系统 Q87 160元  不需要魔改bios
 Dell 3020mt 准系统在闲鱼上只卖125元,H81, 不需要魔改bios
 
 
-E3-1225 v5  + 联想Thinkstation P320准系统 
+E3-1225 v5  + 联想Thinkstation P320准系统C236      
 E3-1225 v5                                                ************
 14 nm Skylake  4C4T  3.3-3.7GHz 8 MB 80 W Q4'15  DDR4,DDR3L FCLGA1151  Intel HD Graphics P530  Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2
 
