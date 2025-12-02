@@ -149,6 +149,19 @@ env:
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
 
+-----------------------------------------------------
+乌客视频（102）红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器
+视频中的代码链接：https://docs.qq.com/doc/DS2tTRU53b3FWZXRo
+工具下载链接：百度云盘https://cloud.189.cn/t/6NFNbyniEFJr 提取码: wakb 
+                         天翼云https://cloud.189.cn/t/6NFNbyniEFJr （访问码：5q6s）
+                       另外的一个op固件：https://github.com/slienna/about-AX300M-WiFi6-ROUTER 
+                       夸克云：https://pan.quark.cn/s/dfaf41b5d617    
+
+小米/红米ax路由器全系万能一键ssh工具：https://www.right.com.cn/forum/thread-8374973-1-1.html 
+AX3000/CR880X-openwrt-WiFi满血固件：https://github.com/hzyitc/openwrt-redmi-ax3000 
+CR880X刷红米AX3000教程：https://mao.fan/article/93 
+
+
 
 
 -------------------------
