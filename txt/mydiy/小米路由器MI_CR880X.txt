@@ -14,7 +14,7 @@ https://www.bilibili.com/video/BV1KofUYKELP
 https://www.right.com.cn/forum/thread-8374973-1-1.html
 [红米AX3000/CR8809/CR8808/CR8806] 小米/红米ax路由器全系万能一键ssh工具(支持ax6, ax6s, ax5jdc, ax3000, CR880X) 
 https://github.com/openwrt-xiaomi/xmir-patcher
-Firmware patcher for Xiaomi routers
+Firmware patcher for Xiaomi routers   id:root   sn:root
 
 
 
@@ -66,6 +66,23 @@ sf update 0x800000 0x0 ${filesize}
 reset
 
 重启后路由器自带 Web 界面（http://192.168.1.1/uboot.html）
+
+
+https://zhuanlan.zhihu.com/p/7325361034
+红米AX3000免拆机刷入OpenWrt教程，也适合小米CR880X系列
+
+先下载Uboot以及大分区文件：
+curl -o /tmp/MIBIB.bin https://mao.fan/shezhang/RedmiAX3000/MIBIB.bin
+curl -o /tmp/APPSBL.bin https://mao.fan/shezhang/RedmiAX3000/APPSBL.bin
+curl -o /tmp/APPSBL1.bin https://mao.fan/shezhang/RedmiAX3000/APPSBL1.bin
+
+然后写入对应分区
+mtd write /tmp/MIBIB.bin /dev/mtd1
+mtd write /tmp/APPSBL.bin /dev/mtd11
+mtd write /tmp/APPSBL1.bin /dev/mtd12
+
+
+
 
 ---------------------------------------------------------------------------------------
 
