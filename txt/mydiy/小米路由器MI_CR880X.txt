@@ -15,7 +15,7 @@ https://www.right.com.cn/forum/thread-8374973-1-1.html                          
 [红米AX3000/CR8809/CR8808/CR8806] 小米/红米ax路由器全系万能一键ssh工具(支持ax6, ax6s, ax5jdc, ax3000, CR880X) 
 https://github.com/openwrt-xiaomi/xmir-patcher                                                             *********
 Firmware patcher for Xiaomi routers   id:root   sn:root
-
+无法解锁则需要给路由器固件进行降级,MIWIFIRepairTool 官方的那个刷机工具,一份 6.2.147 版本的 CR8808 固件（实测可以使用）
 
 
 https://www.bilibili.com/video/BV1W94y1H71P
