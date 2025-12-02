@@ -31,4 +31,4 @@
 
 [路由器CPU性能天梯排行榜,CoreMark得分](https://umi.im/router-cpu-coremark/)
 
-[路由器CPU性能天梯排行榜.路由器DMIPS算力](https://mao.fan/socpk.html)
+[路由器CPU性能天梯排行榜.DMIPS算力](https://mao.fan/socpk.html)
