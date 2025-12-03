@@ -64,7 +64,7 @@ https://www.bilibili.com/video/BV1CT4y1R71K?from=search&seid=1632387401742599531
 5分钟学会E8820s无线路由器刷机  喻名堂
 
 
-更新了工具包的下载地址：https://asymt.lanzoui.com/i9Tfow0exti
+更新了工具包的下载地址：https://asymt.lanzoui.com/i9Tfow0exti        #####
 
 
 
@@ -168,7 +168,14 @@ https://opt.cn2qq.com/
 
 ----------------------------------------
 
-OPKG 配置:   
+# coremark
+
+openwrt的,如果自己想跑coremark可以SSH登录运行命令：
+/etc/coremark.sh && cat /etc/bench.log
+
+----------------------------------------
+
+# OPKG 配置:   
 
 中兴 ZTE-E8820S  mipsel_24kc   mtk7621   ustc
 
@@ -184,7 +191,7 @@ src/gz kenzok8 https://op.dllkids.xyz/packages/mipsel_24kc
 
 -------------------------------------
 
-中兴E8820S路由器自制稳定ROM   ####
+# 中兴E8820S路由器自制稳定ROM            ####
 
 material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan+vlmcsd-KMS+relay
 https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
@@ -193,6 +200,7 @@ https://mokk7310.github.io/Rom/openwrt-zte_e8820s-luci23-2025.09.10.bin
 https://downloads.immortalwrt.org/releases/23.05.4/targets/ramips/mt7621/immortalwrt-23.05.4-ramips-mt7621-zte_e8820s-squashfs-factory.bin
 
 https://opt.cn2qq.com/padavan/ZTE_E8820S_3.4.3.9-099.trx
+
 
 
 
