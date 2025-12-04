@@ -81,44 +81,9 @@ mtd write /tmp/MIBIB.bin /dev/mtd1
 mtd write /tmp/APPSBL.bin /dev/mtd11
 mtd write /tmp/APPSBL1.bin /dev/mtd12
 
-▲ 完成后不要重启路由器，现在是进不去官方系统了，需要刷入OpenWrt才能启动路由器
-
-一次性复制粘贴下面的代码，等待跑码完成即可，这一步速度取决于你的网络环境，GitHub本身是可以直连的。
-
-cd /tmp
-wget https://github.com/hzyitc/openwrt-redmi-ax3000/releases/latest/download/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
-
-# Check your partition table
-cat /proc/mtd
-[[ "$(grep '"rootfs"' /proc/mtd | cut -d':' -f1)" == "mtd18" ]] || exit
-[[ "$(grep '"rootfs_1"' /proc/mtd | cut -d':' -f1)" == "mtd19" ]] || exit
-
-# Detect the current system slot and flash into the other one
-cat /proc/cmdline
-mtd="$(grep -oE 'ubi.mtd=[a-zA-Z0-9\-\_]*' /proc/cmdline | cut -d'=' -f2)"
-if [[ "$mtd" == "rootfs" ]]; then
-    # Flash it as system 2
-    ubiformat /dev/mtd19 -f openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
-    nvram set flag_try_sys2_failed=0
-    nvram set flag_boot_rootfs=1
-    nvram set flag_last_success=1
-    nvram commit
-elif [[ "$mtd" == "rootfs_1" ]]; then
-    # Flash it as system 1
-    ubiformat /dev/mtd18 -f openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
-    nvram set flag_try_sys1_failed=0
-    nvram set flag_boot_rootfs=0
-    nvram set flag_last_success=0
-    nvram commit
-fi
-
-# Reboot
-reboot
-
-等待代码跑完，路由器会自动重启，路由器重启完成后进入192.168.1.1用户名root密码为空
-
 
 如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了
+解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                               ************************************
 
 
 ---------------------------------------------------------------------------------------
