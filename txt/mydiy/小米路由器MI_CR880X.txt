@@ -1,9 +1,10 @@
-CR880X
+小米路由器MI_CR880X
 
 小米 CR8809 也就五十块左右。高通IPQ5000系列平台，双核1G，单核1G NPU 运行内存 256 MB，闪存 128 MB   CPU频率双核 ARM 64 位 A53 @1.0 GHz 
-CR8806—联通、CR8808—移动、CR8809—电信    (闲鱼 以诚信这生存之本  55元)
+CR8806—联通、CR8808—移动、CR8809—电信    (闲鱼   50元)
 
-CR8808是有两个版本的，一个是M81,一个是M79,使用CR8808（M81主板）刷机公开固件后2.4G 5G都可以正常使用，M79版本主板会有2.4G功率减半情况，虽然刷机后可以与其他小米路由器组mesh、且解除营运商限制。但是2.4G基本上也是残废状态了，因为2.4G的FEM芯片是有区别的，M81用的是CTR66266，M79用的是以下这颗MXD7223。
+CR8808是有两个版本的，一个是M81,一个是M79,使用CR8808（M81主板）刷机公开固件后2.4G 5G都可以正常使用，M79版本主板会有2.4G功率减半情况，虽然刷机后可以与其他小米路由器组mesh、且解除营运商限制。
+但是2.4G基本上也是残废状态了，因为2.4G的FEM芯片是有区别的，M81用的是CTR66266，M79用的是以下这颗MXD7223。
 
 CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常使用。
 -----------------------------------------------------------------
@@ -15,12 +16,11 @@ https://www.right.com.cn/forum/thread-8374973-1-1.html                          
 [红米AX3000/CR8809/CR8808/CR8806] 小米/红米ax路由器全系万能一键ssh工具(支持ax6, ax6s, ax5jdc, ax3000, CR880X) 
 https://github.com/openwrt-xiaomi/xmir-patcher                                                             *********
 Firmware patcher for Xiaomi routers   id:root   sn:root
-无法解锁则需要给路由器固件进行降级,MIWIFIRepairTool 官方的那个刷机工具,一份 6.2.147 版本的 CR8808 固件（实测可以使用）
+无法解锁则需要先给路由器固件进行降级,MIWIFIRepairTool 官方的那个刷机工具,一份 miwifi_cr8806_firmware_fe70b_6.2.14.bin 固件（实测可以使用）
 
 
 https://www.bilibili.com/video/BV1W94y1H71P
 小米CR8808 刷openwrt小白保姆级教程
-
 
 
 https://zhuanlan.zhihu.com/p/661587532
@@ -45,7 +45,7 @@ https://github.com/hzyitc/openwrt-redmi-ax3000/tree/ipq50xx-qsdk-kernel-5.4-open
 https://blog.csdn.net/wxqcom007/article/details/133765558
 小米CR880X路由刷不死合并分区再刷OPENWRT系统
 在刷入OpenWRT系统之前，刷入不死UBoot时，会自动完成分区合并操作。
-刷入大分区UBoot后，OpenWRT系统的可用空间将从默认的16MB提升到80MB左右
+刷入大分区UBoot后，OpenWRT系统的可用空间将从默认的16MB提升到88MB左右
 
 1. 串口接线
 将 TTL 线的 4 根线依次接到主板标注的 VCC、GND、TX、RX 
@@ -68,6 +68,7 @@ reset
 重启后路由器自带 Web 界面（http://192.168.1.1/uboot.html）
 
 
+
 https://zhuanlan.zhihu.com/p/7325361034                                                *********
 红米AX3000免拆机刷入OpenWrt教程，也适合小米CR880X系列
 
@@ -82,8 +83,8 @@ mtd write /tmp/APPSBL.bin /dev/mtd11
 mtd write /tmp/APPSBL1.bin /dev/mtd12
 
 
-如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了
-解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                               ************************************
+如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了,刷入不死UBoot时，会自动完成分区合并操作。
+解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                                                        ************************************
 用火狐浏览器, 在uboot界面里上传固件都提示“更新失败，请确认上传的固件是否为可用固件“
 
 
