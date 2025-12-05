@@ -53,21 +53,20 @@ CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常�
      在网络-防火墙，开启硬件流量分载可以跑到600-800兆，偶尔能到千兆
   4.4的也是鸡血版，平均负载一直很高，经常自动重启，不稳定。
 
+5, 其它openwrt
+
 https://github.com/luyanci/immortalwrt-ax3000
 https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-20250308-011316-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
  5G wifi正常，RAM空闲40M
 
 
 https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000
+https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000/releases/download/2024.03.09-0313-Redmi-AX3000-master/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+
 
 
 https://github.com/kmiit/Redmi_AX3000_immortalwrt
 https://github.com/kmiit/Redmi_AX3000_immortalwrt/releases/download/ci-redmi_ax3000-24.10-20250228-140825-UTC/immortalwrt-qualcommax-ipq50xx-redmi_ax3000-squashfs-factory.ubi
-
-
-
-
-
 
 
 
