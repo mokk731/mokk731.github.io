@@ -71,6 +71,15 @@ https://github.com/kmiit/Redmi_AX3000_immortalwrt/releases/download/ci-redmi_ax3
 
 
 
+总结：
+1， CPU不高，，和mt7621 差不多， 
+    ipq50xx  CpuMark  : 5386
+    mt7621   CoreMark : 5417
+
+2,  ROM不多，immortalwrt官方没有，
+
+3， 5G wifi 有时手机没能找到。不能搜网，，，，
+    RAM总168M,空闲60M ，，明明有256M,不知为何少了80M,
 
 
 
