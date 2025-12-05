@@ -39,6 +39,14 @@ CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常�
    用火狐浏览器, 在uboot界面里上传固件都提示 “更新失败，请确认上传的固件是否为可用固件“
 
 4，用Uboot刷入openwrt
+  https://github.com/hzyitc/openwrt-redmi-ax3000/releases/download/ci-ipq50xx-mainline-kernel-5.4-openwrt-21.02-qsdk-wifi-rebase-20240727-162008-UTC/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+
+  有3个内核版本的，4.4、5.4、5.15，
+  5.15不支持硬件NAT，靠CPU做NAT，下载速度大概只有8MB/s
+  5.4有两个版本的，其中一个能跑满千兆，但是平均负载一直很高，经常自动重启，应该是鸡血版。
+     另一个带wifi-rebase字样的，应该是稳定版，网速跑不满千兆，但是胜在稳定，最终还是选了这个。
+     在网络-防火墙，开启硬件流量分载可以跑到600-800兆，偶尔能到千兆
+  4.4的也是鸡血版，平均负载一直很高，经常自动重启，不稳定。
    
 
 
