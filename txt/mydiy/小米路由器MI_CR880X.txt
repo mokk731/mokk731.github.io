@@ -67,7 +67,7 @@ https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000/releases/downlo
 
 https://github.com/kmiit/Redmi_AX3000_immortalwrt
 https://github.com/kmiit/Redmi_AX3000_immortalwrt/releases/download/ci-redmi_ax3000-24.10-20250228-140825-UTC/immortalwrt-qualcommax-ipq50xx-redmi_ax3000-squashfs-factory.ubi
-
+5G wifi 有时手机没能找到 ,RAM总180M,空闲46M
 
 
 
