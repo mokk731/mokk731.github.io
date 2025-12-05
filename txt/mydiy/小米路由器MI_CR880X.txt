@@ -67,8 +67,9 @@ https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-a
  5G wifi正常，RAM总160M,空闲40M , CoreMark : 5386.479935
 
 
-https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000
+https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000                   ###########
 https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000/releases/download/2024.03.09-0313-Redmi-AX3000-master/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+ 5G wifi正常，5G-国家代码-驱动默认 , RAM总166M,空闲51M , CoreMark : 2812.741720 
 
 
 
