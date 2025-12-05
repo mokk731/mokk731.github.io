@@ -44,6 +44,7 @@ CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常�
 
 4，用Uboot刷入openwrt
   https://github.com/hzyitc/openwrt-redmi-ax3000/releases/download/ci-ipq50xx-mainline-kernel-5.4-openwrt-21.02-qsdk-wifi-rebase-20240727-162008-UTC/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+    CoreMark 1.0 : 2712.967987 性能有点低，   5G wifi 有时手机没能找到。    RAM空闲60M .
 
   有3个内核版本的，4.4、5.4、5.15，
   5.15不支持硬件NAT，靠CPU做NAT，下载速度大概只有8MB/s
@@ -54,6 +55,8 @@ CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常�
 
 https://github.com/luyanci/immortalwrt-ax3000
 https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-20250308-011316-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+ 5G wifi正常，RAM空闲40M
+
 
 https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000
 
