@@ -40,8 +40,8 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
     mtd write /tmp/APPSBL.bin /dev/mtd11
     mtd write /tmp/APPSBL1.bin /dev/mtd12
 
-
-   如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了,刷入不死UBoot时，会自动完成分区合并操作。
+   刷入不死UBoot时，会自动完成分区合并操作。刷入大分区UBoot后，OpenWRT系统的可用空间将从默认的16MB提升到88MB左右,
+   如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了,
    解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                                                        
    用火狐浏览器, 在uboot界面里上传固件都提示 “更新失败，请确认上传的固件是否为可用固件“
 
