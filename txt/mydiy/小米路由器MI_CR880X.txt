@@ -18,7 +18,7 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 20251204 闲鱼买入 CR8808—移动 M79 A版，40元包邮。 八成新。
 
-刷机过程：
+我的刷机过程：
 
 1，先给路由器固件进行降级,MIWIFIRepairTool 官方的那个刷机工具, miwifi_cr8806_firmware_fe70b_6.2.14.bin 固件（实测可以使用）联通rom,, cr8808移动有营运商限制，网络锁。
    https://cdn.cnbj1.fds.api.mi-img.com/xiaoqiang/rom/cr8806/miwifi_cr8806_firmware_fe70b_6.2.14.bin
