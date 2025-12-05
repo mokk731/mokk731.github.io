@@ -56,8 +56,8 @@ CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常�
 5, 其它openwrt
 
 https://github.com/luyanci/immortalwrt-ax3000
-https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-20250308-011316-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
- 5G wifi正常，RAM总160M,空闲40M
+https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-DSA-20250411-121243-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+ 5G wifi正常，RAM总160M,空闲40M , CpuMark : 4980.389715
 
 
 https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000
