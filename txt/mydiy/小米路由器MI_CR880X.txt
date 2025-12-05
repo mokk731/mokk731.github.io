@@ -63,26 +63,29 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 5, 其它openwrt ROM
 
-https://github.com/luyanci/immortalwrt-ax3000                                      ###########
-https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-DSA-20250411-121243-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
- 5G wifi正常，RAM总166M,空闲40M , CoreMark : 5520.048990
-ImmortalWrt 23.05-SNAPSHOT ci-20250411-121243-2e9e5c6b / LuCI openwrt-23.05 branch git-25.097.37598-28905d9
-内核版本	5.15.173
+   https://github.com/luyanci/immortalwrt-ax3000                                      ###########
+   https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-DSA-20250411-121243-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+    5G wifi正常，RAM总166M,空闲40M , CoreMark : 5520.048990
+   ImmortalWrt 23.05-SNAPSHOT ci-20250411-121243-2e9e5c6b / LuCI openwrt-23.05 branch git-25.097.37598-28905d9
+   内核版本	5.15.173
 
 
 
-https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000                   #####
-https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000/releases/download/2024.03.09-0313-Redmi-AX3000-master/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
- 5G wifi正常，5G-国家代码-驱动默认 , RAM总166M,空闲51M , CoreMark : 2812.741720   性能有点低
-OpenWrt 23.05-SNAPSHOT r23767-f54b9a132d / LuCI openwrt-23.05 branch git-24.067.02086-146a8f1
-内核版本	5.15.148
+   https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000                   #####
+   https://github.com/blueberry-pie-11/actions-openwrt-redmi-ax3000/releases/download/2024.03.09-0313-Redmi-AX3000-master/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
+    5G wifi正常，5G-国家代码-驱动默认 , RAM总166M,空闲51M , CoreMark : 2812.741720   性能有点低
+   OpenWrt 23.05-SNAPSHOT r23767-f54b9a132d / LuCI openwrt-23.05 branch git-24.067.02086-146a8f1
+   内核版本	5.15.148
 
 
 
 
-https://github.com/kmiit/Redmi_AX3000_immortalwrt
-https://github.com/kmiit/Redmi_AX3000_immortalwrt/releases/download/ci-redmi_ax3000-24.10-20250228-140825-UTC/immortalwrt-qualcommax-ipq50xx-redmi_ax3000-squashfs-factory.ubi
-5G wifi 有时手机没能找到 ,RAM总180M,空闲46M
+   https://github.com/kmiit/Redmi_AX3000_immortalwrt
+   https://github.com/kmiit/Redmi_AX3000_immortalwrt/releases/download/ci-redmi_ax3000-24.10-20250228-140825-UTC/immortalwrt-qualcommax-ipq50xx-redmi_ax3000-squashfs-factory.ubi
+   5G wifi 有时手机没能找到 ,RAM总180M,空闲46M
+
+6, 自定义系统 crontab 中的计划任务
+   10 5 * * 1 sleep 5 && touch /etc/banner && reboot
 
 
 
