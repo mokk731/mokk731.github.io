@@ -87,7 +87,7 @@ https://github.com/kmiit/Redmi_AX3000_immortalwrt/releases/download/ci-redmi_ax3
 
 
 总结：
-1， CPU不高，，和mt7621 差不多， 
+1， CPU性能不高，，和mt7621 差不多， 
     ipq50xx  CoreMark : 5520
     mt7621   CoreMark : 5417
 
