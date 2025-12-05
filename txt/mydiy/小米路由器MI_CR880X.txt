@@ -50,6 +50,7 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 
 4，用Uboot刷入openwrt
+  https://github.com/hzyitc/openwrt-redmi-ax3000
   https://github.com/hzyitc/openwrt-redmi-ax3000/releases/download/ci-ipq50xx-mainline-kernel-5.4-openwrt-21.02-qsdk-wifi-rebase-20240727-162008-UTC/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
     CoreMark: 2712.967987 性能有点低，   5G wifi 有时手机没能找到。    RAM总168M,空闲60M .
 
@@ -64,7 +65,7 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 https://github.com/luyanci/immortalwrt-ax3000                                      ###########
 https://github.com/luyanci/immortalwrt-ax3000/releases/download/ci-immortalwrt-ax3000-2305-DSA-20250411-121243-UTC/immortalwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
- 5G wifi正常，RAM总160M,空闲40M , CoreMark : 5520.048990
+ 5G wifi正常，RAM总166M,空闲40M , CoreMark : 5520.048990
 ImmortalWrt 23.05-SNAPSHOT ci-20250411-121243-2e9e5c6b / LuCI openwrt-23.05 branch git-25.097.37598-28905d9
 内核版本	5.15.173
 
