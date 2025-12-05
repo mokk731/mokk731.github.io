@@ -38,6 +38,10 @@ CR8808—移动 有锁，要刷成CR8806—联通， CR8809—电信 可正常�
    解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                                                        
    用火狐浏览器, 在uboot界面里上传固件都提示 “更新失败，请确认上传的固件是否为可用固件“
 
+   https://github.com/blueberry-pie-11/redmi-ax3000-flash
+   红米ax3000 cr880x 分区文件
+
+
 4，用Uboot刷入openwrt
   https://github.com/hzyitc/openwrt-redmi-ax3000/releases/download/ci-ipq50xx-mainline-kernel-5.4-openwrt-21.02-qsdk-wifi-rebase-20240727-162008-UTC/openwrt-ipq50xx-arm-redmi_ax3000-squashfs-nand-factory.ubi
 
