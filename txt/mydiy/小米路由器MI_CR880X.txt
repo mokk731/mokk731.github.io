@@ -277,6 +277,7 @@ CR880X刷红米AX3000教程：https://mao.fan/article/93
 https://www.right.com.cn/forum/thread-8438141-1-1.html
 小米CR880X B版也就是CR881X系可刷Uboot和NWRT固件 
 
+固件和uboot未经过NWRT团队同意不能放出，大家可以进NWRT群看看。
 CR8806 B版就是CR8816，CR8808 B版就是CR8818，CR8809 B版就是CR8819。
 判断方法就是登录路由器后台，首页的底部有一个Ver:B。如果用小米一键SSH工具也会在上方提示型号为CR881X。
 另外盘点一下CR880X的版本：
