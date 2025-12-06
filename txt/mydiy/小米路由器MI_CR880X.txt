@@ -201,7 +201,7 @@ mtd write /tmp/APPSBL1.bin /dev/mtd12
 ---------------------------------------------------------------------------------------
 
 kimi
-如何用  P3TERX/Actions-OpenWrt , 使用 GitHub Actions 云编译 定制 redmi-ax3000 cr880x 路由器的 rom ?
+如何用  P3TERX/Actions-OpenWrt , 使用 GitHub Actions 云编译 定制 redmi-ax3000 cr880x 路由器的 rom ? cpu是ipq50xx
 .config 如何写？
 
 .config（放在仓库根目录）
@@ -252,13 +252,11 @@ https://grok.com/
 .config 如何写？
 
 
-
 该设备在官方 OpenWrt 中的支持有限（例如 Xiaomi AX6000 支持，但 CR880X 需要第三方源）。推荐使用 hzyitc/openwrt-redmi-ax3000 源代码，它专门支持 Redmi AX3000 / CR880x / CR881x，基于 OpenWrt 23.05 或更早版本，内核 5.15/5.4/4.4。
 如果用 Lean's lede 源（默认），检查是否支持 IPQ50xx（部分支持，但不完整；推荐切换到 hzyitc）。
 
 
-
-
+.config（放在仓库根目录
 
 CONFIG_TARGET_qualcommax=y
 CONFIG_TARGET_qualcommax_ipq50xx=y
