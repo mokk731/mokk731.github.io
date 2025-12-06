@@ -88,6 +88,14 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
    10 5 * * 1 sleep 5 && touch /etc/banner && reboot
 
 
+7, CR880X.config  # 固件平台
+   CONFIG_TARGET_qualcommax=y
+   CONFIG_TARGET_qualcommax_ipq50xx=y
+   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y
+
+
+
+
 
 总结：
 1， CPU性能不高，，和mt7621 差不多， 
@@ -104,7 +112,6 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 4, CR880X ipq50xx CoreMark时， 功耗 6W
    E8820s mt7621  CoreMark时， 功耗 5W
    ipq50xx功耗比mt7621高，不省电，
-
 
 
 
