@@ -91,7 +91,8 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 7, CR880X.config  # 固件平台
    CONFIG_TARGET_qualcommax=y
    CONFIG_TARGET_qualcommax_ipq50xx=y
-   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y
+   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y
+   # CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y
 
 
 
