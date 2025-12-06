@@ -242,6 +242,43 @@ CR8808目前lede版本并不支持 小米AX3000/CR880x
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/arm/target.mk
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/base-files/etc/board.d/01_leds
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/base-files/etc/board.d/02_network
+
+
+------------------------------------------------------------------------------
+
+https://grok.com/
+
+如何用 P3TERX/Actions-OpenWrt , 使用 GitHub Actions 云编译 定制 redmi- cr880x 路由器的 rom ? cpu是ipq50xx
+.config 如何写？
+
+
+
+该设备在官方 OpenWrt 中的支持有限（例如 Xiaomi AX6000 支持，但 CR880X 需要第三方源）。推荐使用 hzyitc/openwrt-redmi-ax3000 源代码，它专门支持 Redmi AX3000 / CR880x / CR881x，基于 OpenWrt 23.05 或更早版本，内核 5.15/5.4/4.4。
+如果用 Lean's lede 源（默认），检查是否支持 IPQ50xx（部分支持，但不完整；推荐切换到 hzyitc）。
+
+
+
+
+
+CONFIG_TARGET_qualcommax=y
+CONFIG_TARGET_qualcommax_ipq50xx=y
+CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y  # 或 xiaomi_cr881x 对于 CR881x/CR880x 变体
+CONFIG_ARCH="aarch64"
+CONFIG_CPU_TYPE="cortex-a53"
+CONFIG_HAS_DOT_CONFIG=y
+CONFIG_KERNEL_SECCOMP_FILTER=y
+CONFIG_PACKAGE_kmod-qca-nss-drv=y  # NSS 加速（IPQ50xx 关键）
+CONFIG_PACKAGE_kmod-qca-wifi=y  # WiFi 驱动
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-opkg=y
+# 自定义包示例
+CONFIG_PACKAGE_luci-app-ssr-plus=y
+CONFIG_PACKAGE_kmod-usb-net-rndis=y  # USB 支持
+# 禁用不需
+CONFIG_PACKAGE_ipv6helper=n
+
+
 --------------------------------------
 
 
