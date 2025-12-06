@@ -224,6 +224,9 @@ CONFIG_PACKAGE_kmod-qca-nss-dp=y
 # CONFIG_PACKAGE_luci-app-passwall is not set   # 需要再自行加
 
 
+------------------------------------------------------------------------------
+
+
 2024年11月起，coolsnowwolf/lede 的源码已正式加入 IPQ50xx / IPQ5018 的完整支持，Redmi AX3000（内部型号 CR8806/08/09、RA81） 可直接在 menuconfig 里选择编译，不再需要自己移植 dts。
 新加了 IPQ50xx / IPQ5018 的编译支持和 NSS 全功能。支持 256MB 内存启用无线，全功能 NSS 硬件转发。
 从此可以自由编译自己决定无需加入什么爱发电~~
