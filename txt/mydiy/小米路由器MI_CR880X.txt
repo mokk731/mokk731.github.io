@@ -96,7 +96,7 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
   # 固件平台       coolsnowwolf/lede
    CONFIG_TARGET_qualcommax=y
    CONFIG_TARGET_qualcommax_ipq50xx=y
-   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y
+   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y         # 目前coolsnowwolf/lede 无 redmi_ax3000
    # CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y    # 小米 CR880X 是 高通IPQ5000 ，刷成砖。不合用。
 
 
@@ -281,7 +281,7 @@ https://grok.com/
 # 固件平台       coolsnowwolf/lede
 CONFIG_TARGET_qualcommax=y
 CONFIG_TARGET_qualcommax_ipq50xx=y
-CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y  # 或 xiaomi_cr881x 对于 CR881x/CR880x 变体
+CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y  # 或 xiaomi_cr881x 对于 CR881x/CR880x 变体   # 目前coolsnowwolf/lede无redmi_ax3000
 CONFIG_ARCH="aarch64"
 CONFIG_CPU_TYPE="cortex-a53"
 CONFIG_HAS_DOT_CONFIG=y
