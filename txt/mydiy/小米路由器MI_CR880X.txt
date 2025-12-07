@@ -224,7 +224,8 @@ https://www.kimi.com/
 # 固件平台        hzyitc/openwrt-redmi-ax3000
 CONFIG_TARGET_ipq50xx=y
 CONFIG_TARGET_ipq50xx_generic=y
-CONFIG_TARGET_ipq50xx_generic_DEVICE_xiaomi_cr880x=y   # 会自动生成 cr8806/08/09 三者的 factory/sysupgrade
+CONFIG_TARGET_ipq50xx_generic_DEVICE_ipq5000-ax3000=y
+# CONFIG_TARGET_ipq50xx_generic_DEVICE_xiaomi_cr880x=y   # 会自动生成 cr8806/08/09 三者的 factory/sysupgrade
 
 # 无线驱动 
 CONFIG_PACKAGE_kmod-ath11k=y
