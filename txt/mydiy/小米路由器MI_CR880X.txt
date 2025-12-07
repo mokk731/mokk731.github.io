@@ -243,6 +243,10 @@ env:
   DIY_P2_SH: diy-part2.sh
 
 
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
 
 https://www.bilibili.com/video/BV1KofUYKELP                                                               *********
 红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器 
@@ -303,7 +307,7 @@ reset
 
 
 
-https://zhuanlan.zhihu.com/p/7325361034                                                *********
+https://zhuanlan.zhihu.com/p/7325361034                                                ********* ********* ********
 红米AX3000免拆机刷入OpenWrt教程，也适合小米CR880X系列
 
 先下载Uboot以及大分区文件：
@@ -329,6 +333,8 @@ mtd write /tmp/APPSBL1.bin /dev/mtd12
 
 
 -----------------------------------------------------
+
+
 乌客wuke 视频（102）红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器
 视频中的代码链接：https://docs.qq.com/doc/DS2tTRU53b3FWZXRo
 工具下载链接：百度云盘https://cloud.189.cn/t/6NFNbyniEFJr 提取码: wakb 
@@ -339,8 +345,6 @@ mtd write /tmp/APPSBL1.bin /dev/mtd12
 小米/红米ax路由器全系万能一键ssh工具：https://www.right.com.cn/forum/thread-8374973-1-1.html 
 AX3000/CR880X-openwrt-WiFi满血固件：https://github.com/hzyitc/openwrt-redmi-ax3000 
 CR880X刷红米AX3000教程：https://mao.fan/article/93 
-
-
 
 
 --------------------------------------------------
