@@ -88,11 +88,12 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
    10 5 * * 1 sleep 5 && touch /etc/banner && reboot
 
 
-7, CR880X.config  # 固件平台
+7, CR880X.config  
+  # 固件平台       coolsnowwolf/lede
    CONFIG_TARGET_qualcommax=y
    CONFIG_TARGET_qualcommax_ipq50xx=y
-   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y
-   # CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y
+   # CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y
+   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y
 
 
 
@@ -215,7 +216,7 @@ kimi
 .config（放在仓库根目录）
 这是最关键的文件，已按 IPQ5000+128 MB NAND+256 MB RAM 调好，直接复制即可。
 
-# 固件平台
+# 固件平台        hzyitc/openwrt-redmi-ax3000
 CONFIG_TARGET_ipq50xx=y
 CONFIG_TARGET_ipq50xx_generic=y
 CONFIG_TARGET_ipq50xx_generic_DEVICE_xiaomi_cr880x=y   # 会自动生成 cr8806/08/09 三者的 factory/sysupgrade
@@ -267,8 +268,8 @@ https://grok.com/
 如果用 Lean's lede 源（默认），检查是否支持 IPQ50xx（部分支持，但不完整；推荐切换到 hzyitc）。
 
 
-.config（放在仓库根目录
-
+.config  放在仓库根目录  
+# 固件平台       coolsnowwolf/lede
 CONFIG_TARGET_qualcommax=y
 CONFIG_TARGET_qualcommax_ipq50xx=y
 CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y  # 或 xiaomi_cr881x 对于 CR881x/CR880x 变体
