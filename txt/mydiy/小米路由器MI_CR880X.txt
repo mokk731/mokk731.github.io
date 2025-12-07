@@ -186,7 +186,7 @@ CR8808目前lede版本并不支持 小米AX3000/CR880x
     这个固件支持 小米CR880x(M79/M81),小米CR881x
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/dts/ipq5000-ax3000.dts  
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/patches/331-ARM-mach-qcom-Add-support-for-IPQ50xx.patch
-    https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/arm/target.mk
+    https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/image/Makefile
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/base-files/etc/board.d/01_leds
     https://github.com/hzyitc/openwrt-redmi-ax3000/blob/ipq50xx-mainline-kernel-5.15-openwrt-23.05/target/linux/ipq50xx/base-files/etc/board.d/02_network
 
