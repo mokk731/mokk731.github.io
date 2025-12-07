@@ -210,6 +210,7 @@ mtd write /tmp/APPSBL1.bin /dev/mtd12
 ---------------------------------------------------------------------------------------
 
 https://www.kimi.com/
+
 如何用  P3TERX/Actions-OpenWrt , 使用 GitHub Actions 云编译 定制 redmi-ax3000 cr880x 路由器的 rom ? cpu是ipq50xx
 .config 如何写？
 
