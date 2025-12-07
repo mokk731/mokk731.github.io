@@ -92,8 +92,8 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
   # 固件平台       coolsnowwolf/lede
    CONFIG_TARGET_qualcommax=y
    CONFIG_TARGET_qualcommax_ipq50xx=y
-   # CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y
-   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y
+   CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_redmi_ax3000=y
+   # CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_glinet_gl-b3000=y    # 小米 CR880X 是 高通IPQ5000 ，刷成砖。不合用。
 
 
 
@@ -246,6 +246,7 @@ https://github.com/coolsnowwolf/lede/tree/master/target/linux
 但 https://github.com/coolsnowwolf/lede/tree/master/target/linux/qualcommax/files/arch/arm64/boot/dts/qcom     
 ipq5018-ax6000.dts   ipq5018-ess.dtsi  ipq5018-gl-b3000.dts  ipq5018-mr5500.dts  ipq5018-mx-base.dtsi  ipq5018-mx2000.dts
 ipq5018-mx5500.dts   ipq5018-rax3000q.dts  ipq5018-re-cs-03.dts   ipq5018-spnmx56.dts
+# 小米 CR880X 是 高通IPQ5000 ，刷成砖。不合用。
 
 
 https://www.right.com.cn/forum/thread-8429522-1-1.html
