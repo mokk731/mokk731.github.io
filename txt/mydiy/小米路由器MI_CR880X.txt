@@ -108,7 +108,7 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 
 总结：
-1， CPU性能不高，，和mt7621 差不多， 
+1， CPU性能不高，，和mt7621 差不多， 略高。
     ipq50xx  CoreMark : 5520
     mt7621   CoreMark : 5417
 
@@ -116,7 +116,7 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
     https://downloads.openwrt.org/
     https://downloads.immortalwrt.org/
 
-3， 5G wifi 有时手机没能找到。不能搜网，，，，5G--国家代码--驱动默认
+3， 5G wifi 有时手机没能找到。不能搜网，，，，设置 5G--国家代码--驱动默认
     RAM总168M,空闲60M ，，明明有256M,不知为何少了80M,
 
 4, CR880X ipq50xx CoreMark时， 功耗 6W
@@ -133,90 +133,6 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 -----------------------------------------------------------------
 -----------------------------------------------------------------
-
-
-
-https://www.bilibili.com/video/BV1KofUYKELP                                                               *********
-红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器 
-https://www.right.com.cn/forum/thread-8374973-1-1.html                                                    *********
-[红米AX3000/CR8809/CR8808/CR8806] 小米/红米ax路由器全系万能一键ssh工具(支持ax6, ax6s, ax5jdc, ax3000, CR880X) 
-https://github.com/openwrt-xiaomi/xmir-patcher                                                             *********
-Firmware patcher for Xiaomi routers   id:root   sn:root
-无法解锁则需要先给路由器固件进行降级,MIWIFIRepairTool 官方的那个刷机工具,一份 miwifi_cr8806_firmware_fe70b_6.2.14.bin 固件（实测可以使用）
-
-
-https://www.bilibili.com/video/BV1W94y1H71P
-小米CR8808 刷openwrt小白保姆级教程
-
-
-https://zhuanlan.zhihu.com/p/661587532
-95元捡垃圾之小米CR8808路由器刷机公版AX3000固件保姆级教程
-
-
-https://www.right.com.cn/forum/thread-8315460-1-1.html
- [红米AX3000/CR8809/CR8808/CR8806] AX3000/CR880X-openwrt-WiFi满血固件 
-https://github.com/hzyitc/openwrt-redmi-ax3000
-https://github.com/hzyitc/openwrt-redmi-ax3000/tree/ipq50xx-qsdk-kernel-5.4-openwrt-21.02-qsdk-11.5.05.841.1029
-有3个内核版本的，4.4、5.4、5.15，
-5.15不支持硬件NAT，靠CPU做NAT，下载速度大概只有8MB/s
-5.4有两个版本的，其中一个能跑满千兆，但是平均负载一直很高，经常自动重启，应该是鸡血版。
-     另一个带wifi-rebase字样的，应该是稳定版，网速跑不满千兆，但是胜在稳定，最终还是选了这个。
-     如果github打不开，可以点下方的链接下载我在用的版本。
-    https://haojie7366.pages.dev/5/s ... ory-wifi-rebase.ubi
-在网络-防火墙，开启硬件流量分载可以跑到600-800兆，偶尔能到千兆
-4.4的也是鸡血版，平均负载一直很高，经常自动重启，不稳定。
-
-
-
-https://blog.csdn.net/wxqcom007/article/details/133765558
-小米CR880X路由刷不死合并分区再刷OPENWRT系统
-在刷入OpenWRT系统之前，刷入不死UBoot时，会自动完成分区合并操作。
-刷入大分区UBoot后，OpenWRT系统的可用空间将从默认的16MB提升到88MB左右
-
-1. 串口接线
-将 TTL 线的 4 根线依次接到主板标注的 VCC、GND、TX、RX 
-建议断开电源后再接线，接好后插电启动
-
-2. 中断进入 U-Boot
-在串口终端（115200 bps，无校验）快速连按回车键
-出现 Hit any key to stop autoboot: 提示时，按任意键进入 U-Boot 命令行 
-
-3. 刷入不死 U-Boot（合并分区）
-在本地 TFTP 目录放置 “合并分区并带 Web 的 U-Boot FIP” 文件
-在 U-Boot 提示符下执行：
-
-setenv serverip 192.168.1.88    # 本机 TFTP IP
-setenv ipaddr   192.168.1.1     # 路由器默认 IP
-tftpboot 0x800000 fip_firmware.bin
-sf update 0x800000 0x0 ${filesize}
-reset
-
-重启后路由器自带 Web 界面（http://192.168.1.1/uboot.html）
-
-
-
-https://zhuanlan.zhihu.com/p/7325361034                                                *********
-红米AX3000免拆机刷入OpenWrt教程，也适合小米CR880X系列
-
-先下载Uboot以及大分区文件：
-curl -o /tmp/MIBIB.bin https://mao.fan/shezhang/RedmiAX3000/MIBIB.bin
-curl -o /tmp/APPSBL.bin https://mao.fan/shezhang/RedmiAX3000/APPSBL.bin
-curl -o /tmp/APPSBL1.bin https://mao.fan/shezhang/RedmiAX3000/APPSBL1.bin
-
-然后写入对应分区
-mtd write /tmp/MIBIB.bin /dev/mtd1
-mtd write /tmp/APPSBL.bin /dev/mtd11
-mtd write /tmp/APPSBL1.bin /dev/mtd12
-
-
-如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了,刷入不死UBoot时，会自动完成分区合并操作。
-解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                                                        ************************************
-用火狐浏览器, 在uboot界面里上传固件都提示“更新失败，请确认上传的固件是否为可用固件“
-
-
-虽然已经2025年了，但还是不建议刷最新版的，比如23版本依旧存在网速会慢的问题，作者在源码主页也强调了是因为不支持qsdk加速的原因。要网速好就用旧版21版5.4内核。
-
----------------------------------------------------------------------------------------
 
 https://www.kimi.com/
 
@@ -325,6 +241,92 @@ env:
   CONFIG_FILE: master.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
+
+
+
+https://www.bilibili.com/video/BV1KofUYKELP                                                               *********
+红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器 
+https://www.right.com.cn/forum/thread-8374973-1-1.html                                                    *********
+[红米AX3000/CR8809/CR8808/CR8806] 小米/红米ax路由器全系万能一键ssh工具(支持ax6, ax6s, ax5jdc, ax3000, CR880X) 
+https://github.com/openwrt-xiaomi/xmir-patcher                                                             *********
+Firmware patcher for Xiaomi routers   id:root   sn:root
+无法解锁则需要先给路由器固件进行降级,MIWIFIRepairTool 官方的那个刷机工具,一份 miwifi_cr8806_firmware_fe70b_6.2.14.bin 固件（实测可以使用）
+
+
+https://www.bilibili.com/video/BV1W94y1H71P
+小米CR8808 刷openwrt小白保姆级教程
+
+
+https://zhuanlan.zhihu.com/p/661587532
+95元捡垃圾之小米CR8808路由器刷机公版AX3000固件保姆级教程
+
+
+https://www.right.com.cn/forum/thread-8315460-1-1.html
+ [红米AX3000/CR8809/CR8808/CR8806] AX3000/CR880X-openwrt-WiFi满血固件 
+https://github.com/hzyitc/openwrt-redmi-ax3000
+https://github.com/hzyitc/openwrt-redmi-ax3000/tree/ipq50xx-qsdk-kernel-5.4-openwrt-21.02-qsdk-11.5.05.841.1029
+有3个内核版本的，4.4、5.4、5.15，
+5.15不支持硬件NAT，靠CPU做NAT，下载速度大概只有8MB/s
+5.4有两个版本的，其中一个能跑满千兆，但是平均负载一直很高，经常自动重启，应该是鸡血版。
+     另一个带wifi-rebase字样的，应该是稳定版，网速跑不满千兆，但是胜在稳定，最终还是选了这个。
+     如果github打不开，可以点下方的链接下载我在用的版本。
+    https://haojie7366.pages.dev/5/s ... ory-wifi-rebase.ubi
+在网络-防火墙，开启硬件流量分载可以跑到600-800兆，偶尔能到千兆
+4.4的也是鸡血版，平均负载一直很高，经常自动重启，不稳定。
+
+
+
+https://blog.csdn.net/wxqcom007/article/details/133765558
+小米CR880X路由刷不死合并分区再刷OPENWRT系统
+在刷入OpenWRT系统之前，刷入不死UBoot时，会自动完成分区合并操作。
+刷入大分区UBoot后，OpenWRT系统的可用空间将从默认的16MB提升到88MB左右
+
+1. 串口接线
+将 TTL 线的 4 根线依次接到主板标注的 VCC、GND、TX、RX 
+建议断开电源后再接线，接好后插电启动
+
+2. 中断进入 U-Boot
+在串口终端（115200 bps，无校验）快速连按回车键
+出现 Hit any key to stop autoboot: 提示时，按任意键进入 U-Boot 命令行 
+
+3. 刷入不死 U-Boot（合并分区）
+在本地 TFTP 目录放置 “合并分区并带 Web 的 U-Boot FIP” 文件
+在 U-Boot 提示符下执行：
+
+setenv serverip 192.168.1.88    # 本机 TFTP IP
+setenv ipaddr   192.168.1.1     # 路由器默认 IP
+tftpboot 0x800000 fip_firmware.bin
+sf update 0x800000 0x0 ${filesize}
+reset
+
+重启后路由器自带 Web 界面（http://192.168.1.1/uboot.html）
+
+
+
+https://zhuanlan.zhihu.com/p/7325361034                                                *********
+红米AX3000免拆机刷入OpenWrt教程，也适合小米CR880X系列
+
+先下载Uboot以及大分区文件：
+curl -o /tmp/MIBIB.bin https://mao.fan/shezhang/RedmiAX3000/MIBIB.bin
+curl -o /tmp/APPSBL.bin https://mao.fan/shezhang/RedmiAX3000/APPSBL.bin
+curl -o /tmp/APPSBL1.bin https://mao.fan/shezhang/RedmiAX3000/APPSBL1.bin
+
+然后写入对应分区
+mtd write /tmp/MIBIB.bin /dev/mtd1
+mtd write /tmp/APPSBL.bin /dev/mtd11
+mtd write /tmp/APPSBL1.bin /dev/mtd12
+
+
+如果你刷了Uboot，那么现在可以断电顶住Rest按键通电10秒，输入192.168.10.1进入Uboot界面了,刷入不死UBoot时，会自动完成分区合并操作。
+解决方法：   不要用火狐浏览器，使用chorme上传固件成功。                                                        ************************************
+用火狐浏览器, 在uboot界面里上传固件都提示“更新失败，请确认上传的固件是否为可用固件“
+
+
+虽然已经2025年了，但还是不建议刷最新版的，比如23版本依旧存在网速会慢的问题，作者在源码主页也强调了是因为不支持qsdk加速的原因。要网速好就用旧版21版5.4内核。
+
+---------------------------------------------------------------------------------------
+
+
 
 -----------------------------------------------------
 乌客wuke 视频（102）红米ax3000 CR880X系列免拆机刷机教程，附双系统切换和小米路由器的一键解锁神器
