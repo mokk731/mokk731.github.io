@@ -241,6 +241,8 @@ commit命令：
     1.会丢弃历史记录和元数据。   2.启动export与import命令导出导入的镜像必须加/bin/bash或者其他/bin/sh，否则会报错。
     docker export -o xxx.tar [容器ID|Name]
     docker import xxx.tar newname:tag
+
+    docker run -itd --name web2 web:v1 /bin/bash
  
 
 ---------------------------------------------------------------------------------------
