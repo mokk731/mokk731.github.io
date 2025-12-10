@@ -226,23 +226,24 @@ commit命令：
  
      sudo scp openwrtdata.tar /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/Temp   // 将tar压缩包复制到另一台主机
 
----
+------
      save与load命令：
-     1.不会丢弃历史记录和元数据，并可以回滚版本。  2.启动不用加/bin/bash。
+     1.不会丢弃历史记录和元数据，并可以回滚版本。  
+     2.启动不用加/bin/bash。
+     
      docker save -o xxx.tar 镜像名
      docker load -i openwrtdata.tar    // 在另一台主机上加载镜像的tar压缩包
 
      docker run -itd --name openwrt openwrtdata:v1   // 使用这个加载的镜像运行容器
 
- 
----
+     XXX.tar  要解压缩，看到目录。
 
-    export与import命令：
-    1.会丢弃历史记录和元数据。   2.启动export与import命令导出导入的镜像必须加/bin/bash或者其他/bin/sh，否则会报错。
-    docker export -o xxx.tar [容器ID|Name]
-    docker import xxx.tar newname:tag
+------
+     https://github.com/wukongdaily/DockerTarBuilder
+     它是一个工作流。可快速构建指定架构/平台的docker镜像
+     使用说明    https://wkdaily.cpolar.cn/archives/gc
 
-    docker run -itd --name web2 web:v1 /bin/bash
+
  
 
 ---------------------------------------------------------------------------------------
