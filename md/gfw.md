@@ -77,7 +77,7 @@
 
 #### [openclash在openwrt中设置](https://mokk731.github.io/txt/openclash在openwrt中设置.txt)
 
-#### [本地安装ShellCrash的教程](https://mokk731.github.io/txt/ShellCrash.txt)
+#### [本地安装ShellCrash的教程](https://mokk731.github.io/txt/shellcrash.txt)
  
 
 --------------------------------------------------------------------------
