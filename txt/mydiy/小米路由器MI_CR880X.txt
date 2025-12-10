@@ -112,9 +112,13 @@ CR8808—移动 有网络锁，要刷成CR8806—联通， CR8809—电信 可�
 
 # 总结：
 
-1， CPU性能不高，，和mt7621 差不多， 略高。
+1， CPU性能不高 ， 比mt7621 略高。
     ipq50xx  CoreMark : 5520
     mt7621   CoreMark : 5417
+
+    https://www.right.com.cn/forum/thread-8265799-1-1.html
+    coremark跑分： 32位1Ghz：6875
+    nss加速加密还没折腾起来呢，开放的文档基本没有。。。
 
 2,  ROM不多，immortalwrt官方没有，大都分ROM不支持nss ,
     https://downloads.openwrt.org/
