@@ -11,6 +11,11 @@ https://ovnrain.com/post/shellcrash-tutorial
 ShellCrash 基本教程
 
 # 安装
+由于 ImmortalWrt 本身比较精简，需要在软件包中安装一些必要依赖：
+ curl
+ openssh-sftp-server
+ kmod-nft-tproxy
+
 执行 官方 安装命令：
 export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
