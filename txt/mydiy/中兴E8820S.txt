@@ -165,7 +165,12 @@ https://opt.cn2qq.com/
  
  https://github.com/actions/runner-images/issues/11101
 
+16,  202511 ， coolsnowwolf/lede 已经变成半封闭式了，安装 IPK 包确实可能变得更困难，主要原因是 opkg 的签名验证机制更严格了，
 
+     尤其在 2024-2025 年的版本更新后（如 OpenWRT 24.x）。如果软件包签名不匹配、过期或源有问题，
+     opkg update 或 install 会报 "Signature check failed" 错误，导致无法正常安装或更新插件。
+     多次编译passwall2 不成功，编译SSR,其中ss能用，xray不成功。  coolsnowwolf/lede OpenWRT 只能安静地使用基本功能。
+     
 ----------------------------------------
 
 # coremark
@@ -180,6 +185,7 @@ openwrt的,如果自己想跑coremark可以SSH登录运行命令：
 
 https://github.com/coolsnowwolf/lede/blob/master/target/linux/ramips/image/mt7621.mk
 
+https://github.com/coolsnowwolf/lede/tree/master/target/linux/ramips/dts
 
 ----------------------------------------
 
@@ -208,6 +214,7 @@ https://mokk7310.github.io/Rom/openwrt-zte_e8820s-luci23-2025.09.10.bin
 https://downloads.immortalwrt.org/releases/23.05.4/targets/ramips/mt7621/immortalwrt-23.05.4-ramips-mt7621-zte_e8820s-squashfs-factory.bin
 
 https://opt.cn2qq.com/padavan/ZTE_E8820S_3.4.3.9-099.trx
+
 
 
 
