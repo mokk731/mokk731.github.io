@@ -23,7 +23,8 @@ https://cmi.hanwckf.top/p/mt798x-uboot-usage/
 bl-mt798x项目基于mtk原厂提供的ATF及uboot源码  hanwckf's
 https://github.com/hanwckf/bl-mt798x/releases/latest
 
-
+https://www.cnblogs.com/ywang-wnlo/p/WR30U.html
+【路由器】小米 WR30U 解锁并刷机
 
 
 -----------------------------------------------
