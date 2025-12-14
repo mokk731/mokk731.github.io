@@ -69,6 +69,10 @@ openwrt
 https://downloads.openwrt.org/releases/23.05.6/targets/mediatek/filogic/openwrt-23.05.6-mediatek-filogic-xiaomi_mi-router-ax3000t-squashfs-sysupgrade.bin
 https://downloads.openwrt.org/releases/23.05.6/targets/mediatek/filogic/openwrt-23.05.6-mediatek-filogic-xiaomi_mi-router-wr30u-stock-squashfs-sysupgrade.bin
 
+潘多拉 QWRT MT7981 小米 WR30U 联通版 高性能闭源固件发布（原生无线配置） lean
+https://www.right.com.cn/forum/thread-8284824-1-1.html
+链接: https://pan.baidu.com/s/12yPEnBgfwd5Kc5iE0NqdyQ 提取码: m95u
+
 
 
 
