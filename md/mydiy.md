@@ -49,6 +49,8 @@
 
 #### [小米路由器MI_CR880X](https://mokk731.github.io/txt/mydiy/小米路由器MI_CR880X.txt)
 
+#### [小米路由器 WR30U](https://mokk731.github.io/txt/mydiy/小米路由器WR30U.txt)
+
 
 #### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
 
