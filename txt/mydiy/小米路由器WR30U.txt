@@ -46,6 +46,9 @@ https://github.com/hanwckf/bl-mt798x/releases/latest
    路由器断电，顶住reset按键5秒橙灯闪烁变蓝灯松开，电脑固定IP：192.168.10.11重启进入uboot后，选择默认分区，上传我提供的1.0.64版本固件，刷入即可，等待5分钟左右。
 
 
+   直接访问 uboot WebUI 进行刷固件，将 layout 选为 immortalwrt-112m，然后上传前面下载的固件，点击刷机即可
+   这里选择了 custom U-Boot layout 的固件，也就是 112M UBI layout 的固件，这样可以有更多的空间用于安装软件包，
+   固件名格式为 immortalwrt-xxxxxx-mediatek-filogic-xiaomi_mi-router-wr30u-112m-nmbm-squashfs-sysupgrade.bin
 
 -----------------------------------------------
 
@@ -54,6 +57,7 @@ https://github.com/hanwckf/bl-mt798x/releases/latest
 immortalwrt
 https://downloads.immortalwrt.org/releases/23.05.4/targets/mediatek/filogic/immortalwrt-23.05.4-mediatek-filogic-xiaomi_mi-router-ax3000t-squashfs-sysupgrade.bin
 https://downloads.immortalwrt.org/releases/23.05.4/targets/mediatek/filogic/immortalwrt-23.05.4-mediatek-filogic-xiaomi_mi-router-wr30u-stock-squashfs-sysupgrade.bin
+https://downloads.immortalwrt.org/releases/23.05.4/targets/mediatek/filogic/immortalwrt-23.05.4-mediatek-filogic-xiaomi_mi-router-wr30u-112m-nmbm-squashfs-factory.bin
 
 
 
