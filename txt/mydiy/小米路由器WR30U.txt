@@ -1,5 +1,8 @@
 小米路由器WR30U
 
+WR30U 是小米为中国联通定制的一款家用路由器，采用了联发科 MT7981B SoC，其无线规格支持 802.11ax/ac/n/g/a/b 2x2 MIMO，具有 128MB NAND 闪存以及 256MB DRAM，做工、散热、信号均属于上乘。
+主芯片：MT7981BA 射频芯片：MT7976CN 交换芯片：MT7931AE 存储：RAM 256MB ROM 128MB 开发平台：Flogic 820
+
 
 https://zhuanlan.zhihu.com/p/1927042054690674624
 小米AX3000T硬件缩水，教你WR30U刷机AX3000T固件，真假李逵大战
