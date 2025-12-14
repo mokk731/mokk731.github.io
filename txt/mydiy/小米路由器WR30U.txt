@@ -29,11 +29,17 @@ https://github.com/hanwckf/bl-mt798x/releases/latest
 -----------------------------------------------
 
 1、使用Xmir工具解锁SSH
+   xmir-patcher ssh解锁
+   https://github.com/openwrt-xiaomi/xmir-patcher                                                       
+   Firmware patcher for Xiaomi routers   id:root   sn:root
+
 
 2, SSH写入uboot文件
    这里使用hanwckf的bl-mt798x项目的Uboot
+   https://github.com/hanwckf/bl-mt798x/releases/latest
    下载好uboot文件mt7981_ax3000t-fip-fixed-parts-multi-layout.bin后使用MobaXterm先上传到tmp目录。然后执行下面写入命令：
    mtd write /tmp/mt7981_ax3000t-fip-fixed-parts-multi-layout.bin FIP
+
 
 3, uboot下写入AX3000T固件
    uboot支持刷入小米原厂mtd8/mtd9备份文件，不支持http://miwifi.com官网下载的固件。
