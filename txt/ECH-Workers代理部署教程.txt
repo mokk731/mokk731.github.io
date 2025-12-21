@@ -67,6 +67,33 @@ https://www.youtube.com/watch?v=uI1z5wVWWKs
 
 ---------------------------------------
 
+# docker 客户端
+
+https://hub.docker.com/r/cirnosalt/ech-workers-docker
+docker pull cirnosalt/ech-workers-docker:latest
+
+--network host #网络类型一般推荐直接host 
+  -e ARG_F="" #填写你的workers域名和端口 
+  -e ARG_ECH="cloudflare-ech.com" #ech查询域名，一般保持默认 
+  -e ARG_TOKEN="" #你设置的token
+  -e ARG_IP="visa.com" #优选IP或域名
+  -e ARG_L="0.0.0.0:30000" #Socks5服务器的IP和端口，0.0.0.0为全局监听
+  -e ARG_ROUTING="global" #分流模式，global=全局代理 bypass_cn=绕过大陆
+
+
+docker run -d \
+  --name cfech \
+  --restart always \
+  --network host \
+  -e ARG_F="" \
+  -e ARG_ECH="cloudflare-ech.com" \
+  -e ARG_TOKEN="" \
+  -e ARG_IP="visa.com" \
+  -e ARG_L="0.0.0.0:30000" \
+  -e ARG_ROUTING="global" \
+  cirnosalt/ech-workers-docker:latest
+
+
 ---------------------------------------
 
 ---------------------------------------
