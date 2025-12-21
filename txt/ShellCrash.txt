@@ -19,8 +19,8 @@ ShellCrash 基本教程
 执行 官方 安装命令：
 export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
-选择 1 公测版，选择 1 
-安装在 /etc 目录，选择 1 确认。
+选择 2 稳定版，
+选择 1 安装在 /etc 目录，选择 1 确认。
 
 安装完成之后，运行 crash 命令，
 选择 1 路由设备配置局域网透明代理，
@@ -31,7 +31,7 @@ export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$
 
 在启动之前，我们需要准备好 sing-box 内核使用的配置文件。
 
-# 配置
+# 配置  --不需要
 在你的电脑上新建一个 config.json 的文件，使用 vscode 等软件打开。由于 ShellCrash 会自动追加一些默认配置，所以事实上并不需要编写很多内容，基本上只需要写好 route 和 outbounds 即可。
 以下配置仅供参考：
 
@@ -42,7 +42,7 @@ scp config.json root@192.168.50.1:/tmp/
 登录到路由器，运行 crash 命令。
 
 安装 sing-box 内核
-选择 9 更新/卸载 - 2 切换内核文件 - 2 SingBox，此时 ShellCrash 会自动下载内核文件并安装，选择 0 不保留相关数据库文件。
+选择 9 更新/卸载 - 2 切换内核文件 - 1 Mihomo(原meta)，此时 ShellCrash 会自动下载内核文件并安装，选择 0 不保留相关数据库文件。
 
 安装本地 Dashboard 面板
 在保持 9 更新/卸载 的菜单中，选择 4 安装本地Dashboard面板 - 2 安装Yacd-Meta魔改面板，安装完成后选择 0 返回上级菜单，此时会提示 是否加载为singbox的配置文件，选择 1 加载。
@@ -54,7 +54,7 @@ scp config.json root@192.168.50.1:/tmp/
     7 屏蔽QUIC流量 开启
 
 在 crash 主菜单中，选择 7 内核进阶设置 - 4 启用域名嗅探 开启。
-重新回到 crash 主菜单，选择 1 启动/重启服务，ShellCrash 在下载好所需依赖之后，将会自动启动。此时你应该就可以正常的科学上网了。打开 http://192.168.50.1:9999/ui/#/ 查看 Dashboard 面板。
+重新回到 crash 主菜单，选择 1 启动/重启服务，ShellCrash 在下载好所需依赖之后，将会自动启动。此时你应该就可以正常的科学上网了。打开 http://192.168.11.1:9999/ui/#/ 查看 Dashboard 面板。
 
 ------------------------------------------
 
