@@ -1,5 +1,6 @@
 
 # OpenClash  luci
+202405
 
 https://github.com/vernesong/OpenClash/releases
 
