@@ -48,6 +48,26 @@ https://dash.cloudflare.com/
    https://hub.docker.com/r/cirnosalt/ech-workers-docker
 
 -------------------------------
+
+# OpenWrt 部署
+wget https://raw.githubusercontent.com/byJoey/ech-wk/refs/heads/main/softrouter.sh
+chmod +x softrouter.sh
+./softrouter.sh
+
+https://www.youtube.com/watch?v=uI1z5wVWWKs
+【软路由教程】Cloudflare ECH 终于支持 OpenWrt！配合 Passwall 实现透明代理，全屋设备自动优选加速。
+
+passwall DNS : 8.8.8.8
+
+直接列表 + 优选IP域名
+
+
   
 
 ---------------------------------------
+
+---------------------------------------
+
+---------------------------------------
+
+
