@@ -31,7 +31,7 @@ https://dash.cloudflare.com/
 
 2, 部署完成后，点击右上角「编辑代码」；
 
-3, 进入代码编辑界面，清空编辑器原有代码，粘贴本文上方的 ECH-Workers 代码，点击「保存并部署」；
+3, 进入代码编辑界面，清空编辑器原有代码，粘贴本文上方的 ECH-Workers 代码，点击「保存并部署」；设置token
    https://github.com/byJoey/ech-wk/blob/main/_worker.js
 
 4, 获取服务地址，返回 Worker 概览页面，复制 Cloudflare 分配的默认域名（格式如 xxx.workers.dev）。
@@ -39,5 +39,15 @@ https://dash.cloudflare.com/
 注意：虽然该域名在浏览器中直接访问可能无法打开（被墙），但不要担心，这正是 ECH 技术的优点之一。
 地址格式：请在域名后加上端口 :443。
 示例：crimson-art-0bbc.zrfme.workers.dev:443
+
+优选IP域名：saas.sin.fan
+
+5，Win 客户端：
+   https://github.com/byJoey/ech-wk/releases/download/v1.4/ECHWorkers-windows-amd64.zip
+   docker 客户端
+   https://hub.docker.com/r/cirnosalt/ech-workers-docker
+
+-------------------------------
+  
 
 ---------------------------------------
