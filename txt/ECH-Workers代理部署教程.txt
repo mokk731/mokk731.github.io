@@ -10,3 +10,34 @@ https://github.com/byJoey/ech-wk
 https://github.com/byJoey/cfnew
 
 https://hub.docker.com/r/cirnosalt/ech-workers-docker
+
+
+--------------------------------------------
+
+
+ECH协议核心作用简介
+
+ECH协议（Encrypted Client Hello，加密客户端问候）是Cloudflare推出的加密技术，其核心作用是隐藏你的访问域名（SNI），具体原理与优势如下：
+在传统HTTPS连接中，SNI（服务器名称指示）字段以明文形式传输，这就导致中间网络（如运营商、网关等）能轻易识别你所访问的具体站点，存在隐私泄露和针对性封锁的风险。
+而ECH协议会将SNI信息加密后再发送，中间网络仅能检测到你与Cloudflare建立了连接，却无法解析出你实际访问的目标域名。这一特性大幅提升了网络访问的隐私安全性与抗封锁能力。
+简单来说：开启ECH后，别人只知道你连了Cloudflare，却不知道你具体连的是哪个站点～
+
+
+# vCloudflare worker 部署
+此方案最为实用，即使 Cloudflare 默认分配的 xxx.workers.dev 域名在中国大陆被阻断，配合 ECH 客户端也能实现无感直连。
+https://dash.cloudflare.com/
+
+1, 新建 Worker 服务，名称可自定义（本文使用默认名称），完成创建后点击「部署」；
+
+2, 部署完成后，点击右上角「编辑代码」；
+
+3, 进入代码编辑界面，清空编辑器原有代码，粘贴本文上方的 ECH-Workers 代码，点击「保存并部署」；
+   https://github.com/byJoey/ech-wk/blob/main/_worker.js
+
+4, 获取服务地址，返回 Worker 概览页面，复制 Cloudflare 分配的默认域名（格式如 xxx.workers.dev）。
+
+注意：虽然该域名在浏览器中直接访问可能无法打开（被墙），但不要担心，这正是 ECH 技术的优点之一。
+地址格式：请在域名后加上端口 :443。
+示例：crimson-art-0bbc.zrfme.workers.dev:443
+
+---------------------------------------
