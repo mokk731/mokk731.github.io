@@ -1,4 +1,5 @@
-#qbittorrent
+# qbittorrent
+
 https://hub.docker.com/r/linuxserver/qbittorrent
 
 
@@ -11,10 +12,8 @@ docker pull linuxserver/qbittorrent:arm32v7-unstable-4.4.0202012311433-7161-a579
 docker pull linuxserver/qbittorrent:arm32v7-14.3.9.99202110311443-7435-01519b5e7ubuntu20.04.1-ls166
 2022-01-07
 
-
 linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.1-ls114
 2021-02-08 
-
 
 docker pull linuxserver/qbittorrent:4.6.3-r0-ls320
 2024-03
@@ -28,7 +27,6 @@ docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
 /mnt/sda1/btdownloads
 /mnt/sda1/btconfig
 admin/adminadmin
-
 
 
 
@@ -84,6 +82,10 @@ https://hub.docker.com/r/linuxserver/qbittorrent
 docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
 2025-12
 
+/qbittorrent/btconfig
+/qbittorrent/btdownloads
+
+
 services:
   qbittorrent:
     image: linuxserver/qbittorrent:5.1.4-r1-ls432
@@ -95,10 +97,11 @@ services:
       - WEBUI_PORT=8181
       - TORRENTING_PORT=16881
     volumes:
-      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/qbittorrent/appdata:/config
-      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/downloads:/downloads #optional
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/qbittorrent/btconfig:/config
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/qbittorrent/btdownloads:/downloads 
     ports:
       - 8181:8181
       - 16881:16881
       - 16881:16881/udp
     restart: unless-stopped
+
