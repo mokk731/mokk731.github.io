@@ -84,8 +84,10 @@ docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
 
 /qbittorrent/btconfig
 /qbittorrent/btdownloads
+admin/adminadmin
 
 
+version: "2.1"
 services:
   qbittorrent:
     image: linuxserver/qbittorrent:5.1.4-r1-ls432
@@ -104,4 +106,5 @@ services:
       - 16881:16881
       - 16881:16881/udp
     restart: unless-stopped
+
 
