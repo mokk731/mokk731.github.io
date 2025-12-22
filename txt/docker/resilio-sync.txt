@@ -62,6 +62,14 @@ services:
 docker pull linuxserver/resilio-sync:3.1.2.1076-1-ls230
 202512
 
+
+/resilio-sync/config
+/resilio-sync/downloads
+/resilio-sync/sync
+admin/123456
+
+
+
 version: "2.1"
 services:
   resilio-sync:
@@ -70,12 +78,15 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8888
     volumes:
-      - /path/to/resilio-sync/config:/config
-      - /path/to/downloads:/downloads
-      - /path/to/data:/sync
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/resilio-sync/config:/config
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88//resilio-sync/downloads:/downloads
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88//resilio-sync/sync:/sync
     ports:
       - 8888:8888
       - 55555:55555
+      - 55555:55555/udp
     restart: unless-stopped
+
