@@ -1,9 +1,15 @@
-https://hub.docker.com/r/syncthing/syncthing
+# syncthing
+
+
+https://hub.docker.com/r/syncthing/syncthing       ###
+https://hub.docker.com/r/linuxserver/syncthing
 
 
 docker pull syncthing/syncthing:1.27
 202403
 
+docker pull syncthing/syncthing:2.0.12
+202512
  	
 -------------------------------------------
 
@@ -28,7 +34,7 @@ services:
       - TZ=Asia/Shanghai
       - WEBUI_PORT=8384
     volumes:
-      - /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/syncthing:/var/syncthing
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/syncthing:/var/syncthing
     ports:
       - 8384:8384
       - 22000:22000
@@ -41,6 +47,8 @@ services:
 docker pull syncthing/syncthing:1.18.3
 26.2 MB 	2021-10-04 19:48:00
 
+docker pull syncthing/syncthing:2.0.12
+202512
 
 --------------------------------------------
 
@@ -82,4 +90,5 @@ sudo chmod -R 777 config
 
 查询对文件的权限：
 ls -l 文件名
+
 
