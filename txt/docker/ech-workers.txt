@@ -1,0 +1,50 @@
+# ech-workers
+https://hub.docker.com/r/cirnosalt/ech-workers-docker
+
+docker pull cirnosalt/ech-workers-docker:latest
+202512
+
+
+
+--network host #网络类型一般推荐直接host 
+  -e ARG_F="" #填写你的workers域名和端口 
+  -e ARG_ECH="cloudflare-ech.com" #ech查询域名，一般保持默认 
+  -e ARG_TOKEN="" #你设置的token
+  -e ARG_IP="visa.com" #优选IP或域名
+  -e ARG_L="0.0.0.0:30000" #Socks5服务器的IP和端口，0.0.0.0为全局监听
+  -e ARG_ROUTING="global" #分流模式，global=全局代理 bypass_cn=绕过大陆
+
+
+docker run -d \
+  --name ech-workers \
+  --restart unless-stopped \
+  --network host \
+  -e ARG_F="填写你的workers域名和端口" \
+  -e ARG_ECH="cloudflare-ech.com" \
+  -e ARG_TOKEN="你设置的token" \
+  -e ARG_IP="visa.com" \
+  -e ARG_L="0.0.0.0:8500" \
+  -e ARG_ROUTING="global" \
+  cirnosalt/ech-workers-docker:latest
+
+------------------------------
+
+######
+
+version: "2.1"
+services:
+  ech-workers:
+    image: cirnosalt/ech-workers-docker:latest
+    container_name: ech-workers
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - ARG_F=填写你的workers域名和端口
+      - ARG_ECH=cloudflare-ech.com
+      - ARG_TOKEN=你设置的token
+      - ARG_IP=visa.com
+      - ARG_L=0.0.0.0:8500
+      - ARG_ROUTING=bypass_cn
+    restart: unless-stopped
