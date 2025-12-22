@@ -1,9 +1,9 @@
-#resilio-sync
+# resilio-sync
+
+https://hub.docker.com/r/linuxserver/resilio-sync
 
 /mnt/sda1/resilio-sync/resiliodownloads
-
 /mnt/sda1/resilio-sync/resilioconfig
-
 admin/123456
 
 
@@ -55,3 +55,27 @@ services:
       - 55555:55555/udp
     restart: unless-stopped
   
+-----------------------------------------------
+
+
+
+docker pull linuxserver/resilio-sync:3.1.2.1076-1-ls230
+202512
+
+version: "2.1"
+services:
+  resilio-sync:
+    image: linuxserver/resilio-sync:3.1.2.1076-1-ls230
+    container_name: resilio-sync
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - /path/to/resilio-sync/config:/config
+      - /path/to/downloads:/downloads
+      - /path/to/data:/sync
+    ports:
+      - 8888:8888
+      - 55555:55555
+    restart: unless-stopped
