@@ -19,12 +19,14 @@ linuxserver/qbittorrent:arm32v7-14.3.3.99202101191832-7248-da0b276d5ubuntu18.04.
 docker pull linuxserver/qbittorrent:4.6.3-r0-ls320
 2024-03
 
+docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
+2025-12
+
+
 
 
 /mnt/sda1/btdownloads
-
 /mnt/sda1/btconfig
-
 admin/adminadmin
 
 
@@ -71,4 +73,32 @@ services:
       - 16881:16881
       - 16881:16881/udp
       - 8181:8181
+    restart: unless-stopped
+
+---------------------------------------------
+
+#########
+
+https://hub.docker.com/r/linuxserver/qbittorrent
+
+docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
+2025-12
+
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:5.1.4-r1-ls432
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8181
+      - TORRENTING_PORT=16881
+    volumes:
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/qbittorrent/appdata:/config
+      - /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/downloads:/downloads #optional
+    ports:
+      - 8181:8181
+      - 16881:16881
+      - 16881:16881/udp
     restart: unless-stopped
