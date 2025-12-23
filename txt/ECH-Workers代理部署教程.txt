@@ -62,13 +62,18 @@ https://www.youtube.com/watch?v=uI1z5wVWWKs
 1, passwall DNS : 8.8.8.8
 2, 直接列表 + 优选IP域名  直通
 
+-------
+
 https://github.com/SunshineList/luci-app-ech-workers
 OpenWrt LuCI 图形界面配置应用，用于管理 ECH Workers 代理服务。
 
 scp luci-app-ech-workers_*.ipk root@192.168.1.1:/tmp/
 ssh root@192.168.1.1
 opkg install /tmp/luci-app-ech-workers_*.ipk
-  
+
+打开浏览器访问路由器管理页面，导航到 服务 → Tuple ECH Worker
+
+注意: 自动下载需要路由器能访问 GitHub。如果下载失败，可手动下载对应架构的二进制文件到 /usr/bin/ech-workers
 
 ---------------------------------------
 
