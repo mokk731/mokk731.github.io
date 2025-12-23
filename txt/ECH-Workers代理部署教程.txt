@@ -41,7 +41,7 @@ https://dash.cloudflare.com/
    注意：虽然该域名在浏览器中直接访问可能无法打开（被墙），但不要担心，这正是 ECH 技术的优点之一。
    地址格式：请在域名后加上端口 :443。
    示例：crimson-art-0bbc.zrfme.workers.dev:443
-   优选IP域名：saas.sin.fan       visa.com
+   优选IP域名：saas.sin.fan   ,    visa.com  ,   cf.090227.xyz
 
 5，Win 客户端：
    https://github.com/byJoey/ech-wk/releases/download/v1.4/ECHWorkers-windows-amd64.zip
@@ -62,7 +62,12 @@ https://www.youtube.com/watch?v=uI1z5wVWWKs
 1, passwall DNS : 8.8.8.8
 2, 直接列表 + 优选IP域名  直通
 
+https://github.com/SunshineList/luci-app-ech-workers
+OpenWrt LuCI 图形界面配置应用，用于管理 ECH Workers 代理服务。
 
+scp luci-app-ech-workers_*.ipk root@192.168.1.1:/tmp/
+ssh root@192.168.1.1
+opkg install /tmp/luci-app-ech-workers_*.ipk
   
 
 ---------------------------------------
