@@ -21,9 +21,11 @@ ShellCrash 基本教程
 执行 官方 安装命令：
 export url='https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
 
+1 #
 选择 2 稳定版，
 选择 1 安装在 /etc 目录，选择 1 确认。
 
+2 #
 安装完成之后，运行 crash 命令，
 选择 1 路由设备配置局域网透明代理(网关)，  选择 2 linux设备仅配置本机代理(省RAM)
 选择 0 不启用推荐的自动任务配置，
@@ -43,25 +45,32 @@ scp config.json root@192.168.50.1:/tmp/
 # 运行 ShellCrash
 登录到路由器，运行 crash 命令。
 
+1 #
 安装 Mihomo  sing-box 内核
 选择 9 更新/卸载 - 2 切换内核文件 - 1 Mihomo(原meta)，此时 ShellCrash 会自动下载内核文件并安装，选择 0 不保留相关数据库文件。
 
+2 #
 安装本地 Dashboard 面板
 在保持 9 更新/卸载 的菜单中，选择 4 安装本地Dashboard面板   -选择 2 安装Yacd-Meta魔改面板，
 安装完成后选择 0 返回上级菜单，此时会提示 是否加载为singbox的配置文件，选择 1 加载。
 
+3 #
 配置 ShellCrash 运行
 在 crash 主菜单中，选择 2 内核功能设置：
     1 切换防火墙运行模式   选择 3 Tproxy模式
     2 切换DNS运行模式     选择 3 mix混合模式
     7 屏蔽QUIC流量       开启
 
+4 #
 在 crash 主菜单中，选择 7 内核进阶设置  -选择 4 启用域名嗅探 开启。
+
+5 #
 重新回到 crash 主菜单，选择 1 启动/重启服务，输入 在线地址配置文件 ，
 ShellCrash 在下载好所需依赖之后，将会自动启动。此时你应该就可以正常的科学上网了。
 
 打开 http://192.168.11.1:9999/ui/#/ 查看 Dashboard 面板。
 
+6 #
 在 crash 主菜单中，选择 8 其它工具 ，2 ShellCrash新手引导，可重新选网关-本机代理 .
 
 
