@@ -74,11 +74,11 @@ https://github.com/SunshineList/luci-app-ech-workers/releases/download/v1.3/luci
 https://github.com/SunshineList/luci-app-ech-workers/releases/download/v1.3/ech-workers-linux-mipsle
 
 scp luci-app-ech-workers_*.ipk root@192.168.1.1:/tmp/
+scp ech-workers-linux-mipsle root@192.168.1.1:/usr/bin
+
 ssh root@192.168.1.1
 opkg install /tmp/luci-app-ech-workers_*.ipk
-
-scp ech-workers-linux-mipsle root@192.168.1.1:/usr/bin
-mv ech-workers-linux-mipsle ech-workers
+mv /usr/bin/ech-workers-linux-mipsle /usr/bin/ech-workers
 chmod +x /usr/bin/ech-workers
 
 2，访问界面
