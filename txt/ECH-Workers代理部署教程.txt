@@ -65,7 +65,7 @@ https://www.youtube.com/watch?v=uI1z5wVWWKs
 1, passwall DNS : 8.8.8.8
 2, 直接列表 + 优选IP域名  直通
 
-不支持 mipsle , mt7621 没成功。
+不支持 mipsel , mt7621 没成功。
 
 -------
 
@@ -89,7 +89,7 @@ chmod +x /usr/bin/ech-workers
 注意: 自动下载需要路由器能访问 GitHub。如果下载失败，可手动下载对应架构的二进制文件到 /usr/bin/ech-workers
 服务无法启动	检查服务器地址是否正确，确保二进制文件有执行权限
 
-支持 mipsle , mt7621 成功。
+支持 mipsel , mt7621 成功。
 mt7621   mipsel ,   Lean lede  5.10  ,luci23 ,    fw3/iptables 
 
 
