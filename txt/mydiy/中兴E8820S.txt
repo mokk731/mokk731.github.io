@@ -213,9 +213,11 @@ https://mokk7310.github.io/Rom/openwrt-zte_e8820s-luci23-2025.09.10.bin
 
 
 https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/immortalwrt-21.02.7-ramips-mt7621-zte_e8820s-squashfs-factory.bin
-只有immortalwrt-21 能用，23 不能用
+只有immortalwrt-21 能用， iptable-FW3,  sqm安装不成功。
+immortalwrt-23 不能用.
 
 https://opt.cn2qq.com/padavan/ZTE_E8820S_3.4.3.9-099.trx
+
 
 
 
