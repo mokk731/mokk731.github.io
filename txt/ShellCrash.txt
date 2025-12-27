@@ -86,9 +86,9 @@ ShellCrash 在下载好所需依赖之后，将会自动启动。此时你应该
 
 ### 本人安装
 
-ipq5000  a53   ,   immortalwrt 5.15 arm7 32位 ,    fw4/nftables    稳定版   能成功安装。
+ipq5000  a53   ,   immortalwrt 5.15 arm7 32位 ,  luci23 ,   fw4/nftables    稳定版   能成功安装。  
 
-mt7621   mipsel ,   Lean lede  5.10  ,luci23 ,    fw3/iptables             安装不成功 。
+mt7621   mipsel ,   Lean lede  5.10  ,          luci23 ,    fw3/iptables             安装不成功 。  可能 fw3/iptables  不能安装.
 
 
 
