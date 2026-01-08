@@ -54,7 +54,7 @@ swap：Swap 交换分区专属的文件系统，如果有划分 Swap 分区，�
 
     GRUB_DEFAULT=0
 
-默认启动项排序以0开始，第几个为windows我们就设置为几就可以了
+默认启动项排序以0开始，第几个为windows我们就设置为几就可以了  2
 
 
 3,最后我们运行命令更新grub
@@ -168,7 +168,7 @@ sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm p
 
 #下载 Docker 图形化界面 portainer
 
-    sudo docker pull portainer/portainer
+    sudo docker pull portainer/portainer-ce:2.33.6
 
 #创建 portainer 容器
 
@@ -176,7 +176,7 @@ sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm p
 
 #运行 portainer
 
-    sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+    sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.33.6
 
 ## [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
 
