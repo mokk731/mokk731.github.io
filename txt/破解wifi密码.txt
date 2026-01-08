@@ -217,7 +217,20 @@ wget https://github.com/kimocoder/wifite2/archive/master.zip && unzip master.zip
 cd wifite2-master                    #########
 sudo python3 wifite.py               #########
 
-要安装： aircrack-ng, hashcat  其他的不需要，
+要安装： aircrack-ng, macmange 其他的不需要，
+
+hcxdumptool和hcxpcaptool是为Wi-Fi审计和渗透测试编写的工具，以捕获WPA握手和PMKID散列。只对有kvr漫游路由器可能有效。
+hashcat: For cracking PMKID hashes.
+hcxdumptool: For capturing PMKID hashes.
+hcxpcaptool: For converting PMKID packet captures into hashcat's format.
+tshark: For detecting WPS networks and inspecting handshake capture files.
+reaver: For WPS Pixie-Dust & brute-force attacks.
+bully: For WPS Pixie-Dust & brute-force attacks.
+
+
+
+
+
 
 ---------------------
 
