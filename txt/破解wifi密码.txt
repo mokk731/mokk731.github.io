@@ -214,8 +214,12 @@ https://github.com/kimocoder/wifite2
 
 wget https://github.com/kimocoder/wifite2/archive/master.zip && unzip master.zip
 
-cd wifite2-master
-sudo python3 wifite.py
+cd wifite2-master                    #########
+sudo python3 wifite.py               #########
+
+要安装：
+sudo apt install  aircrack-ng
+sudo apt install  hashcat
 
 ---------------------
 
