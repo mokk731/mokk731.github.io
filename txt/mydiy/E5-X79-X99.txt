@@ -302,10 +302,10 @@ X79,X99,E5 平台，整机待机功耗较高， 55W左右。
 https://www.bilibili.com/opus/737648229399658551
 202601 DDR4内存涨价，2倍，，还是DDR3 便宜，香。
 E5 CPU 支持DDR3 ：
-E5-2666   V3  10C20T ，2.9-3.5GHz,      25MB
-E5-2673   V3	12/24 	2.4 to 3.1 GHz		30MB	
-E5-2698B  V3	16/32  	2 to 3.4 GHz	  	40MB
-E5-2696   V3	18/36 	2.3 to 3.8 GHz		45MB	
+E5-2666  V3   10C20T  2.9-3.5GHz,       25MB
+E5-2673  V3 	12/24 	2.4 to 3.1 GHz		30MB	
+E5-2698B V3 	16/32  	2 to 3.4 GHz	  	40MB
+E5-2696  V3	  18/36 	2.3 to 3.8 GHz		45MB	
 
 
 
