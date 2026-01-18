@@ -72,7 +72,7 @@
 
 #### [CapCut国际版 视频编辑软件](https://cn.capcut.jp/download.html)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [Watt Toolkit  Steam工具箱](https://github.com/BeyondDimension/SteamTools)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
