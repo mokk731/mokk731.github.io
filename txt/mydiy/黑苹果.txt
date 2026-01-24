@@ -107,7 +107,27 @@ py macrecovery.py -b Mac-B4831CEBD52A0C4C -m 00000000000000000 download
 
 
 
+https://zhuanlan.zhihu.com/p/561746910
+黑苹果在线安装版本安装教程
 
+将com.apple.recovery.boot文件夹复制到优盘根目录下；
+
+EFI
+    ├── BOOT
+    ├── OC
+com.apple.recovery.boot
+    ├── BaseSystem.chunklist
+    └── BaseSystem.dmg
+    └── .contentDetails
+
+在U盘的 根目录 创建一个文件夹名字叫做: com.apple.recovery.boot
+将 BaseSystem.chunklist 和 BaseSystem.dmg 复制到 com.apple.recovery.boot 里面
+给启动文件命名
+在文件夹 com.apple.recovery.boot 下面新建一个隐藏文件 .contentDetails
+内容可以随便写, 比如 Mac Boot From Recovery, 这个名字会出现在OpenCore的启动菜单上.
+
+
+---------------------------------------------------------------------
 https://support.apple.com/zh-cn/102662
 如何下载和安装 macOS
 
