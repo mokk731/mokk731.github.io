@@ -55,7 +55,6 @@
 
 #### [Windows Update Blocker 1.7(禁止WIN10更新).rar](https://mokk731.github.io/ziprar/win-tools/WindowsUpdateBlocker1.7禁止WIN10更新.rar)
 
-#### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-5.1.72-202504.xpi)
 
 #### [GoldWave512-SY.rar 音频编辑](https://mokk731.github.io/ziprar/win-tools/HA-GoldWave512-SY.rar)
 
@@ -91,6 +90,8 @@
 ## 浏览器扩展插件
 
 #### [Tampermonkey油猴+浏览器扩展插件](https://mokk731.github.io/md/tampermonkey)
+
+#### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-5.1.72-202504.xpi)
 
 ## 网页导航
 
