@@ -93,6 +93,10 @@
 
 #### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-5.1.72-202504.xpi)
 
+#### [Proxy SwitchySharp1.10.7-chrome](https://mokk731.github.io/ziprar/win-tools/Proxy SwitchySharp1.10.7-chrome.zip)
+
+#### [Auto Quality for YouTube2.1.3-chrome](https://mokk731.github.io/ziprar/win-tools/Auto Quality for YouTube2.1.3-chrome.zip)
+
 ## 网页导航
 
 #### [阿虚同学的储物间](https://axutongxue.com/)
