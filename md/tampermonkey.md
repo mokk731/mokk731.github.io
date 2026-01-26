@@ -40,13 +40,28 @@
     https://greasyfork.org/zh-CN/scripts/479861
 
 ## FirefoxPortable扩展插件:   
-    Adguard,     
-    Gproxy Plus,     
-    FoxyProxy Basic  , 
-    FoxyProxy Standard
-    ZeroOmega--Proxy Switchy manifest v3 version
-    Reload Every    ,
     Tampermonkey
+    https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey
+    
+    Adguard,   ###
+    https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker
+    
+    Gproxy Plus,   
+    https://addons.mozilla.org/zh-CN/firefox/addon/gproxy-plus
+    
+    FoxyProxy Standard   ###
+    https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/
+    
+    ZeroOmega--Proxy Switchy manifest v3 version
+    https://addons.mozilla.org/zh-CN/firefox/addon/zeroomega
+    
+    Reload Every    ,
+    Reload    ###
+    https://addons.mozilla.org/zh-CN/firefox/addon/reload
+    
+    Exif Viewer   ###
+    https://addons.mozilla.org/zh-CN/firefox/addon/exif-viewer
+    
 
     
 ## Brave-Browser Chrome扩展插件:
@@ -54,9 +69,9 @@
     https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
     
     Proxy Swithysharp,    停更
-    Proxy SwitchyOmega 3 (ZeroOmega)  
+    Proxy SwitchyOmega 3 (ZeroOmega)    ###
     https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
-    FoxyProxy
+    FoxyProxy       ###
     https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp
     
     Adguard ,  
@@ -66,7 +81,7 @@
     https://chromewebstore.google.com/detail/auto-quality-for-youtube/iaddfgegjgjelgkanamleadckkpnjpjc
     YouTube Auto HD  ,
     
-    简约翻译
+    简约翻译    ###
     https://chromewebstore.google.com/detail/kiss-translator/bdiifdefkgmcblbcghdlonllpjhhjgof
     https://github.com/brave/brave-browser/releases
 
