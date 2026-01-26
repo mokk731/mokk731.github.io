@@ -40,19 +40,19 @@
     https://greasyfork.org/zh-CN/scripts/479861
 
 ## FirefoxPortable扩展插件:   
-    Tampermonkey
+    Tampermonkey       ###
     https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey
     
-    Adguard,   ###
+    Adguard,       ###
     https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker
     
     Gproxy Plus,   
     https://addons.mozilla.org/zh-CN/firefox/addon/gproxy-plus
     
-    FoxyProxy Standard   ###
+    FoxyProxy Standard   
     https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/
     
-    ZeroOmega--Proxy Switchy manifest v3 version
+    ZeroOmega--Proxy Switchy manifest v3 version      ###
     https://addons.mozilla.org/zh-CN/firefox/addon/zeroomega
     
     Reload Every    ,
@@ -65,13 +65,13 @@
 
     
 ## Brave-Browser Chrome扩展插件:
-    Tampermonkey,   
+    Tampermonkey,     ###
     https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
     
     Proxy Swithysharp,    停更
     Proxy SwitchyOmega 3 (ZeroOmega)    ###
     https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
-    FoxyProxy       ###
+    FoxyProxy       
     https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp
     
     Adguard ,  
