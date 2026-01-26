@@ -43,6 +43,7 @@
     Adguard,     
     Gproxy Plus,     
     FoxyProxy Basic  , 
+    ZeroOmega--Proxy Switchy manifest v3 version
     Reload Every    ,
     Tampermonkey
 
