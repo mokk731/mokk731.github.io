@@ -49,11 +49,21 @@
     
 ## Brave-Browser Chrome扩展插件:
     Tampermonkey,   
-    Proxy Swithysharp,    
-    Adguard ,   
+    https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+    
+    Proxy Swithysharp,    停更
+    Proxy SwitchyOmega 3 (ZeroOmega)  
+    https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
+    
+    Adguard ,  
+    https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg
+    
     Auto Quality for YouTube.,,,,,   ###
+    https://chromewebstore.google.com/detail/auto-quality-for-youtube/iaddfgegjgjelgkanamleadckkpnjpjc
     YouTube Auto HD  ,
+    
     简约翻译
+    https://chromewebstore.google.com/detail/kiss-translator/bdiifdefkgmcblbcghdlonllpjhhjgof
     https://github.com/brave/brave-browser/releases
 
     
