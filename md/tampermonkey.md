@@ -43,6 +43,7 @@
     Adguard,     
     Gproxy Plus,     
     FoxyProxy Basic  , 
+    FoxyProxy Standard
     ZeroOmega--Proxy Switchy manifest v3 version
     Reload Every    ,
     Tampermonkey
@@ -55,6 +56,8 @@
     Proxy Swithysharp,    停更
     Proxy SwitchyOmega 3 (ZeroOmega)  
     https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
+    FoxyProxy
+    https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp
     
     Adguard ,  
     https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg
