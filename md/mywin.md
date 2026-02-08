@@ -46,7 +46,7 @@
 
 [win10系统system,CPU占用高](https://mokk731.github.io/txt/win10系统system,CPU占用高.txt)
 
-
+[Windows11系统优化指南](https://mokk731.github.io/txt/Windows11系统优化指南.txt)
 
 ---------------------------------------------------------------------------------------------
 
