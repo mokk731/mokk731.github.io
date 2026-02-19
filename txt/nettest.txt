@@ -25,11 +25,18 @@ https://ping.chinaz.com/
 站长工具ping测速是一款全面的网站测速工具，它利用全球分布的多个节点，为全球用户提供准确、高效的网站测速服务。这款产品的主要功能包括Ping测速和HTTP测速，能够全面评估网站的响应速度和连接质量。 
 
 
-https://plugin.speedtest.cn/#/               *****************
+https://plugin.speedtest.cn/#/               
 speedtest
 
 https://www.test-ipv6.com/index.html.zh_CN
 test-ipv6
+
+https://test.ustc.edu.cn/
+中国科学技术大学测速网站           ***********
+
+http://speed.nuaa.edu.cn/
+南京航空航天大学5g专网测速网站      ***********
+
 
 
 ------------------------------------------------------------
@@ -56,6 +63,7 @@ https://finance.sina.com.cn/futures/quotes/CHA50CFD.shtml
 A50
 
 https://finance.sina.com.cn/money/forex/hq/BTCBTCUSD.shtml
+https://quote.eastmoney.com/us/FBTC.html
 BTC
 
 https://kimi.moonshot.cn/            *****************
@@ -74,7 +82,8 @@ https://www.dygod.net/html/gndy/            *****************
 
 https://fanyi.baidu.com                     *****************
 baidu翻译
-
+https://cn.bing.com/translator
+bing翻译
 
 
 https://earth.gggis.com/
