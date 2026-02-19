@@ -3,13 +3,13 @@
 cl1024
 https://github.com/yuuwill/1024app-android
 
-Y2UuOTczNXgueHl6CmNlLjk3MzV5Lnh5egpjZS45NzM1ei54eXo=
+Y2EuZGg1bWpuLnRvcAoKY2EuczM4bmJlLnRvcAoKY2Euc2Y1OTZkLnRvcA==
 
 
 
 javbus
 
-aHR0cHM6Ly93d3cuZG1tYnVzLmN5b3UKaHR0cHM6Ly93d3cuY2RuYnVzLmJvbmQKaHR0cHM6Ly93d3cuZmFuYnVzLmJvbmQ=
+d3d3LmRtbWJ1cy5jeW91Cgp3d3cuY2RuYnVzLmJvbmQKCnd3dy5mYW5idXMuYm9uZA==
 
 
 
