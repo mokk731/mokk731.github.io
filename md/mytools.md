@@ -144,6 +144,18 @@
 
 #### [winOS版本下载](https://next.itellyou.cn)
 
+#### [华军软件园](https://www.onlinedown.net/)
+
+#### [脚本之家](https://www.jb51.net/)
+
+#### [果核剥壳](https://www.ghxi.com/)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
