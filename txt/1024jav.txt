@@ -1,6 +1,7 @@
-202501
+202602
 
 cl1024
+https://github.com/yuuwill/1024app-android
 
 Y2UuOTczNXgueHl6CmNlLjk3MzV5Lnh5egpjZS45NzM1ei54eXo=
 
@@ -8,7 +9,7 @@ Y2UuOTczNXgueHl6CmNlLjk3MzV5Lnh5egpjZS45NzM1ei54eXo=
 
 javbus
 
-aHR0cHM6Ly93d3cuc2VlamF2LmhlbHAKaHR0cHM6Ly93d3cuc2VlZG1tLmhlbHAKaHR0cHM6Ly93d3cuYnVzY2RuLmhlbHA=
+aHR0cHM6Ly93d3cuZG1tYnVzLmN5b3UKaHR0cHM6Ly93d3cuY2RuYnVzLmJvbmQKaHR0cHM6Ly93d3cuZmFuYnVzLmJvbmQ=
 
 
 
