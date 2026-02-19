@@ -136,6 +136,20 @@
 #### [iptv-org](https://github.com/iptv-org/iptv)
 
 
+## 软件APK下载网站
+
+#### [豌豆荚应用商店apk](https://www.wandoujia.com/)
+
+#### [Puresys纯净系统-软件下载](https://www.puresys.net/)
+
+#### [winOS版本下载](https://next.itellyou.cn)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
 
 ## 软件技巧
 
