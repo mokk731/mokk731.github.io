@@ -150,9 +150,9 @@
 
 #### [果核剥壳](https://www.ghxi.com/)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [apkpure](https://apkpure.com/cn/)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [西西软件园](https://www.cr173.com/)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
