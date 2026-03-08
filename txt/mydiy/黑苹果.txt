@@ -185,6 +185,14 @@ https://sysin.org/blog/macos-createinstallmedia/   ####################
 Monterey 12
 macappstores://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12     ####################
 
+使用“终端”
+    确保你的 Mac 运行的是 macOS Catalina 10.15 或更高版本。
+    在“终端”中键入以下命令，将 <number> 替换为你想下载的兼容 macOS 所对应的最新 macOS 版本号：softwareupdate --fetch-full-installer --full-installer-version <number>
+        示例：softwareupdate --fetch-full-installer --full-installer-version 12.7.6        ####################
+    按下 Return 键以输入这个命令。当 macOS 下载到“应用程序”文件夹时，“终端”会显示安装（下载）的百分比。如果“终端”显示未找到更新，则表示这个版本的 macOS 不适用于你的 Mac。
+   你可以输入 softwareupdate --list-full-installers 以获取当前适用于你的 Mac 的 macOS 版本列表。
+    当“终端”显示安装成功完成时，下载即为完成。打开“应用程序”文件夹，然后连按两下名为“安装 [版本名称]”的 macOS 安装器，接着按照屏幕上的安装说明操作。或者，将安装器留在“应用程序”文件夹中供以后使用。
+
 
 确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。
 
