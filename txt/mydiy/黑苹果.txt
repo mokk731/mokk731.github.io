@@ -164,9 +164,9 @@ macOS Monterey
 
 
 
-https://support.apple.com/zh-cn/101578
+https://support.apple.com/zh-cn/101578     ####################
 创建可引导的 macOS 安装器
-https://support.apple.com/zh-cn/102662
+https://support.apple.com/zh-cn/102662     ####################
 如何下载和安装 macOS
 
 https://www.cnblogs.com/sysin/p/18241861
@@ -184,6 +184,9 @@ https://sysin.org/blog/macos-createinstallmedia/   ####################
 使用 App Store
 Monterey 12
 macappstores://apps.apple.com/cn/app/macos-monterey/id1576738294?mt=12     ####################
+
+Catalina 10.15
+macappstores://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12     ####################
 
 使用“终端”
     确保你的 Mac 运行的是 macOS Catalina 10.15 或更高版本。
