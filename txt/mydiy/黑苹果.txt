@@ -173,6 +173,10 @@ https://www.cnblogs.com/sysin/p/18241861
 https://macoshome.com/course/7096.html
 使用终端命令制作macOS安装U盘(可引导启动的macOS系统安装盘)
 
+https://sysin.org/blog/macos-createinstallmedia/   ####################
+如何创建可引导的 macOS 安装介质
+如何创建可引导的 macOS 安装器 | 如何制作 macOS USB 启动盘
+
 支持10.13以上版本的Mac请下载：macOS Big Sur、macOS Catalina、macOS Mojave 或 macOS High Sierra 所有从App Store商店下载的镜像都会作为名为“安装 macOS [版本名称]”的 App 下载到你的“应用程序”文件夹里面。如果安装器在下载后打开，直接点击退出不要继续安装。
 
 确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。
@@ -180,6 +184,9 @@ https://macoshome.com/course/7096.html
 sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+
+Monterey
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume      ####################
 
 键入命令后：
 
