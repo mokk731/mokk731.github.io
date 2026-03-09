@@ -202,7 +202,7 @@ macappstores://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12     #####
     当“终端”显示安装成功完成时，下载即为完成。打开“应用程序”文件夹，然后连按两下名为“安装 [版本名称]”的 macOS 安装器，接着按照屏幕上的安装说明操作。或者，将安装器留在“应用程序”文件夹中供以后使用。
 
 
-确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume1 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。   把 U 盘拖拽到终端的窗口中放手，终端会自动把 U 盘的正确路径给你填上。
+确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume1”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume1 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。         把 U 盘拖拽到终端的窗口中放手，终端会自动把 U 盘的正确路径给你填上。
 
 sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume1
 sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume1
