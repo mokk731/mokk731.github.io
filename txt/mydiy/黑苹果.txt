@@ -202,21 +202,21 @@ macappstores://apps.apple.com/cn/app/macos-catalina/id1466841314?mt=12     #####
     当“终端”显示安装成功完成时，下载即为完成。打开“应用程序”文件夹，然后连按两下名为“安装 [版本名称]”的 macOS 安装器，接着按照屏幕上的安装说明操作。或者，将安装器留在“应用程序”文件夹中供以后使用。
 
 
-确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。
+确保你下载的.app安装镜像都在应用程序文件夹内！非常重要！在“终端”中键入或粘贴以下命令之一。其中“MyVolume”是你U盘或者移动硬盘的名称。如果不是这个名称，请将这些命令中的 MyVolume1 替换为你要制作的U盘或者移动硬盘的名称。注意：整个U盘或者移动硬盘都会被格式化用来制作安装盘，有东西要备份走。   把 U 盘拖拽到终端的窗口中放手，终端会自动把 U 盘的正确路径给你填上。
 
-sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
-sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
-sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume1
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume1
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume1
 
 Monterey
-sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume      ####################
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume1      ####################
 
 键入命令后：
 
 按下 Return 键以运行这个命令。
 出现Password提示时，输入你的Mac管理员密码(开机密码)，然后再次按下 Return 键。这个位置输入密码时，“终端”不会显示任何字符。
 出现提示时，请键入 Y 以确认你要抹掉宗卷，然后按下 Return 键运行。在抹掉宗卷的过程中，“终端”会显示进度。
-如果“终端”无法成功完成抹掉操作，请使用“磁盘工具”以“Mac OS 扩展（日志式）”格式抹掉宗卷，然后重新开始。
+如果“终端”无法成功完成抹掉操作，请使用“磁盘工具”以“Mac OS 扩展（日志式）”格式抹掉宗卷 HFS+ ，然后重新开始。
 宗卷被抹掉后，你可能会看到一条提醒，提示“终端”要访问可移除宗卷上的文件。点按“好”以允许继续拷贝。 
 当“终端”显示操作已完成时，你会在桌面看到一个对应镜像版本的名称盘，例如Install macOS Big Sur，就可以退出“终端”并推出安装U盘了。
 
