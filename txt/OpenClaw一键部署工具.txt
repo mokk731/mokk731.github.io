@@ -48,6 +48,19 @@ curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/c
 
 --------------------------------------------------------------------
 
+https://github.com/miaoxworld/openclaw-manager
+桌面版 OpenClaw Manager（推荐）
+
+🎨 现代化 UI - 基于 Tauri 2.0 + React + TypeScript + Rust 构建
+📊 实时监控 - 仪表盘查看服务状态、内存、运行时间
+🔧 可视化配置 - AI 模型、消息渠道一键配置
+💻 跨平台 - 支持 macOS、Windows、Linux
+
+
+
+
+--------------------------------------------------------------------
+
 https://www.bilibili.com/video/BV1MUPWzkE52/
 捅了龙虾窝了!各种版本的小龙虾(openclaw)要怎么选？
 
