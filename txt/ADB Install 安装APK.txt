@@ -1,0 +1,183 @@
+ADB Install 安装APK完全指南：从入门到高级技巧
+
+https://zhuanlan.zhihu.com/p/1947696293330818960
+
+在命令行输入adb devices确认设备已正确连接
+
+基本使用：adb install 命令
+
+adb install的基本用法非常简单：
+
+adb install 应用程序包路径.apk
+
+例如，如果你有一个名为"myapp.apk"的应用程序包在当前目录，可以这样安装：
+
+adb install myapp.apk
+
+如果安装成功，你会看到Success的提示。
+进阶用法：命令参数
+
+adb install命令支持多种参数，让你能够更灵活地安装应用。这些参数可以组合使用（超级实用）：
+1. -r 参数：替换已存在的应用
+
+如果设备上已经安装了同一个应用（相同的包名），使用-r参数可以替换安装：
+
+adb install -r myapp.apk
+
+这相当于"更新"应用，而不需要先卸载再安装。开发测试时经常用到这个！
+2. -d 参数：允许降级安装
+
+通常情况下，你不能安装比当前版本更低版本号的应用。但使用-d参数可以绕过这个限制：
+
+adb install -d myapp.apk
+
+这在测试特定旧版本功能时非常有用。
+3. -s 参数：安装到外部存储（SD卡）
+
+默认情况下，应用会安装到设备的内部存储。使用-s参数可以将应用安装到外部存储：
+
+adb install -s myapp.apk
+
+对于大型应用，这可以节省内部存储空间。
+4. -g 参数：自动授予所有权限
+
+在Android 6.0及以上版本，应用需要在运行时请求敏感权限。使用-g参数可以在安装时自动授予所有权限：
+
+adb install -g myapp.apk
+
+这在测试阶段特别有用，免去了手动授权的麻烦。
+5. -t 参数：允许安装测试APK
+
+测试APK（androidTest）通常有特殊标记。使用-t参数允许安装这类APK：
+
+adb install -t testapp.apk
+
+6. --fastdeploy 参数：快速部署
+
+在较新版本的ADB中，可以使用此参数加速安装过程：
+
+adb install --fastdeploy myapp.apk
+
+7. --no-streaming 参数：非流式安装
+
+默认情况下，较新版本的ADB使用流式传输安装APK。如果遇到问题，可以禁用此功能：
+
+adb install --no-streaming myapp.apk
+
+高级技巧
+同时安装到多台设备
+
+如果你连接了多台设备，默认情况下ADB会报错。你需要指定目标设备：
+
+adb -s ABCD1234 install myapp.apk
+
+其中ABCD1234是设备ID（可通过adb devices查看）。
+批量安装多个APK
+
+如果你需要安装多个APK，可以结合shell脚本实现：
+
+在Windows中：
+
+for %f in (*.apk) do adb install "%f"
+
+在Linux/macOS中：
+
+for f in *.apk; do adb install "$f"; done
+
+这会安装当前目录下的所有APK文件，非常方便！
+分离应用（Split APK）安装
+
+对于一些使用App Bundle
+
+发布的应用，可能会分成多个APK文件。在ADB 1.0.40及以上版本，可以使用：
+
+adb install-multiple base.apk split1.apk split2.apk
+
+或者更简单地：
+
+adb install-multiple *.apk
+
+安装同时获取详细日志
+
+如果安装失败，获取详细日志有助于排查问题：
+
+adb install -r myapp.apk; adb logcat | grep PackageManager
+
+这会显示包管理器的相关日志，帮助你了解安装失败的原因。
+常见问题与解决方案
+问题1：INSTALL_FAILED_ALREADY_EXISTS
+
+错误信息：
+
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+
+解决方案： 使用-r参数覆盖安装：
+
+adb install -r myapp.apk
+
+问题2：INSTALL_FAILED_VERSION_DOWNGRADE
+
+错误信息：
+
+Failure [INSTALL_FAILED_VERSION_DOWNGRADE]
+
+解决方案： 使用-d参数允许降级：
+
+adb install -d myapp.apk
+
+问题3：INSTALL_FAILED_INSUFFICIENT_STORAGE
+
+错误信息：
+
+Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE]
+
+解决方案： - 清理设备存储空间 - 尝试使用-s参数安装到外部存储：
+
+adb install -s myapp.apk
+
+问题4：INSTALL_PARSE_FAILED_NO_CERTIFICATES
+
+错误信息：
+
+Failure [INSTALL_PARSE_FAILED_NO_CERTIFICATES]
+
+解决方案： - 确认APK文件完整性 - 重新导出或签名APK
+实用场景示例
+场景1：开发测试流程
+
+作为开发者，你可能经常需要在真机上测试应用的新版本：
+
+# 构建并立即安装到设备
+./gradlew assembleDebug && adb install -r app/build/outputs/apk/debug/app-debug.apk
+
+这个单行命令可以节省大量时间！
+场景2：自动测试脚本
+
+在持续集成
+
+环境中，你可能需要自动安装和测试应用：
+
+# 自动安装并启动应用
+adb install -r -g myapp.apk
+adb shell am start -n com.example.myapp/.MainActivity
+
+场景3：批量部署到测试设备
+
+当你需要将同一个应用部署到多台测试设备时：
+
+# 获取所有连接的设备列表
+devices=$(adb devices | grep -v "List" | cut -f 1)
+
+# 对每台设备执行安装
+for device in $devices; do
+    echo "安装到设备: $device"
+    adb -s $device install -r myapp.apk
+done
+
+小技巧
+
+    安装后自动打开应用： adb install -r myapp.apk && adb shell monkey -p com.example.myapp -c android.intent.category.LAUNCHER 1
+    安装前自动卸载： adb uninstall com.example.myapp || true && adb install myapp.apk
+    检查安装结果： adb install myapp.apk && adb shell pm list packages | grep myapp
+
+
