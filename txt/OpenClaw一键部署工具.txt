@@ -51,4 +51,13 @@ curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/c
 https://www.bilibili.com/video/BV1MUPWzkE52/
 捅了龙虾窝了!各种版本的小龙虾(openclaw)要怎么选？
 
+https://www.bilibili.com/video/BV1ykcMzSE6h/
+OpenClaw + Ollama 本地部署！无需 API，断网可用，多模型自由切换（GPT-OSS / Qwen 3 / GLM 4.7）
+
+https://space.bilibili.com/3546955986766635
+openclaw本地部署
+
+
+
+
 
