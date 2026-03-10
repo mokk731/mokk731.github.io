@@ -29,6 +29,8 @@
 
 #### [小米平板4](https://mokk731.github.io/txt/mydiy/mi-pad4.txt)
 
+#### [LineageOS原始系统WIFI网络连接受限](https://mokk731.github.io/txt/LineageOS原始系统WIFI网络连接受限.txt)
+
 #### [Magisk-LSPosed](https://mokk731.github.io/txt/mydiy/Magisk-LSPosed.txt)
 
 
