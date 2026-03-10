@@ -42,7 +42,13 @@ openclaw gateway start
 # 运行配置菜单进行详细配置
 bash ~/.openclaw/config-menu.sh
 
-------------------------------------------
-
 # 或从 GitHub 下载运行
 curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/config-menu.sh | bash
+
+
+--------------------------------------------------------------------
+
+https://www.bilibili.com/video/BV1MUPWzkE52/
+捅了龙虾窝了!各种版本的小龙虾(openclaw)要怎么选？
+
+
