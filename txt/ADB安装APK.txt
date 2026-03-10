@@ -180,4 +180,11 @@ done
     安装前自动卸载： adb uninstall com.example.myapp || true && adb install myapp.apk
     检查安装结果： adb install myapp.apk && adb shell pm list packages | grep myapp
 
+-----------------------
 
+https://www.cnblogs.com/shclbear/p/18354710
+使用adb命令安装安卓apk包
+
+这里如果是连接了多个设备的话，就需要指定设备：
+
+     adb -s 设备编号 install apk的完整路径
