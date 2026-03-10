@@ -1,0 +1,48 @@
+## OpenClaw 一键部署工具
+
+https://github.com/miaoxworld/OpenClawInstaller
+
+方式一：一键安装（命令行版）
+curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/install.sh | bash
+
+安装脚本会自动：
+检测系统环境并安装依赖
+安装 OpenClaw
+引导完成核心配置（AI模型、身份信息）
+测试 API 连接
+自动启动 OpenClaw 服务
+可选打开配置菜单进行详细配置（渠道等）
+
+方式二：手动安装
+# 1. 克隆仓库
+git clone https://github.com/miaoxworld/OpenClawInstaller.git
+cd OpenClawInstaller
+
+# 2. 添加执行权限
+chmod +x install.sh config-menu.sh
+
+# 3. 运行安装脚本
+./install.sh
+
+#如果mac有权限问题，可以手动安装clawbot之后再运行install
+npm install -g openclaw
+
+安装完成后脚本会：
+
+自动询问是否启动服务（推荐选择 Y）
+后台启动 OpenClaw Gateway
+可选打开配置菜单进行渠道配置
+如果需要后续管理：
+# 手动启动服务
+source ~/.openclaw/env && openclaw gateway
+
+# 后台启动服务
+openclaw gateway start
+
+# 运行配置菜单进行详细配置
+bash ~/.openclaw/config-menu.sh
+
+------------------------------------------
+
+# 或从 GitHub 下载运行
+curl -fsSL https://raw.githubusercontent.com/miaoxworld/OpenClawInstaller/main/config-menu.sh | bash
