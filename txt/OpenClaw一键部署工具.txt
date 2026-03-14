@@ -73,7 +73,8 @@ openclaw本地部署
 https://www.bilibili.com/video/BV1hGPXzfEHo/
 PUA你的AI员工？大龙虾(OpenClaw)神仙玩法与宝藏插件全搜罗！
 
-
+https://github.com/openclaw/openclaw
+OpenClaw 主仓库
 
 
 
