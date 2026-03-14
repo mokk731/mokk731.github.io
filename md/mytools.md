@@ -76,7 +76,7 @@
 
 #### [brave-browser](https://github.com/brave/brave-browser)
 
-#### [Firefox](https://www.mozilla.org/zh-CN/products/)
+#### [Firefox-browser](https://www.firefox.com/zh-CN/browsers/enterprise/)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
