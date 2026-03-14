@@ -73,6 +73,13 @@
 
 #### [Watt Toolkit  Steam工具箱](https://github.com/BeyondDimension/SteamTools)
 
+
+#### [brave-browser](https://github.com/brave/brave-browser)
+
+#### [Firefox](https://www.mozilla.org/zh-CN/products/)
+
+#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
