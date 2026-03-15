@@ -196,10 +196,22 @@ docker容器设置定时自动重启
 https://blog.51cto.com/u_16175488/12943914
 cron 定时 restart docker
 
-#配置cron任务
-crontab -e
-0 8 * * * docker restart qbittorrent
+https://cn.console-linux.com/?p=34404
+如何在 Linux 上使用 Cron：提示、技巧和示例
 
-#查看cron任务
+
+# 配置cron任务
+crontab -e
+
+0 8 * * * /usr/bin/docker restart qbittorrent
+
+*/10 * * * * /usr/bin/docker restart qbittorrent
+
+在 crontab 文件中显式设置 PATH 环境变量来处理 cron 作业中的路径。这告诉 cron 守护进程去哪里寻找可执行文件。例如：
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+在 crontab 文件的开头添加此行可确保下面的所有 cron 作业都将在这些目录中搜索可执行文件。
+不过，考虑到最佳实践，我们建议始终在 cron 中指定所有可执行文件和脚本的绝对路径避免歧义和潜在错误的工作。
+
+# 查看cron任务
 crontab -l
 
