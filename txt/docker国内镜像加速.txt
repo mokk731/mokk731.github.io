@@ -204,8 +204,8 @@ https://cn.console-linux.com/?p=34404
 crontab -e
 
 0 8 * * * sudo /usr/bin/docker restart qbittorrent
-
-*/10 * * * * sudo /usr/bin/docker restart qbittorrent
+0 */6 * * * sudo /usr/bin/docker restart qbittorrent
+*/30 * * * * sudo /usr/bin/docker restart qbittorrent
 
 在 crontab 文件中显式设置 PATH 环境变量来处理 cron 作业中的路径。这告诉 cron 守护进程去哪里寻找可执行文件。例如：
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
