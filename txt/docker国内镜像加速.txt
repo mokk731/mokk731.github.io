@@ -214,4 +214,14 @@ PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 # 查看cron任务
 crontab -l
+systemctl status cron
+
+
+  最佳实践和技巧
+    在使用 Cron 安排脚本之前手动测试脚本，以确保它们按预期工作。
+    对 crontab 文件中的命令和脚本使用绝对路径以避免路径问题。
+    将输出重定向到文件或邮件以捕获任何输出或错误以进行故障排除（“command > /path/to/logfile 2>&1”）。这样，您就可以查看日志文件中是否存在任何问题。
+    安排作业时请注意系统负载，特别是当它们是资源密集型的或者您在同一时间安排了许多作业时。
+
+
 
