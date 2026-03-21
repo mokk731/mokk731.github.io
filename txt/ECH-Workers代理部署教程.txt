@@ -167,7 +167,7 @@ DoH 服务器（可选）：dns.alidns.com/dns-query
 想全自动？部署 CF Worker 版优选 IP 工具（GitHub 搜 “CF-Worker-BestIP”），它会定时测速生成列表。
 测试速度：YouTube 4K/8K、Netflix/ChatGPT 基本都能跑满 1000M+（晚高峰也稳）。
 
-
+## 优选域名 优选 IP
 cf.130519.xyz
 cf.008500.xyz
 cf.090227.xyz
@@ -176,7 +176,9 @@ cf.877774.xyz
 104.19.37.150
 104.19.55.202
 
-
+www.visa.cn 
+store.ubi.com 
+www.shopify.com
 
 
 
