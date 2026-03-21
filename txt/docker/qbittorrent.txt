@@ -21,6 +21,8 @@ docker pull linuxserver/qbittorrent:4.6.3-r0-ls320
 docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
 2025-12
 
+docker pull linuxserver/qbittorrent:5.1.4
+2026-02
 
 
 
@@ -82,6 +84,10 @@ https://hub.docker.com/r/linuxserver/qbittorrent
 docker pull linuxserver/qbittorrent:5.1.4-r1-ls432
 2025-12
 
+docker pull linuxserver/qbittorrent:5.1.4
+2026-02
+
+
 /qbittorrent/btconfig
 /qbittorrent/btdownloads
 admin/adminadmin
@@ -90,7 +96,7 @@ admin/adminadmin
 version: "2.1"
 services:
   qbittorrent:
-    image: linuxserver/qbittorrent:5.1.4-r1-ls432
+    image: linuxserver/qbittorrent:5.1.4
     container_name: qbittorrent
     environment:
       - PUID=1000
