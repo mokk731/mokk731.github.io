@@ -170,8 +170,8 @@ DoH 服务器（可选）：dns.alidns.com/dns-query
 ## 优选域名 优选 IP
 cf.130519.xyz
 cf.008500.xyz
-cf.090227.xyz
-cf.877774.xyz
+cf.090227.xyz      ## 
+cf.877774.xyz      ## 
 
 104.19.37.150
 104.19.55.202
@@ -181,7 +181,7 @@ store.ubi.com
 www.shopify.com
 
 秋名山优选域名，直接按照上面的教程cname解析到下面的域名即可给个人网站加速！
-三网自适应：cf.877774.xyz
+三网自适应：cf.877774.xyz    ## 
 中国电信：ct.877774.xyz
 中国移动：cmcc.877774.xyz
 中国联通：cu.877774.xyz
