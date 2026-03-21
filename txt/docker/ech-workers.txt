@@ -44,7 +44,22 @@ services:
       - ARG_F=填写你的workers域名和端口
       - ARG_ECH=cloudflare-ech.com
       - ARG_TOKEN=你设置的token
-      - ARG_IP=visa.com
+      - ARG_IP=cf.090227.xyz
       - ARG_L=0.0.0.0:8500
       - ARG_ROUTING=bypass_cn
     restart: unless-stopped
+
+---------------------------------
+
+## 优选域名 优选 IP
+cf.130519.xyz
+cf.008500.xyz
+cf.090227.xyz
+cf.877774.xyz
+
+104.19.37.150
+104.19.55.202
+
+www.visa.cn 
+store.ubi.com 
+www.shopify.com
