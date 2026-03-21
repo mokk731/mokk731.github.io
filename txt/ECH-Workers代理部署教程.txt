@@ -126,7 +126,46 @@ docker run -d \
 ---------------------------------------------------------------------------------------------------------------------
 
 
+ECH-Workers（Cloudflare Workers ECH 代理客户端）的优选IP/域名推荐如下：
+ECH-Workers 配置中，“优选IP/域名”字段（也叫 proxyip 或 cf_cdnip）是关键，能大幅降低延迟、提升速度、固定落地地区（避免 IP 乱跳）。它和普通 CF Workers/VLESS 用的优选一样，主要来自 Cloudflare CDN 优化列表。
+1. 最推荐的优选域名（优先用域名，解析自动优选 IP）
 
+cloudflare-ech.com（强烈推荐，ECH 专用，落地美欧地区，速度最稳，兼容 ECH-TLS 模式）
+cf.090227.xyz（通用稳定，OpenWrt luci-app-ech-workers 默认推荐）
+yg1.ygkkk.dpdns.org（可把 1 换成 1-13，甬哥维护）
+中国移动 → 落地香港（低延迟）
+电信/联通 → 落地日本/新加坡
+
+更多动态列表：直接访问 https://mrxn.net/BESTCFDOMAIN（实时更新 CF 优选域名）
+
+2. 优选 IP（IPv4）示例（实时测试，适合手动填）
+推荐去 https://www.wetest.vip/page/cloudflare/address_v4.html 查看最新列表（每 15 分钟更新，按运营商测速）：
+示例（低延迟 top）：
+
+移动：104.19.49.219（香港 HKG，≈64ms）、104.19.49.150
+电信：162.159.45.180（东京 NRT，≈63ms）
+联通：162.159.26.172 等（洛杉矶 LAX）
+
+提示：优先选你运营商对应的 POP（香港/东京/新加坡最优）。可以用 GitHub 项目（如 gslege/CloudflareIP 或 ethgan/CF-Worker-BestIP-collector）一键自动生成优选 IP 列表。
+3. ECH 专用域名（客户端必填）
+
+cloudflare-ech.com（几乎所有 ECH-Workers 教程都用这个，用于获取 ECH 配置）
+
+配置示例（客户端如 v2rayN / ech-wk / 安卓 app / OpenWrt luci）
+
+服务器地址：你的 Worker 域名:443（或 Pages/自定义域名）
+优选IP/域名：填上面任意一个（e.g. cloudflare-ech.com 或 104.19.49.219）
+ECH 域名：cloudflare-ech.com
+DoH 服务器（可选）：dns.alidns.com/dns-query
+端口：优先 443 系（443、2053、2083、2087、2096、8443）或 80 系
+
+使用建议
+
+移动用户：优先香港 IP/域名（速度最快）。
+电信/联通：日本/新加坡或美欧。
+无需天天手动换，用 cloudflare-ech.com 或 ygkkk 系列最省心。
+想全自动？部署 CF Worker 版优选 IP 工具（GitHub 搜 “CF-Worker-BestIP”），它会定时测速生成列表。
+测试速度：YouTube 4K/8K、Netflix/ChatGPT 基本都能跑满 1000M+（晚高峰也稳）。
 
 
 ---------------------------------------
