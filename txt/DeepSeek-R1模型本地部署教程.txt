@@ -90,7 +90,7 @@ This is an uncensored version of Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-
 
 ollama run huihui_ai/qwen3.5-abliterated:27b-Claude
 
-
+RTX 3090  24G 显存  微星  --闲鱼 5000元  2026-03
 
 
 https://zhuanlan.zhihu.com/p/2015734731027808679
