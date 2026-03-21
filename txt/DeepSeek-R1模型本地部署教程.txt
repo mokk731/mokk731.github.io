@@ -95,6 +95,13 @@ ollama run huihui_ai/qwen3.5-abliterated:27b-Claude
 
 https://zhuanlan.zhihu.com/p/2015734731027808679
 神操作再现，单卡3090 起跑！Claude-4.6-Opus蒸馏Qwen3.5-27B
+核心就是用 Claude Opus 4.6 的“思维链”（Chain-of-Thought, CoT）高质量数据，去重新训练（蒸馏） Qwen3.5-27B 这个 270 亿参数的中等体量开源模型。不仅推理能力有了质的飞跃，最关键的是：单张 RTX 3090 或 4090 就能轻松跑起来！
+实测怎么跑最省钱？社区大佬分享，使用 Q4_K_M 量化版本：
+    显存占用只有约 16.5 GB，手捏 24G 显存的 3090 老玩家毫无压力！
+    生成速度 29–35 tok/s，足够丝滑。
+    保留完整长上下文，没有像早前一些劣质微调那样把注意力窗口阉割到 8k，它宣称跑满 262K 上下文没有打折。
+    修复了官方模型在 Jinja 模板里不支持 developer role 导致的崩溃
+
 
 https://www.bilibili.com/video/BV1vkcrzfEVY/
 两个神奇的Qwen3.5-27B版本，Claude Opus 4.6 加持，RTX 3090 可跑
