@@ -75,6 +75,16 @@ pm uninstall --user 0 com.xiaomi.pass  （小米卡包）
 
 
 
+停用(冻结)
+
+adb shell pm disable-user 应用包名
+   显示disabled-user，表示成功。
+pm disable-user com.android.updater     系统更新
+
+启用(解冻)
+
+adb shell pm enable 应用包名 
+  显示disabled-user，表示成功。
 
 
 
