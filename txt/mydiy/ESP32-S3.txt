@@ -39,6 +39,13 @@ esp32 handshake
 https://github.com/risinek/esp32-wifi-penetration-tool                           ######
 Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
 
+  mode
+  com1
+
+  esptool -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x1000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
+
+
+
 https://www.youtube.com/watch?v=9I3BxRu86GE
 ESP32 Wi-Fi Penetration Tool demo
 
