@@ -224,7 +224,7 @@ commit命令：
  
      ls -l openwrtdata.tar
  
-     sudo scp openwrtdata.tar /srv/dev-disk-by-uuid-d67261a5-c100-461e-be0c-da12baa203fd/Temp   // 将tar压缩包复制到另一台主机
+     sudo scp openwrtdata.tar /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/Temp   // 将tar压缩包复制到另一台主机
 
 ------
      save与load命令：
@@ -232,6 +232,8 @@ commit命令：
      2.启动不用加/bin/bash。
      
      docker save -o xxx.tar 镜像名
+     
+     cd /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/Temp
      docker load -i openwrtdata.tar    // 在另一台主机上加载镜像的tar压缩包
 
      docker run -itd --name openwrt openwrtdata:v1   // 使用这个加载的镜像运行容器
