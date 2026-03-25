@@ -39,3 +39,8 @@ Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
 
 https://www.youtube.com/watch?v=9I3BxRu86GE
 ESP32 Wi-Fi Penetration Tool demo
+
+https://www.youtube.com/watch?v=-Sl1zSwdi-c
+ESP32: WiFi Penetration? Capture Handshake, Packets 🔥
+
+
