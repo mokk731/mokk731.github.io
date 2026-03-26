@@ -10,6 +10,15 @@ https://arduino.me/download
 
 https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32s3/production_stage/tools/flash_download_tool.html
 flash_download_tool   Flash 下载工具
+bootloader.bin       	0x0000_0000
+partition-table.bin 	0x0000_8000
+应用程序.bin         	0x0001_0000
+
+
+作者: HUII
+链接: https://blog.huii.top/MCU/be8ae3d50499.html
+来源: HUII's Blog
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 https://espressif.github.io/esp-launchpad/?    
 ESP LAUNCHPAD 是乐鑫提供的一个基于 Web 的固件烧录工具平台
