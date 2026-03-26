@@ -77,9 +77,9 @@ ESP32: WiFi Penetration? Capture Handshake, Packets 🔥
 
 
 1#  mode
-  COM1
+  COM3
 
-2#  esptool.exe --port COM1 -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x1000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
+2#  esptool.exe --port COM3 -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x1000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
 
 
 3# 192.168.4.1
