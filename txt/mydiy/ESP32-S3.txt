@@ -40,7 +40,7 @@ esp32 handshake
 
 https://github.com/risinek/esp32-wifi-penetration-tool                           ######
 Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
-ESP32-DEVKITC-32E 
+ ESP32-DEVKITC-32E  ESP32-WROOM-32
 
 
 https://github.com/HirukaRA/esp32-wifi-penetration-tool-esp32c3
