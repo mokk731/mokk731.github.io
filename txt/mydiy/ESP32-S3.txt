@@ -6,6 +6,8 @@ https://wiki.luatos.com/chips/esp32s3/board.html
 ESP32S3-CORE开发板
 
 
+https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32s3/production_stage/tools/flash_download_tool.html
+flash_download_tool   Flash 下载工具
 
 
 --------------------------------------------------
@@ -38,6 +40,13 @@ esp32 handshake
 
 https://github.com/risinek/esp32-wifi-penetration-tool                           ######
 Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
+ESP32-DEVKITC-32E 
+
+
+https://github.com/HirukaRA/esp32-wifi-penetration-tool-esp32c3
+https://https://github.com/risinek/esp32-wifi-penetration-tool ESP32C3 for ESP-IDF v4.4
+
+
 
 https://www.youtube.com/watch?v=9I3BxRu86GE
 ESP32 Wi-Fi Penetration Tool demo
