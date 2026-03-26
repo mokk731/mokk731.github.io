@@ -5,6 +5,8 @@
 https://wiki.luatos.com/chips/esp32s3/board.html
 ESP32S3-CORE开发板
 
+https://arduino.me/download
+「Arduino 中文社区」，进入软件下载页面
 
 https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32s3/production_stage/tools/flash_download_tool.html
 flash_download_tool   Flash 下载工具
