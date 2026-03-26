@@ -14,6 +14,10 @@ flash_download_tool   Flash 下载工具
 https://www.arduino.cc/en/software/
 Arduino IDE 2.3.8
 在开发板管理器上，搜索 esp32，可以看到 esp32 by Espressif Systems，点击右下角的安装，等待安装完成即可。这个过程可能比较慢，取决于网络，请耐心等待。
+其它开发板管理器网址:
+https://espressif.github.io/arduino-esp32/package_esp32_index.json        espressif GitHub
+https://arduino.me/packages/esp32.json                                     Arduino 中文社区
+
 
 --------------------------------------------------
 
