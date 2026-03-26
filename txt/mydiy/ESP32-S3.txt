@@ -11,6 +11,9 @@ https://arduino.me/download
 https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32s3/production_stage/tools/flash_download_tool.html
 flash_download_tool   Flash 下载工具
 
+https://espressif.github.io/esp-launchpad/?    
+ESP LAUNCHPAD 是乐鑫提供的一个基于 Web 的固件烧录工具平台
+
 https://www.arduino.cc/en/software/
 Arduino IDE 2.3.8
 在开发板管理器上，搜索 esp32，可以看到 esp32 by Espressif Systems，点击右下角的安装，等待安装完成即可。这个过程可能比较慢，取决于网络，请耐心等待。
