@@ -9,10 +9,11 @@ Arduino 实验室
 https://tieba.baidu.com/f?kw=arduino&ie=utf-8&tab=good
 arduino吧
 
-https://www.youtube.com/watch?v=Z2U8C1ms6uU
+
+https://www.youtube.com/watch?v=Z2U8C1ms6uU&list=PL_i0cTCK_y-jt4XMh5_gaPrDcbbzyXmGR
 【史上最簡單的Arduino教學】  黃信惠的瘋狂教室
 
-https://www.youtube.com/watch?v=HMWSukCrO6c
+https://www.youtube.com/watch?v=HMWSukCrO6c&list=PLF5aWjVhhnRhK9q_UqfX0OU5MqFGh3Mb8
 [Arduino 教學課程]   旭豐老師の創客工作坊
 
 
