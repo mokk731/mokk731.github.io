@@ -31,6 +31,7 @@ Arduino IDE 2.3.8
 https://espressif.github.io/arduino-esp32/package_esp32_index.json        espressif GitHub
 https://arduino.me/packages/esp32.json                                     Arduino 中文社区
 
+如果安装过其他版本的esp32 package，请先删除，再使用本安装包，删除方法：文件管理器地址栏输入 %LOCALAPPDATA%/Arduino15/packages，回车进入，然后删除掉其中的esp32文件夹
 
 --------------------------------------------------
 
@@ -88,6 +89,12 @@ ESP32: WiFi Penetration? Capture Handshake, Packets 🔥
 4# Handshake -- PASSIVE--60
 
 5# PCAP
+
+--------
+
+https://github.com/Spooks4576/Ghost_ESP
+https://espressoflash.com/
+Ghost ESP is a ESP32 Firmware that Revolutionizes the way we use ESP32 devices in a Pen Testing aspect
 
 
 
