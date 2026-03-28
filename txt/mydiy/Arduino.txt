@@ -22,3 +22,19 @@ https://www.youtube.com/watch?v=3mw-1Bvv0WU&list=PLdckmk1Jf8MYOED98iY13wdGi52h-O
 
 
 
+------------------------------------------------------------
+
+https://arduino.me/download
+「Arduino 中文社区」，进入软件下载页面
+
+
+https://www.arduino.cc/en/software/
+Arduino IDE 2.3.8
+在开发板管理器上，搜索 esp32，可以看到 esp32 by Espressif Systems，点击右下角的安装，等待安装完成即可。这个过程可能比较慢，取决于网络，请耐心等待。
+其它开发板管理器网址:
+https://espressif.github.io/arduino-esp32/package_esp32_index.json        espressif GitHub
+https://arduino.me/packages/esp32.json                                     Arduino 中文社区
+
+如果安装过其他版本的esp32 package，请先删除，再使用本安装包，删除方法：文件管理器地址栏输入 %LOCALAPPDATA%/Arduino15/packages，回车进入，然后删除掉其中的esp32文件夹
+
+
