@@ -85,7 +85,7 @@ ESP32: WiFi Penetration? Capture Handshake, Packets 🔥
 
 
 3# 192.168.4.1
-   By default: SSID: ManagementAP and password: mgmtadmin
+   SSID: ManagementAP         password: mgmtadmin
 
 4# Handshake -- DEAUTH-PASSIVE--60
 
@@ -99,7 +99,7 @@ https://github.com/Spooks4576/Ghost_ESP
 https://espressoflash.com/
 Ghost ESP is a ESP32 Firmware that Revolutionizes the way we use ESP32 devices in a Pen Testing aspect
 
-ID:GhostNet   SN:GhostNet
+SSID: GhostNet         password:  GhostNet
 
 ------------------------------------------------
 
