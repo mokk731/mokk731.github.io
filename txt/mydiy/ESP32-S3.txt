@@ -10,9 +10,9 @@ https://arduino.me/download
 
 https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32s3/production_stage/tools/flash_download_tool.html
 flash_download_tool   Flash 下载工具
-bootloader.bin       	0x0000_0000
-partition-table.bin 	0x0000_8000
-应用程序.bin         	0x0001_0000
+bootloader.bin       	0x0000         0x1000
+partition-table.bin 	0x8000
+应用程序.bin         	0x10000
 
 
 
@@ -63,12 +63,13 @@ esp32 handshake
 
 https://github.com/risinek/esp32-wifi-penetration-tool                           ######
 Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
- ESP32-DEVKITC-32E  ESP32-WROOM-32
+ ESP32-DEVKITC-32E  
+ESP32-WROOM-32     ---PDD    ESP32-D0WD-V3 (revision v3.1)
 
 
 https://github.com/HirukaRA/esp32-wifi-penetration-tool-esp32c3
 https://https://github.com/risinek/esp32-wifi-penetration-tool ESP32C3 for ESP-IDF v4.4
-
+esptool.exe --port COM3 -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x0000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
 
 
 https://www.youtube.com/watch?v=9I3BxRu86GE
@@ -78,10 +79,12 @@ https://www.youtube.com/watch?v=-Sl1zSwdi-c
 ESP32: WiFi Penetration? Capture Handshake, Packets 🔥
 
 
+
+ESP32-WROOM-32
 1#  mode
   COM3
 
-2#  esptool.exe --port COM3 -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x0000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
+2#  esptool.exe --port COM3 -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x1000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
 
 
 3# 192.168.4.1
