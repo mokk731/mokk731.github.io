@@ -41,7 +41,7 @@ ESP LAUNCHPAD 是乐鑫提供的一个基于 Web 的固件烧录工具平台
 
 ------------
 
-## Arduino ID
+## Arduino IDE
 
 https://www.arduino.cc/en/software/
 Arduino IDE 2.3.8
