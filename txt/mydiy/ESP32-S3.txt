@@ -8,6 +8,8 @@ ESP32S3-CORE开发板
 https://arduino.me/download
 「Arduino 中文社区」，进入软件下载页面
 
+## 烧录工具
+
 https://docs.espressif.com/projects/esp-test-tools/zh_CN/latest/esp32s3/production_stage/tools/flash_download_tool.html
 flash_download_tool   Flash 下载工具
 bootloader.bin       	0x0000         0x1000
@@ -16,6 +18,20 @@ partition-table.bin 	0x8000
 
 
 
+https://www.bilibili.com/video/BV1s24y137cK/
+MicroPython ESP32 S3 16M+8M （配套教程）
+esptool 烧特殊固件，
+https://github.com/espressif/esptool/releases
+
+https://space.bilibili.com/235630830       fvstory
+
+thonny 工作模式,
+
+
+------------
+
+## 初始化烧录bin文件
+
 https://blog.huii.top/MCU/be8ae3d50499.html
 ESP32-C3手动烧录bin文件
 
@@ -23,6 +39,9 @@ ESP32-C3手动烧录bin文件
 https://espressif.github.io/esp-launchpad/?    
 ESP LAUNCHPAD 是乐鑫提供的一个基于 Web 的固件烧录工具平台
 
+------------
+
+## Arduino ID
 
 https://www.arduino.cc/en/software/
 Arduino IDE 2.3.8
@@ -34,16 +53,6 @@ https://arduino.me/packages/esp32.json                                     Ardui
 如果安装过其他版本的esp32 package，请先删除，再使用本安装包，删除方法：文件管理器地址栏输入 %LOCALAPPDATA%/Arduino15/packages，回车进入，然后删除掉其中的esp32文件夹
 
 --------------------------------------------------
-
-https://www.bilibili.com/video/BV1s24y137cK/
-MicroPython ESP32 S3 16M+8M （配套教程）
-esptool 烧特殊固件，
-https://github.com/espressif/esptool/releases
-
-https://space.bilibili.com/235630830       fvstory
-
-thonny 工作模式,
-
 
 
 
@@ -102,6 +111,8 @@ ESP32-WROOM-32
 
 
 ------------------------------------------------
+
+## GhostESP
 
 https://github.com/Spooks4576/Ghost_ESP
 https://github.com/GhostESP-Revival/GhostESP
