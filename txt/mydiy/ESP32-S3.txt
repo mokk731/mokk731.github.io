@@ -59,17 +59,22 @@ https://github.com/martin-ger/esp_wifi_repeater
 
 --------------------------------------------
 
-esp32 handshake
+## esp32 handshake
 
 https://github.com/risinek/esp32-wifi-penetration-tool                           ######
 Exploring possibilities of ESP32 platform to attack on nearby Wi-Fi networks.
  ESP32-DEVKITC-32E  
-ESP32-WROOM-32     ---PDD    ESP32-D0WD-V3 (revision v3.1)
+ESP32-WROOM-32     ---PDD WAVGAT旗舰店    ESP32-D0WD-V3 (revision v3.1)
 
 
-https://github.com/HirukaRA/esp32-wifi-penetration-tool-esp32c3
-https://https://github.com/risinek/esp32-wifi-penetration-tool ESP32C3 for ESP-IDF v4.4
+https://github.com/HirukaRA/esp32-wifi-penetration-tool-esp32c3           ######
+ESP32C3 for ESP-IDF v4.4
+ ESP32-C3
+
 esptool.exe --port COM3 -b 115200 --after hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x8000 build/partition-table.bin 0x0000 build/bootloader.bin 0x10000 build/esp32-wifi-penetration-tool.bin
+
+
+
 
 
 https://www.youtube.com/watch?v=9I3BxRu86GE
@@ -96,7 +101,7 @@ ESP32-WROOM-32
 
 
 
---------
+------------------------------------------------
 
 https://github.com/Spooks4576/Ghost_ESP
 https://espressoflash.com/
