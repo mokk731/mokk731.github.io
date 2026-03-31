@@ -104,7 +104,7 @@ ESP32-WROOM-32
 3# 192.168.4.1
    SSID: ManagementAP         password: mgmtadmin
 
-4# Handshake -- DEAUTH-PASSIVE--60
+4# Handshake -- DEAUTH_Rogue_AP(PASSIVE) --60
 
 5# PCAP
 
