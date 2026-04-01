@@ -109,6 +109,8 @@ ESP32-WROOM-32
 5# PCAP
 
 
+缺点：PCAP-Handshake 要用Wireshark 验证4次成功握手才能通过，，没4次都是失败， 成功率不高。
+
 
 ------------------------------------------------
 
@@ -120,6 +122,8 @@ https://espressoflash.com/
 Ghost ESP is a ESP32 Firmware that Revolutionizes the way we use ESP32 devices in a Pen Testing aspect
 
 SSID: GhostNet         password:  GhostNet
+
+缺点： 不好用，全是命令行，没有自动化。
 
 ------------------------------------------------
 
