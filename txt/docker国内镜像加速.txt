@@ -145,7 +145,7 @@ sudo vim  nano /etc/docker/daemon.json
 
 --------------------------------
 
-202604     -omv6
+202604     omv6    ###########
 
 
 {
