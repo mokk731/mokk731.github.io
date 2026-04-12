@@ -95,6 +95,10 @@ docker.adysec.com
 10 月 09 日 确认可用镜像：https://docker.udayun.com
 10 月 21 日新增镜像：https://xdark.top
 
+202604镜像加速：
+https://hub.registry-mirrors.top/
+https://1ms.run/
+https://lispy.org/
 
 ----------------------------------------------------------------------
 
@@ -103,7 +107,7 @@ docker.adysec.com
 创建或修改/etc/docker/daemon.json文件
 默认没有daemon文件，先创建。
 
-vim  nano /etc/docker/daemon.json         
+sudo vim  nano /etc/docker/daemon.json         
 
 添加如下内容：
 
@@ -140,14 +144,16 @@ vim  nano /etc/docker/daemon.json
 }
 
 --------------------------------
-202501  -omv6
+
+202604     -omv6
+
 
 {
   "data-root": "/var/lib/docker",
   "registry-mirrors": [
-     "https://dockerhub.anzu.vip",
-     "https://docker.jsdelivr.fyi",
-     "https://docker.adysec.com"
+     "https://hub.registry-mirrors.top",
+     "https://1ms.run",
+     "https://lispy.org"
    ]
 }
 
@@ -159,15 +165,15 @@ vim  nano /etc/docker/daemon.json
 
 在终端输入以下命令
 
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
-systemctl restart docker
+sudo systemctl restart docker
 
 ------------------------------------------------------------------------
 
 4.验证是否成功
 
-打开终端执行docker info命令，可见下面信息。
+打开终端执行 sudo docker info命令，可见下面信息。
 
 -----------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
