@@ -94,6 +94,8 @@
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
+
+
 ## 浏览器扩展插件
 
 #### [Tampermonkey油猴+浏览器扩展插件](https://mokk731.github.io/md/tampermonkey)
@@ -104,6 +106,8 @@
 
 #### [Auto Quality for YouTube2.1.3-chrome](https://mokk731.github.io/ziprar/win-tools/Auto Quality for YouTube2.1.3-chrome.zip)
 
+
+
 ## 网页导航
 
 #### [阿虚同学的储物间](https://axutongxue.com/)
@@ -111,15 +115,10 @@
 #### [BT-trackerslist](https://mokk731.github.io/txt/trackerslist.txt)
 
 
-
 #### [电影天堂](https://www.dygod.net/html/gndy/)
 
-#### [磁力猫](https://rlytxykg.clm447.buzz/)
-
-#### [SkrBT-skrso.link](https://skrbtyx.top/)
 
 #### [在线电影+小雅Alist](https://mokk731.github.io/txt/在线电影+小雅Alist.txt)
-
 
 
 #### [1024+jav](https://mokk731.github.io/txt/1024jav.txt)
@@ -130,6 +129,15 @@
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
+
+
+## BT磁力搜索
+
+#### [磁力猫](https://www.cilimao.beer/)
+
+#### [SkrBT](https://skrbtyx.top/)
+
+#### [吴签磁力](https://wuqianyu.top/)
 
 
 
@@ -168,6 +176,7 @@
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
 
 
 ## 软件技巧
