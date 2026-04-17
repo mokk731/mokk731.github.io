@@ -104,7 +104,7 @@
 
 #### [Proxy SwitchySharp1.10.7-chrome](https://mokk731.github.io/ziprar/win-tools/ProxySwitchySharp1.10.7-chrome.zip)
 
-#### [Auto Quality for YouTube2.1.3-chrome](https://mokk731.github.io/ziprar/win-tools/Auto Quality for YouTube2.1.3-chrome.zip)
+#### [Auto Quality for YouTube2.1.3-chrome](https://mokk731.github.io/ziprar/win-tools/AutoQualityforYouTube2.1.3-chrome.zip)
 
 
 
