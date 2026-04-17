@@ -14,7 +14,7 @@
 #### [jpwb81.zip 极品五笔](https://mokk731.github.io/ziprar/win-tools/jpwb81.zip)
 
 
-#### [Geek Uninstaller.zip](https://mokk731.github.io/ziprar/win-tools/Geek Uninstaller.zip)
+#### [GeekUninstaller.zip](https://mokk731.github.io/ziprar/win-tools/Geek Uninstaller.zip)
 
 
 #### [HandyRecovery.rar](https://mokk731.github.io/ziprar/win-tools/HandyRecovery.rar)
