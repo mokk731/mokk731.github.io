@@ -17,7 +17,11 @@ ZnJlZTE4L3YycmF5
 clash-core
 https://github.com/Kuingsmile/clash-core/releases
 
+hiddify
+https://github.com/hiddify/hiddify-app/releases
 
+MahsaNG
+https://github.com/GFW-knocker/MahsaNG/releases
 
 -----------------------------------------------------
 
