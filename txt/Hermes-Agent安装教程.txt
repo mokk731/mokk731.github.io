@@ -1,5 +1,12 @@
 ## Hermes-Agent 安装与基础配置完整指南
 
+https://github.com/NousResearch/hermes-agent
+The agent that grows with you
+
+Hermes-Agent 是由 Nous Research 开发的开源自主 AI 代理（MIT 许可证），其核心设计理念是”一个与你共同成长的 Agent”。该项目的核心创新在于内置的自我学习循环——能够从经验中创建技能、在使用中改进技能、主动持久化知识，并在跨会话中构建对用户的深度理解。
+
+
+
 https://zhuanlan.zhihu.com/p/2025157177258583583
 Hermes-Agent 安装与基础配置完整指南
 
@@ -11,5 +18,101 @@ Hermes Agent 本地安装保姆级教程：Mac/Linux/Windows 全平台覆盖
 
 https://www.cnblogs.com/qiniushanghai/p/19851330
 Hermes Agent 安装配置完整指南：一行命令部署自我进化 AI Agent
+
+
+------------------------------------------------------------------
+
+在安装前确认以下环境满足要求：
+    操作系统：Linux（主流发行版）、macOS、Windows WSL2、Android Termux
+    Python：3.10+
+    内存：建议 4GB+（本地运行 Hermes 模型需 16GB+）
+    网络：需访问 GitHub 及选定的 LLM 提供商 API
+
+-------------------------
+
+macOS 安装
+步骤 1：安装前置依赖
+如果你使用的是全新的 Mac，需要先安装 Homebrew：
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+安装 Python 3.11+ 和 Node.js 18+：
+brew install python@3.12 node
+
+步骤 2：一键安装 Hermes Agent
+curl -fsSL https://hermes-agent.org/install.sh | bash
+安装脚本会自动：
+    检查系统环境
+    创建 Python 虚拟环境
+    安装所有依赖包
+    配置 CLI 命令
+
+步骤 3：初始化配置
+hermes init
+交互式向导会引导你完成：
+    选择模型提供商（推荐 OpenRouter 或 DeepSeek）
+    输入 API Key
+    选择默认模型
+    配置基础权限
+
+步骤 4：启动
+hermes start
+看到 Hermes Agent is running 就表示安装成功了。
+
+-------------------------
+
+Linux（Ubuntu）安装
+步骤 1：系统更新和依赖安装
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y python3.12 python3.12-venv nodejs npm git ripgrep
+
+步骤 2：一键安装
+curl -fsSL https://hermes-agent.org/install.sh | bash
+
+步骤 3-4：同 macOS
+hermes init
+hermes start
+
+-------------------------
+
+Windows（WSL2）安装
+步骤 1：启用 WSL2
+在 PowerShell（管理员）中执行：
+wsl --install -d Ubuntu-22.04
+重启电脑后，打开 Ubuntu 终端。
+
+步骤 2：在 WSL2 中安装
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y python3.12 python3.12-venv nodejs npm git ripgrep
+curl -fsSL https://hermes-agent.org/install.sh | bash
+
+步骤 3-4：同上
+hermes init
+hermes start
+
+验证安装
+hermes --version    # 查看版本
+hermes status       # 检查运行状态
+hermes chat         # 进入交互式对话
+
+-------------------------
+
+FAQ：
+
+Q1：安装脚本安全吗？
+A：安装脚本完全开源，你可以在 GitHub 仓库 中查看源码。建议先用 curl -fsSL https://hermes-agent.org/install.sh | less 审查脚本内容。
+
+Q2：安装后配置文件在哪里？
+A：所有配置和数据存储在 ~/.hermes/ 目录下，包括 config.yaml、记忆数据库、技能文件等。
+
+Q3：可以同时安装多个 Hermes Agent 实例吗？
+A：同一台机器上通常只运行一个实例。如果需要多实例，建议使用 Docker 容器隔离。
+
+
+
+
+
+
+
+
+
 
 
