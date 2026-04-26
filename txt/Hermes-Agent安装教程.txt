@@ -2,3 +2,14 @@
 
 https://zhuanlan.zhihu.com/p/2025157177258583583
 Hermes-Agent 安装与基础配置完整指南
+
+https://hermesagent.org.cn/docs/getting-started/installation
+Hermes Agent 是项目和产品的正式名称。文档、GitHub 仓库、安装命令、社区讨论和搜索结果都统一使用这一写法。 现在已经有 类 Unix 安装路径 和 Windows 安装路径 两套方案。
+
+https://cloud.tencent.com/developer/article/2655513
+Hermes Agent 本地安装保姆级教程：Mac/Linux/Windows 全平台覆盖
+
+https://www.cnblogs.com/qiniushanghai/p/19851330
+Hermes Agent 安装配置完整指南：一行命令部署自我进化 AI Agent
+
+
