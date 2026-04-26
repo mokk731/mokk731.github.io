@@ -7,7 +7,7 @@
 | 手机：               |  MTK7400ultra RedmiNote15Pro,  MTK8400Ultra RedmiTurbo4,,...                      |
 |路由器:               |  中兴E8820S ,小米CR660x,小米CR880x, 小米WR30U,,中移动RAX3000m                       |
 |Mesh组网:             | 小米AX3000T,小米AX3000E-苹果友好, 小米WR30U,..... 锐捷雪豹X30E电竞路由器                |
-|NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,   OrangePi-Zero3-h618          |
+|NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,  网心云OEC/OECT-RK3566           |
 |电视盒子：             | 外贸盒子HK1 box ,  魔百盒CM-311 ,                                                | 
 |看电视app：           | 小薇直播,,TV-box  灵犀直播TV ,  电视直播Pro  , my-tv  ,荐片pc+app                   |
 |在线免费电影：         | www.smdyy.cc 神马电影网 ,  www.pkmp4.xyz 片库 ,  www.dygod.net 电影天堂    ,       |
