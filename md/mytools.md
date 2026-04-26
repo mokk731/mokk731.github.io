@@ -183,11 +183,15 @@
 
 #### [win软件技巧-杂](https://mokk731.github.io/txt/win软件技巧.txt)
 
-#### [OpenClaw一键部署工具](https://mokk731.github.io/txt/OpenClaw一键部署工具.txt)
-
 #### [DeepSeek-R1模型本地部署教程](https://mokk731.github.io/txt/DeepSeek-R1模型本地部署教程.txt)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+
+
+#### [OpenClaw一键部署工具](https://mokk731.github.io/txt/OpenClaw一键部署工具.txt)
+
+#### [Hermes-Agent安装教程](https://mokk731.github.io/txt/Hermes-Agent安装教程.txt)
+
+
 
 #### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
