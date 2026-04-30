@@ -1,9 +1,10 @@
-S905X3  4G+32G
+## HK1-box
+
+S905X3  4G+32G    202302 购于TB
 
 armbian
 
 https://github.com/ophub/amlogic-s9xxx-armbian
-
 https://github.com/ophub/amlogic-s9xxx-openwrt
 
 -----------------
@@ -14,10 +15,6 @@ root  sn:123456
 
 portainer 2.9.1
 admin  sn:12345678
-
-
-
-
 
 
 OpenWrt_Aml_official_02.10.0038
@@ -49,7 +46,7 @@ These are the Armbian OS image
 
 
 
-Armbian_jammy_save_2023.07
+Armbian_jammy_save_2023.07         #######
 
   Default username: root
   Default password: 1234
