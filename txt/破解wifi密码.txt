@@ -215,6 +215,10 @@ https://github.com/kimocoder/wifite2
 
 # 安装
 
+Development Install with pip
+For development or if you want to modify wifite
+
+# Clone and enter directory
 wget https://github.com/kimocoder/wifite2/archive/master.zip && unzip master.zip
 cd wifite2-master
 
