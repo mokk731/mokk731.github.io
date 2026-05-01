@@ -96,9 +96,11 @@ docker.adysec.com
 10 月 21 日新增镜像：https://xdark.top
 
 202604镜像加速：
-https://hub.registry-mirrors.top/
-https://1ms.run/
-https://lispy.org/
+https://docker.jsdelivr.fyi
+https://1ms.run
+https://lispy.org
+
+
 
 ----------------------------------------------------------------------
 
@@ -125,11 +127,11 @@ sudo vim  nano /etc/docker/daemon.json
 
 ------------
 
-
+202604     hk1-box
 
 {
   "bip": "172.31.0.1/24",
-  "data-root": "/var/lib/docker/",
+  "data-root": "/var/lib/docker",
   "log-level": "warn",
   "log-driver": "json-file",
   "log-opts": {
@@ -137,9 +139,9 @@ sudo vim  nano /etc/docker/daemon.json
      "max-file": "5"
    },
   "registry-mirrors": [
-     "https://hub-mirror.c.163.com",
-     "https://docker.fxxk.dedyn.io",
-     "https://docker.m.daocloud.io"
+     "https://docker.jsdelivr.fyi",
+     "https://1ms.run",
+     "https://lispy.org"
    ]
 }
 
@@ -151,7 +153,7 @@ sudo vim  nano /etc/docker/daemon.json
 {
   "data-root": "/var/lib/docker",
   "registry-mirrors": [
-     "https://hub.registry-mirrors.top",
+     "https://docker.jsdelivr.fyi",
      "https://1ms.run",
      "https://lispy.org"
    ]
