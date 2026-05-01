@@ -228,6 +228,12 @@ reaver: For WPS Pixie-Dust & brute-force attacks.
 bully: For WPS Pixie-Dust & brute-force attacks.
 
 
+# Attack a specific WPA3 network by BSSID
+sudo wifite -b AA:BB:CC:DD:EE:FF
+
+
+handshake文件目录：
+~/wifite2-master/hs/
 
 
 
