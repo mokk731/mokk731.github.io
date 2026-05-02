@@ -234,6 +234,25 @@ http://localhost:8648
 ------------------------------------------------------------------
 
 
+https://hermesagent.org.cn/docs/user-guide/messaging/feishu
+飞书 / Lark 集成设置
+
+# 选项 A：交互式设置
+hermes gateway setup
+选择 飞书 / Lark 并填写提示信息。生成二维码，飞书扫码。
+
+# 启动网关
+hermes gateway
+
+# 验证飞书的验证码
+hermes pairing approve feishu XXXXXXXX
+
+
+
+
+
+
+
 ------------------------------------------------------------------
 
 
