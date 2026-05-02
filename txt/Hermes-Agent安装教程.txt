@@ -123,6 +123,62 @@ The self-improving AI agent built by Nous Research. The only agent with a built-
 
 
 ------------------------------------------------------------------
+我的安装过程：
+
+# 下载Docker
+基于 Docker 部署 Hermes Agent 并接入飞书机器人
+https://hub.docker.com/r/nousresearch/hermes-agent
+docker pull nousresearch/hermes-agent:v2026.4.30
+
+mkdir -p /srv/.hermes
+chmod -R 755 /srv/.hermes
+
+# 以交互方式启动容器以运行设置向导
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30 setup
+
+
+  nano /srv/.hermes/config.yaml
+  nano /srv/.hermes/.env
+
+
+# 以网关模式运行
+docker run -d \
+  --name hermes \
+  --restart unless-stopped \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30 gateway run
+
+# 交互式运行（CLI 聊天 ）
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30 setup
+
+# 对于持久化网关部署，使用 docker-compose.yaml 非常方便：
+
+version: "3.8"
+services:
+  hermes:
+    image: nousresearch/hermes-agent:v2026.4.30
+    container_name: hermes
+    restart: unless-stopped
+    command: gateway run
+    volumes:
+      - /srv/.hermes:/opt/data
+    # 取消注释以转发特定的环境变量，而不是使用 `.env` 文件：
+    # 环境：
+    #   - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    #   - OPENAI_API_KEY=${OPENAI_API_KEY}
+    #   - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: "2.0"
+
+
+
 
 
 ------------------------------------------------------------------
