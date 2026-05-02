@@ -146,6 +146,7 @@ docker run -it --rm \
     选择 deepseek-v4-flash 模型
     继续完成其余配置选项
 
+  https://platform.deepseek.com
 
   nano /srv/.hermes/config.yaml
   nano /srv/.hermes/.env
@@ -187,10 +188,12 @@ services:
 
 
 -----------------------------------------------------------------
+
+
 # Hermes Agent 开启 WebUI 并用浏览器接入（最新推荐方式）
 Hermes Agent 有两种主流 WebUI：
 1，官方 Web Dashboard（推荐，大部分功能最完整）
-2，社区 hermes-web-ui（更轻量，聊天体验更好）
+2，社区 hermes-web-ui（更轻量，聊天体验更好）    #####
 
 
 打开 Web Dashboard（浏览器管理界面）
@@ -204,6 +207,21 @@ hermes dashboard --port 9119 --host 0.0.0.0     ######
 192.168.10.0/24
 默认自动打开浏览器访问 http://127.0.0.1:9119。
 支持 Chat、Config、Sessions、API Keys、Logs 等功能。
+
+
+
+
+# 社区 hermes-web-ui（聊天界面更友好）
+
+# 推荐安装方式
+npm install -g hermes-web-ui
+
+# 启动
+hermes-web-ui start
+
+浏览器访问地址：
+http://localhost:8648
+
 
 
 
