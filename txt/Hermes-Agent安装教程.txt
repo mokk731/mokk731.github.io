@@ -244,11 +244,21 @@ hermes gateway setup
 # 启动网关
 hermes gateway
 
-# 验证飞书的验证码
+# 验证飞书的验证码   
 hermes pairing approve feishu XXXXXXXX
+成功！！
 
 
+# 选项 B：手动配置
+将以下内容添加到 ~/.hermes/.env 文件中：
+FEISHU_APP_ID=cli_xxx
+FEISHU_APP_SECRET=secret_xxx
+FEISHU_DOMAIN=feishu
+FEISHU_CONNECTION_MODE=websocket
 
+# 可选但强烈推荐
+FEISHU_ALLOWED_USERS=ou_xxx,ou_yyy
+FEISHU_HOME_CHANNEL=oc_xxx
 
 
 
