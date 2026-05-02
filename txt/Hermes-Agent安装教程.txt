@@ -153,7 +153,7 @@ docker run -d \
 # 交互式运行（CLI 聊天 ）
 docker run -it --rm \
   -v /srv/.hermes:/opt/data \
-  nousresearch/hermes-agent:v2026.4.30 setup
+  nousresearch/hermes-agent:v2026.4.30
 
 # 对于持久化网关部署，使用 docker-compose.yaml 非常方便：
 
@@ -178,6 +178,24 @@ services:
           cpus: "2.0"
 
 
+-----------------------------------------------------------------
+# Hermes Agent 开启 WebUI 并用浏览器接入（最新推荐方式）
+Hermes Agent 有两种主流 WebUI：
+1，官方 Web Dashboard（推荐，大部分功能最完整）
+2，社区 hermes-web-ui（更轻量，聊天体验更好）
+
+
+打开 Web Dashboard（浏览器管理界面）
+步骤：
+Bash# 先确保安装了 web 依赖（如果没装）
+pip install 'hermes-agent[web,pty]'
+
+# 启动仪表盘
+hermes dashboard --port 9119 --host 0.0.0.0     ######
+
+192.168.10.0/24
+默认自动打开浏览器访问 http://127.0.0.1:9119。
+支持 Chat、Config、Sessions、API Keys、Logs 等功能。
 
 
 
