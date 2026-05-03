@@ -123,7 +123,8 @@ The self-improving AI agent built by Nous Research. The only agent with a built-
 
 
 ------------------------------------------------------------------
-我的安装过程：
+
+我的安装过程：            ########
 
 # 下载Docker
 基于 Docker 部署 Hermes Agent 并接入飞书机器人
@@ -165,10 +166,7 @@ docker run -d \
   -v /srv/.hermes:/opt/data \
   nousresearch/hermes-agent:v2026.4.30 gateway run
 
-# 交互式运行（CLI 聊天 ）
-docker run -it --rm \
-  -v /srv/.hermes:/opt/data \
-  nousresearch/hermes-agent:v2026.4.30
+
 
 # 对于持久化网关部署，使用 docker-compose.yaml 非常方便：
 
@@ -191,6 +189,12 @@ services:
         limits:
           memory: 4G
           cpus: "2.0"
+
+
+# 交互式运行（CLI 聊天 ）                  ########
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30
 
 
 -----------------------------------------------------------------
@@ -230,6 +234,8 @@ http://localhost:8648
 
 
 
+
+####
 docker版hermes，， 官方 Web Dashboard,社区 hermes-web-ui，都没成功，反复要在docker内要安装hermes。
 用交互式运行（CLI 聊天 ），就够了。
 
