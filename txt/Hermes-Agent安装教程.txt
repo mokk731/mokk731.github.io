@@ -275,27 +275,20 @@ FEISHU_HOME_CHANNEL=oc_xxx
 
 飞书机器人创建流程
 4.1 进入开发者平台
-
 打开飞书开放平台：
-
 https://open.feishu.cn/
-
 登录后进入开发者后台。
+
 4.2 创建企业自建应用
-
 填写基本信息：
-
     应用名称：Hermes AI
     应用描述：AI 助手
-
 创建后进入应用详情页。
+
 4.3 获取关键凭证
-
 在"凭证与基础信息"中获取：
-
     App ID
     App Secret
-
 注意：Secret 只会显示一次，务必保存。
 
 
