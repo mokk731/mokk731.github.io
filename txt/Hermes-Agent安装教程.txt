@@ -230,6 +230,10 @@ http://localhost:8648
 
 
 
+docker版hermes，， 官方 Web Dashboard,社区 hermes-web-ui，都没成功，反复要在docker内要安装hermes。
+用交互式运行（CLI 聊天 ），就够了。
+
+
 
 ------------------------------------------------------------------
 
@@ -264,6 +268,21 @@ FEISHU_HOME_CHANNEL=oc_xxx
 
 
 ------------------------------------------------------------------
+
+/srv/.hermes/.env   重要备份：
+
+DEEPSEEK_API_KEY=sk-XXXX
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+HERMES_MAX_ITERATIONS=90
+
+FEISHU_APP_ID=cli_XXXX
+FEISHU_APP_SECRET=XXXX
+FEISHU_DOMAIN=feishu
+FEISHU_CONNECTION_MODE=websocket
+FEISHU_ALLOW_ALL_USERS=false
+FEISHU_ALLOWED_USERS=ou_XXXX
+FEISHU_GROUP_POLICY=open
+
 
 
 ------------------------------------------------------------------
