@@ -1,0 +1,157 @@
+Hermes Agent 
+
+
+# 下载Docker
+基于 Docker 部署 Hermes Agent 并接入飞书机器人             
+https://hub.docker.com/r/nousresearch/hermes-agent
+docker pull nousresearch/hermes-agent:v2026.4.30
+
+mkdir -p /srv/.hermes
+chmod -R 755 /srv/.hermes
+
+# 以交互方式启动容器以运行设置向导                                ########
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30 setup
+
+
+https://hermesagent.org.cn/docs/getting-started/setup-wizard
+Hermes Agent Setup Wizard
+
+    执行 hermes setup 命令
+    选择 Quick Setup
+    当提示选择模型提供商时，选择 DeepSeek
+    输入你的 DeepSeek API Key
+    Base URL 填写 https://api.deepseek.com
+    选择 deepseek-v4-flash 模型
+    继续完成其余配置选项
+    是否配置消息平台的界面 这里我们先先跑一个最小可用的版本出来，所以先跳过
+
+
+  https://platform.deepseek.com  充值查账
+
+  nano /srv/.hermes/config.yaml
+  nano /srv/.hermes/.env
+
+
+# 以网关模式运行                                         ########
+docker run -d \
+  --name hermes \
+  --restart unless-stopped \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30 gateway run
+
+
+
+# 对于持久化网关部署，使用 docker-compose.yaml 非常方便：
+
+version: "3.8"
+services:
+  hermes:
+    image: nousresearch/hermes-agent:v2026.4.30
+    container_name: hermes
+    restart: unless-stopped
+    command: gateway run
+    volumes:
+      - /srv/.hermes:/opt/data
+    # ports:
+    #  - 8000:8000
+    #  - 9119:9119
+    #  - 8648:8648  
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+    #  - WEBUI_PORT=8000
+    # 取消注释以转发特定的环境变量，而不是使用 `.env` 文件：
+    # 环境：
+    #   - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    #   - OPENAI_API_KEY=${OPENAI_API_KEY}
+    #   - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: "2.0"
+
+
+# 交互式运行（CLI 聊天 ）                               ########
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  nousresearch/hermes-agent:v2026.4.30
+
+
+-----------------------------------------------------------------
+
+
+------------------------------------------------------------------
+
+## Hermes Agent 接入飞书机器人
+
+https://hermesagent.org.cn/docs/user-guide/messaging/feishu
+飞书 / Lark 集成设置
+
+# 选项 A：交互式设置
+hermes gateway setup
+选择 飞书 / Lark 并填写提示信息。生成二维码，飞书扫码。
+
+# 启动网关
+hermes gateway
+
+# 验证飞书的验证码   
+hermes pairing approve feishu XXXXXXXX
+成功！！
+
+
+# 选项 B：手动配置
+将以下内容添加到 ~/.hermes/.env 文件中：
+FEISHU_APP_ID=cli_xxx
+FEISHU_APP_SECRET=secret_xxx
+FEISHU_DOMAIN=feishu
+FEISHU_CONNECTION_MODE=websocket
+
+# 可选但强烈推荐
+FEISHU_ALLOWED_USERS=ou_xxx,ou_yyy
+FEISHU_HOME_CHANNEL=oc_xxx
+
+
+-------------
+
+## 飞书机器人创建流程
+
+4.1 进入开发者平台
+打开飞书开放平台：
+https://open.feishu.cn/
+登录后进入开发者后台。
+
+4.2 创建企业自建应用
+填写基本信息：
+    应用名称：Hermes AI
+    应用描述：AI 助手
+创建后进入应用详情页。
+
+4.3 获取关键凭证
+在"凭证与基础信息"中获取：
+    App ID
+    App Secret
+注意：Secret 只会显示一次，务必保存。
+
+
+
+
+------------------------------------------------------------------
+
+/srv/.hermes/.env   重要备份：
+
+DEEPSEEK_API_KEY=sk-XXXX
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+HERMES_MAX_ITERATIONS=90
+
+FEISHU_APP_ID=cli_XXXX
+FEISHU_APP_SECRET=XXXX
+FEISHU_DOMAIN=feishu
+FEISHU_CONNECTION_MODE=websocket
+FEISHU_ALLOW_ALL_USERS=false
+FEISHU_ALLOWED_USERS=ou_XXXX
+FEISHU_GROUP_POLICY=open
+
