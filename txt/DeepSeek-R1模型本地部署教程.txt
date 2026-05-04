@@ -110,6 +110,11 @@ https://www.bilibili.com/video/BV1vkcrzfEVY/
 ------------------------------------------------------
 ------------------------------------------------------
 
+AMD 7900xtx 24G
+
+https://www.youtube.com/watch?v=H8s0Lwez3cQ
+Qwen3.6 27B + Hermes 浏览器/编程实测，7900xtx 24G/80k 4090 48G/256k上下文，对比在线DeepSeek Flash V4，本地AI助手成为可能!
+硬件实测： 在 Ubuntu 24.04 + 4090 (48G) / 7900XTX (24G) 上运行 Qwen3.6 27B Q4KM，实测本地与在线 DeepSeek V4 Flash 的体验差距正在抹平。   2026年4月30日
 
 
 
