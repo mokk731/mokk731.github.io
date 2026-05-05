@@ -30,9 +30,9 @@ export no_proxy="localhost,127.0.0.1,.example.com"
 
 永久生效（所有用户/当前用户）#
 
-若需代理永久生效，需将环境变量写入配置文件：
+若需代理永久生效，需将环境变量写入配置文件：             
 
-    所有用户生效：编辑 /etc/environment（需 sudo）：
+    所有用户生效：编辑 /etc/environment（需 sudo）：             ############
 
     sudo nano /etc/environment
 
