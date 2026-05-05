@@ -107,6 +107,42 @@ test ：
 wget www.google.com  
 如果把返回200 ，并且把google的首页下载下来了，那就是成功了
 
+----------
+
+https://zhuanlan.zhihu.com/p/689730386
+Ubuntu设置终端代理及快捷脚本设置
+
+#设置代理
+export http_proxy
+
+=http://192.168.66.11:808
+export https_proxy
+
+=http://192.168.66.11:808
+export socks5_proxy=sockes5://192.168.66.11:1080
+#取消代理
+unset http_proxy
+unset https_proxy
+unset socks5_proxy
+#查看代理
+env |grep -i proxy
+
+#还可以设置ftp_proxy根据以上格式自行设置
+
+因为每次打开新的终端或者关闭当前终端，代理就会消失，所以为了方便我们设置一个脚本命令，方便使用代理。
+
+#打开文件
+vim ~/.bashrc
+
+alias proxy="export http_proxy=http://192.168.66.11:808;export https_proxy=http://192.168.66.11:808;export socks5_proxy=sockes5://192.168.66.11:1080"
+alias noproxy="unset http_proxy;unset https_proxy;unset socks5_proxy"
+#设置的名字可以自己更改成需要的
+
+:wq  #保存退出
+source ~/.bashrc  #更新一下
+
+这样在终端想使用代理时输入 proxy 就可以方便的打开了 不需要时关闭窗口就可以 或者执行noproxy即可。
+
 --------------------
 
 
