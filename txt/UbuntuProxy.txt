@@ -116,6 +116,7 @@ Ubuntu设置终端代理及快捷脚本设置
 export http_proxy=http://192.168.66.11:808
 export https_proxy=http://192.168.66.11:808
 export socks5_proxy=sockes5://192.168.66.11:1080
+export ALL_PROXY=socks5://192.168.66.11:1080
 #取消代理
 unset http_proxy
 unset https_proxy
