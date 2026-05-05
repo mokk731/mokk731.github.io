@@ -117,7 +117,7 @@ GitHub引擎进行搜索:   免费节点  , free proxies
 
 ---------------------------------------------------------------
 
-WebRTC 泄漏真实 IP 地址
+WebRTC 泄漏真实 IP 地址   202605
 https://zhuanlan.zhihu.com/p/649454596
 WebRTC（网页即时通信，Web Real-Time Communication） 它允许浏览器内进行实时语音或视频对话，而无需添加额外的浏览器扩展。包括 Chrome、Firefox、Opera、Safari 均支持，并且在移动端也有支持。虽然此功能可能对某些用户有用，但它会对任何使用 VPN 的人构成威胁。WebRTC 漏洞的可怕之处在于，即使你用 VPN 代理上网仍然会暴露自己的真实 IP 地址。
 WebRTC 采用 STUN（Session Traversal Utilities for NAT）、TURN 和 ICE 等协议栈对 VoIP 网络中的防火墙或者 NAT 进行穿透。用户发送请求至服务器，STUN 服务器会返回用户所用系统的 IP 地址和局域网地址。
