@@ -167,7 +167,7 @@ sudo cp /etc/shadowsocks-libev/config.json /etc/shadowsocks-libev/client01.json
 
 然后编辑客户端配置文件。
 
-sudo nano /etc/shadowsocks-libev/client01.json
+sudo nano /etc/shadowsocks-libev/config.json
 
 将服务器地址更改为服务器的公共 IP 地址，并添加以下行以告诉客户端侦听 127.0.0.1。
 
