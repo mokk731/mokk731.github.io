@@ -32,7 +32,7 @@ export no_proxy="localhost,127.0.0.1,.example.com"
 
 若需代理永久生效，需将环境变量写入配置文件：             
 
-    所有用户生效：编辑 /etc/environment（需 sudo）：             ############
+    所有用户生效：编辑 /etc/environment（需 sudo）：            
 
     sudo nano /etc/environment
 
@@ -87,6 +87,25 @@ TinyProxy：搭建轻量级本地代理服务器#
 测试代理#
 
 在客户端（如手机）配置代理为 http://<Ubuntu 本机 IP>:8888，访问 http://ifconfig.me 验证是否通过代理上网。
+
+
+
+使用Privoxy将socks5代理转为http代理
+https://zhuanlan.zhihu.com/p/421952002
+
+sudo apt-get install privoxy 
+sudo vim /etc/privoxy/config
+forward-socks5 / 192.168.0.1:1080 
+
+
+//开启privoxy 服务就行
+sudo service privoxy start 
+// 设置http 和 https 全局代理
+export http_proxy='http://localhost:8118'
+export https_proxy='http://localhost:8118'
+test ： 
+wget www.google.com  
+如果把返回200 ，并且把google的首页下载下来了，那就是成功了
 
 --------------------
 
