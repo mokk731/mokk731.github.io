@@ -4,3 +4,88 @@ https://geek-blogs.com/blog/proxy-linux-ubuntu/
 无论是个人用户绕过网络限制，还是企业环境中管理员工网络访问，掌握代理配置都是必备技能
 
 
+--------------------
+
+
+临时生效（当前终端）#
+
+直接在终端执行以下命令（代理地址格式：[协议://][用户名:密码@]服务器:端口）：
+
+# 示例：配置 HTTP 代理（无认证）
+export http_proxy="http://192.168.1.100:8080"
+export https_proxy="http://192.168.1.100:8080"
+ 
+# 示例：配置 SOCKS5 代理（带认证）
+export socks_proxy="socks5://user:password@127.0.0.1:1080"
+ 
+# 配置无需代理的地址（多个用逗号分隔）
+export no_proxy="localhost,127.0.0.1,.example.com"
+
+ 注：环境变量区分大小写，但多数应用同时支持小写（http_proxy）和大写（HTTP_PROXY），建议同时设置以兼容不同程序。
+
+
+
+永久生效（所有用户/当前用户）#
+
+若需代理永久生效，需将环境变量写入配置文件：
+
+    所有用户生效：编辑 /etc/environment（需 sudo）：
+
+    sudo nano /etc/environment
+
+    添加以下内容（根据实际代理修改）：
+
+    http_proxy="http://user:password@proxy.example.com:8080"
+    https_proxy="http://user:password@proxy.example.com:8080"
+    socks_proxy="socks5://user:password@proxy.example.com:1080"
+    no_proxy="localhost,127.0.0.1,.local,.example.com"
+
+    保存后重启系统，或执行 source /etc/environment 临时生效。
+
+    当前用户生效：编辑 ~/.bashrc 或 ~/.zshrc（根据 shell 类型）：
+
+    nano ~/.bashrc
+
+    在文件末尾添加：
+
+    export http_proxy="http://proxy:8080"
+    export https_proxy="http://proxy:8080"
+
+    执行 source ~/.bashrc 立即生效。
+
+--------------------
+
+ Proxychains：强制应用走代理#
+Proxychains 是一款 Linux 工具，可强制任何命令行程序通过代理运行（即使程序本身不支持代理配置），原理是通过 LD_PRELOAD 拦截网络调用。
+
+
+TinyProxy：搭建轻量级本地代理服务器#
+若需将本地网络共享为代理（如让手机通过电脑代理上网），可使用 TinyProxy 搭建轻量 HTTP 代理服务器。
+
+安装与配置#
+
+    安装 TinyProxy：
+
+    sudo apt install tinyproxy
+
+    编辑配置文件 /etc/tinyproxy/tinyproxy.conf：
+
+    sudo nano /etc/tinyproxy/tinyproxy.conf
+
+    关键配置项（按需修改）：
+        Port 8888：代理端口（默认 8888，可自定义）。
+        Allow 127.0.0.1：允许访问代理的 IP（默认仅本地，改为 0.0.0.0/0 允许所有 IP，或指定网段如 192.168.1.0/24）。
+        MaxClients 100：最大并发连接数。
+    重启 TinyProxy 生效：
+
+    sudo systemctl restart tinyproxy
+    sudo systemctl enable tinyproxy  # 开机自启
+
+测试代理#
+
+在客户端（如手机）配置代理为 http://<Ubuntu 本机 IP>:8888，访问 http://ifconfig.me 验证是否通过代理上网。
+
+--------------------
+
+
+
