@@ -220,6 +220,15 @@ Linux 原生 Docker 用宿主机 IP（如 bridge  172.31.0.1  ）。
 SOCKS5 推荐用 socks5h://（带 DNS 解析走代理，防止泄漏）。
 
 
+# 交互式运行（CLI 聊天 ）  
+
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  -e HTTP_PROXY=http://172.31.0.1:8501 \
+  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  -e ALL_PROXY=socks5://172.31.0.1:8500 \
+  nousresearch/hermes-agent:v2026.4.30
+
 
 
 docker--v2raya  172.20.0.2  提供http,socks5 代理服务器
