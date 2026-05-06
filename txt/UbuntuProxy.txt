@@ -164,6 +164,16 @@ sudo nano /etc/systemd/system/docker.service.d/http-proxy.conf
 Environment="HTTP_PROXY=http://127.0.0.1:8118/"
 Environment="HTTPS_PROXY=http://127.0.0.1:8118/"
 
+
+解决 DNS 问题（关键！）
+sudo vim /etc/docker/daemon.json
+
+{
+  "dns": ["8.8.8.8", "1.1.1.1"],
+  "dns-opts": ["timeout:3", "attempts:3"]
+}
+
+
 保存文件后，重启 Docker 服务使更改生效
 sudo systemctl daemon-reload
 sudo systemctl restart docker
