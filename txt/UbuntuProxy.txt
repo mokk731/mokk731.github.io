@@ -202,9 +202,9 @@ services:
       - "9119:9119"   # dashboard
     environment:
       #- HERMES_DASHBOARD=1
-      - HTTP_PROXY=http://host.docker.internal:7890
-      - HTTPS_PROXY=http://host.docker.internal:7890
-      - ALL_PROXY=socks5h://host.docker.internal:1080
+      - HTTP_PROXY=http://host.docker.internal:7890        172.31.0.1
+      - HTTPS_PROXY=http://host.docker.internal:7890       172.31.0.1
+      - ALL_PROXY=socks5://host.docker.internal:1080      172.31.0.1
       - NO_PROXY=localhost,127.0.0.1
       # LLM keys 等其他配置
       # - OPENAI_API_KEY=...
@@ -219,7 +219,9 @@ Linux 原生 Docker 用宿主机 IP（如 bridge  172.31.0.1  ）。
 SOCKS5 推荐用 socks5h://（带 DNS 解析走代理，防止泄漏）。
 
 
-docker exec -it hermes curl -I https://www.google.com
+
+
+docker--v2raya  172.20.0.2  提供http,socks5 代理服务器
 
 
 
