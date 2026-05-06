@@ -89,12 +89,16 @@ TinyProxy：搭建轻量级本地代理服务器#
 在客户端（如手机）配置代理为 http://<Ubuntu 本机 IP>:8888，访问 http://ifconfig.me 验证是否通过代理上网。
 
 
+------------------------------------------------------------
+
+
 
 使用Privoxy将socks5代理转为http代理
 https://zhuanlan.zhihu.com/p/421952002
 
 sudo apt-get install privoxy 
 sudo vim /etc/privoxy/config
+listen-address  127.0.0.1:8118
 forward-socks5 / 192.168.0.1:1080 
 
 
@@ -141,64 +145,29 @@ source ~/.bashrc  #更新一下
 这样在终端想使用代理时输入 proxy 就可以方便的打开了 不需要时关闭窗口就可以 或者执行noproxy即可。
 
 --------------------
+https://jishuzhan.net/article/1837425059086471169
+安装 `privoxy` 将 Socks5 转换为 HTTP 代理
 
-https://cn.linux-terminal.com/?p=3467
-安装并配置Shadowsocks-libev客户端
+systemctl restart privoxy
+
+创建或编辑 Docker 的守护进程配置文件 /etc/systemd/system/docker.service.d/http-proxy.conf：
+sudo mkdir -p /etc/systemd/system/docker.service.d
+sudo nano /etc/systemd/system/docker.service.d/http-proxy.conf
+
+添加以下内容，将代理设置为 privoxy 提供的 HTTP 代理：
+[Service]
+Environment="HTTP_PROXY=http://127.0.0.1:8118/"
+Environment="HTTPS_PROXY=http://127.0.0.1:8118/"
+
+保存文件后，重启 Docker 服务使更改生效
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+你可以通过以下命令检查 Docker 是否正确应用了代理设置：
+docker info | grep -i proxy
 
 
 
-Shadowsocks-libev 软件包包含服务器软件和客户端软件。在 Ubuntu 22.04、20.04 桌面上，运行以下命令安装 Shadowsocks-libev。
-
-sudo apt update
-
-sudo apt install shadowsocks-libev
-
-Shadowsocks-libev（服务器）安装后会自动启动。您需要停止 Ubuntu 桌面上的 Shadowsocks 服务器。
-
-sudo systemctl stop shadowsocks-libev
-
-另外，禁用启动时的自动启动。
-
-sudo systemctl disable shadowsocks-libev
-
-Shadowsocks 客户端二进制文件名为 ss-local。有一个模板 systemd 服务单元： /lib/systemd/system/[email 。在启动客户端之前，我们需要创建客户端配置文件。我们可以将 Shadowsocks-libev 服务器配置复制到客户端配置文件。
-
-sudo cp /etc/shadowsocks-libev/config.json /etc/shadowsocks-libev/client01.json
-
-然后编辑客户端配置文件。
-
-sudo nano /etc/shadowsocks-libev/config.json
-
-将服务器地址更改为服务器的公共 IP 地址，并添加以下行以告诉客户端侦听 127.0.0.1。
-
-"local_address":"127.0.0.1",
-
-所以客户端配置文件将如下所示：
-
-{
- "server":"your-server-ip-address",
- "mode":"tcp_and_udp",
- "server_port":8888,
- "local_address":"127.0.0.1",
- "local_port":1080,
- "password":"ACRrobo9ymXb",
- "timeout":60,
- "method":"chacha20-ietf-poly1305"
-}
-
-保存并关闭文件。然后我们可以通过以下方式启动客户端：
-
-sudo systemctl start [email 
-
-并启用开机自动启动功能。
-
-sudo systemctl enable [email 
-
-检查其状态。确保它正在运行。
-
-systemctl status [email 
-
-现在 ss-local 进程在您的 Ubuntu 桌面上侦听 127.0.0.1:1080，并且它已连接到您的 Shadowsocks 服务器。
 
 
 
