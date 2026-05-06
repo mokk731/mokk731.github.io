@@ -186,8 +186,9 @@ sudo systemctl restart docker
 docker info | grep -i proxy
 
 
--------------------
+-----------------------------------------------------------
 
+Docker--hermes-agen  ， docker--v2raya        #################
 
 version: '3.8'
 services:
@@ -198,8 +199,8 @@ services:
     volumes:
       - ~/.hermes:/opt/data
     ports:
-      - "8642:8642"   # gateway
-      - "9119:9119"   # dashboard
+      #- "8642:8642"   # gateway
+      #- "9119:9119"   # dashboard
     environment:
       #- HERMES_DASHBOARD=1
       - HTTP_PROXY=http://host.docker.internal:7890        172.31.0.1
@@ -230,4 +231,4 @@ docker--v2raya  172.20.0.2  提供http,socks5 代理服务器
 
 
 
---------------------
+------------------------------------------------------------
