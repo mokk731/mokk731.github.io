@@ -201,7 +201,7 @@ services:
       - "8642:8642"   # gateway
       - "9119:9119"   # dashboard
     environment:
-      - HERMES_DASHBOARD=1
+      #- HERMES_DASHBOARD=1
       - HTTP_PROXY=http://host.docker.internal:7890
       - HTTPS_PROXY=http://host.docker.internal:7890
       - ALL_PROXY=socks5h://host.docker.internal:1080
@@ -215,7 +215,7 @@ services:
 
 重要提示：
 在 Docker Desktop / 较新版本中，用 host.docker.internal 指向宿主机代理。
-Linux 原生 Docker 用宿主机 IP（如 172.17.0.1 或 host.docker.internal 不行时用 172.17.0.1）。
+Linux 原生 Docker 用宿主机 IP（如 bridge  172.31.0.1  ）。
 SOCKS5 推荐用 socks5h://（带 DNS 解析走代理，防止泄漏）。
 
 
