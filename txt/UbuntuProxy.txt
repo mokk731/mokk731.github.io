@@ -147,8 +147,13 @@ source ~/.bashrc  #更新一下
 --------------------
 https://jishuzhan.net/article/1837425059086471169
 安装 `privoxy` 将 Socks5 转换为 HTTP 代理
+sudo apt install privoxy
+sudo nano /etc/privoxy/config
+在文件末尾添加以下内容，配置 privoxy 使用 127.0.0.1:1080 作为 Socks5 代理：
+forward-socks5t / 127.0.0.1:1080 .
 
-systemctl restart privoxy
+sudo systemctl restart privoxy
+
 
 创建或编辑 Docker 的守护进程配置文件 /etc/systemd/system/docker.service.d/http-proxy.conf：
 sudo mkdir -p /etc/systemd/system/docker.service.d
