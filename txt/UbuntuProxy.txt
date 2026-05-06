@@ -165,6 +165,10 @@ Environment="HTTP_PROXY=http://127.0.0.1:8118/"
 Environment="HTTPS_PROXY=http://127.0.0.1:8118/"
 
 
+Environment="ALL_PROXY=socks5://127.0.0.1:1080"
+Environment="NO_PROXY=localhost,127.0.0.1,::1"
+
+
 解决 DNS 问题（关键！）
 sudo vim /etc/docker/daemon.json
 
@@ -180,6 +184,43 @@ sudo systemctl restart docker
 
 你可以通过以下命令检查 Docker 是否正确应用了代理设置：
 docker info | grep -i proxy
+
+
+-------------------
+
+
+version: '3.8'
+services:
+  hermes:
+    image: nousresearch/hermes-agent:latest
+    container_name: hermes
+    restart: unless-stopped
+    volumes:
+      - ~/.hermes:/opt/data
+    ports:
+      - "8642:8642"   # gateway
+      - "9119:9119"   # dashboard
+    environment:
+      - HERMES_DASHBOARD=1
+      - HTTP_PROXY=http://host.docker.internal:7890
+      - HTTPS_PROXY=http://host.docker.internal:7890
+      - ALL_PROXY=socks5h://host.docker.internal:1080
+      - NO_PROXY=localhost,127.0.0.1
+      # LLM keys 等其他配置
+      # - OPENAI_API_KEY=...
+    # 可选：使用 host 网络（代理最简单，但安全性稍低）
+    # network_mode: host
+
+
+
+重要提示：
+在 Docker Desktop / 较新版本中，用 host.docker.internal 指向宿主机代理。
+Linux 原生 Docker 用宿主机 IP（如 172.17.0.1 或 host.docker.internal 不行时用 172.17.0.1）。
+SOCKS5 推荐用 socks5h://（带 DNS 解析走代理，防止泄漏）。
+
+
+docker exec -it hermes curl -I https://www.google.com
+
 
 
 
