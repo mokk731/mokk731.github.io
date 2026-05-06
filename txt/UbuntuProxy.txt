@@ -219,6 +219,9 @@ services:
 Linux 原生 Docker 用宿主机 IP（如 bridge  172.31.0.1  ）。
 SOCKS5 推荐用 socks5h://（带 DNS 解析走代理，防止泄漏）。
 
+docker--v2raya  172.20.0.2  提供http,socks5 代理服务器
+
+
 
 # 交互式运行（CLI 聊天 ）  
 
@@ -231,7 +234,7 @@ docker run -it --rm \
 
 
 
-docker--v2raya  172.20.0.2  提供http,socks5 代理服务器
+
 
 
 
