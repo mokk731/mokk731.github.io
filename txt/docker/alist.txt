@@ -4,7 +4,8 @@ https://hub.docker.com/r/xhofe/alist
 https://alist.nn.ci/zh/
 
 
-docker pull xhofe/alist:latest
+
+docker pull xhofe/alist:v3.40.0
 ------------------------------------------------------
 
 version: '3.3'
@@ -20,7 +21,7 @@ services:
             - PGID=1000
             - UMASK=022
         container_name: alist
-        image: 'xhofe/alist:latest'
+        image: 'xhofe/alist:v3.40.0'
 
 
 --------------------------------------------------
