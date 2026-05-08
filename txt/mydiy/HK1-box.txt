@@ -42,7 +42,7 @@ Armbian_bullseye_02.10.0233          Debian 11
 
 
 
-Armbian_jammy_save_2023.07         #######  Ubuntu 22.04
+Armbian_jammy_save_2023.07         #######  Ubuntu 22.04     好用，风扇能转
   Default username: root
   Default password: 1234
   Install command: armbian-install
@@ -50,7 +50,7 @@ Armbian_jammy_save_2023.07         #######  Ubuntu 22.04
 https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_jammy_save_2023.07/Armbian_23.08.0_amlogic_s905x3_jammy_5.15.120_server_2023.07.08.img.gz
 
 
-Armbian_noble_arm64_server_2026.04    Ubuntu 24.04
+Armbian_noble_arm64_server_2026.04    Ubuntu 24.04     不好用，风扇不能转
 https://github.com/ophub/amlogic-s9xxx-armbian/releases/download/Armbian_noble_arm64_server_2026.04/Armbian_26.05.0_amlogic_s905x3_noble_6.12.81_server_2026.04.18.img.gz
 
 
@@ -90,6 +90,7 @@ HK1 BOX 刷armbian 成功
 
 
    选择改:
+   meson-sm1-x96-max-plus-q2.dtb
    X96 MAX PLUS Q2, X96 Air Q1000  .dtb
 
    才能正常引导启动.
@@ -121,14 +122,14 @@ root / 1234
     #运行 portainer
          docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
 
-5,  添加LED屏幕显示至开机自启动任务
+5,  添加LED屏幕显示至开机自启动任务，风扇能转
 
     armbian-openvfd 16 开LED
     armbian-openvfd 0  关LED
 
 ---------------------------------
-df -h 显示已经挂载的分区列表 
 
+df -h 显示已经挂载的分区列表 
 
 
 Filesystem      Size  Used Avail Use% Mounted on
@@ -206,12 +207,7 @@ systemctl enable smbd
 LED 屏显示控制说明
 
 
-
 github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/documents/led_screen_display_control.md
-
-
-
-
 
 
 
@@ -241,6 +237,7 @@ sed -i 's|^#*openvfd_boxid=.*|openvfd_boxid="16"|g' /etc/custom_service/start_se
 
 
 --------------------------------
+
 Armbian 配置 WIFI 教程
 https://blog.csdn.net/hailangnet/article/details/118110720
 https://zhuanlan.zhihu.com/p/201516668
