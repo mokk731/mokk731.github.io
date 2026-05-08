@@ -116,11 +116,11 @@ root / 1234
 
 4, #下载 Docker 图形化界面 portainer  2.9.1         
          docker pull portainer/portainer-ce:2.9.1
-         docker pull portainer/portainer-ce:2.17.0
+         docker pull portainer/portainer-ce:2.39.2
     #创建 portainer 容器
          docker volume create portainer_data
     #运行 portainer
-         docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.9.1
+         docker run -d -p 9000:9000 --name portainer --restart always -v     /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.39.2
 
 5,  添加LED屏幕显示至开机自启动任务，风扇能转
 
