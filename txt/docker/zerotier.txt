@@ -91,6 +91,11 @@ services:
       - ZEROTIER_ONE_GATEWAY_MODE=inbound
       - ZEROTIER_ONE_NETWORK_IDS=17d7XXXXX
 
+要用cli 再加一次才行。
+zerotier-cli join 17d7XXXX
+加入zerotier网络
+docker exec zerotier-one zerotier-cli join 17d7XXXX
+显示 200 join ok 即添加成功
 ==============================================
 
 https://www.cnblogs.com/sicko/p/10997230.html
