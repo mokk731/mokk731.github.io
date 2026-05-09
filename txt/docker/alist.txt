@@ -32,8 +32,15 @@ docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 -e PUI
 
 ----------------------------------------------------
 
-如果您是站点的所有者，您可以通过在终端中运行 ./alist admin 来获取管理员账号信息。
+忘记密码怎么办？
 
+# 随机生成一个密码
+./alist admin random
+# 手动设置一个密码,`NEW_PASSWORD`是指你需要设置的密码
+./alist admin set NEW_PASSWORD
+
+
+-----------------------------
 
 设置-存储:
 
