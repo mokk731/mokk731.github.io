@@ -430,7 +430,7 @@ anon_root=/home/public
 userlist_enable=YES
 userlist_file=/etc/vsftpd.userlist
 userlist_deny=NO
-local_root=/home/public
+local_root=/home/public/Temp
 然后将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中。
 修改完成后，保存并关闭文件。
 
@@ -439,6 +439,9 @@ local_root=/home/public
 listen_port=21
 将21替换为你想要的端口号，例如2121：
 listen_port=2121
+listen=NO
+anonymous_enable=NO
+
 
 
 重启 vsftpd 服务：
@@ -496,8 +499,9 @@ sudo ufw status
  sudo userdel -r Paul
 
 
-#####
-1,将允许访问FTP的用户名添加到/etc/vsftpd.userlist文件中,
+###############
+我的总结：
+1,将允许访问FTP的用户名手动添加到/etc/vsftpd.userlist文件中,
 2,在 Ubuntu 中创建用户:   sudo useradd -m [username]
 3,设置密码：   sudo passwd [username]
 4,启用匿名访问,没成功。
