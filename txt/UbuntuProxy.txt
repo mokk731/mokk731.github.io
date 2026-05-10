@@ -205,9 +205,9 @@ services:
       #- "9119:9119"   # dashboard
     environment:
       #- HERMES_DASHBOARD=1
-      - HTTP_PROXY=http://host.docker.internal:7890        172.31.0.1
-      - HTTPS_PROXY=http://host.docker.internal:7890       172.31.0.1
-      - ALL_PROXY=socks5://host.docker.internal:1080      172.31.0.1
+      - HTTP_PROXY=http://host.docker.internal:7890      #  172.31.0.1:8501
+      - HTTPS_PROXY=http://host.docker.internal:7890     #  172.31.0.1:8501
+      - ALL_PROXY=socks5://host.docker.internal:1080     #  172.31.0.1:8500
       - NO_PROXY=localhost,127.0.0.1
       # LLM keys 等其他配置
       # - OPENAI_API_KEY=...
