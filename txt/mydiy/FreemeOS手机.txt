@@ -93,6 +93,31 @@ pm disable-user --user 0 com.xxx.xxx
 恢复命令（如果出问题）
  pm enable com.freeme.market
 
+类别,Package Name 示例,说明,风险
+应用商店,"com.android.vending (Google Play)
+com.zhuoyi.appstore
+com.heytap.market 等",第三方/内置应用商店,低（可换 Google Play）
+浏览器,"com.android.browser
+com.freeme.browser",内置浏览器,低
+主题/壁纸,"com.freeme.theme
+com.android.thememanager",主题中心,低
+推送/广告,"com.freeme.push
+com.xiaomi.push (即使不是小米)
+com.android.mms.service",推送服务、广告,低-中
+天气/资讯,"com.freeme.weather
+com.android.weather",天气/新闻,低
+游戏/娱乐,"com.freeme.gamecenter
+各种游戏预装",游戏中心,低
+清理/安全,"com.freeme.clean
+com.freeme.security",手机管家/清理大师,低
+其他工具,"com.freeme.filemanager
+com.freeme.calculator
+com.freeme.compass",文件管理器、计算器等,低（可用替代品）
+反馈/日志,"com.freeme.feedback
+com.freeme.log",用户反馈、日志收集,低
+热点/分享,com.freeme.hotspot,热点相关,低
+语音助手,com.freeme.voiceassistant,语音助手,低
+
 
 我的adb:
 
@@ -113,6 +138,12 @@ com.zuimei.gamecenter.overlay
 
 com.android.hotspot2.osulogin
 
+我的总结：
+1，Freeme OS 是国产山寨Android 的定制系统，垃圾广告机
+2，adb,usb口限制，  但wifi adb可能连上
+3，pm disable-user --user 0  命令，只关了com.feimi.browser2 内置浏览器，
+4，com.zhuoyi.appstore 内置应用商店， com.freeme.lite.gopush 桌面 关不了。
+5，Nova Launcher apk ,能安装上，但无法切换到第三方桌面。只能用freeme.lite，，深度銲死。
 
 
 ----------------------------------------
