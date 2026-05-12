@@ -3,3 +3,117 @@
 Freeme OS是上海卓易科技股份有限公司开发的基于Android系统深度定制的智能操作系统
 
 
+----------------
+Freeme OS 手机使用 ADB 的方法（标准 Android 流程）
+Freeme OS 是基于 Android 的定制系统（常见于部分国产/山寨机、乐视、Nokia 国行等），ADB 使用方式和普通 Android 手机几乎完全一样。
+
+
+1. 手机端开启 USB 调试（最重要一步）
+
+打开 设置 → 关于手机（或 系统 → 关于手机）。
+连续点击 版本号 / 构建号（Build Number）7 次，直到提示“你已成为开发者”。
+返回上一级设置，在 系统 或 更多设置 / 附加设置 中找到 开发者选项。
+打开 开发者选项 开关。
+开启 USB 调试。
+（可选）同时开启 OEM 解锁（如果需要刷机/root）和 USB 调试（安全设置）。
+
+提示：部分 Freeme OS 机型在 USB 选项中要选择 文件传输（MTP） 或 不进行数据传输 才能被 ADB 识别，试试不同选项。
+2. 电脑端安装 ADB
+推荐使用 Platform-Tools（最干净）：
+
+官网下载：https://developer.android.com/tools/releases/platform-tools
+解压后，把整个文件夹路径添加到系统环境变量（方便全局使用 adb 命令）。
+
+Windows 用户也可以用 Minimal ADB and Fastboot（老工具，但够用）。
+3. 连接并使用
+
+用数据线连接手机和电脑（最好用原装或好质量线）。
+手机上会弹出 允许 USB 调试吗？ 的弹窗 → 勾选“始终允许这台计算机” → 确定。
+在电脑命令提示符（CMD）或终端输入：adb devices
+如果看到 xxxxxxxx device，说明连接成功。
+
+常用 ADB 命令
+
+adb devices —— 查看连接设备
+adb shell —— 进入手机 Shell
+adb install xxx.apk —— 安装 APK
+adb pull /sdcard/xxx . —— 拉取文件到电脑
+adb push xxx /sdcard/ —— 推送文件到手机
+adb reboot bootloader —— 重启到 Fastboot（部分 Freeme OS 支持）
+adb reboot recovery —— 重启到 Recovery
+
+识别不到设备：换 USB 端口/数据线，安装手机对应驱动（MTK/展锐/高通），或切换 USB 模式（文件传输 / PTP / 仅充电）。
+
+
+------------
+
+Freeme OS Unisoc（展锐/SPD）手机驱动下载与安装指南
+Unisoc（原 Spreadtrum）芯片的驱动是 ADB 识别和刷机最关键的一环，Freeme OS 机型常用这个驱动。
+推荐下载地址（安全可靠来源）
+
+最推荐（自动安装版）
+SPD_Driver_R4.20.4201（最新常用版本）
+下载地址1（Hovatek 推荐）：搜索 “SPD_Driver_R4.20.4201” 在 Hovatek 论坛下载
+下载地址2：https://androiddatahost.com/dsa6h （直接下载 zip）
+或者 https://spreadtrumdriver.com/ （官方风格站点）
+
+其他可靠来源：
+Hovatek 完整驱动包（含手动安装版）：https://www.hovatek.com/forum/thread-16832.html
+androidmtk.com：https://androidmtk.com/download-spreadtrum-drivers
+
+
+避免：随便在百度网盘或不知名站点下载，容易带病毒或不完整。
+
+
+反复试了，手机驱动成功安装，USB也连不上， 放弃。   ###########
+.\adb devices
+List of devices attached
+51222C64523406 unauthorized
+
+-----------------
+
+尝试无线 ADB（强烈推荐绕过 USB 问题）：
+开发者选项里打开 无线调试（Wireless debugging）。
+手机会显示 IP 地址和端口（如 192.168.1.100:5555）。
+电脑运行：cmd
+.\adb pair 192.168.1.xxx:xxxxx     (输入手机显示的配对码)
+Successfully paired to ...
+.\adb connect 192.168.1.xxx:xxxxx
+.\adb devices
+.\adb shell
+
+pm disable-user --user 0 com.xxx.xxx
+恢复命令（如果出问题）
+pm enable com.freeme.market
+
+-------------------------
+
+推荐优先用 disable 而不是直接 uninstall（更安全，可恢复）：cmd
+pm disable-user --user 0 com.xxx.xxx
+恢复命令（如果出问题）
+ pm enable com.freeme.market
+
+
+我的adb:
+
+com.zhuoyi.appstore.overlay
+com.zhuoyi.appstore   ??
+
+com.feimi.browser2
+
+com.freeme.theme.colorful
+com.freeme.theme.shaonian
+
+先安装一个第三方桌面（如 Nova Launcher
+com.freeme.lite.gopush      ??
+com.freeme.lite.statistic
+com.icoolme.android.weather.overlay
+
+com.zuimei.gamecenter.overlay
+
+com.android.hotspot2.osulogin
+
+
+
+----------------------------------------
+
