@@ -1,7 +1,7 @@
 ## FreemeOS手机
 
 Freeme OS是上海卓易科技股份有限公司开发的基于Android系统深度定制的智能操作系统
-
+我手上的是型号： F8pro  骁龙888
 
 ----------------
 Freeme OS 手机使用 ADB 的方法（标准 Android 流程）
