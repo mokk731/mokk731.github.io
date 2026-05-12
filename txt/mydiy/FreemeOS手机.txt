@@ -76,7 +76,7 @@ List of devices attached
 开发者选项里打开 无线调试（Wireless debugging）。
 手机会显示 IP 地址和端口（如 192.168.1.100:5555）。
 电脑运行：cmd
-.\adb pair 192.168.1.xxx:xxxxx     (输入手机显示的配对码)
+.\adb pair 192.168.1.xxx:xxxxx     (输入手机显示的配对码)    ###########
 Successfully paired to ...
 .\adb connect 192.168.1.xxx:xxxxx
 .\adb devices
@@ -93,33 +93,39 @@ pm disable-user --user 0 com.xxx.xxx
 恢复命令（如果出问题）
  pm enable com.freeme.market
 
-类别,Package Name 示例,说明,风险
-应用商店,"com.android.vending (Google Play)
-com.zhuoyi.appstore
-com.heytap.market 等",第三方/内置应用商店,低（可换 Google Play）
-浏览器,"com.android.browser
-com.freeme.browser",内置浏览器,低
-主题/壁纸,"com.freeme.theme
-com.android.thememanager",主题中心,低
-推送/广告,"com.freeme.push
-com.xiaomi.push (即使不是小米)
-com.android.mms.service",推送服务、广告,低-中
-天气/资讯,"com.freeme.weather
-com.android.weather",天气/新闻,低
-游戏/娱乐,"com.freeme.gamecenter
-各种游戏预装",游戏中心,低
-清理/安全,"com.freeme.clean
-com.freeme.security",手机管家/清理大师,低
-其他工具,"com.freeme.filemanager
-com.freeme.calculator
-com.freeme.compass",文件管理器、计算器等,低（可用替代品）
-反馈/日志,"com.freeme.feedback
-com.freeme.log",用户反馈、日志收集,低
-热点/分享,com.freeme.hotspot,热点相关,低
-语音助手,com.freeme.voiceassistant,语音助手,低
 
 
-我的adb:
+类别,                    Package Name                       示例,说明,                     风险
+应用商店,       "com.android.vending (Google Play)
+               com.zhuoyi.appstore
+               com.heytap.market 等",                  第三方/内置应用商店,             低（可换 Google Play）
+浏览器,        "com.android.browser
+              com.freeme.browser",                       内置浏览器,                        低
+主题/壁纸,      "com.freeme.theme
+               com.android.thememanager",                  主题中心,                        低
+推送/广告,        "com.freeme.push
+                 com.xiaomi.push (即使不是小米)
+                 com.android.mms.service",                 推送服务、广告,                 低-中
+天气/资讯,       "com.freeme.weather
+               com.android.weather",                       天气/新闻,                     低
+游戏/娱乐,      "com.freeme.gamecenter
+                各种游戏预装",                                 游戏中心,                    低
+清理/安全,     "com.freeme.clean
+               com.freeme.security",                    手机管家/清理大师,                   低
+其他工具,        "com.freeme.filemanager
+               com.freeme.calculator
+               com.freeme.compass",                 文件管理器、计算器等,                    低（可用替代品）
+反馈/日志,       "com.freeme.feedback
+                 com.freeme.log",                   用户反馈、日志收集,                     低
+热点/分享,        com.freeme.hotspot,                   热点相关,                           低
+语音助手,       com.freeme.voiceassistant,             语音助手,                           低
+
+
+
+
+
+
+我的adb:                      ###########
 
 com.zhuoyi.appstore.overlay
 com.zhuoyi.appstore   ??
@@ -138,13 +144,288 @@ com.zuimei.gamecenter.overlay
 
 com.android.hotspot2.osulogin
 
-我的总结：
+
+
+我的总结：                     ######################
+
 1，Freeme OS 是国产山寨Android 的定制系统，垃圾广告机
 2，adb,usb口限制，  但wifi adb可能连上
 3，pm disable-user --user 0  命令，只关了com.feimi.browser2 内置浏览器，
 4，com.zhuoyi.appstore 内置应用商店， com.freeme.lite.gopush 桌面 关不了。
-5，Nova Launcher apk ,能安装上，但无法切换到第三方桌面。只能用freeme.lite，，深度銲死。
+5，Nova Launcher apk ,能安装上，但无法切换到第三方桌面。    只能用freeme.lite桌面，，深度銲死。
 
 
 ----------------------------------------
+
+alllist  原来：
+
+package:com.android.fmradio
+package:com.android.cts.priv.ctsshim
+package:com.android.internal.display.cutout.emulation.corner
+package:com.android.internal.display.cutout.emulation.double
+package:com.android.providers.telephony
+package:com.android.dynsystem
+package:com.freeme.manager
+package:com.sprd.engineermode
+package:com.zhuoyi.appstore.overlay
+package:com.android.theme.icon.pebble
+package:com.freeme.bio.face.service
+package:com.sprd.runtime
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.android.networkstack.tethering.overlay
+package:com.android.internal.systemui.navbar.gestural_wide_back
+package:com.android.wallpapercropper
+package:com.android.theme.icon.vessel
+package:com.droi.vassistant
+package:com.android.theme.color.cinnamon
+package:com.android.theme.icon_pack.rounded.systemui
+package:com.freeme.camera.overlay
+package:com.android.theme.icon.taperedrect
+package:com.android.wifi.resources.overlay
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.android.htmlviewer
+package:com.android.companiondevicemanager
+package:com.android.overlay.wallpaper
+package:android.overlay.ctcc
+package:com.android.mms.service
+package:com.freeme.freemenote
+package:com.freeme.filemanager
+package:com.sprd.omacp
+package:com.android.providers.downloads
+package:com.android.overlay.quicksearchbox
+package:com.android.messaging
+package:com.android.overlay.wallpaperconfig
+package:com.android.systemui.auto_generated_rro_product__
+package:com.google.android.networkstack.tethering.overlay
+package:com.android.theme.icon_pack.rounded.android
+package:com.android.overlay.emergency
+package:com.freeme.quickwechat
+package:com.android.dreams.overlay.phototable
+package:freeme
+package:com.android.overlay.dynamiciconconfig
+package:android.overlay.dynamicNavBar
+package:com.android.theme.icon_pack.circular.themepicker
+package:com.freeme.camera
+package:com.android.overlay.logmanager
+package:com.freeme.multiapp
+package:com.android.soundrecorder
+package:com.freeme.secureguard
+package:com.freeme.provider.config
+package:com.feimi.browser2
+package:com.freeme.ime
+package:com.freeme.ota
+package:com.android.providers.downloads.ui
+package:com.android.pacprocessor
+package:com.android.simappdialog
+package:com.android.networkstack
+package:com.sprd.validationtools
+package:com.android.overlay.settings
+package:com.icoolme.android.weather.overlay
+package:com.tencent.mm
+package:com.android.internal.display.cutout.emulation.hole
+package:com.android.internal.display.cutout.emulation.tall
+package:com.android.networkstack.overlay
+package:com.android.modulemetadata
+package:com.android.certinstaller
+package:com.android.theme.color.black
+package:com.android.carrierconfig
+package:com.android.theme.color.green
+package:com.android.overlay.livepicker
+package:com.android.theme.color.ocean
+package:com.android.carrierconfig.overlay.ctcc
+package:com.android.theme.color.space
+package:com.android.internal.systemui.navbar.threebutton
+package:com.freeme.lite.gopush
+package:android
+package:com.android.contacts
+package:com.freeme.video.auto_generated_rro_vendor__
+package:com.android.theme.icon_pack.rounded.launcher
+package:com.freeme.rescue
+package:com.spreadtrum.proxy.nfwlocation
+package:android.overlay.navbar
+package:com.android.egg
+package:com.android.mtp
+package:com.android.nfc
+package:com.android.ons
+package:com.android.stk
+package:com.android.phone.injection
+package:com.android.backupconfirm
+package:com.freeme.supershot.auto_generated_rro_vendor__
+package:com.deepseek.chat
+package:com.example.hrftools
+package:com.freeme.gallery2.overlay
+package:com.sprd.quickcamera
+package:com.android.statementservice
+package:com.unisoc.storageclearmanager
+package:com.droi.watermark
+package:com.freeme.supershot
+package:com.android.settings.intelligence
+package:com.unisoc.phone.overlay.ctcc
+package:android.overlay.multiuser
+package:com.freeme.legal
+package:com.freeme.music
+package:com.freeme.video
+package:com.sprd.cameracalibration
+package:com.android.internal.systemui.navbar.gestural_extra_wide_back
+package:com.android.creator
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.android.printspooler
+package:com.android.theme.icon_pack.filled.settings
+package:com.android.dreams.basic
+package:com.android.webview
+package:com.android.se
+package:com.freeme.manager.auto_generated_rro_vendor__
+package:com.android.inputdevices
+package:com.android.bips
+package:com.freeme.taskbar
+package:com.android.theme.icon_pack.circular.settings
+package:com.android.unisoc.telephony.server
+package:com.android.soundrecorder.auto_generated_rro_vendor__
+package:com.android.systemui.overlay.ctcc
+package:com.android.musicfx
+package:com.freeme.theme.shaonian
+package:com.freeme.launcher.custom
+package:com.android.providers.settings.auto_generated_rro_vendor__
+package:com.android.cellbroadcastreceiver
+package:com.android.theme.icon.teardrop
+package:com.freeme.onehand
+package:com.sprd.autoslt
+package:android.ext.shared
+package:com.android.onetimeinitializer
+package:com.sprd.cameraipcontrol
+package:com.freeme.theme.colorful
+package:com.android.server.telecom
+package:com.android.cellbroadcastservice
+package:com.android.theme.icon_pack.rounded.themepicker
+package:com.android.keychain
+package:com.zhuoyi.appstore
+package:com.unisoc.launcher.customization
+package:com.sprd.uasetting
+package:com.android.printservice.recommendation
+package:com.sohu.newsclient.overlay
+package:com.android.dialer
+package:com.android.theme.icon_pack.filled.systemui
+package:com.ss.android.ugc.aweme
+package:com.spreadtrum.ims
+package:com.spreadtrum.vce
+package:com.google.android.tts
+package:android.ext.services
+package:com.android.wifi.resources
+package:com.android.calllogbackup
+package:com.sprd.powersavemodelauncher
+package:com.android.localtransport
+package:com.freeme.datacenter
+package:com.android.packageinstaller
+package:com.android.carrierdefaultapp
+package:com.sprd.linkturbo
+package:com.android.theme.font.notoserifsource
+package:com.android.theme.icon_pack.filled.android
+package:com.android.proxyhandler
+package:com.android.internal.display.cutout.emulation.waterfall
+package:com.android.theme.icon_pack.circular.systemui
+package:com.android.inputmethod.latin
+package:com.zuimei.gamecenter.overlay
+package:com.android.phone.overlay.ctcc
+package:com.droi.discount.overlay
+package:com.sprd.logmanager
+package:com.freeme.taskbar.auto_generated_rro_vendor__
+package:com.android.managedprovisioning
+package:com.android.networkstack.tethering
+package:com.android.overlay.launcher3
+package:com.android.soundpicker
+package:com.freeme.multiapp.auto_generated_rro_vendor__
+package:com.youku.phone.overlay
+package:com.android.dreams.phototable
+package:com.freeme.applock
+package:com.freeme.gallery2
+package:com.android.smspush
+package:com.freeme.zmcalendar
+package:com.android.wallpaper.livepicker
+package:com.freeme.hongbaoassistant
+package:com.droi.pedometer
+package:com.android.overlay.camera2
+package:com.android.cellbroadcastreceiver.module
+package:com.android.phone.auto_generated_rro_vendor__
+package:com.freeme.yellowpage.lite
+package:com.freeme.zmcalendar.overlay
+package:com.feimi.browser2.auto_generated_rro_vendor__
+package:com.baidu.map.location
+package:com.android.theme.icon.squircle
+package:com.android.overlay.music
+package:com.larus.nova
+package:com.freeme.launcher
+package:com.freeme.lite.statistic
+package:com.freeme.big.theme.biglauncher
+package:com.freeme.cloud.theme.overlay
+package:com.android.storagemanager
+package:com.android.settings
+package:com.spreadtrum.sgps
+package:com.google.android.networkstack.overlay
+package:com.android.theme.icon_pack.filled.launcher
+package:com.sprd.systemupdate
+package:com.android.networkstack.permissionconfig
+package:com.freeme.setupwizard
+package:com.freeme.lockscreen.picker
+package:com.freeme.magazine.lockscreen
+package:com.android.cts.ctsshim
+package:com.freeme.bio.face.service.auto_generated_rro_vendor__
+package:com.freeme.secureguard.provider
+package:com.android.dreams.overlay.basic
+package:com.android.theme.icon_pack.circular.launcher
+package:com.freeme.provider.config.auto_generated_rro_vendor__
+package:com.droi.vassistant.auto_generated_rro_vendor__
+package:com.android.partnercustomizations
+package:com.android.wallpaper
+package:com.android.vpndialogs
+package:com.unisoc.phone
+package:com.freeme.setupwizard.auto_generated_rro_vendor__
+package:com.android.phone
+package:com.android.shell
+package:com.android.theme.icon_pack.filled.themepicker
+package:com.android.wallpaperbackup
+package:com.android.providers.blockednumber
+package:com.android.providers.userdictionary
+package:com.android.providers.media.module
+package:com.freeme.searchbox
+package:com.android.emergency
+package:com.android.overlay.gallery3d
+package:com.android.hotspot2.osulogin
+package:com.freeme.agingtest
+package:com.android.internal.systemui.navbar.gestural
+package:com.unisoc.aicore.uscaiengine
+package:com.android.engineer.overlay.ctcc
+package:com.android.overlay.calendar
+package:com.android.location.fused
+package:com.android.theme.color.orchid
+package:com.android.deskclock
+package:com.android.systemui
+package:com.android.theme.color.purple
+package:com.freeme.music.overlay
+package:com.android.bluetoothmidiservice
+package:android.overlay.cta
+package:com.android.permissioncontroller
+package:com.freeme.game
+package:com.freeme.reliabilitytest
+package:com.freeme.calculator
+package:com.android.traceur
+package:com.android.modemnotifier
+package:android.auto_generated_rro_product__
+package:com.freeme.firewall
+package:com.android.bluetooth
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.android.theme.icon.roundedrect
+package:com.android.internal.systemui.navbar.gestural_narrow_back
+package:com.freeme.provider.badge
+package:com.android.theme.icon_pack.rounded.settings
+package:com.android.messaging.ctcc.overlay
+package:com.dzkk.ireader.overlay
+package:android.auto_generated_rro_vendor__
+package:com.android.theme.icon_pack.circular.android
+
+
+
 
