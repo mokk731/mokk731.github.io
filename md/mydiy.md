@@ -35,6 +35,8 @@
 
 #### [Magisk-LSPosed](https://mokk731.github.io/txt/mydiy/Magisk-LSPosed.txt)
 
+#### [FreemeOS手机](https://mokk731.github.io/txt/mydiy/FreemeOS手机.txt)
+
 
 ----------------------------------------------------------------
 
