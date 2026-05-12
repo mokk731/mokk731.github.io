@@ -150,7 +150,7 @@ com.android.hotspot2.osulogin
 
 1，Freeme OS 是国产山寨Android 的定制系统，垃圾广告机
 2，adb,usb口限制，  但wifi adb可能连上
-3，pm disable-user --user 0  命令，只关了com.feimi.browser2 内置浏览器，
+3，pm disable-user --user 0  命令，只关了com.feimi.browser2 内置浏览器，com.zuimei.gamecenter.overlay  天气
 4，com.zhuoyi.appstore 内置应用商店， com.freeme.lite.gopush 桌面 关不了。
 5，Nova Launcher apk ,能安装上，但无法切换到第三方桌面。    只能用freeme.lite桌面，，深度銲死。
 
