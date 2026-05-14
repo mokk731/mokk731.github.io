@@ -333,6 +333,7 @@ docker run -it --rm \
 /model   切换model
 
 model: "minimaxai/minimax-m2.7"
+model: "deepseek-ai/deepseek-v4-pro",
 
 -----------------
 
@@ -382,6 +383,7 @@ build.nvidia.com
 base_url="https://integrate.api.nvidia.com/v1",
 api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m2.7",
+"model": "deepseek-ai/deepseek-v4-pro",
 
 
 ----------------------------------------------------------------
