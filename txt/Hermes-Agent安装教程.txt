@@ -302,6 +302,10 @@ https://open.feishu.cn/
 
 DEEPSEEK_API_KEY=sk-XXXX
 DEEPSEEK_BASE_URL=https://api.deepseek.com
+
+NVIDIA_API_KEY=nvapi-XXXX
+NVIDIA_BASE_URL=https://integrate.api.nvidia.com/v1
+
 HERMES_MAX_ITERATIONS=90
 
 FEISHU_APP_ID=cli_XXXX
