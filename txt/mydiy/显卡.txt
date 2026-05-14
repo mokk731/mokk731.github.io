@@ -156,6 +156,11 @@ https://www.youtube.com/watch?v=_zt6-wRNRoM
 重新评价AMD显卡的AI生产力，7900XTX，AI Pro R9700，AIMax395，9070XT点评！Qwen3.6 27b / LTX2.3实操心得分享！AMD Yes！
  蓝宝石 RX 7900XTX 24G  6000元,
 
+https://www.youtube.com/watch?v=FNZpdqXP2QU
+RTX3090是当下的AI神卡，青春版4090，跑ComfyUI和大模型都很给力，对比7900XTX，Intel Arc Pro B60双芯，新手如何选择？
+NVIDIA RTX3090： 真正的 AI 性价比之王。原生 1T 带宽，生态兼容性无敌，支持 NVLink 且后期优化潜力巨大。小白首选，闭眼入。
+RTX3090  24G 
+
 
 
 
