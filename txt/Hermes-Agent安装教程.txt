@@ -320,6 +320,8 @@ FEISHU_GROUP_POLICY=open
 
 ------------------------------------------------------------------
 
+
+交互式运行（CLI 聊天 ） :
 docker run -it --rm \
   -v /srv/.hermes:/opt/data \
   -e HTTP_PROXY=http://172.31.0.1:8501 \
@@ -330,9 +332,9 @@ docker run -it --rm \
  hermes model 看看可用的选项
 /model   切换model
 
+model: "minimaxai/minimax-m2.7"
 
-
-
+-----------------
 
 version: "3.8"
 services:
