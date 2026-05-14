@@ -316,6 +316,78 @@ FEISHU_GROUP_POLICY=open
 
 ------------------------------------------------------------------
 
+docker run -it --rm \
+  -v /srv/.hermes:/opt/data \
+  -e HTTP_PROXY=http://172.31.0.1:8501 \
+  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  nousresearch/hermes-agent:v2026.5.7
+
+
+ hermes model 看看可用的选项
+/model   切换model
+
+
+
+
+
+version: "3.8"
+services:
+  hermes:
+    image: nousresearch/hermes-agent:v2026.5.7
+    container_name: hermes
+    restart: unless-stopped
+    command: gateway run
+    volumes:
+      - /srv/.hermes:/opt/data
+    # ports:
+    #  - 8000:8000
+    #  - 9119:9119
+    #  - 8648:8648  
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - HTTP_PROXY=http://172.31.0.1:8501     
+      - HTTPS_PROXY=http://172.31.0.1:8501    
+      #- ALL_PROXY=socks5://172.31.0.1:8500    
+      - NO_PROXY=localhost,127.0.0.1
+    #  - WEBUI_PORT=8000
+    # 取消注释以转发特定的环境变量，而不是使用 `.env` 文件：
+    # 环境：
+    #   - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    #   - OPENAI_API_KEY=${OPENAI_API_KEY}
+    #   - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    deploy:
+      resources:
+        limits:
+          memory: 3G
+          cpus: "3.0"
+
+
+----------------------------------------------------------------
+
+
+英伟达免费API全攻略
+https://juejin.cn/post/7625923696348250138
+https://zhuanlan.zhihu.com/p/2029304128749191641
+
+build.nvidia.com
+
+base_url="https://integrate.api.nvidia.com/v1",
+api_key="你的_nvapi_key"
+"model": "minimaxai/minimax-m2.7",
+
+
+----------------------------------------------------------------
+
+
+----------------------------------------------------------------
+
+
+
+
+
+
 
 
 
