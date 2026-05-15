@@ -385,7 +385,7 @@ build.nvidia.com
 
 base_url="https://integrate.api.nvidia.com/v1",
 api_key="你的_nvapi_key"
-"model": "minimaxai/minimax-m2.7",
+"model": "minimaxai/minimax-m2.7",                   ***********
 "model": "deepseek-ai/deepseek-v4-pro",
 "model": "z-ai/glm-5.1",
 "model": "qwen/qwen3.5-122b-a10b",
