@@ -119,9 +119,12 @@ https://hub.docker.com/r/nousresearch/hermes-agent
 The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.
 
 
+
+
+
+
 ------------------------------------------------------------------
-
-
+------------------------------------------------------------------
 ------------------------------------------------------------------
 
 我的安装过程：            ########
@@ -321,7 +324,13 @@ FEISHU_GROUP_POLICY=open
 
 
 
+
 ------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+
+# 目前运行：
 
 
 交互式运行（CLI 聊天 ） :
@@ -339,6 +348,7 @@ docker run -it --rm \
 model: "minimaxai/minimax-m2.7"
 model: "deepseek-ai/deepseek-v4-pro",
 model: "qwen/qwen3.5-122b-a10b",
+
 -----------------
 
 version: "3.8"
@@ -376,13 +386,14 @@ services:
           cpus: "2.0"
 
 
-系统默认输出文件夹：/tmp
-你将哪个tmp文件夹挂载，系统就不给输出到tmp文件夹权限，
+
+#系统默认输出文件夹：/tmp
+ 你将哪个tmp文件夹挂载，系统就不给输出到tmp文件夹权限，
 
 ----------------------------------------------------------------
 
 
-英伟达免费API全攻略
+# 英伟达免费API全攻略
 https://juejin.cn/post/7625923696348250138
 https://zhuanlan.zhihu.com/p/2029304128749191641
 
