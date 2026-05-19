@@ -131,7 +131,7 @@ The self-improving AI agent built by Nous Research. The only agent with a built-
 https://hub.docker.com/r/nousresearch/hermes-agent
 https://hub.docker.com/r/nousresearch/hermes-agent/tags?name=2026
 
-docker pull nousresearch/hermes-agent:v2026.4.30
+docker pull nousresearch/hermes-agent:v2026.4.30  这个版本稳定 ***********
 
 
 mkdir -p /srv/.hermes
@@ -327,9 +327,10 @@ FEISHU_GROUP_POLICY=open
 交互式运行（CLI 聊天 ） :
 docker run -it --rm \
   -v /srv/.hermes:/opt/data \
+  -v /home/public/hermes-tmp:/mnt/tmp \
   -e HTTP_PROXY=http://172.31.0.1:8501 \
   -e HTTPS_PROXY=http://172.31.0.1:8501 \
-  nousresearch/hermes-agent:v2026.5.7
+  nousresearch/hermes-agent:v2026.4.30
 
 
  hermes model 看看可用的选项
@@ -343,12 +344,13 @@ model: "qwen/qwen3.5-122b-a10b",
 version: "3.8"
 services:
   hermes:
-    image: nousresearch/hermes-agent:v2026.5.7
+    image: nousresearch/hermes-agent:v2026.4.30
     container_name: hermes
     restart: unless-stopped
     command: gateway run
     volumes:
       - /srv/.hermes:/opt/data
+      - /home/public/hermes-tmp:/mnt/tmp
     # ports:
     #  - 8000:8000
     #  - 9119:9119
@@ -371,8 +373,11 @@ services:
       resources:
         limits:
           memory: 3G
-          cpus: "3.0"
+          cpus: "2.0"
 
+
+系统默认输出文件夹：/tmp
+你将哪个tmp文件夹挂载，系统就不给输出到tmp文件夹权限，
 
 ----------------------------------------------------------------
 
