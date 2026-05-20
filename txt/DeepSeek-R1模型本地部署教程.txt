@@ -116,5 +116,18 @@ https://www.youtube.com/watch?v=H8s0Lwez3cQ
 Qwen3.6 27B + Hermes 浏览器/编程实测，7900xtx 24G/80k 4090 48G/256k上下文，对比在线DeepSeek Flash V4，本地AI助手成为可能!
 硬件实测： 在 Ubuntu 24.04 + 4090 (48G) / 7900XTX (24G) 上运行 Qwen3.6 27B Q4KM，实测本地与在线 DeepSeek V4 Flash 的体验差距正在抹平。   2026年4月30日
 
+------------------------------------------------------
+------------------------------------------------------
+
+https://cloud.tencent.com/developer/article/2660044
+四强同台！DeepSeek-V4-Pro / GPT-5.5 / GLM-5.1 / MiniMax M2.7 横评：到底该选谁？
+    GLM-5.1：国产编程 Agent 当前最优解，8 小时长程能力是最大差异化
+    MiniMax M2.7：文字能力被严重低估，小激活带来最佳性价比
+    DeepSeek-V4-Pro：今天刚出，1M 上下文 + MIT 协议 + 超大参数三合一
+    GPT-5.5：Terminal 和广泛职业工作的天花板，但高幻觉 + 高价格需要认真权衡
+
+
+
+
 
 
