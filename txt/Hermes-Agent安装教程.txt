@@ -388,8 +388,8 @@ services:
 
 
 #系统默认输出文件夹：/tmp
- 你将哪个tmp文件夹挂载，系统就不给输出到tmp文件夹权限，
- 改文件夹权限：   chown -R hermes:hermes /mnt/tmp
+ 你将哪个tmp文件夹挂载，系统就不给输出到tmp文件夹权限， /home/public/hermes-tmp:/mnt/tmp
+ 要在docker容器中改文件夹权限：   chown -R hermes:hermes /mnt/tmp
 
 ----------------------------------------------------------------
 
