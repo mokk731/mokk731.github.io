@@ -112,6 +112,9 @@ https://www.freedidi.com/24284.html
 Qwen3.6-35B-A3B 越狱版来了！目前最强“无审查”开源模型？6G 显存都能跑，本地 AI 彻底自由了
 https://www.youtube.com/watch?v=S0_4AUJflNc
 Qwen3.6“越狱”了！目前最强无审查开源模型！支持本地 Agent，6G 显存都能跑！附部署教程｜零度解说
+MoE（专家混合架构）
+虽然模型总参数是 35B。但每次实际运行时：只会激活大约 3B 参数。
+
 
 https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
 
