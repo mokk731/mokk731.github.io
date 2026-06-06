@@ -107,6 +107,15 @@ https://www.bilibili.com/video/BV1vkcrzfEVY/
 两个神奇的Qwen3.5-27B版本，Claude Opus 4.6 加持，RTX 3090 可跑
 原理很简单：拿 Claude 4.6 Opus 的思维链数据，去重新训练 Qwen3.5-27B，逼着小模型学会 Claude 那种深度结构化的思考方式。
 
+2026-06
+https://www.freedidi.com/24284.html
+Qwen3.6-35B-A3B 越狱版来了！目前最强“无审查”开源模型？6G 显存都能跑，本地 AI 彻底自由了
+https://www.youtube.com/watch?v=S0_4AUJflNc
+Qwen3.6“越狱”了！目前最强无审查开源模型！支持本地 Agent，6G 显存都能跑！附部署教程｜零度解说
+
+https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive
+
+
 ------------------------------------------------------
 ------------------------------------------------------
 
