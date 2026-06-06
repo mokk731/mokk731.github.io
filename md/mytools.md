@@ -183,7 +183,7 @@
 
 #### [win软件技巧-杂](https://mokk731.github.io/txt/win软件技巧.txt)
 
-#### [DeepSeek-R1模型本地部署教程](https://mokk731.github.io/txt/DeepSeek-R1模型本地部署教程.txt)
+#### [DeepSeek-Qwen模型本地部署教程](https://mokk731.github.io/txt/DeepSeek-Qwen模型本地部署教程.txt)
 
 
 
