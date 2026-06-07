@@ -396,6 +396,7 @@ services:
 # AKShare
 目前 AKShare 已支持在树莓派 4B 上安装和使用，具体安装方法如下：
     要在docker容器中
+    sudo apt update
     通过 sudo apt-get install python3-venv 安装虚拟环境支持
     通过 python3 -m venv myenv 创建名为 myenv 的虚拟环境
     通过 source myenv/bin/activate 来激活创建好的虚拟环境
