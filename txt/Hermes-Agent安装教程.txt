@@ -402,6 +402,9 @@ services:
     通过 source myenv/bin/activate 来激活创建好的虚拟环境
     通过 pip install akshare --upgrade 来安装和升级 AKShare 到最新版本
 
+    配装数据处理库pandas和Excel保存库openpyxl：
+    pip install pandas openpyxl
+
 ----------------------------------------------------------------
 
 
