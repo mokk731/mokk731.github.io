@@ -414,6 +414,13 @@ services:
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
+
+# yfinance
+  yfinance 是一个流行的开源库，由 Ran Aroussi 开发，用于访问雅虎财经上可用的财务数据。
+
+  pip install yfinance
+
+
 ----------------------------------------------------------------
 
 
