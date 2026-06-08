@@ -135,7 +135,7 @@ https://hub.docker.com/r/nousresearch/hermes-agent
 https://hub.docker.com/r/nousresearch/hermes-agent/tags?name=2026
 
 docker pull nousresearch/hermes-agent:v2026.4.30  这个版本稳定 ***********
-
+v2026.5.16  不好用，分析2日财经新闻，居然有英文？？
 
 mkdir -p /srv/.hermes
 chmod -R 755 /srv/.hermes
@@ -338,7 +338,7 @@ model:
 
 
 # 目前运行：
-docker pull nousresearch/hermes-agent:v2026.5.16
+
 
 交互式运行（CLI 聊天 ） :
 docker run -it --rm \
@@ -346,7 +346,7 @@ docker run -it --rm \
   -v /home/public/hermes-tmp:/mnt/tmp \
   -e HTTP_PROXY=http://172.31.0.1:8501 \
   -e HTTPS_PROXY=http://172.31.0.1:8501 \
-  nousresearch/hermes-agent:v2026.5.16
+  nousresearch/hermes-agent:v2026.4.30
 
 
  hermes model 看看可用的选项
@@ -362,7 +362,7 @@ model: "qwen/qwen3.5-122b-a10b",
 version: "3.8"
 services:
   hermes:
-    image: nousresearch/hermes-agent:v2026.5.16
+    image: nousresearch/hermes-agent:v2026.4.30
     container_name: hermes
     restart: unless-stopped
     command: gateway run
@@ -406,10 +406,11 @@ services:
     1,安装pip
     sudo apt update && apt install python3-pip
     2. 创建虚拟环境并安装：
-     sudo apt-get install python3-venv     安装虚拟环境支持
+     sudo apt-get install python3-venv     安装虚拟环境支持                      # 以上要在docker容器中安装，要sudo安装权限
+
      python3 -m venv myenv                 创建名为 myenv 的虚拟环境
      source myenv/bin/activate             来激活创建好的虚拟环境
-     pip install akshare --upgrade         来安装和升级 AKShare 到最新版本
+     pip install akshare --upgrade         来安装和升级 AKShare 到最新版本        # 可以在cli中 pip install akshare 自动安装
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
