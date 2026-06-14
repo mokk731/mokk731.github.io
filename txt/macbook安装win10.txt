@@ -5,8 +5,8 @@
 升级到macOS 10.15  Catalina ，
 旧版本可能要用 [BootCamp助理 ] 做win安装U盘。不方便。
 
-1，在 macOS 的桌面 ，复制一个win10 ISO 文件。
-2，用 【 启动转换助理 】  ，完成 分区，分出win分区。
+1，在 macOS Catalina 的桌面 ，复制一个win10 ISO 文件。
+2，用 【 启动转换助理 】  ，改变分区，创建一个 Windows 分区。
 3，用 【 启动转换助理 】 ，选择win10 ISO 文件，win分区， 进行安装。
 
 https://support.apple.com/zh-cn/102622
@@ -14,3 +14,7 @@ https://support.apple.com/zh-cn/102622
 
 https://www.toutiao.com/article/6815582317050855943/?wid=1781434249319
 MacOS10.15.4 Catalina安装windows10双系统全过程及问题全解决
+
+
+如何在 Windows 和 macOS 之间切换
+重新启动，然后在启动过程中按住 Option（或 Alt）⌥ 键，即可在 Windows 和 macOS 之间切换。
