@@ -1,1 +1,4 @@
 # macbook安装win10
+
+只有intel CPU才能安装win10，macOS 双系统。 M1,M2,M3等apple CPU 只能用macOS。
+
