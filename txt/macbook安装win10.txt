@@ -1,11 +1,11 @@
 # macbook安装win10
 
-只有intel CPU才能安装win10，macOS 双系统。 M1,M2,M3等apple CPU 只能用macOS。
+只有intel CPU才能安装win10，macOS 双系统, core 1-10代 。    M1,M2,M3等apple CPU 只能用macOS。
 
-升级到macOS 10.15  Catalina ，
+先升级到macOS 10.15.7   Catalina ，
 旧版本可能要用 [BootCamp助理 ] 做win安装U盘。不方便。
 
-1，在 macOS Catalina 的桌面 ，复制一个win10 ISO 文件。
+1，在 macOS 10.15.7  Catalina 的桌面 ，复制一个win10 ISO 文件。
 2，用 【 启动转换助理 】  ，改变分区，创建一个 Windows 分区。
 3，用 【 启动转换助理 】 ，选择win10 ISO 文件，win分区， 进行安装。
 
