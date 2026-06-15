@@ -25,7 +25,7 @@ MacOS10.15.4 Catalina安装windows10双系统全过程及问题全解决
 
 202606 
 macbook A1534 EMC2746 2015年款  2015AJ0496  model MacBook8,1
-intel core M-5Y31 双核 HD5300    8G DDR3  256G SSD
+intel core M-5Y31 2C4T  HD5300    8G-DDR3  256G-SSD
 
 win10-wifi没安装成功
 硬件 ID: pci \ven_14e4 & dev_43a3 & subsys_0131106b & rev_05
@@ -39,6 +39,8 @@ win10-wifi没安装成功
 管理员 CMD 执行：
 \brigadier-0.2.6\brigadier.exe --model MacBook8,1
 下载完成后进入 BootCamp  文件夹，运行 setup.exe 安装（重点安装 Wi-Fi/Bluetooth 驱动）。drivers文件夹
+
+终于成功安装win10-wifi驱动，最后还是要用到 Apple 官方 Boot Camp 驱动 .
 
 
 
