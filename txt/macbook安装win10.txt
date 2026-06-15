@@ -35,6 +35,7 @@ win10-wifi没安装成功
 
 使用 Brigadier 下载 Apple 官方 Boot Camp 驱动（强烈推荐）
 下载 Brigadier（https://github.com/timsutton/brigadier）最新 .exe
+需要 Python
 管理员 CMD 执行：
 \brigadier-0.2.6\brigadier.exe --model MacBook8,1
 下载完成后进入 BootCamp 文件夹，运行 setup.exe 安装（重点安装 Wi-Fi/Bluetooth 驱动）。
