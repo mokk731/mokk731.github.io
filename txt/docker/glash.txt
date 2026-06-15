@@ -1,12 +1,15 @@
 # glash
 
+https://hub.docker.com/r/gangz1o/glash
+docker pull gangz1o/glash:2.1.7
+
 https://github.com/gangz1o/clash4docker
 最方便的一体化：gangz1o/clash4docker（或 gangz1o/glash） ★★★★☆
 优点：基于 Mihomo + 内置 MetacubexD 面板 + 订阅自动更新，一键部署超级省心。
 特别适合新手或想快速用订阅链接的用户。
 支持 amd64/arm64，预打包 GeoIP 等。
 
-
+--------------
 docker run -d \
   --name clash \
   --restart=always \
@@ -16,9 +19,8 @@ docker run -d \
   -e SUB_URL="你的订阅链接" \
   gangz1o/glash:latest   # 或 clash4docker
 
-https://hub.docker.com/r/gangz1o/glash
-docker pull gangz1o/glash:2.1.7
 
+------------------
 
 version: '3.3'
 services:
