@@ -18,3 +18,26 @@ MacOS10.15.4 Catalina安装windows10双系统全过程及问题全解决
 
 如何在 Windows 和 macOS 之间切换
 重新启动，然后在启动过程中按住 Option（或 Alt）⌥ 键，即可在 Windows 和 macOS 之间切换。
+
+
+---------------------------------------------------------------------------------
+
+
+202606 
+macbook A1534 EMC2746 2015年款  2015AJ0496  model MacBook8,1
+intel core M-5Y31 双核 HD5300    8G DDR3  256G SSD
+
+wifi没安装成功
+硬件 ID: pci \ven_14e4 dev_43a3 subsys_0131106b rev_05
+你的硬件 ID 对应的是 Broadcom BCM4350
+搜索 “BCM-43xx Wireless 802.11ac PCI-E” 或 “Broadcom 43A3”。
+推荐版本：7.77.119.0 或 7.35.x 系列（WHQL 签名较新）。
+
+使用 Brigadier 下载 Apple 官方 Boot Camp 驱动（强烈推荐）
+下载 Brigadier（https://github.com/timsutton/brigadier）最新 .exe
+管理员 CMD 执行：
+\brigadier-0.2.6\brigadier.exe --model MacBook8,1
+下载完成后进入 BootCamp 文件夹，运行 setup.exe 安装（重点安装 Wi-Fi/Bluetooth 驱动）。
+
+
+
