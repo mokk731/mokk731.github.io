@@ -35,3 +35,9 @@ docker logs openlist
 docker exec -it openlist ./openlist admin random
 
 
+##添加存储 
+
+  SMB           /Mov        0     本机代理     ./Mov      192.168.10.20:445         guest     media
+  AList V3     /小雅电影     0     本地代理      /         http://alist.xiaoya.pro
+
+
