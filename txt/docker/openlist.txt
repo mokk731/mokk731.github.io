@@ -5,3 +5,22 @@ https://doc.oplist.org.cn/guide/installation/docker
 https://github.com/OpenListTeam/OpenList
 https://hub.docker.com/r/openlistteam/openlist
 
+docker pull openlistteam/openlist:v4.2.2
+
+------------------------------------------------------
+
+# docker-compose.yml
+services:
+  openlist:
+    image: 'openlistteam/openlist:v4.2.2'
+    container_name: openlist
+    user: '0:0' # Please replace `0:0` with the actual user ID and group ID you want to use to run OpenList.
+    volumes:
+      - './data:/opt/openlist/data'
+    ports:
+      - '5244:5244'
+    environment:
+      - UMASK=022
+    restart: unless-stopped
+
+------------------------------------------------------
