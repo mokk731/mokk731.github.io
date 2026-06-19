@@ -24,3 +24,14 @@ services:
     restart: unless-stopped
 
 ------------------------------------------------------
+
+首次运行
+docker logs openlist
+你将在日志中看到密码。
+
+非首次运行
+您可以重新生成或手动设置密码。
+# 重新随机生成密码
+docker exec -it openlist ./openlist admin random
+
+
