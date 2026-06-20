@@ -327,6 +327,8 @@ sudo modprobe rtw89pci
 
 [alist](https://mokk731.github.io/txt/docker/alist.txt)
 
+[openlist](https://mokk731.github.io/txt/docker/openlist.txt)
+
 [baidunetdisk](https://mokk731.github.io/txt/docker/baidunetdisk.txt)
 
 [jellyfin](https://mokk731.github.io/txt/docker/jellyfin.txt)
