@@ -5,9 +5,9 @@
 |-------------         |-------------------------------------------------------------                    |
 | 神U：                | R5-5500GT  ,  i3-12100    ,   N100                                              |
 | 手机：               |  MTK7400ultra RedmiNote15Pro,  MTK8400Ultra RedmiTurbo4,,...                      |
-|路由器:               |  中兴E8820S ,小米CR660x,小米CR880x, 小米WR30U,,中移动RAX3000m                       |
-|Mesh组网:             | 小米AX3000T,小米AX3000E-苹果友好, 小米WR30U,..... 锐捷雪豹X30E电竞路由器                |
-|NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,  网心云OEC/OECT-RK3566           |
+|路由器:               |  小米CR660x,小米CR880x, 小米WR30U,,中移动RAX3000m .H3C NX30 Pro. 上海贝尔 EA0326GM    |
+|Mesh组网:             | 小米AX3000T,小米AX3000E-高通苹果友好, 小米WR30U,..... 锐捷雪豹X30E电竞路由器           |
+|NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,  网心云OEC/OECT-RK3566          |
 |电视盒子：             | 外贸盒子HK1 box ,  魔百盒CM-311 ,                                                | 
 |看电视app：           | 小薇直播,,TV-box  灵犀直播TV ,  电视直播Pro  , my-tv  ,荐片pc+app                   |
 |在线免费电影：         | www.smdyy.cc 神马电影网 ,  www.pkmp4.xyz 片库 ,  www.dygod.net 电影天堂    ,       |
@@ -19,9 +19,9 @@
 | 机械键盘,鼠标：       |  VGN-N75键盘   ,  罗技G102有线游戏鼠标                                            |
 |DICOM文件-CT、MRI：   |  小赛看看    xiaosaiviewer.com    医学影像DICOM浏览器                            |
 | SSD固态硬盘：        |  铠侠，致态,,,    雷克沙，光威-弈,,,   朗科   ,,,选TLC原厂颗粒                      | 
-| 散热硅脂 :           |   信越7921,  高导GD-2,                                                     | 
-| 标准石英手表机芯电池  |      SR626SW/ 377/ AG4/ LR66/ LR626 电池  1.5V  -----南孚传应               |
-| CR2032纽扣电池       |     CR2032 PC主板，温度传感器，汽车钥匙遥控器，电子体重称，3V，---南孚传应                |
+| 散热硅脂 :           |   信越7921,  高导GD-2,                                                         | 
+| 标准石英手表机芯电池  |      SR626SW/ 377/ AG4/ LR66/ LR626 电池  1.5V  -----南孚传应                    |
+| CR2032纽扣电池       |     CR2032 PC主板，温度传感器，汽车钥匙遥控器，电子体重称，3V，---南孚传应             |
 
 
 
@@ -32,3 +32,7 @@
 [路由器CPU性能天梯排行榜,CoreMark得分](https://baka.li/router-cpu-coremark/)
 
 [路由器CPU性能天梯排行榜.DMIPS算力](https://mao.fan/socpk.html)
+
+[性价比之王：MT7981路由器选购全指南｜Filogic 820芯片](https://post.smzdm.com/p/a709nr45/)
+
+   
