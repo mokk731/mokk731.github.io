@@ -601,6 +601,35 @@ OpCore-Simplify 根据硬件自动化配置OpenCore EFI 工具
 
 
 
+--------------------------------------------------------------------------------------------
+
+202606
+
+https://www.youtube.com/watch?v=MYTUryRQMUY
+2026年黑苹果（懒人）安装手把手教程，附带懒人包  阿雷科技
+
+https://docs.google.com/document/d/1mdoiq66vXJeje4iVNc5fEzTNKy-Joigf0L83EeZG5So
+https://hpglw.com/macOS-USB-Install-rdr.html
+【老吴黑苹果】原版U盘安装镜像集合2024-更新至macOS Sequoia 15.0正式版
+
+https://hpglw.com/863e722.html
+【老吴黑苹果】Windows下黑苹果系统原版安装U盘制作方法(2024简单版)  RDriveImage
+
+https://www.52pojie.cn/thread-1337426-1-1.html
+R-DriveImage v6.2中文绿色单文件版(含ISO文件，可以直接做启动盘或者GRUB引导)
+
+https://pan.baidu.com/s/1ab0eQzM3DhOPREcaBIl8wA?pwd=enrv
+macOS Catalina 10.15原版镜像
+
+https://pan.baidu.com/s/1ka_vupCox22958dYw7bJVg?pwd=4v5d
+macOS Monterey 12原版镜像
+
+https://pan.baidu.com/s/12aG3by_IIS7nyv-yfgqfCw?pwd=ruf3
+macOS Ventura 13原版镜像
+
+https://pan.baidu.com/s/1cg2PKvBUEH4zuuTFMDEfuQ?pwd=wkmf
+macOS Sequoia 15.0 正式版 原版镜像
+
 
 
 
