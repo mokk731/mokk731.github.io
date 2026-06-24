@@ -404,7 +404,7 @@ services:
 # AKShare
     要在docker容器中
     1,安装pip
-    sudo apt update && apt install python3-pip
+    sudo apt update && apt install python3-pip -y
     2. 创建虚拟环境并安装：
      sudo apt-get install python3-venv     安装虚拟环境支持                      # 以上要在docker容器中安装，要sudo安装权限
 
@@ -465,6 +465,8 @@ api_key="你的_nvapi_key"
 2，通过 东方财富 或 新浪财经 或 雅虎财经 或 yfinance 或 akshare  获取 股票证券数据。
 3，a股 近2个交易日。什么概念的股票比较强势？
 4，curl google news rss , 总结近2日财经要闻，分国际，国内 两组，每组20条。
+5, 只有输出的 html,md,pdf,txt ，png ,csv, xlsx,文件，，才放到/mnt/tmp 。
+   其他的临时文件，放到/tmp  。 并写入 长期记忆 。
 
 
 
