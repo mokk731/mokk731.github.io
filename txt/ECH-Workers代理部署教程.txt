@@ -175,10 +175,23 @@ cf.877774.xyz      ##
 
 104.19.37.150
 104.19.55.202
+104.26.6.138
+104.18.42.54
+104.21.94.161
+
 
 www.visa.cn 
 store.ubi.com 
 www.shopify.com
+
+www.visa.cn           #visa中国优选
+mfa.gov.ua            #乌克兰外交部
+www.shopify.com      #Shopify官方优选
+store.ubi.com         #Ubisoft
+staticdelivery.nexusmods.com      #NexusMods      ## 
+time.is       #官方优选
+icook.hk      #官方优选
+icook.tw      #官方优选
 
 秋名山优选域名，直接按照上面的教程cname解析到下面的域名即可给个人网站加速！
 三网自适应：cf.877774.xyz    ## 
