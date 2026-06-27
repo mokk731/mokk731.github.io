@@ -567,7 +567,7 @@ https://www.youtube.com/watch?v=uS3X13naPcM
 
 --------------------------------------------------------------------------------------------
 
-Mac OS 实用软件:  macos Catalina 10.15.7
+# Mac OS 实用软件:  macos Catalina 10.15.7
 
 https://github.com/benbaker76/Hackintool
 Hackintool        The Swiss army knife of vanilla Hackintoshing
@@ -589,6 +589,11 @@ macos10.15.7---V2rayU 3.9.0
 https://github.com/hiddify/hiddify-app
 Hiddify-MacOS v2.5.7     Multi-platform auto-proxy client
 
+
+https://github.com/tw93/mole
+https://mole.fit/zh/docs#docs-cli
+Mole鼴   清理缓存、管理 App、运行维护、分析磁盘、查看实时状态，一个原生 Mac App 就够了。
+curl -fsSL https://raw.githubusercontent.com/tw93/mole/main/install.sh | bash
 
 
 --------------------------------------------------------------------------------------------
