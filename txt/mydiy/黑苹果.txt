@@ -594,7 +594,7 @@ https://github.com/tw93/mole
 https://mole.fit/zh/docs#docs-cli
 Mole鼴   清理缓存、管理 App、运行维护、分析磁盘、查看实时状态，一个原生 Mac App 就够了。
 curl -fsSL https://raw.githubusercontent.com/tw93/mole/main/install.sh | bash
-
+运行 mo 打开交互菜单，或直接使用子命令 mo clean
 
 --------------------------------------------------------------------------------------------
 
