@@ -168,8 +168,6 @@ DoH 服务器（可选）：dns.alidns.com/dns-query
 测试速度：YouTube 4K/8K、Netflix/ChatGPT 基本都能跑满 1000M+（晚高峰也稳）。
 
 ## 优选域名 优选 IP
-cf.130519.xyz
-cf.008500.xyz
 cf.090227.xyz          ## 
 cf.877774.xyz          ## 
 sx.cu.6610000.xyz   陕西     ##
