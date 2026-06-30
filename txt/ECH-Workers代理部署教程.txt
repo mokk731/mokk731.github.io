@@ -170,11 +170,11 @@ DoH 服务器（可选）：dns.alidns.com/dns-query
 ## 优选域名 优选 IP
 cf.090227.xyz          ## 
 cf.877774.xyz          ## 
+cf.6610000.xyz
 sx.cu.6610000.xyz   陕西     ##
 jx.cu.6610000.xyz   江西
 js.cu.6610000.xyz   江苏
 ln.cu.6610000.xyz   辽宁
-
 
 
 
@@ -187,10 +187,6 @@ ln.cu.6610000.xyz   辽宁
 104.20.17.163
 
 
-www.visa.cn 
-store.ubi.com 
-www.shopify.com
-
 www.visa.cn           #visa中国优选
 mfa.gov.ua            #乌克兰外交部
 www.shopify.com      #Shopify官方优选
@@ -199,6 +195,7 @@ staticdelivery.nexusmods.com      #NexusMods      ##
 time.is       #官方优选
 icook.hk      #官方优选
 icook.tw      #官方优选
+
 
 秋名山优选域名，直接按照上面的教程cname解析到下面的域名即可给个人网站加速！
 三网自适应：cf.877774.xyz    ## 
