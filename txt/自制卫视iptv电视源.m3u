@@ -22,14 +22,20 @@ http://112.89.121.21:80/PLTV/88888973/224/3221225766/100001000000000600000000003
 http://112.89.121.21:80/PLTV/88888973/224/3221225724/10000100000000060000000000334167_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2441,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowkQyJ1/QCjaDX1hkMu/sXTY:20181110091937,END&GuardEncType=2
 #EXTINF:-1 ,广东影视
 http://112.89.121.21:80/PLTV/88888973/224/3221225726/10000100000000060000000000334170_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2442,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowkfd9IoKdgcJmTBecuaKGXz:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,广东体育
+http://112.89.121.24:80/PLTV/88888973/224/3221225721/10000100000000060000000000334146_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2421,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlle84poqYwpqTFTEXsmGMO:20181110091937,END&GuardEncType=2
 
 
 #EXTINF:-1 ,CCTV1 高清
 http://112.89.121.23:80/PLTV/88888973/224/3221225768/10000100000000060000000000337107_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7818,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlhOLuRCiHgtW469LYGcBty:20181110091937,END&GuardEncType=2
 #EXTINF:-1 ,CCTV2 高清
 http://112.89.121.23:80/PLTV/88888973/224/3221225767/10000100000000060000000000337109_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7808,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowlG9GiJF+eXKeOHX9LOxR9k:20181110091937,END&GuardEncType=2
+#EXTINF:-1 ,IPTV5+
+http://112.89.121.23:80/PLTV/88888973/224/3221226112/10000100000000060000000000916596_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2636,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowkF1WCsHaAal3A6dOWgPlh7:20181110091937,END&GuardEncType=2
 #EXTINF:-1 ,CCTV5+ 高清
 http://112.89.121.23:80/PLTV/88888973/224/3221225705/10000100000000060000000000334542_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,7819,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCown2FDVNG+ZNzdxPe0phXLWm:20181110091937,END&GuardEncType=2
+
+
 
 #EXTINF:-1 ,湖南卫视
 http://112.89.121.24:80/PLTV/88888973/224/3221225682/10000100000000060000000000333514_0.smil/01.m3u8?fmt=ts2hls,504,01.m3u8,0,2574,0,0&accountinfo=Wti4h1vlszvIgmJ2Rn+JT30YqhIlb959YafU65xwPQuFI6KpBBcFipVQNWSpm9U4cljBwkAKGt2Lq1W8IgjWjgzcX+uhk0/ut3dCvLMCowmHugZEeK9ErtVCfFepUxsf:20181110091937,END&GuardEncType=2
@@ -43,17 +49,38 @@ http://112.89.121.24:80/PLTV/88888973/224/3221225692/100001000000000600000000003
 
 
 
-#EXTINF:-1 ,上海第一财经360p 202602
+
+
+#EXTINF:-1 ,上海第一财经360p 202606
 https://ycallive.yicai.com/live/cbn_yld.m3u8
 
 #EXTINF:-1 ,上海第一财经 1
-http://hlsbkmgsplive.miguvideo.com/wd_r1/2018/bestv/dycj/1000/01.m3u8?msisdn=&Channel_ID=&ContentId=&HlsSubType=&HlsProfileId=&encrypt=
+http://125.126.102.79:8088/udp/233.50.200.125:5140
 #EXTINF:-1 ,上海第一财经  2
-http://116.233.24.111:4022/udp/239.45.3.211:5140
+https://live.264788.xyz/channel/diyicaijing?streamid=c8db609722f9ed252559f883cc079200&livekey=01Wb7kjxu1xx2f7s4tcqSAF03RfwBkY7h8Nz2
 #EXTINF:-1 ,上海第一财经  3
-http://cdn3.veryfast.filegear-sg.me/live/dycj/stream.m3u8
+http://125.118.114.246:9999/udp/233.50.200.125:5140
 #EXTINF:-1 ,上海第一财经  4
-https://live.catvod.com/iptv.php?id=dycj01
+http://182.40.98.184/dongfang5g-mobile-v51-live.bestvcdn.com.cn/0/live/program/live/dycjhd8m/8000000/mnf.m3u8
+#EXTINF:-1 ,上海第一财经  5
+https://live.264788.xyz/channel/diyicaijing?streamid=3c6cb6f00aa32febab803c0b2304d5d0&livekey=01Wb7kjxu1xx2f7s4uEtWDnhgEQQECTlBWih6
+#EXTINF:-1 ,上海第一财经  6
+https://live.264788.xyz/channel/diyicaijing?streamid=c8db609722f9ed252559f883cc079200&livekey=01Wb7kjxu1xx2f7s4uEtWDnhgEQQECTlBWih6
+
+
+
+
+#EXTINF:-1 ,CCTV5-1
+http://60.223.72.124:8001/rtp/226.0.2.22:8088
+#EXTINF:-1 ,CCTV5-2
+http://43.152.31.17:843/hlslive-tx-cdn.ysp.cctv.cn/ysp/2024078403_dlna.m3u8
+#EXTINF:-1 ,CCTV5-3  720
+https://cdn16.163189.xyz/163189/cctv5
+#EXTINF:-1 ,CCTV5-4  720
+https://cdn.qd.je/163189.php?id=cctv5
+#EXTINF:-1 ,CCTV5-5 1080
+https://cdn.qd.je/163189.php?id=cctv5-2
+
 
 
 #EXTINF:-1 ,CCTV-13新闻 1
