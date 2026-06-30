@@ -168,10 +168,10 @@ DoH 服务器（可选）：dns.alidns.com/dns-query
 测试速度：YouTube 4K/8K、Netflix/ChatGPT 基本都能跑满 1000M+（晚高峰也稳）。
 
 ## 优选域名 优选 IP
-cf.090227.xyz          ## 
-cf.877774.xyz          ## 
-cf.6610000.xyz
-sx.cu.6610000.xyz   陕西     ##
+cf.090227.xyz                ## 
+cf.877774.xyz                ## 
+cf.6610000.xyz               ##
+sx.cu.6610000.xyz   陕西      ##
 jx.cu.6610000.xyz   江西
 js.cu.6610000.xyz   江苏
 ln.cu.6610000.xyz   辽宁
@@ -185,13 +185,14 @@ ln.cu.6610000.xyz   辽宁
 104.21.94.161
 104.26.12.36
 104.20.17.163
+172.67.150.87
 
 
-www.visa.cn           #visa中国优选
-mfa.gov.ua            #乌克兰外交部
-www.shopify.com      #Shopify官方优选
-store.ubi.com         #Ubisoft
-staticdelivery.nexusmods.com      #NexusMods      ## 
+www.visa.cn                       #visa中国优选
+mfa.gov.ua                        #乌克兰外交部
+www.shopify.com                   #Shopify官方优选
+store.ubi.com                     #Ubisoft
+staticdelivery.nexusmods.com      #NexusMods         ## 
 time.is       #官方优选
 icook.hk      #官方优选
 icook.tw      #官方优选
@@ -205,6 +206,8 @@ icook.tw      #官方优选
 亚洲优选：asia.877774.xyz
 欧洲优选：eur.877774.xyz
 美洲优选：na.877774.xyz
+
+
 
 https://vps789.com/cfip/?remarks=domain
 https://www.wetest.vip/page/cloudflare/address_v4.html
