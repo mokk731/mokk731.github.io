@@ -205,10 +205,10 @@ icook.tw      #官方优选
 欧洲优选：eur.877774.xyz
 美洲优选：na.877774.xyz
 
-vps789.com
-ipdb.api.030101.xyz
-www.wetest.vip
-ip.164746.xyz
+https://vps789.com/cfip/?remarks=domain
+https://www.wetest.vip/page/cloudflare/address_v4.html
+https://ip.164746.xyz/
+
 
 ---------------------------------------
 
