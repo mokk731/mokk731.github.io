@@ -3,7 +3,8 @@
 https://github.com/NousResearch/hermes-agent
 The agent that grows with you
 
-Hermes-Agent 是由 Nous Research 开发的开源自主 AI 代理（MIT 许可证），其核心设计理念是”一个与你共同成长的 Agent”。该项目的核心创新在于内置的自我学习循环——能够从经验中创建技能、在使用中改进技能、主动持久化知识，并在跨会话中构建对用户的深度理解。
+Hermes-Agent 是由 Nous Research 开发的开源自主 AI 代理（MIT 许可证），其核心设计理念是”一个与你共同成长的 Agent”。该项目的核心创新在于内置的自我学习循环——能够从经验中创建技能、在使用中改进技能、
+主动持久化知识，并在跨会话中构建对用户的深度理解。
 
 
 
@@ -116,7 +117,8 @@ https://hermesagent.org.cn/docs/user-guide/docker#docker-compose-example
 Hermes Agent 是项目和产品的正式名称。文档、GitHub 仓库、安装命令、社区讨论和搜索结果都统一使用这一写法。 与 Docker 的交互有两种不同的方式：
 
 https://hub.docker.com/r/nousresearch/hermes-agent
-The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.
+The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — it creates skills from experience, improves them during use, 
+nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.
 
 
 
