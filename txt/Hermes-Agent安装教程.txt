@@ -330,7 +330,7 @@ FEISHU_GROUP_POLICY=open
 
 nano /srv/.hermes/config.yaml   重要备份：
 model:
-  default: minimaxai/minimax-m2.7                # deepseek-ai/deepseek-v4-flash   
+  default: minimaxai/minimax-m3        # minimaxai/minimax-m2.7      # deepseek-ai/deepseek-v4-flash   
   provider: nvidia
   base_url: https://integrate.api.nvidia.com/v1
 
@@ -422,6 +422,22 @@ chmod -R 755 /srv/.hermes2
 nano /srv/.hermes2/.env   
 nano /srv/.hermes2/config.yaml
 
+
+以交互方式启动容器以运行设置向导  
+docker run -it --rm \
+  -v /srv/.hermes2:/opt/data \
+  -e HTTP_PROXY=http://172.31.0.1:8501 \
+  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  nousresearch/hermes-agent:v2026.7.1 setup
+
+
+交互式运行（CLI 聊天 ） :
+docker run -it --rm \
+  -v /srv/.hermes2:/opt/data \
+  -v /home/public/hermes-tmp:/mnt/tmp \
+  -e HTTP_PROXY=http://172.31.0.1:8501 \
+  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  nousresearch/hermes-agent:v2026.7.1
 
 
 
