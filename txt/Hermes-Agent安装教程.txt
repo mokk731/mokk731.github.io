@@ -479,10 +479,11 @@ build.nvidia.com
 
 base_url="https://integrate.api.nvidia.com/v1",
 api_key="你的_nvapi_key"
-"model": "minimaxai/minimax-m2.7",                   ***********
+"model": "minimaxai/minimax-m2.7",  ***********
+"model": "minimaxai/minimax-m3",
 "model": "deepseek-ai/deepseek-v4-flash",            ***********
 "model": "deepseek-ai/deepseek-v4-pro",
-"model": "z-ai/glm-5.1",
+"model": "z-ai/glm-5.2",
 "model": "qwen/qwen3.5-122b-a10b",
 
 ----------------------------------------------------------------
@@ -533,7 +534,7 @@ api_key="你的_nvapi_key"
 8, 请分析一下A股: 6XXXXX，公司未来发展，公司经营状况，核心概念，核心产品。PB,ROE，EPS等方面分析。。。。
 股价在日k线和周k线的表现。技术点：量价关系，筹码分布，均线，macd,kdj ,boll,cci,obv，波浪理论。。。。
 公司十大流通股东，大股东资金流向，增持，减持，回购，，股票质押，法院案件，最新可能影响股价消息。。。。
-生成一份pdf 文件。
+生成一份html文件。
 
 9. 请以技术分析方式分析一下，沪深300指数和中证1000指数,创业板综399102,平均股价880003，全A等权880008，在日k线和周k线的表现，
 技术点：macd,kdj,boll,cci,obv,量价，均线，波浪理论。
