@@ -520,7 +520,7 @@ api_key="你的_nvapi_key"
 4，curl google news rss , 总结近2日财经要闻，分国际，国内 两组，每组20条。
 
 5, 只有输出的 html,md,pdf,txt ，png ,csv, xlsx , docx 文件，，才放到/mnt/tmp ，不要放到 /opt/data 。
-   其他的临时文件，放到/tmp 。  在飞书消息中输出完整结果 。     并写入 长期记忆 。
+   其他的临时文件，放到/tmp 。        在飞书消息中输出完整结果 。     并写入 长期记忆 。
 
 文件输出路径规则：html, md, pdf, txt, png, csv, xlsx, docx 等输出型文件放 /mnt/tmp，不要放到 /opt/data；其他临时文件放 /tmp  。。。写入 长期记忆 。
 飞书消息输出规则：完整结果直接输出在飞书消息中，不截断，不省略  。。。写入 长期记忆 。
