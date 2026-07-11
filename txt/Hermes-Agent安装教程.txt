@@ -547,9 +547,9 @@ api_key="你的_nvapi_key"
    生成一份html文件。
 
 9. 请以技术分析方式分析一下，沪深300指数和中证1000指数,创业板综指数399102，在日k线和周k线的表现，
-   技术点：macd,kdj,boll,cci,obv,量价，均线，波浪理论。  
+   技术点：macd,kdj,boll,cci,obv,量价，均线，波浪理论。  并总结一下。
    数据源：akshare 或 yfinance ...
-   在飞书中完整输出，生成一份html文件。
+   在飞书中完整输出，并生成一份html文件。
 
 
 
