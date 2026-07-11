@@ -462,7 +462,7 @@ z-ai/glm-5.2           比较正常 api有时忙
 
      python3 -m venv myenv                   创建名为 myenv 的虚拟环境
      source myenv/bin/activate               来激活创建好的虚拟环境
-     pip install akshare --upgrade           来安装和升级 AKShare 到最新版本        # 在飞书中 创建虚拟环境 激活创建好的虚拟环境 pip install akshare 
+     pip install akshare --upgrade           来安装和升级 AKShare 到最新版本        # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, pip install akshare 
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
