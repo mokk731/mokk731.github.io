@@ -447,7 +447,7 @@ docker run -it --rm \
 202607
 minimaxai/minimax-m2.7 比较正常
 minimaxai/minimax-m3   怪怪的，降智了
-z-ai/glm-5.2           比较正常
+z-ai/glm-5.2           比较正常 api有时忙
 
 ------------------------------------------------------------------
 ------------------------------------------------------------------
@@ -462,7 +462,7 @@ z-ai/glm-5.2           比较正常
 
      python3 -m venv myenv                   创建名为 myenv 的虚拟环境
      source myenv/bin/activate               来激活创建好的虚拟环境
-     pip install akshare --upgrade           来安装和升级 AKShare 到最新版本        # 可以在cli中 pip install akshare 自动安装
+     pip install akshare --upgrade           来安装和升级 AKShare 到最新版本        # 在飞书中 创建虚拟环境 激活创建好的虚拟环境 pip install akshare 
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
@@ -488,7 +488,7 @@ api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成
 "model": "deepseek-ai/deepseek-v4-flash",            *****  api忙
 "model": "deepseek-ai/deepseek-v4-pro",
-"model": "z-ai/glm-5.2",                          *********** api忙
+"model": "z-ai/glm-5.2",                          *********** api有时忙
 "model": "qwen/qwen3.5-122b-a10b",
 
 ----------------------------------------------------------------
@@ -518,14 +518,14 @@ api_key="你的_nvapi_key"
 
 2，获取股票证券数据源：  通过 东方财富网 或 新浪财经 或 雅虎财经 或 腾讯证券  或 akshare 或 yfinance .  并写入 skill 。
 
-3, 只有输出的 html,md,pdf,txt ，png ,csv, xlsx , docx 文件，，才放到/mnt/tmp ，不要放到 /opt/data 。
+3, 查看 长期记忆
+
+   只有输出的 html,md,pdf,txt ，png ,csv, xlsx , docx 文件，，才放到/mnt/tmp ，不要放到 /opt/data 。
    其他的临时文件，放到/tmp 。        在飞书消息中输出完整结果 。     并写入 长期记忆 。
 
-文件输出路径规则：html, md, pdf, txt, png, csv, xlsx, docx 等输出型文件放 /mnt/tmp，不要放到 /opt/data；其他临时文件放 /tmp  。。。写入 长期记忆 。
-飞书消息输出规则：完整结果直接输出在飞书消息中  。。。写入 长期记忆 。
+  文件输出路径规则：html, md, pdf, txt, png, csv, xlsx, docx 等输出型文件放 /mnt/tmp，不要放到 /opt/data；其他临时文件放 /tmp  。。。写入 长期记忆 。
+  飞书消息输出规则：完整结果直接输出在飞书消息中  。。。写入 长期记忆 。
 
-用户报告偏好：深色主题HTML(#0d1117背景)，完整结果飞书输出
-文件输出路径规则（重要！）：所有HTML/报告等输出文件必须写入  /mnt/tmp/，禁止写入 /opt/data/ 。临时文件用/tmp/。
 
 
 
