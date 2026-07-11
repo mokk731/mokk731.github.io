@@ -485,7 +485,7 @@ api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成
 "model": "deepseek-ai/deepseek-v4-flash",            *****  api忙
 "model": "deepseek-ai/deepseek-v4-pro",
-"model": "z-ai/glm-5.2",                          ***********
+"model": "z-ai/glm-5.2",                          *********** api忙
 "model": "qwen/qwen3.5-122b-a10b",
 
 ----------------------------------------------------------------
