@@ -330,7 +330,11 @@ FEISHU_GROUP_POLICY=open
 
 nano /srv/.hermes/config.yaml   重要备份：
 model:
-  default: minimaxai/minimax-m3        # minimaxai/minimax-m2.7      # deepseek-ai/deepseek-v4-flash   
+  default: minimaxai/minimax-m2.7  
+# default: minimaxai/minimax-m3 
+# default: minimaxai/z-ai/glm-5.2 
+# default: deepseek-ai/deepseek-v4-flash 
+
   provider: nvidia
   base_url: https://integrate.api.nvidia.com/v1
 
