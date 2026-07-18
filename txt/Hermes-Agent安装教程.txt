@@ -354,8 +354,8 @@ docker run -it --rm \
 docker run -it --rm \
   -v /srv/.hermes:/opt/data \
   -v /home/public/hermes-tmp:/mnt/tmp \
-  -e HTTP_PROXY=http://172.31.0.1:8501 \
-  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  -e HTTP_PROXY=http://172.18.0.1:8501 \
+  -e HTTPS_PROXY=http://172.18.0.1:8501 \
   nousresearch/hermes-agent:v2026.4.30
 
 
@@ -387,9 +387,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Shanghai
-      - HTTP_PROXY=http://172.31.0.1:8501     
-      - HTTPS_PROXY=http://172.31.0.1:8501    
-      #- ALL_PROXY=socks5://172.31.0.1:8500    
+      - HTTP_PROXY=http://172.18.0.1:8501     
+      - HTTPS_PROXY=http://172.18.0.1:8501    
+      #- ALL_PROXY=socks5://172.18.0.1:8500    
       - NO_PROXY=localhost,127.0.0.1
     #  - WEBUI_PORT=8000
     # 取消注释以转发特定的环境变量，而不是使用 `.env` 文件：
@@ -430,8 +430,8 @@ nano /srv/.hermes2/config.yaml
 以交互方式启动容器以运行设置向导  
 docker run -it --rm \
   -v /srv/.hermes2:/opt/data \
-  -e HTTP_PROXY=http://172.31.0.1:8501 \
-  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  -e HTTP_PROXY=http://172.18.0.1:8501 \
+  -e HTTPS_PROXY=http://172.18.0.1:8501 \
   nousresearch/hermes-agent:v2026.7.7.2 setup
 
 
@@ -439,8 +439,8 @@ docker run -it --rm \
 docker run -it --rm \
   -v /srv/.hermes2:/opt/data \
   -v /home/public/hermes-tmp:/mnt/tmp \
-  -e HTTP_PROXY=http://172.31.0.1:8501 \
-  -e HTTPS_PROXY=http://172.31.0.1:8501 \
+  -e HTTP_PROXY=http://172.18.0.1:8501 \
+  -e HTTPS_PROXY=http://172.18.0.1:8501 \
   nousresearch/hermes-agent:v2026.7.7.2
 
 
