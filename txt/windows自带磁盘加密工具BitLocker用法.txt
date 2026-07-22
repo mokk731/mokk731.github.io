@@ -1,5 +1,14 @@
 ## windows自带磁盘加密工具BitLocker用法详细讲解
 
+
+## 强烈建议：关闭BitLocker锁，，，不要用，不要用，不要用！！！
+           在重新安装 win10 之前，要认真确定 D: , E: ,F: 盘是否有BitLocker锁！！！
+
+
+
+
+
+
 https://zhuanlan.zhihu.com/p/458120059
 windows自带磁盘加密工具BitLocker用法详细讲解
 
