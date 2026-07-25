@@ -558,8 +558,11 @@ api_key="你的_nvapi_key"
    在飞书中完整输出，并生成一份html文件,放到/mnt/tmp 。
 
 
-
-
+10，请以技术分析方式分析一下，国际黄金期货,在日线和周线的表现，
+    数据源: yfinance 或 Yahoo Finance ,akshare
+    技术点：macd,kdj,boll,cci,obv,量价，均线，波浪理论。
+    消息面：最新可能影响价格消息。
+    在飞书中完整输出，并生成一份html文件,放到/mnt/tmp 。
 
 
 
