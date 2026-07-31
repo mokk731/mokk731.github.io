@@ -15,6 +15,9 @@ https://pengtech.net/docker/docker-registry-mirrors.html
 2025 年最新国内可用 Docker 镜像加速器汇总附带监测
 
 
+
+
+
 ------------------------------------------------------------------------
 
 1.摘要
@@ -101,10 +104,10 @@ https://1ms.run
 https://lispy.org
 
 202607镜像加速：
-https://docker.1ms.run
-https://docker.xuanyuan.me
-https://docker.m.daocloud.io
-https://docker.1panel.live
+https://docker.1ms.run            毫秒镜像 目前最常用、速度和稳定性较好，免费
+https://docker.xuanyuan.me        轩辕镜像（免费版） 免费公益，支持搜索，速度不错
+https://docker.m.daocloud.io      DaoCloud  老牌服务，仍可用
+https://docker.1panel.live        1Panel   限制中国地区访问
 https://docker.jiaxin.site
 https://dockerproxy.net
 
