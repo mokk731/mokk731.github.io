@@ -190,10 +190,9 @@ sudo systemctl restart docker
 -----------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
 
-国内可以从南京大学镜像源下载
-只需要在原来的标签前面加上 ghcr.nju.edu.cn 即可，例如：
-docker pull ghcr.nju.edu.cn/14790897/openwrt:<tag>
-docker pull ghcr.nju.edu.cn/14790897/openwrt-mini:<tag>
+临时拉取方式（不改配置）
+可以直接在镜像名前加加速地址，例如：
+docker pull docker.1ms.run/library/nginx:latest
 
 或者使用ghcr :
 docker pull ghcr.io/14790897/openwrt:<tag>
