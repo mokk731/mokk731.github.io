@@ -525,6 +525,8 @@ api_key="你的_nvapi_key"
 
 2，获取股票证券数据源：  通过 东方财富网 或 新浪财经 或 雅虎财经 或 腾讯证券  或 akshare 或 yfinance .  并写入 skill 。
 
+  软件源:换国内镜像软件源
+
 3, 查看 长期记忆
 
    只有输出的 html,md,pdf,txt ，png ,csv, xlsx , docx 文件，，才放到/mnt/tmp ，不要放到 /opt/data 。
