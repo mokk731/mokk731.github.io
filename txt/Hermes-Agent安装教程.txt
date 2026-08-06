@@ -464,9 +464,9 @@ z-ai/glm-5.2             比较正常 api有时忙
     2. 创建虚拟环境并安装：
      sudo apt-get install python3-venv -y    安装虚拟环境支持                      # 以上要在docker容器中安装，要sudo安装权限
 
-     python3 -m venv myenv                   创建名为 myenv 的虚拟环境
-     source myenv/bin/activate               来激活创建好的虚拟环境
-     pip install akshare --upgrade           来安装和升级 AKShare 到最新版本          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare 
+     python3 -m venv myenv                   创建虚拟环境
+     source myenv/bin/activate               激活创建好的虚拟环境
+     pip install akshare --upgrade           pip install akshare          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare 
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
