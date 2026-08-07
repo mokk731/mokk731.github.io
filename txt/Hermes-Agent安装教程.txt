@@ -464,7 +464,7 @@ z-ai/glm-5.2             比较正常 api有时忙
 
      python3 -m venv myenv                   创建虚拟环境
      source myenv/bin/activate               激活创建好的虚拟环境
-     pip install akshare --upgrade           uv pip install akshare          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare       
+     pip install akshare --upgrade           uv pip install akshare          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare        ***********
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
@@ -472,7 +472,7 @@ z-ai/glm-5.2             比较正常 api有时忙
 # yfinance
   yfinance 是一个流行的开源库，由 Ran Aroussi 开发，用于访问雅虎财经上可用的财务数据。
 
-    pip install yfinance                      #  uv pip install yfinance 
+    pip install yfinance                      # 在飞书中:  uv pip install yfinance              ***********
 
 
 ----------------------------------------------------------------
@@ -487,15 +487,15 @@ build.nvidia.com
 base_url="https://integrate.api.nvidia.com/v1",
 api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m2.7",                  over
-"model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成
+"model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成 , api很忙
 "model": "deepseek-ai/deepseek-v4-flash",            *****  api忙
 "model": "deepseek-ai/deepseek-v4-pro",
 "model": "z-ai/glm-5.2",                          *********** api有时忙
 "model": "qwen/qwen3.5-122b-a10b",                  消失
           moonshotai/kimi-k2.6                     连不上
           openai/gpt-oss-120b                      能用                       
-          nvidia/nemotron-3-ultra-550b-a55b        能用     
-          nvidia/nemotron-3-super-120b-a12b        能用
+          nvidia/nemotron-3-ultra-550b-a55b        能用     ***********
+          nvidia/nemotron-3-super-120b-a12b        能用     
 ----------------------------------------------------------------
 
 
