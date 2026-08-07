@@ -458,13 +458,13 @@ z-ai/glm-5.2             比较正常 api有时忙
 # AKShare
     要在docker容器中
     1,安装pip
-    sudo apt update && apt install python3-pip -y
+    sudo apt update && apt install python3-pip -y                               ***********
     2. 创建虚拟环境并安装：
-     sudo apt-get install python3-venv -y    安装虚拟环境支持                      # 以上要在docker容器中安装，要sudo安装权限
+     sudo apt-get install python3-venv -y    安装虚拟环境支持                      # 以上要在docker容器中安装，要sudo安装权限     ***********
 
      python3 -m venv myenv                   创建虚拟环境
      source myenv/bin/activate               激活创建好的虚拟环境
-     pip install akshare --upgrade           uv pip install akshare          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare 
+     pip install akshare --upgrade           uv pip install akshare          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare       
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
@@ -472,7 +472,7 @@ z-ai/glm-5.2             比较正常 api有时忙
 # yfinance
   yfinance 是一个流行的开源库，由 Ran Aroussi 开发，用于访问雅虎财经上可用的财务数据。
 
-  pip install yfinance
+    pip install yfinance                      #  uv pip install yfinance 
 
 
 ----------------------------------------------------------------
