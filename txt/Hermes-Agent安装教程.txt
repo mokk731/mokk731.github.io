@@ -524,6 +524,28 @@ api_key="你的_nvapi_key"
 2，获取股票证券数据源：  通过 东方财富网 或 新浪财经 或 雅虎财经 或 腾讯证券  或 akshare 或 yfinance .  并写入 skill 。
 
   软件源:换国内镜像软件源,清华源
+     # 1. 备份原配置
+cp /etc/apt/sources.list.d/debian.sources /etc/apt/sources.list.d/debian.sources.bak
+
+   # 2. 写入清华源配置
+cat > /etc/apt/sources.list.d/debian.sources << 'EOF'
+Types: deb
+URIs: https://mirrors.tuna.tsinghua.edu.cn/debian
+Suites: trixie trixie-updates
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
+
+Types: deb
+URIs: https://mirrors.tuna.tsinghua.edu.cn/debian-security
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
+EOF
+
+    # 3. 更新软件包索引
+apt update
+
+
 
 3, 查看 长期记忆
    查看 定时任务
