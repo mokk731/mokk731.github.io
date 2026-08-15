@@ -422,7 +422,7 @@ services:
 # 运行第2个hermes-agent:
 docker pull nousresearch/hermes-agent:v2026.7.7.2
 docker pull nousresearch/hermes-agent:v2026.8.3
-
+docker pull nousresearch/hermes-agent:v2026.8.13
 
 mkdir -p /srv/.hermes2
 chmod -R 755 /srv/.hermes2
@@ -491,7 +491,7 @@ api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成 , api很忙
 "model": "deepseek-ai/deepseek-v4-flash",            *****  api忙
 "model": "deepseek-ai/deepseek-v4-pro",
-"model": "z-ai/glm-5.2",                          *********** api有时忙
+"model": "z-ai/glm-5.2",                             ****** api有时忙
 "model": "qwen/qwen3.5-122b-a10b",                  消失
           moonshotai/kimi-k2.6                     连不上
           openai/gpt-oss-120b                      能用                       
@@ -524,7 +524,11 @@ api_key="你的_nvapi_key"
 
 2，获取股票证券数据源：  通过 东方财富网 或 新浪财经 或 雅虎财经 或 腾讯证券  或 akshare 或 yfinance .  并写入 skill 。
 
-  软件源:换国内镜像软件源,清华源
+    pip 使用国内镜像源
+    清华大学TUNA镜像源： https://pypi.tuna.tsinghua.edu.cn/simple
+    中国科学技术大学镜像源： https://mirrors.ustc.edu.cn/pypi/simple
+
+  软件源:换国内镜像软件源,清华源 有时更新慢，出错
      # 1. 备份原配置
 cp /etc/apt/sources.list.d/debian.sources /etc/apt/sources.list.d/debian.sources.bak
 
