@@ -309,21 +309,21 @@ nmcli 是 NetworkManager 的命令行工具，它与 NetworkManager 一起管理
 
 执行以下命令来查看可用的 WiFi 网络列表：
 
-nmcli device wifi list
+nmcli device wifi list                                                   *******
 
 这将显示附近的 WiFi 网络以及它们的名称（SSID）、信号强度、频道和加密方式等信息。
 步骤 3: 连接到 WiFi 网络
 
 选择要连接的 WiFi 网络，并执行以下命令以连接到该网络：
 
-nmcli device wifi connect <SSID> password <password>
+nmcli device wifi connect <SSID> password <password>                     *******
 
 将 <SSID> 替换为要连接的 WiFi 网络的名称，<password> 替换为网络的密码。如果网络没有密码，则不需要提供 password 参数。
 步骤 4: 验证连接
 
 连接成功后，可以执行以下命令来验证 WiFi 连接：
 
-nmcli connection show
+nmcli connection show                                                  *******
 
 该命令将显示当前的网络连接状态，包括已连接的 WiFi 网络。
 连接到隐藏的 WiFi 网络
@@ -357,7 +357,7 @@ nmcli connection up <connection-name> password <password>
 
 连接成功后，可以执行以下命令来验证 WiFi 连接：
 
-nmcli connection show
+nmcli connection show                             *******
 
 该命令将显示当前的网络连接状态，包括已连接的 WiFi 网络。
 其他 nmcli 命令
@@ -368,7 +368,7 @@ nmcli 提供了许多其他有用的命令来管理和配置网络连接。以�
     nmcli connection delete <connection-name>：删除指定的网络连接。
     nmcli radio wifi on  ：          启用 WiFi 网络。
     nmcli radio wifi off  ：         禁用 WiFi 网络。
-    nmcli connection up "连接名"  :  激活连接 。     *******
+    nmcli connection up "连接名"  :  激活连接 。           *******
 
 您可以通过执行 nmcli --help 命令或参考 nmcli 的文档来了解更多 nmcli 命令和选项。
 https://www.runoob.com/linux/linux-comm-nmcli.html
