@@ -366,10 +366,12 @@ nmcli 提供了许多其他有用的命令来管理和配置网络连接。以�
 
     nmcli connection show：显示所有的网络连接。
     nmcli connection delete <connection-name>：删除指定的网络连接。
-    nmcli radio wifi on：启用 WiFi 网络。
-    nmcli radio wifi off：禁用 WiFi 网络。
+    nmcli radio wifi on  ：          启用 WiFi 网络。
+    nmcli radio wifi off  ：         禁用 WiFi 网络。
+    nmcli connection up "连接名"  :  激活连接 。     *******
 
 您可以通过执行 nmcli --help 命令或参考 nmcli 的文档来了解更多 nmcli 命令和选项。
+https://www.runoob.com/linux/linux-comm-nmcli.html
 
 ------------------------------------------------------------
 
