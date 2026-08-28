@@ -16,7 +16,7 @@
 [windows自带磁盘加密工具BitLocker用法](https://mokk731.github.io/txt/windows自带磁盘加密工具BitLocker用法.txt)
 
 
-[Win10开机如何自动登录进桌面](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面.txt)
+[Win10开机如何自动登录进桌面+快捷键关机](https://mokk731.github.io/txt/Win10开机如何自动登录进桌面快捷键关机.txt)
 
 
 [windows10如何使用Samba](https://mokk731.github.io/txt/windows10如何使用Samba.txt)
