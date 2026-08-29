@@ -139,3 +139,40 @@ systemctl status cron
 
 
 --------------------------------------------------------------------------------------------------
+
+# Linux Mint 上启用 SSH
+
+在 Ubuntu 上启用 SSH 是安装操作系统后应该做的第一件事，因为它提供了加密的网络协议来保护远程服务器和客户端登录。它允许您远程访问您的机器并安全地执行操作。
+它对所有客户端-服务器流量进行加密，以防止窃听、连接劫持和其他类型的攻击
+https://cn.linux-console.net/?p=15287
+如何在 Linux Mint 上启用 SSH
+
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl status ssh
+
+如何在防火墙中允许 ssh 连接
+sudo ufw allow ssh
+sudo ufw enable
+sudo ufw reload
+sudo ufw status verbose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
