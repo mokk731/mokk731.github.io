@@ -279,10 +279,23 @@ sudo make install
 ------------------------------------------------------------------------------------------------------
 
 
-Wifite  #########
+Wifite  #########     202608
 
 sudo apt install wifite                #########
 sudo wifite                            #########
+
+
+Quick Install (Recommended)            #########
+# Clone the repository
+git clone https://github.com/kimocoder/wifite2.git
+cd wifite2
+
+# Install system-wide
+sudo python3 setup.py install
+
+# Run wifite
+sudo wifite
+
 
 
 
