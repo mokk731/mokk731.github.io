@@ -168,7 +168,7 @@ sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm p
 
 #下载 Docker 图形化界面 portainer
 
-    sudo docker pull portainer/portainer-ce:2.33.6
+    sudo docker pull portainer/portainer-ce:2.39.2
 
 #创建 portainer 容器
 
@@ -176,7 +176,7 @@ sudo apt-get install mysql-server mysql-workbench nodejs git redis mongodb npm p
 
 #运行 portainer
 
-    sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.33.6
+    sudo docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.39.2
 
 ## [docker国内镜像加速](https://mokk731.github.io/txt/docker国内镜像加速.txt)
 
