@@ -307,6 +307,29 @@ kali系统获取handshake的方法(4way-EAPOL-key)
 
 
 
+For Best Results 为了获得最佳效果
+Use a dedicated wireless adapter - USB adapters often perform better than built-in cards
+使用专用无线适配器——USB适配器通常比内置显卡表现更好
+Position matters - Get closer to target networks for better signal strength
+位置很重要——靠近目标网络以获得更好的信号强度
+Choose the right channel - Use -c <channel> to focus on specific channels
+选择合适的频道——使用-c <channel>专注于特定频道
+Limit concurrent attacks - Use -first 5 to attack only the strongest targets first
+限制同时攻击——先用-first 5攻击最强的目标
+
+Speed Optimization 速度优化
+PMKID first - Try --pmkid for fastest WPA/WPA2 attacks (no clients needed)
+先用PMKID——试试--pmkid以获得最快的WPA/WPA2攻击（无需客户端）
+Skip WPS on modern routers - Use --no-wps on newer routers that likely have WPS disabled
+在现代路由器上跳过WPS——在可能关闭WPS的新路由器上使用--no-wps
+Use wordlists efficiently - Start with common passwords, use --dict <wordlist>
+高效使用单词列表——从常用密码开始，使用--dict <wordlist>
+WPA3 transition mode - Downgrade attacks are faster than pure SAE capture
+WPA3 过渡模式——降级攻击比纯 SAE 捕获更快
+Target WPA2 first - WPA2 is faster to crack than WPA3-SAE
+优先攻击WPA2——WPA2比WPA3-SAE破解更快
+
+
 
 
 
