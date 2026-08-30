@@ -1,4 +1,5 @@
-破解wifi密码
+# 破解wifi密码
+
 
 https://www.cnblogs.com/pshell/p/8339818.html
 适用于WIFI Hacking的无线网卡推荐
@@ -138,7 +139,7 @@ aircrack-ng：802.11WEP和WPA-PSK密钥破解程序-a：用于WPA2的-a2和-用�
 
 ===================================================================
 
-Reaver 
+Reaver      淘汰
 
 https://github.com/t6x/reaver-wps-fork-t6x
 Reaver has been designed to be a robust and practical attack against Wi-Fi Protected Setup (WPS) registrar PINs in order to recover WPA/WPA2 passphrases
@@ -285,7 +286,7 @@ sudo apt install wifite                #########  成功
 sudo wifite                            #########
 
 
-Quick Install (Recommended)           
+Quick Install (Recommended)       github.com/kimocoder/wifite2    
 # Clone the repository
 git clone https://github.com/kimocoder/wifite2.git
 cd wifite2
@@ -306,7 +307,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 
-sudo python3 wifite.py
+sudo python3 wifite.py                 #########
 
 
 
@@ -572,7 +573,7 @@ netsh wlan show profile name="Wi-Fi名称" key=clear             ############
 
 
 导出 WIFI 无线网络配置的 xml 文件：
-Netsh WLAN export profile key=clear folder="存放路径"
+Netsh WLAN export profile key=clear folder="存放路径"           ############
 
 默认情况下会为每个 WIFI 连接都导出一个单独的配置文件，
 
