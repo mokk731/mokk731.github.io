@@ -289,7 +289,7 @@ sudo wifite                            #########
 https://zhuanlan.zhihu.com/p/590061373
 kali系统获取handshake的方法(4way-EAPOL-key)
 
-如何在 sudo wifite , 只抓握手包handshake?  WPS Pixie-Dust   WPS NULL PIN
+如何在 sudo wifite , 只抓握手包handshake?   忽略 WPS Pixie-Dust ，WPS NULL PIN
 
 1, sudo wifite --skip-crack          没有用，不成功
 
