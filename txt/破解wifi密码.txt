@@ -276,6 +276,31 @@ git clone https://github.com/kimocoder/bully
 
 sudo make install
 
+------------------------------------------------------------------------------------------------------
+
+
+Wifite  #########
+
+sudo apt install wifite                #########
+sudo wifite                            #########
+
+
+
+https://zhuanlan.zhihu.com/p/590061373
+kali系统获取handshake的方法(4way-EAPOL-key)
+
+如何在 sudo wifite , 只抓握手包handshake?  WPS Pixie-Dust   WPS NULL PIN
+
+1, sudo  wifite  --skip-crack
+
+2, wifite会扫描出附近的网络，当出现自己想要破解的ap时，按ctrl +C结束监听（比如下面第3个名为TP-LINK_463A为目标AP，
+当它出现以后我就可以按ctrl + C结束监听了）
+
+3, 然后输入目标AP的编号，告诉wifite你要破解的路由器是哪个，我这里目标AP的编号是3，所以我输入3回车。可以输入3，4，5代表同时选择这三个，
+也可以输入4-13，代表选择4到13。也可以输入all，代表选择全部。
+
+
+
 
 
 
