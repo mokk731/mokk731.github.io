@@ -25,3 +25,56 @@ immortalwrt-x86-64-generic-squashfs-combined.img.gz
 
 https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/
 https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/immortalwrt-21.02.7-x86-64-generic-squashfs-combined.img.gz
+
+========================================================
+
+202609
+
+linuxmint-22.3-xfce-64bit   , MBR ,安装成功 ,  swap /  /home .
+
+
+
+
+
+apt install
+vim , htop , samba , wifite ,
+
+
+
+------------------------------------------
+
+打开SSH
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl status ssh
+
+------------------------------------------
+
+# samba
+1,执行安装命令
+apt install samba
+
+2, 修改配置文件/etc/samba/smb.conf，直接覆盖原内容，实现匿名直接连接。
+vim nano /etc/samba/smb.conf
+
+简洁版
+
+[global]
+       workgroup = WORKGROUP
+       security = user
+       map to guest = Bad User
+[media]
+       comment = resources
+       path = /home/public
+       public = yes
+       writable = yes
+       guest ok = yes
+       browseable = yes
+    
+3, 修改目录权限
+    mkdir /home/public
+    chmod -R 777 /home/public
+
+------------------------------------------
+
+
