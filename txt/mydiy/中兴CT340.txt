@@ -30,27 +30,26 @@ https://downloads.immortalwrt.org/releases/21.02.7/targets/x86/64/immortalwrt-21
 
 202609
 
-linuxmint-22.3-xfce-64bit   , MBR ,安装成功 ,  swap /  /home .
-
-
-
+linuxmint-22.3-xfce-64bit   , MBR ,安装成功 , 
+分区： swap, / , /home .
 
 
 apt install
 vim , htop , samba , wifite ,
 
 
-
 ------------------------------------------
 
-打开SSH
+# SSH ：
+
 sudo apt install openssh-server
 sudo systemctl enable ssh
 sudo systemctl status ssh
 
 ------------------------------------------
 
-# samba
+# samba ：
+
 1,执行安装命令
 apt install samba
 
