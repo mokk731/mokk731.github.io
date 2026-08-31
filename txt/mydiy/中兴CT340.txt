@@ -54,7 +54,7 @@ sudo systemctl status ssh
 apt install samba
 
 2, 修改配置文件/etc/samba/smb.conf，直接覆盖原内容，实现匿名直接连接。
-vim nano /etc/samba/smb.conf
+sudo nano /etc/samba/smb.conf
 
 简洁版
 
@@ -75,5 +75,25 @@ vim nano /etc/samba/smb.conf
     chmod -R 777 /home/public
 
 ------------------------------------------
+
+# 配置cron任务
+
+crontab -e
+0 6 * * * sudo halt -p        #每天6点关机
+
+crontab -l
+systemctl status cron
+
+
+------------------------------------------
+
+
+
+------------------------------------------
+
+
+
+------------------------------------------
+
 
 
