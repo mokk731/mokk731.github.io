@@ -282,8 +282,11 @@ sudo make install
 
 Wifite  #########     202608
 
-sudo apt install wifite                #########  成功
-sudo wifite                            #########
+sudo apt install wifite                         #########  成功
+sudo wifite --no-wps                            #########
+
+sudo airodump-ng wlan0mon                      ###########  先 airodump-ng：用于数据包捕获wlan0mon  ，有数据包流动的，优先!!!!!
+
 
 
 Quick Install (Recommended)       github.com/kimocoder/wifite2    
