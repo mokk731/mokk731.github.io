@@ -283,7 +283,7 @@ sudo make install
 Wifite  #########     202608
 
 sudo apt install wifite                         #########  成功
-sudo wifite --no-wps                            #########
+sudo wifite  --wpa --no-pmkid --no-wps           #########
 
 sudo airodump-ng wlan0mon                      ###########  先 airodump-ng：用于数据包捕获wlan0mon  ，有数据包流动的，优先!!!!!
 
@@ -299,7 +299,7 @@ sudo python3 setup.py install    不成功
 sudo wifite
 
 
-我的用法： 202608                        #########  成功
+我的用法： 202608                                    #########  成功
 git clone https://github.com/kimocoder/wifite2.git
 cd wifite2
 
@@ -310,7 +310,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 
-sudo python3 wifite.py --no-wps              #########
+sudo python3 wifite.py  --wpa --no-pmkid --no-wps           #########
 
 
 
@@ -326,6 +326,9 @@ kali系统获取handshake的方法(4way-EAPOL-key)
 
   WPA/WPA2 Handshake捕获 - 传统四步握手攻击（默认启用，强制使用: --no-wps）
   sudo wifite --no-wps                  #########
+
+  PMKID 关闭
+  sudo wifite --wpa --no-pmkid                   #########
                                               
 
 2, wifite会扫描出附近的网络，当出现自己想要破解的ap时，按ctrl +C结束监听（比如下面第3个名为TP-LINK_463A为目标AP，
