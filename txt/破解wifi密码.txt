@@ -365,6 +365,11 @@ Target WPA2 first - WPA2 is faster to crack than WPA3-SAE
 
 
 
+sudo wifite --wpa --no-pmkid --no-wps --skip-crack
+--wpa：只针对 WPA 网络
+--no-pmkid：跳过 PMKID
+--no-wps：不做 WPS
+--skip-crack：只抓取，不自动破解
 
 
 
