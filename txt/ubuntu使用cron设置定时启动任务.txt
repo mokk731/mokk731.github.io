@@ -157,11 +157,26 @@ sudo ufw enable
 sudo ufw reload
 sudo ufw status verbose
 
+--------------------------------------------------------------------------------------------------
 
 
+# Linux Mint 上 时间同步
 
 
+要在 Ubuntu 20.04 系统上查看服务器时间，可以使用 date 命令。任何用户都可以运行该命令来查询日期和时间：
+通常，服务器默认使用的是UTC时间（世界标准时间）。
+date
 
+但是现在在 Ubuntu 系统上，默认使用 timesyncd 代替 ntpd 。timesyncd 通过连接到相同的时间服务器，但它是轻量级的，并且与 Ubuntu 的 systemd 集成得更好。
+
+#查看NTP状态
+timedatectl 是一个用于查看和更改系统时间和日期的工具。要检查当前的时间同步状态，可以使用以下命令：
+timedatectl status
+
+
+在某些情况下，可能需要手动同步时间。可以使用 ntpdate 命令与指定的NTP服务器同步时间：
+sudo apt-get install ntpdate  / ntpsec-ntpdate
+sudo ntpdate -s time.nist.gov
 
 
 
