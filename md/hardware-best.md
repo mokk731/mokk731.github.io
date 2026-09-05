@@ -4,7 +4,7 @@
 |硬件                  |            内容                                                                 |
 |-------------         |-------------------------------------------------------------                    |
 | 神U：                | R5-5500GT  ,  i3-12100    ,   N100                                              |
-| 手机：               |  RedmiNote17Pro RedmiNote15Pro,  MTK8400Ultra RedmiTurbo4,,...                      |
+| 手机：               |  RedmiNote15Pro,RedmiNote17Pro ,   RedmiTurbo4,,...                            |
 |路由器:               |  小米CR660x,小米CR880x, 小米WR30U,,中移动RAX3000m .磊科 N30 Pro , H3C NX30 Pro. 上海贝尔 EA0326GM    |
 |Mesh组网:             | 小米AX3000T,小米AX3000E-高通苹果友好, 小米WR30U,..... 锐捷雪豹X30E电竞路由器           |
 |NAS:                 |  电犀牛R66S . 外贸盒子HK1 box , R3S-rk3566 ，J4125 ,  网心云OEC/OECT-RK3566          |
