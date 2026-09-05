@@ -114,6 +114,11 @@ crontab -e
 0 */6 * * * sudo /usr/bin/docker restart qbittorrent
 */30 * * * * sudo /usr/bin/docker restart qbittorrent
 
+
+0 8 * * * sudo ntpdate -s time.nist.gov
+0 7 * * 1 sudo reboot
+
+
 在 crontab 文件中显式设置 PATH 环境变量来处理 cron 作业中的路径。这告诉 cron 守护进程去哪里寻找可执行文件。例如：
 PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 在 crontab 文件的开头添加此行可确保下面的所有 cron 作业都将在这些目录中搜索可执行文件。
