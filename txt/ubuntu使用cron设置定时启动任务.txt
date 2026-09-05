@@ -161,6 +161,7 @@ sudo ufw status verbose
 
 
 # Linux Mint 上 时间同步
+
 https://www.cnblogs.com/Magiclala/p/17030519.html
 https://cloud.tencent.com/developer/article/1832436
 
@@ -173,8 +174,6 @@ date
 #查看NTP状态
 timedatectl 是一个用于查看和更改系统时间和日期的工具。要检查当前的时间同步状态，可以使用以下命令：
 timedatectl status
-
-
 
 System clock synchronized: yes 指令表示时间同步成功，NTP service: active 指令表示 timesyncd 已启动并运行。
 如果输出显示 NTP 服务未激活，可使用以下命令将其打开：
