@@ -39,6 +39,30 @@ pm uninstall --user 0 com.miui.hybrid             #快应用服务框架
 https://xiaomi.wxlnk.com/
 澎湃OS优化工具
 
+pm uninstall --user 0 com.miui.hybrid                 小米快应用框架
+pm uninstall --user 0 com.miui.analytics              小米分析
+pm uninstall --user 0 com.miui.daemon                 小米质量服务
+pm uninstall --user 0 com.miui.systemAdSolution       小米内置广告服务
+
+
+
+禁用安全报告
+settings put system send_security_reports 0
+
+禁用错误报告
+settings put secure send_action_app_error 0
+
+禁用活动日志
+settings put global activity_starts_logging_enabled 0
+
+禁用小米预加载命令
+settings put system touch_prestart_opt_config "{featureDisable:false,bgExceptionInterceptDisable:false,touchDownPreStartBlackList:[disable_all_package]}"
+
+
+
+
+
+
 ---------------------------------
 
 
