@@ -7,7 +7,7 @@ ADB 全称 Android Debug Bridge（Android 调试桥），
 https://developer.android.com/studio/command-line/adb?hl=zh-cn
 是一个通用命令行工具，可以与模拟器实例或连接的Android 设备进行通信。
 
-----------------------------------------------
+
 
 输入 
 adb devices
@@ -27,13 +27,15 @@ ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提�
 adb shell pm disable --user 0 应用包名
 
 
--------------------------------------------------
 
-pm uninstall --user 0 com.miui.systemAdSolution  （小米系统广告解决方案，必删）
-pm uninstall --user 0 com.miui.analytics         （小米广告分析，必删）
-pm uninstall --user 0 com.miui.hybrid             #快应用服务框架
 
----------------------------------
+pm uninstall --user 0 com.miui.systemAdSolution     （小米系统广告解决方案，必删）
+pm uninstall --user 0 com.miui.analytics            （小米广告分析，必删）
+pm uninstall --user 0 com.miui.hybrid                #快应用服务框架
+
+
+
+---------------------------------------------------------------------------------------------------
 
 
 https://xiaomi.wxlnk.com/
@@ -63,7 +65,7 @@ settings put system touch_prestart_opt_config "{featureDisable:false,bgException
 
 
 
----------------------------------
+---------------------------------------------------------------------------------------------------
 
 
 
@@ -78,13 +80,13 @@ PS：为了省电和流畅而卸载多余APP的前提是：这些APP在后台运
 
 # 推荐卸载（小米广告与快应用跳转的含金量懂的都懂）
 
-adb shell pm uninstall --user 0 com.miui.analytics #Analytics——后台上传数据耗电
+adb shell pm uninstall --user 0 com.miui.analytics                 #Analytics——后台上传数据耗电
 
-adb shell pm uninstall --user 0 com.miui.systemAdSolution #小米系统广告
+adb shell pm uninstall --user 0 com.miui.systemAdSolution          #小米系统广告
 
-adb shell pm uninstall --user 0 com.miui.hybrid #快应用服务框架
+adb shell pm uninstall --user 0 com.miui.hybrid                    #快应用服务框架
 
-adb shell pm uninstall --user 0 com.miui.hybrid.accessory # 智慧生活
+adb shell pm uninstall --user 0 com.miui.hybrid.accessory          # 智慧生活
 
 
 # 可选卸载
