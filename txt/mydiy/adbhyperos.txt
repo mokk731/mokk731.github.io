@@ -10,8 +10,8 @@ https://developer.android.com/studio/command-line/adb?hl=zh-cn
 
 
 输入 
-adb devices
-.\adb devices
+adb devices           #win7
+.\adb devices         #win10
 ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提示成 .\adb.exe ，下面所有的adb打完之后记得都要按一下tab键。
 
 我们首先需要执行一条命令，进入交互模式。
@@ -41,10 +41,10 @@ pm uninstall --user 0 com.miui.hybrid                #快应用服务框架
 https://xiaomi.wxlnk.com/
 澎湃OS优化工具
 
-pm uninstall --user 0 com.miui.hybrid                 小米快应用框架
-pm uninstall --user 0 com.miui.analytics              小米分析
-pm uninstall --user 0 com.miui.daemon                 小米质量服务
-pm uninstall --user 0 com.miui.systemAdSolution       小米内置广告服务
+pm uninstall --user 0 com.miui.hybrid                 #小米快应用框架
+pm uninstall --user 0 com.miui.analytics              #小米分析
+pm uninstall --user 0 com.miui.daemon                 #小米质量服务
+pm uninstall --user 0 com.miui.systemAdSolution       #小米内置广告服务
 
 
 
@@ -86,7 +86,7 @@ adb shell pm uninstall --user 0 com.miui.systemAdSolution          #小米系统
 
 adb shell pm uninstall --user 0 com.miui.hybrid                    #快应用服务框架
 
-adb shell pm uninstall --user 0 com.miui.hybrid.accessory          # 智慧生活
+adb shell pm uninstall --user 0 com.miui.hybrid.accessory          # 智慧生活     没成功
 
 
 # 可选卸载
@@ -297,31 +297,31 @@ ADB手动优化净化小米澎湃HyperOS 1/2/3（非Root)
 
 # 必删App，广告与游戏：
 
-adb shell pm uninstall --user 0 com.android.browser #小米浏览器
+adb shell pm uninstall --user 0 com.android.browser    #小米浏览器
 
-adb shell pm uninstall --user 0 com.miui.yellowpage #生活黄页(小米黄页)
+adb shell pm uninstall --user 0 com.miui.yellowpage    #生活黄页(小米黄页)
 
-adb shell pm uninstall --user 0 com.miui.hybrid #快应用服务框架(小米社区)
+adb shell pm uninstall --user 0 com.miui.hybrid    #快应用服务框架(小米社区)
 
-adb shell pm uninstall --user 0 com.miui.analytics #小米广告分析
+adb shell pm uninstall --user 0 com.miui.analytics    #小米广告分析
 
-adb shell pm uninstall --user 0 com.miui.systemAdSolution #小米系统广告解决方案
+adb shell pm uninstall --user 0 com.miui.systemAdSolution    #小米系统广告解决方案
 
-adb shell pm uninstall --user 0 com.miui.guardprovider #反诈
+adb shell pm uninstall --user 0 com.miui.guardprovider    #反诈
 
-adb shell pm uninstall --user 0 com.miui.bugreport #用户bug反馈
+adb shell pm uninstall --user 0 com.miui.bugreport    #用户bug反馈
 
-adb shell pm uninstall --user 0 com.miui.securityadd #游戏加速
+adb shell pm uninstall --user 0 com.miui.securityadd    #游戏加速
 
-adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service #小米游戏中心服务
+adb shell pm uninstall --user 0 com.xiaomi.gamecenter.sdk.service    #小米游戏中心服务
 
-adb shell pm uninstall --user 0 com.xiaomi.gamecenter #小米游戏中心（os1中可用）
+adb shell pm uninstall --user 0 com.xiaomi.gamecenter    #小米游戏中心（os1中可用）
 
-adb shell pm uninstall --user 0 com.xiaomi.macro #自动连招
+adb shell pm uninstall --user 0 com.xiaomi.macro    #自动连招
+   
+adb shell pm uninstall --user 0 com.miui.misightservice    #系统质量检测（os3中有）
 
-adb shell pm uninstall --user 0 com.miui.misightservice #系统质量检测（os3中有）
-
-adb shell pm uninstall --user 0 com.xiaomi.security.onetrack #用户数据收集与统计
+adb shell pm uninstall --user 0 com.xiaomi.security.onetrack    #用户数据收集与统计
 
 
 # 可删App，小米服务：
