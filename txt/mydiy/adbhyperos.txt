@@ -458,7 +458,7 @@ adb shell pm disable-user --user 0 [应用包名]
 adb shell pm enable [应用包名]
 
 
-
-
+禁用小米预加载命令   可以通过ADB命令或系统设置关闭小米手机的应用预加载功能，从而减少后台资源占用和提升续航。
+settings put system touch_prestart_opt_config "{featureDisable:false,bgExceptionInterceptDisable:false,touchDownPreStartBlackList:[disable_all_package]}"
 
 
