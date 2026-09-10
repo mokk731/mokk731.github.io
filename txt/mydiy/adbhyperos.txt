@@ -395,6 +395,62 @@ adb shell pm uninstall --user 0 com.miui.wmsvc #似乎与快应用的信息服�
 19. 用ADB删除系统应用（⚠️⚠️⚠️“#”为暂时不要删除的应用，“#”越多，越不建议删⚠️⚠️⚠️）：
 
 
+----------------------------------------------------------------
+
+# 恢复已删除App、系统数据清除等：
+
+1️⃣ 恢复已删除的预装应用举例：
+
+adb shell cmd package install-existing （应用包名）
+
+
+adb shell cmd package install-existing com.xiaomi.market #小米应用商店
+
+adb shell cmd package install-existing com.android.providers.downloads #下载管理器
+
+adb shell cmd package install-existing com.android.updater #小米系统更新
+
+adb shell cmd package install-existing com.lbe.security.miui #MIUI权限管理（可用安卓自带权限管理代替）
+
+adb shell cmd package install-existing com.miui.securitycenter #安全服务（无界面、应电池、应用列表、隐藏应用、应用联网、手机名+Wi-Fi名+蓝牙名更改校验）
+
+adb shell cmd package install-existing com.android.thememanager #系统主题(设置)
+
+adb shell cmd package install-existing com.android.mms #短信
+
+adb shell cmd package install-existing com.android.contacts #电话和通讯录
+
+adb shell cmd package install-existing com.miui.personalassistant #桌面负一屏(小部件、智能助理)
+
+adb shell cmd package install-existing com.miui.securitycore #系统功能服务组件（应用双开、手机分身、边缘触控）
+
+adb shell cmd package install-existing com.miui.cloudservice #小米云服务
+
+adb shell cmd package install-existing com.xiaomi.account #小米账号
+
+adb shell cmd package install-existing com.miui.micloudsync #小米云同步
+
+adb shell cmd package install-existing com.xiaomi.xmsf #小米服务1（微信消息、Mipush）
+
+adb shell cmd package install-existing com.xiaomi.xmsfkeeper #小米服务2（微信消息、Mipush）
+
+adb shell cmd package install-existing com.miui.powerkeeper #电量和性能（智能杀后台应用，后台保活相关）
+
+adb shell cmd package install-existing com.android.camera #小米相机
+
+adb shell cmd package install-existing com.miui.core #（系统SDK API）
+
+adb shell cmd package install-existing com.miui.home #小米桌面
+
+
+
+禁用和恢复禁用的命令：
+
+禁用：
+adb shell pm disable-user --user 0 [应用包名]
+
+恢复禁用：
+adb shell pm enable [应用包名]
 
 
 
