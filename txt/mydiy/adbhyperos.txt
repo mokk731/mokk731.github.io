@@ -36,6 +36,11 @@ pm uninstall --user 0 com.miui.hybrid             #快应用服务框架
 ---------------------------------
 
 
+https://xiaomi.wxlnk.com/
+澎湃OS优化工具
+
+---------------------------------
+
 
 
 https://www.bilibili.com/opus/1073374956499238916
