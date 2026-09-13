@@ -49,7 +49,7 @@ https://github.com/Lin-arm/GKD_subscription
 #### [Lin-arm/GKD_subscription第三方订阅规则下载jsdelivr源](https://cdn.jsdelivr.net/gh/Lin-arm/GKD_subscription@main/dist/gkd.json5)
 
 
-#### [开源软件GKD的介绍与使用](https://www.bilibili.com/video/BV1mrPCeBEff)
+#### [开源软件GKD的介绍与使用 B站](https://search.bilibili.com/all?keyword=GKD)
 
 ## other
 
