@@ -35,14 +35,18 @@
 基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 gkd     
 https://github.com/gkd-kit/gkd/
 
-#### [基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
 
-#### [gkd跳广告神器-v1.9.3.apk](https://mokk731.github.io/apk/gkd跳广告神器-v1.9.3.zip)
+
 
 GKD 第三方订阅规则       
-https://github.com/AIsouler/GKD_subscription
+https://github.com/AIsouler/GKD_subscription      Feb 13, 2026  停止
 
-#### [GKD 第三方订阅规则下载](https://raw.githubusercontent.com/AIsouler/GKD_subscription/main/dist/AIsouler_gkd.json5)
+https://github.com/Lin-arm/GKD_subscription
+
+#### [Lin-arm/GKD_subscription第三方订阅规则下载GitHub源](https://raw.githubusercontent.com/Lin-arm/GKD_subscription/main/dist/gkd.json5)
+
+#### [Lin-arm/GKD_subscription第三方订阅规则下载jsdelivr源](https://cdn.jsdelivr.net/gh/Lin-arm/GKD_subscription@main/dist/gkd.json5)
 
 
 #### [开源软件GKD的介绍与使用](https://www.bilibili.com/video/BV1mrPCeBEff)
@@ -57,13 +61,19 @@ https://github.com/AIsouler/GKD_subscription
 
 
 
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
 
-#### [LiTiaoTiao2.2.apk](https://mokk731.github.io/apk/LiTiaoTiao2.2.apk)
-#### [LiTiaoTiao2.2.apk](https://mokk731.github.io/apk/LiTiaoTiao2.2.apk)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
 
-#### [LiTiaoTiao2.2.apk](https://mokk731.github.io/apk/LiTiaoTiao2.2.apk)
-#### [LiTiaoTiao2.2.apk](https://mokk731.github.io/apk/LiTiaoTiao2.2.apk)
-#### [LiTiaoTiao2.2.apk](https://mokk731.github.io/apk/LiTiaoTiao2.2.apk)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+#### [GKD.apk ](https://github.com/gkd-kit/gkd/releases)
+
+
 
 ## apk使用技巧
 
