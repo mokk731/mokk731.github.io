@@ -54,7 +54,7 @@ CPU：至强E-2174G，某宝152
 
 ---------------------------------------------
 http://www.onda.cn/MotherBoard_Specifications.aspx?id=491
-Intel® H100 芯片组
+Intel H100 芯片组
 昂达9D3-DVH主板是昂达推出的一款采用Intel H310芯片组的M-ATX主板，定位入门级办公与家用市场。其具备两个最大的核心亮点，其一是兼容第6/7/8/9代Intel Core/Pentium/Celeron处理器（LGA 1151插槽）
 
 
