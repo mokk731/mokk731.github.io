@@ -52,6 +52,27 @@ CPU：至强E-2174G，某宝152
 风扇：杂牌四热管（无调速） 咸鱼31
 
 
+---------------------------------------------
+http://www.onda.cn/MotherBoard_Specifications.aspx?id=491
+昂达9D3-DVH主板是昂达推出的一款采用Intel H310芯片组的M-ATX主板，定位入门级办公与家用市场。其具备两个最大的核心亮点，其一是兼容第6/7/8/9代Intel Core/Pentium/Celeron处理器（LGA 1151插槽）
+
+
+https://www.colorful.cn/home/product?mid=84&id=751
+七彩虹 断剑C.H310M-E D3 V20
+功能亮点:
+支持Intel LGA1151接口Coffee Lake-S系列处理器;
+支持DDR3/DDR3L双通道1333 /1600 MHZ规格内存; 
+
+
+https://www.jginyue.com.cn/index/Article/show/cat_id/24/id/284
+精粤H311M-HD3主板
+
+
+昂达9d3-dvh，精粤H311m-hd3. 梅捷h311m-v3h
+
+
+
+
 
 
 
