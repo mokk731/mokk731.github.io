@@ -352,7 +352,7 @@ chmod -R 755 /srv/.hermes
 以交互方式启动容器以运行设置向导  
 docker run -it --rm \
   -v /srv/.hermes:/opt/data \
-  nousresearch/hermes-agent:v2026.4.30 setup
+  nousresearch/hermes-agent:v2026.7.7.2 setup
 
 交互式运行（CLI 聊天 ） :
 docker run -it --rm \
@@ -360,7 +360,7 @@ docker run -it --rm \
   -v /home/public/hermes-tmp:/mnt/tmp \
   -e HTTP_PROXY=http://172.18.0.1:8501 \
   -e HTTPS_PROXY=http://172.18.0.1:8501 \
-  nousresearch/hermes-agent:v2026.4.30
+  nousresearch/hermes-agent:v2026.7.7.2
 
 
  hermes model 看看可用的选项
@@ -376,7 +376,7 @@ model: "qwen/qwen3.5-122b-a10b",
 version: "3.8"
 services:
   hermes:
-    image: nousresearch/hermes-agent:v2026.4.30
+    image: nousresearch/hermes-agent:v2026.7.7.2
     container_name: hermes
     restart: unless-stopped
     command: gateway run
@@ -424,7 +424,8 @@ services:
 # 运行第2个hermes-agent:
 docker pull nousresearch/hermes-agent:v2026.7.7.2
 docker pull nousresearch/hermes-agent:v2026.8.3
-docker pull nousresearch/hermes-agent:v2026.8.13   ???
+docker pull nousresearch/hermes-agent:v2026.8.13   
+docker pull nousresearch/hermes-agent:v2026.9.14
 
 mkdir -p /srv/.hermes2
 chmod -R 755 /srv/.hermes2
