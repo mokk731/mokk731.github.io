@@ -491,7 +491,7 @@ base_url="https://integrate.api.nvidia.com/v1",
 api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m2.7",                  over
 "model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成 , api很忙
-"model": "deepseek-ai/deepseek-v4-flash",            *****  api忙
+"model": "deepseek-ai/deepseek-v4-flash",            *****  api有时忙
 "model": "deepseek-ai/deepseek-v4-pro",
 "model": "z-ai/glm-5.3",                             ***    api忙
           z-ai/glm-5.3-Flash                         ****** api有时忙
