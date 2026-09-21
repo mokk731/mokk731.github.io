@@ -4,10 +4,9 @@
 机型代号 ：cannon
 小米机型：M2007J22C
 
-国际版红米Note9T 对应国内版红米Note9 5G
-机型代码，国内版红米note9 5g 是cannon
-而国际版的红米note9t是cannong。二者rom不能通刷
-强制刷入rom可以开机，但无基带，不能使用任何网络
+国际版红米Note9T 对应国内版红米Note9 5G ,
+机型代码，国内版红米note9 5g 是cannon,  
+而国际版的红米note9t是cannong。二者rom不能通刷,  强制刷入rom可以开机，但无基带，不能使用任何网络.
 
 开发者统一适配：在 LineageOS 等第三方项目中，开发者为这两款机型制作了统一的设备树（统一代号为“cannon”），提供相同的 ROM 包
 想用国际版 ROM，不要直接强刷。更稳妥的路径是：在解锁 BL 并刷入第三方 Recovery（如 TWRP/OrangeFox）后，选择那些明确标注同时支持 “cannon/cannong” 的第三方 ROM（如 LineageOS、StatiXOS 等）。
@@ -21,7 +20,7 @@ https://xiaomirom.com/series/cannon/
 
 中国大陆正式版 V14.0.6.0.SJECNXM
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.6.0.SJECNXM/miui_CANNON_V14.0.6.0.SJECNXM_8eb42b6abd_12.0.zip
-中国大陆正式版 V12.5.9.0.RJECNXM
+中国大陆正式版 V12.5.9.0.RJECNXM     *******
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V12.5.9.0.RJECNXM/miui_CANNON_V12.5.9.0.RJECNXM_6c53fed2d8_11.0.zip
 欧洲EEA正式版  V14.0.4.0.SJEEUXM
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.4.0.SJEEUXM/miui_CANNONGEEAGlobal_V14.0.4.0.SJEEUXM_6b56f359fc_12.0.zip
@@ -29,7 +28,7 @@ https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.4.0
 
 
 # ROM   LineageOS、StatiXOS
-https://github.com/xiaomi-mt6853-devs/releases
+https://github.com/xiaomi-mt6853-devs/releases     *******
 https://github.com/xiaomi-mt6853-devs/releases/releases/download/20241209/lineage-20.0-20241208-UNOFFICIAL-cannon.zip
 
 https://sourceforge.net/projects/statixos/
