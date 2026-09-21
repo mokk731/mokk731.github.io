@@ -147,7 +147,7 @@ com.android.hotspot2.osulogin
 
 
 
-我的总结：                     ######################
+我的总结： 202605                    ######################
 
 1，Freeme OS 是国产山寨Android 的定制系统，垃圾广告机
 2，adb,usb口限制，  但wifi adb可能连上
