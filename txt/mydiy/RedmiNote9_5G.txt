@@ -1,4 +1,5 @@
 ## Redmi Note 9 5G
+202609
 
 机型名称 ：Redmi Note 9 5G
 机型代号 ：cannon
