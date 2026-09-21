@@ -37,7 +37,7 @@
 
 #### [FreemeOS手机](https://mokk731.github.io/txt/mydiy/FreemeOS手机.txt)
 
-#### [RedmiNote9_5G](https://mokk731.github.io/txt/mydiy/RedmiNote9_5G.txt)
+#### [RedmiNote9_5G手机](https://mokk731.github.io/txt/mydiy/RedmiNote9_5G.txt)
 
 ----------------------------------------------------------------
 
