@@ -10,22 +10,27 @@
 强制刷入rom可以开机，但无基带，不能使用任何网络
 
 开发者统一适配：在 LineageOS 等第三方项目中，开发者为这两款机型制作了统一的设备树（统一代号为“cannon”），提供相同的 ROM 包
-想用国际版 ROM，不要直接强刷。更稳妥的路径是：在解锁 BL 并刷入第三方 Recovery（如 TWRP/OrangeFox）后，选择那些明确标注同时支持 “cannon/cannong” 的第三方 ROM（如 LineageOS、StatiXOS 等）。这些 ROM 的开发者已经做了兼容性适配，风险远低于直接强刷官方国际包。
+想用国际版 ROM，不要直接强刷。更稳妥的路径是：在解锁 BL 并刷入第三方 Recovery（如 TWRP/OrangeFox）后，选择那些明确标注同时支持 “cannon/cannong” 的第三方 ROM（如 LineageOS、StatiXOS 等）。
+这些 ROM 的开发者已经做了兼容性适配，风险远低于直接强刷官方国际包。
 
 
-ROM
+# ROM 原版
 https://roms.miuier.com/zh-cn/devices/cannon
 https://xiaomirom.com/series/cannon/
-
 
 欧洲EEA正式版  V14.0.4.0.SJEEUXM
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.4.0.SJEEUXM/miui_CANNONGEEAGlobal_V14.0.4.0.SJEEUXM_6b56f359fc_12.0.zip
 
-ROM   LineageOS、StatiXOS
+
+
+# ROM   LineageOS、StatiXOS
 https://github.com/xiaomi-mt6853-devs/releases
+https://github.com/xiaomi-mt6853-devs/releases/releases
+
 https://sourceforge.net/projects/statixos/
 
 
-TWRP
+# TWRP
+https://github.com/xiaomi-mt6853-devs/releases/releases
 https://github.com/gsuzeda/twrp_cannong/releases
 https://xiaomitools.com/download/redmi-note-9-5g-cannon-twrp/
