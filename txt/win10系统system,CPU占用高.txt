@@ -58,6 +58,15 @@ https://www.youtube.com/watch?v=ycRLCmgnRxU
 
 
 -----------------------------------------
+202609
+
+服务管理，通过快捷组合键：Win+R  打开命令框输入命令 services.msc
+NcbService
+Network Connection Broker
+允许 Windows 应用商店应用从 Internet 接收通知的代理连接
+
+禁用这个 Windows 后台服务,电脑立刻起飞
+
 
 -----------------------------------------
 
