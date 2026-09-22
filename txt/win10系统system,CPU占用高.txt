@@ -65,8 +65,7 @@ https://www.youtube.com/watch?v=ycRLCmgnRxU
 
 禁用这个 Windows 后台服务,电脑立刻起飞
 
-NcbService
-Network Connection Broker
+NcbService  (Network Connection Broker)
 允许 Windows 应用商店应用从 Internet 接收通知的代理连接
 
 
