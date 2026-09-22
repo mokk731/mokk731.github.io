@@ -1,6 +1,9 @@
+## win10系统system,CPU占用高
+
+
+
 https://blog.csdn.net/qq_37964379/article/details/103026757
 解决win10系统CPU占用过高【亲测非常有效】
-
 
 https://zhuanlan.zhihu.com/p/349104738
 win10 20H2版本，system异常占用CPU问题的解决！
@@ -60,12 +63,13 @@ https://www.youtube.com/watch?v=ycRLCmgnRxU
 -----------------------------------------
 202609
 
-服务管理，通过快捷组合键：Win+R  打开命令框输入命令 services.msc
+禁用这个 Windows 后台服务,电脑立刻起飞
+
 NcbService
 Network Connection Broker
 允许 Windows 应用商店应用从 Internet 接收通知的代理连接
 
-禁用这个 Windows 后台服务,电脑立刻起飞
+
 
 
 -----------------------------------------
