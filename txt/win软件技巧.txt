@@ -191,6 +191,9 @@ https://zhuanlan.zhihu.com/p/349104738
 为了知道具体是那个程序引起的，这里使用Process Explorer 来检查是system内哪个线程占用的资源。
 发现是一个叫dxgmms2.sys的程度在使用1.65的cpu。这个东西在网上搜索资料以后发现是系统的显示功能的驱动相关的程序。这个程序还和DirectX12相关，同时网上相关的资料显示和显卡驱动等有关。
 
+https://blog.csdn.net/weixin_42116058/article/details/165900879
+Windows System进程高CPU占用排查：ntoskrnl.exe与驱动问题定位
+
 
 
 重新ghost时间:
