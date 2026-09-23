@@ -1,5 +1,5 @@
 ## adbhyperos
-
+202609
 
 https://adbshell.com/
 下载ADB Kits
@@ -20,19 +20,15 @@ ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提�
 
 
 输入.\adb shell pm list packages >alllist.txt，会在你的当前目录下出现alllist.txt文件，里面有你安装的程序包名。
-
 删除系统预装软件的指令为 adb shell pm uninstall --user 0 +软件包名
-
 如果你不想删除应用，可以使用如下命令冻结，效果差不多，冻结的应用可以再解冻：
 adb shell pm disable --user 0 应用包名
-
 
 
 
 pm uninstall --user 0 com.miui.systemAdSolution     （小米系统广告解决方案，必删）
 pm uninstall --user 0 com.miui.analytics            （小米广告分析，必删）
 pm uninstall --user 0 com.miui.hybrid                #快应用服务框架
-
 
 
 ---------------------------------------------------------------------------------------------------
@@ -62,11 +58,7 @@ settings put system touch_prestart_opt_config "{featureDisable:false,bgException
 
 
 
-
-
-
 ---------------------------------------------------------------------------------------------------
-
 
 
 https://www.bilibili.com/opus/1073374956499238916
