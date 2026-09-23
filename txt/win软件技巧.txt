@@ -195,6 +195,9 @@ https://blog.csdn.net/weixin_42116058/article/details/165900879
 Windows System进程高CPU占用排查：ntoskrnl.exe与驱动问题定位
 
 
+NVIDIA 控制面板---3D设置----设置PhysX配置---选择PhysX处理器--独显
+
+
 
 重新ghost时间:
 20240315
