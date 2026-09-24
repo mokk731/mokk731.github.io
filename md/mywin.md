@@ -59,6 +59,8 @@
 
 [win软件技巧-杂](https://mokk731.github.io/txt/win软件技巧.txt)
 
+[免费版杀毒软件](https://mokk731.github.io/txt/免费版杀毒软件.txt)
+
 
 [dos批处理选择菜单方法](https://mokk731.github.io/txt/dos批处理选择菜单方法.txt)
 
