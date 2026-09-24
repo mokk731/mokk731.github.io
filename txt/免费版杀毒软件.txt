@@ -1,0 +1,13 @@
+## 免费版杀毒软件
+
+
+# 卡巴斯基免费版
+https://www.zhihu.com/question/386623091
+如何下载到卡巴斯基免费版？
+www.kaspersky.com.cn/downloads/free-antivirus
+
+免费版和标准版现在是同一个安装包，安装完输入序列码
+会根据序列码变成对应的版本（标准版或者优选版），安装完直接拒绝试用30天直接进入免费版
+免费版激活码
+A23B5-44EXM-85MVF-KM2GQ
+
