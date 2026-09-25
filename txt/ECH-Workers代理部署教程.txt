@@ -222,6 +222,7 @@ CFData-Web 是一个基于 Go 的 Cloudflare IP 测试与筛选工具，提供�
 
 取得ip后，用ping -t 2分钟后，lost 丢失 小于5% ,才算合格。
 
+https://mokk731.github.io/txt/linux_sh/ping_test.sh
 
 20260821
 HK
