@@ -1,20 +1,32 @@
 ## E-2100-8代志强Xeon
+202507
+
 
 ------------------------------------------------------
 
 英特尔® 至强® E-2124G 处理器   + 华擎H310M
-E-2124G  50元 202507
-Coffee Lake   14 nm  C4T4  3.4-4.5GHz  8MB  71W   Q3'18  DDR4-2666ECC  UHD P630  FCLGA1151  
-E-2100/2200对应的就是8、9代酷睿，但由于只能在C246芯片组使用，以及价格上没有什么性价比，大神魔改后可以使用100，200，300系列的主板
-
+E-2124G  50元     202507
+Coffee Lake   14 nm  C4T4  3.4-4.5GHz  8MB  71W   Q3'18  DDR4-2666ECC  UHD P630  FCLGA1151    相当于9100
+E-2100/2200对应的就是8、9代酷睿，但由于只能在C246芯片组使用，以及价格上没有什么性价比，大神魔改后可以使用100，200，300系列的主板  
 
 E2144G    120元       **********
 Coffee Lake   14 nm  C4T8  3.6-4.5GHz  8MB  71W  Q3'18  DDR4-2666ECC  UHD P630  DirectX12 OpenGL4.5  FCLGA1151  100°C 
-Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2 
+Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2    相当于7400
 
-E2174G
+E2174G     150元
 Coffee Lake   14 nm  C4T8  3.8-4.7GHz  8MB  71W  Q3'18  DDR4-2666ECC  UHDs P630  DirectX12 OpenGL4.5  FCLGA1151  100°C 
-Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2
+Intel® SSE4.1, Intel® SSE4.2, Intel® AVX2  相当于7700k
+
+
+E-2126G，
+6核/6线程，主频3.3GHz，最高4.5GHz，价格要350元。
+
+E-2146G，
+6核/12线程，主频3.5GHz，最高4.5GHz，性能相当8700k，价格大概是300元。
+
+
+E-2176G
+6核/12线程，主频3.7GHz，最高4.7GHz 性能相当8700k ，大概在800左右。
 
 
 
