@@ -1,12 +1,10 @@
 #!/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-
 # ==============================
 
 # chmod +x ping_test.sh
 # ./ping_test.sh
-
 
 # crontab -e
 # 0 6 * * * /bin/bash /home/yourname/ping_test.sh
@@ -14,7 +12,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # 输出文件路径要写绝对路径
 # TXTFILE="/home/yourname/ping${DATE_STR}.txt"
 # TXTFILE="/home/public/hermes-tmp/ping_test/ping${DATE_STR}.txt"
-
 
 # ==============================
 
