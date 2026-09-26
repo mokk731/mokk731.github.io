@@ -26,10 +26,14 @@
 
 #### [懒人专用系列 —视频下载](https://mokk731.github.io/ziprar/Greasy%20Fork/%E6%87%92%E4%BA%BA%E4%B8%93%E7%94%A8%E7%B3%BB%E5%88%97%20%E2%80%94%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD.1.0.1.js)
 
+#### [多合一视频下载器（支持：YouTube, TikTok, Instagram等）](https://greasyfork.org/zh-CN/scripts/563321)
+    https://greasyfork.org/zh-CN/scripts/563321
+
 
 #### [文本选中复制](https://mokk731.github.io/ziprar/Greasy%20Fork/%E6%96%87%E6%9C%AC%E9%80%89%E4%B8%AD%E5%A4%8D%E5%88%B66.1.15.js)
     https://greasyfork.org/scripts/405130
     https://github.com/WindrunnerMax/TKScript
+    https://cdn.jsdelivr.net/gh/WindrunnerMax/TKScript@gh-pages/copy.user.js
 
 
 #### [本地 YouTube 下載器](https://mokk731.github.io/ziprar/Greasy%20Fork/%E6%9C%AC%E5%9C%B0%20YouTube%20%E4%B8%8B%E8%BC%89%E5%99%A80.9.54.js)
@@ -38,10 +42,12 @@
 #### [bilibili 页面净化大师](https://greasyfork.org/zh-CN/scripts/479861)
     https://github.com/festoney8/bilibili-cleaner
     https://greasyfork.org/zh-CN/scripts/479861
+    https://cdn.jsdelivr.net/gh/festoney8/bilibili-cleaner@release/bilibili-cleaner.jsdelivr.user.js
 
 #### [全网VIP视频免费破解去广告](https://greasyfork.org/zh-CN/scripts/537189)
     https://greasyfork.org/zh-CN/scripts/537189
     https://github.com/88lin/video_vip
+    https://cdn.jsdelivr.net/gh/88lin/video_vip@main/video_vip.user.js
 
 
 
