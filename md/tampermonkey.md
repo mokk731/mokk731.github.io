@@ -44,10 +44,10 @@
     Tampermonkey       ###
     https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey
     
-    Adguard,       ###
+    AdGuard 广告拦截器,       ###
     https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker
     
-    Gproxy Plus,   
+    Gproxy Plus,    ###
     https://addons.mozilla.org/zh-CN/firefox/addon/gproxy-plus
     
     FoxyProxy Standard   
@@ -75,7 +75,7 @@
     FoxyProxy       
     https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp
     
-    Adguard ,  
+    AdGuard 广告拦截器 ,  
     https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg
     
     Auto Quality for YouTube.,,,,,   ###
