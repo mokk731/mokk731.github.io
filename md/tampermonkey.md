@@ -83,9 +83,10 @@
     https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
     
     Proxy Swithysharp,    停更
+    https://mokk731.github.io/ziprar/win-tools/ProxySwitchySharp1.10.7-chrome.zip
     Proxy SwitchyOmega 3 (ZeroOmega)    ###
     https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
-    [ProxySwitchyOmega3ZeroOmega-chrome202609](https://mokk731.github.io/ziprar/win-tools/ProxySwitchyOmega3ZeroOmega-chrome202609.zip)
+    https://mokk731.github.io/ziprar/win-tools/ProxySwitchyOmega3ZeroOmega-chrome202609.zip
     
     FoxyProxy       
     https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp
@@ -99,6 +100,7 @@
     
     Auto Quality for YouTube.,,,,,   ###
     https://chromewebstore.google.com/detail/auto-quality-for-youtube/iaddfgegjgjelgkanamleadckkpnjpjc
+    
     YouTube Auto HD  ,
     
     简约翻译    ###
