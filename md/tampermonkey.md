@@ -90,6 +90,10 @@
     
     AdGuard 广告拦截器 ,  
     https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg
+
+    217heidai去广告合并规则 , 仅适用浏览器插件
+    https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
+    https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/adblockfilters.txt
     
     Auto Quality for YouTube.,,,,,   ###
     https://chromewebstore.google.com/detail/auto-quality-for-youtube/iaddfgegjgjelgkanamleadckkpnjpjc
