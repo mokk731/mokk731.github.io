@@ -59,6 +59,7 @@
     
     AdGuard 广告拦截器,       ###
     https://addons.mozilla.org/zh-CN/firefox/addon/adguard-adblocker
+    https://mokk731.github.io/ziprar/win-tools/adguard_adblocker202608.xpi
     
     Gproxy Plus,    ###
     https://addons.mozilla.org/zh-CN/firefox/addon/gproxy-plus
