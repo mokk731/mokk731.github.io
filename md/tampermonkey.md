@@ -44,7 +44,7 @@
     https://greasyfork.org/zh-CN/scripts/479861
     https://cdn.jsdelivr.net/gh/festoney8/bilibili-cleaner@release/bilibili-cleaner.jsdelivr.user.js
 
-#### [全网VIP视频免费破解去广告](https://greasyfork.org/zh-CN/scripts/537189)
+#### [全网VIP视频免费破解去广告-爱奇艺、腾讯、优酷、芒果TV](https://greasyfork.org/zh-CN/scripts/537189)
     https://greasyfork.org/zh-CN/scripts/537189
     https://github.com/88lin/video_vip
     https://cdn.jsdelivr.net/gh/88lin/video_vip@main/video_vip.user.js
