@@ -85,7 +85,7 @@
     Proxy Swithysharp,    停更
     Proxy SwitchyOmega 3 (ZeroOmega)    ###
     https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
-    [ProxySwitchyOmega3ZeroOmega-chrome202609](https://mokk731.github.io/ziprar/win-tools/Proxy%20SwitchyOmega%203%20(ZeroOmega)-chrome202609.zip)
+    [ProxySwitchyOmega3ZeroOmega-chrome202609](https://mokk731.github.io/ziprar/win-tools/ProxySwitchyOmega3ZeroOmega-chrome202609.zip)
     
     FoxyProxy       
     https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp
