@@ -100,9 +100,11 @@
 
 #### [Tampermonkey油猴+浏览器扩展插件](https://mokk731.github.io/md/tampermonkey)
 
-#### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker-5.1.72-202504.xpi)
+#### [adguard_firefox插件.xpi](https://mokk731.github.io/ziprar/win-tools/adguard_adblocker202608.xpi)
 
 #### [Proxy SwitchySharp1.10.7-chrome](https://mokk731.github.io/ziprar/win-tools/ProxySwitchySharp1.10.7-chrome.zip)
+
+#### [ProxySwitchyOmega3ZeroOmega-chrome202609](https://mokk731.github.io/ziprar/win-tools/ProxySwitchyOmega3ZeroOmega-chrome202609.zip)
 
 #### [Auto Quality for YouTube2.1.3-chrome](https://mokk731.github.io/ziprar/win-tools/AutoQualityforYouTube2.1.3-chrome.zip)
 
