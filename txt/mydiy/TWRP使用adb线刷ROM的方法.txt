@@ -71,3 +71,13 @@ sideload后面是你的要刷入的ROM文件
 
 当出现Total 即刷入成功 然后拔掉数据线 操作手机按提示重启即可进入 。只要ROM没问题 一般情况都可以正常进入系统。
 
+
+----------------------------------------------
+
+看到“SPL downgrade”这个报错，确实会让人卡住。它的核心意思是：你正在用的 Recovery（恢复模式）比你要刷的 ROM 包“更新”，系统出于安全考虑，拒绝安装这个“更旧”的版本
+Android 系统有一个“防回滚保护”（Anti-Rollback）机制。每个系统包和 Recovery 都带有一个安全补丁级别（SPL）日期。为了避免降级到有漏洞的旧系统，Recovery 会拒绝安装 SPL 日期比它自己更早的
+
+下载匹配的 Recovery：去找一个发布日期早于或接近你要刷的 ROM 包的 Recovery 镜像（通常是 boot.img 或 recovery.img）。如果刷的是第三方 ROM（如 LineageOS），可以去它的官网翻找旧版本的下载链接
+
+刷入旧版 Recovery：手机进入 Fastboot 模式，连接电脑，执行命令：
+fastboot flash boot <旧版 recovery 文件名>.img
