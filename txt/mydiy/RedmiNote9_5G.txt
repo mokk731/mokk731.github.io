@@ -39,3 +39,12 @@ https://sourceforge.net/projects/statixos/
 https://github.com/xiaomi-mt6853-devs/releases/releases
 https://github.com/gsuzeda/twrp_cannong/releases
 https://xiaomitools.com/download/redmi-note-9-5g-cannon-twrp/
+
+------------------------------
+
+https://zhuanlan.zhihu.com/p/2012196874736653242
+红米note9 5G刷机升级安卓13（crDroid-9.2）、安卓15（Hyper OS-2.0.13.0）
+
+搞机助手、recovery032323.img、OrangeFox_A12.img、cannong_OS2.0.13.0.VNNCNXM.zip、crDroidAndroid-13.0-20230314-cannon-v9.2.zip、
+
+
