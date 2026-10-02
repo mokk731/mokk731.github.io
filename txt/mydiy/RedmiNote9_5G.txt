@@ -34,6 +34,11 @@ https://github.com/xiaomi-mt6853-devs/releases/releases/download/20241209/lineag
 
 https://sourceforge.net/projects/statixos/
 
+必须使用配套的 Recovery：该 LineageOS 构建不支持 TWRP 或 OrangeFox 等第三方 Recovery。刷机时必须使用从 ROM 压缩包内提取的 recovery.img（或通过其 OTA 机制）来安装
+依赖特定的底层固件：刷入前，手机需要运行在 MIUI 13 的底层固件上（建议版本 13.0.3.0 或更低），MIUI 12 是不支持的
+
+
+
 
 # TWRP
 https://github.com/xiaomi-mt6853-devs/releases/releases
@@ -47,6 +52,9 @@ https://zhuanlan.zhihu.com/p/2012196874736653242
 
 搞机助手、recovery032323.img、OrangeFox_A12.img、cannong_OS2.0.13.0.VNNCNXM.zip、crDroidAndroid-13.0-20230314-cannon-v9.2.zip、
 https://www.terabox.com/chinese/sharing/link?surl=CyfPa_VaeLkodUctEOh2VA&path=/CANNON(G)
+
+PixelExperience_Plus_cannon-12.1-20230119-1728-UNOFFICIAL.zip
+原生谷歌，带全家桶，安卓12，丝滑无比，锁屏能下拉...
 
 
 
