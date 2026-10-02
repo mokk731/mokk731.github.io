@@ -33,6 +33,7 @@ adb和fastboot命令使用示例
     将闪存恢复到设备上： 
 
     fastboot flash recovery twrp-x.x.x-x-polaris.img
+    fastboot flash recovery [此处将img文件拖到窗口中]
 
 在某些设备上，可能需要以下命令
 
@@ -44,7 +45,7 @@ OKEY
 
     接着输入以下命令进入TWEP： 
 
-   fastboot oem reboot-recovery
+   fastboot reboot-recovery
 
 即可看到这个界面。
 
@@ -63,9 +64,10 @@ file
 到达这个界面 连接USB数据线到电脑 然后 使用ADB执行
 
  adb sideload G:\fastboot\e-0.7-o-2019111430687-dev-polaris.zip
+ adb sideload [此处将zip文件拖到窗口中]
 
 sideload后面是你的要刷入的ROM文件
 会出现正在输入的进度
 
-当出现Total 即刷入成功 然后拔掉数据线 操作手机按提示重启即可进入 。只要ROM没问题 一般情况都可以正常进入系统。有问题请在下方留言或者加入星球
+当出现Total 即刷入成功 然后拔掉数据线 操作手机按提示重启即可进入 。只要ROM没问题 一般情况都可以正常进入系统。
 
