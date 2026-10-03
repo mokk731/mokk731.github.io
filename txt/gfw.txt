@@ -26,7 +26,7 @@ https://github.com/Kuingsmile/clash-core/releases
 clash-verge
 https://github.com/clash-verge-rev/clash-verge-rev/releases
 
-hiddify
+hiddify  v2.5.7
 https://github.com/hiddify/hiddify-app/releases
 
 MahsaNG
@@ -34,6 +34,24 @@ https://github.com/GFW-knocker/MahsaNG/releases
 
 v2rayN
 https://github.com/2dust/v2rayN/releases
+
+
+--------------
+
+V2rayNG.apk
+https://github.com/2dust/v2rayNG/releases
+1,启用流量探测--开
+2，启用本地DNS--启用虚拟DNS--开
+3,域名策略--IpifNonMatch
+4,预定义规则--全局代理
+
+
+MahsaNG.apk
+https://github.com/GFW-knocker/MahsaNG/releases
+
+hiddify.apk  v2.5.7
+https://github.com/hiddify/hiddify-app/releases
+
 
 -----------------------------------------------------
 
