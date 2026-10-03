@@ -15,7 +15,7 @@
 这些 ROM 的开发者已经做了兼容性适配，风险远低于直接强刷官方国际包。
 
 
-# ROM 原版
+# ROM miui原版
 https://roms.miuier.com/zh-cn/devices/cannon
 https://xiaomirom.com/series/cannon/
 
@@ -29,7 +29,7 @@ https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.4.0
 
 
 
-# ROM   LineageOS、StatiXOS
+# ROM   LineageOS
 https://github.com/xiaomi-mt6853-devs/releases               *******
 https://github.com/xiaomi-mt6853-devs/releases/releases/download/20241209/lineage-20.0-20241208-UNOFFICIAL-cannon.zip
 
@@ -41,12 +41,18 @@ https://sourceforge.net/projects/statixos/
 
 
 
-# TWRP
+# Recovery+TWRP
 https://github.com/xiaomi-mt6853-devs/releases/releases                  *******
 https://github.com/xiaomi-mt6853-devs/releases/releases/download/3/recovery.img
 
 https://github.com/gsuzeda/twrp_cannong/releases
 https://xiaomitools.com/download/redmi-note-9-5g-cannon-twrp/
+
+看到“SPL downgrade”这个报错，确实会让人卡住。它的核心意思是：你正在用的 Recovery（恢复模式）比你要刷的 ROM 包“更新”，系统出于安全考虑，拒绝安装这个“更旧”的版本
+Android 系统有一个“防回滚保护”（Anti-Rollback）机制。每个系统包和 Recovery 都带有一个安全补丁级别（SPL）日期。为了避免降级到有漏洞的旧系统，Recovery 会拒绝安装 SPL 日期比它自己更早的包
+核心思路是：用一个“更旧”的 Recovery 来刷这个“更旧”的 ROM。你需要让刷机工具的版本和要刷的系统版本“同步”。
+下载匹配的 Recovery：去找一个发布日期早于或接近你要刷的 ROM 包的 Recovery 镜像（通常是 boot.img 或 recovery.img）。如果刷的是第三方 ROM（如 LineageOS），可以去它的官网翻找旧版本的下载链接
+
 
 ------------------------------
 
