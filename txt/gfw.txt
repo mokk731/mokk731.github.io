@@ -59,6 +59,9 @@ https://github.com/hiddify/hiddify-app/releases
 ClashMetaForAndroid.apk
 https://github.com/MetaCubeX/ClashMetaForAndroid/releases
 
+Lantern.apk
+https://github.com/getlantern/lantern/releases
+
 
 -----------------------------------------------------
 
