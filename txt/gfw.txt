@@ -29,9 +29,6 @@ https://github.com/clash-verge-rev/clash-verge-rev/releases
 hiddify  v2.5.7
 https://github.com/hiddify/hiddify-app/releases
 
-MahsaNG
-https://github.com/GFW-knocker/MahsaNG/releases
-
 v2rayN
 https://github.com/2dust/v2rayN/releases
 
