@@ -20,6 +20,13 @@ QXJnaDczL1YyUmF5LVZhdWx0
 
 ------------------------------------------------------
 
+Clash官网导航  本项目收录 Clash 和 Clash Meta(Mihomo） 内核的主流客户端的实时更新情况。
+https://github.com/clash-download/Clash
+
+
+
+
+
 clash-core
 https://github.com/Kuingsmile/clash-core/releases
 
@@ -48,6 +55,9 @@ https://github.com/GFW-knocker/MahsaNG/releases
 
 hiddify.apk  v2.5.7
 https://github.com/hiddify/hiddify-app/releases
+
+ClashMetaForAndroid.apk
+https://github.com/MetaCubeX/ClashMetaForAndroid/releases
 
 
 -----------------------------------------------------
