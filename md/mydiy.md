@@ -54,15 +54,17 @@
 
 #### [极路由4增强版HC5962路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5962.txt)
 
+#### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
+
+#### [小米路由器R4AGv2](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv2.txt)
 
 
 
 #### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
 
 
-#### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
 
-#### [小米路由器R4AGv2](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv2.txt)
+
 
 #### [小米路由器MI_CR880X](https://mokk731.github.io/txt/mydiy/小米路由器MI_CR880X.txt)
 
@@ -105,6 +107,9 @@
 #### [E3-H81](https://mokk731.github.io/txt/mydiy/E3-H81.txt)
 
 #### [E-2100-8代志强](https://mokk731.github.io/txt/mydiy/E-2100-8代志强.txt)
+
+
+
 
 #### [中兴CT340小主机](https://mokk731.github.io/txt/mydiy/中兴CT340.txt)
 
