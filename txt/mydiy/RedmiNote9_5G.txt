@@ -1,6 +1,7 @@
 ## Redmi Note 9 5G
 202609
 
+
 机型名称 ：Redmi Note 9 5G
 机型代号 ：cannon
 小米机型：M2007J22C
@@ -19,9 +20,9 @@ https://roms.miuier.com/zh-cn/devices/cannon
 https://xiaomirom.com/series/cannon/
 
 
-中国大陆正式版 V14.0.6.0.SJECNXM
+中国大陆正式版 V14.0.6.0.SJECNXM            *******
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.6.0.SJECNXM/miui_CANNON_V14.0.6.0.SJECNXM_8eb42b6abd_12.0.zip
-中国大陆正式版 V12.5.9.0.RJECNXM     *******
+中国大陆正式版 V12.5.9.0.RJECNXM     
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V12.5.9.0.RJECNXM/miui_CANNON_V12.5.9.0.RJECNXM_6c53fed2d8_11.0.zip
 欧洲EEA正式版  V14.0.4.0.SJEEUXM
 https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.4.0.SJEEUXM/miui_CANNONGEEAGlobal_V14.0.4.0.SJEEUXM_6b56f359fc_12.0.zip
@@ -29,7 +30,7 @@ https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V14.0.4.0
 
 
 # ROM   LineageOS、StatiXOS
-https://github.com/xiaomi-mt6853-devs/releases     *******
+https://github.com/xiaomi-mt6853-devs/releases               *******
 https://github.com/xiaomi-mt6853-devs/releases/releases/download/20241209/lineage-20.0-20241208-UNOFFICIAL-cannon.zip
 
 https://sourceforge.net/projects/statixos/
@@ -41,7 +42,9 @@ https://sourceforge.net/projects/statixos/
 
 
 # TWRP
-https://github.com/xiaomi-mt6853-devs/releases/releases
+https://github.com/xiaomi-mt6853-devs/releases/releases                  *******
+https://github.com/xiaomi-mt6853-devs/releases/releases/download/3/recovery.img
+
 https://github.com/gsuzeda/twrp_cannong/releases
 https://xiaomitools.com/download/redmi-note-9-5g-cannon-twrp/
 
