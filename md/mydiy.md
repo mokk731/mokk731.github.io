@@ -20,20 +20,27 @@
 
 #### [TWRP使用adb线刷ROM的方法](https://mokk731.github.io/txt/mydiy/TWRP使用adb线刷ROM的方法.txt)
 
-#### [一些关于红米的隐藏小功能](https://mokk731.github.io/txt/mydiy/一些关于红米的隐藏小功能.txt)
-
 #### [小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT](https://mokk731.github.io/txt/mydiy/小米HyperOS绕过小米社区5级绑定限制解锁BL锁刷ROOT.txt)
 
+#### [一些关于红米的隐藏小功能](https://mokk731.github.io/txt/mydiy/一些关于红米的隐藏小功能.txt)
+
+
+
 #### [使用ADB删除小米MIUI系统自带应用](https://mokk731.github.io/txt/mydiy/adbmiui.txt)
+
 #### [使用ADB卸载小米预装系统应用HyperOS](https://mokk731.github.io/txt/mydiy/adbhyperos.txt)
-
-#### [小米平板4](https://mokk731.github.io/txt/mydiy/mi-pad4.txt)
-
-#### [LineageOS原始系统WIFI网络连接受限](https://mokk731.github.io/txt/LineageOS原始系统WIFI网络连接受限.txt)
 
 #### [ADB安装APK](https://mokk731.github.io/txt/ADB安装APK.txt)
 
+
+
+#### [LineageOS原始系统WIFI网络连接受限](https://mokk731.github.io/txt/LineageOS原始系统WIFI网络连接受限.txt)
+
 #### [Magisk-LSPosed](https://mokk731.github.io/txt/mydiy/Magisk-LSPosed.txt)
+
+
+
+#### [小米平板4](https://mokk731.github.io/txt/mydiy/mi-pad4.txt)
 
 #### [FreemeOS手机](https://mokk731.github.io/txt/mydiy/FreemeOS手机.txt)
 
@@ -45,12 +52,15 @@
 
 #### [中兴E8820S路由器](https://mokk731.github.io/txt/mydiy/中兴E8820S.txt)
 
-
 #### [极路由4增强版HC5962路由器](https://mokk731.github.io/txt/mydiy/极路由4增强版HC5962.txt)
 
 
-#### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
 
+
+#### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
+
+
+#### [小米路由器R4AGv1](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv1.txt)
 
 #### [小米路由器R4AGv2](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv2.txt)
 
@@ -59,7 +69,7 @@
 #### [小米路由器 WR30U](https://mokk731.github.io/txt/mydiy/小米路由器WR30U.txt)
 
 
-#### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
+
 
 
 
@@ -76,6 +86,8 @@
 #### [极米Z6电视盒子](https://mokk731.github.io/txt/mydiy/极米Z6.txt)
 
 #### [HK1-box电视盒子](https://mokk731.github.io/txt/mydiy/HK1-box.txt)
+
+
 
 #### [小雅影音库+TV](https://mokk731.github.io/txt/mydiy/小雅影音库+TV.txt)
 
