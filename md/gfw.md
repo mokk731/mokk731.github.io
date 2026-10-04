@@ -68,10 +68,13 @@
 
 ###  ios
 
-#### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
+#### [Hiddify-singbox for ios](https://github.com/hiddify/hiddify-app/releases)
 
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
+#### [WARP+ for ios](https://one.one.one.one/)
+
+#### [Lantern for ios](https://github.com/getlantern/lantern/releases)
 
 
 
