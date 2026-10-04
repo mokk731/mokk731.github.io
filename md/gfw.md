@@ -1,10 +1,10 @@
 ## GFW
 ----------------------------------------------------------------
 
-### 工具
+### 工具  Win  Mac Linux
+
 
 #### [hosts](https://mokk731.github.io/txt/hosts.txt)
-
 
 
 #### [V2rayN for win](https://github.com/2dust/v2rayN)
@@ -26,13 +26,9 @@
 
 
 
-
-
 #### [Oblivion Desktop](https://github.com/bepass-org/oblivion-desktop)
 
 #### [WARP+](https://one.one.one.one/)
-
-
 
 
 
@@ -48,22 +44,18 @@
 
 
 
-
-
-
 #### [Lantern for Win macOS Linux](https://github.com/getlantern/lantern/releases)
 
 
 
 ###  ios
 
+
 #### [Hiddify-singbox for ios](https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone)
 
 #### [karing for ios](https://apps.apple.com/us/app/karing/id6472431552)
 
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
-
-
 
 
 
@@ -75,6 +67,7 @@
 
 
 ###  Android
+
 
 #### [V2rayNG.apk](https://github.com/2dust/v2rayNG/releases)
 
@@ -96,7 +89,6 @@
 
 
 
-
 --------------------------------------------------------------------------
 
 ###  OpenWrt
@@ -110,6 +102,8 @@
 
 ####  homeproxy-singbox
 
+####  V2rayA
+
  --------------------------------------------------------------------------
 
 ###  Docker
@@ -119,8 +113,7 @@
 
 ####  [ech-workers-docker](https://hub.docker.com/r/cirnosalt/ech-workers-docker)
 
-####  gangz1o/clash4docke      [glash](https://hub.docker.com/r/gangz1o/glash)
-
+####  gangz1o/clash4docke   [glash](https://hub.docker.com/r/gangz1o/glash)
 
 
 
@@ -128,6 +121,7 @@
 --------------------------------------------------------------------------
 
 ### 方法
+
 
 #### [zerotier](https://mokk731.github.io/md/zerotier)
 
@@ -150,6 +144,7 @@
 
 ### 下载
 
+
 #### [docker202307.rar](https://mokk731.github.io/ziprar/docker202307.rar)
 
 #### [备份批处理清除垃圾win10-202403.rar](https://mokk731.github.io/ziprar/备份批处理清除垃圾win10-202403.rar)
@@ -162,6 +157,7 @@
 
 ### 破解wifi密码
 
+
 #### [破解wifi密码](https://mokk731.github.io/txt/破解wifi密码.txt)
 
 #### [Hashcat的使用](https://mokk731.github.io/txt/Hashcat的使用.txt)
@@ -172,6 +168,7 @@
 ----------------------------------------------------------------
 
 ### 破解ID+IC卡
+
 
 #### [手把手教如何模拟IC加密卡](https://mokk731.github.io/txt/mydiy/手把手教如何模拟IC加密卡.txt)
 
