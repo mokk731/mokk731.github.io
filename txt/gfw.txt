@@ -39,6 +39,9 @@ https://github.com/hiddify/hiddify-app/releases
 v2rayN
 https://github.com/2dust/v2rayN/releases
 
+karing
+https://github.com/KaringX/karing/releases
+
 
 --------------
 
