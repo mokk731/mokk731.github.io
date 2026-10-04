@@ -42,7 +42,7 @@
 
 
 
-####  [Telegram](https://web.telegram.org/)
+####  [Telegram](https://telegram.org/)
     Jisou 极搜
 
 
