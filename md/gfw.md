@@ -15,6 +15,9 @@
 
 #### [Clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
 
+#### [karing client](https://github.com/KaringX/karing/releases)
+
+
 
 
 
