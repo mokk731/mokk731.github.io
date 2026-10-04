@@ -50,17 +50,31 @@ https://github.com/2dust/v2rayNG/releases
 4,预定义规则--全局代理
 
 
-MahsaNG.apk
-https://github.com/GFW-knocker/MahsaNG/releases
-
 hiddify.apk  v2.5.7
 https://github.com/hiddify/hiddify-app/releases
 
 ClashMetaForAndroid.apk
 https://github.com/MetaCubeX/ClashMetaForAndroid/releases
 
+karing.apk
+https://github.com/KaringX/karing/releases
+
+
+
+
+
+
+Oblivion VPN.apk
+https://github.com/bepass-org/oblivion/releases
+
 Lantern.apk
 https://github.com/getlantern/lantern/releases
+
+MahsaNG.apk
+https://github.com/GFW-knocker/MahsaNG/releases
+
+WARP+
+https://one.one.one.one/
 
 
 -----------------------------------------------------
