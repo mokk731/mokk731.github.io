@@ -12,7 +12,7 @@
 
 #### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
 
-#### [V2rayA-V2Ray client](https://github.com/v2rayA/v2rayA/releases)
+#### [V2rayA-v2ray client](https://github.com/v2rayA/v2rayA/releases)
 
 
 #### [Clash-verge-rev for Wins, Mac, Linux](https://github.com/clash-verge-rev/clash-verge-rev)
@@ -27,7 +27,7 @@
 #### [V2rayU for mac](https://github.com/yanue/V2rayU/releases) 
      macos15.7---V2rayU 3.9.0
 
-#### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
+
 
 
 
@@ -63,6 +63,20 @@
 #### [Lantern.apk](https://github.com/getlantern/lantern/releases)
 
 #### [Lantern for Win macOS Linux](https://github.com/getlantern/lantern/releases)
+
+
+
+###  ios
+
+#### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
+
+#### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
+
+
+
+
+
+###  Android
 
 
 
