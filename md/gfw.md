@@ -63,7 +63,7 @@
 
 #### [WARP+ for ios](https://one.one.one.one/)
 
-#### [Lantern for ios](https://github.com/getlantern/lantern/releases)
+#### [Lantern for ios](https://apps.apple.com/ae/app/lantern-vpn/id1457872372)
 
 
 
