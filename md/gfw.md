@@ -59,9 +59,11 @@
 
 #### [Hiddify-singbox for ios](https://apps.apple.com/us/app/hiddify-proxy-vpn/id6596777532?platform=iphone)
 
+#### [karing for ios](https://apps.apple.com/us/app/karing/id6472431552)
+
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
-#### [karing for ios](https://apps.apple.com/us/app/karing/id6472431552)
+
 
 
 
@@ -72,11 +74,9 @@
 
 
 
-
-
 ###  Android
 
-#### [V2rayNG.apk](https://github.com/2dust/v2rayNG)
+#### [V2rayNG.apk](https://github.com/2dust/v2rayNG/releases)
 
 #### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
 
