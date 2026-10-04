@@ -80,6 +80,12 @@
 
 #### [Hiddify-singbox](https://github.com/hiddify/hiddify-app/releases)
 
+#### [ClashMetaForAndroid.apk](https://github.com/MetaCubeX/ClashMetaForAndroid/releases)
+
+#### [karing.apk](https://github.com/KaringX/karing/releases)
+
+
+
 #### [Oblivion VPN.apk](https://github.com/bepass-org/oblivion/releases)
 
 #### [WARP+](https://one.one.one.one/)
