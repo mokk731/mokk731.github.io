@@ -109,16 +109,7 @@ https://www.kms.pub/check.html
 目前可用kms服务器地址汇总、可同时激活Windows和office
 
 win.kms.pub
-kms.dun.pub
-
-
-kms.03k.org
-kms.chinancce.com
-kms.luody.info
-kms.lotro.cc
-kms.luochenzhimu.com
-kms8.MSGuides.com
-kms9.MSGuides.com
+windows.kms.app 	
 
 
 
@@ -126,32 +117,21 @@ kms9.MSGuides.com
 
 ---------------------------------
 
-本站已收录KMS服务器排行榜 202411
+本站已收录KMS服务器排行榜 202610
 https://www.kms.pub/rank.html
 
-win.kms.pub	
-kms.dun.pub	
-kms.000606.xyz	
-xincheng213618.cn	
-kms.idina.cn	
-win.xdym11235.com	
-kms.xuanlove.cn	
-ato.sheldon11.xyz	
-kms.sevenxu.cc	
-kms.hmg.pw
-kms.ghxi.com	
-kms.ietsk.com	
-kms.zhi.fun	
-windows.kms.app	
-kms.6yit.com	
-kms.boiling.top	
-livejq.top	
-kms.back2me.cn	
-kms.xingez.me	
-kms.iddddg.com	
-loongcn777.top	
+win.kms.pub 	
+win.xdym11235.com 
+windows.kms.app 	
+kms.xuanlove.cn 	
+kms.ietsk.com 	
+kms.zhi.fun 	
+kms.11na.cn 	
+kms.sz2016.com 	
+kms.000606.xyz 	
+kms.akams.cn 	
+ato.sheldon11.xyz 	
 kms.vmem.top
-
 
 
 
