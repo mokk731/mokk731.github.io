@@ -9,6 +9,8 @@
 
 #### [Win7 俄罗斯lopatkin大神 中文精简版 ](https://mokk731.github.io/BT-torrent/[emtrek.org]7601.24540_Professional_7_SP1_x86-x64_ZH-CN_SM.torrent)
 
+#### [KMS激活Windows10,11.bat](https://mokk731.github.io/ziprar/win-tools/kms-win.bat)
+
 
 ---------------------------------------------------------------------------------------------
 
