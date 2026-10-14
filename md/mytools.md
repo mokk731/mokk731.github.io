@@ -65,6 +65,8 @@
 
 #### [gimp图像处理程序](https://www.gimp.org/downloads/)
 
+#### [photocraft](https://github.com/storytold/photocraft/releases)
+
 #### [HandBrake视频压缩软件免费版](https://handbrake.fr/downloads.php)
 
 #### [OBS Studio免费开源的跨平台直播推流和屏幕录制工具](https://obsproject.com/download)
