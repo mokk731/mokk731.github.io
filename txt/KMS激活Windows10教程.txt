@@ -4,6 +4,11 @@ https://www.pcoic.com/system/windows/4168.html
 https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys
 https://github.com/netnr/kms
 
+
+
+我做的KMS激活Windows的bat批处理文件
+https://mokk731.github.io/ziprar/win-tools/kms-win.bat
+
 --------------------------------------
 
 右键点击 开始按钮，选择 Windows PowerShelll（管理员）或 终端（管理员），执行命令：
