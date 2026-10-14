@@ -50,3 +50,80 @@ GOTO MENU
 echo 执行命令c
 echo 操作系统服务命令(sc)
 GOTO MENU 
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+记事本另存为 ANSI
+
+
+
+@echo off
+setlocal enabledelayedexpansion
+title 主菜单
+
+:MAIN_MENU
+cls
+echo ============================================
+echo                主 菜 单
+echo ============================================
+echo.
+echo   [1] dir
+echo   [2] time
+echo   [3] ipconfig
+echo   [4] 退出
+echo.
+echo ============================================
+set /p "CHOICE=请输入选项 (1-4): "
+
+if "%CHOICE%"=="1" goto OPTION1
+if "%CHOICE%"=="2" goto OPTION2
+if "%CHOICE%"=="3" goto OPTION3
+if "%CHOICE%"=="4" goto EXIT
+
+echo.
+echo 输入无效，请重新选择。
+timeout /t 2 /nobreak >nul
+goto MAIN_MENU
+
+:OPTION1
+cls
+echo ============================================
+echo   [1] 执行 dir
+echo ============================================
+echo.
+dir
+echo.
+echo 执行完毕，按任意键返回主菜单...
+pause >nul
+goto MAIN_MENU
+
+:OPTION2
+cls
+echo ============================================
+echo   [2] 执行 time
+echo ============================================
+echo.
+time
+echo.
+echo 执行完毕，按任意键返回主菜单...
+pause >nul
+goto MAIN_MENU
+
+:OPTION3
+cls
+echo ============================================
+echo   [3] 执行 ipconfig
+echo ============================================
+echo.
+ipconfig
+echo.
+echo 执行完毕，按任意键返回主菜单...
+pause >nul
+goto MAIN_MENU
+
+:EXIT
+cls
+echo 已退出，再见。
+timeout /t 1 /nobreak >nul
+exit /b 0
