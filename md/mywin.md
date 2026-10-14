@@ -11,6 +11,8 @@
 
 #### [KMS激活Windows10,11.bat](https://mokk731.github.io/ziprar/win-tools/kms-win.bat)
 
+#### [30秒清除win10电脑中的垃圾.bat](https://mokk731.github.io/ziprar/win-tools/30秒清除你电脑中的垃圾.bat)
+
 
 ---------------------------------------------------------------------------------------------
 
