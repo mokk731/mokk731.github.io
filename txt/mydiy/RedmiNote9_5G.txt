@@ -69,4 +69,35 @@ PixelExperience_Plus_cannon-12.1-20230119-1728-UNOFFICIAL.zip
 https://xdaforums.com/t/rom-12-1-aosp-on-cannon.4419895/
 
 
+-------------------------------
+
+##  解锁BL锁 
+
+miflash_unlock
+
+202601后 小米手机 解锁BL锁 变得异常困难，官方基本无解。
+
+
+## TWRP使用adb线刷ROM的方法
+https://mokk731.github.io/txt/mydiy/TWRP%E4%BD%BF%E7%94%A8adb%E7%BA%BF%E5%88%B7ROM%E7%9A%84%E6%96%B9%E6%B3%95.txt
+
+1，关闭设备电源，按住Volume Down+ Power。按住两个按钮，直到屏幕上出现“ FASTBOOT”字样，然后松开。
+设备进入快速启动模式后，请通过键入以下内容验证您的PC能够找到它： 
+fastboot devices
+
+2，将闪存恢复到设备上： 
+    fastboot flash recovery twrp-x.x.x-x-polaris.img
+    fastboot flash recovery [此处将img文件拖到窗口中]
+
+3，接着输入以下命令进入TWEP： 
+   fastboot reboot-recovery
+
+4，到达这个界面 点击ADB Sideload 连接USB数据线到电脑 然后 使用ADB执行
+ adb sideload G:\fastboot\e-0.7-o-2019111430687-dev-polaris.zip
+ adb sideload [此处将zip文件拖到窗口中]
+
+5，当出现Total 即刷入成功 然后拔掉数据线 操作手机按提示重启即可进入 。
+
+
+
 
