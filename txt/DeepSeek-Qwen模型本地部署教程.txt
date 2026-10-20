@@ -1,3 +1,6 @@
+## DeepSeek-R1               202502
+
+
 https://www.cheshirex.com/9019.html
 DeepSeek-R1:14B 未受限版本 模型本地部署教程（N卡+A卡）
 
@@ -9,7 +12,6 @@ https://huggingface.co/huihui-ai/DeepSeek-R1-Distill-Qwen-14B-abliterated-v2
 
 
 
-
 模型名称	                                  建议显存	
 DeepSeek-R1-Distill-Qwen-1.5B                 	6G及以下	
 DeepSeek-R1-Distill-Qwen-7B                   	8G及以下	
@@ -18,8 +20,6 @@ DeepSeek-R1-Distill-Qwen-14B	                12到16G
 DeepSeek-R1-Distill-Qwen-32B	                24G以上	
 DeepSeek-R1-Distill-Llama-70B                 	双14G显存
 DeepSeek-R1-Distill-Llama-671B	                500G以上
-
-
 
 
 
@@ -80,8 +80,11 @@ DeepSeek 32B模型的本地部署对GPU显存的需求较高，具体显存大�
     如果不使用量化技术，建议使用显存至少为40GB的GPU（如A100 40GB），或者多张显存较小的GPU进行并行计算。
     如果采用量化技术，显存需求可以显著降低，例如8位量化后需要32GB显存，4位量化后仅需16GB显存。
 
+
 ------------------------------------------------------
 ------------------------------------------------------
+
+
 
 2026-03
 https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-Claude-4.6-Opus-abliterated
