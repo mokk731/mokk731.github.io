@@ -148,6 +148,20 @@ https://cloud.tencent.com/developer/article/2660044
     长文档 / 科研（论文阅读、代码库分析）→ DeepSeek-V4-Pro
     关键决策节点（最终确认、高价值输出）→ GPT-5.5
 
+------------------------------------------------------
+------------------------------------------------------
+
+
+## Strata  202610
+
+https://www.youtube.com/watch?v=iVDucQaBFMU
+Strata 摧毁AI小主机核心价值？本地单卡跑Qwen3.8 Flash Next很舒适！RTX30 40 50系列/AMD RDNA3/4 架构都支持！
+
+https://www.youtube.com/watch?v=91rASFzuDPU
+8G 显存竟能跑 125B 大模型！内存硬抗 Qwen3.8-Flash-Next，N卡、A卡都能用！本地部署实测 | 零度解说
+
+
+
 
 
 
