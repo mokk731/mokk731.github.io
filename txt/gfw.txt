@@ -49,6 +49,9 @@ https://github.com/2dust/v2rayN/releases
 karing                  *****
 https://github.com/KaringX/karing/releases
 
+Oblivion desktop         *****
+https://github.com/bepass-org/oblivion/releases
+
 
 
 ------------------------------------------------------------------------------------
