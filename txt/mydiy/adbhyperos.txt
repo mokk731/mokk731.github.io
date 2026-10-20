@@ -62,6 +62,11 @@ settings put system touch_prestart_opt_config "{featureDisable:false,bgException
 
 
 
+
+
+https://xiaomi.wxlnk.com/hyperos-ad-removal
+澎湃OS去广告
+
 ---------------------------------------------------------------------------------------------------
 
 
