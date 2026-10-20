@@ -60,6 +60,8 @@
 
 #### [OneClick for ios](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
 
+#### [Potatso for ios](https://apps.apple.com/us/app/potatso/id1239860606)
+
 
 
 #### [WARP+ for ios](https://itunes.apple.com/us/app/1-1-1-1-faster-internet/id1423538627)
