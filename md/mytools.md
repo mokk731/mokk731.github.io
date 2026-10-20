@@ -137,9 +137,6 @@
 
 #### [网络测试ip工具](https://mokk731.github.io/txt/nettest.txt)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 
 
@@ -163,6 +160,8 @@
 #### [iptv-org](https://github.com/iptv-org/iptv)
 
 
+
+
 ## 软件APK下载网站
 
 #### [豌豆荚应用商店apk](https://www.wandoujia.com/)
@@ -181,18 +180,10 @@
 
 #### [西西软件园](https://www.cr173.com/)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 
 
 ## 软件技巧
-
 
 
 #### [DeepSeek-Qwen模型本地部署教程](https://mokk731.github.io/txt/DeepSeek-Qwen模型本地部署教程.txt)
@@ -202,18 +193,6 @@
 #### [Hermes-Agent安装教程](https://mokk731.github.io/txt/Hermes-Agent安装教程.txt)
 
 
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
-
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
 
 
 
