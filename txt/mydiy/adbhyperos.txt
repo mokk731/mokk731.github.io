@@ -1,8 +1,12 @@
 ## adbhyperos
 202609
 
-https://adbshell.com/
-下载ADB Kits
+
+
+https://adbshell.com/downloads
+ADB Download
+(adb.exe AdbWinApi.dll AdbWinUsbApi.dll)
+
 ADB 全称 Android Debug Bridge（Android 调试桥），
 https://developer.android.com/studio/command-line/adb?hl=zh-cn
 是一个通用命令行工具，可以与模拟器实例或连接的Android 设备进行通信。
