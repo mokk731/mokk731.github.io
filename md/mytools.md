@@ -1,4 +1,4 @@
-## mytools
+## mytools   win
 
 
 #### [ACDSee2.44.exe](https://mokk731.github.io/ziprar/win-tools/ACDSee2.44.exe)
@@ -63,9 +63,9 @@
 
 #### [FOXIT READER2.0专业完整功能版.rar](https://mokk731.github.io/ziprar/win-tools/FOXIT READER2.0专业完整功能版.rar)
 
-#### [gimp图像处理程序](https://www.gimp.org/downloads/)
+#### [gimp图像处理](https://www.gimp.org/downloads/)
 
-#### [photocraft](https://github.com/storytold/photocraft/releases)
+#### [photocraft图像处理](https://github.com/storytold/photocraft/releases)
 
 #### [HandBrake视频压缩软件免费版](https://handbrake.fr/downloads.php)
 
@@ -74,6 +74,10 @@
 #### [CapCut国际版 视频编辑软件](https://cn.capcut.jp/download.html)
 
 #### [Watt Toolkit  Steam工具箱](https://github.com/BeyondDimension/SteamTools)
+
+#### [localsend](https://github.com/localsend/localsend/releases)
+
+
 
 
 #### [brave-browser](https://github.com/brave/brave-browser)
