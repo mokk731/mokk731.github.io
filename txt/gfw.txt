@@ -27,10 +27,10 @@ aWdhcmVjay92cG4tY29uZmlncy1mb3ItcnVzc2lh
 
 
 
-# Clash官网导航  本项目收录 Clash 和 Clash Meta(Mihomo） 内核的主流客户端的实时更新情况。
+# Win
+
+Clash官网导航  本项目收录 Clash 和 Clash Meta(Mihomo） 内核的主流客户端的实时更新情况。
 https://github.com/clash-download/Clash
-
-
 
 
 
@@ -40,13 +40,13 @@ https://github.com/Kuingsmile/clash-core/releases
 clash-verge
 https://github.com/clash-verge-rev/clash-verge-rev/releases
 
-hiddify  v2.5.7
+hiddify  v2.5.7         *****
 https://github.com/hiddify/hiddify-app/releases
 
 v2rayN
 https://github.com/2dust/v2rayN/releases
 
-karing
+karing                  *****
 https://github.com/KaringX/karing/releases
 
 
@@ -65,25 +65,25 @@ https://github.com/2dust/v2rayNG/releases
 4,预定义规则--全局代理
 
 
-hiddify.apk  v2.5.7
+hiddify.apk  v2.5.7       *****
 https://github.com/hiddify/hiddify-app/releases
 
 ClashMetaForAndroid.apk
 https://github.com/MetaCubeX/ClashMetaForAndroid/releases
 
-karing.apk
+karing.apk                *****
 https://github.com/KaringX/karing/releases
 
 
 
 
-Oblivion VPN.apk
+Oblivion VPN.apk         *****
 https://github.com/bepass-org/oblivion/releases
 
 Lantern.apk
 https://github.com/getlantern/lantern/releases
 
-MahsaNG.apk
+MahsaNG.apk              *****
 https://github.com/GFW-knocker/MahsaNG/releases
 
 WARP+
