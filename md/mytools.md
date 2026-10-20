@@ -7,7 +7,7 @@
 #### [ACDSee3.1超经典不升级版免费绿色版.rar](https://mokk731.github.io/ziprar/win-tools/acdsee v3.1超经典不升级版 免费绿色版.rar)
 
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
 
 
@@ -84,21 +84,24 @@
 
 #### [Firefox-browser](https://www.firefox.com/zh-CN/browsers/enterprise/)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
 
-#### [adb.zip](https://mokk731.github.io/ziprar/win-tools/adb.zip)
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
+
+#### [ADB-Android调试桥](https://adbshell.com/downloads)
+
 
 
 
