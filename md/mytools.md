@@ -84,24 +84,6 @@
 
 #### [Firefox-browser](https://www.firefox.com/zh-CN/browsers/enterprise/)
 
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
-#### [ADB-Android调试桥](https://adbshell.com/downloads)
-
 
 
 
