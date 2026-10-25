@@ -208,6 +208,7 @@ Firefox 修改配置禁用
 
 
 -------------------------------
+
 # 教学影片
 
 https://www.youtube.com/@bufanche_com/videos
@@ -218,6 +219,9 @@ https://www.youtube.com/watch?v=6JB67BuuPsw
 
 https://www.youtube.com/@ArtemisLab_Tech
 阿尔忒弥斯实验室
+
+https://www.youtube.com/@cyberdogge-edison/videos
+赛博情报站
 
 
 
