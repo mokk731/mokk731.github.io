@@ -14,9 +14,13 @@ CPU型号：联发科天玑7400-Ultra
 
 https://xiaomirom.com/series/lapis/
 红米 Note 15 Pro (lapis) 国行版
+https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2/lapis-ota_full-OS2.0.209.0.VPPCNXM-user-15.0-69ee5ae0bf.zip
 https://xiaomirom.com/rom/redmi-note-15-pro-lapis-china-fastboot-recovery-rom/  
 
+
+
 红米 Note 15 Pro (lapis) 欧洲版 (欧版) (EEA) 
+https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2/lapis_eea_global-ota_full-OS2.0.204.0.VPPEUXM-user-15.0-4370b6f4a4.zip
 https://xiaomirom.com/rom/redmi-note-15-pro-lapis-europe-fastboot-recovery-rom/
 
 
