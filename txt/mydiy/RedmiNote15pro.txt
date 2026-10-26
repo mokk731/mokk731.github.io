@@ -1,2 +1,12 @@
 ## RedmiNote15pro
+202610
+
+天玑7400-Ultra处理器
+上市时间2025年8月21日   
+入网型号：25080RABDC
+操作系统：Xiaomi HyperOS 2.0
+CPU型号：联发科天玑7400-Ultra
+电池容量：7000mAh(typ)
+
+
 
