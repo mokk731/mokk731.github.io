@@ -14,10 +14,6 @@ CPU型号：联发科天玑7400-Ultra
 电池容量：7000mAh(typ)
 
 
-使用mtkclient-gui工具解锁Mediatek芯片设备
-https://github.com/bkerler/mtkclient
-https://github.com/bkerler/mtkclient/blob/main/README-USAGE.zh-CN.md
-
 
 
 https://xiaomirom.com/series/lapis/
@@ -32,9 +28,17 @@ https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2/lapis
 https://xiaomirom.com/rom/redmi-note-15-pro-lapis-europe-fastboot-recovery-rom/
 
 
-LineageOS 24.0 Unofficial for Poco M8 Pro/Redmi note 15 Pro+ 5G
+LineageOS 24.0 Unofficial for Poco M8 Pro/Redmi note 15 Pro+ 5G      ?????
 https://xdaforums.com/t/android-17-flourite-lineageos-24-0-unofficial-for-poco-m8-pro-redmi-note-15-pro-5g.4804181/
 https://gofile.io/d/jdgoNhXr
+
+
+----------------------------------------------------------------------------------------------
+
+使用mtkclient-gui工具解锁Mediatek芯片设备
+https://github.com/bkerler/mtkclient
+https://github.com/bkerler/mtkclient/blob/main/README-USAGE.zh-CN.md
+
 
 
 
