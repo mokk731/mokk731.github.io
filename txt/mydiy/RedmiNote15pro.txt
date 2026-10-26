@@ -12,7 +12,14 @@ CPU型号：联发科天玑7400-Ultra
 
 使用mtkclient-gui工具解锁Mediatek芯片设备
 
-https://xiaomirom.com/series/kunzite/
+https://xiaomirom.com/series/lapis/
+红米 Note 15 Pro (lapis) 国行版
+https://xiaomirom.com/rom/redmi-note-15-pro-lapis-china-fastboot-recovery-rom/  
+
+红米 Note 15 Pro (lapis) 欧洲版 (欧版) (EEA) 
+https://xiaomirom.com/rom/redmi-note-15-pro-lapis-europe-fastboot-recovery-rom/
+
+
 
 
 
