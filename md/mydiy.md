@@ -46,6 +46,8 @@
 
 #### [RedmiNote9_5G手机](https://mokk731.github.io/txt/mydiy/RedmiNote9_5G.txt)
 
+#### [RedmiNote15pro手机](https://mokk731.github.io/txt/mydiy/RedmiNote15pro.txt)
+
 ----------------------------------------------------------------
 
 ### 路由器
