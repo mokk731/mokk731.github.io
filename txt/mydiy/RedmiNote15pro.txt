@@ -16,6 +16,7 @@ CPU型号：联发科天玑7400-Ultra
 
 使用mtkclient-gui工具解锁Mediatek芯片设备
 https://github.com/bkerler/mtkclient
+https://github.com/bkerler/mtkclient/blob/main/README-USAGE.zh-CN.md
 
 
 
