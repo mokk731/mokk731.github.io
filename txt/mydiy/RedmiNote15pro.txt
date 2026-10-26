@@ -9,4 +9,8 @@ CPU型号：联发科天玑7400-Ultra
 电池容量：7000mAh(typ)
 
 
+使用mtkclient-gui工具解锁Mediatek芯片设备
+
+
+
 
