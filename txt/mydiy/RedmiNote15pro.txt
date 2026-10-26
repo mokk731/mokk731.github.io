@@ -3,6 +3,10 @@ REDMI Note 15 Pro 5G   代号: lapis · PP
 202610
 
 天玑7400-Ultra处理器
+产品代号	MT6878V/TZA
+生产工艺	4 nm N4 TSMC
+
+
 上市时间2025年8月21日   
 入网型号：25080RABDC
 操作系统：Xiaomi HyperOS 2.0
