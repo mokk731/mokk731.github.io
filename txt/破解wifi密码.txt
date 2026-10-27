@@ -592,6 +592,7 @@ netsh wlan show profile name="Wi-Fi名称" key=clear             ############
 
 导出 WIFI 无线网络配置的 xml 文件：
 Netsh WLAN export profile key=clear folder="存放路径"           ############
+Netsh WLAN export profile key=clear folder="d:" 
 
 默认情况下会为每个 WIFI 连接都导出一个单独的配置文件，
 
