@@ -189,7 +189,7 @@ sudo reaver -i wlan0mon -b E4:47 -c 8 -M -S -K -vv
 
     -i，开启了监听模式的网络接口名
     -b，要探测的Wifi的BSSID
-    -c，成功破解之后运行的命令
+    -c，--channel   Set the 802.11 channel for the interface
     -5，使用5G信道
     -v，显示具体信息，-vv或者-vvv可以显示更加详细的信息
     -q，仅显示关键信息
@@ -200,6 +200,10 @@ sudo reaver -i wlan0mon -b E4:47 -c 8 -M -S -K -vv
     -x，10次意外失败之后的等待时间（默认0）
     -t，接收超时周期（默认10）
     -F，忽略帧校验错误
+    -M, --mac-changer    Change the last digit of the MAC Address for each pin attempt
+    -S, --dh-small       Use small DH keys to improve crack speed
+
+
 
 sudo reaver -i wlan0mon -b BC:D1  -vv
 sudo reaver -i wlx001 -b A2:69  -c 6 -M -S -vv
@@ -286,7 +290,7 @@ Wifite  #########     202608
 
 sudo apt install wifite                         #########  成功
 sudo wifite -no-pmkid --no-wps                 #########   handshake
-sudo wifite --wps-only --no-pixie                           PIN
+sudo wifite --wps-only --no-pixie                           WPS PIN 
 
 sudo airodump-ng wlan0mon                      ###########  先 airodump-ng：用于数据包捕获wlan0mon  ，有数据包流动的，优先!!!!!
 
@@ -313,7 +317,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 
-sudo python3 wifite.py  --wpa --no-pmkid --no-wps           #########
+sudo python3 wifite.py  --no-pmkid --no-wps           #########
 
 
 
@@ -325,10 +329,10 @@ kali系统获取handshake的方法(4way-EAPOL-key)
 
 如何在 sudo wifite , 只抓握手包handshake?   忽略 WPS Pixie-Dust ，WPS NULL PIN
 
-1, sudo wifite --skip-crack          没有用，不成功
+1, sudo wifite --skip-crack          关handshake
 
   WPA/WPA2 Handshake捕获 - 传统四步握手攻击（默认启用，强制使用: --no-wps）
-  sudo wifite --no-wps                  #########
+  sudo wifite --no-wps                  #########  关 WPS PIN
 
   PMKID 关闭
   sudo wifite --wpa --no-pmkid                   #########
@@ -371,15 +375,15 @@ Target WPA2 first - WPA2 is faster to crack than WPA3-SAE
 sudo wifite --wpa --no-pmkid --no-wps --skip-crack
 --wpa：只针对 WPA 网络
 --no-pmkid：跳过 PMKID
---no-wps：不做 WPS
---skip-crack：只抓取，不自动破解
+--no-wps：  关 WPS PIN
+--skip-crack：只抓取，不自动破解   关handshake
 
 
 
 ------------------------------------------------------------------------------------------------------
 
 
-https://github.com/ChunshengZhao/inflator
+https://github.com/ChunshengZhao/inflator              好象不能用了
 Inflator is a Reaver Command Generator, create by Fast Light User-Interface Designer ("FLUID").
 
 Build steps:
