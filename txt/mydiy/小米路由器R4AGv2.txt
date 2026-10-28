@@ -172,6 +172,7 @@ https://mokk7310.github.io/Rom/openwrt-mi-router-4a-gigabit-v2-2024.09.16-1741.b
 xiaomi_mi-router-4a-gigabit-v2-2024.09.16-1741
 192.168.10.1
 sqm+serverchan+zerotier+turboacc+material+vlmcsd-KMS+guest-wifi+autoreboot+accesscontrol +samba+ipv6+samba+relay
+LuCI openwrt-18.06               内核版本	5.4.278  
 
 
 
