@@ -42,4 +42,15 @@ Avira Free Antivirus，俗称“小红伞”，以轻量化设计和低资源占
 
 
 
+https://www.freedidi.com/20918.html
+Microsoft Defender（微软安全卫士）永久免费且好用！
+https://www.microsoft.com/zh-cn/microsoft-365/microsoft-defender-for-individuals
+Microsoft Defender（原名 Windows Defender）是 Windows 10 与 Windows 11 系统自带的防病毒解决方案，无需额外安装或配置，
+开机即可自动运行并提供实时防护。近年来，Microsoft 不断强化其安全引擎，使 Defender 能有效抵御大多数常见恶意软件与网络攻击，
+并在资源占用和系统整合方面表现出色，几乎不影响电脑性能。完全免费且无广告，是一款“装机即安心”的基础防护工具。
+
+
+
+
+
 
