@@ -26,7 +26,8 @@ https://www.youtube.com/watch?v=dd8s3107ii0
 https://www.freedidi.com/20916.html
 Bitdefender Antivirus Free（比特梵德）杀毒软件！免费使用
 https://www.bitdefender.com/en-us/consumer/free-antivirus
-Bitdefender Antivirus Free 以卓越的恶意软件检测率和强大的零日威胁防护著称，是同类免费杀毒软件中的佼佼者。它在各大独立评测（如 AV-TEST、AV-Comparatives）中常年获得最高等级评价，
+Bitdefender Antivirus Free 以卓越的恶意软件检测率和强大的零日威胁防护著称，是同类免费杀毒软件中的佼佼者。
+它在各大独立评测（如 AV-TEST、AV-Comparatives）中常年获得最高等级评价，
 误报率极低，防护表现稳定可靠。软件运行极其安静，对系统资源的占用几乎可以忽略，即使在老旧设备上也能保持流畅。
 
 
@@ -35,7 +36,8 @@ Bitdefender Antivirus Free 以卓越的恶意软件检测率和强大的零日�
 https://www.freedidi.com/20912.html
 Avira Free Antivirus（小红伞）杀毒软件、激活入口
 https://www.avira.com/zh-cn/free-security
-Avira Free Antivirus，俗称“小红伞”，以轻量化设计和低资源占用著称，非常适合配置较低或追求流畅体验的电脑用户。其基于云技术的扫描引擎可迅速识别新型威胁，免费版还集成了基础的浏览器安全扩展，
+Avira Free Antivirus，俗称“小红伞”，以轻量化设计和低资源占用著称，非常适合配置较低或追求流畅体验的电脑用户。
+其基于云技术的扫描引擎可迅速识别新型威胁，免费版还集成了基础的浏览器安全扩展，
 可有效防范钓鱼网站与恶意下载。安装过程简单，运行时安静，不会频繁打扰用户。
 
 
