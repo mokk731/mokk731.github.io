@@ -489,3 +489,17 @@ adb shell pm enable [应用包名]
 settings put system touch_prestart_opt_config "{featureDisable:false,bgExceptionInterceptDisable:false,touchDownPreStartBlackList:[disable_all_package]}"
 
 
+
+----------------------------------------------------------------------------------------------
+
+
+
+https://github.com/rddmwmddr/android-ad-cleaner/releases
+手机去广告
+关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
+关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。
+介绍页：https://rddmwmddr.github.io/android-ad-cleaner/
+
+
+
+
