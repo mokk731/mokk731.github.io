@@ -134,7 +134,7 @@ nudges itself to persist knowledge, and builds a deepening model of who you are 
 # 下载Docker
 基于 Docker 部署 Hermes Agent 并接入飞书机器人             
 https://hub.docker.com/r/nousresearch/hermes-agent
-https://hub.docker.com/r/nousresearch/hermes-agent/tags?name=2026
+https://hub.docker.com/r/nousresearch/hermes-agent/tags?name=v
 
 docker pull nousresearch/hermes-agent:v2026.4.30  这个版本稳定 ***********
 v2026.5.16  不好用，分析2日财经新闻，居然有英文？？
@@ -152,7 +152,7 @@ https://hermesagent.org.cn/docs/getting-started/setup-wizard
 Hermes Agent Setup Wizard
 
     执行 hermes setup 命令
-    选择 Quick Setup
+    选择 Full Setup
     当提示选择模型提供商时，选择 DeepSeek
     输入你的 DeepSeek API Key
     Base URL 填写 https://api.deepseek.com
@@ -309,6 +309,7 @@ https://open.feishu.cn/
 
 nano /srv/.hermes/.env   重要备份：
 
+------------------------------
 # DEEPSEEK_API_KEY=sk-XXXX
 # DEEPSEEK_BASE_URL=https://api.deepseek.com
 
@@ -325,7 +326,7 @@ FEISHU_ALLOW_ALL_USERS=false
 FEISHU_ALLOWED_USERS=ou_XXXX
 FEISHU_GROUP_POLICY=open
 
-
+-------------------------------------------
 
 
 nano /srv/.hermes/config.yaml   重要备份：
@@ -352,6 +353,8 @@ chmod -R 755 /srv/.hermes
 以交互方式启动容器以运行设置向导  
 docker run -it --rm \
   -v /srv/.hermes:/opt/data \
+  -e HTTP_PROXY=http://172.18.0.1:8501 \
+  -e HTTPS_PROXY=http://172.18.0.1:8501 \
   nousresearch/hermes-agent:v2026.7.7.2 setup
 
 交互式运行（CLI 聊天 ） :
@@ -426,7 +429,7 @@ docker pull nousresearch/hermes-agent:v2026.7.7.2
 docker pull nousresearch/hermes-agent:v2026.8.3
 docker pull nousresearch/hermes-agent:v2026.8.13   
 docker pull nousresearch/hermes-agent:v2026.9.14
-docker pull nousresearch/hermes-agent:v2026.9.24
+docker pull nousresearch/hermes-agent:v0.22.7
 
 mkdir -p /srv/.hermes2
 chmod -R 755 /srv/.hermes2
@@ -439,6 +442,8 @@ nano /srv/.hermes2/config.yaml
 以交互方式启动容器以运行设置向导  
 docker run -it --rm \
   -v /srv/.hermes2:/opt/data \
+  -e HTTP_PROXY=http://172.18.0.1:8501 \
+  -e HTTPS_PROXY=http://172.18.0.1:8501 \
   nousresearch/hermes-agent:v2026.7.7.2 setup
 
 
@@ -451,25 +456,55 @@ docker run -it --rm \
   nousresearch/hermes-agent:v2026.7.7.2
 
 
-202607
-minimaxai/minimax-m2.7   over
-minimaxai/minimax-m3     怪怪的，降智了
-z-ai/glm-5.2             比较正常 api有时忙
+
 
 ------------------------------------------------------------------
 ------------------------------------------------------------------
 ------------------------------------------------------------------
+
+## pip 使用国内镜像源
+    清华大学TUNA镜像源： https://pypi.tuna.tsinghua.edu.cn/simple
+    中国科学技术大学镜像源： https://mirrors.ustc.edu.cn/pypi/simple
+  软件源:换国内镜像软件源,清华源 有时更新慢，出错
+
+ # 1. 备份原配置
+cat /etc/apt/sources.list.d/debian.sources
+cp /etc/apt/sources.list.d/debian.sources /etc/apt/sources.list.d/debian.sources.bak
+
+# 2. 写入中国科学技术大学源配置
+cat > /etc/apt/sources.list.d/debian.sources << 'EOF'
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/debian
+Suites: trixie trixie-updates
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
+
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/debian-security
+Suites: trixie-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
+EOF
+
+    # 3. 更新软件包索引
+apt update
+
+-------------------------------
 
 # AKShare
     要在docker容器中
     1,安装pip
     sudo apt update && apt install python3-pip -y                               ***********
+    pip install uv                                                 安装 uv 包管理器
     2. 创建虚拟环境并安装：
-     sudo apt-get install python3-venv -y    安装虚拟环境支持                      # 以上要在docker容器中安装，要sudo安装权限     ***********
+     sudo apt-get install python3-venv -y                         安装虚拟环境支持
+                                                                              # 以上要在docker容器中安装，要sudo安装权限     ***********
+
+
 
      python3 -m venv myenv                   创建虚拟环境
      source myenv/bin/activate               激活创建好的虚拟环境
-     pip install akshare --upgrade           uv pip install akshare          # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare        ***********
+     pip install akshare --upgrade           uv pip install akshare           # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare        ***********
 
     配装数据处理库pandas和Excel保存库openpyxl：
     AKShare 依赖  ,pandas,openpyxl,numpy,requests
@@ -477,7 +512,7 @@ z-ai/glm-5.2             比较正常 api有时忙
 # yfinance
   yfinance 是一个流行的开源库，由 Ran Aroussi 开发，用于访问雅虎财经上可用的财务数据。
 
-    pip install yfinance                      # 在飞书中:  uv pip install yfinance              ***********
+    pip install yfinance                                                      # 在飞书中:  uv pip install yfinance              ***********
 
 
 ----------------------------------------------------------------
@@ -503,6 +538,14 @@ api_key="你的_nvapi_key"
           openai/gpt-oss-120b                      消失                       
           nvidia/nemotron-3-ultra-550b-a55b        能用  用久了就出现，不能在线查最新数据   ***********
           nvidia/nemotron-3-super-120b-a12b        能用     
+
+
+202607
+minimaxai/minimax-m2.7   over
+minimaxai/minimax-m3     怪怪的，降智了
+z-ai/glm-5.2             比较正常 api有时忙
+
+
 ----------------------------------------------------------------
 
 
@@ -530,31 +573,7 @@ api_key="你的_nvapi_key"
 
 2，获取股票证券数据源：  通过 东方财富网 或 新浪财经 或 雅虎财经 或 腾讯证券  或 akshare 或 yfinance .  并写入 skill 。
 
-    pip 使用国内镜像源
-    清华大学TUNA镜像源： https://pypi.tuna.tsinghua.edu.cn/simple
-    中国科学技术大学镜像源： https://mirrors.ustc.edu.cn/pypi/simple
 
-  软件源:换国内镜像软件源,清华源 有时更新慢，出错
-     # 1. 备份原配置
-cp /etc/apt/sources.list.d/debian.sources /etc/apt/sources.list.d/debian.sources.bak
-
-   # 2. 写入中国科学技术大学源配置
-cat > /etc/apt/sources.list.d/debian.sources << 'EOF'
-Types: deb
-URIs: https://mirrors.ustc.edu.cn/debian
-Suites: trixie trixie-updates
-Components: main contrib non-free non-free-firmware
-Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
-
-Types: deb
-URIs: https://mirrors.ustc.edu.cn/debian-security
-Suites: trixie-security
-Components: main contrib non-free non-free-firmware
-Signed-By: /usr/share/keyrings/debian-archive-keyring.pgp
-EOF
-
-    # 3. 更新软件包索引
-apt update
 
 
 
