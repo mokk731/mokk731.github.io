@@ -157,6 +157,7 @@ Hermes Agent Setup Wizard
     输入你的 DeepSeek API Key
     Base URL 填写 https://api.deepseek.com
     选择 deepseek-v4-flash 模型
+    消息平台选择 Feishu / Lark  飞书
     继续完成其余配置选项
     是否配置消息平台的界面 这里我们先先跑一个最小可用的版本出来，所以先跳过
 
