@@ -29,10 +29,20 @@ ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提�
 adb shell pm disable --user 0 应用包名
 
 
+## 我的执行：
 
+#广告
 pm uninstall --user 0 com.miui.systemAdSolution     （小米系统广告解决方案，必删）
 pm uninstall --user 0 com.miui.analytics            （小米广告分析，必删）
 pm uninstall --user 0 com.miui.hybrid                #快应用服务框架
+
+
+#反诈
+pm uninstall --user 0 com.mobiletools.systemhelper        System helper
+pm uninstall --user 0 com.miui.guardprovider              #反诈
+pm uninstall --user 0 com.miui.daemon                     #小米质量服务
+pm uninstall --user 0 com.miui.analytics                 （小米广告分析，必删）
+
 
 
 ---------------------------------------------------------------------------------------------------
