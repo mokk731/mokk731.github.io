@@ -612,7 +612,7 @@ z-ai/glm-5.2             比较正常 api有时忙
 
 4，Curl  Google news rss 测试 能否成功？ 要改进？  测试 代理环境.
 
-   Curl  Google news rss, 加 Mozilla/5.0 报头。总结近2日 财经要闻，分国际，国内 两组，每组20条。  不要显示链接。  国际财经要闻 要翻译成中文。 数据来源:Google news.
+   Curl  Google news rss, （带 Mozilla/5.0 报头 + 走代理）。总结近2日 财经要闻，分国际，国内 两组，每组20条。  不要显示链接。  国际财经要闻 要翻译成中文。 数据来源:Google news.
    在飞书中完整输出文本，不要输出表格。   不输出文件。  并写入 skill 。
    加入定时任务，每天9am执行。
 
