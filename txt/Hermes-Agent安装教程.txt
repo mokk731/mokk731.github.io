@@ -517,15 +517,16 @@ apt update
     要在docker容器中
     1,安装pip
     sudo apt update && apt install python3-pip -y                               ***********
-    pip install uv                                                 安装 uv 包管理器
+    
     2. 创建虚拟环境并安装：
-     sudo apt-get install python3-venv -y                         安装虚拟环境支持
-                                                                              # 以上要在docker容器中安装，要sudo安装权限     ***********
+     sudo apt-get install python3-venv -y                 安装虚拟环境支持       # 以上要在docker容器中安装，要sudo安装权限     ***********
+
 
 
 
      python3 -m venv myenv                   创建虚拟环境
      source myenv/bin/activate               激活创建好的虚拟环境
+     pip install uv                          安装 uv 包管理器     
      pip install akshare --upgrade           uv pip install akshare           # 在飞书中: 创建虚拟环境 ,激活创建好的虚拟环境, uv pip install akshare        ***********
 
     配装数据处理库pandas和Excel保存库openpyxl：
