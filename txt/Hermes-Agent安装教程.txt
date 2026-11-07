@@ -218,42 +218,22 @@ Hermes Agent 有两种主流 WebUI：
 2，社区 hermes-web-ui（更轻量，聊天体验更好）   
 
 
-打开 Web Dashboard（浏览器管理界面）
+打开 Web Dashboard（浏览器管理界面 ）  #####
 步骤：
 Bash# 先确保安装了 web 依赖（如果没装）
 pip install 'hermes-agent[web,pty]'
 
 # 启动仪表盘
+在Docker中执行：
 hermes dashboard --port 9119 --host 0.0.0.0     ######
+设置帐号密码
 
 192.168.10.0/24
-默认自动打开浏览器访问 http://127.0.0.1:9119
+默认自动打开浏览器访问 http://127.0.0.1:9119   http://192.168.0.20:9119
 支持 Chat、Config、Sessions、API Keys、Logs 等功能。
 
-
 https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/docker
-services:
-  hermes:
-    image: nousresearch/hermes-agent:latest
-    container_name: hermes
-    restart: unless-stopped
-    command: gateway run
-    ports:
-      - "8642:8642"   # gateway API
-      - "9119:9119"   # dashboard（仅在 HERMES_DASHBOARD=1 时生效）
-    volumes:
-      - ~/.hermes:/opt/data
-    environment:
-      - HERMES_DASHBOARD=1
-      # 取消注释以直接转发特定环境变量而非使用 .env 文件：
-      # - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-      # - OPENAI_API_KEY=${OPENAI_API_KEY}
-      # - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
-    deploy:
-      resources:
-        limits:
-          memory: 4G
-          cpus: "2.0"
+
 
 
 
@@ -274,7 +254,8 @@ http://localhost:8648
 
 
 ####
-docker版hermes，， 官方 Web Dashboard,社区 hermes-web-ui，都没成功，反复要在docker内要安装hermes。
+docker版hermes，，  社区 hermes-web-ui 体积太大，
+官方 Web Dashboard,社区 hermes-web-ui，都没成功，要在docker中执行。
 用交互式运行（CLI 聊天 ），就够了。
 
 
