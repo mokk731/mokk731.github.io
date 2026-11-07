@@ -227,11 +227,9 @@ pip install 'hermes-agent[web,pty]'
 # 启动仪表盘
 在Docker中执行：
 hermes dashboard --port 9119 --host 0.0.0.0     ######
-hermes dashboard --port 9119 --host 192.168.0.0/16
 设置帐号密码
 
-192.168.11.0/24
-192.168.0.0/16
+
 默认自动打开浏览器访问 http://127.0.0.1:9119   http://192.168.0.20:9119
 支持 Chat、Config、Sessions、API Keys、Logs 等功能。
 
