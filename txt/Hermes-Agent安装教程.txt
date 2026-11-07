@@ -8,6 +8,8 @@ Hermes-Agent 是由 Nous Research 开发的开源自主 AI 代理（MIT 许可�
 
 
 
+https://hermes-agent.nousresearch.com/docs/zh-Hans/getting-started/installation   
+
 https://zhuanlan.zhihu.com/p/2025157177258583583
 Hermes-Agent 安装与基础配置完整指南
 
@@ -212,8 +214,8 @@ docker run -it --rm \
 
 # Hermes Agent 开启 WebUI 并用浏览器接入（最新推荐方式）
 Hermes Agent 有两种主流 WebUI：
-1，官方 Web Dashboard（推荐，大部分功能最完整）
-2，社区 hermes-web-ui（更轻量，聊天体验更好）    #####
+1，官方 Web Dashboard（推荐，大部分功能最完整）   #####
+2，社区 hermes-web-ui（更轻量，聊天体验更好）   
 
 
 打开 Web Dashboard（浏览器管理界面）
@@ -225,8 +227,34 @@ pip install 'hermes-agent[web,pty]'
 hermes dashboard --port 9119 --host 0.0.0.0     ######
 
 192.168.10.0/24
-默认自动打开浏览器访问 http://127.0.0.1:9119。
+默认自动打开浏览器访问 http://127.0.0.1:9119
 支持 Chat、Config、Sessions、API Keys、Logs 等功能。
+
+
+https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/docker
+services:
+  hermes:
+    image: nousresearch/hermes-agent:latest
+    container_name: hermes
+    restart: unless-stopped
+    command: gateway run
+    ports:
+      - "8642:8642"   # gateway API
+      - "9119:9119"   # dashboard（仅在 HERMES_DASHBOARD=1 时生效）
+    volumes:
+      - ~/.hermes:/opt/data
+    environment:
+      - HERMES_DASHBOARD=1
+      # 取消注释以直接转发特定环境变量而非使用 .env 文件：
+      # - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      # - OPENAI_API_KEY=${OPENAI_API_KEY}
+      # - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+          cpus: "2.0"
+
 
 
 
