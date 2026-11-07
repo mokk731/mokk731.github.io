@@ -558,13 +558,16 @@ api_key="你的_nvapi_key"
 "model": "z-ai/glm-5.3",                             ***    api忙
           z-ai/glm-5.3-flash                         ****** ***********
 
-"model": "qwen/qwen3.5-122b-a10b",                  消失
+"model": "qwen/qwen3.5-122b-a10b",                 消失
           moonshotai/kimi-k2.6                     连不上
           moonshotai/kimi-k3                       消失
+
           openai/gpt-oss-120b                      消失                       
           nvidia/nemotron-3-ultra-550b-a55b        能用  用久了就出现，不能在线查最新数据   ***********
           nvidia/nemotron-3-super-120b-a12b        能用     
+          nvidia/nemotron-3.5-super-vl-120b-a12b   能用     ***********
           nvidia/nemotron-4-340b-instruct
+         
 
 202607
 minimaxai/minimax-m2.7   over
