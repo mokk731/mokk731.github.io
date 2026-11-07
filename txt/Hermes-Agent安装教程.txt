@@ -555,7 +555,7 @@ api_key="你的_nvapi_key"
 "model": "deepseek-ai/deepseek-v4.1-flash",            *****  api有时忙   5 t/s
 
 "model": "z-ai/glm-5.3",                             ***    api忙
-          z-ai/glm-5.3-flash                         ****** ***********   30 t/s
+          z-ai/glm-5.3-flash                         ****** ***********   10 t/s
 
 "model": "qwen/qwen3.5-122b-a10b",                 消失
           moonshotai/kimi-k2.6                     连不上
