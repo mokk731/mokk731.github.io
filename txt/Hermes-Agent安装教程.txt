@@ -400,9 +400,9 @@ services:
     volumes:
       - /srv/.hermes:/opt/data
       - /home/public/hermes-tmp:/mnt/tmp
-    # ports:
+    ports:
     #  - 8000:8000
-    #  - 9119:9119
+      - 9119:9119
     #  - 8648:8648  
     environment:
       - PUID=1000
@@ -412,9 +412,8 @@ services:
       - HTTPS_PROXY=http://172.18.0.1:8501    
       #- ALL_PROXY=socks5://172.18.0.1:8500    
       - NO_PROXY=localhost,127.0.0.1
-    #  - WEBUI_PORT=8000
+    #  - HERMES_DASHBOARD=1
     # 取消注释以转发特定的环境变量，而不是使用 `.env` 文件：
-    # 环境：
     #   - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     #   - OPENAI_API_KEY=${OPENAI_API_KEY}
     #   - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
