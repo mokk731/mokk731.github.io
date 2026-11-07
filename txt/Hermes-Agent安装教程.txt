@@ -250,12 +250,15 @@ hermes-web-ui start
 浏览器访问地址：
 http://localhost:8648
 
+https://zhuanlan.zhihu.com/p/2029153341620364751
+确认过眼神，这才是我想要的Hermes Web UI（强烈推荐）
+https://github.com/EKKOLearnAI/ekko-studio
 
 
 
 ####
 docker版hermes，，  社区 hermes-web-ui 体积太大，
-官方 Web Dashboard,社区 hermes-web-ui，都没成功，要在docker中执行。
+官方 Web Dashboard，要在docker中执行。
 用交互式运行（CLI 聊天 ），就够了。
 
 
