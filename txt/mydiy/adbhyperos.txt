@@ -29,6 +29,10 @@ ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提�
 adb shell pm disable --user 0 应用包名
 
 
+操作建议：先 adb shell pm list packages | grep -i 关键词 确认包在你机器上存在（不同机型/国行国际版有差异）；每次删 5–10                  
+ 个用一两天再继续；删错了用 adb shell cmd package install-existing --user 0 <包名> 恢复；系统大版本更新后会全部回来。
+
+
 ## 我的执行：
 
 #广告
