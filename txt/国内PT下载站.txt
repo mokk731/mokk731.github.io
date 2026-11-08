@@ -1,23 +1,25 @@
 ## 国内PT下载站
+202611
+
 
 
 国内 PT 站不少，但进站基本靠“窗口期+邀请”，免费路径是有的。先列站，再说免费进法。
 
     国内主要活跃 PT 站
 
-      站点            域名              类型/特点                         进站门槛
+      站点            域名              类型/特点                                进站门槛
       ──────────────  ────────────────  ────────────────────────────────  ────────────────────────
-      M-Team 馒头     m-team.cc         综合第一梯队，资源最全            邀请制，偶有抢注
-      OurBits 我堡    ourbits.club      综合，站庆/节日常开邀             中
-      HDSky 天空      hdsky.me          影视大站（域名偶出问题，备多米）  中
-      HDHome 家园     hdhome.org        影视                              较低，历史上多次长期开注
-      CHDBits 彩虹岛  chdbits.co        老牌影视                          邀请制
-      TTG             totheglory.im     影视/音乐                         邀请制
-      SSD 春天        springsunday.net  综合                              中
-      PTerClub        pterclub.com      综合，对新手较友好                答题/开注
-      U2              u2.dmhy.org       动漫                              开注答题
-      朱雀            zhuque.in         新站，考核制                      较低
-      DICMusic 海豚   dicmusic.club     音乐（无损）                      定期开放免费申请
+      M-Team 馒头     m-team.cc         综合第一梯队，资源最全                 邀请制，偶有抢注
+      OurBits 我堡    ourbits.club      综合，站庆/节日常开邀                  中
+      HDSky 天空      hdsky.me          影视大站（域名偶出问题，备多米）          中
+      HDHome 家园     hdhome.org        影视                                  较低，历史上多次长期开注
+      CHDBits 彩虹岛  chdbits.co        老牌影视                              邀请制
+      TTG             totheglory.im     影视/音乐                             邀请制
+      SSD 春天        springsunday.net  综合                                  中
+      PTerClub        pterclub.com      综合，对新手较友好                    答题/开注
+      U2              u2.dmhy.org       动漫                                  开注答题
+      朱雀            zhuque.in         新站，考核制                          较低
+      DICMusic 海豚   dicmusic.club     音乐（无损）                          定期开放免费申请
 
     已关站别找了：HDChina（2023 关站）、hdpt.xyz、hspt.club 等均已死；另有 PT监护室（savept.icu）维护着国内外 PT 站存活状态表，入坑前可查。
 
