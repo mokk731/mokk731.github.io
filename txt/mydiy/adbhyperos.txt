@@ -32,7 +32,8 @@ adb shell pm disable --user 0 应用包名
 操作建议：先 adb shell pm list packages | grep -i 关键词 确认包在你机器上存在（不同机型/国行国际版有差异）；每次删 5–10                  
  个用一两天再继续；删错了用 adb shell cmd package install-existing --user 0 <包名> 恢复；系统大版本更新后会全部回来。
 
-是 HyperOS 2 的硬限制，disable-user 这条路在你的机器上走不通。                                                                                                                                            原因：小米在 PackageManagerServiceImpl 里加了 shouldRestrictEnabledSettingsChange 检查——shell（uid 2000）一律禁止停用系统包。这是 HyperOS 特有的拦截（原生 Android     
+是 HyperOS 2 的硬限制，disable-user 这条路在你的机器上走不通。  pm disable-user --user 0 com.android.updater   ,
+原因：小米在 PackageManagerServiceImpl 里加了 shouldRestrictEnabledSettingsChange 检查——shell（uid 2000）一律禁止停用系统包。这是 HyperOS 特有的拦截（原生 Android     
 无此限制），Brevent issue #902 有源码级分析。旧绕法“伪造维修模式"（settings put global maintenance_mode_user_id 110 再 disable）在 HyperOS 1 有效，HyperOS 2           
 已失效（2025 年起多个来源实测确认）。                                                                                                                                  
 结论：无 root 前提下，冻结系统应用只剩 uninstall -k --user 0 这一条路——也就是你之前验证过的方案。Thor、hyperosunfcker 等冻结工具在 HyperOS
