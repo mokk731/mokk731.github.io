@@ -51,7 +51,7 @@
 185.199.111.133    avatars8.githubusercontent.com
 
 # debian omv
-151.101.90.132     httpredir.debian.org
+146.75.122.132     httpredir.debian.org
 
 
 # 2345  Ad
