@@ -537,15 +537,21 @@ https://juejin.cn/post/7704608111827681315
 AI 反编译国产安卓系统组件：你的国产安卓，早就被装了监控！ 
 能不能给人留点隐私 v2ex
 
+https://www.cheshirex.com/11613.html
+小米手机无root通过ADB卸载SystemHelper程序
+
 
 com.mobiletools.systemhelper        #System helper  系统间谍应用
 com.miui.guardprovider              #反诈
 
 
 可在 hosts 中屏蔽：
-127.0.0.1 dm.wo.com.cn
+
 127.0.0.1 fraud-detection.engine.miui.com
+127.0.0.1 detection-aigc.engine.miui.com
 127.0.0.1 flash.sec.miui.com
+127.0.0.1 dm.wo.com.cn
+127.0.0.1 tracking.miui.com
 
 
 
