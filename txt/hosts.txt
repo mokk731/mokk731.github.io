@@ -8,9 +8,9 @@
 # myhosts
 # nslookup raw.githubusercontent.com 119.29.29.29
 # nslookup github.com 119.29.29.29
-# nslookup -qt=A github.com 1.1.1.1                          A 地址记录(Ipv4)            ***
-# nslookup -qt=A httpredir.debian.org 1.1.1.1                                           ***
-# nslookup -qt=A raw.githubusercontent.com 1.1.1.1                                      ***
+# nslookup -qt=A github.com 8.8.8.8                          A 地址记录(Ipv4)            ***
+# nslookup -qt=A httpredir.debian.org 8.8.8.8                                           ***
+# nslookup -qt=A raw.githubusercontent.com 8.8.8.8                                      ***
 #                 ip             time
 #     ping 185.199.110.133       221  ms    
 #     ping 185.199.111.133       213           
