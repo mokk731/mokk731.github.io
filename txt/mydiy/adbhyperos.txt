@@ -29,7 +29,7 @@ ps: 如果是win10的话，打完adb记得再按一下tab键，就会自动提�
 adb shell pm disable --user 0 应用包名
 
 
-操作建议：先 adb shell pm list packages | grep -i 关键词 确认包在你机器上存在（不同机型/国行国际版有差异）；每次删 5–10                  
+操作建议：先 “adb shell pm list packages | grep 关键词 ” 确认包在你机器上存在（不同机型/国行国际版有差异）；每次删 5–10                  
  个用一两天再继续；删错了用 adb shell cmd package install-existing --user 0 <包名> 恢复；系统大版本更新后会全部回来。
 
 是 HyperOS 2 的硬限制，disable-user 这条路在你的机器上走不通。  pm disable-user --user 0 com.android.updater   ,
@@ -530,6 +530,24 @@ https://github.com/rddmwmddr/android-ad-cleaner/releases
 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。
 介绍页：https://rddmwmddr.github.io/android-ad-cleaner/
+
+----------------------------------------------------------------------------------------------
+
+https://juejin.cn/post/7704608111827681315
+AI 反编译国产安卓系统组件：你的国产安卓，早就被装了监控！ 
+
+可在 hosts 中屏蔽：
+127.0.0.1 dm.wo.com.cn
+127.0.0.1 fraud-detection.engine.miui.com
+127.0.0.1 flash.sec.miui.com
+
+
+
+
+
+
+
+
 
 
 
