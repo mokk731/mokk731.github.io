@@ -545,6 +545,10 @@ com.mobiletools.systemhelper        #System helper  系统间谍应用
 com.miui.guardprovider              #反诈
 
 
+小米反诈服务器   （fraud-detection.engine.miui.com 、 flash.sec.miui.com）
+联通设备管理平台 （dm.wo.com.cn:18080）
+
+
 可在 hosts 中屏蔽：
 
 127.0.0.1 fraud-detection.engine.miui.com
