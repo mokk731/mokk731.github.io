@@ -535,7 +535,10 @@ https://github.com/rddmwmddr/android-ad-cleaner/releases
 
 https://juejin.cn/post/7704608111827681315
 AI 反编译国产安卓系统组件：你的国产安卓，早就被装了监控！ 
-com.mobiletools.systemhelper        System helper  系统间谍应用
+能不能给人留点隐私 v2ex
+
+
+com.mobiletools.systemhelper        #System helper  系统间谍应用
 com.miui.guardprovider              #反诈
 
 
