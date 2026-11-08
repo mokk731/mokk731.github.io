@@ -600,6 +600,7 @@ z-ai/glm-5.2             比较正常 api有时忙
 1，你是谁？大模型？服务商？  
 
 2，获取股票证券数据源：  通过 东方财富网 或 新浪财经 或 雅虎财经 或 腾讯证券  或 akshare 或 yfinance .  并写入 skill 。
+   pip,uv,akshare,yfinance 是否成功安装？
 
 3, 查看 长期记忆
    查看 定时任务
