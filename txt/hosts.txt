@@ -101,11 +101,11 @@
 127.0.0.1    shanhutech.cn
 
 # miui Ad
-127.0.0.1 fraud-detection.engine.miui.com
-127.0.0.1 detection-aigc.engine.miui.com
-127.0.0.1 flash.sec.miui.com
-127.0.0.1 dm.wo.com.cn
-127.0.0.1 tracking.miui.com
+127.0.0.1    fraud-detection.engine.miui.com
+127.0.0.1    detection-aigc.engine.miui.com
+127.0.0.1    flash.sec.miui.com
+127.0.0.1    dm.wo.com.cn
+127.0.0.1    tracking.miui.com
 
 
 # gzads TV
