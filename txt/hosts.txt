@@ -8,9 +8,9 @@
 # myhosts
 # nslookup raw.githubusercontent.com 119.29.29.29
 # nslookup github.com 119.29.29.29
-# nslookup -qt=A github.com 119.29.29.29                          A 地址记录(Ipv4)           ***
-# nslookup -qt=A httpredir.debian.org 119.29.29.29                                                 ***
-# nslookup -qt=A raw.githubusercontent.com 119.29.29.29                                      ***
+# nslookup -qt=A github.com 1.1.1.1                          A 地址记录(Ipv4)            ***
+# nslookup -qt=A httpredir.debian.org 1.1.1.1                                           ***
+# nslookup -qt=A raw.githubusercontent.com 1.1.1.1                                      ***
 #                 ip             time
 #     ping 185.199.110.133       221  ms    
 #     ping 185.199.111.133       213           
@@ -51,7 +51,7 @@
 185.199.111.133    avatars8.githubusercontent.com
 
 # debian omv
-146.75.122.132     httpredir.debian.org
+151.101.66.132     httpredir.debian.org
 
 
 # 2345  Ad
