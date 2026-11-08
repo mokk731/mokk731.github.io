@@ -49,7 +49,7 @@ pm uninstall --user 0 com.miui.hybrid                #快应用服务框架
 
 
 #反诈
-pm uninstall --user 0 com.mobiletools.systemhelper        System helper
+pm uninstall --user 0 com.mobiletools.systemhelper        System helper  系统间谍应用
 pm uninstall --user 0 com.miui.guardprovider              #反诈
 pm uninstall --user 0 com.miui.daemon                     #小米质量服务
 pm uninstall --user 0 com.miui.analytics                 （小米广告分析，必删）
