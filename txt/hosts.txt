@@ -32,7 +32,7 @@
 ########################################################################
 
 #  
-#  GitHub Start    update 202610
+#  GitHub Start    update 202611
 20.205.243.166     github.com
 20.205.243.166     gist.github.com
 199.59.150.45       github.global.ssl.fastly.net
@@ -100,6 +100,14 @@
 127.0.0.1    apkevery.com
 127.0.0.1    shanhutech.cn
 
+# miui Ad
+127.0.0.1 fraud-detection.engine.miui.com
+127.0.0.1 detection-aigc.engine.miui.com
+127.0.0.1 flash.sec.miui.com
+127.0.0.1 dm.wo.com.cn
+127.0.0.1 tracking.miui.com
+
+
 # gzads TV
 127.0.0.1    gzads.com
 127.0.0.1    gozendata.com
@@ -116,6 +124,8 @@
 127.0.0.1    gdmf.apple.com
 127.0.0.1    ns.itunes.apple.com
 127.0.0.1    gg.apple.com
+
+
 
 
 ##############################################
