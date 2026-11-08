@@ -6,12 +6,9 @@
 
 
 可以公网使用的免费xiaoya：            ##############
-Last update 2026/07
+Last update 2026/11
 
-
-http://lxb8888.sh.cn:5678               ####
-http://shadowext.cn:5678
-http://www.zhanghanhome.cn:5678
+http://182.46.40.11:5678/
 
 
 
