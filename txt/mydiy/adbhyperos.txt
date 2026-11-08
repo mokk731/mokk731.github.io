@@ -46,7 +46,7 @@ pm uninstall --user 0 com.mobiletools.systemhelper        System helper
 pm uninstall --user 0 com.miui.guardprovider              #反诈
 pm uninstall --user 0 com.miui.daemon                     #小米质量服务
 pm uninstall --user 0 com.miui.analytics                 （小米广告分析，必删）
-pm disable-user --user 0 com.android.updater              #小米系统更新
+pm disable-user --user 0 com.android.updater              #小米系统更新   用空电量后可能无法开机卡米
 
 
 ---------------------------------------------------------------------------------------------------
