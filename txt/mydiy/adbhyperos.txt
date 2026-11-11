@@ -560,6 +560,20 @@ com.miui.guardprovider              #反诈
 
 
 
+https://www.youtube.com/watch?v=CE6zzXmWcx8
+规范写着不能被手机管家发现，中国移动的组件就藏在国行手机里｜第147期
+
+https://www.youtube.com/watch?v=lEM27JaD8oE
+换了华为、OPPO也一样？四家手机都有反诈接口，最长看72小时 #反诈 #华为 #OPPO
+
+https://www.youtube.com/watch?v=56m4UchiPOQ
+我查了自己的小米手机：拿到后一张卡都没插，联通组件76天天天往外发数据 #小米 #手机隐私 #澎湃OS
+
+https://www.youtube.com/watch?v=v8uP0zrXo6c
+不插联通卡也照样上报？OPPO、vivo、国行三星都有这个联通组件 #SystemHelper #反诈 #安卓
+
+
+
 
 
 
