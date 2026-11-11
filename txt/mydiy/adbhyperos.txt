@@ -49,15 +49,16 @@ pm uninstall --user 0 com.miui.hybrid                #快应用服务框架
 
 
 #反诈
-pm uninstall --user 0 com.mobiletools.systemhelper        System helper  系统间谍应用
+pm uninstall --user 0 com.mobiletools.systemhelper        System helper  联通系统间谍应用
 pm uninstall --user 0 com.miui.guardprovider              #反诈
 pm uninstall --user 0 com.miui.daemon                     #小米质量服务
 pm uninstall --user 0 com.miui.analytics                 （小米广告分析，必删）
 pm uninstall -k --user 0 com.android.updater              #小米系统更新,用空电量后可能有概率无法开机卡米,恢复：adb shell cmd package install-existing com.android.updater
 pm disable-user --user 0 com.android.updater
 
-pm disable-user --user 0 com.miui.dmregservice           中国移动的组件
-pm uninstall -k --user 0 com.miui.dmregservice 
+pm uninstall -k --user 0 com.miui.dmregservice           中国移动的组件
+pm disable-user --user 0 com.miui.dmregservice           
+
 
 
 ---------------------------------------------------------------------------------------------------
