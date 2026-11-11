@@ -57,6 +57,8 @@ pm uninstall -k --user 0 com.android.updater              #小米系统更新,�
 pm disable-user --user 0 com.android.updater
 
 pm disable-user --user 0 com.miui.dmregservice           中国移动的组件
+pm uninstall -k --user 0 com.miui.dmregservice 
+
 
 ---------------------------------------------------------------------------------------------------
 
@@ -562,7 +564,10 @@ com.miui.guardprovider              #反诈
 com.miui.dmregservice    中国移动的组件
 pm disable-user --user 0 com.miui.dmregservice
 
-
+中国移动的 DM（Device Management）终端管理组件，名字就是 DM RegService，用 Richinfo（移动入库要求的 DM SDK）实现。国行小米预装的三个运营商上报组件之一：                                                                                                                                                                          
+    • 移动：com.miui.dmregservice（本包）                                                                                                                                 
+    • 联通：com.mobiletools.systemhelper                                                                                                                                  
+    • 电信：com.xiaomi.registration
 
 
 
