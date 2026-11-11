@@ -56,6 +56,7 @@ pm uninstall --user 0 com.miui.analytics                 （小米广告分析�
 pm uninstall -k --user 0 com.android.updater              #小米系统更新,用空电量后可能有概率无法开机卡米,恢复：adb shell cmd package install-existing com.android.updater
 pm disable-user --user 0 com.android.updater
 
+pm disable-user --user 0 com.miui.dmregservice           中国移动的组件
 
 ---------------------------------------------------------------------------------------------------
 
