@@ -559,6 +559,17 @@ com.miui.guardprovider              #反诈
 127.0.0.1 tracking.miui.com
 
 
+com.miui.dmregservice    中国移动的组件
+pm disable-user --user 0 com.miui.dmregservice
+
+
+
+
+
+
+
+
+
 
 https://www.youtube.com/watch?v=CE6zzXmWcx8
 规范写着不能被手机管家发现，中国移动的组件就藏在国行手机里｜第147期
