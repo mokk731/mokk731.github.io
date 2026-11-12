@@ -577,7 +577,10 @@ pm disable-user --user 0 com.miui.dmregservice
 
 
 https://www.youtube.com/watch?v=CE6zzXmWcx8
-规范写着不能被手机管家发现，中国移动的组件就藏在国行手机里｜第147期
+规范写着不能被手机管家发现，中国移动的组件就藏在国行手机里｜第147期 #中国移动 #RegService #手机隐私
+中国移动的"终端管理"客户端：小米叫 RegService（com.miui.dmregservice）
+停用：adb shell pm disable-user --user 0 加包名；恢复用 adb shell pm enable 加包名。不会用电脑看第 133 期。
+不想动系统：私人 DNS 用可以自定义屏蔽的服务，屏蔽 fxltsbl.com
 
 https://www.youtube.com/watch?v=lEM27JaD8oE
 换了华为、OPPO也一样？四家手机都有反诈接口，最长看72小时 #反诈 #华为 #OPPO
@@ -586,7 +589,10 @@ https://www.youtube.com/watch?v=56m4UchiPOQ
 我查了自己的小米手机：拿到后一张卡都没插，联通组件76天天天往外发数据 #小米 #手机隐私 #澎湃OS
 
 https://www.youtube.com/watch?v=v8uP0zrXo6c
-不插联通卡也照样上报？OPPO、vivo、国行三星都有这个联通组件 #SystemHelper #反诈 #安卓
+不插联通卡也照样上报？OPPO、vivo、国行三星都有这个联通组件｜第131期 #SystemHelper #反诈 #安卓
+开源精简工具的做法是 adb shell pm uninstall -k --user 0 com.mobiletools.systemhelper（只对当前用户，恢复出厂会回来，装回用 adb shell cmd package install-existing com.mobiletools.systemhelper；
+精简工具说明写着它和双卡功能有关）；网友提的 hosts 办法是把 dm.wo.com.cn 写死成别的地址，
+
 
 https://www.youtube.com/watch?v=b4pqHa8ooZ0
 国行手机偷偷发短信到10659401，收件箱发件箱都看不到｜第149期 #中国电信 #10659401 #手机隐私
@@ -594,7 +600,7 @@ https://www.youtube.com/watch?v=b4pqHa8ooZ0
 OPPO、一加、真我叫 com.oppo.ctautoregist。
 用电信卡的不建议停用：电信短信中心要求先完成这个注册才通过高清通话网络下发短信，停了可能收不到短信，高清通话和 5G 也可能受影响。
 不用电信卡的：更正一下视频里的停用命令，小米手机执行 pm disable-user 会报 Cannot disable system packages（第 153 期红米 13C 实测），要用 adb shell pm uninstall -k --user 0 com.xiaomi.registration，
-装回用 adb shell cmd package install-existing com.xiaomi.registration。
+装回用 adb shell cmd package install-existing com.xiaomi.registration。私人 DNS 屏蔽 zzhc.vnet.cn、typdm.tydevice.com（挡不住短信那条，短信是插电信卡时才发）
 
 
 
