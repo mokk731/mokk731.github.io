@@ -605,6 +605,25 @@ OPPO、一加、真我叫 com.oppo.ctautoregist。
 
 
 
+---------------------
+
+# 先确认当前用户是 0                                                                                                                                                
+      adb shell am get-current-user           
+# 卸载（建议带 -k 保留数据，恢复更完整）                       
+      adb shell pm uninstall -k --user 0 com.mobiletools.systemhelper
+      adb shell pm uninstall -k --user 0 com.miui.dmregservice                                                                                                            
+      adb shell pm uninstall -k --user 0 com.xiaomi.registration                                                                                                          
+# 验证（三条都不应再有输出）                                                                                                                                        
+      adb shell pm list packages | grep -E "systemhelper|dmregservice|xiaomi.registration"  
+社区实测：小米 14 Pro（澎湃OS3/安卓16）Success、红米 K80（HyperOS3.x）卸载后重启无异常；知乎/博客结论一致——澎湃OS 3 及以下标准命令直接可行，你的 HyperOS 2
+    没问题。更新到 HyperOS4/安卓17 的机型标准命令才被拒（需要调 IPackageManager 接口的进阶方案，你用不上）。
+
+---------------------
+
+
+
+
+
 
 
 
