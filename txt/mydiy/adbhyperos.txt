@@ -589,7 +589,13 @@ https://www.youtube.com/watch?v=56m4UchiPOQ
 https://www.youtube.com/watch?v=v8uP0zrXo6c
 不插联通卡也照样上报？OPPO、vivo、国行三星都有这个联通组件 #SystemHelper #反诈 #安卓
 
-
+https://www.youtube.com/watch?v=b4pqHa8ooZ0
+国行手机偷偷发短信到10659401，收件箱发件箱都看不到｜第149期 #中国电信 #10659401 #手机隐私
+运营商组件第三期：联通的 SystemHelper、移动的 RegService 讲过了，这期是中国电信的"自注册"组件。小米叫 AutoRegistration（com.xiaomi.registration，系统里显示"运营商服务"），
+OPPO、一加、真我叫 com.oppo.ctautoregist。
+用电信卡的不建议停用：电信短信中心要求先完成这个注册才通过高清通话网络下发短信，停了可能收不到短信，高清通话和 5G 也可能受影响。
+不用电信卡的：更正一下视频里的停用命令，小米手机执行 pm disable-user 会报 Cannot disable system packages（第 153 期红米 13C 实测），要用 adb shell pm uninstall -k --user 0 com.xiaomi.registration，
+装回用 adb shell cmd package install-existing com.xiaomi.registration。
 
 
 
