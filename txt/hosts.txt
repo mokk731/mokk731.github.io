@@ -107,9 +107,10 @@
 127.0.0.1  tracking.miui.com
 
 127.0.0.1  dm.wo.com.cn
-127.0.0.1  fxltsbl.com
 127.0.0.1  zzhc.vnet.cn
 127.0.0.1  typdm.tydevice.com
+127.0.0.1  a.fxltsbl.com
+127.0.0.1  b.fxltsbl.com
 
 
 # gzads TV
