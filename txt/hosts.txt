@@ -111,6 +111,8 @@
 127.0.0.1  typdm.tydevice.com
 127.0.0.1  a.fxltsbl.com
 127.0.0.1  b.fxltsbl.com
+127.0.0.1  auc.fxltsbl.com
+127.0.0.1  m.fxltsbl.com
 
 
 # gzads TV
