@@ -609,7 +609,8 @@ OPPO、一加、真我叫 com.oppo.ctautoregist。
 
 https://www.youtube.com/watch?v=EOo48jjqgzI
 装进手机还不给删？三家运营商上报组件，三条命令清干净｜第153期 #小米 #手机隐私 #运营商
-
+安装包里的地址：联通 dm.wo.com.cn；移动 a/b/auc/m.fxltsbl.com；电信 zzhc.vnet.cn、typdm.tydevice.com，另外还会发短信。
+所以两个办法：方法一电脑卸载（彻底）；方法二私人 DNS 填 NextDNS（不用电脑，只拦网络，组件还在）。
 
 
 
