@@ -1,4 +1,4 @@
-## 光猫宽带运营商
+M## 光猫宽带运营商
 
 南电信，北联通，移动大内网。
 
@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=tKWoaLXnqMQ
 
     LOID、注册码或Password
 
-    原光猫的SN及相关身份信息
+    原光猫的SN及相关身份信息MAC
 
     上网业务使用的VLAN
 
