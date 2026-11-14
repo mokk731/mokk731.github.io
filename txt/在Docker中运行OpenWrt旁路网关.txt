@@ -153,16 +153,34 @@ vim nano /etc/config/network     ******
 
 我们需要更改 Lan 口设置：
 
+-----------
+config interface 'loopback'
+        option ifname 'lo'
+        option proto 'static'
+        option ipaddr '127.0.0.1'
+        option netmask '255.0.0.0'
+
+config globals 'globals'
+
 config interface 'lan'
         option type 'bridge'
         option ifname 'eth0'
         option proto 'static'
-        option ipaddr '192.168.123.100'
         option netmask '255.255.255.0'
         option ip6assign '60'
-        option gateway '192.168.123.1'
-        option broadcast '192.168.123.255'
-        option dns '192.168.123.1'
+        option ipaddr '192.168.11.12'
+        option gateway '192.168.11.1'
+        option dns '192.168.11.1'
+
+config interface 'vpn0'
+        option ifname 'tun0'
+        option proto 'none'
+
+---------------
+
+
+
+
 
 其中：
 
