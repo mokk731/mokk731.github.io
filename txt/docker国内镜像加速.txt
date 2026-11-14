@@ -14,8 +14,9 @@ https://xuanyuan.me/blog/archives/1154
 https://pengtech.net/docker/docker-registry-mirrors.html
 2025 年最新国内可用 Docker 镜像加速器汇总附带监测
 
-
-
+ghcr.io国内镜像,国内可以从南京大学镜像源下载  加  ghcr.nju.edu.cn/
+docker pull ghcr.io/14790897/openwrt:rpi4
+docker pull ghcr.nju.edu.cn/14790897/openwrt:rpi4
 
 
 ------------------------------------------------------------------------
