@@ -22,13 +22,17 @@ docker pull zzsrv/openwrt:arm64
 https://github.com/14790897/OpenWrt-In-Docker
 https://hub.docker.com/r/14790897/openwrt-mini
 docker pull 14790897/openwrt-mini:rpi4           
-docker pull 14790897/openwrt:rpi4             ***
+docker pull 14790897/openwrt:rpi4                   ************
 https://github.com/14790897/OpenWrt-In-Docker/blob/main/tutorial.md
 「在 Docker 中运行 OpenWrt 旁路网关」
+国内可以从南京大学镜像源下载
+docker pull ghcr.nju.edu.cn/14790897/openwrt:<tag>
+docker pull ghcr.nju.edu.cn/14790897/openwrt-mini:<tag>
+
+
 
 
 armv8  =aarch64  =arm64
-
 
 https://hub.docker.com/r/piaoyizy/openwrt-aarch64
 openwrt ARM64版，最新源码编译，集成ssrplus+ 、passwall、openclash
