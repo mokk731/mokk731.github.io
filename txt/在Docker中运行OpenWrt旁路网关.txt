@@ -40,9 +40,12 @@ docker pull ghcr.io/14790897/openwrt-mini:<tag>
 armv8  =aarch64  =arm64
 
 https://hub.docker.com/r/piaoyizy/openwrt-aarch64
-openwrt ARM64版，最新源码编译，集成ssrplus+ 、passwall、openclash
+openwrt ARM64版，基于lean大雕最新源码编译.最新源码编译，集成ssrplus+ 、passwall、openclash
+默认IP 10.10.10.6 账号 root 密码 password
 docker pull piaoyizy/openwrt-aarch64:latest
 docker run -d --name=openwrt --restart always --privileged --network macnet --ip 10.10.10.30 piaoyizy/openwrt-aarch64:latest
+
+
 
 venlentine/OpenWrt-Docker
 - GitHub：https://github.com/venlentine/OpenWrt-Docker
