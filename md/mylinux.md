@@ -233,8 +233,8 @@ commit命令：
      
      docker save -o xxx.tar 镜像名
      
-     cd /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/Temp
-     docker load -i openwrtdata.tar    // 在另一台主机上加载镜像的tar压缩包
+     cd /srv/dev-disk-by-uuid-c7664726-d9f1-47e8-8e4c-81a873f8fa88/Temp/111     #####################
+     docker load -i openwrtdata.tar    // 在另一台主机上加载镜像的tar压缩包         #####################
 
      docker run -itd --name openwrt openwrtdata:v1   // 使用这个加载的镜像运行容器
 
