@@ -208,8 +208,8 @@ src/gz kenzok8 https://op.dllkids.xyz/packages/mipsel_24kc
 # 中兴E8820S路由器自制稳定ROM            ####
 
 material+vlan+ipv6+ turboacc +sqm +autoreboot+accesscontrol+zerotier +serverchan+vlmcsd-KMS+relay
-https://mokk7310.github.io/Rom/openwrt-zte_e8820s-2024.10.10.bin
-https://mokk7310.github.io/Rom/openwrt-zte_e8820s-luci23-2025.09.10.bin
+https://mokk7310.github.io/Rom/openwrt-zte_e8820s-luci18-2024.10.10.bin
+https://mokk7310.github.io/Rom/openwrt-zte_e8820s-luci23-2026.04.10.bin
 
 
 https://downloads.immortalwrt.org/releases/21.02.7/targets/ramips/mt7621/immortalwrt-21.02.7-ramips-mt7621-zte_e8820s-squashfs-factory.bin
