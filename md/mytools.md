@@ -9,6 +9,7 @@
 
 #### [ADB-Android调试桥](https://adbshell.com/downloads)
 
+#### [adb-platform-tools](https://mokk7310.github.io/tool/adb-platform-tools-202610.zip)
 
 
 #### [jpwb81.zip极品五笔](https://mokk731.github.io/ziprar/win-tools/jpwb81.zip)
