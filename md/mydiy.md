@@ -61,17 +61,17 @@
 #### [小米路由器R4AGv2](https://mokk731.github.io/txt/mydiy/小米路由器R4AGv2.txt)
 
 
-
 #### [小米路由器R4C](https://mokk731.github.io/txt/mydiy/小米路由器R4C.txt)
-
-
-
 
 
 #### [小米路由器MI_CR880X](https://mokk731.github.io/txt/mydiy/小米路由器MI_CR880X.txt)
 
-#### [小米路由器 WR30U](https://mokk731.github.io/txt/mydiy/小米路由器WR30U.txt)
 
+##### 目标
+
+#### [小米路由器 WR30U](https://mokk731.github.io/txt/mydiy/小米路由器WR30U.txt)
+#### [诺基亚贝尔XG-040G-MD](https://mokk731.github.io/txt/mydiy/诺基亚贝尔XG-040G-MD.txt)
+#### [小米路由器 WR30U](https://mokk731.github.io/txt/mydiy/小米路由器WR30U.txt)
 
 
 
