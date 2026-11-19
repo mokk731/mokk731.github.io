@@ -1,0 +1,34 @@
+2.5G光猫：XG-040G-MD 刷机 OpenWrt
+诺基亚贝尔XG-040G-MD
+
+
+
+https://zhuanlan.zhihu.com/p/2088016930716246122
+40元的2.5G光猫：XG-040G-MD 刷机 OpenWrt后，连软路由都省了
+
+诺基亚贝尔XG-040G-MD。
+▲ 小黄鱼二手大概 40 元左右，准新机大概 50～60 元左右，同样是AN7581方案，这台光猫体积很小，和中兴 F7015TV3 大小差不多，适合弱电箱，支持XG-PON线路。
+硬件配置
+注意贝尔xg-040g系列有三款机型：xg-040g-md移动定制量大、xg-040g-tf电信存货很少、xg-040g-mf移动定制，双核CPU AN7583，这个不推荐，别买错了。
+
+    AN7581DT+4 核NPU
+    512MB内存
+    256MB NAND闪存
+    1个2.5GbE网口
+    3个千兆网口
+    USB 2.0和USB 3.0
+    PON光口
+    XG-PON线路
+
+▲ AN7581DT 1.2GHz 频率+4 核NPU ，对比 AN7581GT砍了4 核NPU，频率低了0.1GHz，整体配置比较均衡，2000M 宽带是够用了。
+
+
+
+https://www.right.com.cn/forum/thread-8487964-1-1.html
+XG-140G-MD/TF、XG-040G-MD/TF 光猫OpenWrt固件，移植了PON上网功能
+最新固件可用于XG-040G-MD/TF、XG-140G-MD/TF这四款光猫，支持EPON/XEPON/XGSPON/XGPON/GPON协议。
+借助ai折腾了一下固件，把原厂的 PON 模块移植到了 OpenWrt 主线固件，实现了光猫路由一体机。
+
+https://www.right.com.cn/forum/thread-8474710-1-1.html
+贝尔光猫xg-040g-md主线
+
