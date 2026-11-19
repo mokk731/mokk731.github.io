@@ -4,6 +4,7 @@
 
 
 https://zhuanlan.zhihu.com/p/2088016930716246122
+https://mao.fan/article/567
 40元的2.5G光猫：XG-040G-MD 刷机 OpenWrt后，连软路由都省了
 
 诺基亚贝尔XG-040G-MD。
@@ -21,6 +22,14 @@ https://zhuanlan.zhihu.com/p/2088016930716246122
     XG-PON线路
 
 ▲ AN7581DT 1.2GHz 频率+4 核NPU ，对比 AN7581GT砍了4 核NPU，频率低了0.1GHz，整体配置比较均衡，2000M 宽带是够用了。
+
+
+XG-040G-MD刷机
+xg-040g-md有两种方式拆机 TTL 和免拆机 telnet 的方式，推荐第二种需要知道超级密码，这个移动光猫恢复出厂默认的是：
+超级用户：CMCCAdmin
+超级密码：aDm8H%MdA
+
+在超级用户的状态下访问 http://192.168.1.1/system.cgi?telnet 开启telnet功能
 
 
 
