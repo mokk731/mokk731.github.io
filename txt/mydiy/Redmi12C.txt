@@ -53,14 +53,22 @@ https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
 
 ----------------------------------
 
-adb-platform-tools
+
 miflash_unlock-6.5.406.31
+https://mokk7310.github.io/tool/zip000/miflash_unlock-6.5.406.31.zip.001
+https://mokk7310.github.io/tool/zip000/miflash_unlock-6.5.406.31.zip.002
+
 MiFlash2018-5-28-0
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.001
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.002
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.003
+
+adb-platform-tools
+https://mokk7310.github.io/tool/adb-platform-tools-202610.zip
 
 
 
 .\adb shell pm suspend --user 0 com.android.updater              #小米系统更新  miui13 成功
-
 .\adb install -d D:\temp\222\111\apk\globalFileexplorer.apk      #安装比当前版本更低版本号的应用。使用-d参数可以绕过这个限制：
 
 
