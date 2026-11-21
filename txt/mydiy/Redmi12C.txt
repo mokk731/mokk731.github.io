@@ -2,6 +2,7 @@
 ## Redmi 12C  机型代号  earth	
 
 https://mifirm.net/model/earth.ttt
+https://xiaomirom.com/series/earth
 
 
 REDMI 12C 刷机包下载（2023.1.7日更新）
@@ -46,6 +47,8 @@ MD5
 5a8a43b62aa321dd5c1e6570956ea405
 
 
+
+https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
 ----------------------------------
 
 
