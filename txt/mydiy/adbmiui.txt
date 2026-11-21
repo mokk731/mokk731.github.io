@@ -73,21 +73,21 @@ pm uninstall --user 0 com.xiaomi.pass  （小米卡包）
 
 
 
-
+#小米系统更新
 
 停用(冻结)
-adb shell pm disable-user 应用包名
+adb shell pm disable-user --user 0 应用包名
    显示disabled-user，表示成功。 
    执行后信息显示： Package com.android.updater new state: disabled-user   
-pm disable-user --user 0 com.android.updater   系统更新  miui13 不成功
+pm disable-user --user 0 com.android.updater   #小米系统更新  miui13 不成功
 
 启用(解冻)
 adb shell pm enable 应用包名 
   显示disabled-user，表示成功。
 
 深度暂停(相对安全)
-suspend 挂起并撤销其后台权限，实现类似冻结的效果。
-pm suspend --user 0 com.android.updater  
+suspend 挂起并撤销其后台权限，实现类似冻结的效果。 
+pm suspend --user 0 com.android.updater     #小米系统更新  miui13 成功
 
 
 
