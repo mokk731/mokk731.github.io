@@ -34,7 +34,7 @@ adb shell pm disable --user 0 应用包名
 
 pm uninstall --user 0 com.miui.systemAdSolution  （小米系统广告解决方案，必删）
 pm uninstall --user 0 com.miui.analytics  （小米广告分析，必删）
-
+pm uninstall --user 0 com.miui.hybrid  （混合器) 快应用服务框架
 
 ---------------------------------
 
@@ -66,12 +66,6 @@ pm uninstall --user 0 com.miui.translation.kingsoft  （金山翻译）
 
 -------------------------
 
-可留  NFC卡
-pm uninstall --user 0 com.xiaomi.payment     （小米支付）
-pm uninstall --user 0 com.mipay.wallet       （小米钱包）
-pm uninstall --user 0 com.xiaomi.pass  （小米卡包）
-
-
 
 #小米系统更新
 
@@ -80,15 +74,21 @@ adb shell pm disable-user --user 0 应用包名
    显示disabled-user，表示成功。 
    执行后信息显示： Package com.android.updater new state: disabled-user   
 pm disable-user --user 0 com.android.updater   #小米系统更新  miui13 不成功
-
 启用(解冻)
 adb shell pm enable 应用包名 
   显示disabled-user，表示成功。
 
 深度暂停(相对安全)
 suspend 挂起并撤销其后台权限，实现类似冻结的效果。 
-pm suspend --user 0 com.android.updater     #小米系统更新  miui13 成功
+pm suspend --user 0 com.android.updater       #小米系统更新  miui13 成功
 
+
+
+
+可留  NFC卡
+pm uninstall --user 0 com.xiaomi.payment     （小米支付）
+pm uninstall --user 0 com.mipay.wallet       （小米钱包）
+pm uninstall --user 0 com.xiaomi.pass  （小米卡包）
 
 
 =========================================================================================
