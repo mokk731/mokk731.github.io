@@ -1,0 +1,59 @@
+
+## Redmi 12C  机型代号  earth	
+
+https://mifirm.net/model/earth.ttt
+
+
+REDMI 12C 刷机包下载（2023.1.7日更新）
+https://web.vip.miui.com/page/info/mio/mio/detail?postId=40148484&app_version=dev.20051
+
+			
+
+
+--------------
+*******
+MIUI V13.0.6.0.SCVEUXM Stable Official Update for Redmi 12C / POCO C55 EEA (earth)
+
+
+Device: Redmi 12C / POCO C55 EEA
+Codename: earth
+Version: V13.0.6.0.SCVEUXM
+Branch: Stable
+Type: Fastboot
+Size: 5.6 GB
+Release Date: 2023-03-02
+Package Name: earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz
+MD5: 5a8a43b62aa321dd5c1e6570956ea405
+
+
+https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V13.0.6.0.SCVEUXM/earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz
+
+--------------------
+https://mifirm.net/download/9227
+Model
+earth_eea
+Model name
+Redmi 12C (EEA)
+MIUI version
+V13.0.6.0.SCVEUXM
+File name
+earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz
+Android version
+12.0
+File size
+5.2G
+MD5
+5a8a43b62aa321dd5c1e6570956ea405
+
+
+----------------------------------
+
+
+.\adb shell pm suspend --user 0 com.android.updater  
+
+
+.\adb install -d D:\temp\222\111\apk\globalFileexplorer.apk
+
+
+
+
