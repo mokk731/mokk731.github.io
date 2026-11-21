@@ -75,7 +75,7 @@ https://xdaforums.com/t/rom-12-1-aosp-on-cannon.4419895/
 
 miflash_unlock
 
-202601后 小米手机 解锁BL锁 变得异常困难，官方基本无解。
+202601后 小米手机 解锁BL锁 变得异常困难，小米高考也停了，官方基本无解。
 
 
 ## TWRP使用adb线刷ROM的方法
