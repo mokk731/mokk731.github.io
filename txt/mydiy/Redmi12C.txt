@@ -51,9 +51,9 @@ MD5
 
 
 
-
+红米 12c (earth) 欧洲版 (欧版) (EEA) MIUI13 V13.0.6.0.SCVEUXM Fastboot 线刷包，ROM 的 Android 版本是 12.0。该固件大小为 5.6 GB。
 https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
-
+https://xiaomirom.com/download/redmi-12c-poco-c55-earth-stable-V13.0.6.0.SCVEUXM/#europe-fastboot                            ######################## 
 
 
 
