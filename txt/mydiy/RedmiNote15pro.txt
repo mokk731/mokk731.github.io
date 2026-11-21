@@ -38,9 +38,32 @@ https://gofile.io/d/jdgoNhXr
 
 # 解BL锁
 
+202601后 小米手机 解锁BL锁 变得异常困难，小米高考也停了，官方基本无解。
+
+
+
+miflash_unlock-6.5.406.31
+https://mokk7310.github.io/tool/zip000/miflash_unlock-6.5.406.31.zip.001
+https://mokk7310.github.io/tool/zip000/miflash_unlock-6.5.406.31.zip.002
+
+MiFlash2018-5-28-0
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.001
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.002
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.003
+
+adb-platform-tools
+https://mokk7310.github.io/tool/adb-platform-tools-202610.zip
+
+-------------------------------
+
+# 强解BL锁
+
 使用mtkclient-gui工具解锁Mediatek芯片设备
 https://github.com/bkerler/mtkclient
 https://github.com/bkerler/mtkclient/blob/main/README-USAGE.zh-CN.md
+
+
+
 
 
 
