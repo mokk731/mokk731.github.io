@@ -9,7 +9,7 @@ REDMI 12C 刷机包下载（2023.1.7日更新）
 https://web.vip.miui.com/page/info/mio/mio/detail?postId=40148484&app_version=dev.20051
 
 			
-
+MIUI V13.0.6.0.SCVEUXM sim卡能用，如果ota升级到 MIUI V13.0.9  sim卡就不能用。不能升级。
 
 --------------
 *******
