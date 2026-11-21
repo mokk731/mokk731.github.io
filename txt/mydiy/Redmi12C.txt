@@ -49,7 +49,18 @@ MD5
 
 ----------------------------------
 
+## LineageOS
+
+https://wiki.lineageos.org/devices/earth/variant1/
 https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
+Xiaomi Redmi 12C / Redmi 12C NFC / POCO C55earth
+
+
+
+----------------------------------
+
+
+https://download.lineageos.org/devices/earth/builds
 
 ----------------------------------
 
