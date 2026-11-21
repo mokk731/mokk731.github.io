@@ -12,7 +12,7 @@ https://web.vip.miui.com/page/info/mio/mio/detail?postId=40148484&app_version=de
 MIUI V13.0.6.0.SCVEUXM sim卡能用，如果ota升级到 MIUI V13.0.9  sim卡就不能用。不能升级。
 
 --------------
-*******
+
 MIUI V13.0.6.0.SCVEUXM Stable Official Update for Redmi 12C / POCO C55 EEA (earth)
 
 
@@ -27,7 +27,7 @@ Package Name: earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_ee
 MD5: 5a8a43b62aa321dd5c1e6570956ea405
 
 
-https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V13.0.6.0.SCVEUXM/earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz
+
 
 --------------------
 https://mifirm.net/download/9227
@@ -54,7 +54,7 @@ MD5
 红米 12c (earth) 欧洲版 (欧版) (EEA) MIUI13 V13.0.6.0.SCVEUXM Fastboot 线刷包，ROM 的 Android 版本是 12.0。该固件大小为 5.6 GB。
 https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
 https://xiaomirom.com/download/redmi-12c-poco-c55-earth-stable-V13.0.6.0.SCVEUXM/#europe-fastboot                            ######################## 
-
+https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/V13.0.6.0.SCVEUXM/earth_eea_global_images_V13.0.6.0.SCVEUXM_20230302.0000.00_12.0_eea_5a8a43b62a.tgz
 
 
 ----------------------------------
