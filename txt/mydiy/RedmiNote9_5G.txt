@@ -79,6 +79,7 @@ miflash_unlock
 
 
 ## TWRP使用adb线刷ROM的方法
+
 https://mokk731.github.io/txt/mydiy/TWRP%E4%BD%BF%E7%94%A8adb%E7%BA%BF%E5%88%B7ROM%E7%9A%84%E6%96%B9%E6%B3%95.txt
 
 1，关闭设备电源，按住Volume Down+ Power。按住两个按钮，直到屏幕上出现“ FASTBOOT”字样，然后松开。
@@ -98,6 +99,20 @@ fastboot devices
 
 5，当出现Total 即刷入成功 然后拔掉数据线 操作手机按提示重启即可进入 。
 
+
+-------------------------------
+
+miflash_unlock-6.5.406.31
+https://mokk7310.github.io/tool/zip000/miflash_unlock-6.5.406.31.zip.001
+https://mokk7310.github.io/tool/zip000/miflash_unlock-6.5.406.31.zip.002
+
+MiFlash2018-5-28-0
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.001
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.002
+https://mokk7310.github.io/tool/zip000/MiFlash2018-5-28-0_2.zip.003
+
+adb-platform-tools
+https://mokk7310.github.io/tool/adb-platform-tools-202610.zip
 
 
 
