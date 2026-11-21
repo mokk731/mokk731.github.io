@@ -47,16 +47,22 @@ MD5
 5a8a43b62aa321dd5c1e6570956ea405
 
 
-
-https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
 ----------------------------------
 
+https://xiaomirom.com/rom/redmi-12c-poco-c55-earth-europe-fastboot-recovery-rom/
 
-.\adb shell pm suspend --user 0 com.android.updater  
+----------------------------------
+
+adb-platform-tools
+miflash_unlock-6.5.406.31
+MiFlash2018-5-28-0
 
 
-.\adb install -d D:\temp\222\111\apk\globalFileexplorer.apk
+
+.\adb shell pm suspend --user 0 com.android.updater              #小米系统更新  miui13 成功
+
+.\adb install -d D:\temp\222\111\apk\globalFileexplorer.apk      #安装比当前版本更低版本号的应用。使用-d参数可以绕过这个限制：
 
 
-
+----------------------------------
 
