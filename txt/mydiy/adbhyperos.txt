@@ -53,8 +53,9 @@ pm uninstall --user 0 com.mobiletools.systemhelper        System helper  中国�
 pm uninstall --user 0 com.miui.guardprovider              #反诈
 pm uninstall --user 0 com.miui.daemon                     #小米质量服务
 pm uninstall --user 0 com.miui.analytics                 （小米广告分析，必删）
-pm uninstall -k --user 0 com.android.updater              #小米系统更新,用空电量后可能有概率无法开机卡米,恢复：adb shell cmd package install-existing com.android.updater
-pm disable-user --user 0 com.android.updater              hyperos2  disable-user 用不了
+pm uninstall -k --user 0 com.android.updater              #小米系统更新,用空电量后可能有概率无法开机卡米,恢复：adb shell cmd package install-existing com.android.updater，，，hyperos2 成功
+pm disable-user --user 0 com.android.updater              hyperos2  disable-user 用不了 ，，，miui13 不成功
+pm suspend --user 0 com.android.updater                   深度暂停(相对安全)， suspend 挂起并撤销其后台权限，实现类似冻结的效果。   miui13 成功
 
 pm uninstall -k --user 0 com.miui.dmregservice           中国移动的组件         
 pm uninstall -k --user 0 com.xiaomi.registration         中国电信的"自注册"组件
