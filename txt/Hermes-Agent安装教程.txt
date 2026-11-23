@@ -550,7 +550,8 @@ build.nvidia.com
 base_url="https://integrate.api.nvidia.com/v1",
 api_key="你的_nvapi_key"
 "model": "minimaxai/minimax-m2.7",                  over
-"model": "minimaxai/minimax-m3",                    逻辑怪怪的，任务难完成 , api很忙
+          "minimaxai/minimax-m3",                  逻辑怪怪的，任务难完成 , api很忙
+          minimaxai/minimax-m3.1-flash
 
 "model": "deepseek-ai/deepseek-v4.1-flash",            *****  api有时忙   5 t/s
 
