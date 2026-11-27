@@ -10,19 +10,22 @@ docker pull openlistteam/openlist:v4.2.2
 ------------------------------------------------------
 
 # docker-compose.yml
+
+
 services:
   openlist:
-    image: 'openlistteam/openlist:v4.2.2'
+    image: openlistteam/openlist:v4.2.9
     container_name: openlist
-    user: '0:0' # Please replace `0:0` with the actual user ID and group ID you want to use to run OpenList.
+    user: 1000:1000     # Please replace `0:0` with the actual user ID and group ID you want to use to run OpenList.
     volumes:
-      - './data:/opt/openlist/data'
+      - /srv/config/openlist:/opt/openlist/data
     ports:
-      - '5244:5244'
+      - 5244:5244
     environment:
       - UMASK=022
     restart: unless-stopped
 
+# sudo chown -R 1000:1000 /srv/config/alist
 ------------------------------------------------------
 
 首次运行
@@ -37,11 +40,11 @@ docker exec -it openlist ./openlist admin random
 
 ##添加存储 
 
-  SMB           /Mov        0     本机代理     ./Mov      192.168.10.20:445         guest     media
+  SMB           /Mov        0     本机代理     ./Mov      192.168.11.20:445         guest     media
   AList V3     /小雅电影     0     本地代理      /         http://alist.xiaoya.pro
 
 
 20260620
-总结: openlist  SMB 正常使用。 但 AList V3 挂 小雅电影 不正常。。还比不上 xhofe/alist:v3.40.0
+总结: openlist  SMB 正常使用。  AList V3 挂 小雅电影 正常。。可以比 xhofe/alist:v3.40.0
 openlist 还要等等功能完善。
 
