@@ -44,7 +44,7 @@ docker exec -it openlist ./openlist admin random
   AList V3     /小雅电影     0     本地代理      /         http://alist.xiaoya.pro
 
 
-20260620
+202610
 总结: openlist  SMB 正常使用。  AList V3 挂 小雅电影 正常。。可以比 xhofe/alist:v3.40.0
 
 
